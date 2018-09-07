@@ -1,44 +1,39 @@
-import com.johnsnowlabs.nlp.ContentProvider
+import com.johnsnowlabs.nlp.annotator.SentenceDetector
 import com.johnsnowlabs.nlp.base.{DocumentAssembler, LightPipeline, RecursivePipeline}
 import com.johnsnowlabs.nlp.util.io.ResourceHelper
 import com.johnsnowlabs.util.Benchmark
-import org.scalatest._
 
-class PragmaticDetectionPerfTest extends FlatSpec {
+class PragmaticDetectionPerfTest extends App {
 
-  "sentence detection" should "be fast" in {
+  val spark = ResourceHelper.spark
+  import spark.implicits._
 
-    ResourceHelper.spark
-    import ResourceHelper.spark.implicits._
+  val documentAssembler = new DocumentAssembler().
+    setInputCol("text").
+    setOutputCol("document")
 
-    val documentAssembler = new DocumentAssembler().
-      setInputCol("text").
-      setOutputCol("document")
+  val sentenceDetector = new SentenceDetector()
+    .setInputCols("document")
+    .setOutputCol("sentence")
+    .setUseAbbreviations(true)
 
-    val sentenceDetector = new SentenceDetector()
-      .setInputCols("document")
-      .setOutputCol("sentence")
-      .setUseAbbreviations(true)
+  val recursivePipeline = new RecursivePipeline().
+    setStages(Array(
+      documentAssembler,
+      sentenceDetector
+    ))
 
-    val recursivePipeline = new RecursivePipeline().
-      setStages(Array(
-        documentAssembler,
-        sentenceDetector
-      ))
+  val nermodel = recursivePipeline.fit(Seq.empty[String].toDF("text"))
+  val nerlpmodel = new LightPipeline(nermodel)
 
-    val nermodel = recursivePipeline.fit(Seq.empty[String].toDF("text"))
-    val nerlpmodel = new LightPipeline(nermodel)
+  val data = spark.read.parquet("data/sentiment.parquet")
+  val n = 50000
 
-    val data = ContentProvider.parquetData
-    val n = 50000
+  val subdata = data.select("text").as[String].take(n)
 
-    val subdata = data.select("text").as[String].take(n)
+  Benchmark.measure(s"annotate $n sentences") {nerlpmodel.annotate(subdata)}
 
-    Benchmark.measure(s"annotate $n sentences") {nerlpmodel.annotate(subdata)}
-
-    val r = nerlpmodel.annotate("Hello Ms. Laura Goldman, you are always welcome here")
-    println(r("sentence").mkString("##"))
-
-  }
+  val r = nerlpmodel.annotate("Hello Ms. Laura Goldman, you are always welcome here")
+  println(r("sentence").mkString("##"))
 
 }

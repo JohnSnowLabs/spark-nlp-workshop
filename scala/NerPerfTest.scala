@@ -1,226 +1,241 @@
 import com.johnsnowlabs.nlp.annotator._
-import com.johnsnowlabs.nlp.annotators.ner.crf.NerCrfApproach
+import com.johnsnowlabs.nlp.annotators.ner.NerConverter
 import com.johnsnowlabs.nlp.base._
 import com.johnsnowlabs.nlp.embeddings.WordEmbeddingsFormat
 import com.johnsnowlabs.nlp.util.io.ResourceHelper
 import com.johnsnowlabs.util.Benchmark
-import org.scalatest._
 
-class NerPerfTest extends FlatSpec {
+object NerCrfTraining extends App {
 
-  "NerCRF Approach" should "be fast to train" ignore {
+  import ResourceHelper.spark.implicits._
 
-    ResourceHelper.spark
-    import ResourceHelper.spark.implicits._
+  val documentAssembler = new DocumentAssembler().
+    setInputCol("text").
+    setOutputCol("document")
 
-    val documentAssembler = new DocumentAssembler().
-      setInputCol("text").
-      setOutputCol("document")
+  val tokenizer = new Tokenizer().
+    setInputCols(Array("document")).
+    setOutputCol("token")
 
-    val tokenizer = new Tokenizer().
-      setInputCols(Array("document")).
-      setOutputCol("token")
+  val pos = PerceptronModel.pretrained().
+    setInputCols("document", "token").
+    setOutputCol("pos")
 
-    val pos = PerceptronModel.pretrained().
-      setInputCols("document", "token").
-      setOutputCol("pos")
+  val ner = new NerCrfApproach().
+    setInputCols("document", "token", "pos").
+    setOutputCol("ner").
+    setLabelColumn("label").
+    setOutputCol("ner").
+    setMinEpochs(1).
+    setMaxEpochs(5).
+    setEmbeddingsSource("data/embeddings/glove.6B.100d.txt", 100, WordEmbeddingsFormat.TEXT).
+    setExternalFeatures("data/ner/dict.txt", ",").
+    setExternalDataset("data/ner/eng.train", "SPARK_DATASET").
+    setC0(1250000).
+    setRandomSeed(0).
+    setVerbose(2)
 
-    val ner = new NerCrfApproach().
-      setInputCols("document", "token", "pos").
-      setOutputCol("ner").
-      setLabelColumn("label").
-      setOutputCol("ner").
-      setMinEpochs(1).
-      setMaxEpochs(5).
-      setEmbeddingsSource("./glove.6B.100d.txt", 100, WordEmbeddingsFormat.TEXT).
-      //setExternalFeatures("/src/test/resources/ner-corpus/dict.txt", ",").
-      setExternalDataset("./eng_small.train", "SPARK_DATASET").
-      setC0(1250000).
-      setRandomSeed(0).
-      setVerbose(2)
+  val finisher = new Finisher().
+    setInputCols("ner")
 
-    val finisher = new Finisher().
-      setInputCols("ner")
+  val recursivePipeline = new RecursivePipeline().
+    setStages(Array(
+      documentAssembler,
+      tokenizer,
+      pos,
+      ner,
+      finisher
+    ))
 
-    val recursivePipeline = new RecursivePipeline().
-      setStages(Array(
-        documentAssembler,
-        tokenizer,
-        pos,
-        ner,
-        finisher
-      ))
+  val nermodel = recursivePipeline.fit(Seq.empty[String].toDF("text"))
+  val nerlpmodel = new LightPipeline(nermodel)
 
-    val nermodel = recursivePipeline.fit(Seq.empty[String].toDF("text"))
-    val nerlpmodel = new LightPipeline(nermodel)
-
-    val res = Benchmark.time("Light annotate NerCRF") {nerlpmodel.annotate("Peter is a very good person from Germany, he is working at IBM.")}
-
-    println(res.mapValues(_.mkString(", ")).mkString(", "))
-
+  val res = Benchmark.time("Light annotate NerCRF") {
+    nerlpmodel.annotate("Peter is a very good person from Germany, he is working at IBM.")
   }
 
-  "NerDL Approach" should "be fast to train" ignore {
+  println(res.mapValues(_.mkString(", ")).mkString(", "))
 
-    ResourceHelper.spark
-    import ResourceHelper.spark.implicits._
+}
 
-    val documentAssembler = new DocumentAssembler().
-      setInputCol("text").
-      setOutputCol("document")
+object NerDLTraining extends App {
 
-    val tokenizer = new Tokenizer().
-      setInputCols(Array("document")).
-      setOutputCol("token")
+  ResourceHelper.spark
 
-    val ner = new NerDLApproach().
-      setInputCols("document", "token").
-      setOutputCol("ner").
-      setLabelColumn("label").
-      setOutputCol("ner").
-      setMinEpochs(1).
-      setMaxEpochs(30).
-      setEmbeddingsSource("./embeddings.bin", 200, WordEmbeddingsFormat.BINARY).
-      setExternalDataset("./eng_big.train", "SPARK_DATASET").
-      setRandomSeed(0).
-      setVerbose(2).
-      setDropout(0.8f).
-      setBatchSize(18)
+  import ResourceHelper.spark.implicits._
 
-    val finisher = new Finisher().
-      setInputCols("ner")
+  val documentAssembler = new DocumentAssembler().
+    setInputCol("text").
+    setOutputCol("document")
 
-    val recursivePipeline = new RecursivePipeline().
-      setStages(Array(
-        documentAssembler,
-        tokenizer,
-        ner,
-        finisher
-      ))
+  val tokenizer = new Tokenizer().
+    setInputCols(Array("document")).
+    setOutputCol("token")
 
-    val nermodel = recursivePipeline.fit(Seq.empty[String].toDF("text"))
-    val nerlpmodel = new LightPipeline(nermodel)
+  val ner = new NerDLApproach().
+    setInputCols("document", "token").
+    setOutputCol("ner").
+    setLabelColumn("label").
+    setOutputCol("ner").
+    setMinEpochs(1).
+    setMaxEpochs(30).
+    setEmbeddingsSource("data/embeddings/glove.6B.100d.txt", 200, WordEmbeddingsFormat.TEXT).
+    setExternalDataset("data/ner/eng.train", "SPARK_DATASET").
+    setRandomSeed(0).
+    setVerbose(2).
+    setDropout(0.8f).
+    setBatchSize(18)
 
-    val res = Benchmark.time("Light annotate NerDL") {nerlpmodel.annotate("Peter is a very good person from Germany, he is working at IBM.")}
+  val finisher = new Finisher().
+    setInputCols("ner")
 
-    println(res.mapValues(_.mkString(", ")).mkString(", "))
+  val recursivePipeline = new RecursivePipeline().
+    setStages(Array(
+      documentAssembler,
+      tokenizer,
+      ner,
+      finisher
+    ))
 
-    nermodel.stages(2).asInstanceOf[NerDLModel].write.overwrite().save("./models/nerdl-deid-30")
+  val nermodel = recursivePipeline.fit(Seq.empty[String].toDF("text"))
+  val nerlpmodel = new LightPipeline(nermodel)
 
+  val res = Benchmark.time("Light annotate NerDL") {
+    nerlpmodel.annotate("Peter is a very good person from Germany, he is working at IBM.")
   }
 
-  "NerDL Model" should "label correctly" ignore {
+  println(res.mapValues(_.mkString(", ")).mkString(", "))
 
-    ResourceHelper.spark
-    import ResourceHelper.spark.implicits._
+  nermodel.stages(2).asInstanceOf[NerDLModel].write.overwrite().save("./models/nerdl-deid-30")
 
-    val documentAssembler = new DocumentAssembler().
-      setInputCol("text").
-      setOutputCol("document")
+}
 
-    val sentenceDetector = new SentenceDetector()
-      .setInputCols("document")
-      .setOutputCol("sentence")
-      .setUseAbbreviations(false)
+object NerDLPretrained extends App {
 
-    val tokenizer = new Tokenizer().
-      setInputCols(Array("sentence")).
-      setOutputCol("token")
+  ResourceHelper.spark
 
-    val ner = NerDLModel.pretrained().//.load("./models/nerdl-deid-30").//.pretrained().
-      setInputCols("sentence", "token").
-      setOutputCol("ner")
+  import ResourceHelper.spark.implicits._
 
-    val converter = new NerConverter()
-      .setInputCols("sentence", "token", "ner")
-      .setOutputCol("nerconverter")
+  val documentAssembler = new DocumentAssembler().
+    setInputCol("text").
+    setOutputCol("document")
 
-    val finisher = new Finisher().
-      setInputCols("token", "sentence", "nerconverter", "ner")
+  val sentenceDetector = new SentenceDetector()
+    .setInputCols("document")
+    .setOutputCol("sentence")
+    .setUseAbbreviations(false)
 
-    val recursivePipeline = new RecursivePipeline().
-      setStages(Array(
-        documentAssembler,
-        sentenceDetector,
-        tokenizer,
-        ner,
-        converter,
-        finisher
-      ))
+  val tokenizer = new Tokenizer().
+    setInputCols(Array("sentence")).
+    setOutputCol("token")
 
-    val nermodel = recursivePipeline.fit(Seq.empty[String].toDF("text"))
-    val nerlpmodel = new LightPipeline(nermodel)
+  val ner = NerDLModel.pretrained().
+    setInputCols("sentence", "token").
+    setOutputCol("ner")
 
-    val res1 = Benchmark.time("Light annotate NerDL") {nerlpmodel.fullAnnotate("Peter is a very good person from Germany, he is working at IBM.")}
-    val res2 = Benchmark.time("Light annotate NerDL") {nerlpmodel.fullAnnotate("I saw the patient with Dr. Andrew Newhouse.")}
-    val res3 = Benchmark.time("Light annotate NerDL") {nerlpmodel.fullAnnotate("Ms. Louise Iles is a 70 yearold")}
-    val res4 = Benchmark.time("Light annotate NerDL") {nerlpmodel.fullAnnotate("Ms.")}
+  val converter = new NerConverter()
+    .setInputCols("sentence", "token", "ner")
+    .setOutputCol("nerconverter")
 
-    println(res1.mapValues(_.mkString(", ")).mkString(", "))
-    println(res2.mapValues(_.mkString(", ")).mkString(", "))
-    println(res3.mapValues(_.mkString(", ")).mkString(", "))
-    println(res4.mapValues(_.mkString(", ")).mkString(", "))
+  val finisher = new Finisher().
+    setInputCols("token", "sentence", "nerconverter", "ner")
 
+  val recursivePipeline = new RecursivePipeline().
+    setStages(Array(
+      documentAssembler,
+      sentenceDetector,
+      tokenizer,
+      ner,
+      converter,
+      finisher
+    ))
+
+  val nermodel = recursivePipeline.fit(Seq.empty[String].toDF("text"))
+  val nerlpmodel = new LightPipeline(nermodel)
+
+  val res1 = Benchmark.time("Light annotate NerDL") {
+    nerlpmodel.fullAnnotate("Peter is a very good person from Germany, he is working at IBM.")
+  }
+  val res2 = Benchmark.time("Light annotate NerDL") {
+    nerlpmodel.fullAnnotate("I saw the patient with Dr. Andrew Newhouse.")
+  }
+  val res3 = Benchmark.time("Light annotate NerDL") {
+    nerlpmodel.fullAnnotate("Ms. Louise Iles is a 70 yearold")
+  }
+  val res4 = Benchmark.time("Light annotate NerDL") {
+    nerlpmodel.fullAnnotate("Ms.")
   }
 
-  "NerCRF Model" should "label correctly" ignore {
+  println(res1.mapValues(_.mkString(", ")).mkString(", "))
+  println(res2.mapValues(_.mkString(", ")).mkString(", "))
+  println(res3.mapValues(_.mkString(", ")).mkString(", "))
+  println(res4.mapValues(_.mkString(", ")).mkString(", "))
 
-    ResourceHelper.spark
-    import ResourceHelper.spark.implicits._
+}
 
-    val documentAssembler = new DocumentAssembler().
-      setInputCol("text").
-      setOutputCol("document")
+object NerCrfPretrained extends App {
 
-    val sentenceDetector = new SentenceDetector()
-      .setInputCols("document")
-      .setOutputCol("sentence")
-      .setUseAbbreviations(false)
+  import ResourceHelper.spark.implicits._
 
-    val tokenizer = new Tokenizer().
-      setInputCols(Array("sentence")).
-      setOutputCol("token")
+  val documentAssembler = new DocumentAssembler().
+    setInputCol("text").
+    setOutputCol("document")
 
-    val pos = PerceptronModel.pretrained().
-      setInputCols("document", "token").
-      setOutputCol("pos")
+  val sentenceDetector = new SentenceDetector()
+    .setInputCols("document")
+    .setOutputCol("sentence")
+    .setUseAbbreviations(false)
 
-    val ner = NerCrfModel.pretrained().
-      setInputCols("sentence", "token", "pos").
-      setOutputCol("ner")
+  val tokenizer = new Tokenizer().
+    setInputCols(Array("sentence")).
+    setOutputCol("token")
 
-    val converter = new NerConverter()
-      .setInputCols("sentence", "token", "ner")
-      .setOutputCol("nerconverter")
+  val pos = PerceptronModel.pretrained().
+    setInputCols("document", "token").
+    setOutputCol("pos")
 
-    val finisher = new Finisher().
-      setInputCols("token", "sentence", "nerconverter", "ner")
+  val ner = NerCrfModel.pretrained().
+    setInputCols("sentence", "token", "pos").
+    setOutputCol("ner")
 
-    val recursivePipeline = new RecursivePipeline().
-      setStages(Array(
-        documentAssembler,
-        sentenceDetector,
-        tokenizer,
-        pos,
-        ner,
-        converter,
-        finisher
-      ))
+  val converter = new NerConverter()
+    .setInputCols("sentence", "token", "ner")
+    .setOutputCol("nerconverter")
 
-    val nermodel = recursivePipeline.fit(Seq.empty[String].toDF("text"))
-    val nerlpmodel = new LightPipeline(nermodel)
+  val finisher = new Finisher().
+    setInputCols("token", "sentence", "nerconverter", "ner")
 
-    val res1 = Benchmark.time("Light annotate NerCrf") {nerlpmodel.fullAnnotate("Peter is a very good person from Germany, he is working at IBM.")}
-    val res2 = Benchmark.time("Light annotate NerCrf") {nerlpmodel.fullAnnotate("I saw the patient with Dr. Andrew Newhouse.")}
-    val res3 = Benchmark.time("Light annotate NerCrf") {nerlpmodel.fullAnnotate("Ms. Louise Iles is a 70yearold")}
-    val res4 = Benchmark.time("Light annotate NerCrf") {nerlpmodel.fullAnnotate("Ms.")}
+  val recursivePipeline = new RecursivePipeline().
+    setStages(Array(
+      documentAssembler,
+      sentenceDetector,
+      tokenizer,
+      pos,
+      ner,
+      converter,
+      finisher
+    ))
 
-    println(res1.mapValues(_.mkString(", ")).mkString(", "))
-    println(res2.mapValues(_.mkString(", ")).mkString(", "))
-    println(res3.mapValues(_.mkString(", ")).mkString(", "))
-    println(res4.mapValues(_.mkString(", ")).mkString(", "))
+  val nermodel = recursivePipeline.fit(Seq.empty[String].toDF("text"))
+  val nerlpmodel = new LightPipeline(nermodel)
 
+  val res1 = Benchmark.time("Light annotate NerCrf") {
+    nerlpmodel.fullAnnotate("Peter is a very good person from Germany, he is working at IBM.")
   }
+  val res2 = Benchmark.time("Light annotate NerCrf") {
+    nerlpmodel.fullAnnotate("I saw the patient with Dr. Andrew Newhouse.")
+  }
+  val res3 = Benchmark.time("Light annotate NerCrf") {
+    nerlpmodel.fullAnnotate("Ms. Louise Iles is a 70yearold")
+  }
+  val res4 = Benchmark.time("Light annotate NerCrf") {
+    nerlpmodel.fullAnnotate("Ms.")
+  }
+
+  println(res1.mapValues(_.mkString(", ")).mkString(", "))
+  println(res2.mapValues(_.mkString(", ")).mkString(", "))
+  println(res3.mapValues(_.mkString(", ")).mkString(", "))
+  println(res4.mapValues(_.mkString(", ")).mkString(", "))
 
 }
 
