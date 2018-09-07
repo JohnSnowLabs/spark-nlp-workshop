@@ -1,0 +1,3 @@
+numpy==1.14.5
+pyspark=2.3.1
+spark-nlp=1.6.2
