@@ -1,7 +1,6 @@
 Based on Spark-NLP 1.6.2
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/JohnSnowLabs/spark-nlp-workshop/master)
-.. image:: https://mybinder.org/badge.svg :target: https://mybinder.org/v2/gh/JohnSnowLabs/spark-nlp-workshop/master
 
 Using Binder allows you to run Spark-NLP on jupyter notebooks remotely.
 
