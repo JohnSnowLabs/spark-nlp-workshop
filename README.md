@@ -9,11 +9,11 @@ Otherwise, please setup your own Spark-NLP environment following quickstart guid
 
 Note: Some notebooks are still work in progress and binder may not provide sufficient resources for them to run properly. Own environment is much recommended.
 
-###[Spark-NLP GitHub](https://github.com/JohnSnowLabs/spark-nlp)
+### [Spark-NLP GitHub](https://github.com/JohnSnowLabs/spark-nlp)
 
-###[Spark-NLP Website](https://nlp.johnsnowlabs.com/)
+### [Spark-NLP Website](https://nlp.johnsnowlabs.com/)
 
-###[JohnSnowLabs Website](https://www.johnsnowlabs.com/)
+### [JohnSnowLabs Website](https://www.johnsnowlabs.com/)
 
 Apache Licence 2.0
 
