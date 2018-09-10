@@ -4,9 +4,9 @@ ENV NB_USER jovyan
 ENV NB_UID 1000
 ENV HOME /home/${NB_USER}
 
-RUN pip install --no-cache-dir notebook==5.*
+RUN apk add --no-cache --virtual=.dependencies tar wget bash rsync python3 python3-pip
 
-RUN apk add --no-cache --virtual=.dependencies tar wget bash rsync
+RUN pip install --no-cache-dir notebook==5.*
 
 RUN adduser --disabled-password \
     --gecos "Default user" \
