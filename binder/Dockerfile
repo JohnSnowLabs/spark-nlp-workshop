@@ -12,8 +12,8 @@ RUN apk add --no-cache --virtual=.dependencies tar wget bash rsync libc-dev libc
 RUN pip3 install --upgrade pip
 RUN pip3 install --no-cache-dir notebook==5.* numpy pyspark spark-nlp==1.6.2
 RUN wget https://s3.amazonaws.com/auxdata.johnsnowlabs.com/spark-nlp-resources/glove.6B.100d.zip && \
-    mkdir -p /data/embeddings/ && \
-    unzip glove.6B.100d.zip -d /data/embeddings && \
+    mkdir -p /home/jovyan/data/embeddings/ && \
+    unzip glove.6B.100d.zip -d /home/jovyan/data/embeddings && \
     rm glove.6B.100d.zip
 
 RUN adduser --disabled-password \
