@@ -4,6 +4,9 @@ ENV NB_USER jovyan
 ENV NB_UID 1000
 ENV HOME /home/${NB_USER}
 
+ENV PYSPARK_PYTHON=python3
+ENV PYSPARK_DRIVER_PYTHON=python3
+
 RUN apk add --no-cache --virtual=.dependencies tar wget bash rsync libc-dev libc6-compat zeromq zeromq-dev libzmq gcc python3 python3-dev
 
 RUN python3 -m pip install --upgrade pip
