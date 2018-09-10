@@ -4,7 +4,7 @@ ENV NB_USER jovyan
 ENV NB_UID 1000
 ENV HOME /home/${NB_USER}
 
-RUN apk add --no-cache --virtual=.dependencies tar wget bash rsync libc-dev zeromq zeromq-dev libzmq gcc python3 python3-dev
+RUN apk add --no-cache --virtual=.dependencies tar wget bash rsync libc-dev libc6-compat zeromq zeromq-dev libzmq gcc python3 python3-dev
 
 RUN python3 -m pip install --upgrade pip
 RUN python3 -m pip install --no-cache-dir notebook==5.*
