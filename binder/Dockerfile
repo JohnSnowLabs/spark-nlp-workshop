@@ -6,7 +6,11 @@ ENV HOME /home/${NB_USER}
 
 RUN apk add --no-cache --virtual=.dependencies tar wget bash rsync libc-dev zeromq zeromq-dev libzmq gcc python3 python3-dev
 
+RUN python3 -m pip install --upgrade pip
 RUN python3 -m pip install --no-cache-dir notebook==5.*
+RUN python3 -m pip install --no-cache-dir numpy
+RUN python3 -m pip install --no-cache-dir pyspark
+RUN python3 -m pip install --no-cache-dir spark-nlp==1.6.2
 
 RUN adduser --disabled-password \
     --gecos "Default user" \
