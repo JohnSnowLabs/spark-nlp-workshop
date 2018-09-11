@@ -1,4 +1,3 @@
-import NerDLPipeline._
 import com.johnsnowlabs.nlp.annotator._
 import com.johnsnowlabs.nlp.base._
 import com.johnsnowlabs.util.Benchmark
