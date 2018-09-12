@@ -3,6 +3,7 @@
 
 In this repository you can find several Spark-NLP self-contained examples. Three formats are available:
 * Jupyter notebooks in Python
+* Jupyter notebooks in Scala(for the OCR example, using [spylon-kernel](https://github.com/Valassis-Digital-Media/spylon-kernel)).
 * Zeppelin notebooks in Scala
 * Raw scala code
 
