@@ -1,0 +1,1 @@
+{"class":"com.johnsnowlabs.nlp.annotators.spell.norvig.NorvigSweetingModel","timestamp":1536280684941,"sparkVersion":"2.3.0","uid":"SPELL_8dee2bfbbcce","paramMap":{"doubleVariants":true,"dupsLimit":2,"outputCol":"spell","shortCircuit":false,"vowelSwapLimit":6,"reductLimit":3,"caseSensitive":true,"inputCols":["normal"],"wordSizeIgnore":3,"intersections":10}}
