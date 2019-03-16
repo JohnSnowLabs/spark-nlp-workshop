@@ -1,6 +1,6 @@
 # Spark-NLP Workshop
 
-All the examples we have ever made by using Spark-NLP library in Python and Scala.
+Example notebooks and codes of how to use Spark-NLP in Python and Scala.
 
 ## Table of contents
 
