@@ -4,8 +4,6 @@ There are two directories: `training` and `annotation`. Inside `traning` you wil
 
 ## Setup Spark-NLP
 
-## Python
-
 ### Pip
 
 If you installed pyspark through pip, you can install `spark-nlp` through pip as well.
