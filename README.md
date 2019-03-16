@@ -18,6 +18,10 @@ Take a look at our official spark-nlp page: [http://nlp.johnsnowlabs.com/](http:
 
 Questions? Feedback? Request access sending an email to nlp@johnsnowlabs.com
 
+## Contributing
+
+If you find any example that is no longer working, please create an [issue](https://github.com/JohnSnowLabs/spark-nlp-workshop/issues).
+
 ## License
 
 Apache Licence 2.0
