@@ -79,7 +79,7 @@ object NerDLTraining extends App {
     setOutputCol("ner").
     setMinEpochs(1).
     setMaxEpochs(30).
-    setEmbeddingsSource("data/embeddings/glove.6B.100d.txt", 200, WordEmbeddingsFormat.TEXT).
+    setEmbeddingsSource("data/embeddings/glove.6B.100d.txt", 100, WordEmbeddingsFormat.TEXT).
     setExternalDataset("data/ner/eng.train", "SPARK_DATASET").
     setRandomSeed(0).
     setVerbose(2).
