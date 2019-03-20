@@ -1,5 +1,5 @@
 # JohnSnowLabs Spark-NLP Workshop
-## Based on Spark-NLP 1.8.3
+## Based on Spark-NLP 1.6.2
 
 In this repository you can find several Spark-NLP self-contained examples. Three formats are available:
 * Jupyter notebooks in Python
