@@ -4,11 +4,10 @@ Example notebooks and codes of how to use Spark-NLP in Python and Scala.
 
 ## Table of contents
 
-* [Examples](#examples)
-  * [Jupyter Notebooks](jupyter/)
-  * [Databricks Notebooks](databricks/)
-  * [Zeppelin Notes](zeppelin/)
-  * [Scala Files](scala/)
+* [Jupyter Notebooks](jupyter/)
+* [Databricks Notebooks](databricks/)
+* [Zeppelin Notes](zeppelin/)
+* [Scala Files](scala/)
 
 ## Project's website
 
