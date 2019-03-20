@@ -1,24 +1,27 @@
-# JohnSnowLabs Spark-NLP Workshop
-## Based on Spark-NLP 1.6.2
+# Spark-NLP Workshop
 
-In this repository you can find several Spark-NLP self-contained examples. Three formats are available:
-* Jupyter notebooks in Python
-* Jupyter notebooks in Scala(for the OCR example, using [spylon-kernel](https://github.com/Valassis-Digital-Media/spylon-kernel)).
-* Zeppelin notebooks in Scala
-* Raw scala code
+Example notebooks and codes of how to use Spark-NLP in Python and Scala.
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/JohnSnowLabs/spark-nlp-workshop/master)
+## Table of contents
 
-Using Binder allows you to run Spark-NLP on jupyter notebooks remotely.
+* [Examples](#examples)
+  * [Jupyter Notebooks](jupyter/)
+  * [Zeppelin Notes](zeppelin/)
+  * [Databricks Notebooks](databricks/)
+  * [Scala Files](scala/)
 
-Otherwise, please setup your own Spark-NLP environment following quickstart guide or readme
+## Project's website
 
-_Note_: Some notebooks are still work in progress and binder may not provide sufficient resources for them to run properly. Own environment is much recommended.
+Take a look at our official spark-nlp page: [http://nlp.johnsnowlabs.com/](http://nlp.johnsnowlabs.com/) for user documentation and examples
 
-### [Spark-NLP GitHub](https://github.com/JohnSnowLabs/spark-nlp)
+## Slack community channel
 
-### [Spark-NLP Website](https://nlp.johnsnowlabs.com/)
+Questions? Feedback? Request access sending an email to nlp@johnsnowlabs.com
 
-### [JohnSnowLabs Website](https://www.johnsnowlabs.com/)
+## Contributing
+
+If you find any example that is no longer working, please create an [issue](https://github.com/JohnSnowLabs/spark-nlp-workshop/issues).
+
+## License
 
 Apache Licence 2.0
