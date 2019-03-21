@@ -22,12 +22,17 @@ RUN adduser --disabled-password \
     ${NB_USER}
 
 # Make sure the contents of our repo are in ${HOME}
-COPY data jupyter strata ${HOME}/
+RUN mkdir -p /home/jovyan/strata
+RUN mkdir -p /home/jobyan/jupyter
+
+COPY data ${HOME}/data
+COPY jupyter ${HOME}/jupyter
+COPY strata ${HOME}/strata
 USER root
 RUN chown -R ${NB_UID} ${HOME}
 USER ${NB_USER}
 
-WORKDIR ${HOME}/jupyter
+WORKDIR ${HOME}
 
 # Specify the default command to run
 CMD ["jupyter", "notebook", "--ip", "0.0.0.0"]
