@@ -20,5 +20,5 @@ Note: Replace $local path$ with any local path in your disc
 4.Run the notebooks on your browser using the token printed on the console.
 
 ```bash
- docker run -it --rm -p 8888:8888 -p 4040:4040 -v 'pwd':/home/jovyan/jupyter johnsnowlabs/spark-nlp-workshop
+ docker run -it --rm -p 8888:8888 -p 4040:4040 -v 'pwd':/home/jovyan/strata johnsnowlabs/spark-nlp-workshop
 ```
