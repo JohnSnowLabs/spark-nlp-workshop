@@ -9,6 +9,23 @@ Example notebooks and codes of how to use Spark-NLP in Python and Scala.
 * [Zeppelin Notes](zeppelin/)
 * [Scala Files](scala/)
 
+## Docker setup
+
+1.Get the docker image for spark-nlp-workshop:
+
+```bash
+docker pull johnsnowlabs/spark-nlp-workshop
+```
+
+2.Run the image locally with port binding and local disk mapping
+Note: Replace $local path$ with any local path in your disc
+
+```bash
+ docker run -it --rm -p 8888:8888 -p 4040:4040 -v 'pwd':/home/jovyan/strata johnsnowlabs/spark-nlp-workshop
+```
+
+3.Run the notebooks on your browser using the token printed on the console.
+
 ## Project's website
 
 Take a look at our official spark-nlp page: [http://nlp.johnsnowlabs.com/](http://nlp.johnsnowlabs.com/) for user documentation and examples
