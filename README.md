@@ -11,20 +11,26 @@ Example notebooks and codes of how to use Spark-NLP in Python and Scala.
 
 ## Docker setup
 
-1.Get the docker image for spark-nlp-workshop:
+If you want to experience Spark-NLP and run Jupyter exmaples without installing anything, you can simply use our Docker image:
+
+1. Get the docker image for spark-nlp-workshop:
 
 ```bash
 docker pull johnsnowlabs/spark-nlp-workshop
 ```
 
-2.Run the image locally with port binding and local disk mapping
+2. Run the image locally with port binding and local disk mapping
 Note: Replace $local path$ with any local path in your disc
 
 ```bash
  docker run -it --rm -p 8888:8888 -p 4040:4040 -v 'pwd':/home/jovyan/strata johnsnowlabs/spark-nlp-workshop
 ```
 
-3.Run the notebooks on your browser using the token printed on the console.
+3. Open Jupyter notebooks inside your browser by using the token printed on the console.
+
+```bash
+http://localhost:8888/?token=LOOK_INSIDE_YOUR_CONSOLE
+```
 
 ## Project's website
 
