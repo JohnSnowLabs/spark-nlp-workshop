@@ -19,11 +19,10 @@ If you want to experience Spark-NLP and run Jupyter exmaples without installing 
 docker pull johnsnowlabs/spark-nlp-workshop
 ```
 
-2. Run the image locally with port binding and local disk mapping
-Note: Replace $local path$ with any local path in your disc
+2. Run the image locally with port binding. 
 
 ```bash
- docker run -it --rm -p 8888:8888 -p 4040:4040 -v 'pwd':/home/jovyan/strata johnsnowlabs/spark-nlp-workshop
+ docker run -it --rm -p 8888:8888 -p 4040:4040 -v 'pwd':/home/jovyan johnsnowlabs/spark-nlp-workshop
 ```
 
 3. Open Jupyter notebooks inside your browser by using the token printed on the console.
