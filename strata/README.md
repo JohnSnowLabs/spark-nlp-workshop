@@ -12,7 +12,10 @@ Use the stable channel for windows 10
 [https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install](https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install)
 
 2.Get the docker image for spark-nlp-workshop:
+
+```bash
 docker pull johnsnowlabs/spark-nlp-workshop
+```
 
 3.Run the image locally with port binding and local disk mapping
 Note: Replace $local path$ with any local path in your disc
