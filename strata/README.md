@@ -25,4 +25,6 @@ docker pull johnsnowlabs/spark-nlp-workshop
 
 4.Run the notebooks on your browser using the token printed on the console.
 
-
+```bash
+http://localhost:8888/?token=LOOK_INSIDE_YOUR_CONSOLE
+```
