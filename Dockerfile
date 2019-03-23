@@ -1,5 +1,5 @@
-#Download base image ubuntu 16.04
-FROM ubuntu:16.04
+#Download base image ubuntu 18.04
+FROM ubuntu:18.04
 
 ENV NB_USER jovyan
 ENV NB_UID 1000
@@ -8,17 +8,22 @@ ENV HOME /home/${NB_USER}
 ENV PYSPARK_PYTHON=python3
 ENV PYSPARK_DRIVER_PYTHON=python3
 
-# RUN apt add --no-cache --virtual=.dependencies tar wget bash rsync libc-dev libc6-compat zeromq zeromq-dev libzmq gcc python3 python3-dev
 RUN apt-get update && apt-get install -y \
     tar \
     wget \
     bash \
     rsync \
-    gcc \ 
+    gcc \
+    libfreetype6-dev \
+    libhdf5-serial-dev \
+    libpng-dev \
+    libzmq3-dev \
     python3 \ 
     python3-dev \
     python3-pip \
-    unzip
+    unzip \
+    pkg-config \
+    software-properties-common
 
 RUN adduser --disabled-password \
     --gecos "Default user" \
@@ -43,6 +48,7 @@ RUN echo "export JAVA_HOME=/usr/lib/jvm/java-8-oracle" >> ~/.bashrc
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+
 RUN pip3 install --upgrade pip
 RUN pip3 install --no-cache-dir notebook==5.* numpy pyspark spark-nlp
 RUN wget https://s3.amazonaws.com/auxdata.johnsnowlabs.com/spark-nlp-resources/glove.6B.100d.zip && \
@@ -52,7 +58,7 @@ RUN wget https://s3.amazonaws.com/auxdata.johnsnowlabs.com/spark-nlp-resources/g
 
 # Make sure the contents of our repo are in ${HOME}
 RUN mkdir -p /home/jovyan/strata
-RUN mkdir -p /home/jobyan/jupyter
+RUN mkdir -p /home/jovyan/jupyter
 
 COPY data ${HOME}/data
 COPY jupyter ${HOME}/jupyter
@@ -65,3 +71,4 @@ WORKDIR ${HOME}
 
 # Specify the default command to run
 CMD ["jupyter", "notebook", "--ip", "0.0.0.0"]
+
