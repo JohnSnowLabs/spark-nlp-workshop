@@ -1,6 +1,6 @@
 # Spark-NLP Workshop
 
-Example notebooks and codes of how to use Spark-NLP in Python and Scala.
+Showcasing notebooks and codes of how to use Spark-NLP in Python and Scala.
 
 ## Table of contents
 
@@ -19,7 +19,7 @@ If you want to experience Spark-NLP and run Jupyter exmaples without installing 
 docker pull johnsnowlabs/spark-nlp-workshop
 ```
 
-2. Run the image locally with port binding. 
+2. Run the image locally with port binding.
 
 ```bash
  docker run -it --rm -p 8888:8888 -p 4040:4040 -v 'pwd':/home/jovyan johnsnowlabs/spark-nlp-workshop
@@ -30,6 +30,10 @@ docker pull johnsnowlabs/spark-nlp-workshop
 ```bash
 http://localhost:8888/?token=LOOK_INSIDE_YOUR_CONSOLE
 ```
+
+## Main repository
+
+[https://github.com/JohnSnowLabs/spark-nlp](https://github.com/JohnSnowLabs/spark-nlp)
 
 ## Project's website
 
