@@ -1,6 +1,6 @@
-# Spark-NLP Workshop
+# Spark NLP Workshop
 
-Showcasing notebooks and codes of how to use Spark-NLP in Python and Scala.
+Showcasing notebooks and codes of how to use Spark NLP in Python and Scala.
 
 ## Table of contents
 
@@ -11,7 +11,7 @@ Showcasing notebooks and codes of how to use Spark-NLP in Python and Scala.
 
 ## Docker setup
 
-If you want to experience Spark-NLP and run Jupyter exmaples without installing anything, you can simply use our Docker image:
+If you want to experience Spark NLP and run Jupyter exmaples without installing anything, you can simply use our Docker image:
 
 1. Get the docker image for spark-nlp-workshop:
 
