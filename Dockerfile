@@ -50,7 +50,7 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 
 RUN pip3 install --upgrade pip
-RUN pip3 install --no-cache-dir notebook==5.* numpy pyspark spark-nlp
+RUN pip3 install --no-cache-dir notebook==5.* numpy pyspark spark-nlp Keras scikit-spark scikit-learn scipy matplotlib pydot
 RUN wget https://s3.amazonaws.com/auxdata.johnsnowlabs.com/spark-nlp-resources/glove.6B.100d.zip && \
     mkdir -p /home/jovyan/data/embeddings/ && \
     unzip glove.6B.100d.zip -d /home/jovyan/data/embeddings && \
