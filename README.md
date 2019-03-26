@@ -4,9 +4,9 @@ Showcasing notebooks and codes of how to use Spark NLP in Python and Scala.
 
 ## Table of contents
 
-* [Jupyter Notebooks](jupyter/)
-* [Strata conference](strata/)
-* [Databricks Notebooks](databricks/)
+* [Jupyter Notebooks](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/jupyter)
+* [Strata conference](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/strata)
+* [Databricks Notebooks](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/databricks)
 
 ## Docker setup
 
