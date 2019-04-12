@@ -21,7 +21,7 @@ Note: You can import these notebooks by using their URLs.
 4- From the Source drop-down menu, select **Maven Coordinate:**
 ![Databricks](https://databricks.com/wp-content/uploads/2015/07/select-maven-1024x711.png)
 
-5- Now, all available **Spark Packages** are at your fingertips! Just search for **JohnSnowLabs:spark-nlp:version** where **version** stands for the library version such as: `1.8.3` or `2.0.0`
+5- Now, all available **Spark Packages** are at your fingertips! Just search for **JohnSnowLabs:spark-nlp:version** where **version** stands for the library version such as: `1.8.4` or `2.0.1`
 ![Databricks](https://databricks.com/wp-content/uploads/2015/07/browser-1024x548.png)
 
 6- Select **spark-nlp** package and we are good to go!
