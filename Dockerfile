@@ -30,24 +30,32 @@ RUN adduser --disabled-password \
     --uid ${NB_UID} \
     ${NB_USER}
 
-ENV JAVA_VER 8
-ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
+ENV JAVA_VER 11
+ENV JAVA_HOME /usr/lib/jvm/java-11-oracle
 
-RUN echo 'deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main' >> /etc/apt/sources.list && \
-    echo 'deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main' >> /etc/apt/sources.list && \
-    apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C2518248EEA14886 && \
-    apt-get update && \
-    echo oracle-java${JAVA_VER}-installer shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections && \
-    apt-get install -y --force-yes --no-install-recommends oracle-java${JAVA_VER}-installer oracle-java${JAVA_VER}-set-default && \
-    apt-get clean && \
-    rm -rf /var/cache/oracle-jdk${JAVA_VER}-installer
+ENV DEBIAN_FRONTEND=noninteractive \
+    JAVA_HOME=/usr/lib/jvm/java-11-oracle
 
-RUN update-java-alternatives -s java-8-oracle
+RUN VERSION=11.0.2 && \
+    BUILD=9 && \
+    SIG=f51449fcd52f4d52b93a989c5c56ed3c && \
+    apt-get update && apt-get dist-upgrade -y && \
+    apt-get install apt-utils ca-certificates curl -y --no-install-recommends && \
+    curl --silent --location --retry 3 --cacert /etc/ssl/certs/GeoTrust_Global_CA.pem \
+        --header "Cookie: oraclelicense=accept-securebackup-cookie;" \
+        http://download.oracle.com/otn-pub/java/jdk/"${VERSION}"+"${BUILD}"/"${SIG}"/jdk-"${VERSION}"_linux-x64_bin.tar.gz \
+        | tar xz -C /tmp && \
+    mkdir -p /usr/lib/jvm && mv /tmp/jdk-${VERSION} "${JAVA_HOME}" && \
+    apt-get autoclean && apt-get --purge -y autoremove && \
+    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
+    update-alternatives --install "/usr/bin/java" "java" "${JAVA_HOME}/bin/java" 1 && \
+    update-alternatives --install "/usr/bin/javac" "javac" "${JAVA_HOME}/bin/javac" 1 && \
+    update-alternatives --set java "${JAVA_HOME}/bin/java" && \
+    update-alternatives --set javac "${JAVA_HOME}/bin/javac"
 
-RUN echo "export JAVA_HOME=/usr/lib/jvm/java-8-oracle" >> ~/.bashrc
+RUN echo "export JAVA_HOME=/usr/lib/jvm/java-11-oracle" >> ~/.bashrc
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
 
 RUN pip3 install --upgrade pip
 RUN pip3 install --no-cache-dir notebook==5.* numpy pyspark==2.4.0 spark-nlp==2.0.3 Keras scikit-spark scikit-learn scipy matplotlib pydot
