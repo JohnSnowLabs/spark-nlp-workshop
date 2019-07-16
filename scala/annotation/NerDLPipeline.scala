@@ -30,7 +30,11 @@ object NerDLPipeline extends App {
   val normalizer = new Normalizer()
     .setInputCols("token")
     .setOutputCol("normal")
-
+  
+  val wordEmbeddings = WordEmbeddingsModel.pretrained()
+    .setInputCols("document", "token")
+    .setOutputCol("word_embeddings")
+    
   val ner = NerDLModel.pretrained()
     .setInputCols("normal", "document")
     .setOutputCol("ner")
@@ -47,7 +51,7 @@ object NerDLPipeline extends App {
     .setAnnotationSplitSymbol("@")
     .setValueSplitSymbol("#")
 
-  val pipeline = new Pipeline().setStages(Array(document, token, normalizer, ner, nerConverter, finisher))
+  val pipeline = new Pipeline().setStages(Array(document, token, normalizer, wordEmbeddings, ner, nerConverter, finisher))
 
   val testing = Seq(
     (1, "Google is a famous company"),
