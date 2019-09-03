@@ -1,6 +1,7 @@
 # Spark-NLP Python
 
-There are two directories: `training` and `annotation`. Inside `traning` you will find all the examples which help you to train Spark-NLP models and pipelines. On the other hand, the examples inside `annotation` demonstrate how to use Spark-NLP annotators, pre-trained models, and pre-trained pipelines.
+There are three directories: `training`, `annotation` and `eval`. Inside `traning` you will find all the examples which help you to train Spark-NLP models and pipelines. On the other hand, the examples inside `annotation` demonstrate how to use Spark-NLP annotators, pre-trained models, and pre-trained pipelines.
+Finally, `eval` folder contains examples of how to evaluate the annotators. So it shows you how to measure the accuracy as well as the parameters used when training a model.
 
 ## Setup Spark-NLP
 
