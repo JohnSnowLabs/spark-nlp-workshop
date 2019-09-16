@@ -50,7 +50,7 @@ RUN echo "export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/" >> ~/.bashrc
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN pip3 install --upgrade pip
-RUN pip3 install --no-cache-dir notebook==5.* numpy pyspark==2.4.3 spark-nlp==2.2.1 pandas Keras scikit-spark scikit-learn scipy matplotlib pydot
+RUN pip3 install --no-cache-dir notebook==5.* numpy pyspark==2.4.3 spark-nlp==2.2.1 pandas mlflow Keras scikit-spark scikit-learn scipy matplotlib pydot
 RUN wget https://s3.amazonaws.com/auxdata.johnsnowlabs.com/spark-nlp-resources/glove.6B.100d.zip && \
     mkdir -p /home/jovyan/data/embeddings/ && \
     unzip glove.6B.100d.zip -d /home/jovyan/data/embeddings && \
