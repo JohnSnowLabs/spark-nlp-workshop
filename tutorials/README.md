@@ -1,6 +1,6 @@
-# Spark-NLP Strata
+# Spark-NLP Tutorials
 
-## Spark NLP Instructions for STRATA
+## Spark NLP Instructions
 
 1.Install docker in your systems:
 

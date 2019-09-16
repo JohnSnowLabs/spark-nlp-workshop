@@ -57,12 +57,12 @@ RUN wget https://s3.amazonaws.com/auxdata.johnsnowlabs.com/spark-nlp-resources/g
     rm glove.6B.100d.zip
 
 # Make sure the contents of our repo are in ${HOME}
-RUN mkdir -p /home/jovyan/strata
+RUN mkdir -p /home/jovyan/tutorials
 RUN mkdir -p /home/jovyan/jupyter
 
 COPY data ${HOME}/data
 COPY jupyter ${HOME}/jupyter
-COPY strata ${HOME}/strata
+COPY tutorials ${HOME}/tutorials
 USER root
 RUN chown -R ${NB_UID} ${HOME}
 USER ${NB_USER}
