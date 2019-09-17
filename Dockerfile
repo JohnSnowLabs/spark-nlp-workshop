@@ -51,7 +51,7 @@ RUN echo "export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/" >> ~/.bashrc
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN pip3 install --upgrade pip
-RUN pip3 install --no-cache-dir notebook==5.* numpy pyspark==2.4.3 spark-nlp==2.2.1 pandas mlflow Keras scikit-spark scikit-learn scipy matplotlib pydot tensorflow graphviz
+RUN pip3 install --no-cache-dir notebook==5.* numpy pyspark==2.4.3 spark-nlp==2.2.1 pandas mlflow Keras scikit-spark scikit-learn scipy matplotlib pydot tensorflow==1.12.0 graphviz
 RUN wget https://s3.amazonaws.com/auxdata.johnsnowlabs.com/spark-nlp-resources/glove.6B.100d.zip && \
     mkdir -p /home/jovyan/data/embeddings/ && \
     unzip glove.6B.100d.zip -d /home/jovyan/data/embeddings && \
@@ -64,8 +64,6 @@ RUN mkdir -p /home/jovyan/jupyter
 COPY data ${HOME}/data
 COPY jupyter ${HOME}/jupyter
 COPY tutorials ${HOME}/tutorials
-RUN jupyter notebook --generate-config
-COPY jupyter_notebook_config.json /home/jovyan/.jupyter/jupyter_notebook_config.json
 USER root
 RUN chown -R ${NB_UID} ${HOME}
 USER ${NB_USER}
@@ -74,4 +72,3 @@ WORKDIR ${HOME}
 
 # Specify the default command to run
 CMD ["jupyter", "notebook", "--ip", "0.0.0.0"]
-
