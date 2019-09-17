@@ -28,3 +28,10 @@ docker pull johnsnowlabs/spark-nlp-workshop
 ```bash
 http://localhost:8888/?token=LOOK_INSIDE_YOUR_CONSOLE
 ```
+
+### Increase Docker memory
+
+The total memory of the VM in which docker runs is 2GB by default. You can increase this in macOS and Windows via gui.
+
+> Preferences -> Advanced:
+![Databricks](docker_memory.png)
