@@ -32,8 +32,10 @@ docker pull johnsnowlabs/spark-nlp-workshop
 3- Open Jupyter notebooks inside your browser by using the token printed on the console.
 
 ```bash
-http://localhost:8888/?token=LOOK_INSIDE_YOUR_CONSOLE
+http://localhost:8888/
 ```
+
+> NOTE: The password to Jupyter notebook is `sparknlp`
 
 ## Main repository
 
