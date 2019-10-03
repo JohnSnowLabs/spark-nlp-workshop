@@ -1,5 +1,7 @@
 # Spark-NLP Tutorials
 
+You can either use notebooks inside `jupyter` directory when you are in Spark NLP docker image, or you can use the notebooks inside `colab` if you wish to run them on Google Colab.
+
 ## Spark NLP Instructions
 
 1.Install docker in your systems:
@@ -36,4 +38,4 @@ http://localhost:8888/
 The total memory of the VM in which docker runs is 2GB by default. You can increase this in macOS and Windows via gui.
 
 > Preferences -> Advanced:
-![Databricks](docker_memory.png)
+![Databricks](./assets/docker_memory.png)
