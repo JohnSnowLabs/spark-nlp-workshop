@@ -9,9 +9,13 @@ Showcasing notebooks and codes of how to use Spark NLP in Python and Scala.
 ## Table of contents
 
 * [Jupyter Notebooks](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/jupyter)
+  * [annotation](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/jupyter/annotation)
+  * [evalulation](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/jupyter/eval)
+  * [training](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/jupyter/training)
 * [Tutorial Notebooks](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/tutorials)
+  * [Jupyter](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/tutorials/jupyter)
+  * [Colab](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/tutorials/colab) (for Google Colab)
 * [Databricks Notebooks](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/databricks)
-* [Google colab Notebook](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/jupyter/quick_start_google_colab.ipynb) (requires a Google account)
 
 ## Docker setup
 
