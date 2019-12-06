@@ -39,7 +39,9 @@ docker pull johnsnowlabs/spark-nlp-workshop
 http://localhost:8888/
 ```
 
-> NOTE: The password to Jupyter notebook is `sparknlp`
+* The password to Jupyter notebook is `sparknlp`
+* The size of the image grows everytime you download a pretrained model or a pretrained pipeline. You can cleanup `~/cache_pretrained` if you don't need them.
+* This docker image is only meant for testing/learning purposes and should not be used in production environments. Please install Spark NLP natively.
 
 ## Main repository
 
