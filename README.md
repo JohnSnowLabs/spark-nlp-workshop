@@ -1,4 +1,4 @@
-<a href="https://johnsnowlabs.com"><img src="https://media.licdn.com/dms/image/C510BAQFT1HLZor5NGA/company-logo_400_400/0?e=1576713600&v=beta&t=LpJFzciaKlQfDAerduqyysJbsIrDaFV1E4Aunmne6E4" width="125" height="125" align="right" /></a>
+<a href="https://johnsnowlabs.com"><img src="https://media.licdn.com/dms/image/C510BAQFT1HLZor5NGA/company-logo_200_200/0?e=1585180800&v=beta&t=VXCxWGmVfq4qlS1Xs9VNl6fB-mI3wmO64IGwGlkVmik" width="125" height="125" align="right" /></a>
 
 # Spark NLP Workshop
 
