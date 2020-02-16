@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1580913565408,"sparkVersion":"2.4.4","uid":"StringIndexer_336cbddb27fe","paramMap":{"inputCol":"topTermAdj","outputCol":"topTermIndex"},"defaultParamMap":{"outputCol":"StringIndexer_336cbddb27fe__output","handleInvalid":"error","stringOrderType":"frequencyDesc"}}
