@@ -29,7 +29,13 @@ More info about how to use 3rd [Party Libraries in Databricks](https://databrick
 
 ## Compatibility
 
-Spark NLP is compatible with:
+Spark NLP 2.4.5 has been tested and is compatible with the following runtimes:
 
-* 6.3 (includes Apache Spark 2.4.4, Scala 2.11)
-* 6.2 (includes Apache Spark 2.4.4, Scala 2.11)
+* 6.2
+* 6.2 ML
+* 6.3
+* 6.3 ML
+* 6.4
+* 6.4 ML
+* 6.5
+* 6.5 ML
