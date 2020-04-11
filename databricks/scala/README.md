@@ -1,10 +1,10 @@
 # Spark-NLP Databricks
 
-## Databricks Notebooks
+## Databricks Scala Notebooks
 
 You can view all the Databricks notebooks from this address in HTML format:
 
-[https://johnsnowlabs.github.io/spark-nlp-workshop/databricks/index.html](https://johnsnowlabs.github.io/spark-nlp-workshop/databricks/index.html)
+[https://johnsnowlabs.github.io/spark-nlp-workshop/databricks/index.html](https://johnsnowlabs.github.io/spark-nlp-workshop/databricks/scala/index.html)
 
 Note: You can import these notebooks by using their URLs.
 
