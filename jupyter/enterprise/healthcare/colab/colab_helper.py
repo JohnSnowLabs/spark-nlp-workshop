@@ -5,7 +5,7 @@ from google.colab import drive
 # Licensed Environment Setup
 def setup_license_from_gdrive(mount_path, colab_path, aws_credentials_filename, license_filename):
     drive.mount(mount_path, force_remount=True)
-    aws_dir = "~/.aws"
+    aws_dir = "/root/.aws"
     if not os.path.exists(aws_dir):
         os.makedirs(aws_dir)
     shutil.copyfile(os.path.join(mount_path, colab_path, aws_credentials_filename),os.path.join(aws_dir, "credentials"))
