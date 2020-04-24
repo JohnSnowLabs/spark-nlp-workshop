@@ -1,1 +1,0 @@
-{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1580938110574,"sparkVersion":"2.4.4","uid":"StringIndexer_1ac6ef3fc7ab","paramMap":{"outputCol":"STY_TTY_index","inputCol":"STY_TTY"},"defaultParamMap":{"outputCol":"StringIndexer_1ac6ef3fc7ab__output","stringOrderType":"frequencyDesc","handleInvalid":"error"}}
