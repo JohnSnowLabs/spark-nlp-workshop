@@ -36,7 +36,7 @@ object NerDLPipeline extends App {
     .setOutputCol("word_embeddings")
     
   val ner = NerDLModel.pretrained()
-    .setInputCols("normal", "document")
+    .setInputCols("normal", "document", "word_embeddings")
     .setOutputCol("ner")
 
   val nerConverter = new NerConverter()
