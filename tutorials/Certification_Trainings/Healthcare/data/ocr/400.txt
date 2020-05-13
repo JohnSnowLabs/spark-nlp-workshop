@@ -46,3 +46,12 @@ EDWARD E. GRAZDA
 Editorial Director
 ELECTRONIC DESIGN
 
+
+
+
+['A .',
+ 'Record date : <DATE>  , <DOCTOR> , M.D .',
+ ', Name : <PATIENT> , <PATIENT> MR .',
+ '# <MEDICALRECORD> Date : <DATE> PCP : <DOCTOR> , 25 month years-old , Record date : <DATE> .',
+ '<HOSPITAL> .',
+ '<STREET>']
