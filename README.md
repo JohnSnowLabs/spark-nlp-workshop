@@ -18,7 +18,13 @@ Showcasing notebooks and codes of how to use Spark NLP in Python and Scala.
 * [Databricks Notebooks](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/databricks)
 
 ## Python Setup 
-python3.7 -m virtualenv spark-nlp-2-4-4  
+```bash
+$ java -version
+# should be Java 8 (Oracle or OpenJDK)
+$ conda create -n sparknlp python=3.6 -y
+$ conda activate sparknlp
+$ pip install spark-nlp==2.5.0 pyspark==2.4.4
+```
 
 ## Docker setup
 
