@@ -7,4 +7,4 @@ os.environ["PATH"] = os.environ["JAVA_HOME"] + "/bin:" + os.environ["PATH"]
 
 # Install pyspark
 os.system("pip install --ignore-installed -q pyspark==2.4.4")
-os.system("pip install --ignore-installed -q spark-nlp==2.5")
+os.system("pip install --ignore-installed -q spark-nlp==2.5.1")
