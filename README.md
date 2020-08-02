@@ -23,7 +23,7 @@ $ java -version
 # should be Java 8 (Oracle or OpenJDK)
 $ conda create -n sparknlp python=3.6 -y
 $ conda activate sparknlp
-$ pip install spark-nlp==2.5.0 pyspark==2.4.4
+$ pip install spark-nlp pyspark==2.4.4
 ```
 
 ## Docker setup
