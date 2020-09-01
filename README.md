@@ -17,7 +17,8 @@ Showcasing notebooks and codes of how to use Spark NLP in Python and Scala.
   * [Colab](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/tutorials/colab) (for Google Colab)
 * [Databricks Notebooks](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/databricks)
 
-## Python Setup 
+## Python Setup
+
 ```bash
 $ java -version
 # should be Java 8 (Oracle or OpenJDK)
@@ -26,31 +27,23 @@ $ conda activate sparknlp
 $ pip install spark-nlp pyspark==2.4.4
 ```
 
-## Docker setup
+## Colab setup
 
-If you want to experience Spark NLP and run Jupyter examples without installing anything, you can simply use our [Docker image](https://hub.docker.com/r/johnsnowlabs/spark-nlp-workshop):
+```python
+import os
 
-1- Get the docker image for spark-nlp-workshop:
+# Install java
+! apt-get update -qq
+! apt-get install -y openjdk-8-jdk-headless -qq > /dev/null
 
-```bash
-docker pull johnsnowlabs/spark-nlp-workshop
+os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-8-openjdk-amd64"
+os.environ["PATH"] = os.environ["JAVA_HOME"] + "/bin:" + os.environ["PATH"]
+! java -version
+
+# Install pyspark
+! pip install -q pyspark==2.4.6
+! pip install -q spark-nlp
 ```
-
-2- Run the image locally with port binding.
-
-```bash
- docker run -it --rm -p 8888:8888 -p 4040:4040 johnsnowlabs/spark-nlp-workshop
-```
-
-3- Open Jupyter notebooks inside your browser by using the token printed on the console.
-
-```bash
-http://localhost:8888/
-```
-
-* The password to Jupyter notebook is `sparknlp`
-* The size of the image grows everytime you download a pretrained model or a pretrained pipeline. You can cleanup `~/cache_pretrained` if you don't need them.
-* This docker image is only meant for testing/learning purposes and should not be used in production environments. Please install Spark NLP natively.
 
 ## Main repository
 
