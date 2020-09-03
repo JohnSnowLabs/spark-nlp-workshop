@@ -1,41 +1,81 @@
 # Spark-NLP Tutorials
 
-You can either use notebooks inside `jupyter` directory when you are in Spark NLP docker image, or you can use the notebooks inside `colab` if you wish to run them on Google Colab.
-
 ## Spark NLP Instructions
 
-1.Install docker in your systems:
+### Pip
 
-Go to site [https://docs.docker.com/install/](https://docs.docker.com/install/) to download based on your specific OS.
-
-Note for windows user:
-Use the stable channel for windows 10
-
-[https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install](https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install)
-
-2.Get the docker image for spark-nlp-workshop:
+If you installed pyspark through pip, you can install `spark-nlp` through pip as well.
 
 ```bash
-docker pull johnsnowlabs/spark-nlp-workshop
+pip install spark-nlp==2.5.5
 ```
 
-3.Run the image locally with port binding.
+PyPI [spark-nlp package](https://pypi.org/project/spark-nlp/)
+
+### Conda
+
+If you are using Anaconda/Conda for managing Python packages, you can install `spark-nlp` as follow:
 
 ```bash
- docker run -it --rm -p 8888:8888 -p 4040:4040 johnsnowlabs/spark-nlp-workshop
+conda install -c johnsnowlabs spark-nlp
 ```
 
-4.Run the notebooks on your browser using the token printed on the console.
+Anaconda [spark-nlp package](https://anaconda.org/JohnSnowLabs/spark-nlp)
+
+Then you'll have to create a SparkSession manually, for example:
 
 ```bash
-http://localhost:8888/
+spark = SparkSession.builder \
+    .appName("ner")\
+    .master("local[*]")\
+    .config("spark.driver.memory","6G")\
+    .config("spark.driver.maxResultSize", "2G") \
+    .config("spark.jars.packages", "JohnSnowLabs:spark-nlp:2.5.5")\
+    .config("spark.kryoserializer.buffer.max", "500m")\
+    .getOrCreate()
 ```
 
-> NOTE: The password to Jupyter notebook is `sparknlp`
+If using local jars, you can use `spark.jars` instead for a comma delimited jar files. For cluster setups, of course you'll have to put the jars in a reachable location for all driver and executor nodes
 
-### Increase Docker memory
+## Setup Jupyter Notebook
 
-The total memory of the VM in which docker runs is 2GB by default. You can increase this in macOS and Windows via gui.
+### Prerequisite: Python
 
-> Preferences -> Advanced:
-![Databricks](./assets/docker_memory.png)
+While Jupyter runs code in many programming languages, Python is a requirement
+(Python 3.3 or greater, or Python 2.7) for installing the Jupyter Notebook itself.
+
+## Installing Jupyter using Anaconda
+
+We **strongly recommend** installing Python and Jupyter using the [Anaconda Distribution](https://www.anaconda.com/downloads),
+which includes Python, the Jupyter Notebook, and other commonly used packages for scientific computing and data science.
+
+First, download [Anaconda](https://www.anaconda.com/downloads). We recommend downloading Anaconda’s latest Python 3 version.
+
+Second, install the version of Anaconda which you downloaded, following the instructions on the download page.
+
+Congratulations, you have installed Jupyter Notebook! To run the notebook, run the following command at the Terminal (Mac/Linux) or Command Prompt (Windows):
+
+```bash
+jupyter notebook
+```
+
+### Installing Jupyter with pip
+
+As an existing or experienced Python user, you may wish to install Jupyter using Python’s package manager, pip, instead of Anaconda.
+
+If you have Python 3 installed (which is recommended):
+
+```bash
+python3 -m pip install --upgrade pip
+python3 -m pip install jupyter
+```
+
+
+Congratulations, you have installed Jupyter Notebook! To run the notebook, run
+the following command at the Terminal (Mac/Linux) or Command Prompt (Windows):
+
+```bash
+jupyter notebook
+```
+
+Original reference: [https://jupyter.org/install](https://jupyter.org/install)

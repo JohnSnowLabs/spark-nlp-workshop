@@ -10,7 +10,7 @@ Finally, `eval` folder contains examples of how to evaluate the annotators. So i
 If you installed pyspark through pip, you can install `spark-nlp` through pip as well.
 
 ```bash
-pip install spark-nlp==2.5.0
+pip install spark-nlp==2.5.5
 ```
 
 PyPI [spark-nlp package](https://pypi.org/project/spark-nlp/)
@@ -33,7 +33,7 @@ spark = SparkSession.builder \
     .master("local[*]")\
     .config("spark.driver.memory","6G")\
     .config("spark.driver.maxResultSize", "2G") \
-    .config("spark.jars.packages", "JohnSnowLabs:spark-nlp:2.5.0")\
+    .config("spark.jars.packages", "JohnSnowLabs:spark-nlp:2.5.5")\
     .config("spark.kryoserializer.buffer.max", "500m")\
     .getOrCreate()
 ```
