@@ -1,7 +1,7 @@
 # Spark-NLP Python
 
-There are three directories: `training`, `annotation` and `eval`. Inside `traning` you will find all the examples which help you to train Spark-NLP models and pipelines. On the other hand, the examples inside `annotation` demonstrate how to use Spark-NLP annotators, pre-trained models, and pre-trained pipelines.
-Finally, `eval` folder contains examples of how to evaluate the annotators. So it shows you how to measure the accuracy as well as visualize the parameters used when training a model.
+There are three directories: `training`, `annotation` and `enterprise`. Inside `training` you will find all the examples which help you to **train** Spark-NLP models and pipelines. On the other hand, the examples inside `annotation` demonstrate how to use Spark-NLP annotators, pre-trained models, and pre-trained pipelines.
+Finally, `enterprise` folder contains examples of how to use enterprise (licensed) Spark-NLP annotators and pre-trained models.
 
 ## Setup Spark-NLP
 
@@ -10,7 +10,7 @@ Finally, `eval` folder contains examples of how to evaluate the annotators. So i
 If you installed pyspark through pip, you can install `spark-nlp` through pip as well.
 
 ```bash
-pip install spark-nlp==2.5.5
+pip install spark-nlp==2.6.1
 ```
 
 PyPI [spark-nlp package](https://pypi.org/project/spark-nlp/)
@@ -33,7 +33,7 @@ spark = SparkSession.builder \
     .master("local[*]")\
     .config("spark.driver.memory","6G")\
     .config("spark.driver.maxResultSize", "2G") \
-    .config("spark.jars.packages", "JohnSnowLabs:spark-nlp:2.5.5")\
+    .config("spark.jars.packages", "JohnSnowLabs:spark-nlp:2.6.1")\
     .config("spark.kryoserializer.buffer.max", "500m")\
     .getOrCreate()
 ```
