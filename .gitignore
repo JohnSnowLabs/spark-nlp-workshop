@@ -6,7 +6,7 @@ tutorials/Certification_Trainings/Healthcare/workshop_license_keys.json
 tutorials/Certification_Trainings/Healthcare/Spark NLP Healthcare Training - August 2020.pdf
 #tutorials/Certification_Trainings/Healthcare/Spark NLP Healthcare Training - May 2020.pdf
 tutorials/Certification_Trainings/Healthcare/temp/
-tutorials/assets/
+tutorials/assets
 # Created by https://www.gitignore.io/api/sbt,java,scala,python,eclipse,intellij,intellij+all
 
 ### Eclipse ###
