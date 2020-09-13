@@ -1,5 +1,7 @@
 # Spark-NLP Tutorials
 
+If you are new to Spark NLP, we suggest that you start with **Certification_Trainings** folder in which you can find the most recent notebooks that we use during our online trainings and workshops.
+
 ## Spark NLP Instructions
 
 ### Pip
@@ -7,7 +9,7 @@
 If you installed pyspark through pip, you can install `spark-nlp` through pip as well.
 
 ```bash
-pip install spark-nlp==2.5.5
+pip install spark-nlp==2.6.0
 ```
 
 PyPI [spark-nlp package](https://pypi.org/project/spark-nlp/)
@@ -26,12 +28,13 @@ Then you'll have to create a SparkSession manually, for example:
 
 ```bash
 spark = SparkSession.builder \
-    .appName("ner")\
-    .master("local[*]")\
-    .config("spark.driver.memory","6G")\
-    .config("spark.driver.maxResultSize", "2G") \
-    .config("spark.jars.packages", "JohnSnowLabs:spark-nlp:2.5.5")\
-    .config("spark.kryoserializer.buffer.max", "500m")\
+    .appName("Spark NLP") \
+    .master("local[8]") \
+    .config("spark.driver.memory","6G") \
+    .config("spark.driver.maxResultSize", "1G") \
+    .config("spark.serializer", "org.apache.spark.serializer.KryoSerializer") \
+    .config("spark.kryoserializer.buffer.max", "800M")\
+    .config("spark.jars.packages", 'com.johnsnowlabs.nlp:spark-nlp_2.11:2.6.0') \
     .getOrCreate()
 ```
 
