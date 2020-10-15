@@ -10,7 +10,7 @@ def get_color():
 from spacy import displacy
 
 
-def show_html_spacy(annotated_text, entity_column):
+def chunk_highlighter (annotated_text, entity_column='ner_chunk'):
 
     label_list = []
     sent_dict_list = []
@@ -41,7 +41,7 @@ def show_html_spacy(annotated_text, entity_column):
     return html_text
 
 
-def get_NER_html (light_data):
+def token_highlighter (light_data):
     
     html_output=''
     
