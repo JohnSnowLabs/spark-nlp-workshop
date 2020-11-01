@@ -45,9 +45,7 @@ def token_highlighter (light_data):
     html_output=''
     
     label_list = list(set([i.split('-')[1] for i in light_data['ner'] if i!='O']))
-    
-    print (label_list)
-    
+        
     label_color={}
     
     for l in label_list:
