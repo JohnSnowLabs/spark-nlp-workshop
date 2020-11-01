@@ -1,4 +1,3 @@
-
 import random
 from IPython.core.display import display, HTML
 
@@ -7,10 +6,10 @@ def get_color():
     r = lambda: random.randint(100,255)
     return '#%02X%02X%02X' % (r(),r(),r())
 
-from spacy import displacy
-
 
 def chunk_highlighter (annotated_text, entity_column='ner_chunk'):
+  
+    from spacy import displacy
 
     label_list = []
     sent_dict_list = []
@@ -47,7 +46,8 @@ def token_highlighter (light_data):
     
     label_list = list(set([i.split('-')[1] for i in light_data['ner'] if i!='O']))
     
-        
+    print (label_list)
+    
     label_color={}
     
     for l in label_list:
@@ -69,14 +69,14 @@ def token_highlighter (light_data):
             html_output+=this_token + " "
         
 
-    html_output += '</div>'
-    html_output += '<div>Color codes:'
-    
-
+    html_output += '<br>'
+    html_output += '<br>Color codes:'
+    html_output += '<br>'
+        
     for l in label_list:
         
         html_output += '<SPAN style="background-color: {}">{}</SPAN>, '.format(label_color[l],l)
    
     
-    return display(HTML(html_output))
+    return html_output
     
