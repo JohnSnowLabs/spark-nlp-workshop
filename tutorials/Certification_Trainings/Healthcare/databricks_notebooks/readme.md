@@ -1,6 +1,3 @@
 
-Databricks notebooks with Spark NLP JSL 2.5.1
+Databricks Spark NLP Healthcare notebooks have been updated to latest release v2.7.0 (03.11.2020)
 
-# Warning !
-
-Please mind that the Databricks notebooks are not updated to latest release (Spark NLP JSL 2.5.5) yet, and some of the pretrained models & pipelines might be outdated. At the moment, we are doing our best to update these notebooks and finalize in a few days.
