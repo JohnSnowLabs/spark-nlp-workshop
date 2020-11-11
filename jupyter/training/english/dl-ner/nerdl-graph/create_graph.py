@@ -24,9 +24,9 @@ from ner_model_saver import NerModelSaver
 from pathlib import Path
 
 def create_graph(ntags, embeddings_dim, nchars, lstm_size = 128):
-    if sys.version_info[0] != 3 or sys.version_info[1] >= 7:
-        print('Python 3.6 or above not supported by tensorflow')
-        return
+    #if sys.version_info[0] != 3 or sys.version_info[1] >= 7:
+        #print('Python 3.6 or above not supported by tensorflow')
+        #return
     if tf.__version__ != '1.15.0':
         print('Spark NLP is compiled with TensorFlow 1.15.0, Please use such version.')
         print('Current TensorFlow version: ', tf.__version__)
