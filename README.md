@@ -13,8 +13,8 @@ Showcasing notebooks and codes of how to use Spark NLP in Python and Scala.
   * [evalulation](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/jupyter/enterprise/eval)
   * [training](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/jupyter/training)
 * [Tutorial Notebooks](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/tutorials)
-  * [Jupyter](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/tutorials/jupyter)
-  * [Colab](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/tutorials/colab) (for Google Colab)
+  * [Jupyter](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/tutorials/old_generation_notebooks/jupyter)
+  * [Colab](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/tutorials/old_generation_notebooks/colab) (for Google Colab)
 * [Databricks Notebooks](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/databricks)
 
 ## Python Setup
@@ -24,7 +24,9 @@ $ java -version
 # should be Java 8 (Oracle or OpenJDK)
 $ conda create -n sparknlp python=3.6 -y
 $ conda activate sparknlp
-$ pip install spark-nlp pyspark==2.4.4
+
+# Install Spark NLP and PySpark 2.4.x
+$ pip install spark-nlp pyspark==2.4.7
 ```
 
 ## Colab setup
@@ -32,7 +34,7 @@ $ pip install spark-nlp pyspark==2.4.4
 ```python
 import os
 
-# Install java
+# Install JDK 8
 ! apt-get update -qq
 ! apt-get install -y openjdk-8-jdk-headless -qq > /dev/null
 
@@ -40,8 +42,8 @@ os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-8-openjdk-amd64"
 os.environ["PATH"] = os.environ["JAVA_HOME"] + "/bin:" + os.environ["PATH"]
 ! java -version
 
-# Install pyspark
-! pip install -q pyspark==2.4.6
+# Install PySpark 2.4.x
+! pip install -q pyspark==2.4.7
 ! pip install -q spark-nlp
 ```
 
