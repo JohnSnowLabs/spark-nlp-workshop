@@ -9,7 +9,7 @@ If you are new to Spark NLP, we suggest that you start with **Certification_Trai
 If you installed pyspark through pip, you can install `spark-nlp` through pip as well.
 
 ```bash
-pip install spark-nlp==2.6.0
+pip install spark-nlp==2.7.1
 ```
 
 PyPI [spark-nlp package](https://pypi.org/project/spark-nlp/)
@@ -34,7 +34,7 @@ spark = SparkSession.builder \
     .config("spark.driver.maxResultSize", "1G") \
     .config("spark.serializer", "org.apache.spark.serializer.KryoSerializer") \
     .config("spark.kryoserializer.buffer.max", "800M")\
-    .config("spark.jars.packages", 'com.johnsnowlabs.nlp:spark-nlp_2.11:2.6.0') \
+    .config("spark.jars.packages", 'com.johnsnowlabs.nlp:spark-nlp_2.11:2.7.1') \
     .getOrCreate()
 ```
 
