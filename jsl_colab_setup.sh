@@ -10,6 +10,14 @@ AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
 AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
 JSL_SECRET=$SECRET
 
+while getopts p: option
+do
+ case "${option}"
+ in
+ p) PYSPARK=${OPTARG};;
+ esac
+done
+
 SPARKHOME="/content/spark-3.1.1-bin-hadoop2.7"
 
 echo "setup Colab for PySpark $PYSPARK and Spark NLP $SPARKNLP"
