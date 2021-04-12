@@ -22,29 +22,17 @@ Showcasing notebooks and codes of how to use Spark NLP in Python and Scala.
 ```bash
 $ java -version
 # should be Java 8 (Oracle or OpenJDK)
-$ conda create -n sparknlp python=3.6 -y
+$ conda create -n sparknlp python=3.7 -y
 $ conda activate sparknlp
-
-# Install Spark NLP and PySpark 2.4.x
-$ pip install spark-nlp pyspark==2.4.7
+# spark-nlp by default is based on pyspark 3.x
+$ pip install spark-nlp pyspark
 ```
 
 ## Colab setup
 
-```python
-import os
-
-# Install JDK 8
-! apt-get update -qq
-! apt-get install -y openjdk-8-jdk-headless -qq > /dev/null
-
-os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-8-openjdk-amd64"
-os.environ["PATH"] = os.environ["JAVA_HOME"] + "/bin:" + os.environ["PATH"]
-! java -version
-
-# Install PySpark 2.4.x
-! pip install -q pyspark==2.4.7
-! pip install -q spark-nlp
+```sh
+# This is only to setup PySpark and Spark NLP on Colab
+!wget http://setup.johnsnowlabs.com/colab.sh -O - | bash
 ```
 
 ## Main repository
