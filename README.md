@@ -2,7 +2,7 @@
 
 # Spark NLP Workshop
 
-[![Build Status](https://travis-ci.org/JohnSnowLabs/spark-nlp.svg?branch=master)](https://travis-ci.org/JohnSnowLabs/spark-nlp) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.johnsnowlabs.nlp/spark-nlp_2.11/badge.svg)](https://search.maven.org/artifact/com.johnsnowlabs.nlp/spark-nlp_2.11) [![PyPI version](https://badge.fury.io/py/spark-nlp.svg)](https://badge.fury.io/py/spark-nlp) [![Anaconda-Cloud](https://anaconda.org/johnsnowlabs/spark-nlp/badges/version.svg)](https://anaconda.org/JohnSnowLabs/spark-nlp) [![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://github.com/JohnSnowLabs/spark-nlp/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/JohnSnowLabs/spark-nlp.svg?branch=master)](https://travis-ci.org/JohnSnowLabs/spark-nlp) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.johnsnowlabs.nlp/spark-nlp_2.12/badge.svg)](https://search.maven.org/artifact/com.johnsnowlabs.nlp/spark-nlp_2.12) [![PyPI version](https://badge.fury.io/py/spark-nlp.svg)](https://badge.fury.io/py/spark-nlp) [![Anaconda-Cloud](https://anaconda.org/johnsnowlabs/spark-nlp/badges/version.svg)](https://anaconda.org/JohnSnowLabs/spark-nlp) [![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://github.com/JohnSnowLabs/spark-nlp/blob/master/LICENSE)
 
 Showcasing notebooks and codes of how to use Spark NLP in Python and Scala.
 
@@ -22,29 +22,17 @@ Showcasing notebooks and codes of how to use Spark NLP in Python and Scala.
 ```bash
 $ java -version
 # should be Java 8 (Oracle or OpenJDK)
-$ conda create -n sparknlp python=3.6 -y
+$ conda create -n sparknlp python=3.7 -y
 $ conda activate sparknlp
-
-# Install Spark NLP and PySpark 2.4.x
-$ pip install spark-nlp pyspark==2.4.7
+# spark-nlp by default is based on pyspark 3.x
+$ pip install spark-nlp pyspark
 ```
 
 ## Colab setup
 
-```python
-import os
-
-# Install JDK 8
-! apt-get update -qq
-! apt-get install -y openjdk-8-jdk-headless -qq > /dev/null
-
-os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-8-openjdk-amd64"
-os.environ["PATH"] = os.environ["JAVA_HOME"] + "/bin:" + os.environ["PATH"]
-! java -version
-
-# Install PySpark 2.4.x
-! pip install -q pyspark==2.4.7
-! pip install -q spark-nlp
+```sh
+# This is only to setup PySpark and Spark NLP on Colab
+!wget http://setup.johnsnowlabs.com/colab.sh -O - | bash
 ```
 
 ## Main repository
