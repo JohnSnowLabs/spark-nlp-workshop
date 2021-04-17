@@ -21,7 +21,7 @@ Note: You can import these notebooks by using their URLs.
 4- From the Source drop-down menu, select **Maven Coordinate:**
 ![Databricks](https://databricks.com/wp-content/uploads/2015/07/select-maven-1024x711.png)
 
-5- Now, all available **Maven** are at your fingertips! Just search for **com.johnsnowlabs.nlp:spark-nlp_2.11: 2.4.5**
+5- Now, all available **Maven** are at your fingertips! Just search for **com.johnsnowlabs.nlp:spark-nlp_2.12: 3.0.1**
 
 6- Select **spark-nlp** package and we are good to go!
 
@@ -31,11 +31,18 @@ More info about how to use 3rd [Party Libraries in Databricks](https://databrick
 
 Spark NLP 2.4.5 has been tested and is compatible with the following runtimes:
 
-* 6.2
-* 6.2 ML
-* 6.3
-* 6.3 ML
-* 6.4
-* 6.4 ML
-* 6.5
-* 6.5 ML
+- 5.5 LTS
+- 5.5 LTS ML & GPU
+- 6.4
+- 6.4 ML & GPU
+- 7.3
+- 7.3 ML & GPU
+- 7.4
+- 7.4 ML & GPU
+- 7.5
+- 7.5 ML & GPU
+- 7.6
+- 7.6 ML & GPU
+- 8.0
+- 8.0 ML
+- 8.1
