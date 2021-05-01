@@ -38,9 +38,10 @@ Before running these notebooks in your Databricks cluster, please make sure that
  - Install New -> Maven -> Coordinates -> `com.johnsnowlabs.nlp:spark-nlp_2.12:3.0.2` -> Install
 
  - add following jars for the Healthcare library that you downloaded above:
-        - Install New -> Python Whl -> upload `spark_nlp_jsl-3.0.2-py3-none-any.whl`
+ 
+  - Install New -> Python Whl -> upload `spark_nlp_jsl-3.0.2-py3-none-any.whl`
 
-        - Install New -> Jar -> upload `spark-nlp-jsl-3.0.2.jar`
+  - Install New -> Jar -> upload `spark-nlp-jsl-3.0.2.jar`
 
 5. Now you can attach your notebook to the cluster and use Spark NLP!
 
