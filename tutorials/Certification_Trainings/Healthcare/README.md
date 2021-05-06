@@ -1,4 +1,4 @@
-# Spark-NLP for Healthcare Data Scientists 
+# Spark-NLP for Healthcare
 
 ## Biomedical & Clinical NER Models Benchmarks/ Rankings
 
