@@ -1,6 +1,6 @@
 # Spark-NLP for Healthcare Data Scientists 
 
-## Biomedical & CLinical NER Models Benchmarks/ Rankings
+## Biomedical & Clinical NER Models Benchmarks/ Rankings
 
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-on-anatem)](https://paperswithcode.com/sota/named-entity-recognition-on-anatem?p=biomedical-named-entity-recognition-at-scale)
