@@ -26,26 +26,26 @@ Before running these notebooks in your Databricks cluster, please make sure that
 
 3. Download the followings with AWS CLI to your local computer
 
-    `$ aws s3 cp --region us-east-2 s3://pypi.johnsnowlabs.com/$jsl_secret/spark-nlp-jsl-2.7.0.jar spark-nlp-jsl-2.7.0.jar`
+    `$ aws s3 cp --region us-east-2 s3://pypi.johnsnowlabs.com/$jsl_secret/spark-nlp-jsl-3.0.2.jar spark-nlp-jsl-3.0.2.jar`
 
-    `$ aws s3 cp --region us-east-2 s3://pypi.johnsnowlabs.com/$jsl_secret/spark-nlp-jsl/spark_nlp_jsl-2.7.0-py3-none-any.whl spark_nlp_jsl-2.7.0-py3-none-any.whl`
+    `$ aws s3 cp --region us-east-2 s3://pypi.johnsnowlabs.com/$jsl_secret/spark-nlp-jsl/spark_nlp_jsl-3.0.2-py3-none-any.whl spark_nlp_jsl-3.0.2-py3-none-any.whl`
 
 4. In `Libraries` tab inside your cluster:
 
- - Install New -> PyPI -> `spark-nlp==2.6.5` -> Install
- - Install New -> Maven -> Coordinates -> `com.johnsnowlabs.nlp:spark-nlp_2.11:2.6.5` -> Install
+ - Install New -> PyPI -> `spark-nlp==3.0.2` -> Install
+ - Install New -> Maven -> Coordinates -> `com.johnsnowlabs.nlp:spark-nlp_2.12:3.0.2` -> Install
 
- - add following jars:
-        - Install New -> Python Whl -> upload `spark_nlp_jsl-2.7.0-py3-none-any.whl`
+ - add following jars for the Healthcare library that you downloaded above:
+        - Install New -> Python Whl -> upload `spark_nlp_jsl-3.0.2-py3-none-any.whl`
 
-        - Install New -> Jar -> upload `spark-nlp-jsl-2.7.0.jar`
+        - Install New -> Jar -> upload `spark-nlp-jsl-3.0.2.jar`
 
 5. Now you can attach your notebook to the cluster and use Spark NLP!
 
-For more information, see 
+For more information, see
 
   https://nlp.johnsnowlabs.com/docs/en/install#databricks-support
 
   https://nlp.johnsnowlabs.com/docs/en/licensed_install#install-spark-nlp-for-healthcare-on-databricks
-  
-The follwing notebook is prepared and tested on **r2.2xlarge at 6.4 (includes Apache Spark 2.4.4, Scala 2.11)** on Databricks
+
+The following notebooks are prepared and tested on **r2.2xlarge at 8.0 (includes Apache Spark 3.1.1, Scala 2.12)** on Databricks
