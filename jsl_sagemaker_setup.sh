@@ -3,10 +3,6 @@
 
 PYSPARK="3.1.1"
 SPARKNLP="3.0.3"
-wget 
-#must have spark_nlp_for_healthcare.json in the same folder
-python3 set_env.py
-
 SPARKHOME="/home/ec2-user/SageMaker/spark-3.1.1-bin-hadoop2.7"
 
 echo "setup SageMaker for PySpark $PYSPARK and Spark NLP $SPARKNLP"
