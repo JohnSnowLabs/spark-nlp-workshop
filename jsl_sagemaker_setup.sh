@@ -28,8 +28,8 @@ else
 fi
 
 export SPARK_HOME=$SPARKHOME
-export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
 
 # Install pyspark spark-nlp
 ! pip install --upgrade -q pyspark==$PYSPARK spark-nlp==$SPARKNLP findspark
-! pip install --upgrade -q spark-nlp-jsl==$SPARKNLP_JSL  --extra-index-url https://pypi.johnsnowlabs.com/$JSL_SECRET
+! pip install --upgrade -q spark-nlp-jsl==$JSL_VERSION  --extra-index-url https://pypi.johnsnowlabs.com/$SECRET
+
