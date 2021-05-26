@@ -10,9 +10,8 @@ python3 set_env.py
 SPARKHOME="/home/ec2-user/SageMaker/spark-3.1.1-bin-hadoop2.7"
 
 echo "setup SageMaker for PySpark $PYSPARK and Spark NLP $SPARKNLP"
-apt-get update
-apt-get purge -y openjdk-11* -qq > /dev/null && sudo apt-get autoremove -y -qq > /dev/null
-apt-get install -y openjdk-8-jdk-headless -qq > /dev/null
+JAVA_8=$(alternatives --display java | grep 'jre-1.8.0-openjdk.x86_64/bin/java'| cut -d' ' -f1)
+sudo alternatives --set java $JAVA_8
 
 if [[ "$PYSPARK" == "3.1"* ]]; then
   wget -q "https://downloads.apache.org/spark/spark-3.1.1/spark-3.1.1-bin-hadoop2.7.tgz" > /dev/null
