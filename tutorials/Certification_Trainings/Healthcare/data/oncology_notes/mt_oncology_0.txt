@@ -52,5 +52,3 @@ DISCHARGE MEDICATIONS:
 Zofran, Phenergan, Coumadin, and Lovenox, and Vicodin
 DISCHARGE INSTRUCTIONS:
 She was instructed to followup with Dr. XYZ in the office to check her INR on Tuesday. She was instructed to call if she had any other questions or concerns in the interim.
-Keywords:
-hematology - oncology, mesothelioma, pleural effusion, atrial fibrillation, anemia, ascites, esophageal reflux, deep venous thrombosis, port-a-cath placement, port a cath, iv piggyback, venous thrombosis, atrial, thrombosis, pericardial, lymphadenopathy, fluid, pericardectomy, chest, pleural,
