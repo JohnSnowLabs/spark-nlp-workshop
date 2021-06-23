@@ -1,0 +1,54 @@
+Sample Type / Medical Specialty:
+Hematology - Oncology
+Sample Name:
+Discharge Summary - Mesothelioma - 1
+Description:
+Mesothelioma, pleural effusion, atrial fibrillation, anemia, ascites, esophageal reflux, and history of deep venous thrombosis.
+(Medical Transcription Sample Report)
+PRINCIPAL DIAGNOSIS:
+Mesothelioma.
+SECONDARY DIAGNOSES:
+Pleural effusion, atrial fibrillation, anemia, ascites, esophageal reflux, and history of deep venous thrombosis.
+PROCEDURES
+1. On August 24, 2007, decortication of the lung with pleural biopsy and transpleural fluoroscopy.
+2. On August 20, 2007, thoracentesis.
+3. On August 31, 2007, Port-A-Cath placement.
+HISTORY AND PHYSICAL:
+The patient is a 41-year-old Vietnamese female with a nonproductive cough that started last week. She has had right-sided chest pain radiating to her back with fever starting yesterday. She has a history of pericarditis and pericardectomy in May 2006 and developed cough with right-sided chest pain, and went to an urgent care center. Chest x-ray revealed right-sided pleural effusion.
+PAST MEDICAL HISTORY
+1. Pericardectomy.
+2. Pericarditis.
+2. Atrial fibrillation.
+4. RNCA with intracranial thrombolytic treatment.
+5 PTA of MCA.
+6. Mesenteric venous thrombosis.
+7. Pericardial window.
+8. Cholecystectomy.
+9. Left thoracentesis.
+FAMILY HISTORY:
+No family history of coronary artery disease, CVA, diabetes, CHF or MI. The patient has one family member, a sister, with history of cancer.
+SOCIAL HISTORY:
+She is married. Employed with the US Post Office. She is a mother of three. Denies tobacco, alcohol or illicit drug use.
+MEDICATIONS
+1. Coumadin 1 mg daily. Last INR was on Tuesday, August 14, 2007, and her INR was 2.3.
+2. Amiodarone 100 mg p.o. daily.
+REVIEW OF SYSTEMS:
+Complete review of systems negative except as in pulmonary as noted above. The patient also reports occasional numbness and tingling of her left arm.
+PHYSICAL EXAMINATION
+VITAL SIGNS: Blood pressure 123/95, heart rate 83, respirations 20, temperature 97, and oxygen saturation 97%.
+GENERAL: Positive nonproductive cough and pain with coughing.
+HEENT: Pupils are equal and reactive to light and accommodation. Tympanic membranes are clear.
+NECK: Supple. No lymphadenopathy. No masses.
+RESPIRATORY: Pleural friction rub is noted.
+GI: Soft, nondistended, and nontender. Positive bowel sounds. No organomegaly.
+EXTREMITIES: No edema, no clubbing, no cyanosis, no tenderness. Full range of motion. Normal pulses in all extremities.
+SKIN: No breakdown or lesions. No ulcers.
+NEUROLOGIC: Grossly intact. No focal deficits. Awake, alert, and oriented to person, place, and time.
+LABORATORY DATA:
+Labs are pending.
+HOSPITAL COURSE:
+The patient was admitted for a right-sided pleural effusion for thoracentesis on Monday by Dr. X. Her Coumadin was placed on hold. A repeat echocardiogram was checked. She was started on prophylaxis for DVT with Lovenox 40 mg subcutaneously. Her history dated back to March 2005 when she first sought medical attention for evidence of pericarditis, which was treated with pericardial window in an outside hospital, at that time she was also found to have mesenteric pain and thrombosis, is now anticoagulated. Her pericardial fluid was accumulated and she was seen by Dr. Y. At that time, she was recommended for pericardectomy, which was performed by Dr. Z. Review of her CT scan from March 2006 prior to her pericardectomy, already shows bilateral plural effusions. The patient improved clinically after the pericardectomy with resolution of her symptoms. Recently, she was readmitted to the hospital with chest pain and found to have bilateral pleural effusion, the right greater than the left. CT of the chest also revealed a large mediastinal lymph node. We reviewed the pathology obtained from the pericardectomy in March 2006, which was diagnostic of mesothelioma. At this time, chest tube placement for drainage of the fluid occurred and thoracoscopy with fluid biopsies, which were performed, which revealed epithelioid malignant mesothelioma. The patient was then stained with a PET CT, which showed extensive uptake in the chest, bilateral pleural pericardial effusions, and lymphadenopathy. She also had acidic fluid, pectoral and intramammary lymph nodes and uptake in L4 with SUV of 4. This was consistent with stage III disease. Her repeat echocardiogram showed an ejection fraction of 45% to 49%. She was transferred to Oncology service and started on chemotherapy on September 1, 2007 with cisplatin 75 mg/centimeter squared equaling 109 mg IV piggyback over 2 hours on September 1, 2007, Alimta 500 mg/ centimeter squared equaling 730 mg IV piggyback over 10 minutes. This was all initiated after a Port-A-Cath was placed. The chemotherapy was well tolerated and the patient was discharged the following day after discontinuing IV fluid and IV. Her Port-A-Cath was packed with heparin according to protocol.
+DISCHARGE MEDICATIONS:
+Zofran, Phenergan, Coumadin, and Lovenox, and Vicodin
+DISCHARGE INSTRUCTIONS:
+She was instructed to followup with Dr. XYZ in the office to check her INR on Tuesday. She was instructed to call if she had any other questions or concerns in the interim.
