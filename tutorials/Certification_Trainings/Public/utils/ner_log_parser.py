@@ -63,7 +63,27 @@ def get_charts (log_file, threshold=0.0):
                 cdf.plot(x="epoch", ax=axs[i][j])
         except:
             pass
+
+
+def loss_plot(log_path) :
+    with open(log_path, "r", encoding="utf-8") as f :
+        lines = f.readlines()
+
+    loss = [line.split()[6] for line in lines if line.startswith("Epoch") and line.split()[6] != "size:"]
+
+    
+    epoch = []
+    losses = []
+    for x, y in enumerate(loss, 1):
+        epoch.append(x)
+        losses.append(float(y))
         
+    plt.subplots(1,1, figsize=(8,8))
+    plt.ylabel('Loss')
+    plt.xlabel('Epochs')
+    plt.title('Loss Plot')
+    plt.plot(epoch[::-1], losses[::-1])
+    plt.show()
 # how to run
 
 # get_charts("i2b2_ner_logs_combinedData_e8.txt")
