@@ -61,6 +61,12 @@ streamlit run https://raw.githubusercontent.com/JohnSnowLabs/nlu/master/examples
 streamlit run https://raw.githubusercontent.com/JohnSnowLabs/nlu/master/examples/streamlit/06_token_features.py
 ```
 
+### Example:  [`07_token_embedding_dimension_reduction`](https://raw.githubusercontent.com/JohnSnowLabs/nlu/master/examples/streamlit/07_token_embedding_manifolds)
+```shell
+streamlit run https://raw.githubusercontent.com/JohnSnowLabs/nlu/master/examples/streamlit/07_token_embedding_manifolds.py
+```
+
+
 ## How to use NLU?
 All you need to know about NLU is that there is the [`nlu.load()`](https://nlu.johnsnowlabs.com/docs/en/load_api) method which returns a `NLUPipeline` object
 which has a [`.predict()`](https://nlu.johnsnowlabs.com/docs/en/predict_api) that works on most [common data types in the pydata stack like Pandas dataframes](https://nlu.johnsnowlabs.com/docs/en/predict_api#supported-data-types) .     
@@ -330,7 +336,7 @@ Additionally, you can color the lower dimensional points with a label that has b
 nlu.load('bert',verbose=True).viz_streamlit_word_embed_manifold(default_texts=THE_MATRIX_ARCHITECT_SCRIPT.split('\n'),default_algos_to_apply=['TSNE'],MAX_DISPLAY_NUM=5)
 ```
 
-<img  src="https://github.com/JohnSnowLabs/nlu/blob/3.1.0rc1/docs/assets/streamlit_docs_assets/gif/word_embed_dimension_reduction/manifold_intro.gif?raw=true">
+<img  src="https://github.com/JohnSnowLabs/nlu/blob/master/docs/assets/streamlit_docs_assets/gif/word_embed_dimension_reduction/manifold_intro.gif?raw=true">
 
 
 
@@ -361,7 +367,7 @@ nlu.load('bert',verbose=True).viz_streamlit_word_embed_manifold(default_texts=TH
 
 ### Larger Example showcasing more dimension reduction techniques on a larger corpus :
 
-<img  src="https://github.com/JohnSnowLabs/nlu/blob/3.1.0rc1/docs/assets/streamlit_docs_assets/gif/word_embed_dimension_reduction/big_example_word_embedding_dimension_reduction.gif?raw=true">
+<img  src="https://github.com/JohnSnowLabs/nlu/blob/master/docs/assets/streamlit_docs_assets/gif/word_embed_dimension_reduction/big_example_word_embedding_dimension_reduction.gif?raw=true">
 
 
 ### [Supported Manifold Algorithms ](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.manifold)
