@@ -1,7 +1,6 @@
 #!/bin/bash
-SPARKHOME="/home/ec2-user/SageMaker/spark-3.1.1-bin-hadoop2.7"
 
-echo "setup SageMaker for PySpark $PYSPARK and Spark NLP $SPARKNLP"
+echo "setup SageMaker for PySpark $PYSPARK and Spark NLP $PUBLIC_VERSION"
 JAVA_8=$(alternatives --display java | grep 'jre-1.8.0-openjdk.x86_64/bin/java'| cut -d' ' -f1)
 sudo alternatives --set java $JAVA_8
 
