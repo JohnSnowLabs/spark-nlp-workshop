@@ -1,5 +1,4 @@
 #!/bin/bash
-PYSPARK="3.1.1"
 SPARKHOME="/home/ec2-user/SageMaker/spark-3.1.1-bin-hadoop2.7"
 
 echo "setup SageMaker for PySpark $PYSPARK and Spark NLP $SPARKNLP"
