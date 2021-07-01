@@ -1,8 +1,5 @@
 #!/bin/bash
-
-
 PYSPARK="3.1.1"
-SPARKNLP="3.0.3"
 SPARKHOME="/home/ec2-user/SageMaker/spark-3.1.1-bin-hadoop2.7"
 
 echo "setup SageMaker for PySpark $PYSPARK and Spark NLP $SPARKNLP"
@@ -30,6 +27,6 @@ fi
 export SPARK_HOME=$SPARKHOME
 
 # Install pyspark spark-nlp
-! pip install --upgrade -q pyspark==$PYSPARK spark-nlp==$SPARKNLP findspark
+! pip install --upgrade -q pyspark==$PYSPARK spark-nlp==$PUBLIC_VERSION findspark
 ! pip install --upgrade -q spark-nlp-jsl==$JSL_VERSION  --extra-index-url https://pypi.johnsnowlabs.com/$SECRET
 
