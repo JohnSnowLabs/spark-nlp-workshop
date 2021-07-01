@@ -1,50 +1,73 @@
-object NerChunkerFiltererExample extends App{
+import AssertionDLApproachExample.spark
+import com.johnsnowlabs.nlp.{DocumentAssembler, RecursivePipeline}
+import com.johnsnowlabs.nlp.annotator.{NerDLModel, SentenceDetector, WordEmbeddingsModel}
+import com.johnsnowlabs.nlp.annotators.Tokenizer
+import com.johnsnowlabs.nlp.annotators.ner.NerChunker
+import com.johnsnowlabs.nlp.util.io.ResourceHelper
+import org.apache.spark.sql.SparkSession
 
-        val data=ResourceHelper.spark.createDataFrame(Seq(Tuple1("My name  Andres and I live in Colombia"))).toDF("text")
+object NerChunkerFiltererExample extends App {
 
-        val documentAssembler=new DocumentAssembler()
-        .setInputCol("text")
-        .setOutputCol("document")
+  val spark: SparkSession = SparkSession
+    .builder()
+    .appName("test")
+    .master("local[*]")
+    .config("spark.driver.memory", "6G")
+    .config("spark.kryoserializer.buffer.max", "1G")
+    .config("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
+    .getOrCreate()
 
-        val sentenceDetector=new SentenceDetector()
-        .setInputCols("document")
-        .setOutputCol("sentence")
-        .setUseAbbreviations(false)
+  import spark.implicits._
 
-        val tokenizer=new Tokenizer()
-        .setInputCols(Array("sentence"))
-        .setOutputCol("token")
-
-        val embeddings=WordEmbeddingsModel.pretrained()
-        .setInputCols("sentence","token")
-        .setOutputCol("embeddings")
-        .setCaseSensitive(false)
-
-        val ner=NerDLModel.pretrained()
-        .setInputCols("sentence","token","embeddings")
-        .setOutputCol("ner")
-        .setIncludeConfidence(true)
-        ner.getClasses
-
-        val chunker=new NerChunker()
-        .setInputCols(Array("sentence","ner"))
-        .setOutputCol("ner_chunk")
-        .setRegexParsers(Array("<PER>.*<LOC>"))
+  implicit val session = spark
 
 
-        val recursivePipeline=new RecursivePipeline()
-        .setStages(Array(
-        documentAssembler,
-        sentenceDetector,
-        tokenizer,
-        embeddings,
-        ner,
-        chunker
-        ))
+  val data = ResourceHelper.spark.createDataFrame(Seq(Tuple1("My name  Andres and I live in Colombia"))).toDF("text")
 
-        val nermodel=recursivePipeline.fit(data).transform(data)
+  val documentAssembler = new DocumentAssembler()
+    .setInputCol("text")
+    .setOutputCol("document")
+
+  val sentenceDetector = new SentenceDetector()
+    .setInputCols("document")
+    .setOutputCol("sentence")
+    .setUseAbbreviations(false)
+
+  val tokenizer = new Tokenizer()
+    .setInputCols(Array("sentence"))
+    .setOutputCol("token")
+
+  val embeddings = WordEmbeddingsModel.pretrained()
+    .setInputCols("sentence", "token")
+    .setOutputCol("embeddings")
+    .setCaseSensitive(false)
+
+  val ner = NerDLModel.pretrained()
+    .setInputCols("sentence", "token", "embeddings")
+    .setOutputCol("ner")
+    .setIncludeConfidence(true)
+  ner.getClasses
+
+  val chunker = new NerChunker()
+    .setInputCols(Array("sentence", "ner"))
+    .setOutputCol("ner_chunk")
+    .setRegexParsers(Array("<PER>.*<LOC>"))
 
 
-        val dataframe=nermodel.select("ner_chunk.result")
-        dataframe.show(truncate=false)
-        }
+  val recursivePipeline = new RecursivePipeline()
+    .setStages(Array(
+      documentAssembler,
+      sentenceDetector,
+      tokenizer,
+      embeddings,
+      ner,
+      chunker
+    ))
+
+  val nermodel = recursivePipeline.fit(data).transform(data)
+
+
+  val dataframe = nermodel.select("ner_chunk.result")
+  dataframe.show(truncate = false)
+  spark.stop
+}
