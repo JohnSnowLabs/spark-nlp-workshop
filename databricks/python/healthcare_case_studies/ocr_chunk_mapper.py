@@ -143,3 +143,34 @@ def draw_comparisons(img_pil_orig, img_pil_deid, coord_df):
     plt.imshow(img_pil_deid, cmap='gray')
     plt.title("de-id'd")
     plt.show()
+
+    
+def display_deid_images(ocr_result, coord_df, raw_image, corrected_image):
+    import matplotlib.pyplot as plt
+    from IPython.display import Image 
+    from PIL import Image, ImageFont, ImageDraw, ImageEnhance
+
+    img_deid = ocr_result.select(raw_image).take(1)[0][0]
+
+    img_pil_orig = to_pil_image(img_deid, img_deid.mode)
+
+    img_deid = ocr_result.select(corrected_image).take(1)[0][0]
+
+    img_pil_deid = to_pil_image(img_deid, img_deid.mode)
+
+    draw = ImageDraw.Draw(img_pil_deid)
+
+    for i,row in coord_df.iterrows():
+
+        point = row['coord']
+
+        draw.rectangle((row['coord'][:2], row['coord'][2:]), fill="black")
+
+    plt.figure(figsize=(24,16))
+    plt.subplot(1, 2, 1)
+    plt.imshow(img_pil_orig, cmap='gray')
+    plt.title('original')
+    plt.subplot(1, 2, 2)
+    plt.imshow(img_pil_deid, cmap='gray')
+    plt.title("de-identified image")
+    plt.show()
