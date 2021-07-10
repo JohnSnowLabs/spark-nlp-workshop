@@ -3,7 +3,6 @@ import pandas as pd
 import xml.etree.ElementTree as ET
 from lxml import etree
 
-
 def hocr_to_dataframe(hocr):
 
     with open ("demo_hocr_content.xml",'w',encoding='utf-8') as f:
@@ -144,11 +143,13 @@ def draw_comparisons(img_pil_orig, img_pil_deid, coord_df):
     plt.title("de-id'd")
     plt.show()
 
-    
+from sparkocr.utils import to_pil_image
+import matplotlib.pyplot as plt
+from IPython.display import Image 
+from PIL import Image, ImageFont, ImageDraw, ImageEnhance
+
 def display_deid_images(ocr_result, coord_df, raw_image, corrected_image):
-    import matplotlib.pyplot as plt
-    from IPython.display import Image 
-    from PIL import Image, ImageFont, ImageDraw, ImageEnhance
+    
 
     img_deid = ocr_result.select(raw_image).take(1)[0][0]
 
