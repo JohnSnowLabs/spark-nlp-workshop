@@ -148,14 +148,14 @@ import matplotlib.pyplot as plt
 from IPython.display import Image 
 from PIL import Image, ImageFont, ImageDraw, ImageEnhance
 
-def display_deid_images(ocr_result, coord_df, raw_image, corrected_image):
+def display_deid_images(ocr_result, coord_df, raw_image, corrected_image, row):
     
 
-    img_deid = ocr_result.select(raw_image).take(1)[0][0]
+    img_deid = ocr_result.select(raw_image).take(row+1)[-1][0]
 
     img_pil_orig = to_pil_image(img_deid, img_deid.mode)
 
-    img_deid = ocr_result.select(corrected_image).take(1)[0][0]
+    img_deid = ocr_result.select(corrected_image).take()[row+1][0]
 
     img_pil_deid = to_pil_image(img_deid, img_deid.mode)
 
