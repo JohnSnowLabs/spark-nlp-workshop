@@ -1,1 +1,1 @@
-### moved to https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/tutorials/Certification_Trainings/Healthcare 
+### For the other detailed examples, case studies and modules in Spark NLP for Healthcare, go to https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/tutorials/Certification_Trainings/Healthcare 
