@@ -2,7 +2,7 @@
 
 #default values for pyspark, spark-nlp, and SPARK_HOME
 
-PYSPARK="3.1.1"
+PYSPARK="3.0.2"
 SPARKNLP=$PUBLIC_VERSION
 SPARKNLP_JSL=$JSL_VERSION
 SPARK_NLP_LICENSE=$SPARK_NLP_LICENSE
@@ -49,5 +49,6 @@ export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
 # Install pyspark spark-nlp
 ! pip install implicits
 ! pip install --upgrade -q pyspark==$PYSPARK spark-nlp==$SPARKNLP findspark
+! pip install --upgrade -q spark-nlp-jsl==$SPARKNLP_JSL  --extra-index-url https://pypi.johnsnowlabs.com/$JSL_SECRET
 ! pip install spark-ocr==$OCR_VERSION --user --extra-index-url=https://pypi.johnsnowlabs.com/$JSL_OCR_SECRET --upgrade --no-deps
 
