@@ -31,40 +31,6 @@ print ("Spark NLP Version :", sparknlp.version())
 print ("Spark NLP_JSL Version :", sparknlp_jsl.version())
 
 
-# customize here (add & remove ner models)
-
-if not st.sidebar.checkbox('with BioBert Embeddings'):
-  emb = 'clinical'
-  try:
-    with open ('/content/clinical_ner_model_list.txt','r') as f:
-
-      ner_models = [x.strip() for x in f.readlines()]
-  except:
-    ner_models = ['ner_clinical','ner_clinical_large','ner_jsl','ner_jsl_greedy',
-                'ner_deid_generic_augmented','ner_deid_subentity_augmented',
-                'ner_posology','ner_posology_greedy','ner_anatomy_coarse']
-else:
-  emb = 'biobert'
-  try:
-    with open ('/content/biobert_ner_model_list.txt','r') as f:
-
-      ner_models = [x.strip() for x in f.readlines()]
-  except:
-    
-    ner_models = ['ner_anatomy_coarse_biobert',
-      'ner_ade_biobert',
-      'ner_anatomy_biobert',
-      'ner_bionlp_biobert',
-      'ner_deid_biobert',
-      'ner_deid_enriched_biobert',
-      'ner_diseases_biobert',
-      'ner_human_phenotype_gene_biobert',
-      'ner_jsl_biobert',
-      'ner_posology_biobert',
-      'ner_posology_large_biobert',
-      'ner_risk_factors_biobert']
-
-
 @st.cache(allow_output_mutation=True, suppress_st_warning=True)
 def load_sparknlp_models():
 
@@ -141,6 +107,39 @@ else:
   model_dict = model_dict_2
 
 
+# customize here (add & remove ner models)
+
+if not st.sidebar.checkbox('with BioBert Embeddings'):
+  emb = 'clinical'
+  try:
+    with open ('/content/clinical_ner_model_list.txt','r') as f:
+
+      ner_models = [x.strip() for x in f.readlines()]
+  except:
+    ner_models = ['ner_clinical','ner_clinical_large','ner_jsl','ner_jsl_greedy',
+                'ner_deid_generic_augmented','ner_deid_subentity_augmented',
+                'ner_posology','ner_posology_greedy','ner_anatomy_coarse']
+else:
+  emb = 'biobert'
+  try:
+    with open ('/content/biobert_ner_model_list.txt','r') as f:
+
+      ner_models = [x.strip() for x in f.readlines()]
+  except:
+    
+    ner_models = ['ner_anatomy_coarse_biobert',
+      'ner_ade_biobert',
+      'ner_anatomy_biobert',
+      'ner_bionlp_biobert',
+      'ner_deid_biobert',
+      'ner_deid_enriched_biobert',
+      'ner_diseases_biobert',
+      'ner_human_phenotype_gene_biobert',
+      'ner_jsl_biobert',
+      'ner_posology_biobert',
+      'ner_posology_large_biobert',
+      'ner_risk_factors_biobert']
+    
 def display_time(start_tm):
     end_tm = time.time()
     diff = end_tm - start_tm
