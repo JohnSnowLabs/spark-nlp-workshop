@@ -94,7 +94,8 @@ def load_sparknlp_models():
                             .setInputCols(["sentence","token","embeddings"])\
                             .setOutputCol("ner")
       except:
-        st.write ('model name is wrong > ', ner_model)
+        pass
+        #st.write ('model name is wrong > ', ner_model)
 
     print ('models loaded !')
 
@@ -123,7 +124,8 @@ def load_sparknlp_models_biobert():
                             .setInputCols(["sentence","token","embeddings"])\
                             .setOutputCol("ner")
       except:
-        st.write ('model name is wrong > ', ner_model)
+        pass
+        #st.write ('model name is wrong > ', ner_model)
 
     print ('models loaded !')
 
