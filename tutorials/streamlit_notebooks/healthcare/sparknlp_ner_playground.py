@@ -97,8 +97,27 @@ def load_sparknlp_models_biobert():
 
     return model_dict
 
+import subprocess
+
+subprocess.run(["wget", "https://nlp.johnsnowlabs.com/models.json"])
+
+with open('/content/models.json') as f:
+  model_master_list = json.load(f)
+
+# customize here (add & remove ner models)
+
+if not st.sidebar.checkbox('with BioBert Embeddings'):
+  emb = 'clinical'
+
+  ner_models = list(set([x['name'] for x in model_master_list if x['task']=="Named Entity Recognition" and x['edition'].startswith('Spark NLP for Healthcare') and 'biobert' not in x['name'] and 'healthcare' not in x['name'] and x['edition'].split()[-1]>='3.0']))
+
+else:
+  emb = 'biobert'
+
+  ner_models = list(set([x['name'] for x in model_master_list if x['task']=="Named Entity Recognition" and x['edition'].startswith('Spark NLP for Healthcare') and 'biobert' in x['name'] and x['edition'].split()[-1]>='3.0']))
 
 
+'''
 # customize here (add & remove ner models)
 
 if not st.sidebar.checkbox('with BioBert Embeddings'):
@@ -132,7 +151,7 @@ else:
       'ner_posology_large_biobert',
       'ner_risk_factors_biobert']
 
-    
+'''    
 
 model_dict_1 = load_sparknlp_models()
 model_dict_2 = load_sparknlp_models_biobert()
