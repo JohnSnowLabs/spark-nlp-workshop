@@ -111,18 +111,13 @@ ner_models_clinical = list(set([x['name'] for x in model_master_list if x['task'
 model_dict_1 = load_sparknlp_models()
 model_dict_2 = load_sparknlp_models_biobert()
 
-# customize here (add & remove ner models)
-
-#if not st.sidebar.checkbox('with BioBert Embeddings'):
-  #emb = 'clinical'
-#else:
-  #emb = 'biobert'
-
 
 if not st.sidebar.checkbox('with BioBert Embeddings'):
+  emb = 'clinical'
   model_dict = model_dict_1
 else:
   model_dict = model_dict_2
+  emb = 'biobert'
 
 
 def display_time(start_tm):
