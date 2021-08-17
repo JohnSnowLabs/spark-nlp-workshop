@@ -117,41 +117,6 @@ else:
   ner_models = list(set([x['name'] for x in model_master_list if x['task']=="Named Entity Recognition" and x['edition'].startswith('Spark NLP for Healthcare') and 'biobert' in x['name'] and x['edition'].split()[-1]>='3.0']))
 
 
-'''
-# customize here (add & remove ner models)
-
-if not st.sidebar.checkbox('with BioBert Embeddings'):
-  emb = 'clinical'
-  try:
-    with open ('/content/clinical_ner_model_list.txt','r') as f:
-
-      ner_models = [x.strip() for x in f.readlines()]
-  except:
-    ner_models = ['ner_clinical','ner_clinical_large','ner_jsl','ner_jsl_greedy',
-                'ner_deid_generic_augmented','ner_deid_subentity_augmented',
-                'ner_posology','ner_posology_greedy','ner_anatomy_coarse']
-else:
-  emb = 'biobert'
-  try:
-    with open ('/content/biobert_ner_model_list.txt','r') as f:
-
-      ner_models = [x.strip() for x in f.readlines()]
-  except:
-    
-    ner_models = ['ner_anatomy_coarse_biobert',
-      'ner_ade_biobert',
-      'ner_anatomy_biobert',
-      'ner_bionlp_biobert',
-      'ner_deid_biobert',
-      'ner_deid_enriched_biobert',
-      'ner_diseases_biobert',
-      'ner_human_phenotype_gene_biobert',
-      'ner_jsl_biobert',
-      'ner_posology_biobert',
-      'ner_posology_large_biobert',
-      'ner_risk_factors_biobert']
-
-'''    
 
 model_dict_1 = load_sparknlp_models()
 model_dict_2 = load_sparknlp_models_biobert()
