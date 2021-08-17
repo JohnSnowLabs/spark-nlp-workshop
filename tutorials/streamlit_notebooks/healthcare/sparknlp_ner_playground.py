@@ -98,14 +98,6 @@ def load_sparknlp_models_biobert():
     return model_dict
 
 
-model_dict_1 = load_sparknlp_models()
-model_dict_2 = load_sparknlp_models_biobert()
-
-if emb=='clinical':
-  model_dict = model_dict_1
-else:
-  model_dict = model_dict_2
-
 
 # customize here (add & remove ner models)
 
@@ -139,7 +131,18 @@ else:
       'ner_posology_biobert',
       'ner_posology_large_biobert',
       'ner_risk_factors_biobert']
+
     
+
+model_dict_1 = load_sparknlp_models()
+model_dict_2 = load_sparknlp_models_biobert()
+
+if emb=='clinical':
+  model_dict = model_dict_1
+else:
+  model_dict = model_dict_2
+
+
 def display_time(start_tm):
     end_tm = time.time()
     diff = end_tm - start_tm
