@@ -65,12 +65,12 @@ Spark NLP 3.1.0 has been tested and is compatible with the following runtimes:
     spark.local.dir /var
     spark.kryoserializer.buffer.max 1000M
     spark.serializer org.apache.spark.serializer.KryoSerializer
+    sparknlp.settings.pretrained.credentials.access_key_id xxx
+    sparknlp.settings.pretrained.credentials.secret_access_key yyy
     ```
   - add the following to the `Advanced Options -> Spark` tab, in `Environment Variables` box:
 
     ```bash
-    AWS_ACCESS_KEY_ID=xxx
-    AWS_SECRET_ACCESS_KEY=yyy
     SPARK_NLP_LICENSE=zzz
     ```
 
