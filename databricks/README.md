@@ -21,7 +21,7 @@ Note: You can import these notebooks by using their URLs.
 4- From the Source drop-down menu, select **Maven Coordinate:**
 ![Databricks](https://databricks.com/wp-content/uploads/2015/07/select-maven-1024x711.png)
 
-5- Now, all available **Maven** are at your fingertips! Just search for **com.johnsnowlabs.nlp:spark-nlp_2.12: 3.1.0**
+5- Now, all available **Maven** are at your fingertips! Just search for **com.johnsnowlabs.nlp:spark-nlp_2.12: 3.X.X**
 
 6- Select **spark-nlp** package and we are good to go!
 
@@ -65,12 +65,12 @@ Spark NLP 3.1.0 has been tested and is compatible with the following runtimes:
     spark.local.dir /var
     spark.kryoserializer.buffer.max 1000M
     spark.serializer org.apache.spark.serializer.KryoSerializer
+    spark.driver.extraJavaOptions -Dspark.jsl.settings.pretrained.credentials.secret_access_key=xxx -Dspark.jsl.settings.pretrained.credentials.access_key_id=yyy
+
     ```
   - add the following to the `Advanced Options -> Spark` tab, in `Environment Variables` box:
 
     ```bash
-    AWS_ACCESS_KEY_ID=xxx
-    AWS_SECRET_ACCESS_KEY=yyy
     SPARK_NLP_LICENSE=zzz
     ```
 
