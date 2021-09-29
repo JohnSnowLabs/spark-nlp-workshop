@@ -53,7 +53,7 @@ def load_sparknlp_models():
         'embeddings_clinical':embeddings_clinical
             }
     
-    for ner_model in ner_models :
+    for ner_model in ner_models_clinical:
 
       try:
         model_dict[ner_model] = MedicalNerModel.pretrained(ner_model,"en","clinical/models")\
@@ -83,7 +83,7 @@ def load_sparknlp_models_biobert():
         'embeddings_biobert':embeddings_biobert
     }
     
-    for ner_model in ner_models :
+    for ner_model in ner_models_biobert :
 
       try:
         model_dict[ner_model] = MedicalNerModel.pretrained(ner_model,"en","clinical/models")\
@@ -97,49 +97,29 @@ def load_sparknlp_models_biobert():
 
     return model_dict
 
+import subprocess
+
+subprocess.run(["wget", "https://nlp.johnsnowlabs.com/models.json"])
+
+with open('/content/models.json') as f:
+  model_master_list = json.load(f)
+
+ner_models_biobert = list(set([x['name'] for x in model_master_list if x['task']=="Named Entity Recognition" and x['edition'].startswith('Spark NLP for Healthcare') and 'biobert' in x['name'] and x['edition'].split()[-1]>='3.0']))
+ner_models_clinical = list(set([x['name'] for x in model_master_list if x['task']=="Named Entity Recognition" and x['edition'].startswith('Spark NLP for Healthcare') and 'biobert' not in x['name'] and 'healthcare' not in x['name'] and x['edition'].split()[-1]>='3.0']))
+
 
 model_dict_1 = load_sparknlp_models()
 model_dict_2 = load_sparknlp_models_biobert()
 
-if emb=='clinical':
-  model_dict = model_dict_1
-else:
-  model_dict = model_dict_2
-
-
-# customize here (add & remove ner models)
 
 if not st.sidebar.checkbox('with BioBert Embeddings'):
   emb = 'clinical'
-  try:
-    with open ('/content/clinical_ner_model_list.txt','r') as f:
-
-      ner_models = [x.strip() for x in f.readlines()]
-  except:
-    ner_models = ['ner_clinical','ner_clinical_large','ner_jsl','ner_jsl_greedy',
-                'ner_deid_generic_augmented','ner_deid_subentity_augmented',
-                'ner_posology','ner_posology_greedy','ner_anatomy_coarse']
+  model_dict = model_dict_1
 else:
+  model_dict = model_dict_2
   emb = 'biobert'
-  try:
-    with open ('/content/biobert_ner_model_list.txt','r') as f:
 
-      ner_models = [x.strip() for x in f.readlines()]
-  except:
-    
-    ner_models = ['ner_anatomy_coarse_biobert',
-      'ner_ade_biobert',
-      'ner_anatomy_biobert',
-      'ner_bionlp_biobert',
-      'ner_deid_biobert',
-      'ner_deid_enriched_biobert',
-      'ner_diseases_biobert',
-      'ner_human_phenotype_gene_biobert',
-      'ner_jsl_biobert',
-      'ner_posology_biobert',
-      'ner_posology_large_biobert',
-      'ner_risk_factors_biobert']
-    
+
 def display_time(start_tm):
     end_tm = time.time()
     diff = end_tm - start_tm

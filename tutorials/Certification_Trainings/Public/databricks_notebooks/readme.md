@@ -29,12 +29,12 @@ You are ready to go!
     spark.local.dir /var
     spark.kryoserializer.buffer.max 1000M
     spark.serializer org.apache.spark.serializer.KryoSerializer
+    spark.driver.extraJavaOptions -Dspark.jsl.settings.pretrained.credentials.secret_access_key=xxx -Dspark.jsl.settings.pretrained.credentials.access_key_id=yyy
+
     ```
   - add the following to the `Advanced Options -> Spark` tab, in `Environment Variables` box:
 
     ```bash
-    AWS_ACCESS_KEY_ID=xxx
-    AWS_SECRET_ACCESS_KEY=yyy
     SPARK_NLP_LICENSE=zzz
     ```
 
