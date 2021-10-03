@@ -37,7 +37,7 @@ With basic driver node and **8 workers (x8 cores)** configuration selection, it 
 
 In the second experiment with basic driver node and **4 workers (x 4 cores)** configuration selection, it took **1.41 mins** as parquet and **1.42 mins** as delta format to write **16 partitioned (exploded results) data**.  **Without explode it took 1.08 mins as parquet and 1.12 mins as delta format to write the data frame.**
 
-Since given computation durations are highly dependent on different parameters including driver node and worker node configurations as well as partitions, **results show that explode method increases duration  %10-30  on chosen configurations.**
+Since given computation durations are highly dependent on different parameters including driver node and worker node configurations as well as partitions, **results show that explode method (to return NER chunk vs labels in a tabular way by dropping all the other columns) increases duration  %10-30  on chosen configurations.**
 
 ## BENCHMARK TABLES
 
