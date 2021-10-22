@@ -1,0 +1,12 @@
+version: "2"
+services:
+  sparkocr-notebook:
+      image: johnsnowlabs/sparknlp:sparkocr_jupyter
+      volumes:
+        - ./:/mnt
+      ports:
+        - 8888:8888
+      env_file:
+        - sparkocr_keys.txt # env variable file containing spark ocr keys
+        # - sparknlp_keys.txt # optional file for spark nlp keys
+      container_name: sparkocr_jupyter

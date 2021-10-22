@@ -7,11 +7,12 @@ The Image contains all the required libraries for installing and running Spark N
 
 ### Instructions
 - Copy `docker-compose.yml` and `sparknlp_keys.txt` files to your host machine.
-- Populate License keys in the `sparknlp_keys.txt`.
+- Populate License keys in `sparknlp_keys.txt`.
 - Run command `docker-compose up -d` to run the container in detached mode.
 - By default, the jupyter notebook would run at port `8888` - you can access the notebook by typing `localhost:8888` in your browser.
 
 ### Troubleshooting
 - Make sure docker is installed on your system.
+- If you face any error while importing the lib inside jupyter, make sure all the credentials are correct in the key files and restart the service again.
 - If the default port `8888` is already occupied by another process, please change the mapping.
 - You can change/adjust volume and port mapping in the `docker-compose.yml` file.
