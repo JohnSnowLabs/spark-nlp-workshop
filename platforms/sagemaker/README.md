@@ -8,7 +8,7 @@
 ### Known Issues
 In some aws instances the localhost is not properly resolved. Check, `cat /etc/hosts`. You should see an entry like this,
 ```
-127.0.1.1	name_of_host
+127.0.0.1	name_of_host
 ```
 If there's not such an entry, create one, and replace name_of_host, with the value returned by the `hostname` command.
 
