@@ -12,3 +12,6 @@ In some aws instances the localhost is not properly resolved. Check, `cat /etc/h
 ```
 If there's not such an entry, create one, and replace name_of_host, with the value returned by the `hostname` command.
 
+### Setting up GPU
+For setting up the GPU, you will need to upgrade the CUDA driver to vesion 11(that's because of TF 2.x).
+You can follow the instructions in [this blog post](https://arinzeakutekwe.medium.com/how-to-configure-nvidia-gpu-to-work-with-tensorflow-2-on-aws-sagemaker-1be98b9db464).
