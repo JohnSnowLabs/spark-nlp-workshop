@@ -127,7 +127,7 @@ then
     pip install -q jupyter
     pip install -q pandas
     pip install -q --upgrade pyspark==$pyspark_version
-    pip install -q --upgrade tensorflow==1.15.0
+    pip install -q --upgrade tensorflow
     pip install -q --upgrade scikit-image
     
     if ! [ "$hc_json_path" == false ]
@@ -170,7 +170,6 @@ if [ "$run_flag" == true ]
 then
     echo "Activating environment at $env_pth ..."
     source $env_pth/bin/activate
-    cd JohnSnowLabs
     
     if ! [ "$hc_json_path" == false ]
     then
@@ -190,6 +189,7 @@ then
         export_json "$comb_json_path"
     fi
     
+    cd JohnSnowLabs
     echo "Running Jupyter Notebook at Port $jupyter_port ..."
     jupyter notebook --port=$jupyter_port --ip=0.0.0.0 --NotebookApp.token='' --NotebookApp.password='' --allow-root
 fi
