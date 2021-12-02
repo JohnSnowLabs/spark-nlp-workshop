@@ -6,8 +6,8 @@ The Image contains all the required libraries for installing and running Spark N
 
 Please replace values inside `tags`:
 - Replace `/home/jsl_keys.json` with the correct license json absolute path.
-- Replace `8501` to any other port if required.
-- Replace the value of `USE_BERT` to `true` if you want to use BERT base models. By default, GLoVe models will be used.
+- Replace `8501` with any other port if required.
+- Replace the value of USE_BERT with `true` if you want to use BERT base models. By default, GLoVe models will be used.
 
 You can connect to a web app via browser using this address: `http://0.0.0.0:8501`.
 
