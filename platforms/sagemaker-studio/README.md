@@ -45,7 +45,29 @@ If it does not have execution rights, just use `bash ./ecr_configure.sh` or gran
 
 Don't close the terminal, you will need the output (especially the **image URI**) for adding it to Sagemaker.
 
-NOTE: If the REPO_NAME is an existing name in your ECR, first command will show a warning that it already exists. You can ignore it.
+After running `.sh` file, please make sure these **outputs are present:**
+
+- `Login Succeeded `
+
+- ` Image successfully tagged`
+
+-  `Pushed the image properly`
+
+- `ImageVersionStatus`  is `CREATED` :
+ ```
+{
+    "BaseImage": "ACCOUNT_ID.dkr.ecr.REGION.amazonaws.com/jsl-ocr:sparknlp-image",
+    "ContainerImage": "ACCOUNT_ID.dkr.ecr.REGION.amazonaws.com/jsl-ocr@sha256:eXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "CreationTime": "2021-12-15T13:24:31.162000+00:00",
+    "ImageArn": "arn:aws:sagemaker:REGION:ACCOUNT_ID:image/sparknlp-image",
+    "ImageVersionArn": "arn:aws:sagemaker:REGION:ACCOUNT_ID:image-version/sparknlp-image/1",
+    "ImageVersionStatus": "CREATED",
+    "LastModifiedTime": "2021-12-15T13:24:31.525000+00:00",
+    "Version": 1
+}
+```
+
+**NOTE:** If the REPO_NAME is an existing name in your ECR, first command will show a warning that it already exists. You can ignore it.
 
 ## 5. Open Sagemaker
 In Sagemaker, go to `SageMaker Domain` -> `Studio`. Make sure you have an active user, with the role arn you have set in ROLE_ARN in Section 3. 
@@ -63,6 +85,13 @@ Then, in `Image properties`, fill `Image name` (same as IMAGE_NAME in step 3), a
 After clicking on submit, you  will see a **Ready** status in the `Sagemaker Domain -> Studio` screen. Go to Users (top of the screen), click on `Launch app` and select `Studio`.
 
 Sagemaker Studio will take some time to launch, because will instantiate a container of the image we have added. After that, you can start a new notebook. Make sure you see as active the `Python [conda env: myenv]` kernel. It may take also some time to spin.
+
+### 7.1 Important Note:
+**IMPORTANT**
+**Please make sure very first command in the notebook should be:**
+```
+!echo "127.0.0.1 $HOSTNAME" >> /etc/hosts
+```
 
 Once spun, you are ready to go. Find in the `.zip` folder a `SparkNLP_sagemaker.ipynb` example notebook you can upload to test that your installation is working.
 
