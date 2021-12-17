@@ -1,0 +1,16 @@
+{
+    "AppImageConfigName": "conda-env-kernel-config",
+    "KernelGatewayImageConfig": {
+        "KernelSpecs": [
+            {
+                "Name": "conda-env-myenv-py",
+                "DisplayName": "Python [conda env: myenv]"
+            }
+        ],
+        "FileSystemConfig": {
+            "MountPath": "/root",
+            "DefaultUid": 0,
+            "DefaultGid": 0
+        }
+    }
+}
