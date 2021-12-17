@@ -7,11 +7,12 @@ Unzip the `sagemaker_template.zip` file, if you have not done so. Inside, you sh
 - app-image-config-input.json
 - ecr_configure.sh
 - environment.yml
-- instructions.md
+- README.md
 - license.json
 
 ## 2. Set your license
-`license.json` is empty. You should overwrite it with your own license with both OCR and Healthcare secret and license codes. The following fields are required, and should be present in your license(s). if not, please contact JSL team at support@johnsnowlabs.com.
+`license.json` is empty. You should overwrite it with your own license with both OCR and Healthcare secret and license codes. 
+The following fields are required, and should be present in your license(s). if not, please contact JSL team at support@johnsnowlabs.com.
 ```
 {
 	"AWS_ACCESS_KEY_ID": "",
@@ -27,7 +28,9 @@ Unzip the `sagemaker_template.zip` file, if you have not done so. Inside, you sh
 ```
 
 ## 3. Configure ECR
-The Docker Image for Sagemaker should reside in AWS ECR. To do configure your ECR, you need to open `ecr_configure.sh` and set the following fields:
+The Docker Image for Sagemaker should reside in AWS ECR. 
+
+To configure your ECR, you need to open `ecr_configure.sh` and set the following fields:
 ```
 REGION= 	# Your AWS region for ECR. Example, eu-central-1
 ACCOUNT_ID= # Your AWS Account Id. Example, 123456789
@@ -88,7 +91,7 @@ Sagemaker Studio will take some time to launch, because will instantiate a conta
 
 ### 7.1 Important Note:
 **IMPORTANT**
-**Please make sure very first command in the notebook should be:**
+**Please make sure the very first command in the notebook is:**
 ```
 !echo "127.0.0.1 $HOSTNAME" >> /etc/hosts
 ```
