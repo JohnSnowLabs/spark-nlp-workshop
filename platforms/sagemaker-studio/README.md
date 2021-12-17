@@ -2,7 +2,6 @@
 
 ## 1. Unzipping the code
 Unzip the `sagemaker_template.zip` file, if you have not done so. Inside, you should find the following files:
-
 - Dockerfile
 - SparkNLP_sagemaker.ipynb
 - app-image-config-input.json
