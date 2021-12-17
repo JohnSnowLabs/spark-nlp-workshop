@@ -50,27 +50,35 @@ Don't close the terminal, you will need the output (especially the **image URI**
 
 After running `.sh` file, please make sure these **outputs are present:**
 
+- A message saying repository is created. If the repository alredy existed, you will get a `An error occurred (RepositoryAlreadyExistsException) when calling the CreateRepository operation: The repository with name 'jsl' already exists in the registry with id "XXXX"` you can ignore.
+
 - `Login Succeeded `
 
-- ` Image successfully tagged`
+- `Image successfully tagged`, `Building 2.6s (18/18) FINISHED` and/or information about the output of the Dockerfile build, depending on your version of Docker and OS.
 
--  `Pushed the image properly`
+- `Pushed the image properly` or information about the creation of all the layers of the Docker image, for example:
+```
+The push refers to repository [ACCOUNT_ID.dkr.ecr.REGION.amazonaws.com/REPO_NAME]
+ada4ff8fc3ed: Pushed
+95b2e5a9f88d: Pushed
+1c38ff1b8f8b: Pushed
+2429bf5919e0: Pushed
+...
+```
 
 - `ImageVersionStatus`  is `CREATED` :
  ```
 {
-    "BaseImage": "ACCOUNT_ID.dkr.ecr.REGION.amazonaws.com/jsl-ocr:sparknlp-image",
-    "ContainerImage": "ACCOUNT_ID.dkr.ecr.REGION.amazonaws.com/jsl-ocr@sha256:eXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "BaseImage": "ACCOUNT_ID.dkr.ecr.REGION.amazonaws.com/REPO_NAME:IMAGE_NAME",
+    "ContainerImage": "ACCOUNT_ID.dkr.ecr.REGION.amazonaws.com/REPO_NAME@sha256:eXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "CreationTime": "2021-12-15T13:24:31.162000+00:00",
-    "ImageArn": "arn:aws:sagemaker:REGION:ACCOUNT_ID:image/sparknlp-image",
-    "ImageVersionArn": "arn:aws:sagemaker:REGION:ACCOUNT_ID:image-version/sparknlp-image/1",
+    "ImageArn": "arn:aws:sagemaker:REGION:ACCOUNT_ID:image/IMAGE_NAME",
+    "ImageVersionArn": "arn:aws:sagemaker:REGION:ACCOUNT_ID:image-version/IMAGE_NAME/1",
     "ImageVersionStatus": "CREATED",
     "LastModifiedTime": "2021-12-15T13:24:31.525000+00:00",
     "Version": 1
 }
 ```
-
-**NOTE:** If the REPO_NAME is an existing name in your ECR, first command will show a warning that it already exists. You can ignore it.
 
 ## 5. Open Sagemaker
 In Sagemaker, go to `SageMaker Domain` -> `Studio`. Make sure you have an active user, with the role arn you have set in ROLE_ARN in Section 3. 
