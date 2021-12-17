@@ -2,6 +2,7 @@
 
 ## 1. Unzipping the code
 Unzip the `sagemaker_template.zip` file, if you have not done so. Inside, you should find the following files:
+
 - Dockerfile
 - SparkNLP_sagemaker.ipynb
 - app-image-config-input.json
@@ -15,7 +16,7 @@ Unzip the `sagemaker_template.zip` file, if you have not done so. Inside, you sh
 The following fields are required, and should be present in your license(s). if not, please contact JSL team at support@johnsnowlabs.com.
 ```
 {
-	"AWS_ACCESS_KEY_ID": "",
+    "AWS_ACCESS_KEY_ID": "",
     "AWS_SECRET_ACCESS_KEY": "",
     "SPARK_OCR_LICENSE": "",
     "SPARK_OCR_SECRET": "",
@@ -33,8 +34,8 @@ The Docker Image for Sagemaker should reside in AWS ECR.
 To configure your ECR, you need to open `ecr_configure.sh` and set the following fields:
 ```
 REGION= 	# Your AWS region for ECR. Example, eu-central-1
-ACCOUNT_ID= # Your AWS Account Id. Example, 123456789
-IMAGE_NAME= # Any name may work here, for example, SparkNLP
+ACCOUNT_ID= 	# Your AWS Account Id. Example, 123456789
+IMAGE_NAME= 	# Any name may work here, for example, SparkNLP
 REPO_NAME=	# The repo name in ECR. It will try to create one if it is not present. Example: JSL
 ROLE_ARN=	# AWS ARN Role, something that usually you create when starting Sagemaker, and that allows using ECR and grants other permissions. Is something similar to arn:aws:iam::YYYYY:role/service-role/AmazonSageMaker-ExecutionRole-XXXXXXX
 ```
