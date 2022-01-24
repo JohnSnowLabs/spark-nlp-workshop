@@ -324,3 +324,7 @@ if len(ner_payload)!=0:
     get_table_download_link(entities_df )
 
     display_time(start_time)
+    
+    
+# how to run
+# streamlit run sparknlp_ner_playground.py
