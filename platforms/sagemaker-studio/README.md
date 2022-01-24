@@ -50,7 +50,27 @@ Don't close the terminal, you will need the output (especially the **image URI**
 
 After running `.sh` file, please make sure these **outputs are present:**
 
-- A message saying repository is created. If the repository alredy existed, you will get a `An error occurred (RepositoryAlreadyExistsException) when calling the CreateRepository operation: The repository with name 'jsl' already exists in the registry with id "XXXX"` you can ignore.
+- A message saying repository is created, with the metadata. Example:
+
+```
+{
+    "repository": {
+        "repositoryArn": "arn:aws:ecr:REGION:ACCOUNT_ID:repository/REPO_NAME",
+        "registryId": "ACCOUNT_ID",
+        "repositoryName": "REPO_NAME",
+        "repositoryUri": "ACCOUNT_ID.dkr.ecr.REGION.amazonaws.com/REPO_NAME",
+        "createdAt": "2021-12-17T12:01:58+01:00",
+        "imageTagMutability": "MUTABLE",
+        "imageScanningConfiguration": {
+            "scanOnPush": false
+        },
+        "encryptionConfiguration": {
+            "encryptionType": "AES256"
+        }
+    }
+}
+```
+ If the repository already existed, you will get a `An error occurred (RepositoryAlreadyExistsException) when calling the CreateRepository operation: The repository with name 'jsl' already exists in the registry with id "XXXX"` you can ignore.
 
 - `Login Succeeded `
 
