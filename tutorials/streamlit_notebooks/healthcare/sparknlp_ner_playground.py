@@ -44,10 +44,6 @@ def load_sparknlp_models():
         .setInputCols(["sentence","token"])\
         .setOutputCol("embeddings")
 
-    biobert_embeddings = BertEmbeddings.pretrained("biobert_pubmed_base_cased").setInputCols(["sentence", "token"]).setOutputCol("embeddings")
-
-    embeddings
-
     model_dict = {
         'sentenceDetector': sentenceDetector,
         'embeddings_clinical':embeddings_clinical
