@@ -4,6 +4,7 @@ import com.johnsnowlabs.nlp.base._
 import com.johnsnowlabs.nlp.embeddings.WordEmbeddingsFormat
 import com.johnsnowlabs.nlp.util.io.ResourceHelper
 import com.johnsnowlabs.util.Benchmark
+import org.apache.spark.ml.Pipeline
 
 object NerCrfTraining extends App {
 
@@ -38,7 +39,7 @@ object NerCrfTraining extends App {
   val finisher = new Finisher().
     setInputCols("ner")
 
-  val recursivePipeline = new RecursivePipeline().
+  val pipeline = new Pipeline().
     setStages(Array(
       documentAssembler,
       tokenizer,
@@ -47,7 +48,7 @@ object NerCrfTraining extends App {
       finisher
     ))
 
-  val nermodel = recursivePipeline.fit(Seq.empty[String].toDF("text"))
+  val nermodel = pipeline.fit(Seq.empty[String].toDF("text"))
   val nerlpmodel = new LightPipeline(nermodel)
 
   val res = Benchmark.time("Light annotate NerCRF") {
@@ -89,7 +90,7 @@ object NerDLTraining extends App {
   val finisher = new Finisher().
     setInputCols("ner")
 
-  val recursivePipeline = new RecursivePipeline().
+  val pipeline = new Pipeline().
     setStages(Array(
       documentAssembler,
       tokenizer,
@@ -97,7 +98,7 @@ object NerDLTraining extends App {
       finisher
     ))
 
-  val nermodel = recursivePipeline.fit(Seq.empty[String].toDF("text"))
+  val nermodel = pipeline.fit(Seq.empty[String].toDF("text"))
   val nerlpmodel = new LightPipeline(nermodel)
 
   val res = Benchmark.time("Light annotate NerDL") {
@@ -140,7 +141,7 @@ object NerDLPretrained extends App {
   val finisher = new Finisher().
     setInputCols("token", "sentence", "nerconverter", "ner")
 
-  val recursivePipeline = new RecursivePipeline().
+  val pipeline = new Pipeline().
     setStages(Array(
       documentAssembler,
       sentenceDetector,
@@ -150,7 +151,7 @@ object NerDLPretrained extends App {
       finisher
     ))
 
-  val nermodel = recursivePipeline.fit(Seq.empty[String].toDF("text"))
+  val nermodel = pipeline.fit(Seq.empty[String].toDF("text"))
   val nerlpmodel = new LightPipeline(nermodel)
 
   val res1 = Benchmark.time("Light annotate NerDL") {
@@ -205,7 +206,7 @@ object NerCrfPretrained extends App {
   val finisher = new Finisher().
     setInputCols("token", "sentence", "nerconverter", "ner")
 
-  val recursivePipeline = new RecursivePipeline().
+  val pipeline = new Pipeline().
     setStages(Array(
       documentAssembler,
       sentenceDetector,
@@ -216,7 +217,7 @@ object NerCrfPretrained extends App {
       finisher
     ))
 
-  val nermodel = recursivePipeline.fit(Seq.empty[String].toDF("text"))
+  val nermodel = pipeline.fit(Seq.empty[String].toDF("text"))
   val nerlpmodel = new LightPipeline(nermodel)
 
   val res1 = Benchmark.time("Light annotate NerCrf") {
