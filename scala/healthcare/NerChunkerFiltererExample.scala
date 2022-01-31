@@ -1,10 +1,11 @@
 import AssertionDLApproachExample.spark
-import com.johnsnowlabs.nlp.{DocumentAssembler, RecursivePipeline}
+import com.johnsnowlabs.nlp.DocumentAssembler
 import com.johnsnowlabs.nlp.annotator.{NerDLModel, SentenceDetector, WordEmbeddingsModel}
 import com.johnsnowlabs.nlp.annotators.Tokenizer
 import com.johnsnowlabs.nlp.annotators.ner.NerChunker
 import com.johnsnowlabs.nlp.util.io.ResourceHelper
 import org.apache.spark.sql.SparkSession
+import org.apache.spark.ml.Pipeline
 
 object NerChunkerFiltererExample extends App {
 
@@ -54,7 +55,7 @@ object NerChunkerFiltererExample extends App {
     .setRegexParsers(Array("<PER>.*<LOC>"))
 
 
-  val recursivePipeline = new RecursivePipeline()
+  val pipeline = new Pipeline()
     .setStages(Array(
       documentAssembler,
       sentenceDetector,
@@ -64,7 +65,7 @@ object NerChunkerFiltererExample extends App {
       chunker
     ))
 
-  val nermodel = recursivePipeline.fit(data).transform(data)
+  val nermodel = pipeline.fit(data).transform(data)
 
 
   val dataframe = nermodel.select("ner_chunk.result")
