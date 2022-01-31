@@ -4,6 +4,7 @@ import com.johnsnowlabs.nlp.base._
 import com.johnsnowlabs.nlp.util.io.ResourceHelper
 import com.johnsnowlabs.util.Benchmark
 import org.apache.spark.sql.functions.rand
+import org.apache.spark.ml.Pipeline
 
 class NorvigSweetingTest extends App {
 
@@ -27,7 +28,7 @@ class NorvigSweetingTest extends App {
   val finisher = new Finisher().
     setInputCols("spell")
 
-  val recursivePipeline = new RecursivePipeline().
+  val pipeline = new Pipeline().
     setStages(Array(
       documentAssembler,
       tokenizer,
@@ -35,7 +36,7 @@ class NorvigSweetingTest extends App {
       finisher
     ))
 
-  val spellmodel = recursivePipeline.fit(Seq.empty[String].toDF("text"))
+  val spellmodel = pipeline.fit(Seq.empty[String].toDF("text"))
   val spellplight = new LightPipeline(spellmodel)
 
   val n = 50
@@ -72,7 +73,7 @@ class SymmetricDeleteTest extends App {
   val finisher = new Finisher().
     setInputCols("spell")
 
-  val recursivePipeline = new RecursivePipeline().
+  val pipeline = new Pipeline().
     setStages(Array(
       documentAssembler,
       tokenizer,
@@ -80,7 +81,7 @@ class SymmetricDeleteTest extends App {
       finisher
     ))
 
-  val spellmodel = recursivePipeline.fit(Seq.empty[String].toDF("text"))
+  val spellmodel = pipeline.fit(Seq.empty[String].toDF("text"))
   val spellplight = new LightPipeline(spellmodel)
 
   val n = 50000
