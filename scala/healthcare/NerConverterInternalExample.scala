@@ -1,10 +1,11 @@
 import AssertionDLApproachExample.spark
-import com.johnsnowlabs.nlp.{DocumentAssembler, RecursivePipeline}
+import com.johnsnowlabs.nlp.DocumentAssembler
 import com.johnsnowlabs.nlp.annotator.{NerDLModel, SentenceDetector, WordEmbeddingsModel}
 import com.johnsnowlabs.nlp.annotators.Tokenizer
 import com.johnsnowlabs.nlp.annotators.ner.NerConverterInternal
 import com.johnsnowlabs.nlp.util.io.ResourceHelper
 import org.apache.spark.sql.SparkSession
+import org.apache.spark.ml.Pipeline
 
 object NerConverterInternalExample extends App {
 
@@ -53,7 +54,7 @@ object NerConverterInternalExample extends App {
     .setPreservePosition(false)
     .setThreshold(9900e-4f)
 
-  val recursivePipeline = new RecursivePipeline()
+  val pipeline = new Pipeline()
     .setStages(Array(
       documentAssembler,
       sentenceDetector,
@@ -63,7 +64,7 @@ object NerConverterInternalExample extends App {
       converter
     ))
 
-  val nermodel = recursivePipeline.fit(data).transform(data)
+  val nermodel = pipeline.fit(data).transform(data)
 
   nermodel.select("token.result").show(1, false)
   nermodel.select("embeddings.result").show(1, false)
