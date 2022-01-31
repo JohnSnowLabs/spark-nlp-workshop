@@ -71,7 +71,7 @@ object CustomForNerDLPipeline{
         val finisher=new Finisher().setInputCols("ner","ner_converter").setIncludeMetadata(true).setOutputAsArray(false)
         .setCleanAnnotations(false).setAnnotationSplitSymbol("@").setValueSplitSymbol("#")
 
-        val pipeline=new RecursivePipeline()
+        val pipeline=new Pipeline()
         .setStages(Array(document,token,word_embeddings,ner,nerConverter,finisher))
 
         val testingForTop10Carriers=Seq(
