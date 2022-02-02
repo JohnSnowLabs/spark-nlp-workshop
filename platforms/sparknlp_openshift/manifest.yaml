@@ -1,6 +1,0 @@
----
-applications:
-  - name: sparknlpopenshift
-    memory: 16Gi
-    instances: 1
-    port: 5000
