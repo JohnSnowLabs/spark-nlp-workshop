@@ -101,6 +101,7 @@ Download done! Loading the resource.
 ## 4. Expose & Test by Getting Requests
 
 After the successful built and a running container, we can do some testing. Let's start by exposing the app:
+
 `oc expose service/sparknlpopenshift`
 
 Output should be:
