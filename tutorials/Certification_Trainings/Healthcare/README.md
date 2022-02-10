@@ -22,5 +22,5 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/improving-clinical-document-understanding-on/clinical-assertion-status-detection-on-2010)](https://paperswithcode.com/sota/clinical-assertion-status-detection-on-2010?p=improving-clinical-document-understanding-on)
 
 
-## Porting alternatives for not opened notebooks by GitHub
-If a notebook can be opend in GitHub, just paste the url to `https://nbviewer.jupyter.org/` to view better or just try to open this in `Colab` by replacing `github.com` in the url with `githubtocolab.com`.
+## Porting alternatives for the notebook that are failed to load by GitHub
+If a notebook cannot be opened in GitHub, just paste the url to `https://nbviewer.jupyter.org/` to view better or just try to open this in `Colab` by replacing `github.com` in the url with `githubtocolab.com`.
