@@ -47,6 +47,10 @@ If you are having issues with the license, please contact JSL team at support@jo
 ## 2. Hardware
 Please choose the hardware and networking configuration you prefer, or just pick the defaults.
 
+**Important:** Keep in mind that there should be only one master node if you want to use EMR Notebooks. However, cluster can be scaled with additional slave nodes - which can be modified under `Cluster Nodes and Instances` section.
+![image](https://user-images.githubusercontent.com/25952802/156366353-c2326f2f-d903-40f5-87be-92273112e262.png)
+
+
 Please set EBS Volume to `50 GiB` and move to next step by clicking the "Next" blue button.<br/>
 ![image](https://user-images.githubusercontent.com/25952802/156357686-820d2c6d-f2c5-47ba-9140-7a60ba11cf6a.png)
 
@@ -69,5 +73,15 @@ After selecting a `EC2 key pair` - to connect the master node with `SSH`, please
 ## 5. Create an EMR Notebook
 Please start a notebook server, connect it to the cluster you just created(be patient, it takes a while), and test with the `NLP_EMR_Setup.ipynb` that we provide in this folder.<br/>
 
+Additionally, you need to grant sudo rights for `livy` user after SSHing to master node.
+
+To connect master node:
+```bash
+~$ ssh -i <EC2 key pair>.pem hadoop@<host>.ec2
+```
+Please grant access when logged in via:
+```bash
+emr-cluster@xxx:~$ sudo usermod -a -G hdfsadmingroup livy
+```
 ## 6. Any Doubt?
 Write us to support@johnsnowlabs.com
