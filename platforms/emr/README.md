@@ -5,7 +5,7 @@ In this page we explain how to setup Spark-NLP + Spark-NLP Healthcare in AWS EMR
 ### Steps
 ## 1. Software and Steps
 
-You must go to the blue button "Create Cluster" on the UI. By doing that you will get directed to the "Create Cluster - Quick Options" page. Don't use the quick options, click on "**Go to advanced options**" instead. ![image](https://user-images.githubusercontent.com/25952802/156355707-511b08f5-33e2-4ba9-a880-3e241c0c8f93.png)
+You must go to the blue button "Create Cluster" on the UI. By doing that you will get directed to the "Create Cluster - Quick Options" page. Don't use the quick options, click on "**Go to advanced options**" instead. ![image](https://user-images.githubusercontent.com/25952802/156375266-a91577f6-c9db-4592-98c2-8fa05036dca7.png)
 
 Now in Advanced Options, please pick the following selection in the checkboxes,
 ![image](https://user-images.githubusercontent.com/25952802/156355170-56d1ba27-4751-49d3-b929-197ab167e1d4.png)
@@ -60,9 +60,9 @@ Here is where you name your cluster, and you can change the location of the clus
 Under **Tags** section, please add a `KEY: VALUE` pair with `for-use-with-amazon-emr-managed-policies` `true`
 ![image](https://user-images.githubusercontent.com/25952802/156359265-0e4ed417-9c5d-4301-adc6-4736c6cda225.png)
 
-Go to the bottom of the page, and expand the `Bootstrap Actions` tab. We're gonna add an action to execute during bootstrap of the cluster. Select `Custom Action`, then press on `Configure and add`.<br/>
-You need to provide a path to a script on S3. The path needs to be public. Keep this in mind, no secret information can be contained there.<br/>
+Go to the bottom of the page, and expand the `Bootstrap Actions` tab. We're gonna add an action to execute during bootstrap of the cluster. Select `Custom Action`, then press on `Configure and add`. You need to provide a path to a script on S3. The path needs to be public. Keep this in mind, no secret information can be contained there.<br/>
 The script we'll used for this setup is `emr_bootstrap_v2.sh` contained in the same folder this tutorial is located on Github.<br/>
+
 This script will install **Spark-NLP 3.4.0**, and **Spark-NLP Healthcare 3.4.0**. You'll have to edit the script if you need different versions.<br/>
 After you entered the route to S3 in which you place the `emr_bootstrap.sh` file, and before clicking "add" in the dialog box, you must pass an additional parameter containing the **SECRET** value you received with your license. Just paste the secret on the "Optional arguments" field in that dialog box.<br/>
 ![image](https://user-images.githubusercontent.com/25952802/156359956-7bd8ae16-05f3-497d-8a1e-8e869b684503.png)
@@ -73,7 +73,7 @@ After selecting a `EC2 key pair` - to connect the master node with `SSH`, please
 ## 5. Create an EMR Notebook
 Please start a notebook server, connect it to the cluster you just created(be patient, it takes a while), and test with the `NLP_EMR_Setup.ipynb` that we provide in this folder.<br/>
 
-Additionally, you need to grant sudo rights for `livy` user after SSHing to master node.
+In order to use and write files to `hdfs:///` without limitations, we need to grant sudo rights for `livy` user after SSHing to master node.
 
 To connect master node:
 ```bash
