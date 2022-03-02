@@ -46,9 +46,9 @@ If you are having issues with the license, please contact JSL team at support@jo
 
 ## 2. Hardware
 Please choose the hardware and networking configuration you prefer, or just pick the defaults.
-![image](https://user-images.githubusercontent.com/25952802/156357686-820d2c6d-f2c5-47ba-9140-7a60ba11cf6a.png)
 
 Please set EBS Volume to `50 GiB` and move to next step by clicking the "Next" blue button.<br/>
+![image](https://user-images.githubusercontent.com/25952802/156357686-820d2c6d-f2c5-47ba-9140-7a60ba11cf6a.png)
 
 ## 3. General Cluster Settings
 Here is where you name your cluster, and you can change the location of the cluster logs. If the location of the logs is OK for you, take note of the path so you can debug potential problems by using the logs.<br/>
