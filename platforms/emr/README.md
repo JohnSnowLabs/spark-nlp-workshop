@@ -64,7 +64,7 @@ Go to the bottom of the page, and expand the `Bootstrap Actions` tab. We're gonn
 The script we'll used for this setup is `emr_bootstrap_v2.sh` contained in the same folder this tutorial is located on Github.<br/>
 
 This script will install **Spark-NLP 3.4.0**, and **Spark-NLP Healthcare 3.4.0**. You'll have to edit the script if you need different versions.<br/>
-After you entered the route to S3 in which you place the `emr_bootstrap.sh` file, and before clicking "add" in the dialog box, you must pass an additional parameter containing the **SECRET** value you received with your license. Just paste the secret on the "Optional arguments" field in that dialog box.<br/>
+After you entered the route to S3 in which you place the `emr_bootstrap_v2.sh` file, and before clicking "add" in the dialog box, you must pass an additional parameter containing the **SECRET** value you received with your license. Just paste the secret on the "Optional arguments" field in that dialog box.<br/>
 ![image](https://user-images.githubusercontent.com/25952802/156359956-7bd8ae16-05f3-497d-8a1e-8e869b684503.png)
 
 ## 4. Security
