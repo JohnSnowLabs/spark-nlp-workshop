@@ -1,17 +1,17 @@
-Databricks Spark NLP Healthcare notebooks have been updated to latest release v3.0 (05.05.2021)
+Databricks Spark NLP Healthcare notebooks have been updated to latest release v2.7.0 
 
 Before running these notebooks in your Databricks cluster, please make sure that you setup your cluster according to instructions here:
 
 
 ## Automatic deployment of John Snow Labs NLP on Databricks
 
-1. In order to get trial keys for Spark NLP for Healthcare, fill in the form available at https://www.johnsnowlabs.com/databricks/ using your company e-mail and your databricks instance details. 
+1. In order to get trial keys for Spark NLP for Healthcare, fill in the form available at https://www.johnsnowlabs.com/databricks/ using your company e-mail and your databricks instance details.
 
-2. You will receive an e-mail for validating the provided e-mail address. Please click on the validation button. 
+2. You will receive an e-mail for validating the provided e-mail address. Please click on the validation button.
 
-3.a.  If you have a *Community Edition* Databricks instance, you will get a second email in a few minutes with a deployment script. Upload the script to your databricks workspace, attach it to a running cluster and run it for a frictionless installation of John Snow Labs NLP libraries. The deployment script will also install the TRIAL license key on your cluster. 
+3.a.  If you have a *Community Edition* Databricks instance, you will get a second email in a few minutes with a deployment script. Upload the script to your databricks workspace, attach it to a running cluster and run it for a frictionless installation of John Snow Labs NLP libraries. The deployment script will also install the TRIAL license key on your cluster.
 
-3.b. If you have an *Standard* or above Databricks subscriptions, John Snow Labs NLP libraries will be installed automatically on the cluster of your choice. 
+3.b. If you have an *Standard* or above Databricks subscriptions, John Snow Labs NLP libraries will be installed automatically on the cluster of your choice.
 
 You are ready to go!
 
