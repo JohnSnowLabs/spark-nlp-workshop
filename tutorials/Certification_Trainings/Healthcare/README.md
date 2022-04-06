@@ -2,21 +2,23 @@
 
 ## Table of Contents
 
+### 1 - Clinical Named Entity Recognition
 
-1.Clinical_Named_Entity_Recognition_Model.ipynb
+[1.Clinical_Named_Entity_Recognition_Model.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/1.Clinical_Named_Entity_Recognition_Model.ipynb)
 
-1.2.Contextual_Parser_Rule_Based_NER.ipynb
+[1.2.Contextual_Parser_Rule_Based_NER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/1.2.Contextual_Parser_Rule_Based_NER.ipynb)
 
-1.3.prepare_CoNLL_from_annotations_for_NER.ipynb
+[1.3.prepare_CoNLL_from_annotations_for_NER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/1.3.prepare_CoNLL_from_annotations_for_NER.ipynb)
 
-1.4.Resume_MedicalNer_Model_Training.ipynb
+[1.4.Resume_MedicalNer_Model_Training.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/1.4.Resume_MedicalNer_Model_Training.ipynb)
 
-1.5.BertForTokenClassification_NER_SparkNLP_with_Transformers.ipynb
+[1.5.BertForTokenClassification_NER_SparkNLP_with_Transformers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/1.5.BertForTokenClassification_NER_SparkNLP_with_Transformers.ipynb)
 
+#### 2 - Clinical Assertion
 
-2.Clinical_Assertion_Model.ipynb
+[2.Clinical_Assertion_Model.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/2.Clinical_Assertion_Model.ipynb)
 
-2.1.Scope_window_tuning_assertion_status_detection.ipynb
+[2.1.Scope_window_tuning_assertion_status_detection.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/2.1.Scope_window_tuning_assertion_status_detection.ipynb)
 
 
 3.Clinical_Entity_Resolvers.ipynb
