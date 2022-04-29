@@ -45,7 +45,6 @@ streamlit run https://raw.githubusercontent.com/JohnSnowLabs/nlu/master/examples
 streamlit run https://raw.githubusercontent.com/JohnSnowLabs/nlu/master/examples/streamlit/03_text_similarity_matrix.py
 ```
 
-
 ### Example:  [`04_dependency_tree`](https://raw.githubusercontent.com/JohnSnowLabs/nlu/master/examples/streamlit/04_dependency_tree.py)
 ```shell
 streamlit run https://raw.githubusercontent.com/JohnSnowLabs/nlu/master/examples/streamlit/04_dependency_tree.py
@@ -61,9 +60,19 @@ streamlit run https://raw.githubusercontent.com/JohnSnowLabs/nlu/master/examples
 streamlit run https://raw.githubusercontent.com/JohnSnowLabs/nlu/master/examples/streamlit/06_token_features.py
 ```
 
-### Example:  [`07_token_embedding_dimension_reduction`](https://raw.githubusercontent.com/JohnSnowLabs/nlu/master/examples/streamlit/07_token_embedding_manifolds)
+### Example:  [`07_token_embedding_dimension_reduction`](https://raw.githubusercontent.com/JohnSnowLabs/nlu/master/examples/streamlit/07_token_embedding_manifolds.py)
 ```shell
 streamlit run https://raw.githubusercontent.com/JohnSnowLabs/nlu/master/examples/streamlit/07_token_embedding_manifolds.py
+```
+
+### Example:  [`08_token_embedding_dimension_reduction`](https://raw.githubusercontent.com/JohnSnowLabs/nlu/master/examples/streamlit/08_sentence_embedding_manifolds.py)
+```shell
+streamlit run https://raw.githubusercontent.com/JohnSnowLabs/nlu/master/examples/streamlit/08_sentence_embedding_manifolds.py
+```
+
+### Example:  [`09_entity_embedding_dimension_reduction`](https://raw.githubusercontent.com/JohnSnowLabs/nlu/master/examples/streamlit/09_entity_embedding_manifolds.py)
+```shell
+streamlit run https://raw.githubusercontent.com/JohnSnowLabs/nlu/master/examples/streamlit/09_entity_embedding_manifolds.py
 ```
 
 
@@ -317,9 +326,9 @@ nlu.load('bert').viz_streamlit_word_similarity(['I love love loooove NLU! <3','I
 
 
 
-## Streamlit Word Embedding visualization via Manifold and Matrix Decomposition algorithms
+# Embedding visualization via Manifold and Matrix Decomposition algorithms
 
-### <kbd>function</kbd> `pipe.viz_streamlit_word_embed_manifold`
+## <kbd>function</kbd> `pipe.viz_streamlit_word_embed_manifold`
 
 Visualize Word Embeddings in `1-D`, `2-D`, or `3-D` by `Reducing Dimensionality` via 11 Supported methods from  [Manifold Algorithms](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.manifold)
 and [Matrix Decomposition Algorithms](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.decomposition).
@@ -333,7 +342,7 @@ Additionally, you can color the lower dimensional points with a label that has b
 
 
 ```python
-nlu.load('bert',verbose=True).viz_streamlit_word_embed_manifold(default_texts=THE_MATRIX_ARCHITECT_SCRIPT.split('\n'),default_algos_to_apply=['TSNE'],MAX_DISPLAY_NUM=5)
+nlu.load('bert',verbose=True).viz_streamlit_word_embed_manifold(default_texts=['I love NLU <3',  'I love streamlit <3'],default_algos_to_apply=['TSNE'],MAX_DISPLAY_NUM=5)
 ```
 
 <img  src="https://github.com/JohnSnowLabs/nlu/blob/master/docs/assets/streamlit_docs_assets/gif/word_embed_dimension_reduction/manifold_intro.gif?raw=true">
@@ -345,43 +354,128 @@ nlu.load('bert',verbose=True).viz_streamlit_word_embed_manifold(default_texts=TH
 
 | Argument    | Type        |                                                            Default         |Description |
 |----------------------------|------------|-----------------------------------------------------------|---------------------------------------------------------|
-|`default_texts`|          `List[str]`  | ("Donald Trump likes to party!", "Angela Merkel likes to party!", 'Peter HATES TO PARTTY!!!! :(') | List of strings to apply classifiers, embeddings, and manifolds to. |  
-| `text`                    | `Optional[str]`   |     `'Billy likes to swim'`                 | Text to predict classes for. |   
-|`sub_title`|         ` Optional[str]` | "Apply any of the 11 `Manifold` or `Matrix Decomposition` algorithms to reduce the dimensionality of `Word Embeddings` to `1-D`, `2-D` and `3-D` " | Sub title of the Streamlit app |   
+|`default_texts`|                    `List[str]`  | ("Donald Trump likes to party!", "Angela Merkel likes to party!", 'Peter HATES TO PARTTY!!!! :(') | List of strings to apply classifiers, embeddings, and manifolds to. |  
+| `text`                                         | `Optional[str]`   |     `'Billy likes to swim'`                 | Text to predict classes for. |   
+|`sub_title`|                    `Optional[str]` | "Apply any of the 11 `Manifold` or `Matrix Decomposition` algorithms to reduce the dimensionality of `Word Embeddings` to `1-D`, `2-D` and `3-D` " | Sub title of the Streamlit app |   
 |`default_algos_to_apply`|           `List[str]` | `["TSNE", "PCA"]` | A list Manifold and Matrix Decomposition Algorithms to apply. Can be either `'TSNE'`,`'ISOMAP'`,`'LLE'`,`'Spectral Embedding'`, `'MDS'`,`'PCA'`,`'SVD aka LSA'`,`'DictionaryLearning'`,`'FactorAnalysis'`,`'FastICA'` or `'KernelPCA'`, |   
-|`target_dimensions`|          `List[int]` | `(1,2,3)` | Defines the target dimension embeddings will be reduced to |   
-|`show_algo_select`|          `bool` | `True`  | Show selector for Manifold and Matrix Decomposition Algorithms |   
-|`show_embed_select`|          `bool` | `True` | Show selector for Embedding Selection |  
-|`show_color_select`|          `bool` | `True` | Show selector for coloring plots  |
-|`MAX_DISPLAY_NUM`|         `int`|`100` | Cap maximum number of Tokens displayed  |
-|`display_embed_information`              | `bool`              |  `True`                         | Show additional embedding information like `dimension`, `nlu_reference`, `spark_nlp_reference`, `sotrage_reference`, `modelhub link` and more.|  
-| `set_wide_layout_CSS`      |  `bool`                                                             |  `True`                                                                                   | Whether to inject custom CSS or not.|  
-|`num_cols`                               | `int`               |  `2`                            |  How many columns should for the layout in streamlit when rendering the similarity matrixes.|  
-|     `key`                               |  `str`              | `"NLU_streamlit"`               | Key for the Streamlit elements drawn  |
-|`additional_classifiers_for_coloring`|         `List[str]`|`['pos', 'sentiment.imdb']` | List of additional NLU references to load for generting hue colors  |
-| `show_model_select`        |  `bool`                                          | `True`                                                                                 | Show a model selection dropdowns that makes any of the 1000+ models avaiable in 1 click  |
-| `model_select_position`    |  `str`                                                             |   `'side'`            | [Whether to output the positions of predictions or not, see `pipe.predict(positions=true`) for more info](https://nlu.johnsnowlabs.com/docs/en/predict_api#output-positions-parameter)  |   
-| `show_logo`             |  `bool`                                            | `True`                                                                                   | Show logo  |
-| `display_infos`         |  `bool`                                            | `False`                                                                                  | Display additonal information about ISO codes and the NLU namespace structure.|  
-| `n_jobs`|          `Optional[int]` | `3`|   `False` | How many cores to use for paralellzing when using Sklearn Dimension Reduction algorithms.  |  
+|`target_dimensions`|              `List[int]`   | `(1,2,3)` | Defines the target dimension embeddings will be reduced to |
+|`show_algo_select`|               `bool`        | `True`  | Show selector for Manifold and Matrix Decomposition Algorithms |   
+|`show_embed_select`|              `bool`        | `True` | Show selector for Embedding Selection |  
+|`show_color_select`|              `bool`        | `True` | Show selector for coloring plots  |
+|`MAX_DISPLAY_NUM`|                  `int`       |`100` | Cap maximum number of Tokens displayed  |
+|`display_embed_information`                     | `bool`              |  `True`                         | Show additional embedding information like `dimension`, `nlu_reference`, `spark_nlp_reference`, `sotrage_reference`, `modelhub link` and more.|  
+| `set_wide_layout_CSS`                          |  `bool`                                                             |  `True`                                                                                   | Whether to inject custom CSS or not.|  
+|`num_cols`                                      | `int`               |  `2`                            |  How many columns should for the layout in streamlit when rendering the similarity matrixes.|  
+|     `key`                                      |  `str`              | `"NLU_streamlit"`               | Key for the Streamlit elements drawn  |
+|`additional_classifiers_for_coloring`           |         `List[str]`|`['pos', 'sentiment.imdb']` | List of additional NLU references to load for generting hue colors  |
+| `show_model_select`                            |  `bool`                                          | `True`                                                                                 | Show a model selection dropdowns that makes any of the 1000+ models avaiable in 1 click  |
+| `model_select_position`                        |  `str`                                                             |   `'side'`            | [Whether to output the positions of predictions or not, see `pipe.predict(positions=true`) for more info](https://nlu.johnsnowlabs.com/docs/en/predict_api#output-positions-parameter)  |   
+| `show_logo`                                    |  `bool`                                            | `True`                                                                                   | Show logo  |
+| `display_infos`                                |  `bool`                                            | `False`                                                                                  | Display additonal information about ISO codes and the NLU namespace structure.|  
+| `n_jobs`                                       |          `Optional[int]` | `3`|   `False` | How many cores to use for paralellzing when using Sklearn Dimension Reduction algorithms.  |  
+
+
+
 
 ### Larger Example showcasing more dimension reduction techniques on a larger corpus :
 
 <img  src="https://github.com/JohnSnowLabs/nlu/blob/master/docs/assets/streamlit_docs_assets/gif/word_embed_dimension_reduction/big_example_word_embedding_dimension_reduction.gif?raw=true">
 
 
-### [Supported Manifold Algorithms ](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.manifold)
+
+
+## <kbd>function</kbd> `pipe.viz_streamlit_sentence_embed_manifold`
+
+Visualize Sentence Embeddings in `1-D`, `2-D`, or `3-D` by `Reducing Dimensionality` via 12 Supported methods from  [Manifold Algorithms](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.manifold)
+and [Matrix Decomposition Algorithms](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.decomposition).
+Additionally, you can color the lower dimensional points with a label that has been previously assigned to the text by specifying a list of nlu references in the `additional_classifiers_for_coloring` parameter.
+You can also select additional classifiers via the GUI.
+
+- Reduces Dimensionality of high dimensional Sentence Embeddings to `1-D`, `2-D`, or `3-D` and plot the resulting data in an interactive `Plotly` plot
+- Applicable with [any of the 100+ Sentence Embedding models](https://nlp.johnsnowlabs.com/models?task=Embeddings)
+- Color points by classifying with any of the 100+ [Document Classifiers](https://nlp.johnsnowlabs.com/models?task=Text+Classification)
+- Gemerates `NUM-DIMENSIONS` * `NUM-EMBEDDINGS` * `NUM-DIMENSION-REDUCTION-ALGOS` plots
+
+```python
+nlu.load('embed_sentence.bert').viz_streamlit_sentence_embed_manifold(['text1','text2tdo'])
+```
+
+<img  src="https://github.com/JohnSnowLabs/nlu/blob/master/docs/assets/streamlit_docs_assets/gif/sentence_embedding_dimension_reduction/sentence_manifold_low_qual.gif?raw=true">
+
+### <kbd>function parameters</kbd> `pipe.viz_streamlit_sentence_embed_manifold`
+| Argument    | Type        |                                                            Default         |Description |
+|----------------------------|------------|-----------------------------------------------------------|---------------------------------------------------------|
+|`default_texts`|                    `List[str]`  | ("Donald Trump likes to party!", "Angela Merkel likes to party!", 'Peter HATES TO PARTTY!!!! :(') | List of strings to apply classifiers, embeddings, and manifolds to. |  
+| `text`                                         | `Optional[str]`   |     `'Billy likes to swim'`                 | Text to predict classes for. |   
+|`sub_title`|                    `Optional[str]` | "Apply any of the 11 `Manifold` or `Matrix Decomposition` algorithms to reduce the dimensionality of `Sentence Embeddings` to `1-D`, `2-D` and `3-D` " | Sub title of the Streamlit app |   
+|`default_algos_to_apply`|           `List[str]` | `["TSNE", "PCA"]` | A list Manifold and Matrix Decomposition Algorithms to apply. Can be either `'TSNE'`,`'ISOMAP'`,`'LLE'`,`'Spectral Embedding'`, `'MDS'`,`'PCA'`,`'SVD aka LSA'`,`'DictionaryLearning'`,`'FactorAnalysis'`,`'FastICA'` or `'KernelPCA'`, |   
+|`target_dimensions`|              `List[int]`   | `(1,2,3)` | Defines the target dimension embeddings will be reduced to |
+|`show_algo_select`|               `bool`        | `True`  | Show selector for Manifold and Matrix Decomposition Algorithms |   
+|`show_embed_select`|              `bool`        | `True` | Show selector for Embedding Selection |  
+|`show_color_select`|              `bool`        | `True` | Show selector for coloring plots  |
+|`display_embed_information`                     | `bool`              |  `True`                         | Show additional embedding information like `dimension`, `nlu_reference`, `spark_nlp_reference`, `sotrage_reference`, `modelhub link` and more.|  
+| `set_wide_layout_CSS`                          |  `bool`                                                             |  `True`                                                                                   | Whether to inject custom CSS or not.|  
+|`num_cols`                                      | `int`               |  `2`                            |  How many columns should for the layout in streamlit when rendering the similarity matrixes.|  
+|     `key`                                      |  `str`              | `"NLU_streamlit"`               | Key for the Streamlit elements drawn  |
+|`additional_classifiers_for_coloring`           |         `List[str]`|`['sentiment.imdb']` | List of additional NLU references to load for generting hue colors  |
+| `show_model_select`                            |  `bool`                                          | `True`                                                                                 | Show a model selection dropdowns that makes any of the 1000+ models avaiable in 1 click  |
+| `model_select_position`                        |  `str`                                                             |   `'side'`            | [Whether to output the positions of predictions or not, see `pipe.predict(positions=true`) for more info](https://nlu.johnsnowlabs.com/docs/en/predict_api#output-positions-parameter)  |   
+| `show_logo`                                    |  `bool`                                            | `True`                                                                                   | Show logo  |
+| `display_infos`                                |  `bool`                                            | `False`                                                                                  | Display additonal information about ISO codes and the NLU namespace structure.|  
+| `n_jobs`                                       |          `Optional[int]` | `3`|   `False` | How many cores to use for paralellzing when using Sklearn Dimension Reduction algorithms.  |  
+
+
+
+
+## Streamlit Entity Manifold visualization
+## <kbd>function</kbd> `pipe.viz_streamlit_entity_embed_manifold`
+Visualize recognized entities by NER models via their Entity Embeddings in `1-D`, `2-D`, or `3-D` by `Reducing Dimensionality` via 10+ Supported methods from  [Manifold Algorithms](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.manifold)
+and [Matrix Decomposition Algorithms](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.decomposition).
+You can pick additional NER models and compare them via the GUI dropdown on the left.
+
+
+- Reduces Dimensionality of high dimensional Entity Embeddings to `1-D`, `2-D`, or `3-D` and plot the resulting data in an interactive `Plotly` plot
+- Applicable with [any of the 330+ Named Entity Recognizer models](https://nlp.johnsnowlabs.com/models?task=Named+Entity+Recognition)
+- Gemerates `NUM-DIMENSIONS` * `NUM-NER-MODELS` * `NUM-DIMENSION-REDUCTION-ALGOS` plots
+
+```python
+nlu.load('ner').viz_streamlit_sentence_embed_manifold(['Hello From John Snow Labs', 'Peter loves to visit New York'])
+```
+<img  src="https://github.com/JohnSnowLabs/nlu/blob/master/docs/assets/streamlit_docs_assets/gif/entity_embedding_dimension_reduction/low_quality.gif?raw=true">
+
+### <kbd>function parameters</kbd> `pipe.viz_streamlit_sentence_embed_manifold`
+| Argument    | Type        |                                                            Default         |Description |
+|----------------------------|------------|-----------------------------------------------------------|---------------------------------------------------------|
+|`default_texts`|                    `List[str]`  |"Donald Trump likes to visit New York", "Angela Merkel likes to visit Berlin!", 'Peter hates visiting Paris')| List of strings to apply classifiers, embeddings, and manifolds to. |  
+| `title`                 |  `str`                                             | `'NLU ❤️ Streamlit - Prototype your NLP startup in 0 lines of code🚀'`                      | Title of the Streamlit app
+|`sub_title`|                    `Optional[str]` | "Apply any of the 10+ `Manifold` or `Matrix Decomposition` algorithms to reduce the dimensionality of `Entity Embeddings` to `1-D`, `2-D` and `3-D` " | Sub title of the Streamlit app |   
+|`default_algos_to_apply`|           `List[str]` | `["TSNE", "PCA"]` | A list Manifold and Matrix Decomposition Algorithms to apply. Can be either `'TSNE'`,`'ISOMAP'`,`'LLE'`,`'Spectral Embedding'`, `'MDS'`,`'PCA'`,`'SVD aka LSA'`,`'DictionaryLearning'`,`'FactorAnalysis'`,`'FastICA'` or `'KernelPCA'`, |   
+|`target_dimensions`|              `List[int]`   | `(1,2,3)` | Defines the target dimension embeddings will be reduced to |
+|`show_algo_select`|               `bool`        | `True`  | Show selector for Manifold and Matrix Decomposition Algorithms |   
+| `set_wide_layout_CSS`                          |  `bool`                                                             |  `True`                                                                                   | Whether to inject custom CSS or not.|  
+|`num_cols`                                      | `int`               |  `2`                            |  How many columns should for the layout in streamlit when rendering the similarity matrixes.|  
+|     `key`                                      |  `str`              | `"NLU_streamlit"`               | Key for the Streamlit elements drawn  |
+| `show_logo`                                    |  `bool`                                            | `True`                                                                                   | Show logo  |
+| `display_infos`                                |  `bool`                                            | `False`                                                                                  | Display additonal information about ISO codes and the NLU namespace structure.|  
+| `n_jobs`                                       |          `Optional[int]` | `3`|   `False` | How many cores to use for paralellzing when using Sklearn Dimension Reduction algorithms.  |  
+
+
+
+
+
+### [Supported Manifold Algorithms for Word, Sentence and Entity Embeddings](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.manifold)
 - [TSNE](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html#sklearn.manifold.TSNE)
 - [ISOMAP](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.Isomap.html#sklearn.manifold.Isomap)
 - [LLE](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.LocallyLinearEmbedding.html#sklearn.manifold.LocallyLinearEmbedding)
 - [Spectral Embedding](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.SpectralEmbedding.html#sklearn.manifold.SpectralEmbedding)
 - [MDS](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.MDS.html#sklearn.manifold.MDS)
 
-### [Supported Matrix Decomposition Algorithms ](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.decomposition)
+### [Supported Matrix Decomposition Algorithms for Word,Sentence and Entity Embeddings](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.decomposition)
 - [PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html#sklearn.decomposition.PCA)
 - [Truncated SVD aka LSA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.TruncatedSVD.html#sklearn.decomposition.TruncatedSVD)
 - [DictionaryLearning](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.DictionaryLearning.html#sklearn.decomposition.DictionaryLearning)
 - [FactorAnalysis](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.FactorAnalysis.html#sklearn.decomposition.FactorAnalysis)
 - [FastICA](https://scikit-learn.org/stable/modules/generated/fastica-function.html#sklearn.decomposition.fastica)
 - [KernelPCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.KernelPCA.html#sklearn.decomposition.KernelPCA)
+- [Latent Dirichlet Allocation](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.LatentDirichletAllocation.html)
 
