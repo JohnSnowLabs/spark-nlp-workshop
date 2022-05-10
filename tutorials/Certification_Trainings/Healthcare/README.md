@@ -68,6 +68,8 @@
 
 [4.6.Clinical_Deidentification_in_Italian.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.6.Clinical_Deidentification_in_Italian.ipynb)
 
+[4.7.Clinical_Deidentification_in_Portuguese.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.7.Clinical_Deidentification_in_Portuguese.ipynb)
+
 ### Optical Character Recognition with Spark OCR
 
 [5.Spark_OCR.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/5.Spark_OCR.ipynb)
