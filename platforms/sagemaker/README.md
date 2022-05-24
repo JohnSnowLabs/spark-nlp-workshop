@@ -6,7 +6,7 @@
 
 ![image](https://user-images.githubusercontent.com/36634572/170064724-eaae2235-6d75-41cd-a0e8-277a854172c7.png)
 
-+ This is the configuration we have used, although most of the interesting models will require a ml.t3.xlarge instance or more. 
++ This is the configuration we have used, although most of the interesting models will require a `ml.t3.xlarge` instance or more. 
 
 ![image](https://user-images.githubusercontent.com/36634572/170065661-b39825e2-2efc-4850-a452-5f61b72000b9.png)
 
@@ -18,13 +18,21 @@
 
 ![image](https://user-images.githubusercontent.com/36634572/170065757-6508dbac-adfc-4998-a7e5-63dc265f55a9.png)
 
-+ Upload your JSON credentials file to the root '/' folder.
++ Upload your JSON credentials file to the root '/' folder. Name it `spark_nlp_for_healthcare.json`.
 
 ![image](https://user-images.githubusercontent.com/36634572/170066019-bb58ac1e-bf2e-42c3-9a92-f6ae16e33fd7.png)
 
 + Upload `NLP_SageMaker_Setup.ipynb` to the root '/', all along with the license, and follow the steps there.
 
 ![image](https://user-images.githubusercontent.com/36634572/170067085-eedc1176-3d28-4dd2-ac71-402ac2b291ce.png)
+
++ Execute the notebook, line  by line. The first line will set your license as environment vars. You will see an output similar to this one.
+
++ When you get to "Download Packages", you will see a warning at the end. Sagemaker version of PySpark is old (2.4.0). You can check if AWS has released a new version. If not, you can continue ignoring the warning. The code works even with the old Sagemaker version of Pyspark.
+
+![image](https://user-images.githubusercontent.com/36634572/170068841-91b6131d-2879-4beb-9a1c-21b3563f60bf.png)
+
++ 
 
 ### Known Issues
 In some aws instances the localhost is not properly resolved. Check, `cat /etc/hosts`. You should see an entry like this,
