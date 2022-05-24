@@ -6,7 +6,7 @@
 
 ![image](https://user-images.githubusercontent.com/36634572/170064724-eaae2235-6d75-41cd-a0e8-277a854172c7.png)
 
-+ This is the configuration we have used:
++ This is the configuration we have used, although most of the interesting models will require a ml.t3.xlarge instance or more. 
 
 ![image](https://user-images.githubusercontent.com/36634572/170065661-b39825e2-2efc-4850-a452-5f61b72000b9.png)
 
@@ -24,9 +24,7 @@
 
 + Upload `NLP_SageMaker_Setup.ipynb` to the root '/', all along with the license, and follow the steps there.
 
-
-
-+ Most of the interesting models will require a ml.t3.xlarge instance or more. 
+![image](https://user-images.githubusercontent.com/36634572/170067085-eedc1176-3d28-4dd2-ac71-402ac2b291ce.png)
 
 ### Known Issues
 In some aws instances the localhost is not properly resolved. Check, `cat /etc/hosts`. You should see an entry like this,
