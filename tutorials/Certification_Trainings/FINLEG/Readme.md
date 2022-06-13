@@ -36,3 +36,7 @@
 ### Spark OCR for Visual Document Understanding for Finance and Legal domains
 18. SparkOCR_DocumentClassification.ipynb
 19. SprarkOCR_VisualNER.ipynb
+
+### Graphs and Neo4j
+20. GraphsGeneration.ipynb
+
