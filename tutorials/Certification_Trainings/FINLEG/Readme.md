@@ -12,27 +12,27 @@
 
 ### Named Entity Recognition (NER) for Finance and Legal domains
 5. FinancialNER.ipynb
-5.1. FinancialNER_Training.ipynb
-6. LegalNER.ipynb
-6.1. LegalNER_Training.ipynb
+6. FinancialNER_Training.ipynb
+7. LegalNER.ipynb
+8. LegalNER_Training.ipynb
 
 ### Relation Extraction for Finance and Legal domains
-7. RelationExtraction.ipynb
-7.1. RelationExtraction_Training.ipynb
+9. RelationExtraction.ipynb
+10. RelationExtraction_Training.ipynb
 
 ### Multiclass and Multilabel Document Classification for Finance and Legal domains
-8. RelationExtraction.ipynb
-8.1. RelationExtraction_Training.ipynb
+11. RelationExtraction.ipynb
+12. RelationExtraction_Training.ipynb
 
 ### Assertion Status for Finance and Legal domains
-9. AssertionStatus.ipynb
-9.1. AssertionStatus_Training.ipynb
+13. AssertionStatus.ipynb
+14. AssertionStatus_Training.ipynb
 
 ### Augmentating Company information: Entity Resolution and Chunk Mappers
-10. EntityResolution.ipynb
-10.1. EntityResolution_Training.ipynb
-11. DataAugmentation_with_ChunkMappers.ipynb
+15. EntityResolution.ipynb
+16. EntityResolution_Training.ipynb
+17. DataAugmentation_with_ChunkMappers.ipynb
 
 ### Spark OCR for Visual Document Understanding for Finance and Legal domains
-12. SparkOCR_DocumentClassification.ipynb
-13. SprarkOCR_VisualNER.ipynb
+18. SparkOCR_DocumentClassification.ipynb
+19. SprarkOCR_VisualNER.ipynb
