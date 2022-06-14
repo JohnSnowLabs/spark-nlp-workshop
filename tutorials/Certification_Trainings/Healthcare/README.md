@@ -62,7 +62,7 @@
 
 [4.3.Clinical_Deidentification_SparkNLP_vs_Cloud_Providers_Comparison.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.3.Clinical_Deidentification_SparkNLP_vs_Cloud_Providers_Comparison.ipynb)
 
-[4.4.Clinical_Deidentification_SparkNLP_vs_SpaCy_Comparison.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.4.Clinical_Deidentification_SparkNLP_vs_SpaCy_Comparison.ipynb)
+[4.4.Clinical_Deidentification_SparkNLP_vs_SpaCy_vs_Scrubadub_vs_Presidio_Comparison.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.4.Clinical_Deidentification_SparkNLP_vs_SpaCy_vs_Scrubadub_vs_Presidio_Comparison.ipynb)
 
 [4.5.Clinical_Deidentification_in_French.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.5.Clinical_Deidentification_in_French.ipynb)
 
