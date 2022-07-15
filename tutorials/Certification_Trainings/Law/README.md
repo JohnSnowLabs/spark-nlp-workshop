@@ -2,9 +2,8 @@
 
 ## Table of Contents
 
-### Tokenization and sentence splitting
-1. SentenceSplitting.ipynb
-2. Tokenization.ipynb
+### Tokenization and sentence splitting of long sentences and texts
+1. Tokenization_Splitting.ipynb
 
 ### Embeddings for Financial and Legal domains
 3. WordEmbeddings.ipynb
