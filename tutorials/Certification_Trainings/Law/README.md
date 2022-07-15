@@ -1,4 +1,4 @@
-# Spark-NLP for Legal domains
+# Spark-NLP for Legal domain
 
 ## Table of Contents
 
