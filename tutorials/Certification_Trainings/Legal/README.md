@@ -1,4 +1,4 @@
-# Spark-NLP for Finance
+# Spark-NLP for Legal
 
 ## Table of Contents
 
