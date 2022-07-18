@@ -8,7 +8,7 @@ If you don't have time to cover all these, please check the follwing notebook fo
 
  [1-hr summary of entire package](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/1hr_workshop/SparkNLP_openSource_workshop_1hr.ipynb)
 
-### Spark NLP
+## Spark NLP
 
 [1.SparkNLP_Basics.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/1.SparkNLP_Basics.ipynb)
 
@@ -128,19 +128,12 @@ If you don't have time to cover all these, please check the follwing notebook fo
 
 [4.Clinical_DeIdentification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.Clinical_DeIdentification.ipynb)
 
-[4.1.Clinical_Deidentification_in_German.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.1.Clinical_Deidentification_in_German.ipynb)
+[4.1.Clinical_Multi_Language_Deidentification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.1.Clinical_Multi_Language_Deidentification.ipynb)
 
-[4.2.Clinical_Deidentification_in_Spanish.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.2.Clinical_Deidentification_in_Spanish.ipynb)
+[4.2.Clinical_Deidentification_SparkNLP_vs_SpaCy_vs_Scrubadub_vs_Presidio_Comparison.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.2.Clinical_Deidentification_SparkNLP_vs_SpaCy_vs_Scrubadub_vs_Presidio_Comparison.ipynb)
 
 [4.3.Clinical_Deidentification_SparkNLP_vs_Cloud_Providers_Comparison.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.3.Clinical_Deidentification_SparkNLP_vs_Cloud_Providers_Comparison.ipynb)
 
-[4.4.Clinical_Deidentification_SparkNLP_vs_SpaCy_vs_Scrubadub_vs_Presidio_Comparison.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.4.Clinical_Deidentification_SparkNLP_vs_SpaCy_vs_Scrubadub_vs_Presidio_Comparison.ipynb)
-
-[4.5.Clinical_Deidentification_in_French.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.5.Clinical_Deidentification_in_French.ipynb)
-
-[4.6.Clinical_Deidentification_in_Italian.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.6.Clinical_Deidentification_in_Italian.ipynb)
-
-[4.7.Clinical_Deidentification_in_Portuguese.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.7.Clinical_Deidentification_in_Portuguese.ipynb)
 
 ### Optical Character Recognition with Spark OCR
 
@@ -193,6 +186,21 @@ If you don't have time to cover all these, please check the follwing notebook fo
 [26.Chunk_Mapping.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/26.Chunk_Mapping.ipynb)
 ## Biomedical & Clinical NER Models Benchmarks/ Rankings
 
+
+
+
+
+## 
+
+## Spark-NLP for Finance
+
+[1.Tokenization_Splitting.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/1.Tokenization_Splitting.ipynb)
+
+
+[2.Financial_Contract_NER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/2.Financial_Contract_NER.ipynb)
+
+
+##
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-on-anatem)](https://paperswithcode.com/sota/named-entity-recognition-on-anatem?p=biomedical-named-entity-recognition-at-scale)
 
