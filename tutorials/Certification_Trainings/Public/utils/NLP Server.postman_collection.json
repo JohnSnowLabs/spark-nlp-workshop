@@ -8,7 +8,7 @@
 	},
 	"item": [
 		{
-			"name": "Post Spell",
+			"name": "Post Data Processing request",
 			"request": {
 				"url": "localhost:5000/api/results",
 				"method": "POST",
@@ -18,13 +18,13 @@
 					"formdata": [
 						{
 							"key": "spell",
-							"value": "emotion",
+							"value": "tokenize",
 							"description": "",
 							"type": "text"
 						},
 						{
 							"key": "data",
-							"value": "['I love mondays', 'I hate fridays']",
+							"value": "NLP server gives you thousands of SOTA models in a containerized environment",
 							"description": "",
 							"type": "text"
 						}
@@ -35,7 +35,7 @@
 			"response": []
 		},
 		{
-			"name": "Get status",
+			"name": "Get status of processing",
 			"request": {
 				"url": "localhost:5000/api/results/<YOUR_UUID>/status",
 				"method": "GET",
@@ -62,7 +62,7 @@
 			"response": []
 		},
 		{
-			"name": "Get result",
+			"name": "Get result of Processing request",
 			"request": {
 				"url": "localhost:5000/api/results/<YOUR_UUID>",
 				"method": "GET",
