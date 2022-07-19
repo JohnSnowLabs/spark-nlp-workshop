@@ -18,13 +18,13 @@
 					"formdata": [
 						{
 							"key": "spell",
-							"value": "tokenize",
+							"value": "emotion",
 							"description": "",
 							"type": "text"
 						},
 						{
 							"key": "data",
-							"value": "I love nlu\n",
+							"value": "['I love mondays', 'I hate fridays']",
 							"description": "",
 							"type": "text"
 						}
@@ -37,8 +37,8 @@
 		{
 			"name": "Get status",
 			"request": {
-				"url": "localhost:5000/api/results",
-				"method": "POST",
+				"url": "localhost:5000/api/results/<YOUR_UUID>/status",
+				"method": "GET",
 				"header": [],
 				"body": {
 					"mode": "formdata",
@@ -64,8 +64,8 @@
 		{
 			"name": "Get result",
 			"request": {
-				"url": "localhost:5000/api/results",
-				"method": "POST",
+				"url": "localhost:5000/api/results/<YOUR_UUID>",
+				"method": "GET",
 				"header": [],
 				"body": {
 					"mode": "formdata",
