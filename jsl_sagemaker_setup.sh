@@ -17,7 +17,7 @@ elif [[ "$PYSPARK" == "2"* ]]; then
   tar -xvf spark-2.4.7-bin-hadoop2.7.tgz > /dev/null
   SPARKHOME="/home/ec2-user/SageMaker/spark-2.4.7-bin-hadoop2.7"
 else
-  wget -q "https://downloads.apache.org/spark/spark-3.2.2/spark-3.2.2-bin-hadoop2.7.tgz" > /dev/null
+  wget -q "https://downloads.apache.org/spark/spark-3.2.2/spark-3.2.2-bin-hadoop2.7.tgz" -O spark-3.2.2-bin-hadoop2.7.tgz > /dev/null
   tar -xvf spark-3.2.2-bin-hadoop2.7.tgz > /dev/null
   SPARKHOME="/home/ec2-user/SageMaker/spark-3.2.2-bin-hadoop2.7"
 fi
