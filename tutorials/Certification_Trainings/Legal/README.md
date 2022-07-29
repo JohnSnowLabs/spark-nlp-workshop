@@ -6,39 +6,32 @@
 [1. Tokenization_Splitting.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/1.Tokenization_Splitting.ipynb)
 
 ### Embeddings for Financial and Legal domains
-3. WordEmbeddings.ipynb
-4. SentenceEmbeddings.ipynb
+2. Embeddings.ipynb
+
+### Text Classification
+3. TextClassification.ipynb
 
 ### Named Entity Recognition (NER) for Finance and Legal domains
-5. FinancialNER.ipynb
-6. FinancialNER_Training.ipynb
-7. LegalNER.ipynb
-8. LegalNER_Training.ipynb
+4. LegalNER.ipynb
+5. LegalNER_Training.ipynb
 
 ### Relation Extraction for Finance and Legal domains
-9. RelationExtraction.ipynb
-10. RelationExtraction_Training.ipynb
+6. RelationExtraction.ipynb
+7. RelationExtraction_Training.ipynb
 
 ### Multiclass and Multilabel Document Classification for Finance and Legal domains
-11. RelationExtraction.ipynb
-12. RelationExtraction_Training.ipynb
-
-### Assertion Status for Finance and Legal domains
-13. AssertionStatus.ipynb
-14. AssertionStatus_Training.ipynb
+8. RelationExtraction.ipynb
+9. RelationExtraction_Training.ipynb
 
 ### Augmentating Company information: Entity Resolution and Chunk Mappers
-15. EntityResolution.ipynb
-16. EntityResolution_Training.ipynb
-17. DataAugmentation_with_ChunkMappers.ipynb
+10. EntityResolution.ipynb
+11. EntityResolution_Training.ipynb
+12. DataAugmentation_with_ChunkMappers.ipynb
 
 ### Spark OCR for Visual Document Understanding for Finance and Legal domains
-18. SparkOCR_DocumentClassification.ipynb
-19. SprarkOCR_VisualNER.ipynb
-
-### Graphs and Neo4j
-20. GraphsGeneration.ipynb
+13. SparkOCR_DocumentClassification.ipynb
+14. SprarkOCR_VisualNER.ipynb
 
 ### Deidentification
-21. Deidentification.ipynb
+17. Deidentification.ipynb
 
