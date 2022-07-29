@@ -1,0 +1,1893 @@
+[
+  {
+    "completions": [
+      {
+        "created_username": "luca.martial",
+        "created_ago": "2022-07-27T20:37:22.219022Z",
+        "lead_time": 35,
+        "result": [
+          {
+            "value": {
+              "start": 63,
+              "end": 68,
+              "text": "Feb 8",
+              "labels": [
+                "DATE"
+              ],
+              "confidence": 1
+            },
+            "id": "q9JmAUNQXw",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ],
+        "honeypot": false,
+        "id": 2001,
+        "confidence_range": [
+          0,
+          1
+        ],
+        "submitted_at": "2022-07-27T16:37:26.078",
+        "updated_at": "2022-07-27T20:37:26.345053Z",
+        "updated_by": "luca.martial"
+      },
+      {
+        "created_username": "luca.martial",
+        "created_ago": "2022-07-27T20:41:29.043Z",
+        "lead_time": 105,
+        "result": [
+          {
+            "value": {
+              "start": 63,
+              "end": 68,
+              "text": "Feb 8",
+              "labels": [
+                "DATE"
+              ],
+              "confidence": 1
+            },
+            "id": "q9JmAUNQXw",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 76,
+              "end": 80,
+              "text": "cold",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "W9kna-ae7a",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 82,
+              "end": 87,
+              "text": "cough",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "bdD-_Iau0W",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 93,
+              "end": 103,
+              "text": "runny nose",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "Og1_1-Z6Xx",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 110,
+              "end": 115,
+              "text": "Feb 2",
+              "labels": [
+                "DATE"
+              ],
+              "confidence": 1
+            },
+            "id": "dbXbuXS0kK",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 139,
+              "end": 144,
+              "text": "fever",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "GEtS2eQbjh",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 139,
+              "end": 144,
+              "text": "fever",
+              "labels": [
+                "ABSENT"
+              ],
+              "confidence": 1
+            },
+            "id": "fRI7Hnshnz",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 157,
+              "end": 177,
+              "text": "difficulty breathing",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "N4ivxsCnPj",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 157,
+              "end": 177,
+              "text": "difficulty breathing",
+              "labels": [
+                "ABSENT"
+              ],
+              "confidence": 1
+            },
+            "id": "LIqLLdrbTu",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 186,
+              "end": 191,
+              "text": "cough",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "CSNDeqDo1-",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 209,
+              "end": 212,
+              "text": "dry",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "UfGdazjTvm",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 217,
+              "end": 222,
+              "text": "hacky",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "ZErEBKJBax",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 271,
+              "end": 274,
+              "text": "flu",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "bTqrNYRXkz",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 271,
+              "end": 274,
+              "text": "flu",
+              "labels": [
+                "ABSENT"
+              ],
+              "confidence": 1
+            },
+            "id": "xIcnSpVB8U",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ],
+        "honeypot": false,
+        "copied_from": "completion: 2001",
+        "id": 2002,
+        "confidence_range": [
+          0,
+          1
+        ],
+        "updated_at": "2022-07-27T20:41:32.261454Z",
+        "updated_by": "luca.martial",
+        "submitted_at": "2022-07-27T16:41:32.018"
+      },
+      {
+        "created_username": "luca.martial",
+        "created_ago": "2022-07-27T20:43:09.057Z",
+        "lead_time": 23,
+        "result": [
+          {
+            "value": {
+              "start": 63,
+              "end": 68,
+              "text": "Feb 8",
+              "labels": [
+                "DATE"
+              ],
+              "confidence": 1
+            },
+            "id": "q9JmAUNQXw",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 76,
+              "end": 80,
+              "text": "cold",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "W9kna-ae7a",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 82,
+              "end": 87,
+              "text": "cough",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "bdD-_Iau0W",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 93,
+              "end": 103,
+              "text": "runny nose",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "Og1_1-Z6Xx",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 110,
+              "end": 115,
+              "text": "Feb 2",
+              "labels": [
+                "DATE"
+              ],
+              "confidence": 1
+            },
+            "id": "dbXbuXS0kK",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 139,
+              "end": 144,
+              "text": "fever",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "GEtS2eQbjh",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 139,
+              "end": 144,
+              "text": "fever",
+              "labels": [
+                "ABSENT"
+              ],
+              "confidence": 1
+            },
+            "id": "fRI7Hnshnz",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 157,
+              "end": 177,
+              "text": "difficulty breathing",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "N4ivxsCnPj",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 157,
+              "end": 177,
+              "text": "difficulty breathing",
+              "labels": [
+                "ABSENT"
+              ],
+              "confidence": 1
+            },
+            "id": "LIqLLdrbTu",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 186,
+              "end": 191,
+              "text": "cough",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "CSNDeqDo1-",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 209,
+              "end": 212,
+              "text": "dry",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "UfGdazjTvm",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 217,
+              "end": 222,
+              "text": "hacky",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "ZErEBKJBax",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 271,
+              "end": 274,
+              "text": "flu",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "bTqrNYRXkz",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 271,
+              "end": 274,
+              "text": "flu",
+              "labels": [
+                "ABSENT"
+              ],
+              "confidence": 1
+            },
+            "id": "xIcnSpVB8U",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 238,
+              "end": 251,
+              "text": "physical exam",
+              "labels": [
+                "TEST"
+              ],
+              "confidence": 1
+            },
+            "id": "fnhk3datiK",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ],
+        "honeypot": false,
+        "copied_from": "completion: 2002",
+        "id": 2003,
+        "confidence_range": [
+          0,
+          1
+        ],
+        "submitted_at": "2022-07-27T16:43:09.053",
+        "copy": true,
+        "cid": "2002",
+        "data_type": "completion",
+        "updated_at": "2022-07-27T20:43:09.296801Z",
+        "updated_by": "luca.martial"
+      },
+      {
+        "created_username": "luca.martial",
+        "created_ago": "2022-07-27T20:49:14.488Z",
+        "lead_time": 331,
+        "result": [
+          {
+            "value": {
+              "start": 63,
+              "end": 68,
+              "text": "Feb 8",
+              "labels": [
+                "DATE"
+              ],
+              "confidence": 1
+            },
+            "id": "q9JmAUNQXw",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 76,
+              "end": 80,
+              "text": "cold",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "W9kna-ae7a",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 82,
+              "end": 87,
+              "text": "cough",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "bdD-_Iau0W",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 93,
+              "end": 103,
+              "text": "runny nose",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "Og1_1-Z6Xx",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 110,
+              "end": 115,
+              "text": "Feb 2",
+              "labels": [
+                "DATE"
+              ],
+              "confidence": 1
+            },
+            "id": "dbXbuXS0kK",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 139,
+              "end": 144,
+              "text": "fever",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "GEtS2eQbjh",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 139,
+              "end": 144,
+              "text": "fever",
+              "labels": [
+                "ABSENT"
+              ],
+              "confidence": 1
+            },
+            "id": "fRI7Hnshnz",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 157,
+              "end": 177,
+              "text": "difficulty breathing",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "N4ivxsCnPj",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 157,
+              "end": 177,
+              "text": "difficulty breathing",
+              "labels": [
+                "ABSENT"
+              ],
+              "confidence": 1
+            },
+            "id": "LIqLLdrbTu",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 186,
+              "end": 191,
+              "text": "cough",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "CSNDeqDo1-",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 209,
+              "end": 212,
+              "text": "dry",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "UfGdazjTvm",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 217,
+              "end": 222,
+              "text": "hacky",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "ZErEBKJBax",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 271,
+              "end": 274,
+              "text": "flu",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "bTqrNYRXkz",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 271,
+              "end": 274,
+              "text": "flu",
+              "labels": [
+                "ABSENT"
+              ],
+              "confidence": 1
+            },
+            "id": "xIcnSpVB8U",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 238,
+              "end": 251,
+              "text": "physical exam",
+              "labels": [
+                "TEST"
+              ],
+              "confidence": 1
+            },
+            "id": "fnhk3datiK",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "from_id": "q9JmAUNQXw",
+            "to_id": "W9kna-ae7a",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "is_date_of"
+            ],
+            "confidence": 1
+          },
+          {
+            "from_id": "q9JmAUNQXw",
+            "to_id": "bdD-_Iau0W",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "is_date_of"
+            ],
+            "confidence": 1
+          },
+          {
+            "from_id": "q9JmAUNQXw",
+            "to_id": "Og1_1-Z6Xx",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "is_date_of"
+            ],
+            "confidence": 1
+          },
+          {
+            "from_id": "fnhk3datiK",
+            "to_id": "bTqrNYRXkz",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "is_test_of"
+            ],
+            "confidence": 1
+          }
+        ],
+        "honeypot": true,
+        "copied_from": "completion: 2003",
+        "id": 2004,
+        "confidence_range": [
+          0,
+          1
+        ],
+        "submitted_at": "2022-07-27T16:49:14.484",
+        "copy": true,
+        "cid": "2003",
+        "data_type": "completion",
+        "updated_at": "2022-07-27T20:49:14.746461Z",
+        "updated_by": "luca.martial"
+      }
+    ],
+    "predictions": [],
+    "created_at": "2022-07-27 20:09:52",
+    "created_by": "luca.martial",
+    "data": {
+      "text": "The patient is a 5-month-old infant who presented initially on Feb 8 with a cold, cough, and runny nose since Feb 2. Mom states she had no fever. She had no difficulty breathing and her cough was described as dry and hacky. At that time, physical exam showed no signs of flu.",
+      "title": "Note 2"
+    },
+    "id": 2
+  },
+  {
+    "completions": [
+      {
+        "created_username": "luca.martial",
+        "created_ago": "2022-07-27T20:31:28.938196Z",
+        "lead_time": 1174,
+        "result": [
+          {
+            "value": {
+              "start": 52,
+              "end": 62,
+              "text": "congestion",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "3i8G8k4bWT",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ],
+        "honeypot": false,
+        "id": 3001,
+        "confidence_range": [
+          0,
+          1
+        ],
+        "submitted_at": "2022-07-27T16:31:35.490",
+        "updated_at": "2022-07-27T20:31:35.786378Z",
+        "updated_by": "luca.martial"
+      },
+      {
+        "created_username": "luca.martial",
+        "created_ago": "2022-07-27T20:33:00.979Z",
+        "lead_time": 80,
+        "result": [
+          {
+            "value": {
+              "start": 52,
+              "end": 62,
+              "text": "congestion",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "3i8G8k4bWT",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 93,
+              "end": 120,
+              "text": "suctioning yellow discharge",
+              "labels": [
+                "TREATMENT"
+              ],
+              "confidence": 1
+            },
+            "id": "bmk7tz2Wf-",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 173,
+              "end": 196,
+              "text": "mild breathing problems",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "mQyHx2n612",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 244,
+              "end": 261,
+              "text": "perioral cyanosis",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "WjzQXJXBHH",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 265,
+              "end": 276,
+              "text": "retractions",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "uj3mMiQSkr",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 311,
+              "end": 330,
+              "text": "tactile temperature",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "m9Wu-9KspQ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 352,
+              "end": 359,
+              "text": "Tylenol",
+              "labels": [
+                "TREATMENT"
+              ],
+              "confidence": 1
+            },
+            "id": "nCLfdKwVxy",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 69,
+              "end": 77,
+              "text": "Nov 8/15",
+              "labels": [
+                "DATE"
+              ],
+              "confidence": 1
+            },
+            "id": "Z_YFE1QEv2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 217,
+              "end": 225,
+              "text": "Nov 9/15",
+              "labels": [
+                "DATE"
+              ],
+              "confidence": 1
+            },
+            "id": "2ABvQeor24",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ],
+        "honeypot": false,
+        "copied_from": "completion: 3001",
+        "id": 3002,
+        "confidence_range": [
+          0,
+          1
+        ],
+        "submitted_at": "2022-07-27T16:33:00.977",
+        "copy": true,
+        "cid": "3001",
+        "data_type": "completion",
+        "updated_at": "2022-07-27T20:33:01.234017Z",
+        "updated_by": "luca.martial"
+      },
+      {
+        "created_username": "luca.martial",
+        "created_ago": "2022-07-27T20:34:10.209Z",
+        "lead_time": 31,
+        "result": [
+          {
+            "value": {
+              "start": 52,
+              "end": 62,
+              "text": "congestion",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "3i8G8k4bWT",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 93,
+              "end": 120,
+              "text": "suctioning yellow discharge",
+              "labels": [
+                "TREATMENT"
+              ],
+              "confidence": 1
+            },
+            "id": "bmk7tz2Wf-",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 173,
+              "end": 196,
+              "text": "mild breathing problems",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "mQyHx2n612",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 244,
+              "end": 261,
+              "text": "perioral cyanosis",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "WjzQXJXBHH",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 265,
+              "end": 276,
+              "text": "retractions",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "uj3mMiQSkr",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 311,
+              "end": 330,
+              "text": "tactile temperature",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "m9Wu-9KspQ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 352,
+              "end": 359,
+              "text": "Tylenol",
+              "labels": [
+                "TREATMENT"
+              ],
+              "confidence": 1
+            },
+            "id": "nCLfdKwVxy",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 69,
+              "end": 77,
+              "text": "Nov 8/15",
+              "labels": [
+                "DATE"
+              ],
+              "confidence": 1
+            },
+            "id": "Z_YFE1QEv2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 217,
+              "end": 225,
+              "text": "Nov 9/15",
+              "labels": [
+                "DATE"
+              ],
+              "confidence": 1
+            },
+            "id": "2ABvQeor24",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 244,
+              "end": 261,
+              "text": "perioral cyanosis",
+              "labels": [
+                "ABSENT"
+              ],
+              "confidence": 1
+            },
+            "id": "K95YWWFjt6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 265,
+              "end": 276,
+              "text": "retractions",
+              "labels": [
+                "ABSENT"
+              ],
+              "confidence": 1
+            },
+            "id": "Kp7xccQRIQ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ],
+        "honeypot": false,
+        "copied_from": "completion: 3002",
+        "id": 3003,
+        "confidence_range": [
+          0,
+          1
+        ],
+        "submitted_at": "2022-07-27T16:34:10.207",
+        "copy": true,
+        "cid": "3002",
+        "data_type": "completion",
+        "updated_at": "2022-07-27T20:34:10.458553Z",
+        "updated_by": "luca.martial"
+      },
+      {
+        "created_username": "luca.martial",
+        "created_ago": "2022-07-27T20:36:42.752Z",
+        "lead_time": 148,
+        "result": [
+          {
+            "value": {
+              "start": 52,
+              "end": 62,
+              "text": "congestion",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "3i8G8k4bWT",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 93,
+              "end": 120,
+              "text": "suctioning yellow discharge",
+              "labels": [
+                "TREATMENT"
+              ],
+              "confidence": 1
+            },
+            "id": "bmk7tz2Wf-",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 173,
+              "end": 196,
+              "text": "mild breathing problems",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "mQyHx2n612",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 244,
+              "end": 261,
+              "text": "perioral cyanosis",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "WjzQXJXBHH",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 265,
+              "end": 276,
+              "text": "retractions",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "uj3mMiQSkr",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 311,
+              "end": 330,
+              "text": "tactile temperature",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "m9Wu-9KspQ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 352,
+              "end": 359,
+              "text": "Tylenol",
+              "labels": [
+                "TREATMENT"
+              ],
+              "confidence": 1
+            },
+            "id": "nCLfdKwVxy",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 69,
+              "end": 77,
+              "text": "Nov 8/15",
+              "labels": [
+                "DATE"
+              ],
+              "confidence": 1
+            },
+            "id": "Z_YFE1QEv2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 217,
+              "end": 225,
+              "text": "Nov 9/15",
+              "labels": [
+                "DATE"
+              ],
+              "confidence": 1
+            },
+            "id": "2ABvQeor24",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 244,
+              "end": 261,
+              "text": "perioral cyanosis",
+              "labels": [
+                "ABSENT"
+              ],
+              "confidence": 1
+            },
+            "id": "K95YWWFjt6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 265,
+              "end": 276,
+              "text": "retractions",
+              "labels": [
+                "ABSENT"
+              ],
+              "confidence": 1
+            },
+            "id": "Kp7xccQRIQ",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "from_id": "Z_YFE1QEv2",
+            "to_id": "3i8G8k4bWT",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "is_date_of"
+            ],
+            "confidence": 1
+          },
+          {
+            "from_id": "bmk7tz2Wf-",
+            "to_id": "3i8G8k4bWT",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "is_treatment_of"
+            ],
+            "confidence": 1
+          },
+          {
+            "from_id": "2ABvQeor24",
+            "to_id": "mQyHx2n612",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "is_date_of"
+            ],
+            "confidence": 1
+          },
+          {
+            "from_id": "nCLfdKwVxy",
+            "to_id": "m9Wu-9KspQ",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "is_treatment_of"
+            ],
+            "confidence": 1
+          }
+        ],
+        "honeypot": true,
+        "copied_from": "completion: 3003",
+        "id": 3004,
+        "confidence_range": [
+          0,
+          1
+        ],
+        "submitted_at": "2022-07-27T16:36:42.749",
+        "copy": true,
+        "cid": "3003",
+        "data_type": "completion",
+        "updated_at": "2022-07-27T20:36:43.015402Z",
+        "updated_by": "luca.martial"
+      }
+    ],
+    "predictions": [],
+    "created_at": "2022-07-27 20:09:52",
+    "created_by": "luca.martial",
+    "data": {
+      "text": "The patient is a 21-day-old male here for 2 days of congestion since Nov 8/15 - mom has been suctioning yellow discharge from the patient's nares, plus she has noticed some mild breathing problems while feeding since Nov 9/15 (without signs of perioral cyanosis or retractions). One day ago, mom also noticed a tactile temperature and gave the patient Tylenol.",
+      "title": "Note 3"
+    },
+    "id": 3
+  },
+  {
+    "completions": [
+      {
+        "created_username": "luca.martial",
+        "created_ago": "2022-07-27T20:51:42.936091Z",
+        "lead_time": 91,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 8,
+              "text": "18/08",
+              "labels": [
+                "DATE"
+              ],
+              "confidence": 1
+            },
+            "id": "913kn0hyA8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 51,
+              "end": 56,
+              "text": "06/08",
+              "labels": [
+                "DATE"
+              ],
+              "confidence": 1
+            },
+            "id": "zv5DrqLqFD",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 36,
+              "end": 44,
+              "text": "headache",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "mVq0rgHpin",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 73,
+              "end": 80,
+              "text": "head CT",
+              "labels": [
+                "TEST"
+              ],
+              "confidence": 1
+            },
+            "id": "dk0TabMkiW",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 94,
+              "end": 101,
+              "text": "anxious",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "EzuSy0r5no",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 126,
+              "end": 134,
+              "text": "alopecia",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "H01UmnYsJr",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 156,
+              "end": 160,
+              "text": "pain",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "I_RXTdz96L",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 126,
+              "end": 134,
+              "text": "alopecia",
+              "labels": [
+                "ABSENT"
+              ],
+              "confidence": 1
+            },
+            "id": "2rYDq-k137",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 156,
+              "end": 160,
+              "text": "pain",
+              "labels": [
+                "ABSENT"
+              ],
+              "confidence": 1
+            },
+            "id": "9eK7BrgOUv",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ],
+        "honeypot": false,
+        "id": 1001,
+        "confidence_range": [
+          0,
+          1
+        ],
+        "submitted_at": "2022-07-27T16:52:03.022",
+        "updated_at": "2022-07-27T20:52:03.283859Z",
+        "updated_by": "luca.martial"
+      },
+      {
+        "created_username": "luca.martial",
+        "created_ago": "2022-07-27T20:52:05.857411Z",
+        "lead_time": 0,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 8,
+              "text": "18/08",
+              "labels": [
+                "DATE"
+              ],
+              "confidence": 1
+            },
+            "id": "913kn0hyA8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 51,
+              "end": 56,
+              "text": "06/08",
+              "labels": [
+                "DATE"
+              ],
+              "confidence": 1
+            },
+            "id": "zv5DrqLqFD",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 36,
+              "end": 44,
+              "text": "headache",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "mVq0rgHpin",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 73,
+              "end": 80,
+              "text": "head CT",
+              "labels": [
+                "TEST"
+              ],
+              "confidence": 1
+            },
+            "id": "dk0TabMkiW",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 94,
+              "end": 101,
+              "text": "anxious",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "EzuSy0r5no",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 126,
+              "end": 134,
+              "text": "alopecia",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "H01UmnYsJr",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 156,
+              "end": 160,
+              "text": "pain",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "I_RXTdz96L",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 126,
+              "end": 134,
+              "text": "alopecia",
+              "labels": [
+                "ABSENT"
+              ],
+              "confidence": 1
+            },
+            "id": "2rYDq-k137",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 156,
+              "end": 160,
+              "text": "pain",
+              "labels": [
+                "ABSENT"
+              ],
+              "confidence": 1
+            },
+            "id": "9eK7BrgOUv",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ],
+        "honeypot": false,
+        "copied_from": "completion: 1001",
+        "id": 1002
+      },
+      {
+        "created_username": "luca.martial",
+        "created_ago": "2022-07-27T20:52:44.727Z",
+        "lead_time": 28,
+        "result": [
+          {
+            "value": {
+              "start": 3,
+              "end": 8,
+              "text": "18/08",
+              "labels": [
+                "DATE"
+              ],
+              "confidence": 1
+            },
+            "id": "913kn0hyA8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 51,
+              "end": 56,
+              "text": "06/08",
+              "labels": [
+                "DATE"
+              ],
+              "confidence": 1
+            },
+            "id": "zv5DrqLqFD",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 36,
+              "end": 44,
+              "text": "headache",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "mVq0rgHpin",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 73,
+              "end": 80,
+              "text": "head CT",
+              "labels": [
+                "TEST"
+              ],
+              "confidence": 1
+            },
+            "id": "dk0TabMkiW",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 94,
+              "end": 101,
+              "text": "anxious",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "EzuSy0r5no",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 126,
+              "end": 134,
+              "text": "alopecia",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "H01UmnYsJr",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 156,
+              "end": 160,
+              "text": "pain",
+              "labels": [
+                "PROBLEM"
+              ],
+              "confidence": 1
+            },
+            "id": "I_RXTdz96L",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 126,
+              "end": 134,
+              "text": "alopecia",
+              "labels": [
+                "ABSENT"
+              ],
+              "confidence": 1
+            },
+            "id": "2rYDq-k137",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 156,
+              "end": 160,
+              "text": "pain",
+              "labels": [
+                "ABSENT"
+              ],
+              "confidence": 1
+            },
+            "id": "9eK7BrgOUv",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "from_id": "zv5DrqLqFD",
+            "to_id": "mVq0rgHpin",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "is_date_of"
+            ],
+            "confidence": 1
+          },
+          {
+            "from_id": "dk0TabMkiW",
+            "to_id": "mVq0rgHpin",
+            "type": "relation",
+            "direction": "right",
+            "labels": [
+              "is_test_of"
+            ],
+            "confidence": 1
+          }
+        ],
+        "honeypot": true,
+        "copied_from": "completion: 1002",
+        "id": 1003,
+        "confidence_range": [
+          0,
+          1
+        ],
+        "submitted_at": "2022-07-27T16:52:44.724",
+        "copy": true,
+        "cid": "1002",
+        "data_type": "completion",
+        "updated_at": "2022-07-27T20:52:44.972993Z",
+        "updated_by": "luca.martial"
+      }
+    ],
+    "predictions": [],
+    "created_at": "2022-07-27 20:09:52",
+    "created_by": "luca.martial",
+    "data": {
+      "text": "On 18/08 patient declares she has a headache since 06/08, needs to get a head CT, and appears anxious when she walks fast. No alopecia noted and she denies pain.",
+      "title": "Note 1"
+    },
+    "id": 1
+  }
+]
