@@ -4,7 +4,7 @@ install_flag=false
 run_flag=false
 env_pth=./sparknlp_env
 jupyter_port=8805
-pyspark_version=3.0.2
+pyspark_version=3.2.1
 hc_json_path=false
 ocr_json_path=false
 comb_json_path=false
@@ -91,7 +91,7 @@ install_ocr(){
 
     pip install --upgrade -q spark-nlp==$PUBLIC_VERSION
     pip install --upgrade -q spark-nlp-display
-    pip install --upgrade --no-dependencies -q spark-ocr==$OCR_VERSION+spark30 --extra-index-url=https://pypi.johnsnowlabs.com/$SPARK_OCR_SECRET
+    pip install --upgrade --no-dependencies -q spark-ocr==$OCR_VERSION+spark32 --extra-index-url=https://pypi.johnsnowlabs.com/$SPARK_OCR_SECRET
 
 }
 
