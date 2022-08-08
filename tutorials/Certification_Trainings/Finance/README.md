@@ -8,11 +8,8 @@
 ### Embeddings for Financial and Legal domains
 2. Embeddings.ipynb
 
-### Named Entity Recognition (NER) for Finance and Legal domains
-5. FinancialNER.ipynb
-6. FinancialNER_Training.ipynb
-7. LegalNER.ipynb
-8. LegalNER_Training.ipynb
+### Named Entity Recognition (NER) for Finance
+3. FinancialNER.ipynb
 
 ### Relation Extraction for Finance and Legal domains
 9. RelationExtraction.ipynb
