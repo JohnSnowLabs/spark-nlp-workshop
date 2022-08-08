@@ -9,7 +9,7 @@
 [2. Embeddings.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/2.Embeddings.ipynb)
 
 ### Named Entity Recognition (NER) for Finance
-3. Text_Classification.ipynb
+[3. Text_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/3.Text_Classification.ipynb)
 
 ### Named Entity Recognition (NER) for Finance
 4. NER.ipynb
