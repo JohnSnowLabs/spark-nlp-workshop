@@ -9,32 +9,28 @@
 2. Embeddings.ipynb
 
 ### Named Entity Recognition (NER) for Finance
-3. FinancialNER.ipynb
+3. Text_Classification.ipynb
+
+### Named Entity Recognition (NER) for Finance
+4. NER.ipynb
 
 ### Relation Extraction for Finance and Legal domains
-9. RelationExtraction.ipynb
-10. RelationExtraction_Training.ipynb
-
-### Multiclass and Multilabel Document Classification for Finance and Legal domains
-11. RelationExtraction.ipynb
-12. RelationExtraction_Training.ipynb
+5. RelationExtraction.ipynb
 
 ### Assertion Status for Finance and Legal domains
-13. AssertionStatus.ipynb
-14. AssertionStatus_Training.ipynb
+6. AssertionStatus.ipynb
 
 ### Augmentating Company information: Entity Resolution and Chunk Mappers
-15. EntityResolution.ipynb
-16. EntityResolution_Training.ipynb
-17. DataAugmentation_with_ChunkMappers.ipynb
+7. EntityResolution.ipynb
+8. DataAugmentation_with_ChunkMappers.ipynb
 
 ### Spark OCR for Visual Document Understanding for Finance and Legal domains
-18. SparkOCR_DocumentClassification.ipynb
-19. SprarkOCR_VisualNER.ipynb
+9. SparkOCR_DocumentClassification.ipynb
+10. SprarkOCR_VisualNER.ipynb
 
 ### Graphs and Neo4j
-20. GraphsGeneration.ipynb
+11. GraphsGeneration.ipynb
 
 ### Deidentification
-21. Deidentification.ipynb
+12. Deidentification.ipynb
 
