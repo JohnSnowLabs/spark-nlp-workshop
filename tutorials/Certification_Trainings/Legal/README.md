@@ -9,7 +9,7 @@
 [2. Embeddings.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/2.Embeddings.ipynb)
 
 ### Text Classification
-3. TextClassification.ipynb
+[3. TextClassification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/3.TextClassification.ipynb)
 
 ### Named Entity Recognition (NER) for Finance and Legal domains
 4. LegalNER.ipynb
