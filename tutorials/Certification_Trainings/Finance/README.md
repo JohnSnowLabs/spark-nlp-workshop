@@ -6,8 +6,7 @@
 [1. Tokenization_Splitting.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/1.Tokenization_Splitting.ipynb)
 
 ### Embeddings for Financial and Legal domains
-3. WordEmbeddings.ipynb
-4. SentenceEmbeddings.ipynb
+2. Embeddings.ipynb
 
 ### Named Entity Recognition (NER) for Finance and Legal domains
 5. FinancialNER.ipynb
