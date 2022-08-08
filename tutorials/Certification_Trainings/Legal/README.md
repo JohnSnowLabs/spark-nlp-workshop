@@ -6,7 +6,7 @@
 [1. Tokenization_Splitting.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/1.Tokenization_Splitting.ipynb)
 
 ### Embeddings for Legal domain
-2. Embeddings.ipynb
+[2. Embeddings.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/2.Embeddings.ipynb)
 
 ### Text Classification
 3. TextClassification.ipynb
