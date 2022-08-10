@@ -12,7 +12,7 @@
 [3. TextClassification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/3.TextClassification.ipynb)
 
 ### Named Entity Recognition (NER) for Finance and Legal domains
-4. LegalNER.ipynb
+[4. LegalNER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/4.LegalNER.ipynb)
 
 ### Relation Extraction for Finance and Legal domains
 5. RelationExtraction.ipynb
