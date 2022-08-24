@@ -33,3 +33,5 @@
 ### Deidentification
 [11. Deidentification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/11.Deidentification.ipynb)
 
+### Table Understanding
+12. TableUnderstanding.ipynb
