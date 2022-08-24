@@ -8,13 +8,13 @@
 ### Embeddings for Financial and Legal domains
 [2.Embeddings.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/2.Embeddings.ipynb)
 
-### Named Entity Recognition (NER) for Finance
+### Financial Text Classification
 [3.Text_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/3.Text_Classification.ipynb)
 
 ### Named Entity Recognition (NER) for Finance
 [4.FinanceNER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/4.FinanceNER.ipynb)
 
-### Relation Extraction for Finance
+### Relation Extraction and Zero-shot Relation Extraction for Finance
 5. RelationExtraction.ipynb
 
 ### Assertion Status for Finance
@@ -25,12 +25,11 @@
 8. DataAugmentation_with_ChunkMappers.ipynb
 
 ### Spark OCR for Visual Document Understanding for Finance and Legal domains
-9. SparkOCR_DocumentClassification.ipynb
-10. SprarkOCR_VisualNER.ipynb
+9. VisualDocumentClassification.ipynb
 
 ### Graphs and Neo4j
-11. GraphsGeneration.ipynb
+10. GraphsGeneration.ipynb
 
 ### Deidentification
-12. Deidentification.ipynb
+11. Deidentification.ipynb
 
