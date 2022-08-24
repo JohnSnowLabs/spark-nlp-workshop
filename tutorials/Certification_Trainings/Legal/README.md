@@ -28,7 +28,7 @@
 9. VisualDocumentClassification.ipynb
 
 ### Deidentification
-10. Deidentification.ipynb
+[10. Deidentification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/10.Deidentification.ipynb)
 
 ### Graph Capabilities
 11. SparkNLP_Neo4j.ipynb
