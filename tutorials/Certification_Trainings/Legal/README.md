@@ -11,19 +11,21 @@
 ### Text Classification
 [3. TextClassification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/3.TextClassification.ipynb)
 
-### Named Entity Recognition (NER) for Finance and Legal domains
+### Legal Named Entity Recognition (NER)
 [4. LegalNER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/4.LegalNER.ipynb)
 
-### Relation Extraction for Finance and Legal domains
+### Relation Extraction and Zero-shot Relation Extraction
 5. RelationExtraction.ipynb
 
 ### Augmentating Company information: Entity Resolution and Chunk Mappers
 6. EntityResolution.ipynb
 7. DataAugmentation_with_ChunkMappers.ipynb
 
-### Spark OCR for Visual Document Understanding
-8. SparkOCR_DocumentClassification.ipynb
-9. SprarkOCR_VisualNER.ipynb
+### Question&Answering and Long Span Extraction
+8. QALongSpans.ipynb
+
+### Visual Document Classification
+9. VisualDocumentClassification.ipynb
 
 ### Deidentification
 10. Deidentification.ipynb
