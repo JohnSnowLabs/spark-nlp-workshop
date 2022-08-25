@@ -1,6 +1,12 @@
 # Scale Vision Transformers (ViT) Beyond Hugging Face
 ## Speed up sate-of-the-art ViT models in Hugging Face 🤗 up to 2300% (25x times faster ) with Databricks, Nvidia, and Spark NLP 🚀
 
+### Article
+
+This reporsitory contains everything needed to reproduce benchmarks used in this published article: 
+
+["Scale Vision Transformers (ViT) Beyond Hugging Face"](https://hackernoon.com/scale-vision-transformers-vit-beyond-hugging-face) | HackerNoon
+
 ### Datasets
 
 ```sh
