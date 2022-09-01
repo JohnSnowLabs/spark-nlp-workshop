@@ -22,7 +22,7 @@
 
 ### Augmentating Company information: Entity Resolution and Chunk Mappers
 7. EntityResolution.ipynb
-8. DataAugmentation_with_ChunkMappers.ipynb
+8. Data_Augmentation_with_ChunkMappers.ipynb
 
 ### Graphs and Neo4j
 9. GraphsGeneration.ipynb
