@@ -23,7 +23,7 @@
 [7. Data_Augmentation_with_ChunkMappers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/7.Data_Augmentation_with_ChunkMappers.ipynb)
 
 ### Question&Answering and Long Span Extraction
-8. QALongSpans.ipynb
+[8. LongSpanExtraction.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/8.Long_Span_Extraction.ipynb)
 
 ### Visual Document Classification
 9. VisualDocumentClassification.ipynb
