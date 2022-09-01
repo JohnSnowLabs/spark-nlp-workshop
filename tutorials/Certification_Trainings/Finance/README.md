@@ -24,11 +24,11 @@
 7. EntityResolution.ipynb
 8. DataAugmentation_with_ChunkMappers.ipynb
 
-### Spark OCR for Visual Document Understanding for Finance and Legal domains
-9. VisualDocumentClassification.ipynb
-
 ### Graphs and Neo4j
-10. GraphsGeneration.ipynb
+9. GraphsGeneration.ipynb
+
+### Spark OCR for Visual Document Understanding for Finance and Legal domains
+10. VisualDocumentClassification.ipynb
 
 ### Deidentification
 [11. Deidentification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/11.Deidentification.ipynb)
