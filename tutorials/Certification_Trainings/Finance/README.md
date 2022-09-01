@@ -1,4 +1,4 @@
-# Spark-NLP for Finance
+# Spark NLP for Finance
 
 ## Table of Contents
 
@@ -22,6 +22,7 @@
 
 ### Augmentating Company information: Entity Resolution and Chunk Mappers
 7. EntityResolution.ipynb
+
 [8. Data_Augmentation_with_ChunkMappers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/8.Data_Augmentation_with_ChunkMappers.ipynb)
 
 ### Graphs and Neo4j
