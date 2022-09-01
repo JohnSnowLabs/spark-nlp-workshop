@@ -9,7 +9,7 @@
 [2. Embeddings.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/2.Embeddings.ipynb)
 
 ### Text Classification
-[3. TextClassification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/3.TextClassification.ipynb)
+[3. Text_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/3.Text_Classification.ipynb)
 
 ### Legal Named Entity Recognition (NER)
 [4. LegalNER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/4.LegalNER.ipynb)
@@ -19,7 +19,8 @@
 
 ### Augmentating Company information: Entity Resolution and Chunk Mappers
 6. EntityResolution.ipynb
-7. DataAugmentation_with_ChunkMappers.ipynb
+
+[7. Data_Augmentation_with_ChunkMappers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/7.Data_Augmentation_with_ChunkMappers.ipynb)
 
 ### Question&Answering and Long Span Extraction
 8. QALongSpans.ipynb
