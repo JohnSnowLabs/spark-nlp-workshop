@@ -12,7 +12,7 @@
 [3.Text_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/3.Text_Classification.ipynb)
 
 ### Named Entity Recognition (NER) for Finance
-[4.FinanceNER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/4.FinanceNER.ipynb)
+[4.FinancialNER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/4.FinancialNER.ipynb)
 
 ### Relation Extraction and Zero-shot Relation Extraction for Finance
 5. RelationExtraction.ipynb
@@ -22,7 +22,7 @@
 
 ### Augmentating Company information: Entity Resolution and Chunk Mappers
 7. EntityResolution.ipynb
-8. Data_Augmentation_with_ChunkMappers.ipynb
+[8. Data_Augmentation_with_ChunkMappers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/8.Data_Augmentation_with_ChunkMappers.ipynb)
 
 ### Graphs and Neo4j
 9. GraphsGeneration.ipynb
