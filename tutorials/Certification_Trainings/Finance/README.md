@@ -5,19 +5,19 @@
 ### Tokenization and sentence splitting of long sentences and texts
 [1.Tokenization_Splitting.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/1.Tokenization_Splitting.ipynb)
 
-### Embeddings for Financial and Legal domains
+### Financial Word and Sentence Embeddinggs
 [2.Embeddings.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/2.Embeddings.ipynb)
 
 ### Financial Text Classification
 [3.Text_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/3.Text_Classification.ipynb)
 
-### Named Entity Recognition (NER) for Finance
-[4.FinancialNER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/4.FinancialNER.ipynb)
+### Financial Named Entity Recognition (NER) and Zero-shot NER
+[4.Financial_NER_ZeroShotNER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/4.Financial_NER_ZeroShotNER.ipynb)
 
-### Relation Extraction and Zero-shot Relation Extraction for Finance
-5. RelationExtraction.ipynb
+### Financial Relation Extraction and Zero-shot Relation Extraction
+5. Financial_RE_ZeroShotRE.ipynb
 
-### Assertion Status for Finance
+### Financial Assertion Status
 6. AssertionStatus.ipynb
 
 ### Augmentating Company information: Entity Resolution and Chunk Mappers
@@ -31,7 +31,7 @@
 ### Spark OCR for Visual Document Understanding for Finance and Legal domains
 10. VisualDocumentClassification.ipynb
 
-### Deidentification
+### Financial Deidentification
 [11. Deidentification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/11.Deidentification.ipynb)
 
 ### Table Understanding

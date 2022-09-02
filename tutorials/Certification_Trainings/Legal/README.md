@@ -5,17 +5,17 @@
 ### Tokenization and sentence splitting of long sentences and texts
 [1. Tokenization_Splitting.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/1.Tokenization_Splitting.ipynb)
 
-### Embeddings for Legal domain
+### Legal Word and Sentence Embeddings
 [2. Embeddings.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/2.Embeddings.ipynb)
 
-### Text Classification
+### Legal Text Classification
 [3. Text_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/3.Text_Classification.ipynb)
 
-### Legal Named Entity Recognition (NER)
-[4. LegalNER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/4.LegalNER.ipynb)
+### Legal Named Entity Recognition (NER) and Zero-shot NER
+[4. Legal_NER_ZeroShotNER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/4.Legal_NER_ZeroShotNER.ipynb)
 
 ### Relation Extraction and Zero-shot Relation Extraction
-5. RelationExtraction.ipynb
+5. Legal_RE_ZeroShotRE.ipynb
 
 ### Augmentating Company information: Entity Resolution and Chunk Mappers
 6. EntityResolution.ipynb
