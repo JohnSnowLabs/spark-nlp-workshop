@@ -26,7 +26,7 @@
 [8. Data_Augmentation_with_ChunkMappers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/8.Data_Augmentation_with_ChunkMappers.ipynb)
 
 ### Graphs and Neo4j
-9. GraphsGeneration.ipynb
+9. Financial_Graphs_with_Neo4j.ipynb
 
 ### Spark OCR for Visual Document Understanding for Finance and Legal domains
 10. VisualDocumentClassification.ipynb
