@@ -21,7 +21,7 @@
 6. AssertionStatus.ipynb
 
 ### Augmentating Company information: Entity Resolution and Chunk Mappers
-7. EntityResolution.ipynb
+[7. EntityResolution.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/7.EntityResolution.ipynb)
 
 [8. Data_Augmentation_with_ChunkMappers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/8.Data_Augmentation_with_ChunkMappers.ipynb)
 
