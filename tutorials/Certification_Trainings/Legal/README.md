@@ -18,7 +18,7 @@
 5. Legal_RE_ZeroShotRE.ipynb
 
 ### Augmentating Company information: Entity Resolution and Chunk Mappers
-6. EntityResolution.ipynb
+[6. EntityResolution.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/6.EntityResolution.ipynb)
 
 [7. Data_Augmentation_with_ChunkMappers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/7.Data_Augmentation_with_ChunkMappers.ipynb)
 
