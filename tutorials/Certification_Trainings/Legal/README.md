@@ -14,8 +14,8 @@
 ### Legal Named Entity Recognition (NER) and Zero-shot NER
 [4. Legal_NER_ZeroShotNER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/4.Legal_NER_ZeroShotNER.ipynb)
 
-### Relation Extraction and Zero-shot Relation Extraction
-5. Legal_RE_ZeroShotRE.ipynb
+### Legal Relation Extraction and Zero-shot Relation Extraction
+[5. Legal_RE_ZeroShotRE.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/5.Legal_RE_ZeroShotRE.ipynb)
 
 ### Augmentating Company information: Entity Resolution and Chunk Mappers
 [6. EntityResolution.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/6.EntityResolution.ipynb)
