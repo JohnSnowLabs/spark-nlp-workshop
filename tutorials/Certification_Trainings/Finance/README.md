@@ -18,7 +18,7 @@
 [5. Financial_RE_ZeroShotRE.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/5.Financial_RE_ZeroShotRE.ipynb)
 
 ### Financial Assertion Status
-6. AssertionStatus.ipynb
+[6. AssertionStatus.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/6.AssertionStatus.ipynb)
 
 ### Augmentating Company information: Entity Resolution and Chunk Mappers
 [7. EntityResolution.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/7.EntityResolution.ipynb)
