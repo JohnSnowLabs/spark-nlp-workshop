@@ -15,7 +15,7 @@
 [4.Financial_NER_ZeroShotNER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/4.Financial_NER_ZeroShotNER.ipynb)
 
 ### Financial Relation Extraction and Zero-shot Relation Extraction
-5. Financial_RE_ZeroShotRE.ipynb
+[5. Financial_RE_ZeroShotRE.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/5.Financial_RE_ZeroShotRE.ipynb)
 
 ### Financial Assertion Status
 6. AssertionStatus.ipynb
