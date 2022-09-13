@@ -29,7 +29,10 @@
 9. Financial_Graphs_with_Neo4j.ipynb
 
 ### Spark OCR for Visual Document Understanding for Finance and Legal domains
-10. VisualDocumentClassification.ipynb
+
+[10.Visual_Document_Classification_V3.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/10.Visual_Document_Classification_V3.ipynb)
+
+[10.1.Receipt_Binary_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/10.1.Receipt_Binary_Classification.ipynb)
 
 ### Financial Deidentification
 [11. Deidentification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/11.Deidentification.ipynb)
