@@ -1,4 +1,4 @@
-# Spark-NLP for Data Scientists and Healthcare Data Scientists 
+# Spark-NLP for Data Scientists and Healthcare, Finance, Legal Data Scientists 
 
 
 ## Spark-NLP for Data Scientists
