@@ -32,5 +32,8 @@
 [10. Deidentification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/10.Deidentification.ipynb)
 
 ### Legal Graphs with Spark NLP and Neo4J
-[11.Legal_Graphs_SparkNLP_Neo4j_ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/11.Legal_Graphs_SparkNLP_Neo4j_ipynb)
+[11.Legal_Graphs_SparkNLP_Neo4j.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/11.Legal_Graphs_SparkNLP_Neo4j_ipynb)
+
+### Legal Assertion Status
+[12.Assertion_Status.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/12.Assertion_Status.ipynb)
 
