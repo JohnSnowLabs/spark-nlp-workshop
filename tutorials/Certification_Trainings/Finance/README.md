@@ -28,8 +28,8 @@
 ### Financial Graphs with Spark NLP and Neo4J
 [9. Financial_Graphs_with_Neo4j.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/9.Financial_Graphs_SparkNLP_Neo4j.ipynb)
 
-### Document classification at Image and Layout Level
-[10. FinancialVisualDocumentUnderstanding.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/10.FinancialVisualDocumentUnderstanding.ipynb)
+### Financial Visual Document Understanding at Image and Layout Level
+[10. Financial_Visual_Document_Understanding.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/10.Financial_Visual_Document_Understanding.ipynb)
 
 [10.1. Image_Classification_with_Transformers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/10.1.Image_Classification_with_Transformers.ipynb)
 
