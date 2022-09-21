@@ -29,7 +29,10 @@
 [9. Financial_Graphs_with_Neo4j.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/9.Financial_Graphs_SparkNLP_Neo4j.ipynb)
 
 ### Document classification at Image and Layout Level
+[10. FinancialVisualDocumentUnderstanding.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/10.FinancialVisualDocumentUnderstanding.ipynb)
+
 [10.1. Image_Classification_with_Transformers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/10.1.Image_Classification_with_Transformers.ipynb)
+
 [10.2. Layout_Classification_with_SparkOCR.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/10.2.Layout_Classification_with_SparkOCR.ipynb)
 
 ### Financial Deidentification
