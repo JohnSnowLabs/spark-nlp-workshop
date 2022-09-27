@@ -53,6 +53,9 @@ If you don't have time to cover all these, please check the following notebook f
 
 [13.NLU_crashcourse_every_Spark_NLP_Model_in_one_line.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/13.NLU_crashcourse_every_Spark_NLP_Model_in_one_line.ipynb)
 
+### Image Classification Notebooks
+
+[18.ViT_for_Image_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/18.ViT_for_Image_Classification.ipynb)
 
 ### Auxillary Notebooks
 
@@ -67,6 +70,8 @@ If you don't have time to cover all these, please check the following notebook f
 [11.Text_Similarities_and_dimension_reduction_visualizations_for_Embeddings.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/11.Text_Similarities_and_dimension_reduction_visualizations_for_Embeddings.ipynb)
 
 [12.Graph_extraction.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/12.Graph_extraction.ipynb)
+
+[17.Table_Question_Answering.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/17.Table_Question_Answering.ipynb)
 
 
 
