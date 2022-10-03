@@ -40,3 +40,8 @@
 
 ### Table Understanding
 [12. Table_Question_Answering.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/12.Table_Question_Answering.ipynb)
+
+### Training
+[13.Training_Financial_Classifiers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/14.Training_Financial_Classifiers.ipynb)
+[14.Training_Financial_NER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/15.Training_Financial_NER.ipynb)
+[15.Training_Financial_Assertion.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/16.Training_Financial_Assertion.ipynb)
