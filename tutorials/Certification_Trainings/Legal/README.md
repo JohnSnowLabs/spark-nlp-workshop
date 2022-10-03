@@ -37,5 +37,10 @@
 ### Legal Assertion Status
 [12.Assertion_Status.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/12.Assertion_Status.ipynb)
 
-### Legal Correference Resolution
-[13.Correference_Resolution.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/13.Correference_Resolution.ipynb)
+### Legal Coreference Resolution
+[13.Coreference_Resolution.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/13.Correference_Resolution.ipynb)
+
+### Training
+[14.Training_Legal_Classifiers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/14.Training_Legal_Classifiers.ipynb)
+[15.Training_Legal_NER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/15.Training_Legal_NER.ipynb)
+[16.Training_Legal_Assertion.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/16.Training_Legal_Assertion.ipynb)
