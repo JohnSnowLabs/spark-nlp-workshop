@@ -42,5 +42,7 @@
 
 ### Training
 [14.Training_Legal_Classifiers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/14.Training_Legal_Classifiers.ipynb)
+
 [15.Training_Legal_NER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/15.Training_Legal_NER.ipynb)
+
 [16.Training_Legal_Assertion.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/16.Training_Legal_Assertion.ipynb)
