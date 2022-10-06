@@ -190,9 +190,9 @@ If you don't have time to cover all these, please check the following notebook f
 [20.SentenceDetectorDL_Healthcare.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/20.SentenceDetectorDL_Healthcare.ipynb)
 
 [26.Chunk_Mapping.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/26.Chunk_Mapping.ipynb)
-## ➤ Biomedical & Clinical NER Models Benchmarks/ Rankings
+## ☞ Biomedical & Clinical NER Models Benchmarks/ Rankings
 
-##
+
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-on-anatem)](https://paperswithcode.com/sota/named-entity-recognition-on-anatem?p=biomedical-named-entity-recognition-at-scale)
 
@@ -322,5 +322,5 @@ If you don't have time to cover all these, please check the following notebook f
 
 [16.Training_Legal_Assertion.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/16.Training_Legal_Assertion.ipynb)
 
-## ➤ Porting alternatives for the notebook that are failed to load by GitHub
+## ☞ Porting alternatives for the notebook that are failed to load by GitHub
 If a notebook cannot be opened in GitHub, just paste the url to `https://nbviewer.jupyter.org/` to view better or just try to open this in `Colab` by replacing `github.com` in the url with `githubtocolab.com`.
