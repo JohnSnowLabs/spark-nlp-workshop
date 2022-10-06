@@ -26,7 +26,7 @@
 
 ### ➤ Clinical Entity Resolution
 
-[3.Clinical_Entity_Resolvers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/3.Clinical_Entity_Resolvers.ipynb)
+[3.Clinical_Entity_Resolvers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/3.Clinical_Entity_Resolvers.ipynb)
 
 [3.1.Calculate_Medicare_Risk_Adjustment_Score.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/3.1.Calculate_Medicare_Risk_Adjustment_Score.ipynb)
 
@@ -81,7 +81,7 @@
 
 ### ➤ Classifiers
 
-[8.Generic_Classifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/8.Generic_Classifier.ipynb)
+[8.Generic_Classifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/8.Generic_Classifier.ipynb)
 
 [21.Gender_Classifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/21.Gender_Classifier.ipynb)
 
