@@ -115,9 +115,8 @@
 [20.SentenceDetectorDL_Healthcare.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/20.SentenceDetectorDL_Healthcare.ipynb)
 
 [26.Chunk_Mapping.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/26.Chunk_Mapping.ipynb)
-## ➤ Biomedical & Clinical NER Models Benchmarks/ Rankings
+## ☞ Biomedical & Clinical NER Models Benchmarks/ Rankings
 
-##
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-on-anatem)](https://paperswithcode.com/sota/named-entity-recognition-on-anatem?p=biomedical-named-entity-recognition-at-scale)
 
