@@ -8,7 +8,7 @@ If you don't have time to cover all these, please check the following notebook f
 
  [1-hr summary of entire package](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/1hr_workshop/SparkNLP_openSource_workshop_1hr.ipynb)
 
-## Spark NLP
+# **Spark NLP**
 
 [1.SparkNLP_Basics.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/1.SparkNLP_Basics.ipynb)
 
@@ -18,7 +18,7 @@ If you don't have time to cover all these, please check the following notebook f
 [3.SparkNLP_Pretrained_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/3.SparkNLP_Pretrained_Models.ipynb)
 
 
-### Training
+### ➤ Training
 [4.NERDL_Training.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/4.NERDL_Training.ipynb)
 
 [4.1_NerDL_Graph.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/4.1_NerDL_Graph.ipynb)
@@ -30,7 +30,7 @@ If you don't have time to cover all these, please check the following notebook f
 [5.2_Multi_Lingual_Training_and_models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/5.2_Multi_Lingual_Training_and_models.ipynb)
 
 
-### Transformers
+### ➤ Transformers
 
 [5.3_Transformers_for_Sequence_Classification_in_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/5.3_Transformers_for_Sequence_Classification_in_Spark_NLP.ipynb)
 
@@ -42,7 +42,7 @@ If you don't have time to cover all these, please check the following notebook f
 
 
 
-### T5 & NLU
+### ➤ T5 & NLU
 
 [10.Question_Answering_and_Summarization_with_T5.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/10.Question_Answering_and_Summarization_with_T5.ipynb)
 
@@ -53,11 +53,11 @@ If you don't have time to cover all these, please check the following notebook f
 
 [13.NLU_crashcourse_every_Spark_NLP_Model_in_one_line.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/13.NLU_crashcourse_every_Spark_NLP_Model_in_one_line.ipynb)
 
-### Image Classification Notebooks
+### ➤ Image Classification Notebooks
 
 [18.ViT_for_Image_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/18.ViT_for_Image_Classification.ipynb)
 
-### Auxillary Notebooks
+### ➤ Auxillary Notebooks
 
 [6.Playground_DataFrames.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/6.Playground_DataFrames.ipynb)
 
@@ -77,9 +77,10 @@ If you don't have time to cover all these, please check the following notebook f
 
 ## 
 
-## Spark-NLP for Healthcare
+# **Spark-NLP for Healthcare**
 
-### Clinical Named Entity Recognition
+
+### ➤ Clinical Named Entity Recognition
 
 [1.Clinical_Named_Entity_Recognition_Model.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/1.Clinical_Named_Entity_Recognition_Model.ipynb)
 
@@ -95,13 +96,13 @@ If you don't have time to cover all these, please check the following notebook f
 
 [16.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/16.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb)
 
-### Clinical Assertion
+### ➤ Clinical Assertion
 
 [2.Clinical_Assertion_Model.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/2.Clinical_Assertion_Model.ipynb)
 
 [2.1.Scope_window_tuning_assertion_status_detection.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/2.1.Scope_window_tuning_assertion_status_detection.ipynb)
 
-### Clinical Entity Resolution
+### ➤ Clinical Entity Resolution
 
 [3.Clinical_Entity_Resolvers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/3.Clinical_Entity_Resolvers.ipynb)
 
@@ -119,7 +120,7 @@ If you don't have time to cover all these, please check the following notebook f
 
 [24.1.Improved_Entity_Resolution_with_SentenceChunkEmbeddings.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/24.1.Improved_Entity_Resolution_with_SentenceChunkEmbeddings.ipynb)
 
-### Clinical Relation Extraction
+### ➤ Clinical Relation Extraction
 
 [10.Clinical_Relation_Extraction.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/10.Clinical_Relation_Extraction.ipynb)
 
@@ -129,7 +130,7 @@ If you don't have time to cover all these, please check the following notebook f
 
 [10.3.ZeroShot_Clinical_Relation_Extraction.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/10.3.ZeroShot_Clinical_Relation_Extraction.ipynb)
 
-### Clinical De-identification
+### ➤ Clinical De-identification
 
 [4.Clinical_DeIdentification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.Clinical_DeIdentification.ipynb)
 
@@ -140,7 +141,7 @@ If you don't have time to cover all these, please check the following notebook f
 [4.3.Clinical_Deidentification_SparkNLP_vs_Cloud_Providers_Comparison.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.3.Clinical_Deidentification_SparkNLP_vs_Cloud_Providers_Comparison.ipynb)
 
 
-### Optical Character Recognition with Spark OCR
+### ➤ Optical Character Recognition with Spark OCR
 
 [5.Spark_OCR.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/5.Spark_OCR.ipynb)
 
@@ -148,7 +149,7 @@ If you don't have time to cover all these, please check the following notebook f
 
 [5.2.Spark_OCR_Deidentification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/5.2.Spark_OCR_Deidentification.ipynb)
 
-### Clinical Pipelines
+### ➤ Clinical Pipelines
 
 [11.Pretrained_Clinical_Pipelines.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/11.Pretrained_Clinical_Pipelines.ipynb)
 
@@ -156,19 +157,19 @@ If you don't have time to cover all these, please check the following notebook f
 
 [11.2.Pretrained_NER_Profiling_Pipelines.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/11.2.Pretrained_NER_Profiling_Pipelines.ipynb)
 
-### Classifiers
+### ➤ Classifiers
 
 [8.Generic_Classifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/8.Generic_Classifier.ipynb)
 
 [21.Gender_Classifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/21.Gender_Classifier.ipynb)
 
-### Normalizers
+### ➤ Normalizers
 
 [23.Drug_Normalizer.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/23.Drug_Normalizer.ipynb)
 
 [25.Date_Normalizer.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/25.Date_Normalizer.ipynb)
 
-### Auxillary Notebooks
+### ➤ Auxillary Notebooks
 
 [6.Clinical_Context_Spell_Checker.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/6.Clinical_Context_Spell_Checker.ipynb)
 
@@ -189,23 +190,9 @@ If you don't have time to cover all these, please check the following notebook f
 [20.SentenceDetectorDL_Healthcare.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/20.SentenceDetectorDL_Healthcare.ipynb)
 
 [26.Chunk_Mapping.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/26.Chunk_Mapping.ipynb)
-## Biomedical & Clinical NER Models Benchmarks/ Rankings
+## ☞ Biomedical & Clinical NER Models Benchmarks/ Rankings
 
 
-
-
-
-## 
-
-## Spark-NLP for Finance
-
-[1.Tokenization_Splitting.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/1.Tokenization_Splitting.ipynb)
-
-
-[2.Financial_Contract_NER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/2.Financial_Contract_NER.ipynb)
-
-
-##
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-on-anatem)](https://paperswithcode.com/sota/named-entity-recognition-on-anatem?p=biomedical-named-entity-recognition-at-scale)
 
@@ -234,81 +221,106 @@ If you don't have time to cover all these, please check the following notebook f
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/improving-clinical-document-understanding-on/clinical-assertion-status-detection-on-2010)](https://paperswithcode.com/sota/clinical-assertion-status-detection-on-2010?p=improving-clinical-document-understanding-on)
 
-# Spark NLP for Finance
+# **Spark NLP for Finance**
 
 ## Table of Contents
 
-### Tokenization and sentence splitting of long sentences and texts
+### ➤ Tokenization and sentence splitting of long sentences and texts
 [1.Tokenization_Splitting.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/1.Tokenization_Splitting.ipynb)
 
-### Financial Word and Sentence Embeddinggs
+### ➤ Financial Word and Sentence Embeddinggs
 [2. Embeddings.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/2.Embeddings.ipynb)
 
-### Financial Text Classification
+### ➤ Financial Text Classification
 [3.Text_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/3.Text_Classification.ipynb)
 
-### Financial Named Entity Recognition (NER) and Zero-shot NER
-[4. 4.NER_and_ZeroShot.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/4.NER_and_ZeroShot.ipynb)
+### ➤ Financial Named Entity Recognition (NER) and Zero-shot NER
+[4.NER_and_ZeroShot.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/4.NER_and_ZeroShot.ipynb)
 
-### Financial Relation Extraction and Zero-shot Relation Extraction
-[5. RelationExtraction_and_ZeroShot.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/5.RelationExtraction_and_ZeroShot.ipynb)
+### ➤ Financial Relation Extraction and Zero-shot Relation Extraction
+[5.RelationExtraction_and_ZeroShot.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/5.RelationExtraction_and_ZeroShot.ipynb)
 
-### Financial Assertion Status: Understanding Entities in Context
-[6. AssertionStatus.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/6.AssertionStatus.ipynb)
+### ➤ Financial Assertion Status: Understanding Entities in Context
+[6.AssertionStatus.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/6.AssertionStatus.ipynb)
 
-### Augmenting Company information: Entity Resolution and Chunk Mappers
-[7. EntityResolution.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/7.EntityResolution.ipynb)
+### ➤ Augmenting Company information: Entity Resolution and Chunk Mappers
+[7.EntityResolution.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/7.EntityResolution.ipynb)
 
-[8. Data_Augmentation_with_ChunkMappers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/8.Data_Augmentation_with_ChunkMappers.ipynb)
+[8.Data_Augmentation_with_ChunkMappers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/8.Data_Augmentation_with_ChunkMappers.ipynb)
 
-### Financial Graphs with Spark NLP and Neo4J
-[9. Financial_Graphs_with_Neo4j.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/9.Financial_Graphs_SparkNLP_Neo4j.ipynb)
+### ➤ Financial Graphs with Spark NLP and Neo4J
+[9.Financial_Graphs_with_Neo4j.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/9.Financial_Graphs_SparkNLP_Neo4j.ipynb)
 
-### Document classification at Image and Layout Level
-[10.1. Image_Classification_with_Transformers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/10.1.Image_Classification_with_Transformers.ipynb)
-[10.2. Layout_Classification_with_SparkOCR.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/10.2.Layout_Classification_with_SparkOCR.ipynb)
+### ➤ Financial Visual Document Understanding at Image and Layout Level
+[10.Financial_Visual_Document_Understanding.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/10.Financial_Visual_Document_Understanding.ipynb)
 
-### Financial Deidentification
-[11. Deidentification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/11.Deidentification.ipynb)
+[10.1.Image_Classification_with_Transformers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/10.1.Image_Classification_with_Transformers.ipynb)
 
-### Table Understanding
-12. TableUnderstanding.ipynb
+[10.2.Layout_Classification_with_SparkOCR.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/10.2.Layout_Classification_with_SparkOCR.ipynb)
 
-# Spark-NLP for Legal
+### ➤ Financial Deidentification
+[11.Deidentification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/11.Deidentification.ipynb)
+
+### ➤ Table Understanding
+[12.Table_Question_Answering.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/12.Table_Question_Answering.ipynb)
+
+### ➤ Training
+[13.Training_Financial_Classifiers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/13.Training_Financial_Classifiers.ipynb)
+
+[14.Training_Financial_NER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/14.Training_Financial_NER.ipynb)
+
+[15.Training_Financial_Assertion.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Finance/15.Training_Finance_Assertion.ipynb)
+
+
+
+# **Spark-NLP for Legal**
 
 ## Table of Contents
 
-### Tokenization and sentence splitting of long sentences and texts
+### ➤ Tokenization and sentence splitting of long sentences and texts
 [1. Tokenization_Splitting.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/1.Tokenization_Splitting.ipynb)
 
-### Legal Word and Sentence Embeddings
+### ➤ Legal Word and Sentence Embeddings
 [2. Embeddings.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/2.Embeddings.ipynb)
 
-### Legal Text Classification
+### ➤ Legal Text Classification
 [3. Text_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/3.Text_Classification.ipynb)
 
-### Legal Named Entity Recognition (NER) and Zero-shot NER
+### ➤ Legal Named Entity Recognition (NER) and Zero-shot NER
 [4. NER_and_ZeroShot.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/4.NER_and_ZeroShot.ipynb)
 
-### Legal Relation Extraction and Zero-shot Relation Extraction
+### ➤ Legal Relation Extraction and Zero-shot Relation Extraction
 [5. RelationExtraction_and_ZeroShot.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/5.RelationExtraction_and_ZeroShot.ipynb)
 
-### Augmenting Company information: Entity Resolution and Chunk Mappers
+### ➤ Augmenting Company information: Entity Resolution and Chunk Mappers
 [6. EntityResolution.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/6.EntityResolution.ipynb)
 
 [7. Data_Augmentation_with_ChunkMappers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/7.Data_Augmentation_with_ChunkMappers.ipynb)
 
-### Automatic Prompt Generation for Long Span Extraction
+### ➤ Automatic Prompt Generation for Long Span Extraction
 [8. LongSpanExtraction.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/8.Long_Span_Extraction.ipynb)
 
-### Document Classification at layout level with Spark OCR
+### ➤ Document Classification at layout level with Spark OCR
 [9. Layout_Classification_with_SparkOCR.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/9.Layout_Classification_with_SparkOCR.ipynb)
 
-### Deidentification
+### ➤ Deidentification
 [10. Deidentification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/10.Deidentification.ipynb)
 
-### Legal Graphs with Spark NLP and Neo4J
-[11.Legal_Graphs_SparkNLP_Neo4j_ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/11.Legal_Graphs_SparkNLP_Neo4j_ipynb)
+### ➤ Legal Graphs with Spark NLP and Neo4J
+[11.Legal_Graphs_SparkNLP_Neo4j.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/11.Legal_Graphs_SparkNLP_Neo4j.ipynb)
 
-## Porting alternatives for the notebook that are failed to load by GitHub
+### ➤ Legal Assertion Status
+[12.Assertion_Status.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/12.Assertion_Status.ipynb)
+
+### ➤ Legal Coreference Resolution
+[13.Coreference_Resolution.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/13.Coreference_Resolution.ipynb)
+
+### ➤ Training
+[14.Training_Legal_Classifiers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/14.Training_Legal_Classifiers.ipynb)
+
+[15.Training_Legal_NER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/15.Training_Legal_NER.ipynb)
+
+[16.Training_Legal_Assertion.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Legal/16.Training_Legal_Assertion.ipynb)
+
+## ☞ Porting alternatives for the notebook that are failed to load by GitHub
 If a notebook cannot be opened in GitHub, just paste the url to `https://nbviewer.jupyter.org/` to view better or just try to open this in `Colab` by replacing `github.com` in the url with `githubtocolab.com`.
