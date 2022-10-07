@@ -54,7 +54,13 @@ If you don't have time to cover all these, please check the follwing notebook fo
 [13.NLU_crashcourse_every_Spark_NLP_Model_in_one_line.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/13.NLU_crashcourse_every_Spark_NLP_Model_in_one_line.ipynb)
 
 ### Image Classification Notebooks
+
 [18.ViT_for_Image_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/18.ViT_for_Image_Classification.ipynb)
+
+### Speech Recognition
+
+[19.Automatic_Speech_Recognition_Wav2Vec2.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/19.Automatic_Speech_Recognition_Wav2Vec2.ipynb)
+
 
 ### Auxillary Notebooks
 
