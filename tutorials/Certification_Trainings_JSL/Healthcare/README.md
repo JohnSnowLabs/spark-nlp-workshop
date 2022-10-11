@@ -112,7 +112,12 @@
 [20.SentenceDetectorDL_Healthcare.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/20.SentenceDetectorDL_Healthcare.ipynb)
 
 [26.Chunk_Mapping.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/26.Chunk_Mapping.ipynb)
+
+[27.Oncology_Model.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/27.Oncology_Model.ipynb)
+
+
 ## ☞ Biomedical & Clinical NER Models Benchmarks/ Rankings
+
 
 ##
 
