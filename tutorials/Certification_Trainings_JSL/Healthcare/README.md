@@ -14,6 +14,8 @@
 
 [1.5.BertForTokenClassification_NER_SparkNLP_with_Transformers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/1.5.BertForTokenClassification_NER_SparkNLP_with_Transformers.ipynb)
 
+[1.6.ZeroShot_Clinical_NER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/1.6.ZeroShot_Clinical_NER.ipynb)
+
 [7.Clinical_NER_Chunk_Merger.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/7.Clinical_NER_Chunk_Merger.ipynb)
 
 [16.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/16.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb)
@@ -83,6 +85,8 @@
 
 [8.Generic_Classifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/8.Generic_Classifier.ipynb)
 
+[19.MedicalBertForSequenceClassification_in_SparkNLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/19.MedicalBertForSequenceClassification_in_SparkNLP.ipynb)
+
 [21.Gender_Classifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/21.Gender_Classifier.ipynb)
 
 ### ➤ Normalizers
@@ -106,8 +110,6 @@
 [17.Graph_builder_for_DL_models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/17.Graph_builder_for_DL_models.ipynb)
 
 [18.Chunk_Sentence_Splitter.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/18.Chunk_Sentence_Splitter.ipynb)
-
-[19.Financial_Contract_NER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/19.Financial_Contract_NER.ipynb)
 
 [20.SentenceDetectorDL_Healthcare.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/20.SentenceDetectorDL_Healthcare.ipynb)
 
