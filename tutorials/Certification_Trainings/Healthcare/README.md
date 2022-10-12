@@ -88,8 +88,6 @@
 
 [21.Gender_Classifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/21.Gender_Classifier.ipynb)
 
-[19.MedicalBertForSequenceClassification_in_SparkNLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/19.MedicalBertForSequenceClassification_in_SparkNLP.ipynb)
-
 ### Normalizers
 
 [23.Drug_Normalizer.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/23.Drug_Normalizer.ipynb)
