@@ -117,6 +117,9 @@
 
 [27.Oncology_Model.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/27.Oncology_Model.ipynb)
 
+[28.EntityRuler_with_Clinical_NER_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/28.EntityRuler_with_Clinical_NER_Models.ipynb)
+
+[29.Coreference_Resolution_with_Clinical_NER_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/29.Coreference_Resolution_with_Clinical_NER_Models.ipynb)
 
 ## ☞ Biomedical & Clinical NER Models Benchmarks/ Rankings
 
