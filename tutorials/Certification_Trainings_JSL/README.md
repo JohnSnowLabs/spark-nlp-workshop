@@ -23,6 +23,8 @@
 
 [16.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/16.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb)
 
+[28.EntityRuler_with_Clinical_NER_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/28.EntityRuler_with_Clinical_NER_Models.ipynb)
+
 ### ➤ Clinical Assertion
 
 [2.Clinical_Assertion_Model.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/2.Clinical_Assertion_Model.ipynb)
@@ -56,6 +58,8 @@
 [10.2.Clinical_RE_Knowledge_Graph_with_Neo4j.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/10.2.Clinical_RE_Knowledge_Graph_with_Neo4j.ipynb)
 
 [10.3.ZeroShot_Clinical_Relation_Extraction.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/10.3.ZeroShot_Clinical_Relation_Extraction.ipynb)
+
+[29.Coreference_Resolution_with_Clinical_NER_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/29.Coreference_Resolution_with_Clinical_NER_Models.ipynb)
 
 ### ➤ Clinical De-identification
 
@@ -120,9 +124,6 @@
 
 [27.Oncology_Model.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/27.Oncology_Model.ipynb)
 
-[28.EntityRuler_with_Clinical_NER_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/28.EntityRuler_with_Clinical_NER_Models.ipynb)
-
-[29.Coreference_Resolution_with_Clinical_NER_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/29.Coreference_Resolution_with_Clinical_NER_Models.ipynb)
 
 ## ☞ Biomedical & Clinical NER Models Benchmarks/ Rankings
 
