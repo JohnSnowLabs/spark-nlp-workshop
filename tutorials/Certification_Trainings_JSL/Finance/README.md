@@ -54,4 +54,4 @@
 
 ### Solution Accelerators
 
-[31.Solution: Creating a Company Ecosystem Graph with Neo4j](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/31.Solution_Company_Ecosystem_Neo4J.ipynb)
+[31.Solution: Creating a Company Ecosystem Graph with Neo4j](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/31.Solution_Company_Ecosystem_Graph_Embeddings.ipynb)
