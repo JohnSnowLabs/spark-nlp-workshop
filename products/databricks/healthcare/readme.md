@@ -1,4 +1,4 @@
-Databricks Spark NLP Healthcare notebooks have been updated to latest release v3.0 (05.05.2021)
+**NOTE:** Databricks Spark NLP Healthcare notebooks have been updated to latest release v4.2.0 (13 October 2022)
 
 Before running these notebooks in your Databricks cluster, please make sure that you setup your cluster according to instructions here:
 
