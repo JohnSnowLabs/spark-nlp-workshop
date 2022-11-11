@@ -1,5 +1,5 @@
 pandas==1.1.5
-pyspark==3.1.1
+pyspark==3.2.2
 svgwrite==1.4
 streamlit==1.11.1
 wget==3.2
