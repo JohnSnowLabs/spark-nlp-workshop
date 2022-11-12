@@ -1,12 +1,14 @@
 from pyspark.ml import Pipeline
 from pyspark.ml import PipelineModel
 from pyspark.sql import functions as F
+from pyspark.sql import SparkSession
 
 from sparkocr.utils import display_images
 from sparkocr.transformers import *
 from sparkocr.enums import *
 from sparkocr.utils import to_pil_image
 
+from typing import Optional, List, IO
 import pandas as pd
 import xml.etree.ElementTree as ET
 from lxml import etree
@@ -71,9 +73,9 @@ def OCR_pipeline(spark, pdf_path, ner_pipeline, chunk_col="ner_chunk") :
 
 
 def hocr_to_dataframe(hocr):
-    with open ("demo_hocr_content.xml",'w',encoding='utf-8') as f:
+    with open ("hocr_content.xml",'w',encoding='utf-8') as f:
         f.write(str(hocr))
-    doc = etree.parse("demo_hocr_content.xml")
+    doc = etree.parse("hocr_content.xml")
     words    = []
     wordConf = []
     fonts    = []
@@ -105,6 +107,7 @@ def hocr_to_dataframe(hocr):
         dfReturn = dfReturn[dfReturn['word'].str.strip()!=''].reset_index(drop=True)
     except:
         pass
+    os.remove("hocr_content.xml")
     return(dfReturn)
 
 
@@ -217,13 +220,13 @@ def conv_rgba_to_rgb(_rgba):
     _rgb.paste(_rgba, mask=_rgba.split()[3])
     return _rgb
 
-def save_file(image_list, file_name, style, save_folder):
+def save_file(image_list, file_name, style, save_dir):
     print("Saving started...")
     images = [conv_rgba_to_rgb(_f) for _f in image_list]
-    if not os.path.exists(save_folder):
-        os.makedirs(save_folder)
-    images[0].save(f"{save_folder}/{file_name}_{style}.pdf", "PDF", resolution=72.0, save_all=True, append_images=images[1:])
-    print(f"Processed PDF files saved to {save_folder}/{file_name}_{style} successfully.")
+    if not os.path.exists(save_dir):
+        os.makedirs(save_dir)
+    images[0].save(f"{save_dir}/{file_name}_{style}.pdf", "PDF", resolution=72.0, save_all=True, append_images=images[1:])
+    print(f"File saved to {save_dir}/{file_name}_{style} successfully.")
 
 
 def draw_black_box(img_pil_deid, coord_df, label, label_color): 
@@ -246,7 +249,7 @@ def draw_black_box(img_pil_deid, coord_df, label, label_color):
    
     return img
 
-def black_box(result, file_name, style, chunk_col, save_folder = "Black_Box", label = False, label_color = "black", display_result=False):
+def black_box(result, file_name, style, chunk_col, save_dir = "Black_Box", label = False, label_color = "black", display_result=False):
     print("Drawing black box...")
     image_list = []  # append highlighted images
     res_pd = result.selectExpr("pagenum", f"{chunk_col}.begin", f"{chunk_col}.end", f"{chunk_col}.result", f"{chunk_col}.metadata").toPandas()
@@ -269,7 +272,7 @@ def black_box(result, file_name, style, chunk_col, save_folder = "Black_Box", la
         img_pil_deid = img_pil_deid.convert("RGBA")
         image_list.append(draw_black_box(img_pil_deid, coord_df, label, label_color))
 
-    save_file(image_list, file_name, style, save_folder)
+    save_file(image_list, file_name, style, save_dir)
 
     if display_result==True:
         for i in image_list:
@@ -318,7 +321,7 @@ def highlight(img_pil_deid, coord_df, label, label_color, black_list):
    
     return img
 
-def highlighted_box(result, file_name, style, chunk_col, black_list, save_folder = "Highlighted_Box", label = False, label_color = "red", color_chart_path = "color_chart.png", display_result=False):
+def highlighted_box(result, file_name, style, chunk_col, black_list, save_dir = "Highlighted_Box", label = False, label_color = "red", color_chart_path = "color_chart.png", display_result=False):
     global label2rgb, colors_rgb
     print("Highlighting...")
     image_list = []  # append highlighted images
@@ -346,7 +349,7 @@ def highlighted_box(result, file_name, style, chunk_col, black_list, save_folder
         img_pil_deid = img_pil_deid.convert("RGBA")
         image_list.append(highlight(img_pil_deid, coord_df, label, label_color, black_list))
 
-    save_file(image_list, file_name, style, save_folder)
+    save_file(image_list, file_name, style, save_dir)
     save_color_chart("highlight", color_chart_path)
 
     if display_result==True:
@@ -385,7 +388,7 @@ def draw_outline(img_pil_deid, coord_df, label, label_color, black_list):
 
     return img_pil_deid  
 
-def colored_box(result, file_name, style, chunk_col, black_list, save_folder = "Colored_Box", label = False, label_color = "red", color_chart_path = "color_chart.png", display_result=False) :
+def colored_box(result, file_name, style, chunk_col, black_list, save_dir = "Colored_Box", label = False, label_color = "red", color_chart_path = "color_chart.png", display_result=False) :
     
     global label2color, colors
     print("Drawing colored box...")
@@ -414,7 +417,7 @@ def colored_box(result, file_name, style, chunk_col, black_list, save_folder = "
         img_pil_deid = img_pil_deid.convert("RGBA")
         image_list.append(draw_outline(img_pil_deid, coord_df, label, label_color, black_list))
 
-    save_file(image_list, file_name, style, save_folder)
+    save_file(image_list, file_name, style, save_dir)
     save_color_chart("colored", color_chart_path)
     
     if display_result==True:
@@ -423,7 +426,51 @@ def colored_box(result, file_name, style, chunk_col, black_list, save_folder = "
     else: pass
 
 
-def ocr_entity_processor(spark, file_path, ner_pipeline, chunk_col = "ner_chunk", black_list = [], style = "bounding_box", save_folder = "save_folder", label= False, label_color = "red", color_chart_path = "color_chart.png", display_result=False):
+def ocr_entity_processor(spark:SparkSession, file_path:str, ner_pipeline:PipelineModel, chunk_col:str = "ner_chunk", black_list : Optional[List[str]] = None, 
+                         style:str = "bounding_box", save_dir:str = "save_folder", label:bool= False, label_color:str = "red", 
+                         color_chart_path:str = "color_chart.png", display_result:bool=False)-> IO:
+
+    """Generates an annotated PDF file using input PDF files 
+        :param spark: Spark session with spark-nlp-jsl and spark-ocr jar
+        :type spark: SparkSession
+
+        :param file_path: Path to PDF files
+        :type file_path: str
+
+        :param ner_pipeline: Fitted NER pipeline
+        :type ner_pipeline: PipelineModel
+
+        :param chunk_col: OutputCol name of the chunk in ner pipeline that will be annotated, default 'ner_chunk'
+        :type chunk_col: str
+
+        :param black_list: List of NER labels that will be painted over in 'highlight' and 'bounding_box' styles
+        :type black_list: list
+
+        :param style:  PDF file proccess style that has 3 options; 
+          'black_band': Black bands over the chunks detected by NER pipeline.
+          'bounding_box': Colorful bounding boxes around the chunks detected by NER pipeline. Each color represents a different NER label.
+          'highlight': Colorful highlights over the chunks detected by NER pipeline. Each color represents a different NER label.
+        :type style: str
+
+        :param save_dir: Path for saving folder of proccessed PDF files, defaults to 'save_folder'
+        :type save_dir: str
+
+        :param label: Set to True to write NER labels over the chunks, defaults to False
+        :type label: bool
+
+        :param label_color: Color of NER labels if 'label=True' , defaults to "red"
+        :type label_color: str
+
+        :param color_chart_path: File name of color chart in PNG format that shows the colors of NER labels in the processed file, defaults to "color_chart.png"
+        :type color_chart_path: str
+
+        :param display_result: Set to True to see the output of processed file, defaults to False
+        :type display_result: bool
+
+        :return: PDF file
+        :rtype: IO
+    """
+
     global colors
 
     results = OCR_pipeline(spark, pdf_path = file_path, ner_pipeline = ner_pipeline, chunk_col = chunk_col)
@@ -436,19 +483,19 @@ def ocr_entity_processor(spark, file_path, ner_pipeline, chunk_col = "ner_chunk"
             if (label == True) and (label_color not in colors):
                 raise Exception(f"{label_color} is not a valid color. Please pick one:{colors}")
             else:
-                colored_box(result,file_name, style, chunk_col, black_list, save_folder, label, label_color, color_chart_path, display_result)    
+                colored_box(result,file_name, style, chunk_col, black_list, save_dir, label, label_color, color_chart_path, display_result)    
 
         elif style == "highlight":
             if (label == True) and (label_color not in colors):
                 raise Exception(f"{label_color} is not a valid color. Please pick one:{colors}")
             else:
-                highlighted_box(result, file_name, style, chunk_col, black_list, save_folder, label, label_color, color_chart_path, display_result)
+                highlighted_box(result, file_name, style, chunk_col, black_list, save_dir, label, label_color, color_chart_path, display_result)
 
         elif style == "black_band" :
             if (label == True) and (label_color not in colors):
                 raise Exception(f"{label_color} is not a valid color. Please pick one:{colors}")
             else: 
-                black_box(result, file_name, style, chunk_col, save_folder, label, label_color, display_result)
+                black_box(result, file_name, style, chunk_col, save_dir, label, label_color, display_result)
 
         else:
             raise Exception(style, "is not a valid option. Please try one: ['bounding_box', 'highlight', 'black_band']")
