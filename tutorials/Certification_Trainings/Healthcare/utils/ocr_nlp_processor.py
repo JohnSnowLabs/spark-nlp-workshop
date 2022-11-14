@@ -426,7 +426,7 @@ def colored_box(result, file_name, style, chunk_col, black_list, save_dir = "Col
     else: pass
 
 
-def ocr_entity_processor(spark:SparkSession, file_path:str, ner_pipeline:PipelineModel, chunk_col:str = "ner_chunk", black_list : Optional[List[str]] = None, 
+def ocr_entity_processor(spark:SparkSession, file_path:str, ner_pipeline:PipelineModel, chunk_col:str = "ner_chunk", black_list : Optional[List[str]] = [], 
                          style:str = "bounding_box", save_dir:str = "save_folder", label:bool= False, label_color:str = "red", 
                          color_chart_path:str = "color_chart.png", display_result:bool=False)-> IO:
 
