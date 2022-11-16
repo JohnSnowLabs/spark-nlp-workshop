@@ -12,8 +12,6 @@ from config import RANGE_START
 from definition.definition_pb2_grpc import add_SparkNLPServicer_to_server, SparkNLPServicer
 import logging
 
-from sparknlp_manager.sparknlp_manager import SparkNLPManager
-
 
 def _run_server(bind_address):
     """Start a server in a subprocess."""

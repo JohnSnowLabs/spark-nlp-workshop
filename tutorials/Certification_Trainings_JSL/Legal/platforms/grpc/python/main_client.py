@@ -5,7 +5,7 @@ import grpc
 
 import config
 from config import RANGE_START
-from definition.definition_pb2 import nlp_input, nlp_output
+from definition.definition_pb2 import nlp_input
 from definition.definition_pb2_grpc import SparkNLPStub
 import time
 
