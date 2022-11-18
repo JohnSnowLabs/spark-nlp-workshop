@@ -1,3 +1,0 @@
-grpcio==1.50.0
-grpcio-tools==1.50.0
-johnsnowlabs==4.2.0

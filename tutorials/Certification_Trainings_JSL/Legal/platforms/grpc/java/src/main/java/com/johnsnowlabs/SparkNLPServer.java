@@ -1,23 +1,33 @@
 package com.johnsnowlabs;
 
-
-import com.johnsnowlabs.grpc.SparkNLPGrpc;
-import com.johnsnowlabs.grpc.nlp_input;
-import com.johnsnowlabs.grpc.nlp_output;
-import com.johnsnowlabs.sparknlp.SparkNLPManager;
+import com.johnsnowlabs.grpc_async.nlp_input;
+import com.johnsnowlabs.grpc_async.nlp_output;
+import com.johnsnowlabs.grpc_async.sparknlp_asyncGrpc;
+import com.johnsnowlabs.sparknlp_manager.SparkNLPManager;
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
 import io.grpc.stub.StreamObserver;
-import scala.collection.Seq;
-import scala.collection.immutable.Map;
-
 import java.io.IOException;
+import java.net.URL;
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import io.grpc.Server;
+import io.grpc.ServerBuilder;
+import io.grpc.stub.StreamObserver;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class SparkNLPServer {
     private static final Logger logger = Logger.getLogger(SparkNLPServer.class.getName());
@@ -88,31 +98,48 @@ public class SparkNLPServer {
         }
     }
 
-    private static class SparkNLPService extends SparkNLPGrpc.SparkNLPImplBase {
+    private static class SparkNLPService extends sparknlp_asyncGrpc.sparknlp_asyncImplBase {
         SparkNLPManager manager;
         SparkNLPService() {
             this.manager = new SparkNLPManager();
         }
 
-        @Override
-        public void clf(nlp_input text, StreamObserver<nlp_output> responseObserver) {
-            responseObserver.onNext(checkClf(text));
+        public void clf1m(nlp_input text, StreamObserver<nlp_output> responseObserver) {
+            manager.loadPipelines(1);
+            String fs = text.getText();
+            String res = this.manager.clf(fs);
+            responseObserver.onNext( nlp_output.newBuilder().setResult(res).build());
+            responseObserver.onCompleted();
+        }
+        public void clf10m(nlp_input text, StreamObserver<nlp_output> responseObserver) {
+            manager.loadPipelines(10);
+            String fs = text.getText();
+            String res = this.manager.clf(fs);
+            responseObserver.onNext( nlp_output.newBuilder().setResult(res).build());
+            responseObserver.onCompleted();
+        }
+        public void clf100m(nlp_input text, StreamObserver<nlp_output> responseObserver) {
+            manager.loadPipelines(100);
+            String fs = text.getText();
+            String res = this.manager.clf(fs);
+            responseObserver.onNext( nlp_output.newBuilder().setResult(res).build());
             responseObserver.onCompleted();
         }
 
-        private nlp_output checkClf(nlp_input text) {
+        public void clf200m(nlp_input text, StreamObserver<nlp_output> responseObserver) {
+            manager.loadPipelines(200);
             String fs = text.getText();
             String res = this.manager.clf(fs);
-            return nlp_output.newBuilder().setResult(res).build();
+            responseObserver.onNext( nlp_output.newBuilder().setResult(res).build());
+            responseObserver.onCompleted();
         }
 
-        private void info(String msg, Object... params) {
-            logger.log(Level.INFO, msg, params);
+        public void clf300m(nlp_input text, StreamObserver<nlp_output> responseObserver) {
+            manager.loadPipelines(300);
+            String fs = text.getText();
+            String res = this.manager.clf(fs);
+            responseObserver.onNext( nlp_output.newBuilder().setResult(res).build());
+            responseObserver.onCompleted();
         }
-
-        private void warning(String msg, Object... params) {
-            logger.log(Level.WARNING, msg, params);
-        }
-
     }
 }
