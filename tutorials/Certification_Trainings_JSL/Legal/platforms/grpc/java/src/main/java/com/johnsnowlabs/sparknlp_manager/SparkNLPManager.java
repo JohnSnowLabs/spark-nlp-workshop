@@ -60,13 +60,12 @@ public class SparkNLPManager {
 
     private void _setEnvVars() throws Exception {
         HashMap<String,String> newvars = new HashMap<String, String>() {{
-                put("AWS_ACCESS_KEY_ID", "");
-                put("AWS_SECRET_ACCESS_KEY","");
-                put("SPARK_NLP_LICENSE","");
-                put("SECRET", "");
-                put("JSL_VERSION", "4.2.1");
-                put("PUBLIC_VERSION", "4.2.1");
-
+                put("AWS_ACCESS_KEY_ID", Utils.AWS_ACCESS_KEY_ID);
+                put("AWS_SECRET_ACCESS_KEY",Utils.AWS_SECRET_ACCESS_KEY);
+                put("SPARK_NLP_LICENSE",Utils.SPARK_NLP_LICENSE);
+                put("SECRET", Utils.SECRET);
+                put("JSL_VERSION", Utils.JSL_VERSION);
+                put("PUBLIC_VERSION", Utils.PUBLIC_VERSION);
         }};
         this._setEnv(newvars);
     }
