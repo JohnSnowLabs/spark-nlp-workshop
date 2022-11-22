@@ -52,6 +52,10 @@ public class SparkNLPManager {
         config("spark.kryoserializer.buffer.max", "2000M").
         config("spark.jars", Utils.JAR_PATH).
         getOrCreate();
+
+        if (Utils.isFloatingLicense) {
+            com.johnsnowlabs.util.start.registerListenerAndStartRefresh();
+        }
     }
 
     public void loadPipelines(int numModels) {
