@@ -60,14 +60,22 @@ public class SparkNLPManager {
 
     private void _setEnvVars() throws Exception {
         HashMap<String,String> newvars = new HashMap<String, String>() {{
+            if (!Utils.isFloatingLicense) {
                 put("AWS_ACCESS_KEY_ID", Utils.AWS_ACCESS_KEY_ID);
                 put("AWS_SECRET_ACCESS_KEY",Utils.AWS_SECRET_ACCESS_KEY);
+            }
                 put("SPARK_NLP_LICENSE",Utils.SPARK_NLP_LICENSE);
                 put("SECRET", Utils.SECRET);
                 put("JSL_VERSION", Utils.JSL_VERSION);
                 put("PUBLIC_VERSION", Utils.PUBLIC_VERSION);
         }};
         this._setEnv(newvars);
+        System.out.println("AWS_ACCESS_KEY_ID: " + System.getenv("AWS_ACCESS_KEY_ID"));
+        System.out.println("AWS_SECRET_ACCESS_KEY: " + System.getenv("AWS_SECRET_ACCESS_KEY"));
+        System.out.println("SPARK_NLP_LICENSE: " + System.getenv("SPARK_NLP_LICENSE"));
+        System.out.println("SECRET: " + System.getenv("SECRET"));
+        System.out.println("JSL_VERSION: " + System.getenv("JSL_VERSION"));
+        System.out.println("PUBLIC_VERSION: " + System.getenv("PUBLIC_VERSION"));
     }
 
     private void _setEnv(Map<String, String> newenv) throws Exception {
@@ -147,7 +155,7 @@ public class SparkNLPManager {
 
         return pipeline.getStages().length;
     }
-    public List<String> _get_legal_clf() {
+    public List<String>     _get_legal_clf() {
         Gson gson = new Gson();
 
         // 1. JSON file to Java object
