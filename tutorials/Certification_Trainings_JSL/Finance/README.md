@@ -1,4 +1,4 @@
-# Spark-NLP for Finance
+# Spark NLP for Finance
 
 ## Table of Contents
 
@@ -6,7 +6,7 @@
 [1.Tokenization_Splitting.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/1.Tokenization_Splitting.ipynb)
 
 ### Financial Word and Sentence Embeddinggs
-[2.Embeddings.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/2.Embeddings.ipynb)
+[2. Embeddings.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/2.Embeddings.ipynb)
 
 ### Financial Text Classification
 [3.Text_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/3.Text_Classification.ipynb)
@@ -26,7 +26,7 @@
 [8.Data_Augmentation_with_ChunkMappers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/8.Data_Augmentation_with_ChunkMappers.ipynb)
 
 ### Financial Graphs with Spark NLP and Neo4J
-[9.Financial_Graphs_SparkNLP_Neo4j.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/9.Financial_Graphs_SparkNLP_Neo4j.ipynb)
+[9.Financial_Graphs_with_Neo4j.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/9.Financial_Graphs_SparkNLP_Neo4j.ipynb)
 
 ### Financial Visual Document Understanding at Image and Layout Level
 [10.Financial_Visual_Document_Understanding.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/10.Financial_Visual_Document_Understanding.ipynb)
@@ -46,6 +46,12 @@
 
 [14.Training_Financial_NER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/14.Training_Financial_NER.ipynb)
 
-[15.Training_Finance_Assertion.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/15.Training_Finance_Assertion.ipynb)
+[15.Training_Financial_Assertion.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/15.Training_Finance_Assertion.ipynb)
 
+### Finetuning and importing to Spark NLP
 
+[21.Zero-shot Table Understanding](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/21.Zero_shot_Table_Understanding_Finetuning.ipynb)
+
+### Solution Accelerators
+
+[31.Solution: Creating a Company Ecosystem Graph with Neo4j](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/31.Solution_Company_Ecosystem_Graph_Embeddings.ipynb)
