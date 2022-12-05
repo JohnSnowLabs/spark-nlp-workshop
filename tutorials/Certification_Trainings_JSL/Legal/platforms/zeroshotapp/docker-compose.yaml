@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+        spark:
+                image: zeroshotapp
+                build:
+                       context: ./
+                       dockerfile: Dockerfile
+                container_name: zeroshotapp
+                environment:
+                        - SPARK_MODE=master
+                        - STREAMLIT_SERVER_HEADLESS=true
+                ports:
+                        - 8501:8501

@@ -1,0 +1,3 @@
+johnsnowlabs==4.2.3
+nbformat
+streamlit==1.15.2
