@@ -7,6 +7,8 @@ services:
                        context: ./
                        dockerfile: Dockerfile
                 container_name: zeroshotapp
+                volumes:
+                        - ./prompts:/home/jsl/prompts
                 environment:
                         - SPARK_MODE=master
                         - STREAMLIT_SERVER_HEADLESS=true
