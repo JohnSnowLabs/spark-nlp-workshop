@@ -1,22 +1,11 @@
 import streamlit as st
 import argparse
 
-from SparkNLPManager import SparkNLPManager
 import logging
 
+import config
+from SparkNLPManager import start_spark, load_pipelines, pipelines, spark
 from StreamlitManager import StreamlitManager
-
-
-@st.experimental_singleton
-def start_spark(dom):
-    _spark_manager = None
-    try:
-        _spark_manager = SparkNLPManager(dom)
-    except Exception as e:
-        st.warning(f"Unable to spin up a spark session. Please click on 'Reboot' button")
-        logging.error(f"Unable to spin up a spark session. Reason: {e}")
-
-    return _spark_manager
 
 
 if __name__ == '__main__':
@@ -35,12 +24,13 @@ if __name__ == '__main__':
         if domain not in recognized_domains:
             logging.error(f"Unrecognized domain: {domain}. Please use any of these: {str(recognized_domains)}")
         else:
-            spark_manager = start_spark(domain)
-            if spark_manager is not None:
-                StreamlitManager(spark_manager)
-            else:
-                st.error("Error spinning up Spark. Please, click on the right top corner - 'Clear Cache' and then "
-                         "reload the page")
+            start_spark()
+            logging.info(f"Spark Session (make sure is the same always): {id(spark)}")
+
+            load_pipelines(domain)
+            logging.info(f"Pipelines dict (make sure is the same always): {id(pipelines)}")
+
+            streamlit_manager = StreamlitManager(domain, pipelines)
     else:
         logging.warning(f"Action not recognized: `{args.action}`. Ignoring.")
 

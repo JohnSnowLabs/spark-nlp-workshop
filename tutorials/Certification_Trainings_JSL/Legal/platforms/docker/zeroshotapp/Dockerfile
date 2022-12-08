@@ -14,7 +14,9 @@ RUN apt install -y python3 python3-pip python3-venv
 
 # Creating JSL folder, copying files
 RUN mkdir /home/jsl
-COPY * /home/jsl/
+
+COPY requirements.txt /home/jsl/
+COPY license.json /home/jsl/
 
 # Creating virtual environment and installing johnsnowlabs library (legal, finance, healthcare)
 RUN cd /home/jsl && \
@@ -22,15 +24,16 @@ RUN cd /home/jsl && \
     . /home/jsl/jslenv/bin/activate && \
     pip install --upgrade pip && \
     pip install cmake==3.24.1.1 && \
-    pip install johnsnowlabs==4.2.3 \
-    pip install -r requirements.txt
+    pip install johnsnowlabs==4.2.3 && \
+    pip install -r requirements.txt && \
+    python -c "from johnsnowlabs import *;nlp.install(json_license_path='/home/jsl/license.json')"
 
-# Install Licensed Python Libs and Pre-Download Jars
-RUN /home/jsl/jslenv/bin/python -c "from johnsnowlabs import *;nlp.install(json_license_path='/home/jsl/license.json')"
+COPY * /home/jsl/
 
 # Setting workdir
 WORKDIR /home/jsl
 
 EXPOSE 8501
+EXPOSE 8888
 
 ENTRYPOINT /home/jsl/jslenv/bin/python -m streamlit run /home/jsl/main.py serve finance

@@ -12,5 +12,8 @@ services:
                 environment:
                         - SPARK_MODE=master
                         - STREAMLIT_SERVER_HEADLESS=true
+                        - cores=1
+                        - spark.driver.memory=8G
                 ports:
                         - 8501:8501
+                        - 8888:8888
