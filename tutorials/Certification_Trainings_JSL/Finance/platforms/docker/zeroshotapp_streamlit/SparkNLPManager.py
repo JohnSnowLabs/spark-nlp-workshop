@@ -75,7 +75,7 @@ def load_pipelines(domain):
                 .setInputCols(["sentence", "token"]) \
                 .setOutputCol("zero_shot_ner")
 
-        ner_converter = nlp.NerConverter() \
+        ner_converter = nlp.NerConverterInternal() \
             .setInputCols(["sentence", "token", "zero_shot_ner"]) \
             .setOutputCol("ner_chunk")
 
@@ -130,7 +130,7 @@ def force_load_pipelines(domain):
                 .setInputCols(["sentence", "token"]) \
                 .setOutputCol("zero_shot_ner")
 
-        ner_converter = nlp.NerConverter() \
+        ner_converter = nlp.NerConverterInternal() \
             .setInputCols(["sentence", "token", "zero_shot_ner"]) \
             .setOutputCol("ner_chunk")
 
