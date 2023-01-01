@@ -1,0 +1,25 @@
+text,target,label,start,end
+CEC ENTERTAINMENT INC is not purchasing GEO GROUP INC new line of products .,CEC ENTERTAINMENT INC,negative,0,2
+CEC ENTERTAINMENT INC is not purchasing GEO GROUP INC new line of products .,GEO GROUP INC,positive,6,8
+"BRAVE ASSET MANAGEMENT INC is paying Mondelez International , Inc . a commission for using its marketing services .","Mondelez International , Inc .",positive,6,10
+"BRAVE ASSET MANAGEMENT INC is paying Mondelez International , Inc . a commission for using its marketing services .",BRAVE ASSET MANAGEMENT INC,positive,0,3
+Compound Natural Foods Inc . is not investing in AMERICAN ELECTRIC POWER CO INC latest round of funding .,Compound Natural Foods Inc .,negative,0,4
+Compound Natural Foods Inc . is not investing in AMERICAN ELECTRIC POWER CO INC latest round of funding .,AMERICAN ELECTRIC POWER CO INC,positive,9,13
+"Marijuana Co of America , Inc . is eligible for PVM International , Inc . supplier financing program .","PVM International , Inc .",positive,10,14
+"Marijuana Co of America , Inc . is eligible for PVM International , Inc . supplier financing program .","Marijuana Co of America , Inc .",positive,0,6
+NORTEK INC is not considering acquiring EN2GO INTERNATIONAL INC as part of its expansion plans .,NORTEK INC,negative,0,1
+NORTEK INC is not considering acquiring EN2GO INTERNATIONAL INC as part of its expansion plans .,EN2GO INTERNATIONAL INC,positive,6,8
+"QUALCOMM INC/DE is entering into a partnership with CANNAPOWDER , INC . to jointly develop a new product .","CANNAPOWDER , INC .",positive,8,11
+"QUALCOMM INC/DE is entering into a partnership with CANNAPOWDER , INC . to jointly develop a new product .",QUALCOMM INC/DE,positive,0,1
+TransDigm Group INC is not issuing any dividends to ABIOMED INC as a shareholder .,TransDigm Group INC,negative,0,2
+TransDigm Group INC is not issuing any dividends to ABIOMED INC as a shareholder .,ABIOMED INC,positive,9,10
+"Fundrise Income eREIT II , LLC is not paying MIDDLETON & CO INC/MA any royalties for using its patented technology .",MIDDLETON & CO INC/MA,positive,9,12
+"Fundrise Income eREIT II , LLC is not paying MIDDLETON & CO INC/MA any royalties for using its patented technology .","Fundrise Income eREIT II , LLC",negative,0,5
+"Nexeo Solutions , Inc . is not granting ARCA biopharma , Inc . any exclusivity for distributing its products in a certain region .","Nexeo Solutions , Inc .",negative,0,4
+"Nexeo Solutions , Inc . is not granting ARCA biopharma , Inc . any exclusivity for distributing its products in a certain region .","ARCA biopharma , Inc .",positive,8,12
+"Angie's List , Inc . is not borrowing any funds from RC-1 , Inc . for its capital needs .","RC-1 , Inc .",positive,11,14
+"Angie's List , Inc . is not borrowing any funds from RC-1 , Inc . for its capital needs .","Angie's List , Inc .",negative,0,4
+"SHOE CARNIVAL INC is not selling Alliqua , Inc . products on its platform .",SHOE CARNIVAL INC,negative,0,2
+"SHOE CARNIVAL INC is not selling Alliqua , Inc . products on its platform .","Alliqua , Inc .",positive,6,9
+WACCAMAW BANKSHARES INC is paying HOWLAND CAPITAL MANAGEMENT INC a commission for its marketing services .,HOWLAND CAPITAL MANAGEMENT INC,positive,5,8
+WACCAMAW BANKSHARES INC is paying HOWLAND CAPITAL MANAGEMENT INC a commission for its marketing services .,WACCAMAW BANKSHARES INC,positive,0,2
