@@ -23,8 +23,7 @@
 ## Relation Extraction
 [6.0.Relation_Extraction.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/6.0.Relation_Extraction.ipynb)
 
-[6.1.Relation_Extraction_and_ZeroShotRE.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-
-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/6.1.Relation_Extraction_and_ZeroShotRE.ipynb)
+[6.1.Relation_Extraction_and_ZeroShotRE.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/6.1.Relation_Extraction_and_ZeroShotRE.ipynb)
 
 [6.2.Relation_Extraction_Training.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/6.2.Relation_Extraction_Training.ipynb)
 
