@@ -1,50 +1,50 @@
 # ☞ Legal NLP notebooks
 ## Splitting, Tokenization, Embeddings
-[1.Page_Splitting.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/1.Page_Splitting.ipynb)
+[01.Page_Splitting.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/01.Page_Splitting.ipynb)
 
-[2.Sentence_Splitting_Tokenization.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/2.Sentence_Splitting_Tokenization.ipynb)
+[02.Sentence_Splitting_Tokenization.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/02.Sentence_Splitting_Tokenization.ipynb)
 
-[3.Word_Sentence_Embeddings.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/3.Word_Sentence_Embeddings.ipynb)
+[03.Word_Sentence_Embeddings.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/03.Word_Sentence_Embeddings.ipynb)
 
 ## Classification
-[4.0.Clause_Document_Classification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/4.0.Clause_Document_Classification.ipynb)
+[04.0.Clause_Document_Classification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/04.0.Clause_Document_Classification.ipynb)
 
-[4.1.Training_Legal_Classifiers.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/4.1.Training_Legal_Classifiers.ipynb)
+[04.1.Training_Legal_Classifiers.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/04.1.Training_Legal_Classifiers.ipynb)
 
 ## Named Entity Recognition
-[5.0.NER_and_ZeroShotNER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/5.0.NER_and_ZeroShotNER.ipynb)
+[05.0.NER_and_ZeroShotNER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/05.0.NER_and_ZeroShotNER.ipynb)
 
-[5.1.Training_Legal_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/5.1.Training_Legal_NER.ipynb)
+[05.1.Training_Legal_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/05.1.Training_Legal_NER.ipynb)
 
-[5.2.Clause_based_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/5.2.Clause_based_NER.ipynb)
+[05.2.Clause_based_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/05.2.Clause_based_NER.ipynb)
 
-[5.3.ZeroShot_Legal_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/5.3.ZeroShot_Legal_NER.ipynb)
+[05.3.ZeroShot_Legal_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/05.3.ZeroShot_Legal_NER.ipynb)
 
 ## Relation Extraction
-[6.0.Relation_Extraction.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/6.0.Relation_Extraction.ipynb)
+[06.0.Relation_Extraction.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/06.0.Relation_Extraction.ipynb)
 
-[6.1.Relation_Extraction_and_ZeroShotRE.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/6.1.Relation_Extraction_and_ZeroShotRE.ipynb)
+[06.1.Relation_Extraction_and_ZeroShotRE.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/06.1.Relation_Extraction_and_ZeroShotRE.ipynb)
 
-[6.2.Relation_Extraction_Training.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/6.2.Relation_Extraction_Training.ipynb)
+[06.2.Relation_Extraction_Training.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/06.2.Relation_Extraction_Training.ipynb)
 
 ## Assertion Status: Understanding Entities in Context
-[7.0.Understand_Entities_in_Context.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/7.0.Understand_Entities_in_Context.ipynb)
+[07.0.Understand_Entities_in_Context.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/07.0.Understand_Entities_in_Context.ipynb)
 
-[7.1.Training_Legal_Assertion.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/7.1.Training_Legal_Assertion.ipynb)
+[07.1.Training_Legal_Assertion.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/07.1.Training_Legal_Assertion.ipynb)
 
 ## Question&Answering
-[8.0.Answering_Questions_Legal_Texts.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/8.0.Answering_Questions_Legal_Texts.ipynb)
+[08.0.Answering_Questions_Legal_Texts.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/08.0.Answering_Questions_Legal_Texts.ipynb)
 
-[8.1.Automatic_Question_Generation_Legal_Texts.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/8.1.Automatic_Question_Generation_Legal_Texts.ipynb)
+[08.1.Automatic_Question_Generation_Legal_Texts.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/08.1.Automatic_Question_Generation_Legal_Texts.ipynb)
 
-[8.2.NER_using_Question_Answering.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/8.2.NER_using_Question_Answering.ipynb)
+[08.2.NER_using_Question_Answering.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/08.2.NER_using_Question_Answering.ipynb)
 
 ## Normalization and Entity Linking
-[9.0.Normalization_with_Entity_Resolution_Edgar.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/9.0.Normalization_with_Entity_Resolution_Edgar.ipynb)
+[09.0.Normalization_with_Entity_Resolution_Edgar.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/09.0.Normalization_with_Entity_Resolution_Edgar.ipynb)
 
-[9.1.Entity_Resolution_Edgar_unique_IDs.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/9.1.Entity_Resolution_Edgar_unique_IDs.ipynb)
+[09.1.Entity_Resolution_Edgar_unique_IDs.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/09.1.Entity_Resolution_Edgar_unique_IDs.ipynb)
 
-[9.2.Entity_Resolution_Training.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/9.2.Entity_Resolution_Training.ipynb)
+[09.2.Entity_Resolution_Training.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/09.2.Entity_Resolution_Training.ipynb)
 
 ## Augmentation with external sources with Chunk Mappers
 [10.0.Data_Augmentation_with_ChunkMappers.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/10.0.Data_Augmentation_with_ChunkMappers.ipynb)
