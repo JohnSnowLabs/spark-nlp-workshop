@@ -178,6 +178,12 @@
 
 [05.3.ZeroShot_Financial_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/05.3.ZeroShot_Financial_NER.ipynb)
 
+[05.4.BertForTokenClassification_TrainEval.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/05.4.BertForTokenClassification_TrainEval.ipynb)
+
+[05.5.BertForTokenClassification_TrainAndSave.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/05.5.BertForTokenClassification_TrainAndSave.ipynb)
+
+[05.6.Contextual_Parser_Rule_Based_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/05.6.Contextual_Parser_Rule_Based_NER.ipynb)
+
 ## Relation Extraction
 
 [06.0.Relation_Extraction.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/06.0.Relation_Extraction.ipynb)
@@ -261,6 +267,12 @@
 [05.2.Clause_based_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/05.2.Clause_based_NER.ipynb)
 
 [05.3.ZeroShot_Legal_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/05.3.ZeroShot_Legal_NER.ipynb)
+
+[05.4.BertForTokenClassification_TrainEval.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/05.4.BertForTokenClassification_TrainEval.ipynb)
+
+[05.5.BertForTokenClassification_TrainAndSave.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/05.5.BertForTokenClassification_TrainAndSave.ipynb)
+
+[05.6.Contextual_Parser_Rule_Based_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/05.6.Contextual_Parser_Rule_Based_NER.ipynb)
 
 ## Relation Extraction
 
