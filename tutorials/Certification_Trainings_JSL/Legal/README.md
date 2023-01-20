@@ -9,7 +9,11 @@
 ## Classification
 [04.0.Clause_Document_Classification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/04.0.Clause_Document_Classification.ipynb)
 
-[04.1.Training_Legal_Classifiers.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/04.1.Training_Legal_Classifiers.ipynb)
+[04.1.Training_Legal_Binary_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/04.1.Training_Legal_Binary_Classifier.ipynb)
+
+[04.2.Training_Legal_Multiclass_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/04.2.Training_Legal_Multiclass_Classifier.ipynb)
+
+[04.3.Training_Legal_Multilabel_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/04.3.Training_Legal_Multilabel_Classifier.ipynb)
 
 ## Named Entity Recognition
 [05.0.NER_and_ZeroShotNER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/05.0.NER_and_ZeroShotNER.ipynb)
@@ -34,11 +38,13 @@
 [06.2.Relation_Extraction_Training.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/06.2.Relation_Extraction_Training.ipynb)
 
 ## Assertion Status: Understanding Entities in Context
+
 [07.0.Understand_Entities_in_Context.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/07.0.Understand_Entities_in_Context.ipynb)
 
 [07.1.Training_Legal_Assertion.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/07.1.Training_Legal_Assertion.ipynb)
 
 ## Question&Answering
+
 [08.0.Answering_Questions_Legal_Texts.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/08.0.Answering_Questions_Legal_Texts.ipynb)
 
 [08.1.Automatic_Question_Generation_Legal_Texts.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/08.1.Automatic_Question_Generation_Legal_Texts.ipynb)
