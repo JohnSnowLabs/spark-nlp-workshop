@@ -240,13 +240,16 @@
 
 [80.Financial_Graphs_Neo4j.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/80.Financial_Graphs_Neo4j.ipynb)
 
-## Combining with Visual NLP
-
+## Visual Classification (without Visual NLP)
 [90.0.Financial_Visual_Classification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/90.0.Financial_Visual_Classification.ipynb)
 
+## Combining with Visual NLP
 [90.1.Visual_and_Textual_Classification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/90.1.Visual_and_Textual_Classification.ipynb)
 
 [90.2.Financial_Visual_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/90.2.Financial_Visual_NER.ipynb)
+
+[90.3.Financial_Table_Signature_Extraction.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/90.3.Financial_Table_Signature_Extraction.ipynb)
+
 
 # ☞ Legal NLP notebooks
 
@@ -330,9 +333,7 @@
 
 ## Graphs
 
-[80.0.WIP_Use_Case_Legal_Agreements.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/80.0.WIP_Use_Case_Legal_Agreements.ipynb)
-
-[80.1.Legal_Graphs_Neo4j.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/80.1.Legal_Graphs_Neo4j.ipynb)
+[80.0.WIP_Use_Case_Legal_Agreements.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/80.0.WIP_Use_Case_Legal_Agreements.ipynb
 
 ## Combining with Visual NLP
 
