@@ -178,7 +178,7 @@
 
 [05.1.Training_Financial_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/05.1.Training_Financial_NER.ipynb)
 
-[05.2.Financial_NER_Additional_Examples.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/05.2.Financial_NER_Additional_Examples.ipynb)
+[05.2.Financial_NER_Additional_Examples.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/05.2.Financial_NER_Additional_Examples.ipynb)
 
 [05.3.ZeroShot_Financial_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/05.3.ZeroShot_Financial_NER.ipynb)
 
