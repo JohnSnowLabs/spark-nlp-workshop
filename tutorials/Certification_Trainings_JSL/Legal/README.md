@@ -15,6 +15,8 @@
 
 [04.3.Training_Legal_Multilabel_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/04.3.Training_Legal_Multilabel_Classifier.ipynb)
 
+[04.4.Training_Legal_Multilabel_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/04.4.Training_Legal_Multilabel_Classifier.ipynb)
+
 ## Named Entity Recognition
 [05.0.NER_and_ZeroShotNER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/05.0.NER_and_ZeroShotNER.ipynb)
 
