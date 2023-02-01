@@ -74,7 +74,6 @@
 ## Graphs
 [80.0.WIP_Use_Case_Legal_Agreements.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/80.0.WIP_Use_Case_Legal_Agreements.ipynb)
 
-[80.1.Legal_Graphs_Neo4j.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/80.1.Legal_Graphs_Neo4j.ipynb)
 
 ## Combining with Visual NLP
 [90.0.Legal_Visual_Document_Understanding.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/90.0.Legal_Visual_Document_Understanding.ipynb)
