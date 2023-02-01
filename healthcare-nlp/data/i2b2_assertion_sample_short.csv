@@ -1,0 +1,892 @@
+text,target,label,start,end
+"She has no history of liver disease , hepatitis .",liver disease,absent,5,6
+1. Undesired fertility .,undesired fertility,present,1,2
+3) STATUS POST FALL .,fall,present,3,3
+"On physical exam , she is a healthy-appearing female with a normal voice and no exophthalmos .",exophthalmos,absent,15,15
+"Abdomen distended , mild tenderness on the left , bowel sounds present , nohepatosplenomegaly .",nohepatosplenomegaly,absent,13,13
+"PMH : Carpal tunnel syndrome , Hypertension , Hyperlipidemia , Arthritis",hypertension,present,6,6
+"In the past , he has not been known to have a history of CNS metastases .",cns metastases,absent,14,15
+75 y / o F with h / o COPD c / b frequent exacerbations p / w typical flare symptoms .,typical flare symptoms,present,18,20
+There is no pneumothorax identified .,pneumothorax,absent,3,3
+"History of gastrointestinal intolerance to Tetracycline , Erythromycin , declomycin associated with edema and rash , Talwin associated with disorientation and gastrointestinal symptoms , Dilantin has caused rash and edema , morphine associated with itching and gastrointestinal symptoms , Demerol unclear .",rash,present,14,14
+"In addition , he had slight shortness of breath but denies headache , change in vision , dizziness , nausea , vomiting , abdominal pain , change in bowel or urinary habits , or fevers , chills , and sweats .",vomiting,absent,21,21
+Carotid pulsations are normal without bruit .,bruit,absent,5,5
+12. PE 2018-11-17 leading to PEA arrest,pea arrest,present,5,6
+"His abdomen is soft , nontender , nondistended .",nontender,absent,5,5
+"MRI lumbar spine ( Youville Hospital 2020-03-10 ): L3-4 osteomyelitis , discitis , and epidural abscess .",l3-4 osteomyelitis,present,8,9
+"NSR R 60 Normal axis , intervals , incomplete RBBB , flat T aVL , V2 , TWI V1",twi v1,present,17,18
+There was trace mitral regurgitation .,trace mitral regurgitation,present,2,4
+2+ pitting edema to knees B/L .,pitting edema to knees b/l,present,1,5
+Markedly abnormal portable EEG due to the voltage suppression over the left hemisphere and due to the bursts of generalized slowing and right hemisphere slowing .,the voltage suppression over the left hemisphere,present,6,12
+A second episode occurred where the baby turned pale .,pale,present,8,8
+"This is an 82 - year-old male with a history of prior tobacco use , hypertension , chronic renal insufficiency , COPD , gastritis , and TIA who initially presented to Braintree with a non-ST elevation MI and Guaiac positive stools , transferred to St. Margaret's Center for Women & Infants for cardiac catheterization with PTCA to mid LAD lesion complicated by hypotension and bradycardia requiring Atropine , IV fluids and transient dopamine possibly secondary to vagal reaction , subsequently transferred to CCU for close monitoring , hemodynamically stable at the time of admission to the CCU .",bradycardia,present,64,64
+"7) GI : Ms. Pimental is an unfortunate 95 year old woman , status post a recent fall necessitating right ORIF of the hip and right wrist fracture ORIF , who was in the hospital for this event , when it was noted that she had abdominal pain , distention and coffee ground emesis with worsening mental status and renal failure .",a recent fall,present,15,17
+There was some question regarding restarting of the patient 's Coumadin given her positive lupus anti-coagulant status as well as the presence of her basilar artery stenosis .,her positive lupus anti-coagulant status,present,12,16
+no masses or tenderness .,tenderness,absent,3,3
+"1. Type II diabetes mellitus diagnosed 06/94 , well-controlled with last hemoglobin A1C 6.2",type ii diabetes mellitus,present,1,4
+A small right occipital lobe chronic infarction is also evident .,a small right occipital lobe chronic infarction,present,0,6
+"Right-sided ptosis , right eye not reactive to light , cataract present , patient blind in that eye , left eye reactive to light , cataract also present in that eye .",cataract,present,25,25
+"At Erich Lindemann Mental Health Center she was discovered to have ARF , a large pericardial effusion , and bilateral pleural effusions .",bilateral pleural effusions,present,19,21
+"HEIGHT 63 HEENT NORMAL MOUTH NORMAL NECK NORMAL BREASTS NORMAL No masses NIPPLES NORMAL CHEST NORMAL CTA bilat , neg wheezing COR NORMAL NSR , no murmur ABDOMEN Gravid , vtx .",masses,absent,11,11
+"The patient was admitted on February 23 , 1999 to Eifro Medical Center because of failure to thrive and decreased hematocrit .",failure to thrive,present,15,17
+"She denied abd pain , fevers , chills .",abd pain,absent,2,3
+"Recent urinary tract infection , E. coli 03/93 .",recent urinary tract infection,present,0,3
+"70 y/o male with h/o CAD , T2DM , hyperlipidemia , and COPD who presented to the Juan on 2017-09-03 with worsening SOB x 5 days from Morton Hospital & Medical Center .",copd,present,12,12
+"Ms Crossman is an 84 year old female with complaints of abdominal pain , diarrhea , nausea and vomiting x 1 week , who presented to an outside hospital .",vomiting,present,18,18
+"He denies any recent chest pain , palpitations , headache , confusion , weakness , numbness , abd pain , or hematuria .",any recent chest pain,absent,2,5
+5. Type 2 DM - Patient was initially covered with an insulin drip while septic and then transitioned back to insulin sliding scale .,septic,present,14,14
+"Of note , the patient is status post lymphoma with treatment of chemotherapy and radiation six years ago , and is an insulin-dependent diabetic .",an insulin-dependent diabetic,present,21,23
+"Please call if you notice redness , swelling , or tenderness of your chest wound , or if it begins to drain pus .",your chest wound,present,12,14
+He reported that he began with difficulty buttoning his shirt for many years since after a stroke but now reports that on occasion she would ask him why he was doing certain things and he could not give a concrete example .,a stroke,present,15,16
+regular rate and rhythm without murmur .,murmur,absent,5,5
+She then had 6L of non-bloody ascitic fluid removed without complication .,non-bloody ascitic fluid,present,5,7
+"She also had an episode of nausea with some emesis , after being treated with Zofran with no relief , a nasogastric tube was placed which drained 1200 cc of bilious fluid .",nausea,present,6,6
+"Shower , no baths , no lotions , creams or powders to incisions .",incisions,present,12,12
+"On 05/17/2004 the patient underwent atotal abdominal hysterectomy , bilateral salpingooophorectomy , bilateral node dissection , omentectomy , lysis of adhesions , removal of mass from surface of transverse colon .",mass,present,24,24
+Pregnancy was uncomplicated until an occurrence of HSV outbreak occurred on 2017-09-13 approximately one week prior to delivery .,hsv outbreak,present,7,8
+2015-10-27 Open reduction and internal fixation of right tib/fib fractures,right tib/fib fractures,present,7,9
+Severe chronic obstructive pulmonary disease .,severe chronic obstructive pulmonary disease,present,0,4
+"Mr. Mcelveen is a 51 year-old male with metastatic RCC status post left radical nephrectomy in 2018-03-21 , status post Avastin and sorafenib , most recently on Sutent monotherapy since 2018-12-21 , with mild renal insufficiency , who presented from home on 2019-06-14 with shortness of breath and fever .",metastatic rcc,present,8,9
+"Over the next 12 hours while in transit to the hospital , the patient &apos;s right lower extremity became red , swollen , and increasingly painful .",increasingly painful,present,24,25
+Fatigue secondary to worsening dyspnea .,worsening dyspnea,present,3,4
+"NSR at 62 , nl axis , nl intervals , Q waves in III , avR , V1 .",q waves in iii,present,10,13
+5) Atrial fibrillation :,atrial fibrillation,present,1,2
+The patient &apos;s extremity examination was notable for erythema of the right calf with a small ulcer with a relatively clean base .,erythema of the right calf,present,8,12
+He started to notice inflammation of his L calf / leg worse 2 days prior to presentation .,inflammation of his l calf / leg,present,4,10
+ALLERGIES :,allergies,present,0,0
+"Non-reassuring fetal status , Uterine",non-reassuring fetal status,present,0,2
+"However , her ionized calcium decreased to 0.97 and she was given one amp of calcium gluconate .",her ionized calcium decreased,present,2,5
+"Review of systems was significant for progressive abdominal discomfort , decreased oral intake , and weakness in the past nine weeks .",weakness,present,15,15
+Chronic obstructive pulmonary disease .,chronic obstructive pulmonary disease,present,0,3
+She was obtunded and was thus intubated for airway protection .,obtunded,present,2,2
+"#. Pericardial effusion : unclear etiology , OSH had raised question of RV perforation from pacer , however she had a normal echo appearance of lead , no tamponade by exam .",pericardial effusion,present,1,2
+"HEIGHT 63 HEENT NORMAL MOUTH NORMAL NECK NORMAL BREASTS NORMAL No masses NIPPLES NORMAL CHEST NORMAL CTA bilat , neg wheezing COR NORMAL NSR , no murmur ABDOMEN Gravid , vtx .",murmur,absent,26,26
+"EKG demonstrated NSR at 87 bpm , nl axis , nl int , LVH w/ strain pattern , no ischemic changes .",ischemic changes,absent,19,20
+54 yo F with Crohn 's s/p ileostomy and subsequent short gut syndrome with port-a-cath placement for TPN who presents with progressive right sided chest pain that comes in waves .,crohn 's,present,4,5
+Infection / sepsis was not likely given she was afebrile and had no localizing sx with an improving lung exam and 02 requirement .,localizing sx,absent,13,14
+He was alert and oriented times 3 and with slightly pressured speech .,slightly pressured speech,present,9,11
+No arteriovenous malformations are identified ; there is no evidence of recurrence of her former vascular malformation .,arteriovenous malformations,absent,1,2
+She described the pain as being exacerbated by eating and described an associated weight loss .,an associated weight loss,present,11,14
+"This is a 59 year old male with a past medical history significant for an atrioseptal defect repair at age 18 , congestive heart failure with an ejection fraction of 45% and a recent cardiac myocardial infarction , pulmonary hypertension and mitral regurgitation , and atrial fibrillation .",congestive heart failure,present,22,24
+2. Hypertension .,hypertension,present,1,1
+"The postoperative period was complicated by transient swallowing difficulty , increasing left sided weakness and urinary retention .",urinary retention,present,15,16
+The patient &apos;s liver function tests began to rise and she began to experience pulmonary symptoms including increased crackles .,pulmonary symptoms,present,14,15
+"This is a 61 year old male with a history of diabetes , coronary artery disease , hepatitis C , and asthma who was diagnosed recently with pancreatic cancer after he presented to Seph&apos;sju Memorial after a motor vehicle accident .",asthma,present,21,21
+1. Prematurity at 30-6/7 weeks .,prematurity,present,1,1
+"47 female with h/o HCV cirrhosis compocated by encephalopathy , ascites , and h/o portal vein thrombosis ( right anterior portal vein ) and portalcaval shunt ( reversed flow in main portal vein ) presents from liver clinic with increasing abdominal girth .",ascites,present,10,10
+"MOUTH NORMAL NECK NORMAL thyroid wnl BREASTS NORMAL no distinct masses NIPPLES NORMAL inverted [ b ] , evert w / stimulation CHEST NORMAL LCTA COR NORMAL RRR ABDOMEN NORMAL gravid EXTREM NORMAL SKIN NORMAL NODES NORMAL VULVA NORMAL no lesions , white d / c at introitus VAGINA NORMAL sml amt thin white d / c ph 4.5 , koh +amine , NS +clue , neg trich CERVIX NORMAL 1/100/0 srom clear OS NORMAL closed ADNEXAE NORMAL no palp masses , NT UTERUS NORMAL gravid UTERINE SIZE IN WEEKS NORMAL term RECTUM NORMAL no ext lesions",ext lesions,absent,95,96
+There was no pronator drift .,pronator drift,absent,3,4
+"The cranial nerves showed full visual fields without extinction , pupils 5 to 3 bilaterally and equal , disks flat , lower left facial decreased sensation to temperature , pin prick on the left V1 through V3 , tongue deviates to the left , good gag , decreased shrug on the left .",extinction,absent,8,8
+8) ELEVATED PT and PTT :,elevated pt and ptt,present,1,4
+"47 female with h/o HCV cirrhosis compocated by encephalopathy , ascites , and h/o portal vein thrombosis ( right anterior portal vein ) and portalcaval shunt ( reversed flow in main portal vein ) presents from liver clinic with increasing abdominal girth .",increasing abdominal girth,present,39,41
+"A small / moderate-sized , mild-intensity , reversible posterior lateral defect was also seen , indicative of mild / moderate ischemia .",mild / moderate ischemia,present,17,20
+"MOUTH NORMAL NECK NORMAL thyroid wnl BREASTS NORMAL no distinct masses NIPPLES NORMAL inverted [ b ] , evert w / stimulation CHEST NORMAL LCTA COR NORMAL RRR ABDOMEN NORMAL gravid EXTREM NORMAL SKIN NORMAL NODES NORMAL VULVA NORMAL no lesions , white d / c at introitus VAGINA NORMAL sml amt thin white d / c ph 4.5 , koh +amine , NS +clue , neg trich CERVIX NORMAL 1/100/0 srom clear OS NORMAL closed ADNEXAE NORMAL no palp masses , NT UTERUS NORMAL gravid UTERINE SIZE IN WEEKS NORMAL term RECTUM NORMAL no ext lesions",sml amt thin white d / c,present,50,56
+Premature Rupture Of Membranes,premature rupture of membranes,present,0,3
+"#. Oliguric ARF : likely prerenal due to n/v poor po intake and poor forward flow , However , need to continue diuresis .",poor forward flow,present,13,15
+"By POD# 05-29 she was having high residuals on TF s, so TPN was reinitiated .",high residuals,present,6,7
+"She is a chronically ill-appearing female , in no acute distress .",acute distress,absent,9,10
+"Despite all these measures , his bleeding was never totally controlled .",his bleeding,present,5,6
+", Other - bradycardia",bradycardia,present,3,3
+Had Chest CT to r / o dissection ( due to back pain ) which was neg.,back pain,present,11,12
+"She also described sob , nausea , worsening lower ext edema .",sob,present,3,3
+Extremities had no edema .,edema,absent,3,3
+Asthma .,asthma,present,0,0
+"The patient did have postoperatively hypokalemia to a level of 2.7 and subsequently was corrected with oral and intravenous potassium on 4/22/93 , the patient underwent a duplex ultrasound examination , which showed no evidence of of deep venous thrombosis .",postoperatively hypokalemia,present,4,5
+"Her 05-27 CXR post procedure w/o PNX , effusion much improved , yet her 05-28 CXR worse than 05-27 with some reaccumulation of right pleural effusion .",right pleural effusion,present,23,25
+"He was laying flat , very tense .",very tense,present,5,6
+Gram stain and culture of the ascites failed to identify any organism .,any organism,absent,10,11
+No known drug allergies .,known drug allergies,absent,1,3
+"Coronary - irregular PVCs , S1 , S2 normal , positive systolic murmur at the left upper sternal border radiating throughout .",irregular pvcs,present,2,3
+Minimal surrounding erythema .,minimal surrounding erythema,present,0,2
+She has remained stable with no acute events .,acute events,absent,6,7
+tender over right chest,tender over right chest,present,0,3
+"Carotid angiography revealed left internal carotid stenosis of 90% , right internal carotid artery &quot; critical stenosis &quot; .",right internal carotid artery &quot; critical stenosis &quot;,present,10,17
+She had a workup by her neurologist and an MRI revealed a C5-6 disc herniation with cord compression and a T2 signal change at that level .,cord compression,present,16,17
+"Abdomen was obese with positive bowel sounds , nontender , nondistended .",obese,present,2,2
+No epileptiform features were seen .,epileptiform features,absent,1,2
+Of note on 5/9/05 the patient was seen by Urology due to an inability to void and a 16 French Coude catheter was placed .,an inability to void,present,12,15
+"From a pulmonary standpoint , he continued to complain of shortness of breath .",shortness of breath,present,10,12
+"Her speech was fluent with no phasic or praxic problems , dysarthric .",dysarthric,present,11,11
+"The patient is an 82 - year-old male with a history of hypertension , remote tobacco abuse , chronic renal insufficiency , and a history of a TIA who was in his usual state of health until five nights prior to admission when he awoke at midnight with severe epigastric pain radiating to both arms .",a tia,present,26,27
+While in the Oaksgekesser/ Memorial Hospital the patient on 4/4/99 complained of mild epigastric discomfort because he was put in Cimetidine while in the Intensive Care Unit for prophylaxis against peptic ulcer disease .,peptic ulcer disease,present,30,32
+1. Exploratory laparotomy with drainage of intra-abdominal abscess and peritonitis with gross soilage with bile and gastric contents .,intra-abdominal abscess,present,6,7
+"10. Recent MRSA pneumonia and sepsis 2017-07-21 , treated with Vancomycin",recent mrsa pneumonia,present,1,3
+His course was then complicated by fevers and neutropenia which were treated with antibiotics and a diffuse erythroderm felt to be a drug reaction .,a diffuse erythroderm,present,15,17
+"The patient denied blurry vision , headache , nausea , vomiting , paresthesias , pain in mental status , confusion or seizures .",blurry vision,absent,3,4
+"She had a successful endoscopic retrograde cholangiopancreatography , which showed a bile leak at the duct of Luschka .",a bile leak at the duct of luschka,present,10,17
+"The wound had a beefy red cellulitic area surrounding an open area , blanching to touch .",a beefy red cellulitic area,present,3,7
+"no clubbing , cyanosis or edema .",cyanosis,absent,3,3
+No aortic regurgitation present .,aortic regurgitation,absent,1,2
+"Heart exam revealed a soft S1 and S2 , no murmur was heard , no S3 .",murmur,absent,10,10
+No f/c/ sweats .,sweats,absent,2,2
+She had waxing and waning fevers .,waxing and waning fevers,present,2,5
+"2. Peripheral patchy opacities are seen bilaterally , most consistent with multifocal pneumonia .",peripheral patchy opacities,present,1,3
+"No nausea , vomiting , or diarrhea .",nausea,absent,1,1
+hypertension .,hypertension,present,0,0
+Nonoperative treatment was elected for the patient 's left clavicular fracture .,the patient 's left clavicular fracture,present,5,10
+"Chest x-ray was without infiltrates , wand in good position .",infiltrates,absent,4,4
+11. C. difficile colitis treated with Flagyl ( completed 08-10 ),c. difficile colitis,present,1,3
+Endoscopies were negative except for an extrinsic mass present on the stomach .,an extrinsic mass present on the stomach,present,5,11
+Cultures were negative and onlyon one gram stain did it show rare gram negative rods .,rare gram negative rods,present,11,14
+"Further evaluation of his renal failure showed that the patient has bilateral hydronephrosis , most likely obstructive uropathy due to prostate CA in the pelvic area .",prostate ca in the pelvic area,present,20,25
+"Cardiac catheterization revealed a totally occluded RCA with collaterals , an 80 percent LAD lesion extending distally which was angioplastied but no stent was placed .",a totally occluded rca,present,3,6
+NKDA .,nkda,absent,0,0
+Head computerized tomography scan on 10/19 : 3 centimeter hyperdensity within the right putamenal area in the right external capsusle consistent with intra-parenchymal hematoma with mild local mass effect and surrounding edema .,intra-parenchymal hematoma,present,22,23
+"Over the next three days he increased his activity gradually , was able to do stairs with Physical Therapy and had pain which could be controlled with oral analgesics .",pain,present,21,21
+She had no murmurs and no gallops .,murmurs,absent,3,3
+"He denies any CP , N/V/D , abdominal pain , or HA .",n/v/d,absent,5,5
+"Conditions , Infections , Complications , affecting Treatment / Stay HTN tobacco EtOh abuse sinus bradycardia",htn,present,10,10
+"He is also on Reglan , 10 mg p.o. q h ; Miracle topical cream to affected area ; also Sarna , topical cream , b.i.d.",affected area,present,16,17
+"Past medical history is as stated above , aortic stenosis , found to be critical on echocardiogram on 4-13-92 , done in Otte A , New Jersey and was found to have left ventricular hypertrophy and ejection fraction of 58% , no right heart wall motion abnormali-ties and an aortic valve gradient of greater than 100 .",aortic stenosis,present,8,9
+"First , he had right lower extremity swelling and lower extremity noninvasives confirmed the diagnosis of a femoral deep venous thrombosis .",a femoral deep venous thrombosis,present,16,20
+The patient did have a slight bit of confusion early in post-extubation course which cleared .,a slight bit of confusion,absent,4,8
+The patient was maintained on PPI for reflux disease and known gastritis .,reflux disease,present,7,8
+Almost complete resolution of pulmonary edema .,pulmonary edema,present,4,5
+3. Fatty liver resolved .,fatty liver,absent,1,2
+Coronary artery disease ; hypertension ; hyperlipidemia ; sleep apnea ; diabetes type 2 .,sleep apnea,present,8,9
+"flare - steroids , cont prednisone 60 , taper slowly as tolerated , duonebs , advair , singulair , spiriva , claritin azithromycin for atypical bronchitis to complete a 5 day course , keep o2 sat 90-94 , home nocturnal CPAP not tolerated in house , does well on nc , appears ato be at baseline",flare,present,0,0
+There is no pericardial effusion .,pericardial effusion,absent,3,4
+"He had experienced some constipation for the few months prior with lighter colored stools , darkened urine and fatigue for months with increased shortness of breath , orthopnea and dyspnea on exertion .",lighter colored stools,present,11,13
+"Cardiac : RRR , no murmurs",murmurs,absent,5,5
+6# Hyperlipidemia :,hyperlipidemia,present,1,1
+"The patient was reportedly alert at scene , and then became unresponsive in route to the hospital .",unresponsive,present,11,11
+This gradually increased until June 1992 where he had recurrent severe right sided sciatica .,recurrent severe right sided sciatica,present,9,13
+Postoperative physical examination demonstrated that he was afebrile at 97 degrees ; blood pressure 145/80 ; pulse 60 ; respiratory rate 10 ; 100% on a non-rebreather .,afebrile,absent,7,7
+Responsible After Study for Causing Admission ) COPD flare,copd flare,present,7,8
+1. Burkitt's lymphoma .,burkitt's lymphoma,present,1,2
+"Iron studies are all entirely normal , her anemia is attributed to anemia or chronic disease with hypoproliferation as well as multiple phlebotomies .",hypoproliferation,present,17,17
+"The patient was seen by the wound care nurse and the decubitus ulcer was felt to be mild , but was causing the patient a lot of discomfort and the wound care nurse Ivy Rose lidocaine jelly .",discomfort,present,27,27
+60 yo M with exertional angina -> positive ETT -> cath with severe 3VD,positive ett,present,7,8
+The electrocardiogram showed normal sinus rhythm with old Q wave inferior myocardial infarction .,old q wave inferior myocardial infarction,present,7,12
+She developed congestive heart failure and required pressor support .,congestive heart failure,present,2,4
+no lesions .,lesions,absent,1,1
+No HSM .,hsm,absent,1,1
+"He has a history of hypertension , diabetes , and high cholesterol .",diabetes,present,7,7
+"She is drowsy at times , but generally alert , responsive , interactive , able to talk in two to three word sentences when she wants to .",drowsy,present,2,2
+The patient was doing well with minimal to no belly pain and no nausea or vomiting .,belly pain,absent,9,10
+"Hypotension - On the night of 10-16 , the patient was diuresed with 20 mg of intravenous Lasix .",hypotension,present,0,0
+"soft , +BS , NT , Midline surgical scar , nephrostomy bag draining",midline surgical scar,present,6,8
+"Abdomen soft , nontender and distended .",nontender,absent,3,3
+Responsible After Study for Causing Admission ) COPD exacerbation with NSTEMI,nstemi,present,10,10
+No masses or vegetations are seen on the aortic valve .,vegetations,absent,3,3
+Infection / sepsis was not likely given she was afebrile and had no localizing sx with an improving lung exam and 02 requirement .,afebrile,absent,9,9
+"Her physical examination remained relatively unchanged , with resolution of the subtle left hand weakness and right facial weakness .",the subtle left hand weakness,absent,10,14
+"Warm and well perfused , with no cyanosis , clubbing or edema , no varicosities .",edema,absent,11,11
+"Left lower lobe pneumonia , resolving now on oral antibiotics .",left lower lobe pneumonia,present,0,3
+"Keep vancomycin trough between 10-20 , but not less due to desensitization .",desensitization,present,11,11
+Ahead CT scan revealed a metastatic lesion in the right vertex of the calvarium but no intracranial abnormalities .,intracranial abnormalities,absent,16,17
+"She was transferred to Arbour Hospital on 2015-02-21 for bowel obstruction , ischemia and worsening abdominal distention and pain .",bowel obstruction,present,9,10
+This did not normalize with administration of Isordil and the patient denied chest pain at this time .,chest pain,absent,12,13
+"The patient had an echocardiogram on day two of admission , which revealed a mildly dilated left atrium , mild symmetric LVH , normal LV cavity size , mild region LV systolic dysfunction , arresting regional wall motion abnormality including focal apical hypokinesis , a normal right ventricular chamber size and free wall motion , a moderately dilated aortic root , a mildly dilated ascending aorta , normal aortic valve leaflet , normal mitral valve leaflet and no pericardial effusions .",pericardial effusions,absent,78,79
+Lung exam revealed decreased breath sounds as well as crackles in the bases .,crackles in the bases,present,9,12
+"2+ edema both upper extremities , sacral edema .",sacral edema,present,6,7
+"revealed greater than 24,000 white blood cell count in the ascites which is consistent with SVT .",the ascites,present,9,10
+3. ECG changes - Patient had an episode of chest pain during her hospital stay that was both right and left sided with no radiation and no associated symptoms .,ecg changes,present,1,2
+Hurtado Colon,hurtado colon,present,0,1
+"Hypertension for 20 years , high cholesterol , coronary artery disease with episodes of angina , no history of myocardial infarction , exercise treadmill or evaluation .",coronary artery disease,present,8,10
+"ongoing grade III rash , involving the hands and feet in addition proteinuria secondary to the Avastin .",proteinuria,present,12,12
+The patient presented with abdominal pain and bloating and was found to have a large omental mass .,a large omental mass,present,13,16
+Hypertension,hypertension,present,0,0
+Gastritis,gastritis,present,0,0
+Patient was found to have a new humerus fracture distal to the hardware on film this admission .,a new humerus fracture distal to the hardware,present,5,12
+She was then started on Heparin with transition to Coumadin ( goal INR of 2-3 secondary to h/o bilateral DVT 's).,bilateral dvt,present,18,19
+"Tylenol , 650 mg p.o. q 4 prn ; Allopurinol , 100 mg p.o. q.d. ; Peridex mouthwash , 10 ml b.i.d.; cholysteramineresin , 4 grams p.o. q.d. ; clotrimazole , one troche p.o. q.i.d. ; Fentanyl patch , 100 mcg per hour topical q 72 hours ; glipizide , 10 mg p.o. q.d.; Atarax , 25 operating table 50 mg p.o. q 6 to 8 hours prn itching ; regular sliding scale insulin ; KBL mouthwash , 15 ccp .o. q.d. prn mouth discomfort ; Lactulose , 30 ml p.o. q.i.d. that was started on January 30 , for no bowel movements with instructions to continue until bowel movement and then decrease to b.i.d. or q.d. ; Lidocaine , 2% , 10 ml UR q 3 to 4 hours prn for pain around Foley site ; Ativan , 0.25 to 0.5 mg IV q 4 to 6 hours prn anxiety with instructions to use caution .",bowel movements,absent,101,102
+"Pt initially was hypoxic requiring NRB for O2 sat of 94% , with any attempt to wean she would desat .",hypoxic,present,3,3
+5. Bile leak .,bile leak,present,1,2
+She is a pleasant well appearing elderly woman in no acute distress .,acute distress,absent,10,11
+So far no secondary causes of hypertension were identified but causes like lymphocytic ? chromocytoma or renal artery stenosis have not been ruled out yet .,lymphocytic ? chromocytoma,present,12,14
+"As the CXR was without any evidence of PNA , or PTX , the pt subsequently received a CTA to evaluate for PE which revealed multifocal bilateral PNA but no PE .",ptx,absent,11,11
+"In TSICU , developed MRSA pneumonia with question of aspiration , treated Zosyn --> vanc / levo --> then 2 week course of Linazolid with resolution of fevers and decreased pulmonary secretions .",fevers,absent,27,27
+"Ext : cool , no varicosities , 1+ pedal pulses",varicosities,absent,5,5
+2. PRIOR HISTORY OF ANTERIOR MYOCARDIAL INFARCTION,anterior myocardial infarction,present,4,6
+No jugular venous distention .,jugular venous distention,absent,1,3
+This is a 44 year-old right handed woman with Down &apos;s syndrome who presents with increased falling and gait unsteadiness and an increased inability to perform her activities of daily living over the past three years .,an increased inability,present,21,23
+4. Shoulder fracture - Patient is s/p a left hip fracture ( decision not to operate ) and a left shoulder fracture with hemiarthroplasty 11-14 .,s/p a left hip fracture,present,6,10
+"The ventricles and sulci are mildly prominent , but stable in size and appearance .",mildly prominent,present,5,6
+"Head computerized tomography scan showed 1.5 to 2 centimeter bleed in the right thalamus extending to the internal capsule with mild distortion only , no shift .",shift,absent,25,25
+2. Exposure and wide drainage of perforated posterior duodenal ulcer with internal and external drainage .,perforated posterior duodenal ulcer,present,6,9
+"Abdomen : Slightly distended , nontender .",slightly distended,present,2,3
+"Mr. Breutzfarstxei is a 30 year old man with recently diagnosed acquired immunodeficiency syndrome and Pneumocystis carinii pneumonia who presented with pneumonia , developed adult respiratory distress syndrome , and died in the hospital after failed efforts of ventilatory support .",pneumocystis carinii pneumonia,present,15,17
+"Chest x-ray showed left atrial , right ventricular and pulmonary arterial enlargement and interstitial edema with small , bilateral effusions .","small , bilateral effusions",present,16,19
+The patient is a 63-year-old female with a three-year history of bilateral hand numbness and occasional weakness .,bilateral hand numbness,present,11,13
+He was noted to have some apnea and bradycardic spells of prematurity and was therefore started on caffeine .,some apnea,present,5,6
+2) You were admitted to the hospital and started on an antibiotic called Levaquin for a pneumonia .,a pneumonia,present,15,16
+"Respiratory distress - On 10-12 , the patient was transferred to Medicine Intensive Care Unit secondary to respiratory distress .",respiratory distress,present,0,1
+"Moist buccal mucosa , poor dentition , no erythema or exudates in the posterior pharynx .",poor dentition,present,4,5
+4) ECHO ( 06-18 ): Mild symmetric left ventricular hypertrophy with preserved biventricular systolic function .,mild symmetric left ventricular hypertrophy,present,5,9
+She is now able to walk fitfully and use her left hand with no problem .,problem,absent,14,14
+It was felt that he may have had some component of vascular congestion from his congestive heart failure as well as possibly some mild cirrhotic changes secondary to his previous alcohol use .,his congestive heart failure,present,14,17
+"On admission , the patient was a frail looking elderly male lying in bed in no acute distress .",acute distress,absent,16,17
+Sclera anicteric .,sclera anicteric,absent,0,1
+"# n/v/ abdominal pain : pt with multiple admissions with similar complaints , etiology 02-08 gastroparesis , improves considerably with ativan , dilaudid , reglan , pt was tolerating PO meds / diet at time of admission to medical service and was restarted on oral reglan .",similar complaints,present,10,11
+He remained hemodynmically stable throughout his hospitalization and did not have an oxygen requirement upon discharge .,an oxygen requirement,absent,11,13
+took Prednisone 40 at home and presented to ED where found to have 1mm lateral ST depressions and slight troponin and MB leak .,1mm lateral st depressions,present,13,16
+She had no murmurs and no gallops .,gallops,absent,6,6
+"Given no other risk factors or likely causes , the most likely etiology for his embolus is DVT from the left leg .",dvt from the left leg,present,17,21
+"The patient 's right anterior tibial wound was noted to be clean , dry , and intact with sutures intact and no erythema or purulence noted .",erythema,absent,22,22
+"Palpation of the neck discloses a multinodular goiter , larger on the right side , with no associated cervical lymphadenopathy .",a multinodular goiter,present,5,7
+"On admission examination she was a well developed , well nourished female in no apparent distress .",apparent distress,absent,14,15
+The patient has a history of baseline dementia which was confounded by delerium in the face of metabolic abnormalities .,metabolic abnormalities,present,17,18
+"The patient had positive blood and urine cultures on 01-05 for history of Methicillin resistant Staphylococcus aureus , which was pan sensitive .",positive blood and urine cultures,present,3,7
+# Hypotension : Pt became hypotensive following the large volume paracentesis despite replacement with albumin .,hypotensive,present,5,5
+"As the CXR was without any evidence of PNA , or PTX , the pt subsequently received a CTA to evaluate for PE which revealed multifocal bilateral PNA but no PE .",pe,absent,30,30
+Clear to auscultation with no wheezes or rales .,wheezes,absent,5,5
+6) PMR - cont prednisone,pmr,present,1,1
+"In the absence of history of malignancy , this is statistically benign .",malignancy,absent,6,6
+soft ; nontender ; no palpable masses .,palpable masses,absent,5,6
+"Over the past four weeks , the patient reported progressive shortness of breath and mid thoracic back pain .",progressive shortness of breath,present,9,12
+No hepato or splenomegaly .,splenomegaly,absent,3,3
+"2. OBSTRUCTIVE UROPATHY , STATUS POST LEFT NEPHROSTOMY .",obstructive uropathy,present,1,2
+No murmurs were appreciated .,murmurs,absent,1,1
+Notable for her diffuse expiratory wheezes and scattered expiratory crackles .,her diffuse expiratory wheezes,present,2,5
+Diagnosis peritoneum lavage times two was negative for any signs of intra-abdominal bleeding .,intra-abdominal bleeding,absent,11,12
+Carotid Stenosis s/p Left Carotid Stenting,carotid stenosis,present,0,1
+"Apparently once his pain was free , his EKG was noted to have hyperacute T-wave anteriorly without progression .",hyperacute t-wave anteriorly,present,13,15
+"Pt had HIDA scan which was negative for obstruction , and CT was unremarkable .",obstruction,absent,8,8
+"SHE WAS TRANSFERED TO THE FLOOR POST-OP DAY 2 WHERE SHE HAD BEEN AFEBRILE WITH NORMAL VITALS , MAKING GOOD URINE , AND TOLERATING A REGULAR DIET .",afebrile,absent,13,13
+No aortic regurgitation is seen .,aortic regurgitation,absent,1,2
+2) CV - Patient has CAD and CHF with a low hct and major trauma .,major trauma,present,13,14
+He had also some increased shortness of breath and a 10 pound weight gain and new three to four pillow orthopnea with a dry cough .,pillow orthopnea,present,19,20
+There are simple atheroma in the aortic arch .,simple atheroma,present,2,3
+PPROM with bleeding and transverse lie prompted cesarean section .,transverse lie,present,4,5
+I - heparin for PTT 50-70 durin enzyme leak . metoprolol 12 QID .,ptt,present,4,4
+Failed swallow study x 2 in early November .,failed swallow study,present,0,2
+High cholesterol .,high cholesterol,present,0,1
+"He had experienced some constipation for the few months prior with lighter colored stools , darkened urine and fatigue for months with increased shortness of breath , orthopnea and dyspnea on exertion .",some constipation,present,3,4
+There is no evidence of subarachnoid hemorrhage or acute major vascular territorial infarction .,acute major vascular territorial infarction,absent,8,12
+"Mr. Eugene is a 67 year old male with a remote history of chronic pancreatitis due to alcohol abuse 30 years ago , who is transferred now from Rehab Hospital of the Cape & Islands Hospital for an ERCP and work-up for a cystic lesion at the head of his pancreas on CT scan shown at the outside hospital .",chronic pancreatitis,present,13,14
+C5-6 disc herniation with cord compression and myelopathy .,myelopathy,present,7,7
+The patient was transferred on the evening of 2012-05-22 to the ICU given persistent carbon dioxide retention and respiratory acidosis and the intermittent mental status changes .,respiratory acidosis,present,18,19
+Findings included no gross evidence seating in the abdominal wall ; one nodule on the posterior surface of the right lobe of the liver ; one nodule in the inferior edge of the falciform ligament .,one nodule,present,25,26
+3. Carotid disease .,carotid disease,present,1,2
+"Following balloon angioplasty , there was a local dissection with evidence of intraluminal thrombus , with a greater than 10% loss in the initial gain following coronary angioplasty .",intraluminal thrombus,present,12,13
+"She also had an episode of nausea with some emesis , after being treated with Zofran with no relief , a nasogastric tube was placed which drained 1200 cc of bilious fluid .",some emesis,present,8,9
+"Full term well appearing infant with some facial jaundice , overall pink , warm and well perfused , alert and responsive .",some facial jaundice,present,6,8
+"92 year old woman with MS changes , abd pain hypotension and bloody lavage on Lovenox+ASA",abd pain,present,8,9
+"EKG revealed a normal sinus rhythm with a rate of 69 , left ventricular hyper-trophy with poor anterior progression of R-waves .",poor anterior progression of r-waves,present,16,20
+3. Coronary artery disease with a history of angina in the distant past .,angina,present,8,8
+This morning while landscaping the patient had unremitting 12-05 pain with shortness of breath and diaphoresis .,shortness of breath,present,11,13
+"The patient was afebrile , vital signs were stable .",afebrile,absent,3,3
+"GEN : NAD , pleasant speaking in full sentences",nad,absent,2,2
+"However , they felt this event could not account for his new , severe global deficit ; this was thought to be secondary to a more pervasive process , likely anoxic encephalopathy , for which the prognosis is extremely grim .",a more pervasive process,present,24,27
+"This acutely worsened on 2017-09-18 , when the patient was found to have mental status changes and an ABG revealed a CO2 of over 100 , likley due to a depressed respiratory drive secondary to sedatives given for agitation on top of a preexisting alkalosis .",agitation,present,38,38
+repair of first degree perineal laceration,first degree perineal laceration,present,2,5
+The patient walked with her feet externally rotated with a wide based gait with shuffling short steps with a tendency to fall back and she was unable to walk without assist .,a wide based gait,present,9,12
+"72 yo M with rib fx s/p trauma , failure on previous CXR , now with fever .",fever,present,16,16
+The descending thoracic aorta is mildly dilated .,mildly dilated,present,5,6
+Impression on the anterior aspect of the lower spinal cord at T11-12 by disc bulge .,disc bulge,present,13,14
+This is a 76 year old white male with severe chronic obstructive pulmonary disease who has had several recent admissions to Oaksgekesser/ Memorial Hospital for respiratory insuffiencey most often secondary to pneumonia .,pneumonia,present,31,31
+"In addition , there was a T11 metastasis with cord compression .",cord compression,present,9,10
+Diabetes .,diabetes,present,0,0
+The mid-distal LAD was underfilled initially but was without obstructive disease .,obstructive disease,absent,9,10
+Chest discomfort,chest discomfort,present,0,1
+Hypertension was managed with beta blocker and ACE inhibitor and Integrilin was continued post MI for 18 hours .,hypertension,present,0,0
+"Resting WMA include mid to distal septal akinesis , apical akinesis , inferior akinesis/hypokinesis , and mid to distal anterolateral hypokinesis / akinesis .",mid to distal septal akinesis,present,3,7
+A 12-lead electrocardiogram showed atrial fibrillation with a QT interval of .46 seconds .,atrial fibrillation,present,4,5
+"32 y / o woman with h / o anxiety and depression and prior suicide attempt presents with TCA and celexa overdose , tremulous / light-headed , felt better post charcoal .",depression,present,11,11
+Monitor wounds for signs of infection . Please call with any concerns or questions .,wounds,present,1,1
+2. Undesired adiposity .,undesired adiposity,present,1,2
+1. Hypertension .,hypertension,present,1,1
+"The patient had BiPAP initiated once she reached the unit , but did not tolerate it , becoming apneic and obstructing .",obstructing,present,20,20
+"The patient is a 47 - year-old male with a past medical history of coronary artery disease , status post 2-vessel percutaneous transluminal coronary angioplasty in 2005 , 3-vessel percutaneous transluminal coronary angioplasty in 2009 , hypertension , new onset type 2 diabetes , and hypercholesterolemia who presents with the sudden onset of substernal chest pain status post exercise .",new onset type 2 diabetes,present,38,42
+90 yo F with MMP ( see below ) who sustained a mechanical fall down stairs resulting in a hip and arm fracture .,a hip and arm fracture,present,18,22
+No pneumothorax .,pneumothorax,absent,1,1
+"PMH : HTN , Renal calculi , sleep apnea ,",renal calculi,present,4,5
+"The patient is a 68 year old , right handed caucasian female , former R.N. who complained of several days of vertigo , one day of double vision , dysarthria and worsening of vertigo .",double vision,present,26,27
+She states this light-headedness is often associated with shortness of breath and diaphoresis occasionally with nausea .,shortness of breath,present,8,10
+The patient was admitted to the hospital on July 12th for a chole with a principle diagnosis of recurrent biliary colic .,recurrent biliary colic,present,18,20
+The patient had no shortness of breath or cough on discharge .,cough,absent,8,8
+"The patient was asymptomatic without chest pain , shortness of breath and no mental status changes .",chest pain,absent,5,6
+"CV : Reg , tachy Nml S1 , S2 , no M/R/G",tachy,present,4,4
+"There was minimal mitral valve calcification , normal left ventricular contraction , and 2+ mitral regurgitation into a large left atrium .",2+ mitral regurgitation into a large left atrium,present,13,20
+"Due to difficult ambulation , the patient developed a small ulcer in the sacral area , which was treated with Duoderm dressing .",a small ulcer in the sacral area,present,8,14
+The patient has had multiple myeloma since 1990 .,multiple myeloma,present,4,5
+"She was afebrile , in sinus rhythm , pulse 60 .",afebrile,absent,2,2
+"On postoperative day eight which is Memorial Day the patient was started on Carboplatin-Taxolchemo therapy , which she tolerated without complication .",complication,absent,20,20
+Left coloboma .,left coloboma,present,0,1
+"He had no murmurs , rubs , or gallops .",murmurs,absent,3,3
+Abdomen is soft and nontender without hepatosplenomegaly or mass .,nontender,absent,4,4
+Serial CT head revealed decreased blood through 2014-11-14 .,decreased blood,present,4,5
+"At 1:15 PM on 10/06/94 , the patient was found unresponsive with no heart sounds , carotid pulse , respiratory excursions , or pupillary reactions .",unresponsive,present,10,10
+"Right lower extremity examination demonstrated mild swelling and ecchymosis of the right posterior thigh and approximately a 3 cm laceration in the lower leg , expressive of moderate amounts of standard sterile",ecchymosis of the right posterior thigh,present,8,13
+Primary diagnosis : Epidural abscess,epidural abscess,present,3,4
+"75 y / o F with DM , COPD on 2L NC and Bipap at night p / w generalized weakness and fatigue , urinary incontinence and shaking as well as increased sputum production .",shaking,present,27,27
+CVA,cva,present,0,0
+"The patient is a 68 year old , right handed caucasian female , former R.N. who complained of several days of vertigo , one day of double vision , dysarthria and worsening of vertigo .",vertigo,present,21,21
+This is a 44 year-old right handed woman with Down &apos;s syndrome who presents with increased falling and gait unsteadiness and an increased inability to perform her activities of daily living over the past three years .,increased falling,present,15,16
+"On physical examination , she was a very pleasant , moderately obese female in no apparent distress .",apparent distress,absent,15,16
+7. Chronic diarrhea with multiple admissions for dehydration with most recent one on 2011-02-26 .,dehydration,present,7,7
+"His past medical history is significant for prostate cancer , benign prostatic hypertrophy , hypothyroidism , status post radiation for non Hodgkin 's lymphoma , chronic painless hematuria , degenerative joint disease and history of a murmur .",degenerative joint disease,present,29,31
+"On hospital day number three , her blood cultures came back positive in the anaerobic culture for gram-positive cocci in pairs and clusters .",gram-positive cocci in pairs and clusters,present,17,22
+She was in her usual state of health until 3/20/97 when she experienced the fairly sudden onset of predominantly right-sided arm and leg weakness and ataxia .,ataxia,present,25,25
+Anemia of chronic disease .,chronic disease,present,2,3
+He has a history of chronic renal insufficiency likely secondary to hypertension and was admitted with a creatinine of 1.6 .,chronic renal insufficiency,present,5,7
+"3. atrial fibrillation , she is status post cardioversion 3-25-94 ,",atrial fibrillation,present,1,2
+"A&O X 3 , NAD",nad,absent,4,4
+"She denied abd pain , fevers , chills .",chills,absent,7,7
+"The left ventricular inflow pattern suggests a restrictive filling abnormality , with elevated left atrial pressure .",a restrictive filling abnormality,present,6,9
+A small amount of free air is seen in the nondependent portion of the pelvis .,a small amount of free air,present,0,5
+IMPRESSION : No evidence of hydronephrosis .,hydronephrosis,absent,5,5
+Caffeine citrate was initiated on 11-14 for apnea and bradycardia of prematurity .,bradycardia of prematurity,present,9,11
+"On the second hospital day , her gait continued to be markedly unstable , although with no consistent pattern in terms of weakness or directionality of falling , and she continued to have no reproducible upper extremity or lower extremity ataxia or dysmetria .",her gait,present,6,7
+"HER WOUND HAS REMAIND DRY AND CLOSED , WITHOUT EVIDENCE OF INFECTION OR BREAKDOWN .",breakdown,absent,13,13
+She will be discharged on AmBisome 300 mg IV q.d. for treatment of her hepatic candidiasis .,her hepatic candidiasis,present,13,15
+He is on Amiodarone for post-op afib and this was continued this entire admission .,post-op afib,present,5,6
+2. Right rotator cuff injury .,right rotator cuff injury,present,1,4
+- DM with neuropathy .,dm,present,1,1
+Patient recorded as having No Known Allergies to Drugs,known allergies to drugs,absent,5,8
+History of multinodular goiter ; history of hypertension ; history of subtotal thyroidectomy .,multinodular goiter,present,2,3
+"Upon transfer to the CMED CCU the patient appears somewhat uncomfortable , reporting nausea and abdominal pain , but when questioned he was unable / unwilling to participate in HPI or exam d/t sleepiness .",nausea,present,13,13
+"The patient is a 38-year-old gentleman , Spanish-speaking , from the Taheimpromong , with no significant past medical history , who presents with shortness of breath x 2 months as well as a dry cough x 1 month .",a dry cough,present,32,34
+"Power was mildly diminished in the finger extensors and hand intrinsics on the left , otherwise , power was full throughout .",mildly diminished in the finger extensors,present,2,7
+Anxiety NOS,anxiety nos,present,0,1
+"After BiPAP was initiated , the patient became hypotensive down to 75/28 and bradycardiac , responding to 3 fluid boluses over the course of the night .",hypotensive,present,8,8
+"She continued to put out low amounts of urine throughout the admission , despite aggressive diuresis with IV lasix gtt and boluses .",low amounts of urine,present,5,8
+Right ventricular heave .,right ventricular heave,present,0,2
+There were no carotid or cervical bruits .,carotid or cervical bruits,absent,3,6
+8. Chronic renal insufficiency with a b/l creatinine of 1.4 .,chronic renal insufficiency,present,1,3
+"The patient &apos;s past medical history is significant for allergies , depression and anxiety , pleural thickening / asbestosis , chronic left bundle branch block , tonsillectomy , adenoidectomy , vein stripping ( 1968 ) , left wrist fracture ( 1994 ) , and hypercholesterolemia .",left wrist fracture,present,36,38
+"Back and neck were stiff and sore , without localizing tenderness .",stiff,present,4,4
+"1. Prematurity , former 32 4/7 weeks , Twin #1",prematurity,present,1,1
+"She was admitted and evaluated by the cardiac surgery service after having undergone cardiac catheterization which revealed a 70% stenosis of her left circumflex artery , 50% stenosis of the left anterior descending and 10% stenosis of the right coronary artery .",50% stenosis of the left anterior descending,present,26,32
+The patient had an elevated bilirubin on admission with decreased output of biliary drain .,decreased output,present,9,10
+"1. Markedly dilated colon throughout ascending , transverse , and descending colon with air-fluid levels , overall unchanged since prior study performed on the same day with pneumatosis in the ascending colon .",air-fluid levels,present,13,14
+She was recently hospitalised from 02-23 / 03-04 for abdominal discomfort at which time she underwent paracentesis that ruled out SBP and relieved her abdominal pain .,her abdominal pain,absent,23,25
+Hypertension was managed with beta blocker and ACE inhibitor and Integrilin was continued post MI for 18 hours .,mi,present,14,14
+4. Shoulder fracture - Patient is s/p a left hip fracture ( decision not to operate ) and a left shoulder fracture with hemiarthroplasty 11-14 .,a left shoulder fracture,present,18,21
+Mild posterior mitral valve prolapse with mild mitral regurgitation .,mild mitral regurgitation,present,6,8
+4. Successful PTCA and stenting of the proximal LAD with overlapping 2.25 x 13 mm and 2.25 x 18 mm Hepacoat stents with no residual stenosis or dissection and normal flow ( see PTCA comments ).,residual stenosis,absent,24,25
+"98.4 , 94 , 22 , 120/96 , 98% on 2L. NAD , using scalenes , AT / NC , no oral lesions , Bibasilar rales otherwise clear , good air movement , RRR , no MRG , NTND +BS , no CCE , 2+ DPs .",nad,present,11,11
+He had a history of COPD for which he is on baseline 2 liters of 02 by nasal cannula at home and Albuterol and Atrovent MDI s p.r.n. at home .,copd,present,5,5
+"Fortunately , no evidence of baratroma was ever discerned .",baratroma,absent,5,5
+5. GASTROESOPHAGEAL REFLUX DISEASE .,gastroesophageal reflux disease,present,1,3
+This was mostly described as feeling unsteady on her feet .,unsteady on her feet,present,6,9
+"The patient was admitted for her gait disorder with other notable findings on examination including anisocoria , which , by the patient &apos;s report , had been noted several months earlier .",notable findings,present,10,11
+"On the night of 05-01 , the patient complained of increased vomiting .",increased vomiting,present,10,11
+1. Diabetes mellitus .,diabetes mellitus,present,1,2
+"Together with the interval development of bilateral pleural effusions , this indicates cardiac insufficiency ( or alternatively volume overload ) and an echocardiogram may be indicated for further evaluation .",bilateral pleural effusions,present,6,8
+Foley removed on POD #2 and had scattered rales with temp 101.2 .,scattered rales,present,7,8
+"Her creatinine continued to increase , likely due to her worsening liver failure .",her worsening liver failure,present,9,12
+"The patient was noted to be slightly hyponatremic over the past few days , with sodiums in the 128-132 range , but this was secondary to elevated glucose fingerstick blood sugars .",elevated glucose fingerstick blood sugars,present,26,30
+"PMH : Hypertension , Hyperlipidemia , Diabetes Mellitus , Hypothyroid , h/o Bilateral DVT 's, Pleural disorder ? Sarcoidosis , Gastritis , B12 deficiency , Chronic renal insufficiency , s/p Appendectomy , s/p Lap cholectomy , s/p Total abdominal hysterectomy",diabetes mellitus,present,6,7
+The patient is a healthy appearing female looking her stated age in no apparent distress .,apparent distress,absent,13,14
+"As for his diabetes mellitus , the Mahoney Team provided updated recommendations each day , adjusting for the changing p.o. intake .",his diabetes mellitus,present,2,4
+"Afebrile , VSS",afebrile,absent,0,0
+A biopsy scar on the right breast from 1990 .,a biopsy scar on the right breast,present,0,6
+- Ischemic colitis and ischemic liver 2017-06-22 ( post air embolism from post mediastinal exploration ),ischemic colitis,present,1,2
+"There appears to be a decreased and sluggish flow within the right and left hepatic veins with loss of normal respiratory variations , wave forms and the intrahepatic portion .","loss of normal respiratory variations , wave forms and the intrahepatic portion",present,17,28
+"Her electrocardiogram revealed normal sinus rhythm , left atrial enlargement , left axis deviation , poor R-wave progression in V1 through V4 , consistent with marked clockwise rotation , cannot rule out an old anteroseptal wall myocardial infarction .",left atrial enlargement,present,7,9
+Vancomycin was also added to his regimen on 11/28/94 and this was primarily to provide improved MRSA coverage as he continued to have erythema along the lateral right lower extremity .,erythema along the lateral right lower extremity,present,23,29
+67 y/o male with worsening shortness of breath. Had abnormal ETT and referred for cath .,abnormal ett,present,9,10
+"CXR 11-06 : Allowing for technical changes , no major adverse interval change has occurred .",major adverse interval change,absent,9,12
+Electrocardiogram showed atrial fibrillation with rapid ventricular response and atrial flutter .,atrial fibrillation,present,2,3
+"Please continue Mr. David Montero for one month to fight his blood borne infection , to prevent seeding of his aortic graft and continue Bactrim for ten days after discharge to treat the E. coli in his urine .",the e. coli in his urine,present,32,37
+COPD exacerpation with troponin leak likely NSTEMI secondary to demand ischemia .,copd exacerpation,present,0,1
+"GEN : NO ACUTE DISTRESS , ABLE TO COMMUNICATE AND FOLLOW ORDERS",acute distress,absent,3,4
+The patient reports a history of bloating and flatulence as well as increased fatigue .,flatulence,present,8,8
+The major neurologic event of this hospital course was that the patient was slow to awake after his Propofol drip was discontinued .,slow to awake,present,13,15
+Trauma series demonstrated no evidence of a pelvic fracture .,a pelvic fracture,absent,6,8
+"no clubbing , cyanosis or edema .","clubbing ,",absent,1,2
+A chest x-ray showed clearing of the opacities in the chest x-ray that were consistent with pulmonary edema because he continued to have some abnormality in the right lower lobe .,pulmonary edema,present,16,17
+He had no evidence of spontaneous bacterial peritonitis .,spontaneous bacterial peritonitis,absent,5,7
+9. History of syncope and first degree A-V heart block with beta blocker therapy .,syncope,present,3,3
+There were post laparoscopic incisions without erythema with Steri-Strips in place .,erythema,absent,6,6
+There was no scapular tenderness .,scapular tenderness,absent,3,4
+"Twin B with normal fetal survey was transferred to Boston Medical Center at 26 and 2/7 weeks with IUGR of twin A was first noted , presented with preterm labor at 31 weeks .",preterm labor,present,28,29
+He was continued on heparin for treatment of the pulmonary emboli .,the pulmonary emboli,present,8,10
+"Neuro : no asterixis , CN II-XII intact , 5/5 strength throughout , sensation to LT intact throughout , gait deferred",asterixis,absent,3,3
+"On 06/26/00 due to agitation , change in mental status and increased respiratory distress , the patient was intubated .",increased respiratory distress,present,11,13
+Postop course c/b right upper extremity DVT and postop Afib .,right upper extremity dvt,present,3,6
+"As the CXR was without any evidence of PNA , or PTX , the pt subsequently received a CTA to evaluate for PE which revealed multifocal bilateral PNA but no PE .",pna,absent,8,8
+ROS ( - ) emesis / BRBPR/melena / fever/chills / sob .,emesis,present,4,4
+"no N / V/HA / D no sweats , no chills , of abdominal pain , no chest pain , no pleuricy , no LEE , no paresthesias , no numbness , no shoulder pain , no jaw pain .",paresthesias,absent,27,27
+"The abdomen was soft , nontender and nondistended with no guarding and no hepatosplenomegaly .",guarding,absent,10,10
+"Her incision has remained clean , dry , intact , with staples removed on POD# 27/18 .",her incision,present,0,1
+CT angiogram demonstrates no stenosis or aneurysm in the intracranial circulation .,aneurysm in the intracranial circulation,absent,6,10
+"She has known bilateral carotid disease , stated to be greater than 70% bilaterally .",known bilateral carotid disease,present,2,5
+"It appears that his diet was regulated at rehab but there is concern for medication non-compliance at rehab , per previous discharge summaries .",medication non-compliance,present,14,15
+She was asymptomatic .,asymptomatic,absent,2,2
+"In addition , on telemetry she developed complete heart block and hypotension requiring temporary pacing wire and then a permanent pacemaker implantation on 08-03-93 .",hypotension,present,11,11
+After one hour his eyes were midline and he remained unresponsive .,unresponsive,present,10,10
+There was mild asterixis .,mild asterixis,present,2,3
+Dilatation and curettage x 1 for SAB .,sab,present,6,6
+PNEUMONIA,pneumonia,present,0,0
+"Coordination - toe tap was slow bilaterally , although difficult to reproduce , and at best , was essentially within normal limits .",slow bilaterally,present,5,6
+1. Gastrointestinal adenocarcinoma ; primary unknown ( likely hepatobiliary ) .,gastrointestinal adenocarcinoma,present,1,2
+The diagnosis of Alzheimer &apos;s was made in 1998 .,alzheimer &apos;s,present,3,4
+Upper extremities are very brisk bilaterally and symmetrical 3+. There is positive tremor reflex on the left and absent on the right .,absent on the right,present,18,21
+ROS ( - ) emesis / BRBPR/melena / fever/chills / sob .,brbpr/melena,present,6,6
+She was started on Levofloxacin but the patient became hypotensive at that point with blood pressure of 70/45 and received a normal saline bolus to boost her blood pressure to 99/60 ; however the patient was admitted to the Medical Intensive Care Unit for overnight observation because of her somnolence and hypotension .,hypotension,present,51,51
+"A HIDA scan showed no flow , question of pancreatitis versus common bile duct obstruction .",no flow,present,4,5
+No mass or vegetation is seen on the mitral valve .,mass,absent,1,1
+No calf tenderness .,calf tenderness,absent,1,2
+1+ lower extremity edema .,1+ lower extremity edema,present,0,3
+"The patient early this morning to the Ruthie with his usual nausea , vomiting , abdominal pain and was found to be hypertensive to 256/110 , HR 102 , T 99.2 , RR 22 , 92% RA .",his usual nausea,present,9,11
+"This is a 55-year-old female with multiple prior admissions for pneumonia , COPD , asthma exacerbation , over 3 weeks of upper respiratory like infection unremitting with increased nebulizer treatments at home .",upper respiratory like infection,present,21,24
+"MB fractionations of the CPKs were all negative and were thought to be secondary to the patient &apos;s beginning physical therapy on 10/19/97 , and all muscular in origin .",mb fractionations,absent,0,1
+The patient was given printed instructions for urinary tract infection ( Portugese ) .,urinary tract infection,present,7,9
+Her hypertension was difficult to manage initially and required three days of Intensive Care Unit with A-line and Nipride intravenously .,her hypertension,present,0,1
+"Upon presentation it was unclear when last time was that patient took meds , but hypertension likely d/t inability to take meds in setting of N/V .",hypertension,present,15,15
+"Neurological exam on admission revealed he was drowsy but easily arousable to voice , oriented to person , Retelk County Medical Center , and date , able to say no but mildly inattentive during examination .",drowsy,present,7,7
+"His extremities were warm , pink with no edema .",edema,absent,8,8
+"Abdominal examination revealed an abdomen that is nondistended , nontender .",nondistended,absent,7,7
+Trace aortic regurgitation is seen .,trace aortic regurgitation,present,0,2
+"Pupils equal , round and reactive to light , extraocular movements intact , anicteric , not injected .",injected,absent,16,16
+"He has a history of hypertension , diabetes , and high cholesterol .",high cholesterol,present,10,11
+Carotids had normal upstroke and normal volume with bilateral bruits .,bilateral bruits,present,8,9
+"Review of systems shows that the patient denies any orthopnea , paroxysmal nocturnal dyspnea .",any orthopnea,absent,8,9
+He had atelectasis in the right lower lobe by chest x-ray .,atelectasis in the right lower lobe,present,2,7
+"On physical examination , patient is in no acute distress , afebrile , blood pressure 134/80 , heart rate 80 and regular , no bruits .",afebrile,absent,11,11
+"Anemia , discharge hematocrit 28 , not iron deficient .",iron deficient,absent,7,8
+"Abdomen was distended , tympanitic , mildly tender epigastrium and right lower quadrant .",mildly tender epigastrium and right lower quadrant,present,6,12
+"70 y/o male with h/o CAD s/p LAD PTCA 33 yrs ago , COPD , T2DM , and AICD pocket infection who presented to the Juan on 2017-09-03 with worsening SOB x 5 days and feeling \ cloudy .\""""",worsening sob,present,29,30
+"Significant for non-insulin diabetes mellitus , for which he takes Diabeta , one QD ; right eye cataract , operated on three years ago .",non-insulin diabetes mellitus,present,2,5
+2. Thrush : This is likely secondary to her steroid inhalers and PO prednisone for COPD exacerbation .,thrush,present,1,1
+The patient was fully weaned from ventilatory support secondary to a persistent acidemia .,a persistent acidemia,present,10,12
+"Atrioseptal defect repair in 1970 , cardiomyopathy , right-sided congestive heart failure , pulmonary hypertension , history of atrial fibrillation and atrial flutter , history of prostate cancer , status post brachytherapy , history of rectal bleeding , obstructive sleep apnea on CPAP .",prostate cancer,present,26,27
+"She was noted to have mild cataracts , possibly due to chronic steroids , as well as a subtle temporal disc pallor OD , possibly due to previous episode of optic neuritis .",mild cataracts,present,5,6
+Etiology felt most likely demand ischemia in setting of original hypertensive urgency with persistent elevation of trop 02-08 ESRD .,esrd,present,18,18
+Sputum culture also returned with Staph. Aureus .,staph. aureus,present,5,6
+LUNGS : + crackles at L base > R base .,crackles at l base,present,3,6
+By the following mornig all mental status changes had cleared and the pt was transferred to the floors for continued care .,all mental status changes,absent,4,7
+"Ulcerative colitis , primary sclerosing cholangitis .",ulcerative colitis,present,0,1
+6. There is moderate pulmonary artery systolic hypertension .,moderate pulmonary artery systolic hypertension,present,3,7
+"In terms of his liver abnormalities , it was felt that viral hepatitis was in the differential as well as several opportunistic infections of the liver but also was felt that Bactrim could be a cause of these abnormalities .",his liver abnormalities,present,3,5
+"Head computerized tomography scan showed 1.5 to 2 centimeter bleed in the right thalamus extending to the internal capsule with mild distortion only , no shift .",mild distortion,present,20,21
+There were some very rare atrial premature contractions .,some very rare atrial premature contractions,present,2,7
+"The patient is a 68 year old , right handed caucasian female , former R.N. who complained of several days of vertigo , one day of double vision , dysarthria and worsening of vertigo .",dysarthria,present,29,29
+COPD,copd,present,0,0
+Neck exam revealed no jugular venous distention and no masses .,masses,absent,9,9
+There were no wheezes or rhonchi .,rhonchi,absent,5,5
+This morning while landscaping the patient had unremitting 12-05 pain with shortness of breath and diaphoresis .,diaphoresis,present,15,15
+2) CV - Patient has CAD and CHF with a low hct and major trauma .,cad,present,5,5
+Right capsular putamenal hemorrhage .,right capsular putamenal hemorrhage,present,0,3
+The left atrium is mildly dilated .,mildly dilated,present,4,5
+"Impression was that this was an 83-year-old female with cardiac history , dyspnea on exertion , increased calcium and hyperparathyroidism who presents for parathyroidectomy .",increased calcium,present,16,17
+"Your obstetrician 6 weeks , No Known Allergies",known allergies,absent,6,7
+"54 yo F with Crohn 's disease s/p ileostomy with subsequent short gut syndrome with port-o-cath for TPN presents with acute onset pleuritic chest pain with fever , chills , and sob .",sob,present,31,31
+Chronic renal insufficiency .,chronic renal insufficiency,present,0,2
+"The patient had BiPAP initiated once she reached the unit , but did not tolerate it , becoming apneic and obstructing .",apneic,present,18,18
+"The patient had been discharged from the St. Margaret 's Center for Women & Infants on 2013-05-06 , but was readmitted on 2013-05-09 when noted to have worsening renal function .",worsening renal function,present,27,29
+States he first developed back pain 5 weeks ago but was still able to ambulate with his cane .,back pain,present,4,5
+"He also had a 50% LAD stenosis , a 100% large DT stenosis and a nondominant RCA with left RCA collaterals .",a 100% large dt stenosis,present,8,12
+"The patient presented initially to Rehab Hospital of the Cape & Islands Hospital at the end of December for abdominal pain , and was found to have pancreatitis .",pancreatitis,present,27,27
+The patient has a poor nutritional status with hypoalbuminemia .,hypoalbuminemia,present,8,8
+75 y / o F with h / o COPD c / b frequent exacerbations p / w typical flare symptoms .,copd,present,9,9
+A small right pleural effusion has decreased in size .,a small right pleural effusion,present,0,4
+Impression on the anterior aspect of the lower spinal cord at T11-12 by disc bulge .,impression on the anterior aspect of the lower spinal cord at t11-12,present,0,11
+She did complain of a left frontal headache .,a left frontal headache,present,4,7
+10. Seizure history on Neurontin .,seizure history,present,1,2
+Moderate to severe 3+ mitral regurgitation and 3+ tricuspid regurgitation along with moderate pulmonary early systolic hypertension .,moderate pulmonary early systolic hypertension,present,12,16
+"A cardiology consult was obtained for this episode of diaphoresis with tachycardia , as well as for an EKG being read as having anterolateral changes .",anterolateral changes,present,23,24
+Cardiac exam revealed an S1 and an S2 and a diffuse 2/6 systolic murmur .,a diffuse 2/6 systolic murmur,present,9,13
+"64-year-old G5P5 postmenopausal for 10 years with a history of two months of progressive abdominal distention , crampy abdominal pain , urinary frequency and diarrhea .",urinary frequency,present,21,22
+Flap checks carried out q.2h. initially in the Surgical Intensive Care Unit showing positive biphasic Doppler signals .,positive biphasic doppler signals,present,13,16
+"Mr. Mcelveen is a 51 year-old male with metastatic RCC status post left radical nephrectomy in 2018-03-21 , status post Avastin and sorafenib , most recently on Sutent monotherapy since 2018-12-21 , with mild renal insufficiency , who presented from home on 2019-06-14 with shortness of breath and fever .",mild renal insufficiency,present,33,35
+The neck was supple without lymphadenopathy or thyromegaly .,thyromegaly,absent,7,7
+There was no areas of restricted diffusion to indicate infarction .,infarction,absent,9,9
+He was weaned from oxygen requirement and was continued on normal saline boluses and,oxygen requirement,present,4,5
+# Epidural abscess : The patient was evaluated by orthopedic spine consult service and ID .,epidural abscess,present,1,2
+LEFT PROXIMAL HUMERUS FRACTURE .,left proximal humerus fracture,present,0,3
+"Extremities reveal the right lower extremity was tense , purple-red , swollen , and was warm from the knee to the ankle and extremely tender .",swollen,present,11,11
+"S1 , S2 with Grade II/VI SEM . +S3 .",+s3,present,8,8
+"A lucency and irregularity of the glenoid , possibly representing a fracture , was also seen , and a CT scan was therefore obtained in order to evaluate this area .",a lucency and irregularity of the glenoid,present,0,6
+She was slightly agitated on the first postoperative day but this resolved by the second postoperative day .,slightly agitated,absent,2,3
+Basilar artery stenosis with basilar thrombosis and &quot; top of the basilar &quot; syndrome .,basilar thrombosis,present,4,5
+JVD difficult to access 02-23 increased neck girth .,increased neck girth,present,5,7
+"no N / V/HA / D no sweats , no chills , of abdominal pain , no chest pain , no pleuricy , no LEE , no paresthesias , no numbness , no shoulder pain , no jaw pain .",n,absent,1,1
+"In addition , the patient received the above-described diagnostic procedures , which demonstrated injuries limited to a posterior scalp laceration , left fractured clavicle , left fractured radius , right thigh hematoma , and right leg laceration .",right thigh hematoma,present,29,31
+Coumadin was reportedly discontinued approximately six months ago secondary to planned surgery for diabetic retinopathy and glaucoma .,diabetic retinopathy,present,13,14
+"The patient has right facial droop , right ptosis , stable and present for greater than one year .",right facial droop,present,3,5
+No erythema or swelling noted .,swelling,absent,3,3
+Skin breakdown between toes .,skin breakdown between toes,present,0,3
+"Therefore , the cause of her mild diarrhea ( few loose BM / liquid stool / night ) may be either viral or secondary to resolving abdominal hematoma with resultant irritation of GI system .",her mild diarrhea,present,5,7
+"82 y/o f w h/o afib , SSS s/p pacer 05-08 c/b PTX requiring CT , CAD , who was readmitted 05-24 with ARF and lethargy , found to have a large pericardial effusion and bilateral pleural effusions , with echo showing no evidence of tamponade , who is transferred for possible pericardial effusion drainage and treatment of CHF , as well as drainage of bilateral pleural effusions .",sss,present,7,7
+There are simple atheroma in the descending thoracic aorta .,simple atheroma,present,2,3
+There were no wheezes or rhonchi .,wheezes,absent,3,3
+"There was relatively central in location , with only a slight right-sided predominance .",a slight right-sided predominance,present,9,12
+"Pt feeling well , denies abd pain , N/V , LH , SOB , CP .",sob,absent,12,12
+He denied any history of similar symptoms in the past and has had no prior history of angina or myocardial infarction .,angina,absent,17,17
+"Hypertension , asthma , obesity , history of heart murmur , hemorrhoids , whooping cough as a child .",heart murmur,present,8,9
+"A similar lesion is seen on the right , measuring 2.2 cm .",a similar lesion,present,0,2
+5. HEMATOLOGY : The patient was discharged on Coumadin for apical akinesis and stroke risk .,stroke risk,present,13,14
+Currently pt denies sensory deficits or weakness .,weakness,absent,6,6
+Denies any pain or discomfort .,discomfort,absent,4,4
+Positive for coronary artery disease .,coronary artery disease,present,2,4
+2017-08-15 SPUTUM CULTURE - PRELIMINARY { PSEUDOMONAS AERUGINOSA },pseudomonas aeruginosa,present,6,7
+(1) Insulin dependent diabetes mellitus x 15 years with no retinopathy or foot lesions .,foot lesions,absent,12,13
+No murmur appreciated .,murmur,absent,1,1
+Take codeine prescribed by PCP with food and water to prevent nausea and constipation .,nausea,present,11,11
+7. Hypothyroidism .,hypothyroidism,present,1,1
+She had no prior significant cardiac history and presented to her local medical doctor &apos;s office with an episode of severe retrosternal chest pain .,severe retrosternal chest pain,present,20,23
+A CT scan with po contrast showed dilation of intrahepatic common bile duct which is improved from previous studies .,dilation of intrahepatic common bile duct,present,7,12
+"The head is normocephalic , atraumatic and eyes are icteric .",icteric,present,9,9
+The patient is an 88 year-old woman undergoing treatment for a right lower extremity cellulitis who was transferred from Child for worsening cellulitis and new confusion .,new confusion,present,24,25
+"Liver function tests were checked , only total bilirubin was slightly elevated at 1.6 .",slightly elevated,present,10,11
+"54 yo F with Crohn 's disease s/p ileostomy with subsequent short gut syndrome with port-o-cath for TPN presents with acute onset pleuritic chest pain with fever , chills , and sob .",fever,present,26,26
+"The patient denies any recent upper respiratory infections , no fevers , no chills , no change in cough , sputum .",fevers,absent,10,10
+This 22 year old Gravida 4 Para 2012 was admitted to the Naliheall County Memorial Hospital Obstetrical service on 10/29/2003 at 11:14 pm for the indication ( s ) : early labor / rule out labor .,labor,present,35,35
+"- After she was made CMO , the pt was started on Morphine gtt to maximize comfort and minimize air hunger .",air hunger,present,19,20
+2) Gastroesophageal reflux disease .,gastroesophageal reflux disease,present,1,3
+"head CT at Erich Lindemann Mental Health Center 05-24 : atrophy , dense calcification of the tentorium , most likely of metabolic etiology",atrophy,present,10,10
+The patient is a 31-year-old right-handed female with right-sided greater than left-sided weakness and difficulty walking for several days .,right-sided greater than left-sided weakness,present,8,12
+It was felt at that time that the changing mental status and respiratory distress might be due to a combination of medication and worsening mucositis .,respiratory distress,present,12,13
+The abdomen was soft and non-tender with no masses or organomegaly .,non-tender,absent,5,5
+severe COPD Pneumonia recovering alcoholic recovering barbituate abuse unexplained hct drop poor appetite x 1 week,severe copd,present,0,1
+5) RIGHT LOWER EXTREMITY WOUND .,right lower extremity wound,present,1,4
+No evidence of extension into the foramina transversaria .,extension into the foramina transversaria,absent,3,7
+The patient was also started on Solu-Medrol IV for active airway disease component of her shortness of breath .,her shortness of breath,present,14,17
+"Revealed icteric sclerae , the oropharynx with extensive thrush , and an ulcer under his tongue .",an ulcer under his tongue,present,11,15
+Chest : crackles at right base with dec. air movement .,crackles at right base,present,2,5
+"CONCLUSION : Improvement in congestion from edema with no worsening , but no significant improvement , in the right upper lobe pneumonia .",the right upper lobe pneumonia,present,17,21
+Chest x-ray showed no infiltrates and no pulmonary edema .,infiltrates,absent,4,4
+"He was also seen by spine who repeated the MRI and this showed L3-4 osteomyelitis and discitis and an epidural abscess , 5cm .",an epidural abscess,present,18,20
+"On an office visit on 01-14 , the patient was found to have significantly elevated alkaline phosphatase .",significantly elevated alkaline phosphatase,present,13,16
+"However , given his rapid clinical decline , this was deferred and I do not suspect that he will be a candidate for this , as the degree of his decline bodes a poor prognosis for him .",his decline,present,29,30
+There was a large focus of subacute blood products in the mid to low pons suggesting recent hemorrhage into a cavernous angioma .,subacute blood products in the mid to low pons,present,6,14
+He has no known clotting disorder but did have trauma to leg prompting immobility and stasis .,trauma to leg,present,9,11
+"9. Left UE markedly more edematous than right UE , this could be from fracture , or there could be a clot , an abscess in the area also a possiblity .",more edematous,present,4,5
+"In addition , the patient did have slightly elevated blood sugars over the last couple of days and has required an insulin sliding scale and basal insulin to maintain his blood sugars at a more appropriate level .",slightly elevated blood sugars,present,7,10
+"If there is clear drainage from your incisions , cover with a dry dressing .",your incisions,present,6,7
+"The EEG showed transient sharp waves in the left front , left occipital and right parietal regions .",transient sharp waves in the left front,present,3,9
+The lung volumes are slightly increased .,slightly increased,present,4,5
+"Nausea , vomiting , Abdominal pain , distention .",distention,present,7,7
+"The bleeding has stopped and you have remained hemodynamically stable and your hematocrit is stable , but you are at risk of bleeding from this source again with anticoagulation .",the bleeding,absent,0,1
+"#. Afib/SSS : She was A-paced , pacer placed 05-08 in DDDR mode , complicated by PTX requiring chest tube which resolved and tube was removed during admit for pacer , no evidence of PTX on most recent CXR .",afib/sss,present,1,1
+"No chest pain , no shortness of breath , 1+ ankle edema .",1+ ankle edema,present,9,11
+The skin examination revealed the right breast had a dark two centimeter ecchymosis and the left medial thigh had two pale blue two centimeter macules .,a dark two centimeter ecchymosis,present,8,12
+Elevated left hemidiaphragm of uncertain etiology or duration .,elevated left hemidiaphragm,present,0,2
+"70 y/o male with h/o CAD , T2DM , hyperlipidemia , and COPD who presented to the Juan on 2017-09-03 with worsening SOB x 5 days from Morton Hospital & Medical Center .",hyperlipidemia,present,9,9
+Is significant for spinal stenosis and a series of operations including repair of a ureteral stricture ; cataract implants ; two partial hysterectomies ; and an appendectomy .,spinal stenosis,present,3,4
+"On 05/17/2004 the patient underwent atotal abdominal hysterectomy , bilateral salpingooophorectomy , bilateral node dissection , omentectomy , lysis of adhesions , removal of mass from surface of transverse colon .",adhesions,present,20,20
+His pathology came back as a large grade IV glioma .,a large grade iv glioma,present,5,9
+"The patient 's right anterior tibial wound was noted to be clean , dry , and intact with sutures intact and no erythema or purulence noted .",the patient 's right anterior tibial wound,present,0,6
+Catheterization results showed 100% occlusion of the proximal left anterior descending artery and 50% stenosis of first diagonal .,100% occlusion of the proximal left anterior descending artery,present,3,11
+Extensive carotid arterial calcifications are present in the bulb regions bilaterally .,extensive carotid arterial calcifications,present,0,3
+"Responsible After Study for Causing Admission ) IUP at 36 weeks , delivered",iup,present,7,7
+"Bilateral crackles at bases and midlungs , elevated JVP , trace bilateral ankle edema , and CXR with diffuse opacities suggest possible pulmonary edema , likely secondary to acute MI .",bilateral crackles at bases and midlungs,present,0,5
+"For a short time , she seemed &quot; locked in &quot; .",&quot; locked in &quot;,present,7,10
+"There is decreased intraventricular blood , compared to the previous study , and there are no signs of hydrocephalus .",decreased intraventricular blood,present,2,4
+"In general the patient was in no acute distress , afebrile , vital signs stable .",afebrile,absent,10,10
+"pacer DDDR ( Vitatron CL860 ) placed 05-08 for SSS with symptomatic bradycardia , c/b R PTX requiring chest tube",sss,present,9,9
+"Gait was wide based , very unsteady , veering to the left and to the right .",very unsteady,present,5,6
+COPD exacerpation with troponin leak likely NSTEMI secondary to demand ischemia .,demand ischemia,present,9,10
+2. Hypercholesterolemia .,hypercholesterolemia,present,1,1
+He is admitted at this time because of significant GI bleeding .,significant gi bleeding,present,8,10
+"The patient was given printed instructions for sprains , fractures and bruises ( English ) .",bruises,present,11,11
+"Coronary artery disease , status post coronary artery bypass graft .",coronary artery disease,present,0,2
+"Per notes , pt denied SOB , CP , and abdominal pain prior to intubation .",cp,absent,7,7
+"HCV cirrhosis c/b esophageal varices , ascites , partial portal vein thrombosis",hcv cirrhosis,present,0,1
+Arthrogram in the distant past showed a right rotator cuff tear and he now has increased pain in his left shoulder .,a right rotator cuff tear,present,6,10
+The plan will be to continue to try to alternate albumin and Lasix to mobilize his fluid .,his fluid,present,15,16
+cataracts s/p removal of in Mayotte c/b enucleated CMED CSRU,cataracts,present,0,0
+"Please call the surgeon or return to the Emergency Department if you develop chest pain , shortness of breath , fever greater than 101.5 , foul smelling or colorful drainage from your incisions , redness or swelling , severe abdominal pain or distention , persistent nausea or vomiting , inability to eat or drink , or any",your incisions,present,31,32
+CNIS revealed carotid stenosis and she ultimately underwent left carotid stenting by vascular surgery on 10-30 .,carotid stenosis,present,2,3
+"She was unable to sleep at night , often pacing the halls .",unable to sleep,present,2,4
+"Significant for Insulin dependent diabetes mellitus , atrial fibrillation , hypothyroidism , hypertension , depression , frequent urinary tract infections , neuropathic pain syndrome and osteoporosis .",frequent urinary tract infections,present,16,19
+The abdomen was distended and firm .,firm,present,5,5
+"The patient has a history of high MCV and megaloblastic cells on smear in the setting of anemia ; question B12 deficiency , the patient also has a history of borderline low B12 levels .",megaloblastic cells,present,9,10
+"In this 2 week interval he denied having CP / chest discomfort or difficulty breathing , no cough or hemoptysis .",chest discomfort,absent,10,11
+"No rashes or petechiae , linear and burn scars as above",petechiae,absent,3,3
+"A small intimal tear in the arch of the aorta during the angiogram , was without sequelae .",sequelae,absent,16,16
+An MRI was done and this showed a signal abno in L3 L4 ? disciitis vs osteo without a definitive epidural abscess .,a definitive epidural abscess,absent,18,21
+Trivial MR .,trivial mr,present,0,1
+"She presented with three days of general malaise , nausea , vomiting , shortness of breath , cough productive of white sputum .",vomiting,present,11,11
+"The patient urinalysis on 10/19/97 showed moderate occult blood , pH 5 , albumin 1+ , white blood cells present , 2-50 red blood cell , 10-20 white blood cells , few bacteria , and moderate bladder epithelial cells .",few bacteria,present,31,33
+His right tib / fib fracture was repaired by Orthopedics on 10-27 ; postoperatively there were no complications .,complications,absent,17,17
+Chest : HD line in place without erythema,erythema,absent,7,7
+There was mild lower thoracic tenderness .,mild lower thoracic tenderness,present,2,5
+No known drug allergies .,known drug allergies,absent,1,3
+"Given no other risk factors or likely causes , the most likely etiology for his embolus is DVT from the left leg .",his embolus,present,14,15
+5# T2DM :,t2dm,present,1,1
+8. Hypertension .,hypertension,present,1,1
+"RIGHT TIBIA / FIBULA , AP AND LATERAL VIEWS : An intramedullary rod is seen fixating a proximal diaphyseal comminuted tibial fracture with six proximal and two distal screws .",a proximal diaphyseal comminuted tibial fracture,present,16,21
+Coronary artery disease with congestive heart failure .,coronary artery disease,present,0,2
+No known drug allergies .,known drug allergies,absent,1,3
+Patient recorded as having No Known Allergies to Drugs,known allergies,absent,5,6
+She had a postoperative CT scan that revealed partial decompression of the spinal canal and good placement of her hardware .,partial decompression of the spinal canal,present,8,13
+The patient at that time noted slight shortness of breath but was sent home anyway .,slight shortness of breath,present,6,9
+It is also noted that there was splenomegaly .,splenomegaly,present,7,7
+"On the day of admission , when he fell , the patient was experiencing no chest pain , no shortness of breath , and had no loss of consciousness , no head trauma with fall .",head trauma with fall,absent,31,34
+There is akinesis / dyskinesis and thinning of the mid to distal inferior septum and the apex .,akinesis,present,2,2
+"No hemoptysis , hematemesis , abdominal pain , black or tarry stools , dysuria / frequency/urgency .",dysuria,absent,13,13
+"Mr.  Mackey also had signs and symptoms consistent with cervical myelopathy ; a cervical MRI scan showed very impressive disc herniations at C5-C6 , less so at C4-C5 , with clear cut cord compression , particularly on the right side C5-C6 .",cervical myelopathy,present,10,11
+"Extremities : Without cyanosis , clubbing or edema .",clubbing,absent,5,5
+"2. ESRD on hemodialysis started 2017-01-07 on Tu , Th , Sat",esrd,present,1,1
+Skin examination was notable for a leg ulcer and cellulitis to be delineated below .,cellulitis,present,9,9
+The patient describes chest discomfort without any significant EKG changes .,any significant ekg changes,absent,6,9
+"Thus , he was discharged on postoperative day number eight in good condition with a well healed left shoulder wound and doing well with occupational therapy with plans for him to follow-up with Dr. Necessary .",a well healed left shoulder wound,present,14,19
+Elevated CK on 02-07 is likely secondary to mild rhabdomyolysis .,elevated ck,present,0,1
+3. Osteoarthritis .,osteoarthritis,present,1,1
+HEENT examination notable for bilateral arcussenilis but otherwise unremarkable .,bilateral arcussenilis,present,4,5
+"7) GI : Ms. Pimental is an unfortunate 95 year old woman , status post a recent fall necessitating right ORIF of the hip and right wrist fracture ORIF , who was in the hospital for this event , when it was noted that she had abdominal pain , distention and coffee ground emesis with worsening mental status and renal failure .",worsening mental status,present,55,57
+"NECK : Supple , No LAD , No JVD",jvd,absent,8,8
+Innumerable smaller fracture fragments were interposed between the fracture fragment and the distal humeral shaft .,innumerable smaller fracture fragments,present,0,3
+There was no obvious segmental wall-motion abnormality .,segmental wall-motion abnormality,absent,4,6
+No lymphadenopathy is noted .,lymphadenopathy,absent,1,1
+Ovarian cancer .,ovarian cancer,present,0,1
+No known drug allergies .,known drug allergies,absent,1,3
+"82 F with h/o COPD , CAD , pafib and SSS s/p pacer on 05-08 for symptomatic pauses is transferred for large pericardial effusion ? needing drainage and CHF .",cad,present,6,6
+Left humerus film series demonstrated no evidence of fracture or displacement .,displacement,absent,10,10
+No edema .,edema,absent,1,1
+He also complained of some fecal incontinence the day prior to admission without urinary incontinence .,some fecal incontinence,present,4,6
+Coronary artery disease with congestive heart failure .,congestive heart failure,present,4,6
+"NAD , pleasant , speaking in complete sentences , poor air movement bilaterally , L &gt; R , no wheezes or rales , rrr , distant , abd benign , no edema , alert and oriented times three , no focal deficits , conversant Studies :",wheezes,absent,19,19
+No anorexia .,anorexia,absent,1,1
+There were cultures obtained seeping from the wound at Retelk County Medical Center and those also grew out Pseudomonas aeruginosa .,pseudomonas aeruginosa,present,18,19
+Diabetic retinopathy with the patient blind in right eye .,diabetic retinopathy,present,0,1
+"Neck : supple , no LAD , no JVD",jvd,absent,8,8
+"On a rectal examination she is guaiac negative , no masses and no gluteal ulcers or decubiti .",gluteal ulcers,absent,13,14
+Renal Failure : creatinine on admission was 1.6 Likely acute hypertensive nephropathy plus probalbe long-standing hypertensive disease .,renal failure,present,0,1
+LEFT KNEE OSTEOARTHRITIS .,left knee osteoarthritis,present,0,2
+bright red blood per rectum,bright red blood per rectum,present,0,4
+"She has had no motor weakness , abnormal sensation , numbness , tingling or incontinence of bowel or bladder .",numbness,absent,10,10
+The neck is supple with no lymphadenopathy .,lymphadenopathy,absent,6,6
+Pain : Her pain was controlled with IV pain medicines while in ICU .,her pain,present,2,3
+"#. Afib/SSS : She was A-paced , pacer placed 05-08 in DDDR mode , complicated by PTX requiring chest tube which resolved and tube was removed during admit for pacer , no evidence of PTX on most recent CXR .",ptx,present,16,16
+NAD,nad,absent,0,0
+The patient was given printed instructions for neck strains ( English ) .,neck strains,present,7,8
+2. Sick Sinus Syndrome status post PM/ICD placement,sick sinus syndrome,present,1,3
+1. CORONARY ARTERY DISEASE : The patient was taken to Cardiac Catheterization where she was found to have two vessel disease .,two vessel disease,present,18,20
+"He denies chills , no chest pain , no LE swelling .",chest pain,absent,5,6
+Right tibial-fibular film series demonstrated no evidence of fracture displacement .,fracture displacement,absent,8,9
+Resting regional wall motion abnormalities include mild inferior hypokinesis .,resting regional wall motion abnormalities,present,0,4
+"10. Recent MRSA pneumonia and sepsis 2017-07-21 , treated with Vancomycin",sepsis,present,5,5
+"The patient had an echocardiogram on day two of admission , which revealed a mildly dilated left atrium , mild symmetric LVH , normal LV cavity size , mild region LV systolic dysfunction , arresting regional wall motion abnormality including focal apical hypokinesis , a normal right ventricular chamber size and free wall motion , a moderately dilated aortic root , a mildly dilated ascending aorta , normal aortic valve leaflet , normal mitral valve leaflet and no pericardial effusions .",mild region lv systolic dysfunction,present,28,32
+"The patient is a 58 year old right hand dominant white male with a long history of hypertension , changed his medications from Aldomet to Clonidine six weeks ago .",hypertension,present,17,17
+2. Restless leg syndrome,restless leg syndrome,present,1,3
+"The abdomen was soft , nontender , nondistended , positive bowel sounds .",nontender,absent,5,5
+"2) Patchy left retrocardiac opacity which may be due to patchy atelectasis , aspiration , or early pneumonia .",patchy left retrocardiac opacity,present,1,4
+There was no evidence of any middle compartment lymphadenopathy or spread of the tumor outside the thyroid .,the tumor,absent,12,13
+Non-healing ulcer on the right leg .,non-healing ulcer on the right leg,present,0,5
+"The patient was admitted for her gait disorder with other notable findings on examination including anisocoria , which , by the patient &apos;s report , had been noted several months earlier .",anisocoria,present,15,15
+4. Hyponatremia,hyponatremia,present,1,1
+There was no evidence of any special neglect .,any special neglect,absent,5,7
+# Anemia : His HCT remained stable post-surgery .,anemia,present,1,1
+"Mr.  Mackey also had signs and symptoms consistent with cervical myelopathy ; a cervical MRI scan showed very impressive disc herniations at C5-C6 , less so at C4-C5 , with clear cut cord compression , particularly on the right side C5-C6 .",impressive disc herniations at c5-c6,present,19,23
+1. Exploratory laparotomy with drainage of intra-abdominal abscess and peritonitis with gross soilage with bile and gastric contents .,peritonitis,present,9,9
+"no N / V/HA / D no sweats , no chills , of abdominal pain , no chest pain , no pleuricy , no LEE , no paresthesias , no numbness , no shoulder pain , no jaw pain .",abdominal pain,absent,13,14
+The patient was admitted for further management of his pulmonary edema .,his pulmonary edema,present,8,10
+He denies any abdominal pain .,any abdominal pain,absent,2,4
+"1. Coronary artery disease status post non-ST-elevation myocardial infarction in 2009-05-05 , status post cardiac catheterization with left anterior descending artery stent placement in 05/2001 .",non-st-elevation myocardial infarction,present,6,8
+"Insulin-dependent diabetes mellitus , lymphoma as above , ulcerative colitis , melanoma status post excision in right upper extremity , hypertension , hypothyroidism , congestive heart failure , and coronary artery disease with bypass grafting .",insulin-dependent diabetes mellitus,present,0,2
+"Is notable for depression , and she has been followed regularly by Dr. Freiermchird of Nash Health for several months with pharmacologic treatment , which is apparently working well .",depression,present,3,3
+MRI demonstrated a left femoral condyle osteonecrotic defect and degenerative meniscus .,degenerative meniscus,present,9,10
+EXT : Without edema .,edema,absent,3,3
+"Premature infant born at 31 and 6/7 weeks gestation , resolved respiratory distress syndrome .",premature infant,present,0,1
+"The patient is a 38-year-old gentleman , Spanish-speaking , from the Taheimpromong , with no significant past medical history , who presents with shortness of breath x 2 months as well as a dry cough x 1 month .",shortness of breath,present,23,25
+There is no aortic valve stenosis .,aortic valve stenosis,absent,3,5
+"Left upper extremity examination demonstrated no gross deformities , tenderness to palpation in the mid forearm , intact motor function in the median , radial , and ulnar nerve distributions , intact sensation to light touch in the median and radial nerve distributions , decreased sensation in the ulnar-nerve distribution , warm and well perfused limb with 2+ radial pulses .",tenderness,present,9,9
+"large pericardial effusion , transfer from OSH",large pericardial effusion,present,0,2
+CAD,cad,present,0,0
+On POD#8 a CT scan was obtained which revealed an abcess with a colovesicular fistula .,a colovesicular fistula,present,12,14
+Post dates,post dates,present,0,1
+After extubation her o2 requirement was down to 1L NC with sats in mid 90s .,her o2 requirement,present,2,4
+"RESP : CTABL , no crackles , no wheezing or rhonchi",crackles,absent,5,5
+3) Renal insufficiency : Creatinine improved from 2.1 to 1.3 at time of discharge .,renal insufficiency,present,1,2
+"Also had labile blood sugars with repeated episodes of hypoglycemia , and Strickland recommended sugars in the range of 150-200 .",labile blood sugars,present,2,4
+There has been no GI or GU symptoms except for constipation .,gi or gu symptoms,absent,4,7
+"A neurologic work-up was undertaken which included a CT scan of the head which revealed no acute bleed and a lumbar puncture which revealed a glucose of 72 , protein 65 , white blood cell count 19 , red blood cell count 11,500 with no evidence of xanthrochromasia .",acute bleed,absent,16,17
+Asthma flare and bronchitis .,bronchitis,present,3,3
+"The patient has right facial droop , right ptosis , stable and present for greater than one year .",right ptosis,present,7,8
+Endo - DM on insulin with steroids,dm,present,2,2
+"He received a partial HD session , limited by hypotension .",hypotension,present,9,9
+"Echo prior to scheduled cath showed mild LVH , inferior HK , EF 40% , mild MR , mild LAE .",mild mr,present,15,16
+"There is a patchy area of increased opacity in the left retrocardiac region , which was not seen on the earlier study .",a patchy area of increased opacity,present,2,7
+Cerebellar examination revealed in intention tremor on the right side .,intention tremor on the right side,present,4,9
+"Impression was that this was an 83-year-old female with cardiac history , dyspnea on exertion , increased calcium and hyperparathyroidism who presents for parathyroidectomy .",cardiac history,present,9,10
+The patient was briefly admitted to the ICU for low hematocrit and hyponatremia immediately following the surgery but was then transferred back to the floor in stable condition .,low hematocrit,present,9,10
+She then suffered rigidity with jaw clenching and tongue biting secondary to Fentanyl administration and was transferred to the CMED CCU for close observation .,rigidity,present,3,3
+"We started her on dilt for additional a fib control ( revert back to a fib on 05-29 ), which was stopped when the pt was made CMO .",a fib,present,14,15
+Normal S1 and S2 without murmurs or rubs .,murmurs,absent,5,5
+"Medications , metabolic disturbances , and infection are among the most common causes .",infection,present,6,6
+III / VI systolic click and irregularly irregular rhythm .,iii / vi systolic click,present,0,4
+This is an 81-year-old who presented with postmenopausal spotting and had an endometrial biopsy which was read at the Etearal Etsystems/ Hospital as showing grade I adenocarcinoma .,grade i adenocarcinoma,present,24,26
+"The patient was given printed instructions for sprains , fractures and bruises ( English ) .",sprains,present,7,7
+"History is difficult to obtain from patient d/t somnolence and lack of desire to participate in interview , but per Frank note he was diaphoretic and ' writing in pain ', vomiting clear substance .",diaphoretic,present,24,24
+"- AICD Pocket infection c/b MSSA bacteremia , pericardial effusion s/p mediastinal exploration , evacuation of pericardial effusion & hematoma ( 2017-07-24 )",pericardial effusion,present,8,9
+At that time BP was attributed to abdominal pain and inability to take PO meds d/t nausea / vomiting .,abdominal pain,present,7,8
+"The liver laceration was stable , no sign of rupture or further complication , did not required surgical managment .",the liver laceration,present,0,2
+At that time BP was attributed to abdominal pain and inability to take PO meds d/t nausea / vomiting .,nausea,present,16,16
+7. Chronic diarrhea with multiple admissions for dehydration with most recent one on 2011-02-26 .,chronic diarrhea,present,1,2
+"Bilateral crackles at bases and midlungs , elevated JVP , trace bilateral ankle edema , and CXR with diffuse opacities suggest possible pulmonary edema , likely secondary to acute MI .",diffuse opacities,present,18,19
+"An EEG showed mild encephalopathy , but no other findings .",mild encephalopathy,present,3,4
+IMPRESSION : Unchanged moderate bilateral pleural effusions and mild CHF .,mild chf,present,8,9
+The patient presented with a chief complaint of SOB .,sob,present,8,8
+"The patient is a 49 year-old man with hepatitis C cirrhosis complicated by encephalopathy , positive esophageal varices , now with worsening confusion and lethargy .",lethargy,present,24,24
+He also noted a 23 pound weight loss in the past 11 months despite having an increased appetite .,an increased appetite,present,15,17
+Pt now on IV Ceftriaxone ( was on levoflox since 05-24 however UA now floridly positive ( more so than UA at OSH ) so felt possibly levo-resistant .,floridly positive,present,14,15
+A fine needle aspirate of this mass reportedly revealed giant cell tumor .,this mass,present,5,6
+2+ pitting edema bilateral LE .,2+ pitting edema bilateral le,present,0,4
+"In addition , he had slight shortness of breath but denies headache , change in vision , dizziness , nausea , vomiting , abdominal pain , change in bowel or urinary habits , or fevers , chills , and sweats .",slight shortness of breath,present,5,8
+patient had difficulty with tandem gait and fell forward while standing on his his toes .,difficulty with tandem gait,present,2,5
+AQUIRED DEFORMITY OF THE RIGHT ALA / NOSE AND MEDIAL CHEEK FROM BASAL CELL CARCINOMA RESECTION,aquired deformity of the right ala / nose and medial cheek,present,0,10
+Hepatitis C .,hepatitis c,present,0,1
+"At baseline the patient denies any previous chest pain , pressure , dyspnea on exertion , orthopnea , PND or palpitations .",palpitations,absent,20,20
+3) CORD COMPRESSION .,cord compression,present,1,2
+"The patient &apos;s lesion compressing his thoracic spine was never biopsied , however , the MRI appearance does not seem to be infectious and is most consistent with plasmacytoma for which he is receiving the radiation therapy .",infectious,absent,22,22
+"Chronic Kidney disease - on hemodialysis type 2 diabetes hypercholestrolemia anemia of chornic disease h/o PE , s/p PEA arrest 11-14",chronic kidney disease,present,0,2
+6. Interstitial cystitis .,interstitial cystitis,present,1,2
+You were admitted with low blood pressure and fevers likely due to an infection .,low blood pressure,present,4,6
+This is a 76 year old white male with severe chronic obstructive pulmonary disease who has had several recent admissions to Oaksgekesser/ Memorial Hospital for respiratory insuffiencey most often secondary to pneumonia .,respiratory insuffiencey,present,25,26
+She can one walk without difficulties .,difficulties,absent,5,5
+No hepatosplenomegaly .,hepatosplenomegaly,absent,1,1
+The patient was transferred on the evening of 2012-05-22 to the ICU given persistent carbon dioxide retention and respiratory acidosis and the intermittent mental status changes .,persistent carbon dioxide retention,present,13,16
+"EKG demonstrated NSR at 87 bpm , nl axis , nl int , LVH w/ strain pattern , no ischemic changes .",lvh,present,13,13
+On 5-9-92 the right-sided symptoms worsened and she also had some elements of aphasia .,some elements of aphasia,present,10,13
+NONCONTRAST CERVICAL SPINE CT : There are minimally displaced and comminuted fractures through the left C7 and T1 transverse processes .,minimally displaced and comminuted fractures through the left c7 and t1 transverse processes,present,7,19
+No exudate .,exudate,absent,1,1
+This is a 76 year old white male with severe chronic obstructive pulmonary disease who has had several recent admissions to Oaksgekesser/ Memorial Hospital for respiratory insuffiencey most often secondary to pneumonia .,severe chronic obstructive pulmonary disease,present,9,13
+The patient is allergic to MSG from which he gets hives .,allergic,present,3,3
+"Head , eyes , ears , nose and throat , polypoid lesion just inferior to the left zygoma , elevated superiorly , with visible bone .",visible bone,present,23,24
+"The patient has a history of exertional angina and chest pain associated with light-headedness for nine years which was noted to increase in frequency over the past year , then upon admission had light-headedness and chest pain with a dull pressure in her neck to her substernal area , with only minimal exertion such as &quot; walking across the room &quot; .",chest pain,present,35,36
+"Although the patient &apos;s room air saturation was 96% during this admission , she subjectively complained of increased shortness of breath .",increased shortness of breath,present,17,20
+Repeat CXR showed improvement of the effusion and on discharge he had been breathing well on room air without complications,the effusion,present,5,6
+"Abdominal examination revealed that the abdomen was soft , non-tender , non-distended , no organomegaly , no masses , normal active bowel sounds .",organomegaly,absent,14,14
+At that point he had a change in mental status and was no longer responsive .,no longer responsive,present,12,14
+He was admitted to the trauma service . Orthopedics and Neurosurgery were consulted because of his injuries .,his injuries,present,15,16
+3. Status post left femur fracture,status post left femur fracture,present,1,5
+"WWP , multiple linear scars and burns on hands and arms",burns on hands and arms,present,6,10
+"Again seen are subtle hypodensities within the periventricular white matter which is an indication of chronic microvascular ischemic changes , stable .",subtle hypodensities within the periventricular white matter,present,3,9
+"She has had no apnea , bradycardia or desaturation .",desaturation,absent,8,8
+Chest : CTAB - w/r/r,w/r/r,absent,4,4
+"VS were with stable BPs , tachy to 110-120 , sat 98% RA .",tachy,present,6,6
+"IMPRESSION : Minimally displaced , comminuted fractures of the left C7 and T1 transverse processes .","minimally displaced , comminuted fractures of the left c7 and t1 transverse processes",present,2,14
+"History is difficult to obtain from patient d/t somnolence and lack of desire to participate in interview , but per Frank note he was diaphoretic and ' writing in pain ', vomiting clear substance .",lack of desire,present,10,12
+"He eloped prior to formal discharge when his FS was found to be critically high - recommended to patient that he stay for repeat , but left AMA without signing any forms .",critically high,present,13,14
+Prostate cancer .,prostate cancer,present,0,1
+"History of gastrointestinal intolerance to Tetracycline , Erythromycin , declomycin associated with edema and rash , Talwin associated with disorientation and gastrointestinal symptoms , Dilantin has caused rash and edema , morphine associated with itching and gastrointestinal symptoms , Demerol unclear .",edema,present,29,29
+The main left coronary artery had a 20% stenosis .,a 20% stenosis,present,6,8
+The patient is a 52 year old Czech speaking gentleman with a history of severe mitral regurgitation .,severe mitral regurgitation,present,14,16
+Please continue to take antibiotics as directed for urinary tract infection for 3 more days .,urinary tract infection,present,8,10
+His stools were noted to be Guaiac positive at the outside hospital and there was still concern for possible GI bleed given continued Guaiac positive stools during this admission and a slight drop in his hematocrit from 39 to 33 .,guaiac positive stools,present,23,25
+"Cardiac catheterization at the end of October revealed a dilated aortic root to 4.4 cm and 80% stenosis of the mid left anterior descending at the bifurcation involving the diagonal branch , 70% stenoses of the left circumflex and oblique marginal artery and 90% stenosis of the posterior descending artery .",70% stenoses of the left circumflex and oblique marginal artery,present,32,41
+"Her heart rhythm is regular with a normal S1-S2 , and no murmur .",murmur,absent,12,12
+There is akinesis / dyskinesis and thinning of the mid to distal inferior septum and the apex .,dyskinesis,present,4,4
+"He tolerated the procedure well with no complications except postoperatively , his voice was hoarse .",hoarse,present,14,14
+Traumatic / pressure bullae,traumatic / pressure bullae,present,0,3
+"4. Abnormal liver function tests - The patient had an isolated , elevated alkaline phosphatase with a confirmatory elevation in his gamma glutamyl transferase .","an isolated , elevated alkaline phosphatase",present,9,14
+"No clubbing , cyanosis or edema .",cyanosis,absent,3,3
+1. Coronary artery disease ; the patient is status post percutaneous transluminal coronary angioplasty times three in 2009 at Clinton Hospital ; the patient is status post percutaneous transluminal coronary angioplasty times two in 2005 at Waltham/Weston Hospital .,coronary artery disease,present,1,3
+"Abdomen was soft , nontender with no masses palpable .",masses palpable,absent,7,8
+"Neck : Supple , FROM , - JVD , - carotid bruits",carotid bruits,absent,10,11
+The patient was afebrile .,afebrile,absent,3,3
+3. diarrhea : The patient has been having loose stools at night and was guiac pos x 2 .,guiac pos,present,14,15
+"She denies any vomiting , states that the episodes usually last about five minutes and are relieved with rest .",vomiting,absent,3,3
+1. Exploratory laparotomy with drainage of intra-abdominal abscess and peritonitis with gross soilage with bile and gastric contents .,gross soilage with bile and gastric contents,present,11,17
+"#. SOB : Most consistent with CHF by exam , although unknown what the severity of her COPD is currently .",her copd,present,16,17
+There was no purulence or discharge noted .,discharge,absent,5,5
+"Because of this continued agitation , a head CT was performed on 07/01/00 and it revealed an intraparenchymal hemorrhage .",this continued agitation,present,2,4
+Findings consistent with small vessel ischemic changes .,small vessel ischemic changes,present,3,6
+"The patient has no cyanosis , clubbing or edema in extremities .",cyanosis,absent,4,4
+"Echo showed ef 45-50% , with mild dilatation and no significant valvular disease , and nl PAP .",significant valvular disease,absent,10,12
+2. Alpha Streptococcus septicemia .,alpha streptococcus septicemia,present,1,3
+5. History of Streptococcemia in the year 2008 ; source was unclear but presumed to be urinary .,streptococcemia,present,3,3
+"Head computerized tomography scan showed 1.5 to 2 centimeter bleed in the right thalamus extending to the internal capsule with mild distortion only , no shift .",1.5 to 2 centimeter bleed in the right thalamus,present,5,13
+The morphine is for breakthrough pain .,breakthrough pain,present,4,5
+"She was admitted on 2011-08-25 for nausea , vomiting , and a shortened cervix .",a shortened cervix,present,11,13
+"..... done on 02-24 , notable for mid-basilar artery high-grade stenosis .",mid-basilar artery high-grade stenosis,present,7,10
+"Postoperative confusion , transient and resolved spontaneously .",postoperative confusion,absent,0,1
+"Shortness of breath , fever",shortness of breath,present,0,2
+At that time a pelvic ultrasound was performed showing extensive fluid and clear mass within the pelvi-abdominal cavity .,clear mass,present,12,13
+"NO murmurs , rubs or gallops .",murmurs,absent,1,1
+CT of the abdomen and pelvis showed no evidence of bleed .,bleed,absent,10,10
+"Abd : obese , multiple surgical scars .",obese,present,2,2
+His immunosuppressive therapy was continued throughout his stay ; his creatinine remained approximately 2.3 to 2.4 ; he has a baseline renal insufficiency .,a baseline renal insufficiency,present,19,22
+"In August of 1996 while the patient was at Retelk County Medical Center for replacement of her knees bilaterally , and on preoperative evaluation she was noted to have a high calcium and therefore the surgery was canceled .",a high calcium,present,29,31
+The etiology for his congestive heart failure was determined likely to be diastolic dysfunction from increased heart rate as well as excess volume .,his congestive heart failure,present,3,6
+"RIGHT HIP , OSTEOARTHRITIS .","right hip , osteoarthritis",present,0,3
+"She was seen again by primary care physician , Roderick since she had complaints of dizziness , as well as a new complaint of decreased hearing and the sensation of static in her ears , meniere 's disease was considered .",static in her ears,present,30,33
+"4. hypertrophic obstructive cardiomyopathy ,",hypertrophic obstructive cardiomyopathy,present,1,3
+Coronary Artery Disease,coronary artery disease,present,0,2
+"3. atrial fibrillation ,",atrial fibrillation,present,1,2
+"His melanoma was originally diagnosed last fall when he presented with lesions in the liver and spleen , and a chest CT showed left upper lobe nodules .",lesions in the liver and spleen,present,11,16
+"He then became dusky and cyanotic , and stopped breathing on his own .",cyanotic,present,5,5
+# Anemia : Hct dropped following the tap and there was concern for bleed into her abdomen .,anemia,present,1,1
+She states this light-headedness is often associated with shortness of breath and diaphoresis occasionally with nausea .,diaphoresis,present,12,12
+Located within the atrium of the right lateral ventricle is an 18 x 10 mm nodular area of increased density which is separate from the choroid plexus .,an 18 x 10 mm nodular area of increased density,present,10,19
+TIA in 1998 .,tia,present,0,0
+"According to her guardian she was discharged to her NH for a few days after her pacer was placed 05-08 , which was complicated by a PTX requiring CT placement which had been d/c 'd in the hospital after resolution of her PTX .",her ptx,absent,41,42
+A fine needle aspirate of this mass reportedly revealed giant cell tumor .,giant cell tumor,present,9,11
+1. Chest pain / Fever / Chills :,fever,present,4,4
+"Given the patient &apos;s low potassium level of 2.4 on the day of admission , he suggested supplementation with potassium .",the patient &apos;s low potassium level,present,1,6
+"The patient did have postoperatively hypokalemia to a level of 2.7 and subsequently was corrected with oral and intravenous potassium on 4/22/93 , the patient underwent a duplex ultrasound examination , which showed no evidence of of deep venous thrombosis .",deep venous thrombosis,absent,37,39
+"In the St. Margaret 's Center for Women & Infants , the patient was lethargic and unable to give a history .",lethargic,present,14,14
+"Mr. Lockley is a 73 yo male with a complicated past medical history , recently discharged from St. Margaret 's Center for Women & Infants on 08-02 following a prolonged admission for STEMI , respiratory failure felt secondary to pulmonary edema requiring intubation and subsequent tracheostomy 02-22 failure to wean , sepsis and C.difficile colitis treated with Vancomycin and Flagyl with a course of Levophed .",pulmonary edema,present,39,40
+Her physical examination at the time of admission revealed a pleasant lady in no acute distress .,acute distress,absent,14,15
+4. History of orthostasis with tilt table testing done in the past .,orthostasis,present,3,3
+RESP : Decreased air entry and crackles at both lung bases .,decreased air entry,present,2,4
+That night he reportedly stopped breathing and was unresponsive .,unresponsive,present,8,8
+7. Coronary Artery Disease,coronary artery disease,present,1,3
+"The patient was given printed instructions for sprains , fractures and bruises ( English ) .",fractures,present,9,9
+A swan was placed for a more accurate picture of his volume status and he was volume overloaded by swan numbers with an elevated PAD and elevated CVP without an obtainable wedge pressure .,elevated cvp,present,26,27
+10# ? UTI :,uti,present,2,2
+HEENT examination was normocephalic and atraumatic .,atraumatic,absent,5,5
+Dr. Koteelks indicated that the patient did not have sinus problems currently but thought that the trigeminal pain might be investigated further and that the sphenoid might account for some of the patient &apos;s discomfort .,the patient &apos;s discomfort,present,31,34
+"At Erich Lindemann Mental Health Center she was discovered to have ARF , a large pericardial effusion , and bilateral pleural effusions .",arf,present,11,11
+"At the time of discharge , his Plavix was held due to Guaiac positive stools and hematocrit drop throughout admission .",guaiac positive stools,present,12,14
+"He was seen by his primary care physician the day before admission and complained of two weeks of increasing shortness of breath and fatigue , weight gain and abdominal fullness .",weight gain,present,25,26
+Please evaluate resolution of cardiac troponin leak and stable EKG .,cardiac troponin leak,present,4,6
+"He denied any fevers , chills , or night sweats .",night sweats,absent,8,9
+"Motor exam normal tone , positive asterixis , no drift .",positive asterixis,present,5,6
+"The patient had considerable difficulty with left finger-to-nose movement , most likely secondary to hemianopsia .",hemianopsia,present,14,14
+"Impression : mildly dilated right ventricle ; small , hyperdynamic left ventricle ; at least moderate pulmonary hypertension",mildly dilated right ventricle,present,2,5
+"On 2014-04-09 , patient continued to do very well , ambulating , tolerating a diet , urinating without difficulty .",difficulty,absent,18,18
+"Abdomen non-distended , positive bowel sounds , soft , non-tender , no hepatosplenomegaly or masses .",non-tender,absent,9,9
+"Anterior apex akinesis , inferior apex akinesis , and apex akinesis .",inferior apex akinesis,present,4,6
+"Mr.  Mackey also had signs and symptoms consistent with cervical myelopathy ; a cervical MRI scan showed very impressive disc herniations at C5-C6 , less so at C4-C5 , with clear cut cord compression , particularly on the right side C5-C6 .",signs and symptoms,present,5,7
+The patient had no complaints of pain .,complaints of pain,absent,4,6
+"normocephalic , atraumatic , anicteric .",anicteric,absent,4,4
+"Some interstitial edema still persists , but there is no central pulmonary vascular congestion .",some interstitial edema,present,0,2
+"The patient did not have any carotid bruits , abdominal bruits or femoral bruits .",any carotid bruits,absent,5,7
+"70 y/o male with h/o CAD s/p LAD PTCA 33 yrs ago , COPD , T2DM , and AICD pocket infection who presented to the Juan on 2017-09-03 with worsening SOB x 5 days and feeling \ cloudy .\""""",copd,present,13,13
+Hypertension,hypertension,present,0,0
+"She was taken postoperatively the ICU where she was extubated on postoperative day number one and by 5-11-92 she was noted to have markedly increased use of her right side , resolving aphasia and she was transferred to the floor with the residual deficit only noted to be some left upper extremity weakness .",the residual deficit,present,41,43
+Metastatic bladder CA now in remission s/p chemo/xrt s/p cystectomy and ileal loop urinary diversion and also radical prstatectomy with bilateral pelvic lymph node dissection .,metastatic bladder ca,present,0,2
+7. Cataracts,cataracts,present,1,1
+"In addition , he had slight shortness of breath but denies headache , change in vision , dizziness , nausea , vomiting , abdominal pain , change in bowel or urinary habits , or fevers , chills , and sweats .",chills,absent,36,36
+No evidence of acute or chronic infarction .,acute or chronic infarction,absent,3,6
+2# SOB on admission :,sob,present,1,1
+"A/P : 48yo man with h/o HCV , bipolar DO , h/o suicide attempts , a/w overdose of Inderal , Klonopin , Geodon , s/T Jackson stay with intubation for airway protection , with question of L retrocardiac infiltrate , now doing well .",bipolar do,present,8,9
+severe COPD Pneumonia recovering alcoholic recovering barbituate abuse unexplained hct drop poor appetite x 1 week,poor appetite,present,11,12
+HEENT : NCAT .,ncat,absent,2,2
+atypical chest pain,atypical chest pain,present,0,2
+FLANK PAIN URI ?,flank pain,present,0,1
+"For his coronary artery disease , aspirin was started at 325 .",his coronary artery disease,present,1,4
+2. Vocal cord polyps,vocal cord polyps,present,1,3
+She developed no problems with edema or with her wound during her hospital stay .,her wound,present,8,9
+- mild transaminitis likely 03-25 etoh and cocaine abuse,mild transaminitis,present,1,2
+"Warm and well perfused , with no cyanosis , clubbing or edema .",clubbing,absent,9,9
+He was restarted on Coumadin for his low ejection fraction and started on diuresis with IV Lasix for two days and then switched to an oral Lasix regimen .,his low ejection fraction,present,6,9
+"No murmurs , rubs or gallops .",murmurs,absent,1,1
+4. Noninsulin dependent diabetes mellitus,noninsulin dependent diabetes mellitus,present,1,4
+"Abdominal examination revealed that the abdomen was soft , non-tender , non-distended , no organomegaly , no masses , normal active bowel sounds .",non-tender,absent,9,9
+2) Cxray ( 06-14 ): New bibasilar consolidations are demonstrated accompanied by bilateral small pleural effusion .,new bibasilar consolidations,present,5,7
+There was no rebound ; no Munos sign .,rebound,absent,3,3
+"sinus brady @ 48 bpm , LAD , LVH , RBBB , Q wave in I , ST depressions in V1-V4 , ST elevation in III , aVF , TWI in III , V5 .",q wave in i,present,12,15
+LEFT ROTATOR CUFF TEAR .,left rotator cuff tear,present,0,3
+The right upper extremity was flaccid and paresthetic .,flaccid,present,5,5
+Postop course c/b right upper extremity DVT and postop Afib .,postop afib,present,8,9
+Type 2 Diabetes Mellitus,type 2 diabetes mellitus,present,0,3
+"As for the patient 's ALL and AML , the patient was started on a new chemotherapy protocol called hyper-CVAD on 2012-03-06 .",aml,present,7,7
+He was an elderly frail gentleman in moderate respiratory distress .,moderate respiratory distress,present,7,9
+Her O2 requirement has increased despite diuresis .,her o2 requirement,present,0,2
+"Urine culture came back positive for VRE , however , since patient improved without treatement ( ie Linezolid ) initially .",vre,present,6,6
+Multilobar pneumonia with interval worsening in the left lung but slight improvement in the right lower lobe .,multilobar pneumonia,present,0,1
+"1. Metastatic renal cell carcinoma , diagnosed in 2018-03-21 , status post left radical nephrectomy at St. Margaret's Center for Women & Infants in 03/2006 .",metastatic renal cell carcinoma,present,1,4
+"She denies any CP / cough / fever , abdominal pain / diarrhea , black or bloody stools or headache .",abdominal pain,absent,9,10
+"Heent : PERRL/EOMI , no JVD",jvd,absent,5,5
+55 yo M w/ h/o recurrent bladder ca s/p cystectomy w/ ileal conduit p/w BRBPR to OSH .,brbpr,present,14,14
+"On February 23 , Mr. Patient presented to Dr. Patient &apos;s office with two major symptoms .",two major symptoms,present,13,15
+"He had no chest pain , palpitations , diaphoresis , or nausea .",palpitations,absent,6,6
+"Pt feeling well , denies abd pain , N/V , LH , SOB , CP .",lh,absent,10,10
+3) ADULT RESPIRATORY DISTRESS SYNDROME .,adult respiratory distress syndrome,present,1,4
+She denies any CP / cough / fever / abd pain / diarrhea / black or bloody stools / headache .,abd pain,absent,9,10
+"Awake and alert , NAD",nad,absent,4,4
+"HEENT : NCAT , PERRL , EOMI , no icterus , OP clear , MMM , no tongue fasciculations",icterus,absent,9,9
+"IMPRESSION : Moderate symmetric eft ventricular hypertrophy with severe global biventricular hypokinesis c/w diffuse process ( toxin , metabolic , cannot exclude myocarditis ; in the absence of LVH on ECG , an infiltrative process should also be considered ).",severe global biventricular hypokinesis,present,8,11
+"He denies any recent chest pain , palpitations , headache , confusion , weakness , numbness , abd pain , or hematuria .",hematuria,absent,21,21
+Left forearm and wrist series demonstrated transverse mid shaft radial fracture with ulnar displacement .,ulnar displacement,present,12,13
+"HISTORY : Trauma , congestive heart failure , fever , pneumonia .",trauma,present,2,2
+1. One vessel coronary artery disease .,one vessel coronary artery disease,present,1,5
+"The patient became agitated with both tent and Bi-PAP machine , although continued to saturate well .",agitated,present,3,3
