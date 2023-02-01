@@ -1,0 +1,6624 @@
+041010000011#SSN
+RZRM020101906017#SSN
+BBBBBBBBQR648597#SSN
+BBBBBBBBQR648597#SSN
+BBBBBBBBQR648597#SSN
+001.001.001.001#IPADDR
+002.002.002.002#IPADDR
+003.003.003.003#IPADDR
+004.004.004.004#IPADDR
+005.005.005.005#IPADDR
+333.333.333.333#IPADDR
+444.444.444.444#IPADDR
+AA16AA#PLATE
+41BE51#PLATE
+41BE52#PLATE
+7293FQ#PLATE
+72-93-FQ#PLATE
+PT9420805801101234567891#ACCOUNT
+20805801101234567891#ACCOUNT
+PT 9420805801101234567891#ACCOUNT
+PT 94 20805801101234567891#ACCOUNT
+PT 94 2080 5801 10 1234567891#ACCOUNT
+2080 5801 10 1234567891#ACCOUNT
+2080 5801 1012 3456 7891#ACCOUNT
+henrywatson@world.com#EMAIL
+maria.prado@jacob.com#EMAIL
+eric.shannon@geegle.com#EMAIL
+angelika.leeds@jsl.com#EMAIL
+sam-rainbow@company.com#EMAIL
+richard@yahoo.pt#EMAIL
+28203#ZIP
+1000-205#ZIP
+4099#ZIP
+1000-306#ZIP
+2000-006#ZIP
+03129#ZIP
+Marcos Alves#PATIENT
+Tiago Santos#PATIENT
+Josefina Batista#PATIENT
+Silvia Couto#PATIENT
+Eva Coutinho#DOCTOR
+Carlos Melo#DOCTOR
+Vasco Soares#DOCTOR
+Isabel Magalhães#DOCTOR
+56#AGE
+46#AGE
+26#AGE
+36#AGE
+Lisboa#CITY
+Porto#CITY
+Coimbra#CITY
+Braga#CITY
+Faro#CITY
+Tavira#CITY
+Lagos#CITY
+Portugal#COUNTRY
+Brasil#COUNTRY
+Espanha#COUNTRY
+Alemanha#COUNTRY
+Avenida Dos Aliados, 56#STREET
+Rua Augusta, 19#STREET
+Avenida da Liberdade, 17#STREET
+Rua de Santa María, 100#STREET
+Centro Hospitalar Universitario do Algarve#HOSPITAL
+Hospital de Santo Espirito da ilha Terceira#HOSPITAL
+Hospital do Espirito Santo#HOSPITAL
+Centro Hospitalar de Setúbal#HOSPITAL
+Hospital Doutor José Maria Grande#HOSPITAL
+134544332#ID
+124 445 311#ID
+11.245.665#ID
+566-445#ID
+www.google.com#URL
+www.johnsnowlabs.com#URL
+http://www.johnsnowlabs.com#URL
+https://nlp.johnsnowlabs.com#URL
++351611767899#PHONE
++351611767899#PHONE
+00351677174789#PHONE
+(0351) 965265837#PHONE
+H.#SEX
+M.#SEX
+Homen#SEX
+Mulher#SEX
+PETROGAL, S.A.#ORGANIZATION
+PINGO DOCE - DISTRIBUIÇÃO ALIMENTAR, S.A.#ORGANIZATION
+MODELO CONTINENTE - HIPERMERCADOS, S.A.#ORGANIZATION
+SU ELECTRICIDADE, LDA.#ORGANIZATION
+REPSOL PORTUGUESA, LDA.#ORGANIZATION
+Adriana Cardoso#PATIENT
+Araújo#PATIENT
+Camila Assunção-Anjos#PATIENT
+Ivo#PATIENT
+Diana Pereira#PATIENT
+Kyara Martins#PATIENT
+Sérgio da Freitas#PATIENT
+Ivan Santos-Brito#PATIENT
+Mauro Vaz#PATIENT
+Kelly#PATIENT
+Esteves#PATIENT
+Miguel de Amaral#PATIENT
+Vicente#PATIENT
+Eva Pinheiro-Henriques#PATIENT
+Moreira#PATIENT
+Kyara-Júlia#PATIENT
+Lorena da Moura#PATIENT
+Barros#PATIENT
+Nogueira#PATIENT
+Alice Cardoso#PATIENT
+Andreia Freitas-Gaspar#PATIENT
+Naiara-Kyara Anjos#PATIENT
+Xavier#PATIENT
+Rúben#PATIENT
+Joel Amaral#PATIENT
+Afonso Pereira#PATIENT
+Lara#PATIENT
+Frederico#PATIENT
+Jorge#PATIENT
+Lorena-Emília#PATIENT
+Andrade#PATIENT
+Sebastião Rodrigues#PATIENT
+Gaspar#PATIENT
+Nicole#PATIENT
+Hugo#PATIENT
+Irina#PATIENT
+Sebastião#PATIENT
+Neves#PATIENT
+Igor Castro#PATIENT
+Luca Reis#PATIENT
+Rúben Nascimento-Alves#PATIENT
+Lúcia Nunes-Assunção#PATIENT
+Isabel#PATIENT
+Domingues#PATIENT
+Rita-Letícia Miranda#PATIENT
+Carolina Nogueira#PATIENT
+Ângelo Pereira#PATIENT
+Jéssica-Teresa Carneiro#PATIENT
+Mara Cardoso#PATIENT
+Esteves-Neto#PATIENT
+Sofia Moreira#PATIENT
+Carlota#PATIENT
+Íris Cruz#PATIENT
+Lisandro da Morais#PATIENT
+Valente#PATIENT
+Filipe Vieira-Macedo#PATIENT
+Araújo#PATIENT
+Gomes-Jesus#PATIENT
+Lourenço Morais#PATIENT
+Sara de Pinto#PATIENT
+Branco#PATIENT
+Núria Vieira#PATIENT
+Mara-Mia Carneiro#PATIENT
+Miguel Alves#PATIENT
+Xavier#PATIENT
+Benedita Oliveira#PATIENT
+Campos#PATIENT
+Matias#PATIENT
+Monteiro#PATIENT
+David Vaz#PATIENT
+Júlia#PATIENT
+Tomás#PATIENT
+Cláudio Matos#PATIENT
+Amorim#PATIENT
+Alícia do Macedo#PATIENT
+Vitória Macedo#PATIENT
+Bernardo Amorim-Campos#PATIENT
+Benedita da Silva#PATIENT
+Azevedo-Barros#PATIENT
+Branco#PATIENT
+Luna#PATIENT
+Fernandes-Reis#PATIENT
+Cardoso#PATIENT
+Renata-Letícia Antunes#PATIENT
+Iara Monteiro#PATIENT
+Andrade#PATIENT
+Tomé Abreu#PATIENT
+Cunha#PATIENT
+Marcos#PATIENT
+Noa Ferreira#PATIENT
+Magalhães#PATIENT
+Pedro Valente#PATIENT
+Ângelo#PATIENT
+José da Vaz#PATIENT
+Erica Fernandes#PATIENT
+Sousa#PATIENT
+Anjos#PATIENT
+Vitória#PATIENT
+Valente#PATIENT
+Martim Santos#PATIENT
+Sara Matos#PATIENT
+Pacheco#PATIENT
+Letícia#PATIENT
+Barros#PATIENT
+Maria Moura#PATIENT
+Rita Correia#PATIENT
+Miriam Santos#PATIENT
+Edgar Esteves-Garcia#PATIENT
+Vítor Macedo-Mendes#PATIENT
+Paiva#PATIENT
+Leal#PATIENT
+Vera de Guerreiro#PATIENT
+Raquel#PATIENT
+Vicente Azevedo#PATIENT
+Lucas#PATIENT
+Nascimento#PATIENT
+Bruno Correia#PATIENT
+Cardoso#PATIENT
+Tomás Silva#PATIENT
+Ema Monteiro#PATIENT
+Constança#PATIENT
+Amélia Coelho#PATIENT
+Igor#PATIENT
+Lúcia Castro#PATIENT
+Constança#PATIENT
+Carlos Santos-Garcia#PATIENT
+Sandro de Amorim#PATIENT
+Edgar de Andrade#PATIENT
+Mendes#PATIENT
+Antunes#PATIENT
+Clara Andrade-Soares#PATIENT
+Ivo Brito-Assunção#PATIENT
+Mélanie Gomes#PATIENT
+Vítor#PATIENT
+Filipa Carvalho#PATIENT
+Tatiana#PATIENT
+Fábio de Pinto#PATIENT
+Dinis#PATIENT
+Raquel Loureiro#PATIENT
+Mélanie da Tavares#PATIENT
+Afonso#PATIENT
+Luciana#PATIENT
+Branco#PATIENT
+Nascimento#PATIENT
+Alexandra-Juliana#PATIENT
+Renata Brito#PATIENT
+Domingues#PATIENT
+Salomé Melo#PATIENT
+Campos#PATIENT
+Barros#PATIENT
+Noah Santos#PATIENT
+Vieira#PATIENT
+Mia Lopes-Faria#PATIENT
+Irina-Amélia Fernandes#PATIENT
+Erica Sousa#PATIENT
+Afonso Oliveira-Batista#PATIENT
+Ferreira#PATIENT
+Amélia Santos#PATIENT
+Salomé-Sara Assunção#PATIENT
+Andreia-Íris Simões#PATIENT
+Ângelo#PATIENT
+Moreira#PATIENT
+Branco#PATIENT
+César Jesus#PATIENT
+Constança Loureiro#PATIENT
+Abreu#PATIENT
+Gustavo#PATIENT
+Júlia#PATIENT
+Jesus#PATIENT
+William#PATIENT
+Jesus#PATIENT
+Inês Vieira#PATIENT
+Pinho#PATIENT
+Pilar Maia#PATIENT
+Monteiro#PATIENT
+Isabel Barros#PATIENT
+Luca do Soares#PATIENT
+Salvador Antunes#PATIENT
+Larissa#PATIENT
+Daniel Alves#PATIENT
+Benedita Monteiro-Barros#PATIENT
+Brito#PATIENT
+Abreu#PATIENT
+Ariana-Erica#PATIENT
+Andreia de Nascimento#PATIENT
+Nelson Pinho#PATIENT
+Martins#PATIENT
+Mia da Matos#PATIENT
+Fernando Castro#PATIENT
+Luca Pires#PATIENT
+Tatiana de Simões#PATIENT
+Castro#PATIENT
+Valentim Magalhães#PATIENT
+Matos#PATIENT
+Andreia Sá#PATIENT
+Isabel Andrade#PATIENT
+Júlia Pires#PATIENT
+Nascimento#PATIENT
+Sebastião Paiva#PATIENT
+Mélanie da Melo#PATIENT
+Camila Lourenço-Figueiredo#PATIENT
+Fábio Tavares#PATIENT
+Helena Carvalho#PATIENT
+Érica#PATIENT
+Ferreira#PATIENT
+Guerreiro#PATIENT
+Ema Marques#PATIENT
+Pilar Nunes#PATIENT
+Leonor Teixeira#PATIENT
+Victória#PATIENT
+Mélanie Cruz#PATIENT
+Irina#PATIENT
+Camila#PATIENT
+Marcos Moreira#PATIENT
+Amorim#PATIENT
+Pinheiro#PATIENT
+Noah#PATIENT
+Andreia Lima#PATIENT
+Alves#PATIENT
+Assunção#PATIENT
+David Matos#PATIENT
+Samuel Guerreiro#PATIENT
+Abreu-Jesus#PATIENT
+Castro#PATIENT
+Bianca Barbosa#PATIENT
+Neto#PATIENT
+Gabriel da Pinheiro#PATIENT
+Baptista#PATIENT
+Magalhães#PATIENT
+Isabela da Baptista#PATIENT
+Bianca Domingues#PATIENT
+Alexandre Branco#PATIENT
+Paulo#PATIENT
+Bruna Morais-Santos#PATIENT
+Vítor Pinho#PATIENT
+Benedita Pinheiro#PATIENT
+Branco-Assunção#PATIENT
+Lucas Torres-Vieira#PATIENT
+Erika#PATIENT
+Maria-Irina#PATIENT
+Renato Freitas#PATIENT
+Sá#PATIENT
+Clara#PATIENT
+Rita#PATIENT
+Simões#PATIENT
+Pedro da Tavares#PATIENT
+Íris#PATIENT
+Carminho Ramos#PATIENT
+Azevedo#PATIENT
+Rafael Fernandes-Amaral#PATIENT
+Guerreiro#PATIENT
+Eduardo#PATIENT
+Cristiano de Araújo#PATIENT
+Gaspar#PATIENT
+Rafaela da Vaz#PATIENT
+Irina da Lopes#PATIENT
+Luciana#PATIENT
+Martim Soares#PATIENT
+Ana Mendes#PATIENT
+Melo-Torres#PATIENT
+Vítor#PATIENT
+Núria Garcia-Mendes#PATIENT
+Frederico Moreira#PATIENT
+Carlota do Gaspar#PATIENT
+Soraia Paiva#PATIENT
+Artur Lopes#PATIENT
+Madalena#PATIENT
+Gaspar#PATIENT
+Xavier#PATIENT
+Henrique#PATIENT
+Batista#PATIENT
+Gaspar Araújo#PATIENT
+Rafael do Cardoso#PATIENT
+Rodrigo#PATIENT
+Maia#PATIENT
+Patrícia-Kelly Batista#PATIENT
+Luciana Pereira#PATIENT
+Emília#PATIENT
+Maria-Nair Moura#PATIENT
+Moreira#PATIENT
+Francisco Vaz#PATIENT
+Enzo Correia#PATIENT
+Sandro Barbosa#PATIENT
+Lúcia Sá#PATIENT
+Lopes#PATIENT
+Leonor-Leonor#PATIENT
+Ricardo de Leal#PATIENT
+Gabriela Domingues-Miranda#PATIENT
+Valentim#PATIENT
+Mendes#PATIENT
+Jorge#PATIENT
+Carvalho#PATIENT
+Alexandra#PATIENT
+Nunes#PATIENT
+Matilde#PATIENT
+Lorena Rocha#PATIENT
+Faria-Ferreira#PATIENT
+Jéssica#PATIENT
+Mateus Maia#PATIENT
+Luana Miranda#PATIENT
+Edgar Ribeiro#PATIENT
+Esteves#PATIENT
+Ângelo Antunes#PATIENT
+Juliana-Núria Lourenço#PATIENT
+Mara#PATIENT
+Filipa Vicente#PATIENT
+Ismael Ribeiro#PATIENT
+Tiago#PATIENT
+Carminho#PATIENT
+Isaac Jesus#PATIENT
+Cristiano Anjos#PATIENT
+Bryan Vaz#PATIENT
+Noah Leal#PATIENT
+Renata Magalhães-Amaral#PATIENT
+Brian do Simões#PATIENT
+Hugo Anjos#PATIENT
+Camila Lopes#PATIENT
+Joel Melo#PATIENT
+Carlota Ramos#PATIENT
+Miriam Barbosa#PATIENT
+Soraia#PATIENT
+Denis Esteves-Castro#PATIENT
+Alícia do Faria#PATIENT
+Lourenço#PATIENT
+Naiara Oliveira#PATIENT
+Ângela#PATIENT
+Jorge#PATIENT
+Costa#PATIENT
+Francisco Cunha#PATIENT
+Débora-Teresa Vieira#PATIENT
+Lourenço Barbosa#PATIENT
+Alice-Raquel Sousa#PATIENT
+Alícia-Isabel Torres#PATIENT
+Vicente#PATIENT
+Pires-Ferreira#PATIENT
+Mendes#PATIENT
+Almeida#PATIENT
+Melissa#PATIENT
+Emília Morais#PATIENT
+Azevedo#PATIENT
+Alice Moura#PATIENT
+Yasmin Mota#PATIENT
+Neto#PATIENT
+Martim#PATIENT
+Sá#PATIENT
+Ferreira-Macedo#PATIENT
+Gil Matias#PATIENT
+Sérgio Matias#PATIENT
+Bryan#PATIENT
+Erika Brito#PATIENT
+Miranda#PATIENT
+Yasmin de Castro#PATIENT
+Araújo#PATIENT
+Mendes#PATIENT
+Nunes#PATIENT
+Alícia Tavares#PATIENT
+Yara de Freitas#PATIENT
+Torres#PATIENT
+Gomes#PATIENT
+Ricardo Costa#PATIENT
+Artur#PATIENT
+Lia Morais-Correia#PATIENT
+Pilar do Figueiredo#PATIENT
+Brito#PATIENT
+Artur Sousa#PATIENT
+Borges#PATIENT
+Nair#PATIENT
+Renato Nascimento-Andrade#PATIENT
+Cláudio Gomes#PATIENT
+Filipa Cardoso#PATIENT
+Márcio#PATIENT
+Gonçalves#PATIENT
+Eduarda Torres#PATIENT
+Clara Campos#PATIENT
+Samuel Mendes#PATIENT
+Rocha#PATIENT
+Carminho Machado#PATIENT
+Manuel#PATIENT
+Caetana-Mélanie Pacheco#PATIENT
+Denis Sá-Monteiro#PATIENT
+Fábio Domingues#PATIENT
+Lopes#PATIENT
+Luísa Andrade#PATIENT
+Gustavo Oliveira-Araújo#PATIENT
+Catarina Lima#PATIENT
+Leonor Borges#PATIENT
+Daniela Leite-Abreu#PATIENT
+Lorena de Moreira#PATIENT
+Valente-Valente#PATIENT
+Guilherme da Vieira#PATIENT
+Xavier#PATIENT
+Luísa Barbosa#PATIENT
+Maria Leite#PATIENT
+Catarina-Francisca Cruz#PATIENT
+Matias#PATIENT
+Salomé Pinto#PATIENT
+Vicente#PATIENT
+Lopes#PATIENT
+Ângelo de Machado#PATIENT
+Martim#PATIENT
+Jaime#PATIENT
+Pacheco#PATIENT
+Isaac#PATIENT
+Mateus Pereira#PATIENT
+Campos#PATIENT
+Vaz#PATIENT
+Mariana Leite#PATIENT
+Eduarda#PATIENT
+Santiago#PATIENT
+Francisca#PATIENT
+Samuel Castro#PATIENT
+Alícia da Morais#PATIENT
+Helena Miranda#PATIENT
+Marta-Erica#PATIENT
+Naiara da Sousa#PATIENT
+Camila-Luna Sousa#PATIENT
+Duarte do Oliveira#PATIENT
+António do Coelho#PATIENT
+Caetana Garcia#PATIENT
+Naiara Freitas#PATIENT
+Kévim Campos#PATIENT
+Diana Loureiro#PATIENT
+Amaral#PATIENT
+Edgar de Carneiro#PATIENT
+Amélia#PATIENT
+Igor Cunha#PATIENT
+Lorena Baptista#PATIENT
+Mia#PATIENT
+Igor Pereira#PATIENT
+Duarte#PATIENT
+Marco Marques#PATIENT
+Isabela#PATIENT
+Luca de Moreira#PATIENT
+Jorge#PATIENT
+Paulo Andrade#PATIENT
+Ivo Esteves#PATIENT
+Artur Gaspar#PATIENT
+Iara Oliveira-Miranda#PATIENT
+Alice da Vieira#PATIENT
+José Marques#PATIENT
+Miguel Ramos#PATIENT
+Tomé do Gaspar#PATIENT
+Mateus#PATIENT
+Carlota#PATIENT
+Salomé#PATIENT
+Petra#PATIENT
+Nair Valente#PATIENT
+Isaac#PATIENT
+Helena Oliveira#PATIENT
+Lima#PATIENT
+Íris Nascimento#PATIENT
+Joana#PATIENT
+Leonor Alves#PATIENT
+Beatriz-Mariana Machado#PATIENT
+Rafael Rocha#PATIENT
+Teresa Carvalho#PATIENT
+Machado#PATIENT
+Edgar Antunes#PATIENT
+Jéssica Cardoso#PATIENT
+Joaquim Matias-Vicente#PATIENT
+Eva Moura#PATIENT
+Luana Leite#PATIENT
+Leite#PATIENT
+Erica#PATIENT
+Mário Baptista#PATIENT
+Sandro#PATIENT
+Araújo#PATIENT
+Araújo#PATIENT
+Renato#PATIENT
+Leonardo#PATIENT
+Caetana-Luciana Rocha#PATIENT
+Ismael Cruz#PATIENT
+Macedo#PATIENT
+Sandro Almeida#PATIENT
+Erica Carvalho#PATIENT
+Pinto#PATIENT
+Catarina Moura#PATIENT
+Violeta da Sousa#PATIENT
+Pinho-Magalhães#PATIENT
+Lima#PATIENT
+Alice Brito#PATIENT
+Salomé Neto#PATIENT
+Patrícia-Mia Fernandes#PATIENT
+Gonçalves#PATIENT
+Vera Vieira#PATIENT
+Miguel Baptista#PATIENT
+Pacheco#PATIENT
+Sebastião#PATIENT
+Laura#PATIENT
+Benjamim Gaspar#PATIENT
+Teixeira#PATIENT
+Carlota-Iara Sá#PATIENT
+Sebastião Pires#PATIENT
+Noah#PATIENT
+Marta Leite#PATIENT
+Lima#PATIENT
+Filipa#PATIENT
+Eduarda da Henriques#PATIENT
+Duarte#PATIENT
+Denis#PATIENT
+Mauro#PATIENT
+Pedro#PATIENT
+Maia#PATIENT
+Margarida Miranda#PATIENT
+Anjos#PATIENT
+Emanuel Garcia#PATIENT
+Kelly Neves#PATIENT
+Borges#PATIENT
+Hugo Machado#PATIENT
+Mateus#PATIENT
+Gabriela Vaz#PATIENT
+Manuel#PATIENT
+Cunha#PATIENT
+Marco Pereira#PATIENT
+Andrade#PATIENT
+Morais#PATIENT
+Sousa#PATIENT
+Alice#PATIENT
+Cláudio Ribeiro-Mendes#PATIENT
+Nelson#PATIENT
+Letícia Almeida#PATIENT
+Baptista#PATIENT
+Torres#PATIENT
+Bianca Alves#PATIENT
+Madalena do Machado#PATIENT
+Moreira#PATIENT
+Eva#PATIENT
+Magalhães#PATIENT
+Ismael Paiva#PATIENT
+Alves#PATIENT
+Lúcia da Lima#PATIENT
+Azevedo-Fernandes#PATIENT
+Torres#PATIENT
+Luísa#PATIENT
+Amorim#PATIENT
+Alice Batista#PATIENT
+Bruna#PATIENT
+Pilar Lourenço#PATIENT
+Abreu#PATIENT
+Clara#PATIENT
+Bryan#PATIENT
+Gonçalves-Costa#PATIENT
+Teixeira#PATIENT
+Laura#PATIENT
+Eva Vieira#PATIENT
+Afonso#PATIENT
+Jaime#PATIENT
+Wilson Batista#PATIENT
+Eva da Batista#PATIENT
+Gabriel Fernandes-Neto#PATIENT
+Simão Fonseca-Lourenço#PATIENT
+Mélanie#PATIENT
+Kevin#PATIENT
+Naiara#PATIENT
+Íris#PATIENT
+Marcos#PATIENT
+Ângela Martins#PATIENT
+Tatiana#PATIENT
+Ângela Paiva#PATIENT
+Larissa#PATIENT
+Vicente do Pinheiro#PATIENT
+Paulo Abreu#PATIENT
+Pedro Abreu-Matias#PATIENT
+Brito#PATIENT
+Gaspar Nogueira-Nascimento#PATIENT
+Luna#PATIENT
+Noah#PATIENT
+Tiago da Castro#PATIENT
+Kevin de Garcia#PATIENT
+Wilson de Leal#PATIENT
+Jorge Azevedo#PATIENT
+Marcos Batista#PATIENT
+Torres#PATIENT
+Caetana-Victória Branco#PATIENT
+Isaac#PATIENT
+Íris Leite#PATIENT
+Manuel de Gonçalves#PATIENT
+Álvaro Gaspar-Coelho#PATIENT
+Mélanie Fonseca#PATIENT
+Mia-Alícia Costa#PATIENT
+Daniela Figueiredo#PATIENT
+Vicente#PATIENT
+Lúcia#PATIENT
+Benedita Tavares#PATIENT
+Figueiredo#PATIENT
+Júlia do Domingues#PATIENT
+Ribeiro#PATIENT
+Diogo Loureiro#PATIENT
+Benedita#PATIENT
+Alexandre Monteiro#PATIENT
+Mara Tavares#PATIENT
+Moura#PATIENT
+Vicente#PATIENT
+Teresa Baptista#PATIENT
+Leonardo Cardoso#PATIENT
+Xavier Alves#PATIENT
+Lisandro Soares#PATIENT
+Erica da Freitas#PATIENT
+Guilherme#PATIENT
+Rúben Gonçalves#PATIENT
+Fábio Vicente-Moreira#DOCTOR
+Sousa#DOCTOR
+Francisco#DOCTOR
+Magalhães-Coelho#DOCTOR
+Vicente#DOCTOR
+Pilar-Larissa#DOCTOR
+Reis#DOCTOR
+Gustavo Tavares#DOCTOR
+Bianca#DOCTOR
+Nuno#DOCTOR
+Artur Mendes#DOCTOR
+Duarte#DOCTOR
+Gonçalo de Alves#DOCTOR
+Lorena do Vaz#DOCTOR
+Sandro Campos-Neto#DOCTOR
+Simões#DOCTOR
+Pedro Magalhães#DOCTOR
+Vera Neves#DOCTOR
+Hugo#DOCTOR
+Teresa-Lúcia Nunes#DOCTOR
+Luís#DOCTOR
+Garcia#DOCTOR
+Márcio Lopes-Branco#DOCTOR
+Vítor#DOCTOR
+Anita do Gaspar#DOCTOR
+Miranda-Cardoso#DOCTOR
+Soares#DOCTOR
+Erica Correia#DOCTOR
+Lourenço#DOCTOR
+Guerreiro-Pires#DOCTOR
+Ana do Batista#DOCTOR
+Carlos Soares#DOCTOR
+Soraia Alves#DOCTOR
+Kyara-Larissa Vieira#DOCTOR
+Yara#DOCTOR
+Baptista#DOCTOR
+Melo#DOCTOR
+Lara Lima#DOCTOR
+Luísa Matias#DOCTOR
+Lima-Vieira#DOCTOR
+Cunha#DOCTOR
+Mélanie-Larissa Carneiro#DOCTOR
+Diana Teixeira-Pinheiro#DOCTOR
+Pacheco#DOCTOR
+Constança Rocha#DOCTOR
+Eduardo Brito#DOCTOR
+Matilde#DOCTOR
+Lisandro#DOCTOR
+João do Mendes#DOCTOR
+Faria#DOCTOR
+André Nogueira#DOCTOR
+Simões#DOCTOR
+Wilson da Carneiro#DOCTOR
+Lisandro Antunes#DOCTOR
+Benjamim do Lopes#DOCTOR
+Santiago#DOCTOR
+Ângela#DOCTOR
+Kevin Lopes#DOCTOR
+Martins#DOCTOR
+Raquel Sousa#DOCTOR
+Larissa Costa#DOCTOR
+Matias Barros#DOCTOR
+Vicente#DOCTOR
+Nogueira#DOCTOR
+Bernardo do Pinto#DOCTOR
+Victória Almeida#DOCTOR
+Gabriela da Andrade#DOCTOR
+Vaz#DOCTOR
+Pinheiro#DOCTOR
+Valentina Vaz#DOCTOR
+Marco da Carvalho#DOCTOR
+Fernandes#DOCTOR
+Victória Vieira#DOCTOR
+Lorena Lima#DOCTOR
+Lopes#DOCTOR
+Igor Gaspar#DOCTOR
+Valentim Marques#DOCTOR
+Alícia Torres#DOCTOR
+Amélia Oliveira-Cruz#DOCTOR
+Sousa#DOCTOR
+Enzo Anjos#DOCTOR
+Lucas Campos#DOCTOR
+Vaz#DOCTOR
+Cardoso#DOCTOR
+Cristiano Ribeiro#DOCTOR
+Paiva#DOCTOR
+Renato Barros-Mota#DOCTOR
+Azevedo#DOCTOR
+Costa#DOCTOR
+Iara#DOCTOR
+Alícia Leal-Loureiro#DOCTOR
+Sousa#DOCTOR
+Rui Matias#DOCTOR
+Eduardo#DOCTOR
+Guilherme#DOCTOR
+Tatiana Pacheco#DOCTOR
+Cristiano#DOCTOR
+Soraia Assunção#DOCTOR
+Vera#DOCTOR
+Emma Jesus#DOCTOR
+Mauro#DOCTOR
+Frederico#DOCTOR
+Margarida Carvalho-Amaral#DOCTOR
+Guilherme Brito#DOCTOR
+Borges-Gomes#DOCTOR
+Martim da Freitas#DOCTOR
+Juliana Fonseca#DOCTOR
+Luís#DOCTOR
+Denis#DOCTOR
+Filipe Soares-Pinto#DOCTOR
+Jaime#DOCTOR
+Yasmin-Margarida Vieira#DOCTOR
+Ângelo Castro#DOCTOR
+Gustavo#DOCTOR
+Patrícia#DOCTOR
+Violeta Brito#DOCTOR
+Gustavo Neto#DOCTOR
+Wilson Magalhães#DOCTOR
+Joana Melo-Andrade#DOCTOR
+Nair Ribeiro#DOCTOR
+Valentim#DOCTOR
+André#DOCTOR
+Melissa Lourenço#DOCTOR
+Eduarda Vaz#DOCTOR
+Sérgio Leite#DOCTOR
+Constança Lima#DOCTOR
+Constança Morais#DOCTOR
+Fábio Ramos#DOCTOR
+Mara de Anjos#DOCTOR
+Barbosa#DOCTOR
+Martins#DOCTOR
+Joana Pinheiro#DOCTOR
+Tavares-Santos#DOCTOR
+Maria Pacheco#DOCTOR
+Reis#DOCTOR
+Campos#DOCTOR
+Iara Abreu#DOCTOR
+Helena de Assunção#DOCTOR
+Domingues#DOCTOR
+Loureiro#DOCTOR
+Beatriz#DOCTOR
+Rocha#DOCTOR
+Benedita Neto#DOCTOR
+Filipe Torres#DOCTOR
+Costa#DOCTOR
+Vítor Pinto#DOCTOR
+Rodrigo do Antunes#DOCTOR
+Matos#DOCTOR
+Costa#DOCTOR
+Edgar Cardoso#DOCTOR
+Igor Matias#DOCTOR
+Figueiredo-Pinho#DOCTOR
+Magalhães#DOCTOR
+Yara Baptista#DOCTOR
+Mauro Pinto#DOCTOR
+Vítor Araújo-Lourenço#DOCTOR
+Gomes#DOCTOR
+Marques#DOCTOR
+Santos#DOCTOR
+Ramos-Santos#DOCTOR
+Juliana#DOCTOR
+Juliana#DOCTOR
+Simão de Carneiro#DOCTOR
+Ricardo de Pereira#DOCTOR
+Carvalho#DOCTOR
+Lourenço-Gonçalves#DOCTOR
+Eduardo#DOCTOR
+Garcia#DOCTOR
+Amaral#DOCTOR
+Larissa de Costa#DOCTOR
+Kyara Leal#DOCTOR
+Gomes#DOCTOR
+Erika#DOCTOR
+Miranda#DOCTOR
+Eva Pires#DOCTOR
+Ramos#DOCTOR
+Ivo Abreu#DOCTOR
+Branco#DOCTOR
+Baptista-Gaspar#DOCTOR
+Constança Anjos#DOCTOR
+Diogo Amorim#DOCTOR
+Gonçalves#DOCTOR
+Neves#DOCTOR
+Carlota Teixeira-Esteves#DOCTOR
+Clara Tavares#DOCTOR
+Magalhães#DOCTOR
+Emanuel Reis#DOCTOR
+Nascimento#DOCTOR
+Eva#DOCTOR
+Patrícia-Kelly#DOCTOR
+Branco#DOCTOR
+Leonor Mendes#DOCTOR
+Igor Reis#DOCTOR
+Maria Antunes#DOCTOR
+Adriana Henriques#DOCTOR
+Mélanie Matos#DOCTOR
+Júlia Nunes#DOCTOR
+Figueiredo#DOCTOR
+Yara Vaz#DOCTOR
+Vaz#DOCTOR
+Micael Maia-Nunes#DOCTOR
+Moreira#DOCTOR
+Sebastião Figueiredo-Miranda#DOCTOR
+Teresa-Irina#DOCTOR
+Ariana Pinto-Moura#DOCTOR
+Marco Nogueira#DOCTOR
+Bárbara-Ana#DOCTOR
+Valentim#DOCTOR
+Emma#DOCTOR
+Ribeiro#DOCTOR
+Miranda#DOCTOR
+Simões#DOCTOR
+Frederico Ribeiro#DOCTOR
+Nelson#DOCTOR
+Benjamim Fonseca#DOCTOR
+Rodrigues#DOCTOR
+Filipa Pinheiro-Lopes#DOCTOR
+Alexandre Fernandes#DOCTOR
+Ivan#DOCTOR
+Igor#DOCTOR
+Sandro de Alves#DOCTOR
+Francisca-Madalena Branco#DOCTOR
+Pilar Rocha#DOCTOR
+Álvaro da Castro#DOCTOR
+Lima#DOCTOR
+Fernando Carvalho#DOCTOR
+Bruna Carneiro#DOCTOR
+David Leite#DOCTOR
+Dinis Barbosa#DOCTOR
+Mendes#DOCTOR
+Leal#DOCTOR
+Coelho-Nogueira#DOCTOR
+Pilar#DOCTOR
+Núria Correia#DOCTOR
+Alexandra Henriques#DOCTOR
+Violeta#DOCTOR
+Fonseca#DOCTOR
+Figueiredo-Loureiro#DOCTOR
+Francisca Magalhães#DOCTOR
+Constança#DOCTOR
+Santos#DOCTOR
+Pinto#DOCTOR
+Laura#DOCTOR
+Nogueira#DOCTOR
+Madalena Guerreiro#DOCTOR
+Alícia Moura#DOCTOR
+Lia Ramos#DOCTOR
+Filipe Freitas-Domingues#DOCTOR
+Laura#DOCTOR
+Adriana Anjos#DOCTOR
+Amélia#DOCTOR
+Flor#DOCTOR
+Cláudio de Marques#DOCTOR
+Érica Lourenço#DOCTOR
+Abreu-Nascimento#DOCTOR
+Samuel#DOCTOR
+Sofia Baptista#DOCTOR
+Leandro#DOCTOR
+Miranda#DOCTOR
+Fabiana Neves#DOCTOR
+Joana do Coelho#DOCTOR
+Ema Reis-Magalhães#DOCTOR
+Brian Paiva#DOCTOR
+Lorena#DOCTOR
+Wilson#DOCTOR
+Mara-Carolina#DOCTOR
+Emanuel#DOCTOR
+Alves#DOCTOR
+Frederico Correia-Pires#DOCTOR
+Renato Neves#DOCTOR
+Santos#DOCTOR
+José do Sá#DOCTOR
+Ivan Correia#DOCTOR
+Lia#DOCTOR
+Mariana de Mota#DOCTOR
+Alice Coelho#DOCTOR
+Gomes#DOCTOR
+Mélanie-Flor Araújo#DOCTOR
+Miguel#DOCTOR
+Yara Fernandes#DOCTOR
+Cardoso#DOCTOR
+Beatriz Nascimento-Leite#DOCTOR
+Nascimento#DOCTOR
+Abreu#DOCTOR
+Diogo#DOCTOR
+Laura#DOCTOR
+Antunes#DOCTOR
+Letícia Anjos-Soares#DOCTOR
+Moreira#DOCTOR
+Nair Moura#DOCTOR
+Larissa Sousa#DOCTOR
+Alice Figueiredo#DOCTOR
+José Sá#DOCTOR
+Oliveira#DOCTOR
+Vera do Guerreiro#DOCTOR
+Faria#DOCTOR
+Anita-Benedita Tavares#DOCTOR
+Carlota do Baptista#DOCTOR
+Teixeira#DOCTOR
+Diana Ramos#DOCTOR
+Sérgio#DOCTOR
+Vicente Tavares#DOCTOR
+Maria Oliveira-Carneiro#DOCTOR
+Sérgio Martins#DOCTOR
+Filipe#DOCTOR
+Lúcia Lopes#DOCTOR
+Lourenço#DOCTOR
+Diana#DOCTOR
+Francisco da Mendes#DOCTOR
+Matias Teixeira#DOCTOR
+Guilherme Lourenço#DOCTOR
+Luca Borges#DOCTOR
+Márcio#DOCTOR
+Isaac Macedo#DOCTOR
+Pinto#DOCTOR
+Miranda#DOCTOR
+Margarida Vieira#DOCTOR
+Fábio Paiva#DOCTOR
+Carneiro#DOCTOR
+Maria Anjos#DOCTOR
+Valente#DOCTOR
+Lara#DOCTOR
+Bernardo Carneiro#DOCTOR
+Brian Martins#DOCTOR
+Adriana-Mara#DOCTOR
+Catarina da Sousa#DOCTOR
+Monteiro-Cunha#DOCTOR
+Vieira#DOCTOR
+Isabela Correia#DOCTOR
+Íris Carneiro#DOCTOR
+Nair Magalhães#DOCTOR
+Camila#DOCTOR
+Ferreira#DOCTOR
+Diego#DOCTOR
+Dinis Nunes#DOCTOR
+Vitória de Machado#DOCTOR
+Santos#DOCTOR
+Anita Pinto#DOCTOR
+Mara Oliveira#DOCTOR
+Diego Teixeira#DOCTOR
+António Brito-Azevedo#DOCTOR
+Benjamim Assunção#DOCTOR
+Cunha#DOCTOR
+Barbosa#DOCTOR
+Larissa da Ramos#DOCTOR
+Eduarda Mota#DOCTOR
+Alexandre#DOCTOR
+Fernando Marques#DOCTOR
+João Loureiro#DOCTOR
+Naiara#DOCTOR
+Miriam Batista#DOCTOR
+Matilde Pereira#DOCTOR
+Moreira#DOCTOR
+Francisco#DOCTOR
+Baptista#DOCTOR
+Diego Carneiro-Mendes#DOCTOR
+Leandro de Rodrigues#DOCTOR
+José Vicente-Pires#DOCTOR
+Lúcia Silva#DOCTOR
+Guilherme Miranda#DOCTOR
+Leite#DOCTOR
+Cardoso#DOCTOR
+Eduarda Garcia#DOCTOR
+Lia Fernandes#DOCTOR
+Machado#DOCTOR
+Joana#DOCTOR
+Filipa Oliveira#DOCTOR
+Madalena Carneiro#DOCTOR
+Abreu#DOCTOR
+António Morais#DOCTOR
+Rocha#DOCTOR
+Ana Rocha#DOCTOR
+Júlia#DOCTOR
+Batista#DOCTOR
+Inês Batista#DOCTOR
+Catarina Miranda#DOCTOR
+Artur do Barbosa#DOCTOR
+David#DOCTOR
+Daniel#DOCTOR
+Irina#DOCTOR
+Sara#DOCTOR
+Ramos#DOCTOR
+Fernando#DOCTOR
+Soraia Maia#DOCTOR
+Enzo Sá#DOCTOR
+Valente#DOCTOR
+Gomes#DOCTOR
+Salomé do Morais#DOCTOR
+Reis#DOCTOR
+César#DOCTOR
+Alexandre da Macedo#DOCTOR
+Alice Fernandes#DOCTOR
+Lúcia Santos#DOCTOR
+Jaime Silva#DOCTOR
+Carlos#DOCTOR
+Francisco Nascimento-Melo#DOCTOR
+Soares#DOCTOR
+Ana-Inês#DOCTOR
+Iara#DOCTOR
+Vitória Lourenço-Cunha#DOCTOR
+Miranda#DOCTOR
+Ricardo Barbosa#DOCTOR
+Martim Azevedo-Lourenço#DOCTOR
+Ricardo#DOCTOR
+Noah de Correia#DOCTOR
+Álvaro#DOCTOR
+Guerreiro-Nascimento#DOCTOR
+Guilherme#DOCTOR
+Lucas Borges#DOCTOR
+Íris da Abreu#DOCTOR
+Ana#DOCTOR
+Juliana Cruz#DOCTOR
+Henriques#DOCTOR
+Erika-Helena#DOCTOR
+Pedro Oliveira-Mota#DOCTOR
+Mateus Esteves#DOCTOR
+Correia#DOCTOR
+Lorena Nascimento#DOCTOR
+Irina#DOCTOR
+Victória-Anita#DOCTOR
+Victória Reis#DOCTOR
+Daniela#DOCTOR
+Flor#DOCTOR
+Leandro Almeida-Ribeiro#DOCTOR
+William Pacheco-Ferreira#DOCTOR
+Márcio#DOCTOR
+Marta Carneiro#DOCTOR
+Márcio Figueiredo#DOCTOR
+Leonardo#DOCTOR
+Brito#DOCTOR
+Ramos#DOCTOR
+Miriam Gaspar#DOCTOR
+Machado-Moura#DOCTOR
+Sebastião Nogueira#DOCTOR
+Leite#DOCTOR
+Gabriel Macedo#DOCTOR
+Ribeiro-Campos#DOCTOR
+Dinis Freitas#DOCTOR
+Domingues#DOCTOR
+Luca#DOCTOR
+Caetana Assunção#DOCTOR
+Pinto#DOCTOR
+Juliana Maia#DOCTOR
+Joaquim Gomes#DOCTOR
+Nair#DOCTOR
+Melissa#DOCTOR
+Carlos do Maia#DOCTOR
+Cláudio Ramos#DOCTOR
+Domingues#DOCTOR
+Adriana#DOCTOR
+Ariana-Sara Miranda#DOCTOR
+Santiago Leal#DOCTOR
+Xavier de Machado#DOCTOR
+Alves#DOCTOR
+Figueiredo#DOCTOR
+Tomé Ramos#DOCTOR
+Castro#DOCTOR
+Loureiro#DOCTOR
+Mafalda Pires#DOCTOR
+Ema Pinto-Batista#DOCTOR
+Mário Melo#DOCTOR
+Faria#DOCTOR
+Guilherme#DOCTOR
+Noah#DOCTOR
+Erika Amorim-Cruz#DOCTOR
+Nádia Machado#DOCTOR
+Carminho Vaz-Oliveira#DOCTOR
+Ema Matias#DOCTOR
+Pereira-Fonseca#DOCTOR
+Leonor#DOCTOR
+Santos#DOCTOR
+Mário Silva#DOCTOR
+Adriana Brito-Monteiro#DOCTOR
+Ivo Machado-Jesus#DOCTOR
+Larissa do Soares#DOCTOR
+Abreu#DOCTOR
+Bruno Nogueira#DOCTOR
+Joel Figueiredo#DOCTOR
+Francisco da Batista#DOCTOR
+Assunção#DOCTOR
+Eva Coelho#DOCTOR
+Beatriz#DOCTOR
+Fábio Melo#DOCTOR
+Isaac da Cunha#DOCTOR
+Nuno Marques#DOCTOR
+Violeta Pinho#DOCTOR
+Sebastião#DOCTOR
+Margarida-Sara#DOCTOR
+Soraia Neves-Antunes#DOCTOR
+Rodrigo Antunes#DOCTOR
+Salomé Neves#DOCTOR
+Camila Soares#DOCTOR
+Isaac Lourenço#DOCTOR
+Nelson Fernandes-Gaspar#DOCTOR
+Soares#DOCTOR
+Juliana Machado#DOCTOR
+Érica#DOCTOR
+Catarina#DOCTOR
+Martim#DOCTOR
+Carneiro#DOCTOR
+Daniel Melo#DOCTOR
+Enzo Castro#DOCTOR
+Morais#DOCTOR
+Beatriz Faria#DOCTOR
+Francisco#DOCTOR
+Marcos Antunes#DOCTOR
+Duarte Leite#DOCTOR
+Lara Loureiro#DOCTOR
+Juliana Costa#DOCTOR
+Hugo Gaspar#DOCTOR
+Guerreiro#DOCTOR
+Lúcia Coelho-Fernandes#DOCTOR
+Flor Macedo#DOCTOR
+Hugo Paiva#DOCTOR
+Lucas#DOCTOR
+Sérgio da Barbosa#DOCTOR
+Hugo Castro#DOCTOR
+Nelson Ferreira#DOCTOR
+Salomé Pacheco#DOCTOR
+Monteiro#DOCTOR
+Gaspar#DOCTOR
+Jaime Gonçalves#DOCTOR
+Tomé Torres#DOCTOR
+Isabel-Bárbara Faria#DOCTOR
+Mariana#DOCTOR
+Samuel do Baptista#DOCTOR
+Juliana Gaspar#DOCTOR
+Iara#DOCTOR
+Érica Ribeiro#DOCTOR
+Wilson Cunha-Castro#DOCTOR
+Erika Macedo#DOCTOR
+Sofia do Castro#DOCTOR
+Edgar Silva-Reis#DOCTOR
+Constança Silva#DOCTOR
+Luís Matias#DOCTOR
+André#DOCTOR
+Monteiro#DOCTOR
+Emma do Lopes#DOCTOR
+Camila#DOCTOR
+Daniela Leite#DOCTOR
+Isabel#DOCTOR
+Naiara#DOCTOR
+Ismael Santos#DOCTOR
+Raquel Cunha-Morais#DOCTOR
+Sá#DOCTOR
+Anita-Isabel#DOCTOR
+Tatiana Faria#DOCTOR
+Isabela#DOCTOR
+Valentina-Luísa Carneiro#DOCTOR
+Amaral-Sá#DOCTOR
+Tatiana#DOCTOR
+Macedo#DOCTOR
+Paiva#DOCTOR
+Valente#DOCTOR
+Domingues#DOCTOR
+César#DOCTOR
+Paiva#DOCTOR
+Simões-Ramos#DOCTOR
+Pires#DOCTOR
+Abreu-Melo#DOCTOR
+Afonso Valente#DOCTOR
+Macedo#DOCTOR
+Kelly Neto#DOCTOR
+Constança#DOCTOR
+Neto#DOCTOR
+Assunção#DOCTOR
+Yara-Luana#DOCTOR
+Eduarda Ferreira#DOCTOR
+Mia Carneiro#DOCTOR
+Yara#DOCTOR
+Santiago#DOCTOR
+Maria Coelho#DOCTOR
+Maia#DOCTOR
+Batista#DOCTOR
+Flor Machado#DOCTOR
+Pinto#DOCTOR
+Bianca-Luna Alves#DOCTOR
+Violeta#DOCTOR
+Érica#DOCTOR
+Luciana Ribeiro#DOCTOR
+Ariana da Machado#DOCTOR
+Vicente-Costa#DOCTOR
+Naiara Figueiredo#DOCTOR
+Catarina#DOCTOR
+Vasco Cunha#DOCTOR
+Matilde Mendes#DOCTOR
+Madalena Santos#DOCTOR
+Artur do Leite#DOCTOR
+Bianca#DOCTOR
+Erica Vicente-Mendes#DOCTOR
+Bruno Valente#DOCTOR
+Luciana#DOCTOR
+Rafael Assunção#DOCTOR
+João#DOCTOR
+Samuel#DOCTOR
+Machado#DOCTOR
+Diogo Teixeira#DOCTOR
+Renato Melo#DOCTOR
+Sebastião#DOCTOR
+Cristiano Figueiredo#DOCTOR
+Av Vítor Lourenço, S/N#STREET
+Alameda de Abreu, 15#STREET
+R. da Torrinha, 80#STREET
+Alameda de Faria, 2#STREET
+Rua Pedro Moreira, S/N#STREET
+R. Marco Coelho, 8#STREET
+Travessa de Santana, 52#STREET
+R. de Henriques, 31#STREET
+Travessa Cláudio Borges, 56#STREET
+Av Artur Cupertino de Miranda, 93#STREET
+Av de Machado, 11#STREET
+Largo Silva, 83#STREET
+Largo de D. Afonso Henriques, 65#STREET
+R. Alves, 7#STREET
+R. Oliveira, 3#STREET
+Av de Machado, 62#STREET
+R. Macedo, 69#STREET
+Alameda Miguel Esteves, 2#STREET
+Praça Wilson Rodrigues, S/N#STREET
+Travessa Vicente, 7#STREET
+Avenida das Sereias, S/N#STREET
+Av de Oliveira, 82#STREET
+Rua de José Serra, 48#STREET
+Largo de Guerreiro, 19#STREET
+Alameda Inês Azevedo, 94#STREET
+Praça de Henriques, 62#STREET
+Largo de Morais, 1#STREET
+Rua Cardoso, 84#STREET
+Av Lourenço, 18#STREET
+Avenida de Macedo, 107#STREET
+R. Maia, 36#STREET
+Travessa de Marques, 66#STREET
+R. Sebastião Barros, 1#STREET
+Alameda da Igreja, S/N#STREET
+Praça Gonçalo Vieira, 6#STREET
+Praça de Loureiro, S/N#STREET
+Av Sara Nogueira, 74#STREET
+Alameda Emília Martins, 679#STREET
+Av Vaz, 50#STREET
+R. de Nascimento, S/N#STREET
+Rua de Assunção, 93#STREET
+Av de Castro, 96#STREET
+Largo de Brito, 97#STREET
+Largo Edgar Brito, S/N#STREET
+Avenida Noah Guerreiro, 1#STREET
+Praça Luciana Martins, 3#STREET
+Praça de Moradais Populares do Carriçal, 21#STREET
+Alameda de São Miguel, S/N#STREET
+Alameda da Nau Catrineta, S/N#STREET
+Travessa de Domingues, 49#STREET
+R. Moreira, 29#STREET
+Largo do Dr. Jaime Cortesão, 79#STREET
+R. Bryan Santos, S/N#STREET
+Alameda Anita Tavares, 46#STREET
+Praça Henriques, S/N#STREET
+Praça Micael Pires, S/N#STREET
+Travessa de Silva, 95#STREET
+Alameda Miguel Paiva, 2#STREET
+Avenida de Silva, 39#STREET
+Largo Rodrigues, 76#STREET
+Rua Magalhães, 2#STREET
+Rua de Amorim, 73#STREET
+Alameda Henriques, 7#STREET
+Praça de Nogueira, 765#STREET
+Alameda Cláudio Barros, S/N#STREET
+Avenida Figueiredo, 915#STREET
+Avenida do Meiral, S/N#STREET
+Praça Rocha, 45#STREET
+Alameda de Lourenço, 801#STREET
+R. Luísa Jesus, 9#STREET
+Avenida Jéssica Vicente, 87#STREET
+Av Severo Portela, 5#STREET
+Alameda Henriques, 325#STREET
+Praça Escuro, 451#STREET
+Largo Jéssica Marques, 92#STREET
+Praça da Feiteira, 1#STREET
+Largo das Musas, 2#STREET
+Travessa Filipa Neto, 46#STREET
+R. do Mirante, 7#STREET
+Rua Faria, 22#STREET
+Av do Alto do Varejão, 608#STREET
+Praça Andrade, 50#STREET
+Rua Guerreiro, 992#STREET
+R. Sá, 66#STREET
+Rua Pacheco, 6#STREET
+Travessa de Vaz, 86#STREET
+R. de Oliveira, 13#STREET
+Av dos Pinheiros, 87#STREET
+Avenida do Sequeiro, 9#STREET
+Praça Diego Costa, 76#STREET
+Rua Gustavo Pires, 941#STREET
+R. Luciana Rodrigues, 67#STREET
+Av Leite, 4#STREET
+Largo de D. Pedro Pitões, 9#STREET
+Alameda Coelho, S/N#STREET
+Praça Fernando Pessa, 1#STREET
+Travessa de Loureiro, 74#STREET
+Travessa Manuel Ricardo Espírito Santo, S/N#STREET
+Largo de Pereira, 761#STREET
+R. da Luz, 473#STREET
+Rua Pedro Antunes, 44#STREET
+R. de Viterbo de Campos, 82#STREET
+Alameda de Barbosa, S/N#STREET
+R. Maria Barbosa, 92#STREET
+Praça Torres, 51#STREET
+Alameda Raquel Lopes, 862#STREET
+Av Arquitecto Carlos Ramos, 3#STREET
+Rua do Pinzaleiro, S/N#STREET
+Rua de Rocha, 6#STREET
+Praça Simões, 4#STREET
+Av dos Aventureiros, 69#STREET
+Avenida de Moreira, 497#STREET
+Av de Abreu, 999#STREET
+Travessa de Lima, 73#STREET
+Largo Simões, 453#STREET
+Praça Ângelo Sá, 558#STREET
+Avenida das Japoneiras, 53#STREET
+Largo Dom Afonso Henriques, 163#STREET
+Av de Pereira, 84#STREET
+Rua Rui Teixeira, 15#STREET
+R. de Almeida, S/N#STREET
+Av João Azevedo, 15#STREET
+Alameda da Música, 24#STREET
+Rua Beatriz Amaral, S/N#STREET
+R. João Brito, 96#STREET
+Rua de Vinte e Quatro de Agosto, 49#STREET
+Avenida Ramos, 69#STREET
+R. Neves, 30#STREET
+Travessa Caetana Assunção, 42#STREET
+Largo Magalhães, 5#STREET
+Avenida Diego Maia, S/N#STREET
+Praça Barros, 60#STREET
+Avenida Amorim, 12#STREET
+Av Figueiredo, 62#STREET
+Av Eduardo Teixeira, 950#STREET
+Largo Mendes, 110#STREET
+Travessa Figueiredo, 97#STREET
+Av das Japoneiras, 725#STREET
+R. do Varejão, 78#STREET
+Travessa de Abreu, 40#STREET
+Alameda do Meiral, S/N#STREET
+Travessa Renato Cunha, 798#STREET
+R. Soares, 778#STREET
+Av Gaspar, 96#STREET
+Largo Teresa Macedo, 48#STREET
+Av Coelho, 49#STREET
+Rua Baptista, 45#STREET
+Rua de Assunção, S/N#STREET
+Travessa Renata Barbosa, S/N#STREET
+Av Ismael Gonçalves, 60#STREET
+Praça Maria José Moura, 1#STREET
+Rua de Coelho, S/N#STREET
+Av de Manuel Cardoso Agrelos, 115#STREET
+R. Cuf, 304#STREET
+Av Esteves, 15#STREET
+Praça Henriques, 150#STREET
+Largo de Estêvão Vasconcelos, 53#STREET
+R. de Gomes, 185#STREET
+Rua de Lopes, 7#STREET
+Avenida Juliana Gonçalves, S/N#STREET
+Praça António Moreira, 67#STREET
+Travessa Cruz, 12#STREET
+Alameda Sá, 52#STREET
+Av de Carvalho, 9#STREET
+Rua de Correia, 77#STREET
+Av de Teixeira, S/N#STREET
+Avenida Márcio Anjos, 9#STREET
+Alameda Egito Gonçalves, S/N#STREET
+Alameda Campolide, 36#STREET
+Avenida de Rodrigues, 37#STREET
+Av de Pires, 45#STREET
+Praça de Correia, S/N#STREET
+Travessa de Martins, S/N#STREET
+Av de Marques, 7#STREET
+Largo Almeida, 7#STREET
+Alameda Anjos, 892#STREET
+Praça Lorena Neto, S/N#STREET
+Largo Gonçalo Baptista, S/N#STREET
+Largo Letícia Gomes, 16#STREET
+Praça de Gomes, 63#STREET
+Rua Branco, 1#STREET
+R. Tiago Moreira, 61#STREET
+Rua Santiago Sousa, 7#STREET
+R. de Ferreira, S/N#STREET
+Largo dos Melros, 7#STREET
+Largo Domingues, 67#STREET
+Largo Samuel Henriques, 18#STREET
+Largo Gil Guerreiro, 59#STREET
+Av de Ribeiro, 94#STREET
+Alameda Bruno Faria, S/N#STREET
+R. Caetana Vieira, 73#STREET
+Praça Brito, 27#STREET
+R. de Ramalde, 70#STREET
+R. Augusto Monjardino, 25#STREET
+Rua Araújo, 41#STREET
+Rua Sérgio Pinheiro, 1#STREET
+Travessa do Conde de Óbidos, 5#STREET
+Rua Escuro, 83#STREET
+Rua de Silva, 27#STREET
+Praça de Magalhães, 2#STREET
+Rua Yasmin Azevedo, 93#STREET
+Largo Eduardo Prado Coelho, 90#STREET
+Avenida de Rocha, S/N#STREET
+Praça de Fernão de Magalhães, 726#STREET
+Travessa de Pereira, 733#STREET
+Largo do Carvalhão, 42#STREET
+Av Manuel Gonçalves Moreira, S/N#STREET
+R. Tatiana Silva, 71#STREET
+Rua de Barros, 698#STREET
+Av Noa Gonçalves, 90#STREET
+Largo de Teixeira, 19#STREET
+Largo de Garcia, 28#STREET
+Largo Nascimento, 73#STREET
+Avenida de Barbosa, S/N#STREET
+Largo de Barbosa, 342#STREET
+Praça Gabriel Mota, 51#STREET
+Rua de Cardoso, 23#STREET
+Travessa Francisco Ramos, 33#STREET
+Praça Rodrigo Carvalho, S/N#STREET
+Praça Loureiro, 79#STREET
+Praça de Sá, 77#STREET
+Av de Silva, S/N#STREET
+R. Pacheco, 1#STREET
+Rua Barros, 266#STREET
+Av Marques, 63#STREET
+Avenida Mário Silva, 39#STREET
+Largo Fabiana Lourenço, S/N#STREET
+Praça do Arboreto, 873#STREET
+Av do Sodré, S/N#STREET
+Travessa Nunes, 51#STREET
+Travessa da Ilha dos Amores, S/N#STREET
+Alameda do Lagarteiro, 76#STREET
+Avenida da Música, S/N#STREET
+Avenida de Guerreiro, S/N#STREET
+Praça Renato Alves, 18#STREET
+R. António Barros, 50#STREET
+Praça de Simões, S/N#STREET
+Largo Soares, 28#STREET
+Travessa Matias, 87#STREET
+Avenida Fábio Gonçalves, 660#STREET
+Travessa de Andrade, 85#STREET
+Alameda Kelly Valente, S/N#STREET
+Largo de Carvalho, 41#STREET
+Largo Ricardo Jesus, S/N#STREET
+Rua Jaime Freitas, 6#STREET
+Praça Valentina Vieira, 352#STREET
+Alameda de Gaspar, 6#STREET
+Avenida de Magalhães, 98#STREET
+R. Nascimento, S/N#STREET
+R. Isaac Nascimento, 59#STREET
+Av de Cláudio Carneiro, 4#STREET
+Av de Matias, 5#STREET
+Rua do Báltico, 916#STREET
+Av Bernardo Pinto, 2#STREET
+Praça de Vinte e Quatro de Agosto, S/N#STREET
+Avenida Isabela Nogueira, S/N#STREET
+Praça Ângela Abreu, 4#STREET
+R. Carneiro, 64#STREET
+Rua Gil Castro, 1#STREET
+Avenida de Branco, 362#STREET
+Largo Antunes, 953#STREET
+Alameda do Alto do Varejão, 3#STREET
+Alameda de Simões, 6#STREET
+Travessa de Freitas, 42#STREET
+Av de S. Mamede, 44#STREET
+Alameda Mendes, 40#STREET
+Rua Diego Oliveira, S/N#STREET
+Travessa Igor Almeida, 53#STREET
+Praça William Pires, S/N#STREET
+Rua de Gonçalves, 798#STREET
+Praça de Maia, 5#STREET
+Alameda Caetana Tavares, 96#STREET
+Rua Rodrigues, 9#STREET
+R. Machado, S/N#STREET
+Largo de Antunes, 45#STREET
+R. de Lamas, 827#STREET
+Avenida Gaspar Araújo, 22#STREET
+Rua das Garças, 84#STREET
+Alameda de S. Brás, 26#STREET
+Av Egito Gonçalves, 16#STREET
+Largo Torres, 8#STREET
+Largo de Soares, 56#STREET
+Alameda Valentina Barros, 31#STREET
+Travessa do Báltico, S/N#STREET
+Rua Gonçalves, 45#STREET
+Rua Cruz, 3#STREET
+Alameda João Glama, 26#STREET
+Rua Miranda, 8#STREET
+R. de Matias, 784#STREET
+Av das Virtudes, S/N#STREET
+R. Bernardo Garcia, 96#STREET
+Av Jorge Esteves, 51#STREET
+Avenida Machado, 75#STREET
+Praça de Gomes, 81#STREET
+Largo Ferreira, S/N#STREET
+R. de Viterbo de Campos, 71#STREET
+Rua Vicente Torres, 585#STREET
+R. do Monte dos Judeus, 956#STREET
+Rua Leonardo Vieira, S/N#STREET
+Travessa Torres, 511#STREET
+R. Marcos Freitas, 21#STREET
+Rua de Nogueira, 77#STREET
+Praça Pilar Ramos, 171#STREET
+Rua Valente, S/N#STREET
+R. das Rolas, 73#STREET
+Travessa dos Armazéns, 76#STREET
+Avenida Correia, 76#STREET
+Avenida Cláudio Barbosa, 64#STREET
+Alameda da Universidade, 7#STREET
+Travessa Esteves, 65#STREET
+Largo de Ramos, 3#STREET
+R. Carolina Michaelis de Vasconcelos, 19#STREET
+Travessa Mota, 281#STREET
+Rua Borges, 16#STREET
+Largo da Sé, 81#STREET
+Largo Teófilo Ferreira, 90#STREET
+Avenida Gerais, 49#STREET
+Avenida de Cartes, S/N#STREET
+Rua Barbosa, 41#STREET
+Avenida de Loureiro, 58#STREET
+Rua Fernando Cunha, 6#STREET
+Rua das Naus, 84#STREET
+R. de Barbosa, 69#STREET
+Largo Luciana Pereira, 9#STREET
+Largo Carvalho, 72#STREET
+Largo de Sousa, 48#STREET
+Praça Maria Simões, 981#STREET
+Largo Mafalda Borges, S/N#STREET
+Alameda Edgar Moreira, 153#STREET
+Praça do Calhau, 43#STREET
+Largo Gabriel Almeida, 40#STREET
+Travessa Macedo, 348#STREET
+Av de Araújo, 90#STREET
+Avenida Jaime Teixeira, 4#STREET
+Praça Gaspar, 32#STREET
+R. Moreira, 8#STREET
+Avenida Alves, 2#STREET
+Praça Cunha, 24#STREET
+Largo de Faria, 7#STREET
+Praça Barbosa, 98#STREET
+Alameda do Tejo, 9#STREET
+Rua Baptista, 51#STREET
+Rua do Sobreirinho, 370#STREET
+Rua Sofia Machado, 6#STREET
+Av Guilherme Morais, 18#STREET
+Avenida da Encarnação, 40#STREET
+Alameda Gabriela Marques, 526#STREET
+Rua de Eduardo Soares, 90#STREET
+Av do Varejão, S/N#STREET
+Praça de Jesus, 708#STREET
+Avenida Paiva, 62#STREET
+Rua Helena Mota, 97#STREET
+Largo Correia, 33#STREET
+Largo Pereira, 95#STREET
+Praça Vaz, S/N#STREET
+Rua de Araújo, 87#STREET
+Largo de Freitas, 7#STREET
+Avenida de Carreiras, 78#STREET
+Travessa da Encarnação, S/N#STREET
+R. de Borges, 4#STREET
+Avenida Amaral, 3#STREET
+R. de São Pedro, 9#STREET
+Travessa de Reis, S/N#STREET
+R. Violeta Lopes, 5#STREET
+Avenida de Pinho, 40#STREET
+Largo Enzo Machado, 29#STREET
+Rua do Beato, 99#STREET
+Praça Diogo Nascimento, 45#STREET
+Avenida de Henriques, 29#STREET
+Praça de Reis, 60#STREET
+Rua do Amazonas, 85#STREET
+Av Jorge Valente, 696#STREET
+Rua de Antunes, 7#STREET
+Rua do Campo, 20#STREET
+R. Leite, 4#STREET
+Praça Ferreira, 366#STREET
+Av Nunes, 23#STREET
+Largo de Gomes, 42#STREET
+Praça de Simões, 9#STREET
+R. de Melo, S/N#STREET
+Av de Nogueira, 74#STREET
+Alameda Vieira, 20#STREET
+Largo de Fernandes, 1#STREET
+Alameda Pedro Nogueira, 2#STREET
+Largo de Pereira, S/N#STREET
+Av Teixeira, 11#STREET
+Avenida de Nogueira, 87#STREET
+R. Machado, 343#STREET
+Alameda Mateus Martins, 75#STREET
+R. de Brito, 229#STREET
+Avenida Marcos Fernandes, 4#STREET
+Largo Francisco Cruz, 160#STREET
+Praça Violeta Freitas, 52#STREET
+Rua Lopes, 47#STREET
+Largo Fernandes, 311#STREET
+Avenida de Magalhães, 39#STREET
+Alameda dos Aliados, 66#STREET
+Av de Paiva, 77#STREET
+Rua do Carregal, 519#STREET
+R. Pinto, S/N#STREET
+Largo Vaz, 7#STREET
+R. do Brasil (Porto), 81#STREET
+R. Rita Brito, 64#STREET
+Rua Gomes, 460#STREET
+Rua de Leite, S/N#STREET
+Rua de Branco, 30#STREET
+Largo de Pires, 9#STREET
+Avenida de Sousa, 164#STREET
+Largo Marco Antunes, 7#STREET
+Travessa do Sobreirinho, 18#STREET
+Alameda de Jesus, 2#STREET
+Rua de Adelino Amaro da Costa, 685#STREET
+Av do Moreda, 6#STREET
+Avenida Morais, 87#STREET
+Av Pinho, 32#STREET
+Avenida Mauro Magalhães, 22#STREET
+Av de S. Macário, 3#STREET
+R. Miguel Abreu, 21#STREET
+Praça Figueiredo, 596#STREET
+Av de João Augusto Ribeiro, 5#STREET
+Alameda de Borges, 48#STREET
+Praça Alice Cruz, 90#STREET
+Largo Alves, 65#STREET
+Largo Nogueira, S/N#STREET
+Avenida Juliana Matos, 4#STREET
+Travessa Freitas, 657#STREET
+Alameda Luca Coelho, 18#STREET
+Largo Mariana Nogueira, 51#STREET
+Rua Fernando Valle, 14#STREET
+Avenida de Esteves, 37#STREET
+Avenida de Reis, 13#STREET
+Avenida Cardoso, 37#STREET
+Av Alice Abreu, S/N#STREET
+Alameda da Foz, 43#STREET
+Alameda Luís Ferreira, 18#STREET
+Largo Ernesto Veiga de Oliveira, S/N#STREET
+R. Ricardo Sá, 77#STREET
+Largo Alice Mendes, 5#STREET
+Alameda William Martins, S/N#STREET
+Travessa Almeida, 256#STREET
+Largo do Bonjardim, 5#STREET
+Rua Mendes, 94#STREET
+Travessa Sá, 16#STREET
+Av do Lagarteiro, 152#STREET
+R. Sandro Lourenço, S/N#STREET
+Avenida Panorâmica Edgar Cardoso, 22#STREET
+Alameda Vítor Faria, 67#STREET
+Rua dos Argonautas, 6#STREET
+Travessa de São Miguel, 31#STREET
+Alameda da Ribeira, 68#STREET
+Travessa João Barros, 64#STREET
+Rua de Barros, 699#STREET
+Largo Cruz, S/N#STREET
+Largo Alexandra Martins, 54#STREET
+Travessa de Gaspar, 18#STREET
+Avenida de Godim, 37#STREET
+Av da Quinta do Guarda-Mor, 9#STREET
+Praça Azevedo, 725#STREET
+Rua das Carquejeiras, 76#STREET
+Av da Feiteira, 645#STREET
+Alameda do Dr. António Macedo, 9#STREET
+R. Pacheco, 7#STREET
+Avenida Ariana Carneiro, 4#STREET
+R. Soraia Pereira, 47#STREET
+Largo de Matos, 938#STREET
+Rua da Ponte da Lama, 25#STREET
+Avenida Laura Miranda, 81#STREET
+Travessa de Luís António Verney, 81#STREET
+Travessa Melo, 49#STREET
+Avenida Sousa, 94#STREET
+Praça Araújo, 34#STREET
+R. de Gomes, 92#STREET
+Largo Júlia Azevedo, 328#STREET
+Alameda do Cidral de Cima, 73#STREET
+Av Alice Soares, 9#STREET
+Largo Mário Cardoso, 86#STREET
+Av Branco, 69#STREET
+Avenida Daniel Machado, 657#STREET
+Avenida Coronel Vítor Alves, S/N#STREET
+Alameda Carolina Branco, 6#STREET
+Praça de Pinheiro, 90#STREET
+Rua Ângela Pacheco, S/N#STREET
+Praça de Silva, S/N#STREET
+Av Rodrigues, 96#STREET
+Rua Benjamim Leite, 71#STREET
+Praça Gabriel Nascimento, 49#STREET
+Largo Velho do Outeiro, 61#STREET
+Rua Reis, 44#STREET
+Avenida de Ulisses, 98#STREET
+Av Paulo Azevedo, 48#STREET
+Rua Andreia Paiva, 86#STREET
+Travessa Branco, 53#STREET
+Rua de D. Pedro Pitões, 5#STREET
+Alameda Luís Paiva, 45#STREET
+R. de Vieira, 399#STREET
+Praça de Carrilho Videira, 9#STREET
+Praça de Gomes, 58#STREET
+Largo de Azevedo, S/N#STREET
+Av Henrique Cruz, 8#STREET
+R. do Campo da Bola, 78#STREET
+Travessa Emília Magalhães, 74#STREET
+Travessa de Cardoso, 51#STREET
+R. Manuel Pinto de Azevedo Júnior, 9#STREET
+Praça Caetana Lima, 48#STREET
+Travessa da Sé, 2#STREET
+Largo das Portas do Mar, 589#STREET
+Av Núria Guerreiro, 48#STREET
+Avenida de Branco, 8#STREET
+Alameda da Cruz, 9#STREET
+Travessa Kevin Abreu, 95#STREET
+Largo do Prof. Egas Moniz, 869#STREET
+R. dos Aliados, 958#STREET
+Alameda Vaz, 12#STREET
+Alameda Melo, 3#STREET
+Travessa Érica Gaspar, 70#STREET
+Praça de Fernandes, 4#STREET
+Travessa de Simões, 29#STREET
+Praça Alves, 5#STREET
+Alameda Marta Nogueira, 12#STREET
+Av Isabela Santos, S/N#STREET
+Largo Santos, 291#STREET
+Alameda Wilson Anjos, S/N#STREET
+Av Lara Branco, 94#STREET
+Av José Luís Nunes, 750#STREET
+R. do Monte de S. João, 20#STREET
+Praça Baptista, 39#STREET
+Largo Figueiredo, 3#STREET
+Rua de Ferreira, 1#STREET
+Alameda Renato Mendes, 11#STREET
+Largo Violeta Sousa, 9#STREET
+Praça Nair Neves, 7#STREET
+Praça de Cunha, 848#STREET
+Largo de S. Brás, S/N#STREET
+Alameda Costa, 27#STREET
+R. Leonardo Lourenço, 355#STREET
+Travessa de Monteiro, 3#STREET
+Praça Magalhães, 59#STREET
+Alameda dos Pinheiros ao Parque das Nações, 76#STREET
+Avenida David Andrade, 92#STREET
+Travessa Ramos, 38#STREET
+Praça de Guerreiro, 9#STREET
+Av Augusto Monjardino, 44#STREET
+Rua Cardoso, 288#STREET
+Rua de Coelho, 5#STREET
+Travessa de Jesus, 41#STREET
+Largo de Pacheco, S/N#STREET
+Praça Nicole Leite, 582#STREET
+Av de Pinho, 4#STREET
+Rua Esteves, 41#STREET
+Avenida do Sobreirinho, 5#STREET
+Largo Mara Araújo, 25#STREET
+Alameda de Melo, 32#STREET
+Alameda de Neves, 79#STREET
+Travessa de Freitas, 764#STREET
+Avenida Vieira, 55#STREET
+Largo Manuel Gonçalves Moreira, 37#STREET
+Alameda Tomé Lopes, 241#STREET
+Travessa do Tronco, 99#STREET
+Av William Pinho, 680#STREET
+Travessa Luís Carvalho, S/N#STREET
+Avenida Núria Vicente, S/N#STREET
+Rua de Leal, 1#STREET
+Alameda das Chagas, 3#STREET
+Travessa Almeida, 55#STREET
+R. de Gonçalves, 884#STREET
+Rua Frederico Martins, 51#STREET
+Largo Tristão da Silva, 1#STREET
+Praça das Carquejeiras, 27#STREET
+Travessa Paulo Batista, 89#STREET
+Travessa de Barros, 9#STREET
+Praça Silva, 21#STREET
+Av dos Guindais, 85#STREET
+R. de Irene de Castro, S/N#STREET
+Alameda Melo, 4#STREET
+Largo Mariana Matos, 56#STREET
+Rua Clara Nogueira, 69#STREET
+Av de Neto, 17#STREET
+Avenida Tavares, 7#STREET
+Av Mauro Branco, 73#STREET
+Alameda de Estêvão Vasconcelos, 94#STREET
+Travessa de Gonçalves, 34#STREET
+Travessa Fernandes, 88#STREET
+Praça de Vieira, 32#STREET
+R. Fernandes, 3#STREET
+Rua do Leal, 2#STREET
+Alameda de Colares, 87#STREET
+Av Amorim, 4#STREET
+Alameda de Torres, 33#STREET
+Alameda de Gaspar, 55#STREET
+Largo de Macedo, 20#STREET
+Av Nogueira, 343#STREET
+Rua Mia Henriques, 6#STREET
+Praça Constança Carneiro, 78#STREET
+Rua Frederico Leal, 19#STREET
+Alameda de Costa, 97#STREET
+Av Leonor Morais, 39#STREET
+Largo de Lima, 210#STREET
+Av Carminho Nogueira, 2#STREET
+Av de Montevideu, 74#STREET
+R. de Maia, 4#STREET
+79748-473#ZIP
+52866-282#ZIP
+41739-009#ZIP
+24978504#ZIP
+40520016#ZIP
+82681704#ZIP
+91599196#ZIP
+75688-922#ZIP
+63676415#ZIP
+67699-386#ZIP
+27365658#ZIP
+98499-487#ZIP
+90189452#ZIP
+75716814#ZIP
+70983391#ZIP
+95601102#ZIP
+18466-244#ZIP
+82010-394#ZIP
+86114-272#ZIP
+27734-453#ZIP
+85993-462#ZIP
+81428612#ZIP
+01271238#ZIP
+07652850#ZIP
+61234-938#ZIP
+91842542#ZIP
+07815-922#ZIP
+18119044#ZIP
+12108472#ZIP
+11033637#ZIP
+01907-210#ZIP
+86883-425#ZIP
+60726333#ZIP
+88504-758#ZIP
+82214856#ZIP
+14802-617#ZIP
+94479-111#ZIP
+17873-710#ZIP
+91813-779#ZIP
+23867337#ZIP
+82051547#ZIP
+29399058#ZIP
+96411849#ZIP
+63656-432#ZIP
+73824864#ZIP
+71844314#ZIP
+76372-515#ZIP
+11555830#ZIP
+26432-959#ZIP
+21640-999#ZIP
+12313-176#ZIP
+57782109#ZIP
+18323321#ZIP
+12511164#ZIP
+53626-188#ZIP
+32608-843#ZIP
+49818-267#ZIP
+41003576#ZIP
+32377505#ZIP
+72314-983#ZIP
+24196574#ZIP
+22406985#ZIP
+65057-500#ZIP
+58919401#ZIP
+48405-092#ZIP
+77475-242#ZIP
+54010850#ZIP
+92220375#ZIP
+05794-550#ZIP
+73933-764#ZIP
+59186-981#ZIP
+85980777#ZIP
+95801-648#ZIP
+79447-435#ZIP
+06286-701#ZIP
+75381876#ZIP
+83854-704#ZIP
+07633-918#ZIP
+64520-472#ZIP
+78555483#ZIP
+47564-291#ZIP
+80290-660#ZIP
+16560-069#ZIP
+00196207#ZIP
+72727-239#ZIP
+07123733#ZIP
+09455-819#ZIP
+09871-703#ZIP
+42708506#ZIP
+83952-942#ZIP
+31219-313#ZIP
+59928-335#ZIP
+47623-241#ZIP
+15498388#ZIP
+50332199#ZIP
+67902-508#ZIP
+78184745#ZIP
+83999048#ZIP
+57945450#ZIP
+05605806#ZIP
+88996576#ZIP
+44546238#ZIP
+31680-263#ZIP
+73795-292#ZIP
+92805188#ZIP
+97690317#ZIP
+54639-098#ZIP
+49505-756#ZIP
+38211-982#ZIP
+39085780#ZIP
+78722-270#ZIP
+48042-622#ZIP
+67852756#ZIP
+58287-956#ZIP
+93680160#ZIP
+24352158#ZIP
+45647-814#ZIP
+91956823#ZIP
+89686-893#ZIP
+41194143#ZIP
+09628-739#ZIP
+14797-696#ZIP
+71611120#ZIP
+28528577#ZIP
+22742714#ZIP
+03881597#ZIP
+31478-253#ZIP
+64349016#ZIP
+68126-498#ZIP
+10656-618#ZIP
+63452-495#ZIP
+48823-902#ZIP
+99900089#ZIP
+47805967#ZIP
+78487032#ZIP
+66742324#ZIP
+65346-525#ZIP
+77039-380#ZIP
+36148440#ZIP
+08932163#ZIP
+44116665#ZIP
+31209779#ZIP
+47734-262#ZIP
+74471900#ZIP
+16700955#ZIP
+62002870#ZIP
+20524952#ZIP
+87507318#ZIP
+54348-679#ZIP
+17129-781#ZIP
+76283101#ZIP
+76930999#ZIP
+49684069#ZIP
+69424-740#ZIP
+23180795#ZIP
+95135152#ZIP
+78799191#ZIP
+78494281#ZIP
+59028767#ZIP
+91209129#ZIP
+09567-504#ZIP
+98938-885#ZIP
+32652-391#ZIP
+96839271#ZIP
+79062-364#ZIP
+65504-630#ZIP
+64359-646#ZIP
+88147898#ZIP
+29746888#ZIP
+81684201#ZIP
+50929-552#ZIP
+46970462#ZIP
+14379860#ZIP
+11413123#ZIP
+13402-441#ZIP
+19007260#ZIP
+39731-037#ZIP
+46975-621#ZIP
+78952-748#ZIP
+15107540#ZIP
+47613-556#ZIP
+58728146#ZIP
+30739-005#ZIP
+95428-693#ZIP
+10193225#ZIP
+94605-111#ZIP
+98271023#ZIP
+83039048#ZIP
+19307-264#ZIP
+52926009#ZIP
+05730-349#ZIP
+49818786#ZIP
+51093481#ZIP
+60392-542#ZIP
+29583296#ZIP
+83781-835#ZIP
+06531-171#ZIP
+52661091#ZIP
+04708-588#ZIP
+65324497#ZIP
+12899-270#ZIP
+78017417#ZIP
+05192-514#ZIP
+65562871#ZIP
+07295-517#ZIP
+43080234#ZIP
+34830-345#ZIP
+16517-827#ZIP
+67040262#ZIP
+07535023#ZIP
+72256350#ZIP
+53807315#ZIP
+07661-103#ZIP
+58405-306#ZIP
+82637449#ZIP
+16323-227#ZIP
+72374700#ZIP
+56726-870#ZIP
+23529363#ZIP
+88683482#ZIP
+86663855#ZIP
+88140602#ZIP
+16423025#ZIP
+97796-024#ZIP
+79014295#ZIP
+08242984#ZIP
+71970471#ZIP
+29244-464#ZIP
+50023-766#ZIP
+81670596#ZIP
+94385-069#ZIP
+20549011#ZIP
+27385782#ZIP
+66246222#ZIP
+18719-365#ZIP
+24498-821#ZIP
+43290090#ZIP
+62048968#ZIP
+51334-941#ZIP
+80727302#ZIP
+18229155#ZIP
+49080542#ZIP
+50295667#ZIP
+78597-089#ZIP
+68217-535#ZIP
+64104954#ZIP
+74096-056#ZIP
+13927330#ZIP
+79982119#ZIP
+53878000#ZIP
+32458325#ZIP
+32535663#ZIP
+71096295#ZIP
+42210406#ZIP
+80750-513#ZIP
+82917-544#ZIP
+84595-044#ZIP
+02268-906#ZIP
+04010522#ZIP
+42794248#ZIP
+78296-324#ZIP
+21613-337#ZIP
+44584485#ZIP
+73708279#ZIP
+89878-231#ZIP
+97265596#ZIP
+05525-395#ZIP
+91839726#ZIP
+18980-724#ZIP
+31356-013#ZIP
+04165658#ZIP
+30798-489#ZIP
+55373-056#ZIP
+30581425#ZIP
+75261-104#ZIP
+14576800#ZIP
+13830667#ZIP
+83964998#ZIP
+97965059#ZIP
+09171145#ZIP
+55463-712#ZIP
+30602-637#ZIP
+92489-907#ZIP
+80212952#ZIP
+19396100#ZIP
+81260640#ZIP
+04694-099#ZIP
+91250-507#ZIP
+75087479#ZIP
+75407039#ZIP
+35279552#ZIP
+51708-746#ZIP
+66917917#ZIP
+13241114#ZIP
+39277739#ZIP
+03165-160#ZIP
+59007-194#ZIP
+31001-139#ZIP
+00193-762#ZIP
+58973130#ZIP
+49517601#ZIP
+08176155#ZIP
+43920-842#ZIP
+84099-725#ZIP
+93620-250#ZIP
+61449003#ZIP
+72830532#ZIP
+18755-084#ZIP
+08949-276#ZIP
+90605512#ZIP
+30694-486#ZIP
+04375-888#ZIP
+35046-366#ZIP
+85508-696#ZIP
+35472-228#ZIP
+85907173#ZIP
+16741676#ZIP
+24654140#ZIP
+68064-915#ZIP
+50529-542#ZIP
+08165-567#ZIP
+50284-792#ZIP
+35226-364#ZIP
+54458046#ZIP
+48197144#ZIP
+85443-494#ZIP
+15273112#ZIP
+22194132#ZIP
+49169541#ZIP
+79683945#ZIP
+70755-860#ZIP
+11771930#ZIP
+65073-061#ZIP
+14534773#ZIP
+48523944#ZIP
+16658-897#ZIP
+91144561#ZIP
+65186-580#ZIP
+24243-633#ZIP
+56943-360#ZIP
+99403-434#ZIP
+74554526#ZIP
+62398-230#ZIP
+09354007#ZIP
+40101-545#ZIP
+63954484#ZIP
+00054-708#ZIP
+98138-338#ZIP
+60157-984#ZIP
+89017559#ZIP
+03679620#ZIP
+21571291#ZIP
+57407-564#ZIP
+71068811#ZIP
+70096-583#ZIP
+58044-235#ZIP
+09368-222#ZIP
+69265664#ZIP
+00997-532#ZIP
+73763453#ZIP
+40797762#ZIP
+61274293#ZIP
+15568469#ZIP
+96039-912#ZIP
+41971-567#ZIP
+22923-604#ZIP
+02192976#ZIP
+87303-746#ZIP
+44088-447#ZIP
+26668382#ZIP
+03279-074#ZIP
+96270-148#ZIP
+62078-189#ZIP
+56918-313#ZIP
+48940489#ZIP
+07519231#ZIP
+13123-768#ZIP
+27615854#ZIP
+59216-062#ZIP
+88047161#ZIP
+77431-863#ZIP
+05965948#ZIP
+15835886#ZIP
+47082447#ZIP
+81354295#ZIP
+48088-474#ZIP
+06574-652#ZIP
+30961-349#ZIP
+64443037#ZIP
+68352-358#ZIP
+67205548#ZIP
+48875-787#ZIP
+74522-771#ZIP
+54267-572#ZIP
+71239273#ZIP
+64774-099#ZIP
+46525-615#ZIP
+68918-509#ZIP
+79940-181#ZIP
+97428-918#ZIP
+49079666#ZIP
+36740407#ZIP
+68335223#ZIP
+46050048#ZIP
+05565312#ZIP
+71588-082#ZIP
+70781726#ZIP
+14988-882#ZIP
+67138-692#ZIP
+76360622#ZIP
+00146210#ZIP
+04808318#ZIP
+97731-147#ZIP
+89656-087#ZIP
+58356093#ZIP
+58603-120#ZIP
+97432573#ZIP
+94070031#ZIP
+46847-286#ZIP
+92230-100#ZIP
+72444-763#ZIP
+82487-697#ZIP
+04487190#ZIP
+89771-734#ZIP
+62474514#ZIP
+14664-409#ZIP
+91311920#ZIP
+26073-711#ZIP
+20689-032#ZIP
+50336-299#ZIP
+52595-184#ZIP
+99977-302#ZIP
+54641132#ZIP
+12185048#ZIP
+03850913#ZIP
+16165-335#ZIP
+78697800#ZIP
+36299557#ZIP
+19628540#ZIP
+06180-925#ZIP
+63647-979#ZIP
+12976-657#ZIP
+37978-124#ZIP
+17607-364#ZIP
+02714-459#ZIP
+94841-974#ZIP
+03090378#ZIP
+50667-736#ZIP
+07124-567#ZIP
+42815-218#ZIP
+75074167#ZIP
+55293859#ZIP
+78570-053#ZIP
+03057-876#ZIP
+38946-874#ZIP
+54103133#ZIP
+39713835#ZIP
+75103130#ZIP
+39419702#ZIP
+44478-504#ZIP
+98955063#ZIP
+78909-306#ZIP
+62888-875#ZIP
+60416441#ZIP
+01752-938#ZIP
+66866371#ZIP
+84305-909#ZIP
+17109194#ZIP
+88767-388#ZIP
+13949-321#ZIP
+34377-201#ZIP
+75716314#ZIP
+74175919#ZIP
+09097-746#ZIP
+39657090#ZIP
+30131-630#ZIP
+71760728#ZIP
+65978321#ZIP
+93595175#ZIP
+01609-007#ZIP
+70575-272#ZIP
+23177452#ZIP
+37814-572#ZIP
+38270-685#ZIP
+27627-088#ZIP
+55423-952#ZIP
+61390-901#ZIP
+05775-328#ZIP
+90902547#ZIP
+75674-727#ZIP
+13952-513#ZIP
+88615985#ZIP
+12526407#ZIP
+55205449#ZIP
+42152093#ZIP
+43250-220#ZIP
+14683518#ZIP
+84645-086#ZIP
+50888244#ZIP
+49111568#ZIP
+27405-653#ZIP
+55393-344#ZIP
+90318238#ZIP
+10821-154#ZIP
+74983-927#ZIP
+71378-789#ZIP
+46675801#ZIP
+59236771#ZIP
+44786975#ZIP
+91430-729#ZIP
+38704998#ZIP
+18919107#ZIP
+17996983#ZIP
+15484-988#ZIP
+65841451#ZIP
+04893632#ZIP
+58117771#ZIP
+57263-222#ZIP
+38374-170#ZIP
+19954-158#ZIP
+80232-350#ZIP
+14900941#ZIP
+36634465#ZIP
+33662-882#ZIP
+08780-860#ZIP
+72856964#ZIP
+68040-151#ZIP
+53029970#ZIP
+74913712#ZIP
+94901249#ZIP
+59593258#ZIP
+29580966#ZIP
+78526-000#ZIP
+25789-447#ZIP
+79422-604#ZIP
+29861-801#ZIP
+56596-155#ZIP
+90622-737#ZIP
+76314038#ZIP
+91671782#ZIP
+44171-331#ZIP
+74996-546#ZIP
+83086897#ZIP
+18198227#ZIP
+16910-772#ZIP
+20306801#ZIP
+67632967#ZIP
+72768-355#ZIP
+60975336#ZIP
+74536-889#ZIP
+38165047#ZIP
+20419-105#ZIP
+22807-813#ZIP
+09727-446#ZIP
+31953-226#ZIP
+25664167#ZIP
+59227169#ZIP
+99875-104#ZIP
+65389390#ZIP
+59157-982#ZIP
+04945557#ZIP
+84133-137#ZIP
+32829-205#ZIP
+71614336#ZIP
+73643069#ZIP
+79356819#ZIP
+12288-797#ZIP
+33664769#ZIP
+54020029#ZIP
+43042575#ZIP
+95124587#ZIP
+69344744#ZIP
+50012255#ZIP
+20291006#ZIP
+65409156#ZIP
+15473568#ZIP
+60884238#ZIP
+53866-191#ZIP
+40494450#ZIP
+46567-789#ZIP
+99303206#ZIP
+32539948#ZIP
+79127-242#ZIP
+75616869#ZIP
+62942635#ZIP
+41108140#ZIP
+64844-819#ZIP
+41495-588#ZIP
+73849360#ZIP
+67728-343#ZIP
+97188443#ZIP
+66373556#ZIP
+71934540#ZIP
+34653521#ZIP
+58980893#ZIP
+47800682#ZIP
+88875-824#ZIP
+98321975#ZIP
+21273344#ZIP
+74116755#ZIP
+Bélgica#COUNTRY
+Suazilândia#COUNTRY
+Micronésia#COUNTRY
+Bósnia e Herzegovina#COUNTRY
+Turquemenistão#COUNTRY
+Peru#COUNTRY
+Aruba#COUNTRY
+Honduras#COUNTRY
+Vaticano#COUNTRY
+Quiribáti#COUNTRY
+Guatemala#COUNTRY
+Hungria#COUNTRY
+Man, Isle of#COUNTRY
+Micronésia#COUNTRY
+Serra Leoa#COUNTRY
+Paracel Islands#COUNTRY
+Sri Lanka#COUNTRY
+Eslovênia#COUNTRY
+Tuvalu#COUNTRY
+Andorra#COUNTRY
+Anguilla#COUNTRY
+Santa Helena#COUNTRY
+Gabão#COUNTRY
+Pitcairn#COUNTRY
+Guatemala#COUNTRY
+Namíbia#COUNTRY
+Zimbabué#COUNTRY
+Síria#COUNTRY
+Iraque#COUNTRY
+Croácia#COUNTRY
+Jersey#COUNTRY
+Kuwait#COUNTRY
+Turquemenistão#COUNTRY
+Malta#COUNTRY
+Butão#COUNTRY
+Latvia#COUNTRY
+Argentina#COUNTRY
+Mayotte#COUNTRY
+Lebanon#COUNTRY
+Fiji#COUNTRY
+Iran#COUNTRY
+Ilhas Virgens Americanas#COUNTRY
+Brasil#COUNTRY
+Sri Lanka#COUNTRY
+Eritreia#COUNTRY
+Ucrânia#COUNTRY
+Espanha#COUNTRY
+Saint Vincent and the Grenadines#COUNTRY
+Quiribáti#COUNTRY
+São Marinho#COUNTRY
+Ilhas Salomão#COUNTRY
+Peru#COUNTRY
+Dinamarca#COUNTRY
+Pitcairn#COUNTRY
+Bosnia and Herzegovina#COUNTRY
+Gana#COUNTRY
+Guiné#COUNTRY
+Barbados#COUNTRY
+Arábia Saudita#COUNTRY
+Porto Rico#COUNTRY
+Bangladesh#COUNTRY
+Costa Rica#COUNTRY
+Reino Unido#COUNTRY
+Bolívia#COUNTRY
+Gana#COUNTRY
+Islândia#COUNTRY
+Svalbard & Jan Mayen Islands#COUNTRY
+Guiana#COUNTRY
+Irlanda#COUNTRY
+Jordânia#COUNTRY
+Burundi#COUNTRY
+Cabo Verde#COUNTRY
+Palau#COUNTRY
+Eslovênia#COUNTRY
+Malávi#COUNTRY
+Guatemala#COUNTRY
+Bielorrússia#COUNTRY
+Liechtenstein#COUNTRY
+Taiwan#COUNTRY
+Butão#COUNTRY
+Barein#COUNTRY
+Irlanda#COUNTRY
+Argélia#COUNTRY
+Macau#COUNTRY
+Roménia#COUNTRY
+Sérvia#COUNTRY
+Andorra#COUNTRY
+Bélgica#COUNTRY
+Greenland#COUNTRY
+Cabo Verde#COUNTRY
+Malávi#COUNTRY
+Anguila#COUNTRY
+Nova Zelândia#COUNTRY
+Líbia#COUNTRY
+Gabão#COUNTRY
+Burquina Faso#COUNTRY
+Akrotiri#COUNTRY
+Central African Republic#COUNTRY
+Seicheles#COUNTRY
+Santa Helena#COUNTRY
+Nepal#COUNTRY
+Argélia#COUNTRY
+Guiné-Bissau#COUNTRY
+Domínica#COUNTRY
+Paracel Islands#COUNTRY
+Samoa#COUNTRY
+Sweden#COUNTRY
+Argélia#COUNTRY
+Vanuatu#COUNTRY
+República Centro-Africana#COUNTRY
+Quênia#COUNTRY
+Marianas do Norte#COUNTRY
+Butão#COUNTRY
+Bangladesh#COUNTRY
+Angola#COUNTRY
+United States Virgin Islands#COUNTRY
+Mali#COUNTRY
+Maurícia#COUNTRY
+Azerbaijão#COUNTRY
+França#COUNTRY
+Barbados#COUNTRY
+Taiwan#COUNTRY
+Antártica#COUNTRY
+Níger#COUNTRY
+Turkey#COUNTRY
+Saint Kitts and Nevis#COUNTRY
+Colombia#COUNTRY
+Polinésia Francesa#COUNTRY
+Suíça#COUNTRY
+Vietnam#COUNTRY
+Indonésia#COUNTRY
+Marrocos#COUNTRY
+Lituânia#COUNTRY
+Coral Sea Islands#COUNTRY
+Costa do Marfim#COUNTRY
+Tunísia#COUNTRY
+Wallis e Futuna#COUNTRY
+Timor Leste#COUNTRY
+Domínica#COUNTRY
+Samoa Americana#COUNTRY
+Honduras#COUNTRY
+Etiópia#COUNTRY
+Ilhas Virgens Britânicas#COUNTRY
+Greenland#COUNTRY
+Taiwan#COUNTRY
+Belize#COUNTRY
+Nova Caledónia#COUNTRY
+Finlândia#COUNTRY
+Índia#COUNTRY
+Japão#COUNTRY
+Itália#COUNTRY
+Quênia#COUNTRY
+Letônia#COUNTRY
+Sudão#COUNTRY
+Malásia#COUNTRY
+Filipinas#COUNTRY
+Paquistão#COUNTRY
+Espanha#COUNTRY
+Ilhas Turcas e Caicos#COUNTRY
+Vanuatu#COUNTRY
+Cuba#COUNTRY
+Alemanha#COUNTRY
+Senegal#COUNTRY
+Sara Ocidental#COUNTRY
+Togo#COUNTRY
+São Pedro e Miquelon#COUNTRY
+Sri Lanka#COUNTRY
+Bielorrússia#COUNTRY
+Ilhas Salomão#COUNTRY
+Taiwan#COUNTRY
+Nepal#COUNTRY
+Angola#COUNTRY
+Mali#COUNTRY
+Barbados#COUNTRY
+Macedônia#COUNTRY
+Kenya#COUNTRY
+Ilhas dos Cocos#COUNTRY
+Suazilândia#COUNTRY
+Trindade e Tobago#COUNTRY
+União Europeia#COUNTRY
+Sara Ocidental#COUNTRY
+Coreia do Norte#COUNTRY
+Coreia do Sul#COUNTRY
+Moçambique#COUNTRY
+Equador#COUNTRY
+Panamá#COUNTRY
+Croácia#COUNTRY
+Usbequistão#COUNTRY
+Malávi#COUNTRY
+Togo#COUNTRY
+Iraque#COUNTRY
+Dinamarca#COUNTRY
+Chade#COUNTRY
+South Africa#COUNTRY
+Bangladesh#COUNTRY
+Jamaica#COUNTRY
+Mauritania#COUNTRY
+Serra Leoa#COUNTRY
+Bulgária#COUNTRY
+Panamá#COUNTRY
+Ilhas Virgens Britânicas#COUNTRY
+São Marinho#COUNTRY
+Catar#COUNTRY
+Chipre#COUNTRY
+São Cristóvão e Neves#COUNTRY
+Guadeloupe#COUNTRY
+Emirados Árabes Unidos#COUNTRY
+Libéria#COUNTRY
+Botsuana#COUNTRY
+Gronelândia#COUNTRY
+Heard Island and McDonald Islands#COUNTRY
+Domínica#COUNTRY
+Rússia#COUNTRY
+Comores#COUNTRY
+Dinamarca#COUNTRY
+Clipperton Island#COUNTRY
+Anguila#COUNTRY
+Gibraltar#COUNTRY
+Ilhas Caiman#COUNTRY
+Quênia#COUNTRY
+Sao Tome and Principe#COUNTRY
+Western Sahara#COUNTRY
+Haiti#COUNTRY
+Togo#COUNTRY
+Mauritânia#COUNTRY
+Ilhas Marshall#COUNTRY
+Fiji#COUNTRY
+Guam#COUNTRY
+Omã#COUNTRY
+Uganda#COUNTRY
+Granada#COUNTRY
+Dhekelia#COUNTRY
+Índia#COUNTRY
+Costa do Marfim#COUNTRY
+Tanzânia#COUNTRY
+Nigéria#COUNTRY
+Iêmen#COUNTRY
+Madagáscar#COUNTRY
+Saint Helena#COUNTRY
+Arábia Saudita#COUNTRY
+Mônaco#COUNTRY
+Albânia#COUNTRY
+Territórios Austrais Franceses#COUNTRY
+Belize#COUNTRY
+Sri Lanka#COUNTRY
+Dinamarca#COUNTRY
+Singapura#COUNTRY
+Roménia#COUNTRY
+Mayotte#COUNTRY
+Antígua e Barbuda#COUNTRY
+Territórios Austrais Franceses#COUNTRY
+Guinea#COUNTRY
+Moldova#COUNTRY
+Ilhas dos Cocos#COUNTRY
+Camarões#COUNTRY
+Albania#COUNTRY
+Ilha do Natal#COUNTRY
+Quênia#COUNTRY
+Libéria#COUNTRY
+Malávi#COUNTRY
+Ilha do Natal#COUNTRY
+México#COUNTRY
+Belize#COUNTRY
+Iêmen#COUNTRY
+Tonga#COUNTRY
+Luxemburgo#COUNTRY
+Croácia#COUNTRY
+Congo-Brazzaville#COUNTRY
+São Cristóvão e Neves#COUNTRY
+Jibuti#COUNTRY
+México#COUNTRY
+Argentina#COUNTRY
+Cabo Verde#COUNTRY
+Ecuador#COUNTRY
+Guernsey#COUNTRY
+Espanha#COUNTRY
+Mauritius#COUNTRY
+Equador#COUNTRY
+Malawi#COUNTRY
+Tajiquistão#COUNTRY
+Pitcairn#COUNTRY
+Qatar#COUNTRY
+Guatemala#COUNTRY
+Bélgica#COUNTRY
+República Dominicana#COUNTRY
+Bolívia#COUNTRY
+Nepal#COUNTRY
+Líbano#COUNTRY
+Palau#COUNTRY
+Guiné-Bissau#COUNTRY
+Sérvia#COUNTRY
+Liechtenstein#COUNTRY
+São Tomé e Príncipe#COUNTRY
+Camarões#COUNTRY
+Islândia#COUNTRY
+Bolívia#COUNTRY
+Israel#COUNTRY
+Guiné-Bissau#COUNTRY
+Nova Caledónia#COUNTRY
+Honduras#COUNTRY
+Letônia#COUNTRY
+Polinésia Francesa#COUNTRY
+Papua-Nova Guiné#COUNTRY
+Ilhas Falkland#COUNTRY
+Paquistão#COUNTRY
+Dominican Republic#COUNTRY
+Estados Unidos#COUNTRY
+Quirguizistão#COUNTRY
+Turquia#COUNTRY
+Bielorrússia#COUNTRY
+São Cristóvão e Neves#COUNTRY
+Birmânia#COUNTRY
+Armenia#COUNTRY
+Coreia do Norte#COUNTRY
+Espanha#COUNTRY
+Jamaica#COUNTRY
+Antilhas Holandesas#COUNTRY
+Gabão#COUNTRY
+Dinamarca#COUNTRY
+Granada#COUNTRY
+Panamá#COUNTRY
+Pitcairn#COUNTRY
+Islândia#COUNTRY
+Namíbia#COUNTRY
+Islândia#COUNTRY
+Syrian Arab Republic#COUNTRY
+Noruega#COUNTRY
+Zâmbia#COUNTRY
+Geórgia#COUNTRY
+Ilhas Heard e McDonald#COUNTRY
+Nova Caledónia#COUNTRY
+Antilhas Holandesas#COUNTRY
+Clipperton Island#COUNTRY
+Lesotho#COUNTRY
+Eslováquia#COUNTRY
+Tailândia#COUNTRY
+Santa Helena#COUNTRY
+Cuba#COUNTRY
+Malta#COUNTRY
+Laos#COUNTRY
+Cuba#COUNTRY
+Brasil#COUNTRY
+Sara Ocidental#COUNTRY
+Costa do Marfim#COUNTRY
+Malta#COUNTRY
+Arábia Saudita#COUNTRY
+Zâmbia#COUNTRY
+Vaticano#COUNTRY
+Navassa Island#COUNTRY
+Portugal#COUNTRY
+Suriname#COUNTRY
+Turquemenistão#COUNTRY
+Sara Ocidental#COUNTRY
+Costa Rica#COUNTRY
+Marrocos#COUNTRY
+Nova Zelândia#COUNTRY
+Sri Lanka#COUNTRY
+Arábia Saudita#COUNTRY
+Barbados#COUNTRY
+Guiné#COUNTRY
+Malásia#COUNTRY
+Papua-Nova Guiné#COUNTRY
+Gana#COUNTRY
+Áustria#COUNTRY
+Reino Unido#COUNTRY
+Malásia#COUNTRY
+Reino Unido#COUNTRY
+Haiti#COUNTRY
+Irlanda#COUNTRY
+Líbano#COUNTRY
+Taiwan#COUNTRY
+Senegal#COUNTRY
+Reino Unido#COUNTRY
+Ilhas Falkland#COUNTRY
+Geórgia#COUNTRY
+Mayotte#COUNTRY
+São Marinho#COUNTRY
+Micronésia#COUNTRY
+Poland#COUNTRY
+Samoa#COUNTRY
+Tajiquistão#COUNTRY
+Brasil#COUNTRY
+Ilhas Caiman#COUNTRY
+Honduras#COUNTRY
+Porto Rico#COUNTRY
+Dhekelia#COUNTRY
+Suazilândia#COUNTRY
+Niue#COUNTRY
+Gâmbia#COUNTRY
+Panamá#COUNTRY
+Antártica#COUNTRY
+Sara Ocidental#COUNTRY
+Dhekelia#COUNTRY
+Mozambique#COUNTRY
+Gana#COUNTRY
+Tonga#COUNTRY
+Sudão#COUNTRY
+Suazilândia#COUNTRY
+Portugal#COUNTRY
+Germany#COUNTRY
+Filipinas#COUNTRY
+Noruega#COUNTRY
+Lituânia#COUNTRY
+Dhekelia#COUNTRY
+Domínica#COUNTRY
+Mauritânia#COUNTRY
+Santa Helena#COUNTRY
+Coreia do Norte#COUNTRY
+Eritreia#COUNTRY
+Áustria#COUNTRY
+Panamá#COUNTRY
+Samoa#COUNTRY
+Ecuador#COUNTRY
+Guatemala#COUNTRY
+Chipre#COUNTRY
+Zimbabué#COUNTRY
+Ilhas Virgens Britânicas#COUNTRY
+Antígua e Barbuda#COUNTRY
+Iraque#COUNTRY
+Antígua e Barbuda#COUNTRY
+Angola#COUNTRY
+Armênia#COUNTRY
+São Pedro e Miquelon#COUNTRY
+Vanuatu#COUNTRY
+Macedônia#COUNTRY
+França#COUNTRY
+Finlândia#COUNTRY
+Irlanda#COUNTRY
+Vaticano#COUNTRY
+Niue#COUNTRY
+Ilhas Marshall#COUNTRY
+Antígua e Barbuda#COUNTRY
+Nicarágua#COUNTRY
+Ilhas Virgens Britânicas#COUNTRY
+Camarões#COUNTRY
+Ashmore and Cartier Islands#COUNTRY
+Ilhas Cook#COUNTRY
+Ruanda#COUNTRY
+Salvador#COUNTRY
+Paquistão#COUNTRY
+Porto Rico#COUNTRY
+Uganda#COUNTRY
+Martinique#COUNTRY
+Micronésia#COUNTRY
+Belize#COUNTRY
+Panamá#COUNTRY
+Mongólia#COUNTRY
+Mônaco#COUNTRY
+Botsuana#COUNTRY
+Cabo Verde#COUNTRY
+12/1951#DATE
+12/1976#DATE
+07/1987#DATE
+1987#DATE
+2013#DATE
+set. 2009#DATE
+nov 1963#DATE
+20/02/1978#DATE
+16-09-1953#DATE
+26-07-1994#DATE
+02/1982#DATE
+05/1985#DATE
+05/05/1944#DATE
+novembro 1944#DATE
+01-01-1972#DATE
+10/1954#DATE
+Set 1976#DATE
+12 Abril 1962#DATE
+3 Marzo 2004#DATE
+1 Junho 1941#DATE
+02/1956#DATE
+outubro 1993#DATE
+abril 1972#DATE
+fev 1989#DATE
+2005#DATE
+26 Fevereiro 2000#DATE
+6 setembro 1986#DATE
+julho 2003#DATE
+03-05-1962#DATE
+abril 1965#DATE
+Outubro 1961#DATE
+24/06/1947#DATE
+1952#DATE
+18-01-2009#DATE
+8 dezembro 1977#DATE
+01/1957#DATE
+1 Fevereiro 1955#DATE
+03-06-1994#DATE
+03/11/1949#DATE
+06/1967#DATE
+10/1971#DATE
+Maio 1995#DATE
+20 Setembro 2010#DATE
+08-05-1964#DATE
+06/1945#DATE
+09/1951#DATE
+01-04-1969#DATE
+2019#DATE
+04/1985#DATE
+Janeiro 1976#DATE
+Mai 2003#DATE
+26/04/1963#DATE
+06-01-2003#DATE
+16-01-1999#DATE
+marzo 1983#DATE
+Nov 2003#DATE
+24/11/1977#DATE
+26/04/1968#DATE
+15 julho 1965#DATE
+Dezembro 1948#DATE
+08/1973#DATE
+12-05-1944#DATE
+08/1974#DATE
+25 abril 1956#DATE
+07/2012#DATE
+04/2007#DATE
+Outubro 1945#DATE
+10/1993#DATE
+1997#DATE
+15 Abril 2003#DATE
+fevereiro 1991#DATE
+out. 1990#DATE
+Junho 2006#DATE
+10-03-1980#DATE
+05/1942#DATE
+06-09-1946#DATE
+01/04/1994#DATE
+Marzo 2000#DATE
+23 agosto 1999#DATE
+19-10-1941#DATE
+jun. 2004#DATE
+1951#DATE
+setembro 1999#DATE
+10/1979#DATE
+15 Novembro 2017#DATE
+09-02-1965#DATE
+abril 1966#DATE
+09-12-1987#DATE
+21/11/1987#DATE
+1941#DATE
+Maio 1970#DATE
+1 Novembro 1941#DATE
+11/10/1956#DATE
+11 dezembro 1970#DATE
+1940#DATE
+janeiro 2000#DATE
+11/1951#DATE
+08/2015#DATE
+04/2008#DATE
+1963#DATE
+7 janeiro 1961#DATE
+19 Novembro 1963#DATE
+1960#DATE
+19-12-2009#DATE
+10/11/1963#DATE
+3 agosto 1968#DATE
+fev. 2008#DATE
+11-10-1964#DATE
+27-06-1958#DATE
+1971#DATE
+08/05/1982#DATE
+17-07-1951#DATE
+Out. 2011#DATE
+fevereiro 2004#DATE
+04/07/2010#DATE
+05/07/1957#DATE
+27 Setembro 1946#DATE
+21 dezembro 2011#DATE
+09-12-2008#DATE
+1970#DATE
+21-01-2002#DATE
+28 novembro 1986#DATE
+07/05/1990#DATE
+14 abril 1987#DATE
+23 fevereiro 1974#DATE
+Jan. 1975#DATE
+08/2012#DATE
+14-11-1976#DATE
+1953#DATE
+09/1979#DATE
+dez 1981#DATE
+19/11/1998#DATE
+10 fevereiro 1940#DATE
+07/1941#DATE
+12/10/1969#DATE
+20/02/2010#DATE
+03/1963#DATE
+02/07/1973#DATE
+Mai 1989#DATE
+11 fevereiro 1996#DATE
+3 novembro 1978#DATE
+13 Maio 1944#DATE
+Abril 1981#DATE
+5 Junho 1987#DATE
+23/11/1945#DATE
+setembro 1951#DATE
+05/1946#DATE
+22-10-2017#DATE
+Janeiro 2012#DATE
+1971#DATE
+1962#DATE
+jun. 1998#DATE
+15 Abril 2017#DATE
+14-06-1980#DATE
+fev 2011#DATE
+21/08/1961#DATE
+11/1963#DATE
+abril 2017#DATE
+Agosto 2014#DATE
+1946#DATE
+01-06-1948#DATE
+fevereiro 1943#DATE
+4 Julho 2001#DATE
+6 Dezembro 1979#DATE
+19 dezembro 1962#DATE
+setembro 1944#DATE
+06/1992#DATE
+10/2019#DATE
+2003#DATE
+julho 2016#DATE
+4 fevereiro 1960#DATE
+17-12-1987#DATE
+Julho 2018#DATE
+11/01/1970#DATE
+11/10/1991#DATE
+2 Junho 1972#DATE
+28-06-2018#DATE
+07/06/1945#DATE
+14-10-2016#DATE
+5 Outubro 1998#DATE
+07/2005#DATE
+Maio 2002#DATE
+05/1969#DATE
+03/07/1996#DATE
+11/1960#DATE
+15/06/1981#DATE
+1970#DATE
+28/11/1959#DATE
+Nov 1944#DATE
+1 Agosto 1981#DATE
+16-07-2014#DATE
+16/07/1969#DATE
+12/2011#DATE
+21 Abril 1989#DATE
+maio 1980#DATE
+28-02-2001#DATE
+04/05/2004#DATE
+19-12-1972#DATE
+22/06/2001#DATE
+22 Janeiro 2018#DATE
+1959#DATE
+Maio 1983#DATE
+01-11-1940#DATE
+1954#DATE
+14-09-1955#DATE
+17/02/2015#DATE
+1949#DATE
+02/1950#DATE
+2 novembro 1957#DATE
+12/11/1953#DATE
+15 abril 2004#DATE
+14-06-1973#DATE
+08/06/1948#DATE
+01/07/1971#DATE
+Maio 1996#DATE
+7 outubro 1990#DATE
+15/11/1975#DATE
+24 julho 1989#DATE
+23/06/1986#DATE
+07/12/2008#DATE
+22 junho 1972#DATE
+06/1981#DATE
+Janeiro 1992#DATE
+26/07/1984#DATE
+Fevereiro 1987#DATE
+1990#DATE
+8 julho 1956#DATE
+Abr 1989#DATE
+21 maio 2001#DATE
+10/01/2013#DATE
+25 dezembro 1977#DATE
+1974#DATE
+16/01/1953#DATE
+07/2017#DATE
+5 dezembro 1952#DATE
+14 novembro 1976#DATE
+15 fevereiro 1941#DATE
+2 Abril 1970#DATE
+02-04-2015#DATE
+06/1991#DATE
+1971#DATE
+Setembro 1962#DATE
+set. 1974#DATE
+2000#DATE
+nov 1955#DATE
+2014#DATE
+04/1953#DATE
+marzo 1943#DATE
+28-09-1950#DATE
+08-07-2007#DATE
+09/2002#DATE
+02/2002#DATE
+8 agosto 1980#DATE
+14/04/2018#DATE
+Setembro 1991#DATE
+03/1960#DATE
+01/1982#DATE
+Janeiro 2001#DATE
+03/1980#DATE
+Novembro 1995#DATE
+11 maio 2014#DATE
+24/10/2012#DATE
+12-11-1971#DATE
+12/1995#DATE
+jan. 2017#DATE
+Setembro 1963#DATE
+12/05/1944#DATE
+15 Julho 2018#DATE
+05-12-2004#DATE
+Nov. 2012#DATE
+22 marzo 1976#DATE
+Novembro 1944#DATE
+junho 1974#DATE
+04/1967#DATE
+Junho 1961#DATE
+Nov 1976#DATE
+20/11/1981#DATE
+Dezembro 1989#DATE
+marzo 1967#DATE
+08/1959#DATE
+1951#DATE
+10/1985#DATE
+Setembro 2012#DATE
+25 maio 1966#DATE
+06-05-1979#DATE
+Novembro 1987#DATE
+19 Dezembro 1969#DATE
+4 janeiro 1957#DATE
+27-12-2019#DATE
+22/11/1995#DATE
+mar 2001#DATE
+outubro 1955#DATE
+Setembro 1969#DATE
+Julho 1971#DATE
+1988#DATE
+24 julho 1959#DATE
+26/10/1953#DATE
+1950#DATE
+04/1994#DATE
+18-09-2016#DATE
+1992#DATE
+20 Janeiro 2014#DATE
+Jun 1992#DATE
+17-05-1951#DATE
+18-02-2019#DATE
+Julho 1961#DATE
+23-05-1966#DATE
+12/2003#DATE
+setembro 1989#DATE
+24-04-2004#DATE
+04/1949#DATE
+24/04/1959#DATE
+11/1963#DATE
+Outubro 1957#DATE
+14/10/1986#DATE
+maio 2011#DATE
+setembro 2002#DATE
+05/1981#DATE
+abr 1942#DATE
+Dezembro 1947#DATE
+10/1946#DATE
+Marzo 1958#DATE
+Mai 2000#DATE
+7 Julho 1992#DATE
+Ago 2017#DATE
+16-02-1975#DATE
+04/1999#DATE
+16-04-1950#DATE
+09/1982#DATE
+01/1971#DATE
+Set. 2000#DATE
+Agosto 1975#DATE
+Setembro 1952#DATE
+18 junho 2007#DATE
+23 Novembro 1966#DATE
+06/1990#DATE
+1983#DATE
+Mai 1954#DATE
+03/2011#DATE
+junho 1997#DATE
+Jun. 1951#DATE
+25-10-1985#DATE
+11/10/2007#DATE
+1 Maio 1975#DATE
+1 setembro 2013#DATE
+10 agosto 2018#DATE
+13/05/1979#DATE
+1941#DATE
+Junho 1945#DATE
+8 Julho 1974#DATE
+12/2003#DATE
+Abril 1996#DATE
+26 Abril 1942#DATE
+Maio 1981#DATE
+04/1945#DATE
+11/2014#DATE
+01/12/1962#DATE
+10-10-2008#DATE
+set 2013#DATE
+14 fevereiro 1952#DATE
+21 Outubro 1960#DATE
+12/1949#DATE
+Abr. 1992#DATE
+03-02-1967#DATE
+25 Agosto 1953#DATE
+03/1943#DATE
+1945#DATE
+Mai 1994#DATE
+25-11-2010#DATE
+1 setembro 2011#DATE
+07/07/1953#DATE
+03/09/2001#DATE
+18-09-1985#DATE
+09/1998#DATE
+11/06/1950#DATE
+1996#DATE
+2016#DATE
+outubro 2017#DATE
+11/1978#DATE
+11/1980#DATE
+3 Maio 1959#DATE
+12/1948#DATE
+abril 2014#DATE
+Jul. 1966#DATE
+1969#DATE
+Out. 1940#DATE
+15-12-1980#DATE
+8 dezembro 1967#DATE
+Dezembro 1995#DATE
+1986#DATE
+Novembro 2000#DATE
+janeiro 1978#DATE
+3 Agosto 1958#DATE
+25-12-1991#DATE
+28-04-1970#DATE
+22 Junho 1990#DATE
+09-01-1971#DATE
+24 dezembro 1989#DATE
+07-12-1970#DATE
+10 maio 1944#DATE
+nov. 1993#DATE
+1994#DATE
+Setembro 1987#DATE
+ago. 1979#DATE
+julho 1972#DATE
+16 Fevereiro 1965#DATE
+06/1984#DATE
+07/1977#DATE
+2 Outubro 1942#DATE
+2012#DATE
+16/07/2003#DATE
+18 Setembro 1970#DATE
+Mai 1991#DATE
+jul 1978#DATE
+07-09-1993#DATE
+01/12/2018#DATE
+03/2002#DATE
+maio 1972#DATE
+07/07/1965#DATE
+Junho 1980#DATE
+1947#DATE
+05/1992#DATE
+08/08/1990#DATE
+Julho 1951#DATE
+27 setembro 2012#DATE
+2014#DATE
+13 Marzo 1993#DATE
+04/2010#DATE
+1979#DATE
+11/1985#DATE
+26 Julho 1975#DATE
+6 agosto 1941#DATE
+1981#DATE
+03/10/1974#DATE
+1959#DATE
+08/12/2016#DATE
+9 fevereiro 1960#DATE
+11/2005#DATE
+08/1985#DATE
+24/12/1990#DATE
+21/03/1992#DATE
+14/06/2000#DATE
+08-09-1944#DATE
+1963#DATE
+19 outubro 1944#DATE
+01/2017#DATE
+14 Fevereiro 2004#DATE
+09/1971#DATE
+Agosto 2018#DATE
+2015#DATE
+24/06/1965#DATE
+26-06-1996#DATE
+4 Agosto 1960#DATE
+27 Dezembro 1985#DATE
+setembro 1974#DATE
+janeiro 1956#DATE
+22/05/1980#DATE
+16/06/2005#DATE
+14 Setembro 1994#DATE
+17/12/2004#DATE
+3 Abril 2004#DATE
+11 setembro 1993#DATE
+04/2013#DATE
+junho 1986#DATE
+out. 1990#DATE
+11/2011#DATE
+1949#DATE
+23/12/1972#DATE
+06/2010#DATE
+Jun 2005#DATE
+Set 1971#DATE
+1975#DATE
+jun 1949#DATE
+20 Janeiro 1953#DATE
+marzo 1997#DATE
+06/1967#DATE
+27 agosto 2003#DATE
+02/1997#DATE
+11 abril 2001#DATE
+Dezembro 1997#DATE
+08/2015#DATE
+05/07/2014#DATE
+marzo 2014#DATE
+05/1970#DATE
+26 Julho 1984#DATE
+5 marzo 1955#DATE
+22/02/2004#DATE
+16 Julho 1947#DATE
+11/1955#DATE
+26-01-1976#DATE
+abr 1966#DATE
+17/01/1943#DATE
+05/10/2008#DATE
+Dez 1973#DATE
+13-08-1944#DATE
+dez 1960#DATE
+1979#DATE
+julho 1967#DATE
+10 Marzo 2007#DATE
+1976#DATE
+07-03-1962#DATE
+23/03/1988#DATE
+abril 1991#DATE
+24/08/1950#DATE
+19 maio 2012#DATE
+21/01/1941#DATE
+19-04-1948#DATE
+10/2012#DATE
+12/1962#DATE
+08/02/1944#DATE
+12/2011#DATE
+09/1950#DATE
+1947#DATE
+07/04/1985#DATE
+08/2016#DATE
+1941#DATE
+18-08-1969#DATE
+04/1942#DATE
+23/07/1961#DATE
+22-05-2017#DATE
+1989#DATE
+1966#DATE
+Janeiro 1995#DATE
+27/10/1959#DATE
+2017#DATE
+05/1981#DATE
+2008#DATE
+1997#DATE
+01/1951#DATE
+2002#DATE
+julho 1980#DATE
+Setembro 1962#DATE
+03/1957#DATE
+outubro 2013#DATE
+28-03-1995#DATE
+28/02/1995#DATE
+13 maio 1975#DATE
+10/1961#DATE
+1946#DATE
+06-06-1972#DATE
+18 setembro 1942#DATE
+23 Setembro 1949#DATE
+10/1961#DATE
+04/02/1947#DATE
+Maio 1986#DATE
+10/1944#DATE
+20/05/1983#DATE
+10-10-1947#DATE
+19-08-1983#DATE
+18-01-1945#DATE
+11/2014#DATE
+08/1962#DATE
+11/11/2014#DATE
+Abril 1995#DATE
+02-12-2016#DATE
+Jun 1985#DATE
+1964#DATE
+22 Dezembro 1987#DATE
+03/1971#DATE
+28-09-1978#DATE
+Junho 2014#DATE
+Out. 1967#DATE
+01/1988#DATE
+25 Setembro 1995#DATE
+julho 1945#DATE
+12/1975#DATE
+19/09/1956#DATE
+janeiro 1945#DATE
+22/10/1948#DATE
+11 Abril 1987#DATE
+13 Janeiro 1950#DATE
+16/12/1998#DATE
+04/05/2010#DATE
+06/1985#DATE
+12 janeiro 1946#DATE
+06/1966#DATE
+25-02-1952#DATE
+1976#DATE
+8 Outubro 1983#DATE
+24 Julho 1959#DATE
+Outubro 1949#DATE
+junho 1995#DATE
+22-03-1971#DATE
+2 Julho 1957#DATE
+04-09-1953#DATE
+12-04-1986#DATE
+dezembro 1974#DATE
+Out 1973#DATE
+20/09/1961#DATE
+Jul 1975#DATE
+13 Abril 1977#DATE
+22 agosto 2004#DATE
+10-04-2011#DATE
+julho 1982#DATE
+25 novembro 1982#DATE
+07/1960#DATE
+14 agosto 1964#DATE
+18 Marzo 2008#DATE
+1956#DATE
+20 Agosto 1981#DATE
+Hospital de Egas Moniz#HOSPITAL
+Centro Hospitalar do Medio Ave#HOSPITAL
+Hospital de Santo Espirito da ilha Terceira#HOSPITAL
+Hospital Doutor José Maria Grande#HOSPITAL
+Unidade Local de Saude de Matosinhos - Hospital Pedro Hispano#HOSPITAL
+Hospital da Horta, E.P.E.#HOSPITAL
+Hospital da Senhora da Oliveira#HOSPITAL
+Hospital de Caridade Sao Vincente de Paulo#HOSPITAL
+Centro Hospitalar Universitario do Algarve#HOSPITAL
+Unidade Local de Saúde de Castelo Branco#HOSPITAL
+Centro Hospitalar Lisboa Norte#HOSPITAL
+Hospital Municipal Salgado Filho#HOSPITAL
+Hospital Distrital da Figueira da Foz#HOSPITAL
+Hospital Prof. Doutor Fernando Fonseca, E.P.E.#HOSPITAL
+Hospital Santa Casa de Misericordia de Maceio#HOSPITAL
+Hospital Santa Luzia Elvas#HOSPITAL
+Centro Hospitalar Cova da Beira#HOSPITAL
+Hospital Vila Franca de Xira#HOSPITAL
+Hospital Santa Casa de Vitória#HOSPITAL
+Centro Hospitalar Barreiro Montijo, EPE#HOSPITAL
+Hospital de Santa Luzia#HOSPITAL
+Hospital Estadual Doutor Jayme Dos Santos Neves#HOSPITAL
+Hospital Geral - Centro Hospitalar de Coimbra#HOSPITAL
+Hospital de Santarem#HOSPITAL
+Unidade Local de Saude do Baixo Alentejo#HOSPITAL
+Hospital do Espirito Santo#HOSPITAL
+Centro Hospitalar Vila Nova de Gaia/Espinho#HOSPITAL
+Centro Hospitalar Entre o Douro e Vouga#HOSPITAL
+Conjunto Hospitalar de Sorocaba#HOSPITAL
+Hospital Santa Cruz#HOSPITAL
+IPO Porto#HOSPITAL
+Hospital Sao Francisco Xavier#HOSPITAL
+Hospital Infantil Nosa Senhora da Gloria#HOSPITAL
+Centro Hospitalar Sao Joao#HOSPITAL
+Hospital do Litoral Alentejano#HOSPITAL
+Hospital De Clinicas da Unicamp#HOSPITAL
+Centro Hospitalar de Setúbal#HOSPITAL
+Centro Hospitalar Tondela-Viseu#HOSPITAL
+Centro Hospitalar do Baixo Vouga#HOSPITAL
++55 (041) 4220-8964#PHONE
++55 (061) 4704 4572#PHONE
+(084) 4625 9508#PHONE
+(011) 0941 8550#PHONE
+(051) 4062-1269#PHONE
++55 (021) 7300-2506#PHONE
+(031) 6135 7505#PHONE
++55 84 2845-1940#PHONE
++55 (061) 6295 5031#PHONE
+(041) 1058-1503#PHONE
++55 71 3548 2022#PHONE
++55 84 9871 0517#PHONE
++55 31 8592-9001#PHONE
++55 (051) 8209 9787#PHONE
+11 8883 5861#PHONE
++55 71 4593 3461#PHONE
+(041) 7009-6828#PHONE
+(021) 7549-4183#PHONE
+61 0407 7087#PHONE
+(051) 1663 9318#PHONE
+(081) 2078 2637#PHONE
++55 11 7203-0478#PHONE
++55 (041) 6223-9371#PHONE
++55 (051) 9819-3246#PHONE
++55 (051) 5901-7694#PHONE
++55 (061) 4568 7212#PHONE
++55 21 2106-7360#PHONE
++55 51 1228 0933#PHONE
++55 11 9516-7910#PHONE
++55 (021) 2509 0207#PHONE
++55 21 7882-8865#PHONE
+0300-589-8722#PHONE
++55 31 9990 8561#PHONE
++55 (081) 9135 9868#PHONE
+(071) 6335-0652#PHONE
++55 (081) 2633-2589#PHONE
++55 (031) 4888 3966#PHONE
++55 31 1979 1579#PHONE
+(061) 7755-2499#PHONE
+0900 210 4128#PHONE
+31 7159 7523#PHONE
++55 (051) 7843-6148#PHONE
+41 1834-0555#PHONE
+0900-128-4578#PHONE
+(071) 8925-2194#PHONE
+(051) 1758-7850#PHONE
++55 81 1106 7083#PHONE
+(031) 5532-9620#PHONE
+0900 538 8999#PHONE
++55 (051) 5798-5153#PHONE
+61 0888 6842#PHONE
++55 (084) 6296 9670#PHONE
++55 81 3170 9605#PHONE
+(031) 7836 6618#PHONE
++55 (031) 1780-0251#PHONE
+84 6432 3255#PHONE
+(081) 8305-3145#PHONE
+84 4739-5416#PHONE
+(081) 6612 2212#PHONE
+84 6440 4513#PHONE
+0800-638-1341#PHONE
++55 (051) 2051-9608#PHONE
+(041) 6410 7868#PHONE
++55 (041) 6430 1964#PHONE
+31 2666 1438#PHONE
++55 61 7921 1269#PHONE
+(071) 8984 4408#PHONE
+(071) 3006 7279#PHONE
+(081) 5712 0259#PHONE
+0900 470 7222#PHONE
+(041) 1847-3431#PHONE
++55 81 6712-7779#PHONE
++55 11 4003 1823#PHONE
+41 7411-5015#PHONE
+0800-350-8272#PHONE
++55 (021) 1949-0872#PHONE
++55 (031) 9166 7897#PHONE
+(041) 3450 3667#PHONE
+(084) 8793 4332#PHONE
+(061) 9002 6789#PHONE
+31 2737 5889#PHONE
+(041) 1884 5764#PHONE
++55 51 1281 9153#PHONE
+(011) 2532-0189#PHONE
++55 (071) 2192-2669#PHONE
++55 61 0047 8965#PHONE
++55 (061) 7941 3371#PHONE
++55 (071) 5230 6375#PHONE
+(084) 6105-3441#PHONE
+0900-527-0553#PHONE
+0800-544-3906#PHONE
+41 6279 3080#PHONE
++55 (041) 2348 9124#PHONE
+(051) 3307-3088#PHONE
+0800 615 2370#PHONE
+61 3823 5359#PHONE
+61 9628-1221#PHONE
++55 51 5478 5447#PHONE
+(031) 9181 4248#PHONE
+(051) 9346-6425#PHONE
++55 61 9916 9964#PHONE
++55 31 8457-1762#PHONE
++55 (051) 3582 7019#PHONE
+31 5492 8558#PHONE
++55 71 6547-5798#PHONE
++55 (071) 3833 1482#PHONE
++55 (071) 3979-2266#PHONE
++55 61 7598-4014#PHONE
++55 84 5007-3815#PHONE
++55 (081) 5882-4012#PHONE
+84 2308-1702#PHONE
+41 3224-2373#PHONE
++55 51 9745 1755#PHONE
+31 4927-9372#PHONE
+21 3992 7310#PHONE
++55 (081) 0627 3743#PHONE
++55 (051) 8411 3729#PHONE
+21 5139-8957#PHONE
+(031) 9222 8259#PHONE
+(061) 8661 1564#PHONE
+84 4721 8560#PHONE
+(031) 4391-7824#PHONE
+0900-442-4543#PHONE
+0300 304 8779#PHONE
++55 (011) 0155-2698#PHONE
++55 (041) 4950-6670#PHONE
+0900-374-2314#PHONE
+61 1975-8278#PHONE
+0300-592-6423#PHONE
+71 3849 8921#PHONE
+51 8069 7122#PHONE
+(071) 4940 6066#PHONE
++55 84 1573 9458#PHONE
+(084) 1748 1923#PHONE
+(081) 6665 8030#PHONE
++55 (051) 0080-4379#PHONE
++55 21 2650 3702#PHONE
+(051) 7585 8213#PHONE
++55 81 0597-9210#PHONE
++55 61 4193-9174#PHONE
++55 81 1448 5698#PHONE
+(084) 3017-5307#PHONE
+0500-144-1733#PHONE
+0500-090-1026#PHONE
++55 (051) 1266-9211#PHONE
++55 (021) 3651-8913#PHONE
+21 2377 1606#PHONE
++55 41 2141 0401#PHONE
++55 (011) 2002-5142#PHONE
+(031) 1511-4630#PHONE
++55 31 5195-4137#PHONE
+0800-050-6311#PHONE
++55 (021) 1893-6069#PHONE
+21 5179-5472#PHONE
+41 0321-0141#PHONE
++55 (084) 1808 2258#PHONE
+41 3871-8594#PHONE
+0900 499 8243#PHONE
++55 84 5254-4757#PHONE
++55 21 0127-3376#PHONE
+21 3146-7344#PHONE
+41 7665-0331#PHONE
+(031) 1605 5110#PHONE
++55 11 1339 4757#PHONE
+11 6232-1229#PHONE
+41 7507-6591#PHONE
+(041) 2062-4873#PHONE
++55 84 8990-3035#PHONE
+81 9186 7440#PHONE
+(061) 8826-1286#PHONE
+11 6093 2892#PHONE
++55 (011) 5739 3990#PHONE
+(084) 8488-4668#PHONE
+0500-630-1584#PHONE
+11 8537-9119#PHONE
+84 8968-8223#PHONE
++55 (031) 7289 8749#PHONE
+0800-793-6966#PHONE
+(011) 0509-1187#PHONE
+(061) 1274 3447#PHONE
+(071) 1948-7745#PHONE
++55 (081) 5215-0702#PHONE
+0900-469-2679#PHONE
+(081) 6518 0327#PHONE
+0900-937-3593#PHONE
++55 84 0002-0363#PHONE
+(031) 6513-8242#PHONE
++55 (021) 0916 5153#PHONE
+(071) 8236-8117#PHONE
++55 21 7958 2081#PHONE
+71 8695 8597#PHONE
++55 71 1858-3750#PHONE
++55 11 6004 6377#PHONE
+0900 075 5331#PHONE
++55 (051) 3165-5425#PHONE
++55 (051) 0779-5466#PHONE
+61 3719-8272#PHONE
+81 0970-4361#PHONE
+(021) 0431-1509#PHONE
+61 6595 8580#PHONE
++55 (061) 7478 5968#PHONE
+0900-880-8692#PHONE
+81 1343-1002#PHONE
++55 (061) 0952 8510#PHONE
+0500 408 5283#PHONE
+(051) 3292 4167#PHONE
+71 0768-1767#PHONE
++55 (031) 4780 4792#PHONE
+0800-848-8202#PHONE
+(081) 6222 4247#PHONE
+41 8191 9066#PHONE
+(011) 9681-9807#PHONE
++55 11 4438 9053#PHONE
+0900 840 7172#PHONE
+41 0658-6129#PHONE
++55 (084) 7422 8951#PHONE
+(011) 9923-2181#PHONE
+0500 611 9879#PHONE
+71 6853-8146#PHONE
+11 9170-0198#PHONE
++55 (051) 0087-5783#PHONE
++55 41 6687 1365#PHONE
+(031) 2869-8087#PHONE
++55 21 3648-3409#PHONE
++55 (071) 4240-9950#PHONE
++55 (011) 4230 4651#PHONE
+(071) 3840-4836#PHONE
+(041) 5478-7371#PHONE
++55 (081) 4507 6634#PHONE
++55 11 6643 7109#PHONE
+71 0086 0499#PHONE
+(041) 3142 3281#PHONE
++55 84 0305-7001#PHONE
+(021) 2987-4986#PHONE
+41 3090 2435#PHONE
+71 3888 1794#PHONE
+0500 643 5646#PHONE
+21 9987 5267#PHONE
++55 81 6054-8261#PHONE
++55 (061) 0250-3376#PHONE
++55 (061) 6088 3819#PHONE
+0300 140 3692#PHONE
+(061) 9030 2211#PHONE
++55 21 4025-3001#PHONE
+(084) 9317 4624#PHONE
++55 (041) 3588-9622#PHONE
++55 11 3016-1361#PHONE
++55 (031) 7711 4125#PHONE
++55 (061) 2357-1357#PHONE
+61 5308-0677#PHONE
+41 4351 3265#PHONE
+0500 556 3078#PHONE
++55 (031) 8836 3023#PHONE
++55 31 7759 8780#PHONE
+(071) 1211 7558#PHONE
++55 21 7425 5883#PHONE
++55 51 0671 8385#PHONE
+(041) 0052 8640#PHONE
+0500 098 3757#PHONE
+(021) 4441 0060#PHONE
++55 (071) 2750 5228#PHONE
+61 9352-5796#PHONE
++55 (011) 8905 2731#PHONE
+(081) 9990-3757#PHONE
+0300-433-8951#PHONE
++55 31 1800-9166#PHONE
++55 61 7336 4742#PHONE
+0800 709 3802#PHONE
+(081) 4052 3885#PHONE
+0500-184-3708#PHONE
++55 (061) 1516-1781#PHONE
++55 11 1073-0920#PHONE
+(071) 7665-9546#PHONE
++55 (081) 1104-7658#PHONE
+(084) 8267 1867#PHONE
++55 (071) 8265-8026#PHONE
+61 5849-5937#PHONE
+0900-173-6449#PHONE
+(021) 9653-8068#PHONE
+(011) 1751-4298#PHONE
++55 (084) 8405 3134#PHONE
+(081) 8240 5537#PHONE
++55 (061) 9947 8144#PHONE
+11 0295-7252#PHONE
+(061) 9570-4540#PHONE
+21 5754 2501#PHONE
++55 (071) 5180 4927#PHONE
++55 31 3303-0530#PHONE
+81 8177 6690#PHONE
++55 (031) 6422 9759#PHONE
++55 71 2889-1162#PHONE
++55 (021) 7208 3461#PHONE
++55 31 2953 7683#PHONE
+(031) 7004-2704#PHONE
+(031) 2611-5705#PHONE
+0900 983 6129#PHONE
+41 4048-0095#PHONE
++55 (061) 0496 6928#PHONE
+0300 788 3412#PHONE
+81 8877 3111#PHONE
++55 (061) 0780 2592#PHONE
+(084) 5461-6944#PHONE
++55 31 6530-5957#PHONE
+(081) 8827 5885#PHONE
++55 (084) 1829 3382#PHONE
++55 (041) 1134-2790#PHONE
++55 81 3568-2006#PHONE
++55 84 3215-8083#PHONE
+(084) 9037-9110#PHONE
++55 (041) 9318 1071#PHONE
+51 6184 4240#PHONE
+(021) 4929-4011#PHONE
+51 7541 6731#PHONE
+(051) 6731-7008#PHONE
++55 (041) 0108 7112#PHONE
++55 (021) 0266 3658#PHONE
++55 (084) 0932 0102#PHONE
+(071) 7333 3551#PHONE
+0800 139 2411#PHONE
+(081) 3626 3807#PHONE
++55 41 7442-6492#PHONE
++55 81 8614 8853#PHONE
+81 9007-9584#PHONE
+0300 819 1840#PHONE
+11 4886-2763#PHONE
++55 81 1496-1061#PHONE
+11 1800-4224#PHONE
++55 81 6771-9468#PHONE
+41 4861 4021#PHONE
+(041) 5594-3205#PHONE
+0300 765 3222#PHONE
++55 (061) 5446 1349#PHONE
++55 (081) 9699-3380#PHONE
++55 71 9131-0428#PHONE
+(081) 3885 8362#PHONE
++55 11 3382-2028#PHONE
+(084) 7472-7292#PHONE
+84 5707-4561#PHONE
+61 1303-1048#PHONE
++55 61 2605-4828#PHONE
+71 8633 5743#PHONE
+0900-807-7781#PHONE
+31 9758 6895#PHONE
++55 (041) 1511 6824#PHONE
+(021) 7569-1754#PHONE
++55 31 8372 1528#PHONE
++55 (011) 8573-2852#PHONE
+(071) 0310-6352#PHONE
+21 6550-3763#PHONE
+0900 666 8194#PHONE
+41 5172 0067#PHONE
++55 (021) 5215 9625#PHONE
+11 3743 6617#PHONE
+(021) 6569 8201#PHONE
+0500-001-4282#PHONE
++55 (041) 9941-3874#PHONE
++55 41 6437 2861#PHONE
++55 41 1673-1625#PHONE
+0500 720 6876#PHONE
+11 6358 4568#PHONE
++55 (011) 8645 5310#PHONE
++55 (051) 9744 2019#PHONE
+21 4850-6040#PHONE
+(084) 7733 9624#PHONE
+71 9777-9942#PHONE
++55 11 8931-6271#PHONE
+(084) 3108 8832#PHONE
++55 41 6259 2451#PHONE
+0900-200-0750#PHONE
+84 6190 9157#PHONE
++55 11 3050-0199#PHONE
+41 9529 9488#PHONE
++55 (011) 3790 3293#PHONE
+(031) 7553-0440#PHONE
++55 51 9315 1668#PHONE
++55 (011) 0613-5826#PHONE
+81 0524-8109#PHONE
++55 51 8255 9893#PHONE
+51 6438 4415#PHONE
+(071) 8560 4380#PHONE
++55 (081) 9566 9088#PHONE
++55 84 2282-1861#PHONE
+(051) 5445 0702#PHONE
+31 5037 3022#PHONE
++55 (011) 6990 9466#PHONE
++55 (084) 5480-7169#PHONE
+21 8666 1655#PHONE
++55 (041) 5531 4709#PHONE
++55 (011) 0202-0541#PHONE
+0800 879 2309#PHONE
++55 84 4759 5182#PHONE
+11 9646 7560#PHONE
++55 (041) 4780-1580#PHONE
++55 (084) 3998 1541#PHONE
++55 84 8551-3411#PHONE
+(041) 5753-9297#PHONE
+0900-289-4822#PHONE
++55 81 6266-7151#PHONE
+(011) 3846 9169#PHONE
+(061) 5928-8923#PHONE
+(051) 6372 4680#PHONE
+31 1727 1760#PHONE
+(084) 8081-3721#PHONE
+11 7185-8987#PHONE
++55 11 7077 7569#PHONE
++55 61 5046 7506#PHONE
+(021) 9318-7150#PHONE
++55 61 7216-2318#PHONE
++55 41 6097-6859#PHONE
++55 (011) 8684 3012#PHONE
++55 11 6517 3413#PHONE
++55 (041) 3246 5848#PHONE
+11 5718 7429#PHONE
++55 (081) 2301 6159#PHONE
+(084) 0600 5779#PHONE
++55 (041) 4599-0409#PHONE
++55 (021) 5454-2357#PHONE
+(061) 9663-2062#PHONE
+0800-078-7994#PHONE
++55 (071) 1079-7588#PHONE
++55 81 6822 1678#PHONE
+0900-066-6162#PHONE
+0500 037 2200#PHONE
+0800-457-1378#PHONE
++55 84 7717 8639#PHONE
++55 (071) 3684 7526#PHONE
+(051) 0885-2762#PHONE
++55 (041) 9131-9780#PHONE
++55 84 1188-9328#PHONE
++55 84 5874-7428#PHONE
+61 2095-4454#PHONE
+84 0592-2808#PHONE
++55 (011) 6116 1633#PHONE
++55 51 4399 7510#PHONE
++55 (051) 6895 4107#PHONE
++55 81 6858-3542#PHONE
++55 41 8994-7265#PHONE
++55 21 1761 7171#PHONE
++55 (084) 8100-2536#PHONE
++55 21 1134 7686#PHONE
+(031) 2197 1414#PHONE
+11 4890-5007#PHONE
+(041) 7879 9897#PHONE
+(031) 5446 2825#PHONE
++55 84 9937 6694#PHONE
++55 81 0552-7605#PHONE
+(041) 4959 1916#PHONE
+(031) 6681-8436#PHONE
+21 1739 9778#PHONE
+0300 821 2821#PHONE
+(021) 4117 1602#PHONE
++55 41 8053 7693#PHONE
++55 (041) 6196-7298#PHONE
+84 5391 8518#PHONE
+71 0366 9136#PHONE
++55 (011) 8908-9958#PHONE
+(084) 7100 3757#PHONE
+(081) 7722 5575#PHONE
+(051) 0548 5472#PHONE
++55 84 8357 2644#PHONE
+21 7096-0029#PHONE
+81 2613 6788#PHONE
++55 (041) 5382-8471#PHONE
+41 3584-4794#PHONE
+(061) 0112-4107#PHONE
++55 51 6665 1751#PHONE
+41 6038 3051#PHONE
+61 6645 5893#PHONE
++55 41 5532 1797#PHONE
++55 11 3983 9510#PHONE
++55 (031) 8846 2744#PHONE
+0300-832-5750#PHONE
+31 7006-9279#PHONE
+21 7782-1140#PHONE
++55 (051) 3856 3853#PHONE
+11 9060 4796#PHONE
+41 5232 3182#PHONE
+0500 295 4883#PHONE
++55 (071) 3197-4823#PHONE
++55 31 0354 3533#PHONE
+(051) 5812 0165#PHONE
+0300 030 2608#PHONE
++55 (081) 5669-8133#PHONE
++55 31 0361 8484#PHONE
++55 61 6560 4062#PHONE
++55 81 8604 2465#PHONE
++55 41 6855-0990#PHONE
+0900 484 6885#PHONE
+(031) 0591-0554#PHONE
+(051) 0911-5885#PHONE
+0300-146-6514#PHONE
++55 (071) 7534 3790#PHONE
++55 21 4890 4168#PHONE
+31 2233-6136#PHONE
++55 (041) 2971 5690#PHONE
++55 11 3348 2381#PHONE
+(031) 3387-3172#PHONE
+(081) 8346-2361#PHONE
+(011) 3405-7214#PHONE
++55 41 6033-4751#PHONE
++55 31 3741-9125#PHONE
+(041) 0308-5659#PHONE
++55 (071) 4089 4754#PHONE
++55 (081) 9967-4046#PHONE
++55 31 4054 3204#PHONE
++55 81 3856-3316#PHONE
++55 (021) 1255 4158#PHONE
+(011) 8833 6675#PHONE
+61 8134-5857#PHONE
++55 (081) 4778-0965#PHONE
+51 0293 2464#PHONE
++55 (084) 1343 7609#PHONE
++55 (041) 6418 6727#PHONE
+(081) 8165 1234#PHONE
+41 4466-4704#PHONE
+0900-344-5351#PHONE
++55 (051) 3517 7277#PHONE
+11 4321 1728#PHONE
+11 1518 5953#PHONE
++55 (011) 2755 1073#PHONE
++55 41 6519-6137#PHONE
++55 (051) 4725 8589#PHONE
+0900-628-8812#PHONE
+(031) 9071-7724#PHONE
++55 84 9162 6005#PHONE
++55 21 6028-0234#PHONE
+(041) 4671 5415#PHONE
++55 11 2023-9927#PHONE
+41 1434 8528#PHONE
++55 (084) 7013 5606#PHONE
++55 (031) 2970-1222#PHONE
+51 9276 0882#PHONE
+41 2237 5616#PHONE
++55 (041) 2054-9890#PHONE
+0800 408 0373#PHONE
+(041) 5600 0475#PHONE
++55 (061) 9700 9636#PHONE
+(041) 9331 7987#PHONE
++55 41 1931 8114#PHONE
++55 (061) 7654-9514#PHONE
+51 5407 4418#PHONE
+(071) 0242-9561#PHONE
++55 71 7889-9271#PHONE
+0500 140 9085#PHONE
++55 (071) 8848 6176#PHONE
++55 71 7506 2876#PHONE
+(041) 0148-3952#PHONE
+(084) 9970 5915#PHONE
+(081) 3706 7296#PHONE
++55 (061) 6499-8320#PHONE
++55 11 1738 9124#PHONE
+61 8779 3636#PHONE
+(051) 5428-4839#PHONE
++55 81 2282 4517#PHONE
++55 (021) 2674 2471#PHONE
++55 (081) 8291-9745#PHONE
+71 3466 4274#PHONE
+0900 347 6028#PHONE
+(061) 9987 1005#PHONE
+71 8761-9968#PHONE
++55 (011) 2936 6184#PHONE
+0500 989 2138#PHONE
+(061) 5125-3917#PHONE
+0300 485 4154#PHONE
++55 41 6755 8551#PHONE
+(071) 5923-5500#PHONE
+51 8699 3060#PHONE
+(084) 2378-6354#PHONE
+0300 471 4161#PHONE
++55 (021) 3598 6079#PHONE
+61 6089-4143#PHONE
++55 (041) 9773 7243#PHONE
+41 9133 5655#PHONE
++55 21 9077-4624#PHONE
++55 (081) 5227 6307#PHONE
++55 84 2263-1562#PHONE
++55 (031) 7109-6051#PHONE
++55 21 3097 9487#PHONE
+0300 827 2614#PHONE
++55 (071) 8244-5121#PHONE
+(031) 3340-8685#PHONE
+(051) 1114-5722#PHONE
+(061) 7408-1856#PHONE
++55 71 5168 1795#PHONE
++55 71 6385-3030#PHONE
+(011) 0922 0135#PHONE
+(081) 9793 8418#PHONE
+(071) 9812 9150#PHONE
+(071) 4656-1272#PHONE
++55 41 4406-3685#PHONE
++55 (031) 7707-9520#PHONE
+84 1268-3074#PHONE
+11 7258 5718#PHONE
++55 (071) 3861 3706#PHONE
+61 6977-1477#PHONE
++55 31 2278 0581#PHONE
++55 31 4622 4798#PHONE
++55 81 8562-9558#PHONE
+71 9216-0456#PHONE
+81 1482 8280#PHONE
+psilva@bol.com.br#EMAIL
+cardosojoao@yahoo.com.br#EMAIL
+eduarda27@hotmail.com#EMAIL
+dda-conceicao@mendes.com#EMAIL
+fcarvalho@da.net#EMAIL
+gpereira@aragao.br#EMAIL
+joao-gabrielsantos@da.org#EMAIL
+sarah88@cardoso.br#EMAIL
+nmendes@ig.com.br#EMAIL
+isabel26@ig.com.br#EMAIL
+castroolivia@porto.br#EMAIL
+teixeiralarissa@da.net#EMAIL
+tda-rosa@ig.com.br#EMAIL
+vcampos@oliveira.br#EMAIL
+camila17@dias.com#EMAIL
+caio97@jesus.br#EMAIL
+pedro-miguelgoncalves@mendes.com#EMAIL
+leticiasales@correia.org#EMAIL
+jcunha@uol.com.br#EMAIL
+barrosjoao-felipe@bol.com.br#EMAIL
+dcardoso@bol.com.br#EMAIL
+rafaelarocha@yahoo.com.br#EMAIL
+cunhastephany@cardoso.com#EMAIL
+isabel31@bol.com.br#EMAIL
+eduardocostela@nunes.br#EMAIL
+brunaalmeida@moraes.br#EMAIL
+carolina33@hotmail.com#EMAIL
+yuri04@lopes.br#EMAIL
+loliveira@da.com#EMAIL
+noah40@duarte.br#EMAIL
+moraesleticia@da.org#EMAIL
+nda-conceicao@vieira.br#EMAIL
+sofiavieira@gmail.com#EMAIL
+marcos-vinicius07@sales.br#EMAIL
+kcunha@hotmail.com#EMAIL
+cardosolucas-gabriel@bol.com.br#EMAIL
+oda-costa@yahoo.com.br#EMAIL
+hfogaca@yahoo.com.br#EMAIL
+rrocha@almeida.br#EMAIL
+maitecarvalho@hotmail.com#EMAIL
+costalaura@uol.com.br#EMAIL
+ninacavalcanti@cardoso.com#EMAIL
+lorenzo27@pinto.br#EMAIL
+kda-cunha@bol.com.br#EMAIL
+ymonteiro@bol.com.br#EMAIL
+lais99@hotmail.com#EMAIL
+da-rosanina@uol.com.br#EMAIL
+samuel08@bol.com.br#EMAIL
+eduardo55@da.org#EMAIL
+heloisacostela@hotmail.com#EMAIL
+alvesandre@barros.org#EMAIL
+cecilia51@rezende.org#EMAIL
+ealmeida@fogaca.com#EMAIL
+isabellaporto@das.br#EMAIL
+hda-rocha@castro.br#EMAIL
+da-matafrancisco@da.com#EMAIL
+joao-gabrielvieira@porto.org#EMAIL
+loliveira@uol.com.br#EMAIL
+laura58@cunha.com#EMAIL
+mendesyuri@bol.com.br#EMAIL
+pietra39@ribeiro.com#EMAIL
+da-costabrenda@yahoo.com.br#EMAIL
+igomes@ferreira.com#EMAIL
+da-matasophia@ig.com.br#EMAIL
+lcastro@ribeiro.br#EMAIL
+leandro73@farias.net#EMAIL
+marianada-rocha@yahoo.com.br#EMAIL
+anthonycorreia@ferreira.br#EMAIL
+barbaramelo@fernandes.br#EMAIL
+cardosolara@nunes.br#EMAIL
+nogueiravitoria@yahoo.com.br#EMAIL
+oaragao@ig.com.br#EMAIL
+laraujo@da.org#EMAIL
+arthurporto@peixoto.br#EMAIL
+maria-fernanda30@lima.net#EMAIL
+rezendesophie@da.org#EMAIL
+enzo08@lima.net#EMAIL
+ana-liviabarbosa@ig.com.br#EMAIL
+benicio20@yahoo.com.br#EMAIL
+diegogomes@uol.com.br#EMAIL
+ucostela@hotmail.com#EMAIL
+lmendes@ig.com.br#EMAIL
+pedro-henriqueda-luz@pinto.org#EMAIL
+igorda-costa@yahoo.com.br#EMAIL
+pduarte@cavalcanti.br#EMAIL
+natalia09@yahoo.com.br#EMAIL
+fernandesjoao-miguel@uol.com.br#EMAIL
+luanasilveira@teixeira.br#EMAIL
+amanda06@hotmail.com#EMAIL
+zduarte@peixoto.org#EMAIL
+araujomelissa@lopes.br#EMAIL
+qda-mata@ig.com.br#EMAIL
+pintogustavo@lima.br#EMAIL
+imonteiro@lima.br#EMAIL
+gribeiro@bol.com.br#EMAIL
+ana55@sales.org#EMAIL
+joao-guilhermeduarte@uol.com.br#EMAIL
+barrosisabelly@lima.br#EMAIL
+fogacayasmin@uol.com.br#EMAIL
+novaespedro@costela.com#EMAIL
+luiz-gustavooliveira@ig.com.br#EMAIL
+lpinto@peixoto.com#EMAIL
+da-motasabrina@gmail.com#EMAIL
+joao-pedroda-cruz@bol.com.br#EMAIL
+luiz-gustavomelo@uol.com.br#EMAIL
+maria-vitoriamartins@bol.com.br#EMAIL
+samuelporto@yahoo.com.br#EMAIL
+mouraarthur@da.org#EMAIL
+jfernandes@uol.com.br#EMAIL
+limajoao@uol.com.br#EMAIL
+ferreirabenicio@gmail.com#EMAIL
+peixotolara@moura.com#EMAIL
+qcosta@ig.com.br#EMAIL
+costabenjamin@santos.br#EMAIL
+joao-pedroribeiro@ig.com.br#EMAIL
+joao-lucascosta@bol.com.br#EMAIL
+gmoreira@sales.br#EMAIL
+tcunha@ig.com.br#EMAIL
+iviana@freitas.com#EMAIL
+ivieira@bol.com.br#EMAIL
+evelyn77@yahoo.com.br#EMAIL
+da-rochacaua@da.com#EMAIL
+lavinia66@ribeiro.br#EMAIL
+martinsclara@ig.com.br#EMAIL
+daniela64@jesus.br#EMAIL
+nicolasteixeira@uol.com.br#EMAIL
+vianatheo@gmail.com#EMAIL
+qda-conceicao@ig.com.br#EMAIL
+gabrielly76@nogueira.br#EMAIL
+calebejesus@gmail.com#EMAIL
+lorenzomoreira@ig.com.br#EMAIL
+maria-claraferreira@hotmail.com#EMAIL
+fernandasales@caldeira.com#EMAIL
+peixotopietra@gmail.com#EMAIL
+bryan87@hotmail.com#EMAIL
+isadoraoliveira@cavalcanti.br#EMAIL
+julia71@yahoo.com.br#EMAIL
+castroluna@uol.com.br#EMAIL
+nicole16@costa.net#EMAIL
+brunoteixeira@teixeira.br#EMAIL
+cardosomaysa@das.com#EMAIL
+esther38@bol.com.br#EMAIL
+maria-eduarda49@oliveira.com#EMAIL
+uaraujo@hotmail.com#EMAIL
+rafaelacaldeira@yahoo.com.br#EMAIL
+cjesus@gmail.com#EMAIL
+stella54@gmail.com#EMAIL
+antoniopereira@ig.com.br#EMAIL
+olivia03@uol.com.br#EMAIL
+costelaluiz-gustavo@almeida.org#EMAIL
+nicole27@correia.net#EMAIL
+yrezende@yahoo.com.br#EMAIL
+liviada-luz@correia.org#EMAIL
+joaofernandes@porto.br#EMAIL
+thales33@duarte.net#EMAIL
+hcorreia@hotmail.com#EMAIL
+luiz-gustavorezende@rocha.com#EMAIL
+raquelviana@pinto.net#EMAIL
+vitor49@rocha.br#EMAIL
+eduarda47@gmail.com#EMAIL
+palmeida@peixoto.br#EMAIL
+drezende@goncalves.net#EMAIL
+carolina68@uol.com.br#EMAIL
+caue28@costa.br#EMAIL
+moreirasophie@jesus.org#EMAIL
+ana-claraalves@uol.com.br#EMAIL
+wda-luz@hotmail.com#EMAIL
+aragaodaniela@rocha.br#EMAIL
+oda-luz@costela.com#EMAIL
+aragaobruno@pires.com#EMAIL
+manuelacunha@yahoo.com.br#EMAIL
+vieiraana-julia@hotmail.com#EMAIL
+da-costajoao-felipe@bol.com.br#EMAIL
+yduarte@ig.com.br#EMAIL
+rafaela34@uol.com.br#EMAIL
+sarah57@gmail.com#EMAIL
+wcastro@yahoo.com.br#EMAIL
+caldeirapedro-lucas@bol.com.br#EMAIL
+melojoao-guilherme@oliveira.br#EMAIL
+ana-carolina42@bol.com.br#EMAIL
+melissada-mota@freitas.com#EMAIL
+qfernandes@gmail.com#EMAIL
+luiza81@bol.com.br#EMAIL
+costavitor-gabriel@nunes.org#EMAIL
+emanuellymendes@hotmail.com#EMAIL
+vieiranicolas@gmail.com#EMAIL
+diogo95@pinto.br#EMAIL
+oliveirapedro-miguel@araujo.com#EMAIL
+vfernandes@gomes.br#EMAIL
+naraujo@costela.org#EMAIL
+jfarias@yahoo.com.br#EMAIL
+manuelaaragao@ig.com.br#EMAIL
+esouza@bol.com.br#EMAIL
+ucardoso@yahoo.com.br#EMAIL
+yferreira@bol.com.br#EMAIL
+bernardo84@bol.com.br#EMAIL
+luiz-otavio92@bol.com.br#EMAIL
+nina67@hotmail.com#EMAIL
+enzoda-paz@carvalho.org#EMAIL
+ocosta@yahoo.com.br#EMAIL
+paulosilveira@rocha.com#EMAIL
+barbaranogueira@gmail.com#EMAIL
+augustofogaca@carvalho.net#EMAIL
+luigi02@carvalho.com#EMAIL
+rezendebruno@uol.com.br#EMAIL
+moreiraheloisa@correia.org#EMAIL
+ana-carolinacampos@ribeiro.br#EMAIL
+gomesfelipe@hotmail.com#EMAIL
+eduarda48@viana.br#EMAIL
+eloah75@ig.com.br#EMAIL
+manuelapinto@yahoo.com.br#EMAIL
+avieira@farias.com#EMAIL
+pedro-lucasda-luz@da.br#EMAIL
+clarice55@gmail.com#EMAIL
+cnovaes@da.br#EMAIL
+viniciusaraujo@alves.org#EMAIL
+cunhastephany@hotmail.com#EMAIL
+joao-pedrorocha@souza.com#EMAIL
+bsouza@barbosa.br#EMAIL
+limadavi-lucas@bol.com.br#EMAIL
+luiz-fernando61@uol.com.br#EMAIL
+sda-costa@yahoo.com.br#EMAIL
+ana-beatrizmonteiro@castro.com#EMAIL
+lopesyago@da.br#EMAIL
+tcorreia@barbosa.com#EMAIL
+yferreira@araujo.net#EMAIL
+pietro05@duarte.com#EMAIL
+tda-cunha@moraes.br#EMAIL
+manuela49@uol.com.br#EMAIL
+fviana@gmail.com#EMAIL
+nascimentobenjamin@uol.com.br#EMAIL
+limanatalia@carvalho.net#EMAIL
+novaesgabriela@bol.com.br#EMAIL
+anunes@lima.br#EMAIL
+stephanyramos@nascimento.br#EMAIL
+hmoura@yahoo.com.br#EMAIL
+claracaldeira@bol.com.br#EMAIL
+xrocha@almeida.com#EMAIL
+fcampos@moreira.org#EMAIL
+raqueldias@oliveira.org#EMAIL
+fernandescaio@silveira.com#EMAIL
+lorenzo57@gmail.com#EMAIL
+silvacarolina@vieira.com#EMAIL
+gabriellymoura@hotmail.com#EMAIL
+sophiasouza@hotmail.com#EMAIL
+thiago98@moura.com#EMAIL
+davigoncalves@caldeira.br#EMAIL
+varaujo@yahoo.com.br#EMAIL
+barbara68@gmail.com#EMAIL
+knovaes@da.net#EMAIL
+costelaana-julia@bol.com.br#EMAIL
+vinicius15@hotmail.com#EMAIL
+catarina13@uol.com.br#EMAIL
+portonicolas@pereira.net#EMAIL
+cmonteiro@oliveira.br#EMAIL
+eloah38@yahoo.com.br#EMAIL
+natalia59@uol.com.br#EMAIL
+omendes@araujo.com#EMAIL
+bsales@carvalho.net#EMAIL
+qcardoso@uol.com.br#EMAIL
+ana-sophiaribeiro@gmail.com#EMAIL
+cardosokevin@nogueira.net#EMAIL
+novaesvitor-gabriel@uol.com.br#EMAIL
+davi-luizferreira@uol.com.br#EMAIL
+camposjuan@nascimento.br#EMAIL
+leandro36@sales.com#EMAIL
+gda-conceicao@azevedo.br#EMAIL
+da-motavicente@bol.com.br#EMAIL
+rocharenan@hotmail.com#EMAIL
+carolinegoncalves@ig.com.br#EMAIL
+jporto@hotmail.com#EMAIL
+joao-felipegomes@nunes.com#EMAIL
+cardosopaulo@uol.com.br#EMAIL
+yuri88@ig.com.br#EMAIL
+almeidajuliana@martins.br#EMAIL
+fmonteiro@gmail.com#EMAIL
+clarice63@ig.com.br#EMAIL
+isabella97@gomes.br#EMAIL
+stephany65@da.com#EMAIL
+helenateixeira@castro.org#EMAIL
+moreirarafael@gmail.com#EMAIL
+ana-clarajesus@silva.org#EMAIL
+barbara07@pinto.br#EMAIL
+eloahnascimento@teixeira.com#EMAIL
+hda-mota@pereira.com#EMAIL
+bcavalcanti@uol.com.br#EMAIL
+ana-luiza97@bol.com.br#EMAIL
+ncunha@freitas.br#EMAIL
+valentina29@bol.com.br#EMAIL
+barbosathomas@ig.com.br#EMAIL
+fernandoda-costa@dias.com#EMAIL
+laura47@da.com#EMAIL
+azevedostephany@gmail.com#EMAIL
+garaujo@cardoso.org#EMAIL
+lda-rocha@gmail.com#EMAIL
+souzajoao-miguel@araujo.br#EMAIL
+pedro-henrique49@yahoo.com.br#EMAIL
+araujoluigi@uol.com.br#EMAIL
+emanuel21@hotmail.com#EMAIL
+brunoferreira@hotmail.com#EMAIL
+npires@yahoo.com.br#EMAIL
+stephanymartins@gmail.com#EMAIL
+ana-sophiasilva@hotmail.com#EMAIL
+raquel66@bol.com.br#EMAIL
+mariane68@gmail.com#EMAIL
+yalmeida@yahoo.com.br#EMAIL
+da-rochayago@aragao.com#EMAIL
+ana-sophia76@yahoo.com.br#EMAIL
+barrosjoao-felipe@barbosa.br#EMAIL
+da-cruzmaria-eduarda@da.br#EMAIL
+ana-carolina94@gmail.com#EMAIL
+portothales@silva.com#EMAIL
+xcaldeira@hotmail.com#EMAIL
+emilly37@ramos.br#EMAIL
+ceciliaaragao@ig.com.br#EMAIL
+das-nevesmaria-cecilia@bol.com.br#EMAIL
+wporto@costa.com#EMAIL
+erezende@gmail.com#EMAIL
+alananogueira@hotmail.com#EMAIL
+silveirapietro@rezende.br#EMAIL
+davi43@hotmail.com#EMAIL
+davi-lucascosta@pires.com#EMAIL
+fcostela@da.br#EMAIL
+isabellymoreira@fernandes.br#EMAIL
+marcela73@gmail.com#EMAIL
+joao-feliperezende@gmail.com#EMAIL
+mfreitas@moreira.com#EMAIL
+luigi94@gmail.com#EMAIL
+da-rochaana-julia@porto.br#EMAIL
+ianda-costa@lima.com#EMAIL
+lais56@carvalho.com#EMAIL
+sarah03@castro.org#EMAIL
+maria-cecilia96@da.net#EMAIL
+joao-guilherme23@gomes.net#EMAIL
+nina30@novaes.net#EMAIL
+cazevedo@bol.com.br#EMAIL
+caiosilva@castro.org#EMAIL
+gdas-neves@da.net#EMAIL
+marcelo49@aragao.org#EMAIL
+isabella83@uol.com.br#EMAIL
+fernando03@gmail.com#EMAIL
+elisada-cruz@viana.net#EMAIL
+vitor-gabriel10@pires.net#EMAIL
+rbarros@bol.com.br#EMAIL
+calebe64@nunes.com#EMAIL
+melootavio@nogueira.com#EMAIL
+isadora66@hotmail.com#EMAIL
+ipinto@azevedo.br#EMAIL
+luigimoreira@da.net#EMAIL
+valentinafarias@hotmail.com#EMAIL
+martinsdaniel@ig.com.br#EMAIL
+ana-beatriz11@novaes.br#EMAIL
+lopesyuri@hotmail.com#EMAIL
+theocosta@moura.br#EMAIL
+caldeirabarbara@uol.com.br#EMAIL
+oliviaaragao@souza.br#EMAIL
+pedro96@novaes.br#EMAIL
+maria-fernandapeixoto@hotmail.com#EMAIL
+lais40@yahoo.com.br#EMAIL
+qteixeira@farias.org#EMAIL
+vicentefreitas@nascimento.br#EMAIL
+valentinafreitas@gomes.net#EMAIL
+portomaria-sophia@cavalcanti.br#EMAIL
+rezendeenzo@bol.com.br#EMAIL
+gustavo-henrique82@cardoso.br#EMAIL
+stephanyda-paz@yahoo.com.br#EMAIL
+santosjuan@melo.com#EMAIL
+pteixeira@rezende.br#EMAIL
+zda-rocha@bol.com.br#EMAIL
+cfernandes@cavalcanti.com#EMAIL
+maria-vitoriacostela@gmail.com#EMAIL
+moreirayasmin@rezende.br#EMAIL
+ianrodrigues@bol.com.br#EMAIL
+araujoevelyn@bol.com.br#EMAIL
+raquel82@uol.com.br#EMAIL
+mpires@pires.net#EMAIL
+da-pazbryan@uol.com.br#EMAIL
+bsales@gmail.com#EMAIL
+da-cunhathomas@ig.com.br#EMAIL
+pietramonteiro@lopes.net#EMAIL
+nogueiraelisa@yahoo.com.br#EMAIL
+igor61@yahoo.com.br#EMAIL
+oliveiramaria-cecilia@da.br#EMAIL
+msales@da.com#EMAIL
+nmartins@uol.com.br#EMAIL
+rcunha@da.br#EMAIL
+goncalvesbruna@ig.com.br#EMAIL
+lcavalcanti@da.br#EMAIL
+clara59@uol.com.br#EMAIL
+leticiarocha@gmail.com#EMAIL
+ana73@uol.com.br#EMAIL
+carvalhojulia@uol.com.br#EMAIL
+da-cruzeduardo@pereira.com#EMAIL
+sofianogueira@yahoo.com.br#EMAIL
+clara39@viana.br#EMAIL
+da-rosaenrico@farias.com#EMAIL
+maria-luiza70@nascimento.com#EMAIL
+stella72@fernandes.com#EMAIL
+barbaranovaes@barros.br#EMAIL
+alvesjoao@dias.br#EMAIL
+heloisa13@barros.br#EMAIL
+sarahribeiro@fogaca.br#EMAIL
+lorena61@da.br#EMAIL
+cecilia52@uol.com.br#EMAIL
+lazevedo@pereira.org#EMAIL
+stellada-mota@carvalho.br#EMAIL
+olivia12@ig.com.br#EMAIL
+ipereira@campos.com#EMAIL
+melissa43@uol.com.br#EMAIL
+melomaria-sophia@ig.com.br#EMAIL
+da-cunhaluiz-gustavo@hotmail.com#EMAIL
+laviniacarvalho@hotmail.com#EMAIL
+nmoraes@sales.com#EMAIL
+pedro-henriquegoncalves@bol.com.br#EMAIL
+da-motalivia@hotmail.com#EMAIL
+acorreia@bol.com.br#EMAIL
+sophie39@gmail.com#EMAIL
+isiscavalcanti@souza.com#EMAIL
+bianca69@uol.com.br#EMAIL
+heloisamoraes@hotmail.com#EMAIL
+leandro35@monteiro.net#EMAIL
+nina61@das.com#EMAIL
+oliveirajuan@ig.com.br#EMAIL
+maria-julia31@duarte.org#EMAIL
+juan51@hotmail.com#EMAIL
+amanda45@hotmail.com#EMAIL
+vianathiago@bol.com.br#EMAIL
+maria-sophiafarias@gmail.com#EMAIL
+joao-lucas95@hotmail.com#EMAIL
+bcampos@lopes.br#EMAIL
+felipe51@gmail.com#EMAIL
+laviniacosta@barbosa.br#EMAIL
+hnunes@yahoo.com.br#EMAIL
+clara09@hotmail.com#EMAIL
+jesuselisa@uol.com.br#EMAIL
+clarice27@bol.com.br#EMAIL
+maria-vitoria95@lopes.com#EMAIL
+ycardoso@ribeiro.net#EMAIL
+diego01@da.br#EMAIL
+cunhasofia@da.br#EMAIL
+kamilly74@ig.com.br#EMAIL
+leonardofogaca@das.net#EMAIL
+sofia42@yahoo.com.br#EMAIL
+drodrigues@fernandes.com#EMAIL
+xduarte@pereira.com#EMAIL
+viniciuscarvalho@da.com#EMAIL
+emanuelly49@ig.com.br#EMAIL
+luanasantos@gmail.com#EMAIL
+lorenzo66@gmail.com#EMAIL
+eduardo89@oliveira.org#EMAIL
+tsales@uol.com.br#EMAIL
+natalia60@vieira.br#EMAIL
+emanuelcampos@da.br#EMAIL
+ana-livianascimento@bol.com.br#EMAIL
+luiz-fernando03@porto.br#EMAIL
+elisa40@jesus.com#EMAIL
+rvieira@moraes.com#EMAIL
+fariasmaria-vitoria@hotmail.com#EMAIL
+helena03@viana.com#EMAIL
+carvalhoeloah@lopes.br#EMAIL
+agatha88@bol.com.br#EMAIL
+ada-mata@hotmail.com#EMAIL
+eloahpeixoto@duarte.com#EMAIL
+dramos@lopes.com#EMAIL
+carvalhoana-livia@oliveira.net#EMAIL
+cardosoalice@ig.com.br#EMAIL
+joao-lucas67@da.org#EMAIL
+portosofia@viana.net#EMAIL
+juannovaes@moraes.com#EMAIL
+tvieira@jesus.br#EMAIL
+vsilva@pinto.br#EMAIL
+gmelo@santos.br#EMAIL
+ana07@hotmail.com#EMAIL
+vianalivia@hotmail.com#EMAIL
+cavalcantinoah@yahoo.com.br#EMAIL
+silveiralaura@silva.com#EMAIL
+kcarvalho@da.br#EMAIL
+adias@aragao.com#EMAIL
+costelabruna@yahoo.com.br#EMAIL
+marcelo46@rodrigues.br#EMAIL
+fernandesmarcos-vinicius@novaes.com#EMAIL
+davi-luiz93@uol.com.br#EMAIL
+larada-cruz@gmail.com#EMAIL
+ecostela@bol.com.br#EMAIL
+agathada-costa@moreira.org#EMAIL
+jesusmaria-eduarda@barros.br#EMAIL
+ucosta@rodrigues.com#EMAIL
+monteirobeatriz@hotmail.com#EMAIL
+jmendes@azevedo.com#EMAIL
+nascimentoerick@gmail.com#EMAIL
+lsilva@barros.com#EMAIL
+hrodrigues@gmail.com#EMAIL
+emanuelly27@moura.org#EMAIL
+davi-lucca04@ig.com.br#EMAIL
+gmoreira@melo.br#EMAIL
+qbarros@martins.com#EMAIL
+ferreiradaniel@caldeira.net#EMAIL
+clarasilva@hotmail.com#EMAIL
+kaiqueferreira@lima.com#EMAIL
+da-rochagiovanna@gmail.com#EMAIL
+gabrieladas-neves@melo.com#EMAIL
+lucas75@ig.com.br#EMAIL
+rodriguesjulia@duarte.br#EMAIL
+gabrielda-mota@duarte.com#EMAIL
+da-cruzbreno@yahoo.com.br#EMAIL
+jesusdaniel@rezende.br#EMAIL
+santosdiogo@bol.com.br#EMAIL
+theo55@ig.com.br#EMAIL
+arthurrodrigues@da.com#EMAIL
+caue15@ig.com.br#EMAIL
+marianamoraes@da.org#EMAIL
+aragaogabriel@cardoso.org#EMAIL
+henrique43@sales.br#EMAIL
+da-matarafael@cavalcanti.com#EMAIL
+joao-miguel93@gmail.com#EMAIL
+da-costabernardo@jesus.com#EMAIL
+das-nevesalexia@hotmail.com#EMAIL
+fernandesbruno@bol.com.br#EMAIL
+maria-vitoria52@yahoo.com.br#EMAIL
+nina34@uol.com.br#EMAIL
+bianca20@cunha.org#EMAIL
+kaique46@da.br#EMAIL
+vitor-hugo34@bol.com.br#EMAIL
+moraesrafael@rodrigues.br#EMAIL
+asantos@gmail.com#EMAIL
+davi-lucca93@yahoo.com.br#EMAIL
+rafaela49@azevedo.br#EMAIL
+sophie45@mendes.br#EMAIL
+helena72@monteiro.br#EMAIL
+correiatheo@dias.org#EMAIL
+pereirasarah@gmail.com#EMAIL
+ldias@pinto.org#EMAIL
+barbosaryan@hotmail.com#EMAIL
+oliviacastro@oliveira.org#EMAIL
+martinsalicia@ig.com.br#EMAIL
+barbosaana-julia@ig.com.br#EMAIL
+da-matavicente@gmail.com#EMAIL
+cunhaandre@gmail.com#EMAIL
+matheusda-mota@nunes.net#EMAIL
+da-rosajoao@da.br#EMAIL
+ceciliagomes@jesus.net#EMAIL
+davi-luizteixeira@hotmail.com#EMAIL
+laura52@ferreira.br#EMAIL
+calebe46@yahoo.com.br#EMAIL
+luiz-otavioteixeira@gomes.net#EMAIL
+davi-lucca48@yahoo.com.br#EMAIL
+da-mataalexia@cunha.com#EMAIL
+luiz-felipe28@ig.com.br#EMAIL
+goncalvesvalentina@barros.net#EMAIL
+juliana48@cardoso.net#EMAIL
+marinacastro@cardoso.net#EMAIL
+leticiajesus@almeida.org#EMAIL
+zcavalcanti@costa.br#EMAIL
+piresana-livia@gmail.com#EMAIL
+talves@hotmail.com#EMAIL
+marina66@silva.net#EMAIL
+apeixoto@yahoo.com.br#EMAIL
+gabriellyoliveira@ig.com.br#EMAIL
+pereiraisabelly@oliveira.br#EMAIL
+portoheloisa@fogaca.com#EMAIL
+inascimento@hotmail.com#EMAIL
+maria-sophiacampos@gomes.net#EMAIL
+emanuelly06@dias.br#EMAIL
+maria-vitoriaalmeida@nunes.org#EMAIL
+freitaspietro@sales.br#EMAIL
+rochaotavio@barbosa.net#EMAIL
+brenoda-paz@nascimento.org#EMAIL
+hda-mata@silveira.net#EMAIL
+igor97@uol.com.br#EMAIL
+aviana@fernandes.br#EMAIL
+cunhaanthony@ig.com.br#EMAIL
+inogueira@moraes.com#EMAIL
+heloisa09@gmail.com#EMAIL
+araujomaria-fernanda@uol.com.br#EMAIL
+santosmaria-luiza@freitas.com#EMAIL
+fbarbosa@ig.com.br#EMAIL
+sophie05@ribeiro.net#EMAIL
+calebe42@bol.com.br#EMAIL
+marcelapeixoto@mendes.com#EMAIL
+barbara86@bol.com.br#EMAIL
+luigi21@uol.com.br#EMAIL
+enzo-gabriel74@costela.com#EMAIL
+cardosootavio@almeida.com#EMAIL
+benicio89@gmail.com#EMAIL
+emilly30@duarte.com#EMAIL
+pireslarissa@da.com#EMAIL
+marcelo22@caldeira.br#EMAIL
+smartins@caldeira.org#EMAIL
+maria-ceciliasales@uol.com.br#EMAIL
+raul54@yahoo.com.br#EMAIL
+nascimentolivia@ig.com.br#EMAIL
+kda-mota@nascimento.br#EMAIL
+ksilva@ig.com.br#EMAIL
+sofiada-conceicao@ig.com.br#EMAIL
+joao-felipe10@gmail.com#EMAIL
+xlopes@hotmail.com#EMAIL
+diasmaria-clara@hotmail.com#EMAIL
+maysacardoso@da.com#EMAIL
+hcosta@da.br#EMAIL
+matheusnunes@mendes.com#EMAIL
+Vieira - EI#ORGANIZATION
+FERNANDES E FILHOS#ORGANIZATION
+Silveira Rodrigues - EI#ORGANIZATION
+Gonçalves#ORGANIZATION
+Monteiro Mendes e Filhos#ORGANIZATION
+Rocha S/A#ORGANIZATION
+Teixeira Campos e Filhos#ORGANIZATION
+Correia S/A#ORGANIZATION
+das Neves Cunha S/A#ORGANIZATION
+Porto da Rosa - ME#ORGANIZATION
+Sales da Paz - ME#ORGANIZATION
+ARAGÃO ROCHA LTDA.#ORGANIZATION
+RODRIGUES VIANA E FILHOS#ORGANIZATION
+Costela S/A#ORGANIZATION
+Aragão#ORGANIZATION
+FREITAS#ORGANIZATION
+Pires Monteiro - EI#ORGANIZATION
+OLIVEIRA NOGUEIRA E FILHOS#ORGANIZATION
+Farias Ltda.#ORGANIZATION
+Oliveira S.A.#ORGANIZATION
+Barros Moura e Filhos#ORGANIZATION
+Cavalcanti da Rosa S.A.#ORGANIZATION
+Silva Ltda.#ORGANIZATION
+Melo S/A#ORGANIZATION
+CAVALCANTI CORREIA - EI#ORGANIZATION
+Melo Fernandes S/A#ORGANIZATION
+Ribeiro Aragão - ME#ORGANIZATION
+ROCHA DA ROSA - EI#ORGANIZATION
+Gonçalves Costa e Filhos#ORGANIZATION
+RODRIGUES - ME#ORGANIZATION
+Teixeira Martins Ltda.#ORGANIZATION
+FERNANDES SILVEIRA S/A#ORGANIZATION
+da Luz Cardoso e Filhos#ORGANIZATION
+Novaes S.A.#ORGANIZATION
+Melo - EI#ORGANIZATION
+JESUS JESUS E FILHOS#ORGANIZATION
+Rodrigues da Cruz Ltda.#ORGANIZATION
+Dias Pinto S/A#ORGANIZATION
+Campos Peixoto Ltda.#ORGANIZATION
+Gonçalves Nascimento S.A.#ORGANIZATION
+NOVAES#ORGANIZATION
+Ribeiro S.A.#ORGANIZATION
+DA LUZ E FILHOS#ORGANIZATION
+SALES PINTO E FILHOS#ORGANIZATION
+da Rocha Viana S.A.#ORGANIZATION
+Gomes Costela Ltda.#ORGANIZATION
+da Costa Alves Ltda.#ORGANIZATION
+Castro Caldeira S/A#ORGANIZATION
+Santos#ORGANIZATION
+Gomes da Cruz - ME#ORGANIZATION
+BARROS GOMES S.A.#ORGANIZATION
+RIBEIRO PEREIRA LTDA.#ORGANIZATION
+Teixeira S.A.#ORGANIZATION
+da Luz - ME#ORGANIZATION
+Pires e Filhos#ORGANIZATION
+Campos Ltda.#ORGANIZATION
+Dias Aragão e Filhos#ORGANIZATION
+Fogaça S.A.#ORGANIZATION
+FARIAS OLIVEIRA S/A#ORGANIZATION
+DUARTE SOUZA S.A.#ORGANIZATION
+Viana e Filhos#ORGANIZATION
+Farias da Mata Ltda.#ORGANIZATION
+da Conceição Novaes - EI#ORGANIZATION
+Campos Moreira S.A.#ORGANIZATION
+CUNHA CASTRO S/A#ORGANIZATION
+VIANA PORTO S/A#ORGANIZATION
+SOUZA MOURA - EI#ORGANIZATION
+MORAES E FILHOS#ORGANIZATION
+SANTOS S/A#ORGANIZATION
+da Cruz#ORGANIZATION
+Rezende Ltda.#ORGANIZATION
+Viana - ME#ORGANIZATION
+Freitas - ME#ORGANIZATION
+DIAS CAMPOS S.A.#ORGANIZATION
+DIAS S.A.#ORGANIZATION
+da Conceição Sales S/A#ORGANIZATION
+Caldeira S/A#ORGANIZATION
+Nascimento - ME#ORGANIZATION
+Ramos Rocha - ME#ORGANIZATION
+NASCIMENTO CALDEIRA LTDA.#ORGANIZATION
+Porto Pinto - EI#ORGANIZATION
+SILVA#ORGANIZATION
+Monteiro da Conceição S/A#ORGANIZATION
+Cardoso Barros - EI#ORGANIZATION
+Oliveira Fernandes - EI#ORGANIZATION
+Silva S/A#ORGANIZATION
+Peixoto S/A#ORGANIZATION
+Fogaça Duarte - EI#ORGANIZATION
+Barbosa - EI#ORGANIZATION
+Dias da Mota - ME#ORGANIZATION
+Cunha - ME#ORGANIZATION
+Ramos Moreira e Filhos#ORGANIZATION
+da Mata Ltda.#ORGANIZATION
+MENDES S.A.#ORGANIZATION
+Fernandes Barbosa S.A.#ORGANIZATION
+Caldeira - EI#ORGANIZATION
+Aragão S/A#ORGANIZATION
+Viana Moura e Filhos#ORGANIZATION
+FERNANDES LTDA.#ORGANIZATION
+Souza da Mata - EI#ORGANIZATION
+Gonçalves Martins - EI#ORGANIZATION
+das Neves Duarte Ltda.#ORGANIZATION
+Freitas da Rosa - EI#ORGANIZATION
+Cavalcanti Cavalcanti e Filhos#ORGANIZATION
+CORREIA ARAGÃO - ME#ORGANIZATION
+GONÇALVES NOVAES LTDA.#ORGANIZATION
+Lima Peixoto S/A#ORGANIZATION
+Rodrigues e Filhos#ORGANIZATION
+SALES S/A#ORGANIZATION
+Novaes S/A#ORGANIZATION
+da Paz Moura Ltda.#ORGANIZATION
+DA MOTA#ORGANIZATION
+Araújo da Conceição - ME#ORGANIZATION
+Jesus Almeida Ltda.#ORGANIZATION
+Farias Pires - ME#ORGANIZATION
+Martins Ferreira Ltda.#ORGANIZATION
+Santos Moraes S.A.#ORGANIZATION
+RAMOS PORTO - EI#ORGANIZATION
+Rodrigues Martins - ME#ORGANIZATION
+Moura Costa S/A#ORGANIZATION
+Barbosa Novaes e Filhos#ORGANIZATION
+Sales Barros S.A.#ORGANIZATION
+Moura Fogaça e Filhos#ORGANIZATION
+da Paz S/A#ORGANIZATION
+Carvalho Farias e Filhos#ORGANIZATION
+NOVAES MARTINS - EI#ORGANIZATION
+Rodrigues da Rosa - EI#ORGANIZATION
+Correia da Mata e Filhos#ORGANIZATION
+Farias Fogaça - ME#ORGANIZATION
+Melo Rocha S/A#ORGANIZATION
+Araújo Ltda.#ORGANIZATION
+Lima Ltda.#ORGANIZATION
+Rodrigues Farias S.A.#ORGANIZATION
+Costa Moraes Ltda.#ORGANIZATION
+CUNHA E FILHOS#ORGANIZATION
+Castro Costela S.A.#ORGANIZATION
+Carvalho da Cruz - EI#ORGANIZATION
+Rodrigues Gomes - EI#ORGANIZATION
+da Costa - EI#ORGANIZATION
+Novaes Pinto - EI#ORGANIZATION
+Carvalho Rocha S.A.#ORGANIZATION
+Teixeira S/A#ORGANIZATION
+Fernandes#ORGANIZATION
+Pires Ltda.#ORGANIZATION
+Jesus S.A.#ORGANIZATION
+Peixoto Mendes - EI#ORGANIZATION
+Novaes e Filhos#ORGANIZATION
+Gomes#ORGANIZATION
+ARAGÃO E FILHOS#ORGANIZATION
+Monteiro#ORGANIZATION
+CUNHA S/A#ORGANIZATION
+Castro Ltda.#ORGANIZATION
+Silveira - EI#ORGANIZATION
+Dias Duarte - EI#ORGANIZATION
+ARAÚJO - EI#ORGANIZATION
+Ramos e Filhos#ORGANIZATION
+da Cruz Pires S.A.#ORGANIZATION
+da Rocha Martins e Filhos#ORGANIZATION
+Sales Rodrigues S.A.#ORGANIZATION
+PEREIRA FERNANDES - ME#ORGANIZATION
+PEIXOTO FREITAS S/A#ORGANIZATION
+Costa - ME#ORGANIZATION
+Ribeiro Ltda.#ORGANIZATION
+da Mata e Filhos#ORGANIZATION
+Moura - ME#ORGANIZATION
+Campos S/A#ORGANIZATION
+Freitas Martins e Filhos#ORGANIZATION
+Campos S.A.#ORGANIZATION
+da Rosa Dias S/A#ORGANIZATION
+Silveira#ORGANIZATION
+Freitas da Rosa e Filhos#ORGANIZATION
+Moreira Fogaça e Filhos#ORGANIZATION
+Novaes Cardoso - EI#ORGANIZATION
+das Neves Oliveira S.A.#ORGANIZATION
+Lopes - ME#ORGANIZATION
+Dias Ltda.#ORGANIZATION
+Ribeiro - EI#ORGANIZATION
+MOURA CARDOSO S.A.#ORGANIZATION
+Monteiro S/A#ORGANIZATION
+Nogueira Porto S/A#ORGANIZATION
+DA ROCHA E FILHOS#ORGANIZATION
+Dias Rocha - ME#ORGANIZATION
+Campos - ME#ORGANIZATION
+Viana da Cruz - EI#ORGANIZATION
+Barbosa Ltda.#ORGANIZATION
+Gonçalves e Filhos#ORGANIZATION
+Castro - ME#ORGANIZATION
+SANTOS S.A.#ORGANIZATION
+DA MATA DA MATA - ME#ORGANIZATION
+OLIVEIRA E FILHOS#ORGANIZATION
+Rodrigues Cavalcanti Ltda.#ORGANIZATION
+Carvalho - ME#ORGANIZATION
+Costa S.A.#ORGANIZATION
+Silva Lopes e Filhos#ORGANIZATION
+Viana#ORGANIZATION
+Monteiro - ME#ORGANIZATION
+RIBEIRO GONÇALVES E FILHOS#ORGANIZATION
+Castro - EI#ORGANIZATION
+SILVEIRA SANTOS - ME#ORGANIZATION
+Sales Ltda.#ORGANIZATION
+da Cunha da Rosa Ltda.#ORGANIZATION
+Aragão da Rosa - EI#ORGANIZATION
+Ramos Fernandes - EI#ORGANIZATION
+da Costa Silva - ME#ORGANIZATION
+Melo da Rocha S/A#ORGANIZATION
+Melo Barros S/A#ORGANIZATION
+Porto Costa S.A.#ORGANIZATION
+CORREIA#ORGANIZATION
+Porto Carvalho e Filhos#ORGANIZATION
+Alves Ltda.#ORGANIZATION
+CARDOSO DAS NEVES - EI#ORGANIZATION
+PEIXOTO - ME#ORGANIZATION
+Lopes da Luz - EI#ORGANIZATION
+SILVA AZEVEDO - ME#ORGANIZATION
+Oliveira Costela Ltda.#ORGANIZATION
+da Luz Castro - ME#ORGANIZATION
+Rodrigues#ORGANIZATION
+Aragão - ME#ORGANIZATION
+Moraes da Rosa - ME#ORGANIZATION
+da Costa e Filhos#ORGANIZATION
+da Rosa Teixeira Ltda.#ORGANIZATION
+CARDOSO DA PAZ - ME#ORGANIZATION
+Ribeiro - ME#ORGANIZATION
+ARAGÃO JESUS S.A.#ORGANIZATION
+Castro Fogaça S.A.#ORGANIZATION
+RODRIGUES ALVES E FILHOS#ORGANIZATION
+Lopes da Rocha - ME#ORGANIZATION
+Gonçalves Almeida - ME#ORGANIZATION
+MENDES RODRIGUES - ME#ORGANIZATION
+DIAS ALVES S/A#ORGANIZATION
+Novaes Sales e Filhos#ORGANIZATION
+Porto Almeida - ME#ORGANIZATION
+da Cunha - EI#ORGANIZATION
+DA CRUZ DA CRUZ S.A.#ORGANIZATION
+BARBOSA RAMOS - ME#ORGANIZATION
+Almeida S/A#ORGANIZATION
+OLIVEIRA NUNES - EI#ORGANIZATION
+Fogaça#ORGANIZATION
+Barbosa#ORGANIZATION
+AZEVEDO - ME#ORGANIZATION
+FREITAS ARAÚJO S.A.#ORGANIZATION
+da Cunha - ME#ORGANIZATION
+MARTINS - EI#ORGANIZATION
+Barbosa Fogaça S/A#ORGANIZATION
+CARDOSO MARTINS S/A#ORGANIZATION
+Azevedo da Mata S.A.#ORGANIZATION
+Ramos da Mata - EI#ORGANIZATION
+Costela Silveira e Filhos#ORGANIZATION
+Nascimento S.A.#ORGANIZATION
+DA CRUZ - EI#ORGANIZATION
+Cunha S.A.#ORGANIZATION
+Pereira Ramos - ME#ORGANIZATION
+CUNHA LTDA.#ORGANIZATION
+da Rocha - EI#ORGANIZATION
+Ferreira Silveira S/A#ORGANIZATION
+Moreira da Conceição S/A#ORGANIZATION
+Peixoto Jesus S.A.#ORGANIZATION
+Souza - ME#ORGANIZATION
+da Mata Fogaça e Filhos#ORGANIZATION
+Jesus Gomes e Filhos#ORGANIZATION
+Cardoso Alves S.A.#ORGANIZATION
+VIANA LOPES S.A.#ORGANIZATION
+Teixeira#ORGANIZATION
+Campos Barbosa S.A.#ORGANIZATION
+Lima Mendes S.A.#ORGANIZATION
+Peixoto S.A.#ORGANIZATION
+MARTINS ALMEIDA S/A#ORGANIZATION
+Silveira Azevedo - EI#ORGANIZATION
+Correia e Filhos#ORGANIZATION
+Farias Costela S.A.#ORGANIZATION
+SANTOS DA COSTA - ME#ORGANIZATION
+Gonçalves - ME#ORGANIZATION
+Caldeira - ME#ORGANIZATION
+Castro Castro S/A#ORGANIZATION
+REZENDE#ORGANIZATION
+Araújo Moura S.A.#ORGANIZATION
+Vieira Barros S.A.#ORGANIZATION
+Nascimento Porto e Filhos#ORGANIZATION
+COSTA COSTELA S/A#ORGANIZATION
+Costela Cardoso S/A#ORGANIZATION
+Monteiro e Filhos#ORGANIZATION
+Nunes Nascimento e Filhos#ORGANIZATION
+Monteiro Monteiro e Filhos#ORGANIZATION
+da Cunha#ORGANIZATION
+Araújo S.A.#ORGANIZATION
+DA CONCEIÇÃO NUNES - ME#ORGANIZATION
+LIMA DUARTE - ME#ORGANIZATION
+da Mota - ME#ORGANIZATION
+Cardoso Correia - ME#ORGANIZATION
+Porto S.A.#ORGANIZATION
+NOVAES DUARTE LTDA.#ORGANIZATION
+Costela Ltda.#ORGANIZATION
+DA ROSA REZENDE S.A.#ORGANIZATION
+ARAGÃO CARDOSO LTDA.#ORGANIZATION
+ARAGÃO DA PAZ - EI#ORGANIZATION
+Caldeira Gomes S.A.#ORGANIZATION
+Rezende Fogaça S.A.#ORGANIZATION
+Pires - EI#ORGANIZATION
+Alves#ORGANIZATION
+TEIXEIRA FARIAS - EI#ORGANIZATION
+da Rocha#ORGANIZATION
+Gonçalves - EI#ORGANIZATION
+Nogueira e Filhos#ORGANIZATION
+Moraes Teixeira - EI#ORGANIZATION
+PINTO ALVES - ME#ORGANIZATION
+das Neves Moreira e Filhos#ORGANIZATION
+da Mata - ME#ORGANIZATION
+Cardoso Moreira S.A.#ORGANIZATION
+Duarte Rodrigues e Filhos#ORGANIZATION
+Azevedo Aragão - ME#ORGANIZATION
+Melo e Filhos#ORGANIZATION
+da Conceição Ltda.#ORGANIZATION
+Rodrigues Carvalho - EI#ORGANIZATION
+Ramos - EI#ORGANIZATION
+CASTRO S/A#ORGANIZATION
+Pereira Ribeiro S/A#ORGANIZATION
+PORTO PINTO S/A#ORGANIZATION
+Campos da Rosa e Filhos#ORGANIZATION
+Almeida - EI#ORGANIZATION
+SILVEIRA PEIXOTO LTDA.#ORGANIZATION
+Moraes Ferreira S.A.#ORGANIZATION
+Moura Sales S/A#ORGANIZATION
+Dias Lopes e Filhos#ORGANIZATION
+Cardoso S.A.#ORGANIZATION
+da Rosa Gonçalves e Filhos#ORGANIZATION
+RIBEIRO SOUZA - ME#ORGANIZATION
+da Costa#ORGANIZATION
+PINTO E FILHOS#ORGANIZATION
+Silva Vieira - EI#ORGANIZATION
+MORAES SOUZA - ME#ORGANIZATION
+Rodrigues Porto - ME#ORGANIZATION
+Peixoto da Mata - ME#ORGANIZATION
+Mendes da Costa S/A#ORGANIZATION
+da Cruz da Rocha e Filhos#ORGANIZATION
+das Neves e Filhos#ORGANIZATION
+DA CRUZ CARVALHO S.A.#ORGANIZATION
+Gomes Pires S/A#ORGANIZATION
+Campos - EI#ORGANIZATION
+Moreira Nogueira S/A#ORGANIZATION
+Santos Rodrigues S/A#ORGANIZATION
+PINTO COSTA LTDA.#ORGANIZATION
+Pereira S/A#ORGANIZATION
+Pereira#ORGANIZATION
+MORAES REZENDE E FILHOS#ORGANIZATION
+FREITAS MELO S.A.#ORGANIZATION
+SILVEIRA E FILHOS#ORGANIZATION
+FOGAÇA MOURA - ME#ORGANIZATION
+Gomes da Paz Ltda.#ORGANIZATION
+Souza Pinto Ltda.#ORGANIZATION
+Carvalho da Costa - EI#ORGANIZATION
+CORREIA SOUZA E FILHOS#ORGANIZATION
+JESUS#ORGANIZATION
+Silveira S.A.#ORGANIZATION
+da Rosa S.A.#ORGANIZATION
+Fogaça Lima - EI#ORGANIZATION
+FOGAÇA LTDA.#ORGANIZATION
+Melo Silva e Filhos#ORGANIZATION
+da Rocha Nogueira e Filhos#ORGANIZATION
+Castro Martins e Filhos#ORGANIZATION
+Gonçalves Castro - ME#ORGANIZATION
+Alves Sales S.A.#ORGANIZATION
+Farias Almeida S.A.#ORGANIZATION
+da Costa Vieira - EI#ORGANIZATION
+Oliveira Costela S.A.#ORGANIZATION
+Santos Lopes Ltda.#ORGANIZATION
+Campos e Filhos#ORGANIZATION
+das Neves Castro - EI#ORGANIZATION
+FARIAS VIEIRA S.A.#ORGANIZATION
+da Mata Ferreira S.A.#ORGANIZATION
+da Cruz Correia - EI#ORGANIZATION
+Duarte#ORGANIZATION
+Moura Sales - EI#ORGANIZATION
+Pereira Azevedo Ltda.#ORGANIZATION
+Pinto Cavalcanti S.A.#ORGANIZATION
+das Neves - EI#ORGANIZATION
+MENDES NUNES E FILHOS#ORGANIZATION
+Oliveira Monteiro Ltda.#ORGANIZATION
+Santos - EI#ORGANIZATION
+MENDES#ORGANIZATION
+FERNANDES DA CONCEIÇÃO - EI#ORGANIZATION
+MONTEIRO PORTO - EI#ORGANIZATION
+Santos da Rosa - ME#ORGANIZATION
+CAVALCANTI LTDA.#ORGANIZATION
+Cavalcanti S/A#ORGANIZATION
+Costa Peixoto Ltda.#ORGANIZATION
+Teixeira Monteiro - EI#ORGANIZATION
+Ferreira S.A.#ORGANIZATION
+Cunha Ramos S.A.#ORGANIZATION
+da Rosa - ME#ORGANIZATION
+Martins Campos S/A#ORGANIZATION
+ALMEIDA LOPES S.A.#ORGANIZATION
+Novaes - ME#ORGANIZATION
+Freitas Viana S.A.#ORGANIZATION
+Moreira Barros Ltda.#ORGANIZATION
+SANTOS FOGAÇA - EI#ORGANIZATION
+da Rocha S/A#ORGANIZATION
+da Paz - ME#ORGANIZATION
+da Costa Alves - ME#ORGANIZATION
+Gomes S/A#ORGANIZATION
+da Paz#ORGANIZATION
+da Rosa#ORGANIZATION
+da Mota Lima - ME#ORGANIZATION
+RIBEIRO ALVES S/A#ORGANIZATION
+ALMEIDA DA ROCHA LTDA.#ORGANIZATION
+TEIXEIRA OLIVEIRA S.A.#ORGANIZATION
+da Mata Caldeira e Filhos#ORGANIZATION
+Rocha - ME#ORGANIZATION
+Jesus Fernandes Ltda.#ORGANIZATION
+da Rosa Ltda.#ORGANIZATION
+Nogueira Sales S/A#ORGANIZATION
+Monteiro Moura e Filhos#ORGANIZATION
+Moraes Farias - ME#ORGANIZATION
+Nunes da Luz S.A.#ORGANIZATION
+Ramos Oliveira - ME#ORGANIZATION
+da Mota Silveira e Filhos#ORGANIZATION
+Moura S/A#ORGANIZATION
+Rocha S.A.#ORGANIZATION
+Barros Alves S/A#ORGANIZATION
+Oliveira S/A#ORGANIZATION
+Rezende S.A.#ORGANIZATION
+da Cruz e Filhos#ORGANIZATION
+Castro e Filhos#ORGANIZATION
+Caldeira Rodrigues Ltda.#ORGANIZATION
+Nogueira Ramos - EI#ORGANIZATION
+DA CUNHA S/A#ORGANIZATION
+CAVALCANTI - EI#ORGANIZATION
+SOUZA FERNANDES S/A#ORGANIZATION
+Cavalcanti Peixoto S.A.#ORGANIZATION
+AZEVEDO VIEIRA - EI#ORGANIZATION
+Freitas Pinto Ltda.#ORGANIZATION
+Porto S/A#ORGANIZATION
+CASTRO DA COSTA S/A#ORGANIZATION
+Oliveira Rocha - EI#ORGANIZATION
+Gonçalves Cavalcanti Ltda.#ORGANIZATION
+Pires Pinto e Filhos#ORGANIZATION
+Correia - EI#ORGANIZATION
+Nunes - EI#ORGANIZATION
+Barbosa S/A#ORGANIZATION
+Gomes Ramos Ltda.#ORGANIZATION
+Duarte Alves S/A#ORGANIZATION
+Porto Souza S/A#ORGANIZATION
+Correia S.A.#ORGANIZATION
+Moreira S/A#ORGANIZATION
+DA COSTA REZENDE - EI#ORGANIZATION
+da Costa Nogueira - EI#ORGANIZATION
+da Mata da Rocha - EI#ORGANIZATION
+Cavalcanti#ORGANIZATION
+Nunes S.A.#ORGANIZATION
+Araújo#ORGANIZATION
+Silva Rocha e Filhos#ORGANIZATION
+da Cruz Barbosa - ME#ORGANIZATION
+COSTA LTDA.#ORGANIZATION
+Nogueira Ltda.#ORGANIZATION
+Vieira#ORGANIZATION
+Cardoso Cavalcanti S.A.#ORGANIZATION
+Martins#ORGANIZATION
+Rodrigues S/A#ORGANIZATION
+RIBEIRO DA ROSA - EI#ORGANIZATION
+Oliveira Caldeira S/A#ORGANIZATION
+Pinto Campos S.A.#ORGANIZATION
+Oliveira Rodrigues Ltda.#ORGANIZATION
+DA CUNHA GOMES S.A.#ORGANIZATION
+Peixoto Aragão Ltda.#ORGANIZATION
+Azevedo Campos - EI#ORGANIZATION
+LIMA CALDEIRA E FILHOS#ORGANIZATION
+Pires Alves e Filhos#ORGANIZATION
+FREITAS S/A#ORGANIZATION
+RIBEIRO E FILHOS#ORGANIZATION
+SILVEIRA LTDA.#ORGANIZATION
+FERREIRA#ORGANIZATION
+Cardoso - EI#ORGANIZATION
+Almeida - ME#ORGANIZATION
+Nogueira da Luz - ME#ORGANIZATION
+da Mata Fogaça S/A#ORGANIZATION
+Jesus e Filhos#ORGANIZATION
+da Mota Nunes S.A.#ORGANIZATION
+Castro Pinto S/A#ORGANIZATION
+FERNANDES DA LUZ - ME#ORGANIZATION
+TEIXEIRA FERREIRA - ME#ORGANIZATION
+Pereira Lopes e Filhos#ORGANIZATION
+da Rocha Freitas Ltda.#ORGANIZATION
+Ramos#ORGANIZATION
+DA LUZ PINTO S.A.#ORGANIZATION
+PEREIRA LTDA.#ORGANIZATION
+Nogueira S/A#ORGANIZATION
+da Mota Ferreira S/A#ORGANIZATION
+Duarte - EI#ORGANIZATION
+Moreira - ME#ORGANIZATION
+SALES - EI#ORGANIZATION
+JESUS - EI#ORGANIZATION
+GOMES E FILHOS#ORGANIZATION
+BARBOSA NUNES - EI#ORGANIZATION
+da Mota e Filhos#ORGANIZATION
+Martins e Filhos#ORGANIZATION
+da Cruz Ramos Ltda.#ORGANIZATION
+Farias#ORGANIZATION
+Nogueira Nascimento - ME#ORGANIZATION
+Nogueira#ORGANIZATION
+Barbosa Peixoto Ltda.#ORGANIZATION
+da Luz Viana e Filhos#ORGANIZATION
+Jesus Barros S.A.#ORGANIZATION
+da Conceição Costela - EI#ORGANIZATION
+Lopes Peixoto S.A.#ORGANIZATION
+Moreira#ORGANIZATION
+Duarte S.A.#ORGANIZATION
+Mendes Nogueira S/A#ORGANIZATION
+Barros Cardoso - ME#ORGANIZATION
+Nunes Costa S/A#ORGANIZATION
+Monteiro - EI#ORGANIZATION
+CARVALHO S/A#ORGANIZATION
+Lima Rodrigues - ME#ORGANIZATION
+Ferreira e Filhos#ORGANIZATION
+Souza e Filhos#ORGANIZATION
+Porto Farias Ltda.#ORGANIZATION
+Novaes Nogueira - EI#ORGANIZATION
+LIMA - EI#ORGANIZATION
+Rodrigues Vieira Ltda.#ORGANIZATION
+ARAGÃO S.A.#ORGANIZATION
+Pereira Araújo Ltda.#ORGANIZATION
+da Mota S.A.#ORGANIZATION
+DA CONCEIÇÃO DIAS - ME#ORGANIZATION
+Ferreira Ltda.#ORGANIZATION
+Dias Silveira S/A#ORGANIZATION
+Azevedo e Filhos#ORGANIZATION
+Gomes Souza - ME#ORGANIZATION
+Fernandes Costela S.A.#ORGANIZATION
+REZENDE ROCHA S/A#ORGANIZATION
+Castro Silva - ME#ORGANIZATION
+Carvalho Ltda.#ORGANIZATION
+OLIVEIRA LTDA.#ORGANIZATION
+Almeida Ramos e Filhos#ORGANIZATION
+DA CRUZ - ME#ORGANIZATION
+Nascimento Farias - EI#ORGANIZATION
+REZENDE REZENDE S.A.#ORGANIZATION
+Moreira Fernandes Ltda.#ORGANIZATION
+Barros#ORGANIZATION
+Moraes S.A.#ORGANIZATION
+FREITAS RIBEIRO LTDA.#ORGANIZATION
+Araújo - ME#ORGANIZATION
+DA CRUZ S.A.#ORGANIZATION
+Campos#ORGANIZATION
+Rocha Ferreira - ME#ORGANIZATION
+Pereira Souza Ltda.#ORGANIZATION
+Carvalho S.A.#ORGANIZATION
+Barros Rocha - EI#ORGANIZATION
+OLIVEIRA SILVEIRA S.A.#ORGANIZATION
+Azevedo Sales - ME#ORGANIZATION
+Fogaça - EI#ORGANIZATION
+Cunha Gonçalves - EI#ORGANIZATION
+Cardoso Carvalho - EI#ORGANIZATION
+JESUS SILVA - ME#ORGANIZATION
+Novaes Pinto S/A#ORGANIZATION
+NOVAES - EI#ORGANIZATION
+Oliveira Lima e Filhos#ORGANIZATION
+Cavalcanti Fernandes e Filhos#ORGANIZATION
+Freitas e Filhos#ORGANIZATION
+Moura e Filhos#ORGANIZATION
+COSTA PIRES - ME#ORGANIZATION
+Ribeiro da Cruz S/A#ORGANIZATION
+DA LUZ CAVALCANTI E FILHOS#ORGANIZATION
+Ribeiro Costa S.A.#ORGANIZATION
+MARTINS SALES - EI#ORGANIZATION
+Porto Ltda.#ORGANIZATION
+Martins Silva - EI#ORGANIZATION
+Moraes Barbosa S.A.#ORGANIZATION
+Carvalho Pires S.A.#ORGANIZATION
+da Mata#ORGANIZATION
+Aragão Cardoso e Filhos#ORGANIZATION
+Duarte Ltda.#ORGANIZATION
+Fogaça Rocha - EI#ORGANIZATION
+Cavalcanti da Mata Ltda.#ORGANIZATION
+Gomes Vieira Ltda.#ORGANIZATION
+Sales#ORGANIZATION
+DAS NEVES ARAÚJO E FILHOS#ORGANIZATION
+CALDEIRA#ORGANIZATION
+Rocha Peixoto S.A.#ORGANIZATION
+Cardoso#ORGANIZATION
+Jesus Nunes S.A.#ORGANIZATION
+Nascimento#ORGANIZATION
+DIAS FREITAS E FILHOS#ORGANIZATION
+Cardoso Ltda.#ORGANIZATION
+da Conceição Melo S.A.#ORGANIZATION
+PORTO FREITAS S.A.#ORGANIZATION
+Nunes Ferreira - ME#ORGANIZATION
+Alves S/A#ORGANIZATION
+PEIXOTO#ORGANIZATION
+DA ROCHA DA MATA S.A.#ORGANIZATION
+SANTOS SOUZA - ME#ORGANIZATION
+da Cunha e Filhos#ORGANIZATION
+MELO#ORGANIZATION
+Aragão Novaes S/A#ORGANIZATION
+Costa Alves - EI#ORGANIZATION
+CASTRO MOURA LTDA.#ORGANIZATION
+Farias Lopes e Filhos#ORGANIZATION
+DA ROCHA DA ROCHA E FILHOS#ORGANIZATION
+OLIVEIRA - ME#ORGANIZATION
+Dias#ORGANIZATION
+Fernandes - EI#ORGANIZATION
+SALES COSTELA S.A.#ORGANIZATION
+da Conceição#ORGANIZATION
+Clap loader#PROFESSION
+Maquiador#PROFESSION
+Pecuarista#PROFESSION
+Terapeuta floral#PROFESSION
+Administrador público#PROFESSION
+Impressor#PROFESSION
+Tecnólogo em jogos digitais#PROFESSION
+Investigador de Polícia#PROFESSION
+Veterinário#PROFESSION
+Terapeuta Holístico#PROFESSION
+Lactarista hospitalar#PROFESSION
+Reumatologista#PROFESSION
+Cortador de cana-de-açucar#PROFESSION
+Corretor da bolsa de valores#PROFESSION
+Químico farmacêutico#PROFESSION
+Cartunista#PROFESSION
+Microfonista#PROFESSION
+Capoeirista#PROFESSION
+Gerente de riscos em seguros#PROFESSION
+Desembargador de justiça#PROFESSION
+Pediatra#PROFESSION
+Intérprete#PROFESSION
+Engenheiro de iluminação#PROFESSION
+Regente#PROFESSION
+Guarda roupeiro#PROFESSION
+Encanador#PROFESSION
+Restaurador#PROFESSION
+Numerólogo#PROFESSION
+Jogador de badminton#PROFESSION
+Lubrificador de máquinas#PROFESSION
+Florista#PROFESSION
+Comissário de bordo#PROFESSION
+Jogador de futebol#PROFESSION
+Redator#PROFESSION
+Odontopediatra#PROFESSION
+Engenheiro de energia#PROFESSION
+Guitarrista#PROFESSION
+Capoeirista#PROFESSION
+Almoxarife#PROFESSION
+Panfleteiro#PROFESSION
+Profissional de reciclagem#PROFESSION
+Capataz#PROFESSION
+Turismólogo#PROFESSION
+Astrofísico#PROFESSION
+Instalador de linha telefônica#PROFESSION
+Major#PROFESSION
+Delegado#PROFESSION
+Especialista em agronegócios#PROFESSION
+Manobrista#PROFESSION
+Orçamentista#PROFESSION
+Torneiro mecânico#PROFESSION
+Nefrologista#PROFESSION
+Arranjador musical#PROFESSION
+Tatuador#PROFESSION
+Profissional de cinema#PROFESSION
+Mecânico#PROFESSION
+Maestro#PROFESSION
+Dançarino#PROFESSION
+Ourives#PROFESSION
+Psicólogo#PROFESSION
+Faxineiro#PROFESSION
+Camelô#PROFESSION
+Jogador de boliche#PROFESSION
+Patinador#PROFESSION
+Pastilheiro#PROFESSION
+Assessor parlamentar#PROFESSION
+Chaveiro#PROFESSION
+Embalsamador#PROFESSION
+Moldador#PROFESSION
+Profissional de cinema#PROFESSION
+Químico#PROFESSION
+Tosador#PROFESSION
+Tecelão#PROFESSION
+Eletricista#PROFESSION
+Cientista político#PROFESSION
+Gandula#PROFESSION
+Rebarbador de metal#PROFESSION
+Cozinheira#PROFESSION
+Tecelão#PROFESSION
+Geógrafo#PROFESSION
+Cientista de alimentos#PROFESSION
+Radiooperador de vôo#PROFESSION
+Contabilista#PROFESSION
+Revendedor#PROFESSION
+Boxeador#PROFESSION
+Técnico de gesso#PROFESSION
+Engenheiro aeronáutico#PROFESSION
+Ferroviário#PROFESSION
+Dogueiro#PROFESSION
+Auditor#PROFESSION
+Árbitro e mediador#PROFESSION
+Gandula#PROFESSION
+Espeleologista#PROFESSION
+Endodontista#PROFESSION
+Tecnólogo em rochas ornamentais#PROFESSION
+Panfleteiro#PROFESSION
+Especialista em agronegócios#PROFESSION
+Historiador#PROFESSION
+Garimpeiro#PROFESSION
+Jogador de futebol#PROFESSION
+Assistente de produção#PROFESSION
+Cientista da informação e documentação#PROFESSION
+Presidente da República#PROFESSION
+Editor#PROFESSION
+Triatleta#PROFESSION
+Gestor de tecnologia da informação#PROFESSION
+Tosador#PROFESSION
+Chaveiro#PROFESSION
+Guincheiro#PROFESSION
+Vigilante noturno/diurno#PROFESSION
+Orientador educacional#PROFESSION
+Moldador#PROFESSION
+Filósofo#PROFESSION
+Arquivista#PROFESSION
+Técnico em tratamento de água#PROFESSION
+Diretor de cinema#PROFESSION
+Revendedor#PROFESSION
+Profissional de cinema#PROFESSION
+DJ#PROFESSION
+Repórter#PROFESSION
+Produtor fonográfico#PROFESSION
+Instrutor#PROFESSION
+Tecnólogo em processos químicos#PROFESSION
+Embalador#PROFESSION
+Laboratorista#PROFESSION
+Arranjador musical#PROFESSION
+Gestor de qualidade#PROFESSION
+Perito criminal#PROFESSION
+Numerólogo#PROFESSION
+Cumim#PROFESSION
+Gravurista#PROFESSION
+Médico geneticista#PROFESSION
+Webdesigner#PROFESSION
+Locutor#PROFESSION
+Quiropraxista#PROFESSION
+Professor#PROFESSION
+Presidente da República#PROFESSION
+Gerente de banco#PROFESSION
+Gestor público#PROFESSION
+Engenheiro químico#PROFESSION
+Estilista#PROFESSION
+Camelô#PROFESSION
+Ministro#PROFESSION
+Profissional de efeitos especiais#PROFESSION
+Acupunturista#PROFESSION
+Engenheiro de energia#PROFESSION
+Profissional de recursos humanos#PROFESSION
+Necromaquiador#PROFESSION
+Chefe de cozinha#PROFESSION
+Publicitário#PROFESSION
+Luthier#PROFESSION
+Dançarino#PROFESSION
+Cientista social#PROFESSION
+Auxiliar de serviços gerais#PROFESSION
+Aviador#PROFESSION
+Comerciante#PROFESSION
+Aeromoça#PROFESSION
+Garimpeiro#PROFESSION
+Jogador de boliche#PROFESSION
+Ferreiro#PROFESSION
+Guardador de veículos#PROFESSION
+Lutador de taekwondo#PROFESSION
+Modelo#PROFESSION
+Boticário#PROFESSION
+Gagsman#PROFESSION
+Ator#PROFESSION
+Produtor de audio visual#PROFESSION
+Tecnólogo em jogos digitais#PROFESSION
+Conferente de expedição#PROFESSION
+Meeiro#PROFESSION
+Empresário#PROFESSION
+Analista de sistemas#PROFESSION
+Artista/Técnico em espetáculos de diversões#PROFESSION
+Biblioteconomista#PROFESSION
+Ministro#PROFESSION
+Engenheiro físico#PROFESSION
+Neurologista#PROFESSION
+Meeiro#PROFESSION
+Músico#PROFESSION
+Plastimodelista#PROFESSION
+Comerciante#PROFESSION
+Analista de sistemas#PROFESSION
+Perito judicial#PROFESSION
+Produtor fonográfico#PROFESSION
+Quadrinista#PROFESSION
+Dentista#PROFESSION
+Moldador#PROFESSION
+Geólogo#PROFESSION
+Lutador de kung fu#PROFESSION
+Espeleologista#PROFESSION
+Profissional de hotelaria#PROFESSION
+Vigilante noturno/diurno#PROFESSION
+Catador de carangueijos#PROFESSION
+Modelista#PROFESSION
+Jornaleiro#PROFESSION
+Flautista#PROFESSION
+Dermatologista#PROFESSION
+Policial civil#PROFESSION
+Bombeiro#PROFESSION
+Açougueiro#PROFESSION
+Produtor musical#PROFESSION
+Terapeuta ocupacional#PROFESSION
+Militar da Marinha#PROFESSION
+Seguidor de compras#PROFESSION
+Escoteiro#PROFESSION
+Mensageiro#PROFESSION
+Artesão#PROFESSION
+Tecnólogo em geoprocessamento#PROFESSION
+Engenheiro de materiais#PROFESSION
+Topógrafo#PROFESSION
+Urbanista#PROFESSION
+Cerimonialista#PROFESSION
+Profissional de cinema#PROFESSION
+Especialista em agronegócios#PROFESSION
+Açougueiro#PROFESSION
+Engenheiro acústico#PROFESSION
+Produtor de eventos#PROFESSION
+Urologista#PROFESSION
+Dentista#PROFESSION
+Técnico de som#PROFESSION
+Cozinheira#PROFESSION
+Militar da Aeronáutica#PROFESSION
+Técnico em tratamento de água#PROFESSION
+Ajudante de produção#PROFESSION
+Portuário#PROFESSION
+Chapeiro#PROFESSION
+Biotecnólogo#PROFESSION
+Atendente#PROFESSION
+Pedreiro#PROFESSION
+Datilógrafo#PROFESSION
+Topógrafo#PROFESSION
+Leão de chácara#PROFESSION
+Apicultor#PROFESSION
+Cumim#PROFESSION
+Comprador#PROFESSION
+Diagramador#PROFESSION
+Engenheiro de aquicultura#PROFESSION
+Guitarrista#PROFESSION
+Profissional de logística#PROFESSION
+Encarregado de manutenção predial#PROFESSION
+Capataz#PROFESSION
+Consultor#PROFESSION
+Profissional de comércio exterior#PROFESSION
+Locutor#PROFESSION
+Diretor de cinema#PROFESSION
+Panfleteiro#PROFESSION
+Cancerologista ou Oncologista#PROFESSION
+Panificador/Padeiro#PROFESSION
+Ortoptista#PROFESSION
+Consultor de moda#PROFESSION
+Escoteiro#PROFESSION
+Topógrafo#PROFESSION
+Amolador de ferramentas#PROFESSION
+Sonoplasta#PROFESSION
+Capoeirista#PROFESSION
+Xilógrafo#PROFESSION
+Piloto automobilístico#PROFESSION
+Motorista#PROFESSION
+Policial civil#PROFESSION
+Terapeuta floral#PROFESSION
+Ilustrador#PROFESSION
+Marcador de luz#PROFESSION
+Sushiman#PROFESSION
+Major#PROFESSION
+Karateca#PROFESSION
+Eletricista#PROFESSION
+Odontopediatra#PROFESSION
+Limpador de vidros#PROFESSION
+Radiooperador de vôo#PROFESSION
+Gagsman#PROFESSION
+Odontopediatra#PROFESSION
+Educador integrado à saúde pública#PROFESSION
+Jogador de futebol#PROFESSION
+Profissional de linguística#PROFESSION
+Eletricista de automóveis#PROFESSION
+Designer de interiores#PROFESSION
+Jogador de handebol#PROFESSION
+Salgadeira#PROFESSION
+Luthier#PROFESSION
+Endodontista#PROFESSION
+Contabilista#PROFESSION
+Jogador de tênis de mesa#PROFESSION
+Parteira tradicional#PROFESSION
+Brigadeiro#PROFESSION
+Cabo#PROFESSION
+Office-boy#PROFESSION
+Camelô#PROFESSION
+Dedetizador#PROFESSION
+Pescador#PROFESSION
+Engenheiro sanitarista#PROFESSION
+Especialista em agronegócios#PROFESSION
+Musicoterapeuta#PROFESSION
+Escultor#PROFESSION
+Pianista#PROFESSION
+Cientista de alimentos#PROFESSION
+Instalador de painéis#PROFESSION
+Baixista#PROFESSION
+Garçom#PROFESSION
+Tecnólogo em recursos pesqueiros#PROFESSION
+Caixa#PROFESSION
+Boticário#PROFESSION
+Odontologista estético#PROFESSION
+Revisor#PROFESSION
+Ministro#PROFESSION
+Babysitter#PROFESSION
+Profissional de relações públicas#PROFESSION
+Traumatologista#PROFESSION
+Cadeirinha#PROFESSION
+Engenheiro industrial#PROFESSION
+Auxiliar de serviços gerais#PROFESSION
+Senador#PROFESSION
+Atleta de tiro com arco#PROFESSION
+Urbanista#PROFESSION
+Restaurador#PROFESSION
+Camelô#PROFESSION
+Editor#PROFESSION
+Corretor de seguros#PROFESSION
+Roteirista#PROFESSION
+Profissional de informática#PROFESSION
+Empacotador#PROFESSION
+Continuista#PROFESSION
+Chargista#PROFESSION
+Profissional de rádio e tv#PROFESSION
+Enfermeiro#PROFESSION
+Tecnólogo em silvicultura#PROFESSION
+Estivador#PROFESSION
+Engenheiro agrícola#PROFESSION
+Jogador de basquete#PROFESSION
+Costureira#PROFESSION
+Cozinheira#PROFESSION
+Ginecologista#PROFESSION
+Plastimodelista#PROFESSION
+Catador de carangueijos#PROFESSION
+Tecnólogo em processos químicos#PROFESSION
+Dublê#PROFESSION
+Lavador de veículos#PROFESSION
+Locutor#PROFESSION
+Lutador de karatê#PROFESSION
+Chargista#PROFESSION
+Baixista#PROFESSION
+Intérprete de Bíblias#PROFESSION
+Engenheiro físico#PROFESSION
+Marceneiro#PROFESSION
+Forneiro#PROFESSION
+Profissional de tecnologia de laticínios#PROFESSION
+Técnico em radiologia#PROFESSION
+Kite-surfer#PROFESSION
+Surfista#PROFESSION
+Administrador#PROFESSION
+Cerimonialista#PROFESSION
+Lavador#PROFESSION
+Engenheiro de iluminação#PROFESSION
+Especialista em agronegócios#PROFESSION
+Aviador#PROFESSION
+Cobrador de pedágio#PROFESSION
+Contatólogo#PROFESSION
+Agente de defesa sanitária#PROFESSION
+Frentista#PROFESSION
+Físico#PROFESSION
+Catador de carangueijos#PROFESSION
+Maitre#PROFESSION
+Dublador#PROFESSION
+Biomédico#PROFESSION
+Cenógrafo#PROFESSION
+Gravurista#PROFESSION
+Estatístico#PROFESSION
+Datilógrafo#PROFESSION
+Clarinetista#PROFESSION
+Repórter#PROFESSION
+Manicure#PROFESSION
+Antropólogo#PROFESSION
+Repositor#PROFESSION
+Assistente social#PROFESSION
+Figurinista#PROFESSION
+Policial federal#PROFESSION
+Contramestre em transporte marítimo#PROFESSION
+Paisagista#PROFESSION
+Triatleta#PROFESSION
+Procurador de justiça#PROFESSION
+Economista doméstico#PROFESSION
+Retificador#PROFESSION
+Médico cirurgião#PROFESSION
+Tabelião#PROFESSION
+Guia turistico#PROFESSION
+Moleiro#PROFESSION
+Assessor de imprensa#PROFESSION
+Profissional de logística#PROFESSION
+Conferente de carga e descarga#PROFESSION
+Tecnólogo em produção de bebidas#PROFESSION
+Operador de vídeo#PROFESSION
+Diretor de fotografia#PROFESSION
+Tecnólogo em automação industrial#PROFESSION
+Jardineiro#PROFESSION
+Cientista#PROFESSION
+Bombeiro#PROFESSION
+Maestro#PROFESSION
+Velejador#PROFESSION
+Contador#PROFESSION
+Agente de defesa sanitária#PROFESSION
+Urbanista#PROFESSION
+Economista doméstico#PROFESSION
+Lutador de karatê#PROFESSION
+Corretor de seguros#PROFESSION
+Flanelinha#PROFESSION
+Porteiro#PROFESSION
+Engenheiro petroquímico#PROFESSION
+Montador de negativos#PROFESSION
+Catador de carangueijos#PROFESSION
+Arquivista#PROFESSION
+Nadador#PROFESSION
+Microfonista#PROFESSION
+Artista plástico#PROFESSION
+Moldador#PROFESSION
+Prefeito#PROFESSION
+Engenheiro petroquímico#PROFESSION
+Leão de chácara#PROFESSION
+Juiz de futebol#PROFESSION
+Consultor#PROFESSION
+Bombeiro#PROFESSION
+Editor de mesa de corte#PROFESSION
+Classificador contábil#PROFESSION
+Funileiro#PROFESSION
+Bancário#PROFESSION
+Argumentista#PROFESSION
+Sociólogo#PROFESSION
+Assistente social#PROFESSION
+Guia turistico#PROFESSION
+Perito judicial#PROFESSION
+Tecnólogo em produção Sucroalcooleira#PROFESSION
+Barbeiro#PROFESSION
+Escritor#PROFESSION
+Tabelião#PROFESSION
+Somelier#PROFESSION
+Cadista#PROFESSION
+Tecnólogo em irrigação e drenagem#PROFESSION
+Tecnólogo em navegação fluvial#PROFESSION
+Treinador#PROFESSION
+Arquiteto#PROFESSION
+Modelista#PROFESSION
+Cortador de cana-de-açucar#PROFESSION
+Guincheiro#PROFESSION
+Engenheiro de horticultura#PROFESSION
+Revisor#PROFESSION
+Físico nuclear#PROFESSION
+Engenheiro mecatrônico#PROFESSION
+Comissário de bordo#PROFESSION
+Caminhoneiro#PROFESSION
+Engraxate#PROFESSION
+Recreador#PROFESSION
+Prefeito#PROFESSION
+Físico#PROFESSION
+Pedagogo#PROFESSION
+Gestor de tecnologia da informação#PROFESSION
+Técnico em segurança do trabalho#PROFESSION
+Caminhoneiro#PROFESSION
+Teólogo#PROFESSION
+Árbitro e mediador#PROFESSION
+Repositor#PROFESSION
+Feirante#PROFESSION
+Médico#PROFESSION
+Radiologista#PROFESSION
+Tecnólogo em irrigação e drenagem#PROFESSION
+Meredeira#PROFESSION
+Teólogo#PROFESSION
+Mestre-de-obras#PROFESSION
+Bailarina#PROFESSION
+Trilheiro ou músico de cinema#PROFESSION
+Jornaleiro#PROFESSION
+Representante comercial#PROFESSION
+Arqueólogo#PROFESSION
+Escultor#PROFESSION
+Gourmet#PROFESSION
+Engenheiro mecatrônico#PROFESSION
+Psicomotricista#PROFESSION
+Vigia parlamentar#PROFESSION
+Sacoleira#PROFESSION
+Moldureiro#PROFESSION
+Repórter#PROFESSION
+Oceanógrafo#PROFESSION
+Aeroviário#PROFESSION
+Jogador de basquete#PROFESSION
+Cameraman#PROFESSION
+Escrivão#PROFESSION
+Notário#PROFESSION
+Apresentador#PROFESSION
+Camelô#PROFESSION
+Optometrista#PROFESSION
+Cirurgião dentista#PROFESSION
+Urologista#PROFESSION
+Sushiman#PROFESSION
+Tatuador#PROFESSION
+Auxiliar administrativo#PROFESSION
+Produtor de multimídia#PROFESSION
+Produtor editorial#PROFESSION
+Gestor de recursos humanos#PROFESSION
+Pedagogo#PROFESSION
+Leão de chácara#PROFESSION
+Endocrinologista#PROFESSION
+Diplomata#PROFESSION
+Encarregado de manutenção predial#PROFESSION
+70#AGE
+21#AGE
+18#AGE
+49#AGE
+58#AGE
+80#AGE
+48#AGE
+61#AGE
+66#AGE
+74#AGE
+13#AGE
+24#AGE
+38#AGE
+35#AGE
+22#AGE
+16#AGE
+47#AGE
+82#AGE
+54#AGE
+32#AGE
+14#AGE
+6#AGE
+57#AGE
+34#AGE
+7#AGE
+59#AGE
+43#AGE
+10#AGE
+17#AGE
+8#AGE
+40#AGE
+69#AGE
+83#AGE
+63#AGE
+23#AGE
+15#AGE
+25#AGE
+81#AGE
+68#AGE
+62#AGE
+45#AGE
+76#AGE
+20#AGE
+55#AGE
+19#AGE
+79#AGE
+51#AGE
+44#AGE
+26#AGE
+56#AGE
+46#AGE
+30#AGE
+65#AGE
+11#AGE
+31#AGE
+9#AGE
+42#AGE
+27#AGE
+28#AGE
+67#AGE
+84#AGE
+29#AGE
+41#AGE
+39#AGE
+2#AGE
+50#AGE
+75#AGE
+52#AGE
+64#AGE
+60#AGE
+73#AGE
+37#AGE
+78#AGE
+33#AGE
+4#AGE
+36#AGE
+53#AGE
+72#AGE
+77#AGE
+5#AGE
+3#AGE
+71#AGE
+12#AGE
+M.#SEX
+fêmea#SEX
+H.#SEX
+macho#SEX
+M.#SEX
+um paciente#SEX
+macho#SEX
+mulheres#SEX
+um macho#SEX
+Masculino#SEX
+Menino#SEX
+Fêmea#SEX
+a mulher#SEX
+Homens#SEX
+do homem#SEX
+F.#SEX
+a paciente#SEX
+homens#SEX
+mulheres#SEX
+macho#SEX
+fêmea#SEX
+macho#SEX
+F.#SEX
+M.#SEX
+criança#SEX
+Um paciente#SEX
+homens#SEX
+homens#SEX
+mulheres#SEX
+mulheres#SEX
+mulheres#SEX
+macho#SEX
+um homem#SEX
+M.#SEX
+H.#SEX
+H.#SEX
+Masculino#SEX
+Mulheres#SEX
+garotinha#SEX
+o paciente#SEX
+Macho#SEX
+homens#SEX
+M.#SEX
+Mulher velha#SEX
+homens#SEX
+F.#SEX
+F.#SEX
+F.#SEX
+H.#SEX
+Garotinha#SEX
+macho#SEX
+M.#SEX
+uma mulher#SEX
+Menino#SEX
+fêmea#SEX
+homens#SEX
+H.#SEX
+H.#SEX
+F.#SEX
+uma menina#SEX
+o homem#SEX
+macho#SEX
+mulheres#SEX
+4 53-39-84-4#ID
+27 42:N50403#ID
+3-8#ID
+810 -71-62-8#ID
+9 3295529#ID
+914-64-15- 0#ID
+3#ID
+63-81987#ID
+453398-44#ID
+674-6781#ID
+446-90 -33-6#ID
+4-6534-7834#ID
+5-541E69701#ID
+17032-42#ID
+9868-572#ID
+56-419927#ID
+537-18-74--8#ID
+8 946B57286#ID
+4469033 6#ID
+898-97-85- 6#ID
+4842366-3#ID
+652 -33-21-5#ID
+1-3896 405#ID
+7670 238#ID
+DOCUM-ENT:3-6062838#ID
+22-041864#ID
+013423C A#ID
+6904468 1#ID
+425-03-15 -1#ID
+406-70-3-3#ID
+556-3788#ID
+4 83#ID
+813--25-60-5#ID
+957-18-08- 4#ID
+6842 267#ID
+875-1045#ID
+981820-2#ID
+561-3892#ID
+63-1-07-92-1#ID
+1 0418061#ID
+EO2 5834097#ID
+898-97-85 -6#ID
+557081 66#ID
+676267 5#ID
+88491 427#ID
+3 744922#ID
+892-76-95--4#ID
+962- 85-18#ID
+63-1-90-33-7#ID
+4-7#ID
+9049 5403#ID
+928- 19-46-1#ID
+53-954143#ID
+1116 417#ID
+46-7550#ID
+008- 37-16#ID
+69 044681#ID
+6 762675#ID
+82-4-59-51#ID
+7 269058#ID
+172 9440#ID
+8053-1359#ID
+DOCUMENT:3-6062-838#ID
+9-654616#ID
+602-44986#ID
+515-31--23-5#ID
+7871:S0-6562#ID
+80910-690#ID
+7078Y0 4327#ID
+6 9#ID
+759-87552#ID
+8187 Y34368#ID
+456132 6#ID
+066672 9#ID
+24 490460#ID
+#158- 42-11-2#ID
+1269381 9#ID
+03-3-98-74#ID
+49 89555#ID
+735948-5#ID
+92 38369#ID
+161218 7#ID
+0-103241 7#ID
+7-8865189#ID
+631-90-33 -7#ID
+612--48-04-0#ID
+72 23692#ID
+0-532 059#ID
+0 33-98-74#ID
+9 4482315#ID
+2 360719#ID
+4 634248#ID
+569 4653#ID
+3 6052413#ID
+56 94653#ID
+6-0-15285#ID
+13 929520#ID
+4 8#ID
+06667-29#ID
+CK7 59182#ID
+6398-353#ID
+875--10-45#ID
+054-00-9 9#ID
+813 25605#ID
+6842-267#ID
+8-34010#ID
+2-0#ID
+4824 E7560#ID
+9571808 4#ID
+2 9#ID
+EO25 834097#ID
+72-75714#ID
+96285 18#ID
+4872 6886#ID
+167256 9#ID
+851-4931#ID
+929-02 -28#ID
+810-71-6 2-8#ID
+1#ID
+79-9#ID
+7000 963#ID
+618-4O55309#ID
+965461 6#ID
+481-85-4-3-7#ID
+4894-U89067#ID
+875-10 -45#ID
+374-4922#ID
+4894U8-9067#ID
+3-084A07688#ID
+158- 42-11-2#ID
+795-76--17#ID
+1392 9520#ID
+327074 20#ID
+845-41--54-4#ID
+4 68#ID
+5541E6970-1#ID
+5 7#ID
+7-0#ID
+7246 074#ID
+59--43465178#ID
+9544 546#ID
+366-65- 49#ID
+55 708166#ID
+NX-O#ID
+8 740465#ID
+4-25#ID
+40 67033#ID
+948-59-58- 0#ID
+76-7-02-38#ID
+236-67-03- 3#ID
+926 2764#ID
+5 7#ID
+722615 2#ID
+2-9#ID
+55-661#ID
+783-61--34-3#ID
+OW9740 79#ID
+928-1-9-46-1#ID
+6-015-285#ID
+18 72985#ID
+657-72-75 -7#ID
+2226770 8#ID
+90-338035#ID
+24744-10#ID
+7-96 89009#ID
+865-2895#ID
+222-67 -70-8#ID
+903380 35#ID
+471108 3#ID
+722615 2#ID
+401-10-87- 8#ID
+929-02-2 8#ID
+8- 7695417#ID
+83-26S84259#ID
+7223 692#ID
+8326S8-4259#ID
+43471-375#ID
+2-097545#ID
+4764636 1#ID
+9-8#ID
+89897-856#ID
+8 514931#ID
+DOCUMENT :9-3042267#ID
+561389 2#ID
+1524 720#ID
+2 693D15325#ID
+652-33 -21-5#ID
+0-841216 7#ID
+299643 44#ID
+516--39-35-7#ID
+1-5#ID
+544 -84-52#ID
+380-18-32--2#ID
+1977U39-928#ID
+5240 2461#ID
+2593:A7960-4#ID
+MR N:146-55-23-5#ID
+8-652895#ID
+#158--42-11-2#ID
+8446G-98130#ID
+805 31359#ID
+7758-U11191#ID
+2-155941#ID
+919 0908#ID
+8--9594396#ID
+683--51-28#ID
+37014 9#ID
+6386 371#ID
+79160-07#ID
+855-88--85-2#ID
+826808 4#ID
+244904-60#ID
+3674 193#ID
+9 2819461#ID
+8946-B57286#ID
+7 -9689009#ID
+72460-74#ID
+47-646361#ID
+9290 228#ID
+367-4193#ID
+962-85-1-8#ID
+DOCUM-ENT:9-3042267#ID
+60 2-44-98-6#ID
+952-3697#ID
+9125 902#ID
+4334 L01518#ID
+7275 714#ID
+833 12060#ID
+54 0099#ID
+60 51778#ID
+42 5#ID
+DOCUMENT:3- 89996385#ID
+2#ID
+590-33 -20-3#ID
+3270742-0#ID
+6-767510#ID
+7 672624#ID
+45339-844#ID
+40984 972#ID
+42-817774#ID
+751-2566#ID
+3 74992#ID
+353359-25#ID
+6 5219816#ID
+247 4410#ID
+4953-5763#ID
+618-13-8-2-6#ID
+68-50327#ID
+7672-624#ID
+8799-802#ID
+8017H19-286#ID
+126-93819#ID
+6310 7921#ID
+52 7-62-21#ID
+8 4091519#ID
+220 41864#ID
+434713-75#ID
+53 718748#ID
+26659-527#ID
+1-977U39928#ID
+8 751045#ID
+704-5247#ID
+220-4 1-86-4#ID
+4 9921666#ID
+1128-9501#ID
+87-9#ID
+6969S4-7715#ID
+91909 08#ID
+DOCUMENT:5-9812 947#ID
+8927695-4#ID
+539541 43#ID
+14477 347#ID
+220-41--86-4#ID
+981 4048#ID
+8107162 8#ID
+71 701456#ID
+36052 413#ID
+8268 084#ID
+727 6#ID
+602449 86#ID
+7194 334#ID
+216--669-9576#ID
+6577275-7#ID
+56-4-19-92-7#ID
+008- 37-16#ID
+2 22-67-70-8#ID
+60-005814#ID
+401-10--87-8#ID
+:0-54698 16#ID
+830865 2#ID
+008-3716#ID
+791-60 -07#ID
+4098 4972#ID
+4818543 7#ID
+42 521583#ID
+91410-27#ID
+6 5772757#ID
+4-65347 834#ID
+9995C9629 3#ID
+9 8#ID
+6804:Q021 20#ID
+282975-34#ID
+4610 3196#ID
+98685 72#ID
+2840-5#ID
+8 05-31-35-9#ID
+538--41-21-0#ID
+9 290228#ID
+9 13426#ID
+3533592 5#ID
+6 9#ID
+461031 96#ID
+1 672569#ID
+2-35-9#ID
+767-0 2-38#ID
+915-65- 93#ID
+79-90698#ID
+957-18084#ID
+30410-38#ID
+639-25 -21-7#ID
+833 12060#ID
+684-2 2-67#ID
+48423-663#ID
+3 04#ID
+957--18-08-4#ID
+94 859580#ID
+18729-85#ID
+374 992#ID
+809-10-6 9-0#ID
+DOCU-MENT:2-8665601#ID
+61 84O55309#ID
+7-3-51769#ID
+6398 353#ID
+11 16417#ID
+855-88-8-5-2#ID
+1 4#ID
+657 -72-75-7#ID
+OW9740 79#ID
+0-53 2059#ID
+2-0#ID
+1-52#ID
+4 7#ID
+1 5#ID
+915-65- 93#ID
+8446 G98130#ID
+D OCUMENT:5-9812947#ID
+2593X73-037#ID
+10 776605#ID
+2 931335#ID
+68940-69#ID
+4 2817774#ID
+618--13-82-6#ID
+6#ID
+7836 1343#ID
+684-22 -67#ID
+7 8#ID
+2#ID
+8989785 6#ID
+5-38-41-21-0#ID
+9-48-59-58-0#ID
+158421 12#ID
+8187-Y34368#ID
+217 7024#ID
+20 97545#ID
+4349-B13794#ID
+4227266 8#ID
+981 8202#ID
+4334 L01518#ID
+21-6-669-9576#ID
+8792 076#ID
+912590-2#ID
+4 033790#ID
+668025-5#ID
+950 0004#ID
+4-718200#ID
+638198 7#ID
+21770-24#ID
+981-82--02#ID
+2-36-67-03-3#ID
+NX-O#ID
+583 48900#ID
+6392-5217#ID
+8340 10#ID
+2593:A7960-4#ID
+874418 5#ID
+4 8#ID
+9146415 0#ID
+2 36-07-19#ID
+63863-71#ID
+9995-C96293#ID
+30-84A07688#ID
+4 8185437#ID
+564 -19-92-7#ID
+EPW24 6325#ID
+538-41210#ID
+515 -31-23-5#ID
+527--62-21#ID
+5163-9357#ID
+783 61343#ID
+4 83#ID
+56-419927#ID
+981-4-0-48#ID
+40 67033#ID
+735948-5#ID
+12 63L4557#ID
+30 4#ID
+CK7591-82#ID
+1 612187#ID
+79-16007#ID
+756-59490#ID
+840-91-5 1-9#ID
+914641 50#ID
+639- 25-21-7#ID
+LL-GKRS#ID
+6-8#ID
+367 -41-93#ID
+371-97-9 8#ID
+791-6-0-07#ID
+5384121 0#ID
+605-1778#ID
+8-799802#ID
+360-52-4-1-3#ID
+977-82- 23#ID
+612-48-04--0#ID
+15247-20#ID
+7 67#ID
+D-OCUMENT:3-89996385#ID
+9262-764#ID
+8 8491427#ID
+320 54233#ID
+833-12-06- 0#ID
+4469033-6#ID
+9 156593#ID
+583489 00#ID
+207 2665#ID
+360-52-4 1-3#ID
+6 969S47715#ID
+DOCUMENT:2 -8665601#ID
+884 1350#ID
+68503-27#ID
+53718 748#ID
+4634-248#ID
+9-4859580#ID
+8 1325605#ID
+759875 52#ID
+59-0-33-20-3#ID
+539-54-14 -3#ID
+236071-9#ID
+456132 6#ID
+6691 247#ID
+8-33-12-06-0#ID
+1729 440#ID
+60 005814#ID
+9 628518#ID
+544-8 4-52#ID
+91-3426#ID
+727 6#ID
+320 54233#ID
+539-54-14--3#ID
+795-76-1-7#ID
+602 -44-98-6#ID
+774 4323#ID
+53-7-18-74-8#ID
+981--82-02#ID
+874046-5#ID
+037014 9#ID
+00837-16#ID
+70 00963#ID
+0 4109093#ID
+287 35364#ID
+481- 85-43-7#ID
+95 23697#ID
+3 038560#ID
+2619 48#ID
+70-45247#ID
+840915-19#ID
+783-6 1-34-3#ID
+2 61948#ID
+3#ID
+2-593X73037#ID
+556 61#ID
+7 2484104#ID
+1263-L4557#ID
+3246:F1 3427#ID
+6124 8040#ID
+8-79#ID
+57 47359#ID
+7 0#ID
+80 17H19286#ID
+805-31 -35-9#ID
+9-7198841#ID
+722-36-9-2#ID
+6521 9816#ID
+28297 534#ID
+7248B 75977#ID
+3-67-41-93#ID
+759-87-55--2#ID
+5715 :Z59777#ID
+75 12566#ID
+631079 21#ID
+16 68727#ID
+516-39 -35-7#ID
+8927695-4#ID
+809-10--69-0#ID
+4252158 3#ID
+51 639357#ID
+49895 55#ID
+8 92-76-95-4#ID
+799069 8#ID
+824--59-51#ID
+2840-5#ID
+15-2#ID
+041 09093#ID
+6804:Q0 2120#ID
+92383 69#ID
+48329-78#ID
+8-7695 417#ID
+7 22-36-92#ID
+1528 09#ID
+981-4 0-48#ID
+2 931335#ID
+21-55941#ID
+840-91-51--9#ID
+2 -359#ID
+36-6-65-49#ID
+7 5659490#ID
+7 269058#ID
+9281946 1#ID
+71 701456#ID
+669124 7#ID
+8 45-41-54-4#ID
+0 45-61-32-6#ID
+2693-D15325#ID
+1 5842112#ID
+6667 29#ID
+66 6729#ID
+467-550#ID
+107766 05#ID
+146 -55-23-5#ID
+524 02461#ID
+22 267708#ID
+27 93372#ID
+75 9-87-55-2#ID
+406- 70-33#ID
+01 3423CA#ID
+0-1 032417#ID
+:0--5469816#ID
+6 8#ID
+9 814048#ID
+37014 9#ID
+4 68#ID
+9719 8841#ID
+054 -00-99#ID
+6746 781#ID
+7 744323#ID
+914-64-15--0#ID
+7 27#ID
+236-0 7-19#ID
+1 0#ID
+954454-6#ID
+7 99#ID
+1-389 6405#ID
+15 2809#ID
+59-43465 178#ID
+9448231 5#ID
+9-911852#ID
+71 94334#ID
+1 1289501#ID
+42 272668#ID
+2665 9527#ID
+303856 0#ID
+6 680255#ID
+8230267 3#ID
+7871-:S06562#ID
+4824-E7560#ID
+48726-886#ID
+4-9921666#ID
+1 668727#ID
+540-099#ID
+EPW2 46325#ID
+2-7#ID
+7758 U11191#ID
+LLGK RS#ID
+483297 8#ID
+80-910690#ID
+0-84-12167#ID
+266491-80#ID
+9-77-82-23#ID
+76702 38#ID
+371 -97-98#ID
+87 44185#ID
+93295 529#ID
+689406 9#ID
+403379-0#ID
+7078Y0432 7#ID
+3-8#ID
+91410 27#ID
+67675 10#ID
+MRN:14 6-55-23-5#ID
+9-500004#ID
