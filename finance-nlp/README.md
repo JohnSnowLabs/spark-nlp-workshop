@@ -73,6 +73,13 @@
 
 [11.1.Pretrained_Deidentification_Pipeline.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/11.1.Pretrained_Deidentification_Pipeline.ipynb)
 
+## Use cases
+[80.0.Use_case_Capital_Agreements.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/11.1.Pretrained_Deidentification_Pipeline.ipynb/80.0.Use_case_Capital_Agreements.ipynb)
+
+[80.0.Use_case_Capital_Agreements.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/80.0.Use_case_Capital_Agreements.ipynb)
+
+[80.1.Augmenting_NER_With_Wikidata.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/80.1.Augmenting_NER_With_Wikidata.ipynb)
+
 ## Visual Classification (without Visual NLP)
 [90.0.Financial_Visual_Classification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/90.0.Financial_Visual_Classification.ipynb)
 
