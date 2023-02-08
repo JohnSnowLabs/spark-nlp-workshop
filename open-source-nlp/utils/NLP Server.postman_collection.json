@@ -1,0 +1,92 @@
+{
+	"variables": [],
+	"info": {
+		"name": "NLP Server",
+		"_postman_id": "36ed3796-f1a3-9742-05e9-c106c016475a",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Post Data Processing request",
+			"request": {
+				"url": "localhost:5000/api/results",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "spell",
+							"value": "tokenize",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "data",
+							"value": "NLP server gives you thousands of SOTA models in a containerized environment",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get status of processing",
+			"request": {
+				"url": "localhost:5000/api/results/<YOUR_UUID>/status",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "spell",
+							"value": "tokenize",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "data",
+							"value": "I love nlu\n",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get result of Processing request",
+			"request": {
+				"url": "localhost:5000/api/results/<YOUR_UUID>",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "spell",
+							"value": "tokenize",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "data",
+							"value": "I love nlu\n",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
