@@ -89,9 +89,9 @@
 
 [08.0.Generic_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/08.0.Generic_Classifier.ipynb)
 
-[08.1.Clinical_Text_Classification_with_Spark_NLP.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/08.1.Text_Classification_with_DocumentMLClassifier.ipynb)
+[08.1.Text_Classification_with_DocumentMLClassifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/08.1.Text_Classification_with_DocumentMLClassifier.ipynb)
 
-[08.2.Clinical_Text_Classification_with_Spark_NLP.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/08.2.Clinical_Text_Classification_with_Spark_NLP.ipynb)
+[08.2.Clinical_Text_Classification_with_SparkNLP.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/08.2.Clinical_Text_Classification_with_SparkNLP.ipynb)
 
 [08.3.MedicalBertForSequenceClassification_in_SparkNLP.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/08.3.MedicalBertForSequenceClassification_in_SparkNLP.ipynb)
 
