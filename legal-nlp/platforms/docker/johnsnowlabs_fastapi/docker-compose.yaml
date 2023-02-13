@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+        spark:
+                image: johnsnowlabs                
+                build:
+                       context: ./
+                       dockerfile: Dockerfile
+                container_name: johnsnowlabs
+                environment:
+                        - SPARK_MODE=master
+                ports:
+                        - 8515:8515

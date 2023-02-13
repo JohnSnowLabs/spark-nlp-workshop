@@ -1,0 +1,35 @@
+Sample Type / Medical Specialty:
+Hematology - Oncology
+Sample Name:
+Iron deficiency anemia
+Description:
+Iron deficiency anemia. She underwent a bone marrow biopsy which showed a normal cellular marrow with trilineage hematopoiesis.
+(Medical Transcription Sample Report)
+CHIEF COMPLAINT:
+Iron deficiency anemia.
+HISTORY OF PRESENT ILLNESS:
+This is a very pleasant 19-year-old woman, who was recently hospitalized with iron deficiency anemia. She was seen in consultation by Dr. X. She underwent a bone marrow biopsy on 07/21/10, which showed a normal cellular marrow with trilineage hematopoiesis. On 07/22/10, her hemoglobin was 6.5 and therefore she was transfused 2 units of packed red blood cells. Her iron levels were 5 and her percent transferrin was 2. There was no evidence of hemolysis. Of note, she had a baby 5 months ago; however she does not describe excessive bleeding at the time of birth. She currently has an IUD, so she is not menstruating. She was discharged from the hospital on iron supplements. She denies any fevers, chills, or night sweats. No lymphadenopathy. No nausea or vomiting. No change in bowel or bladder habits. She specifically denies melena or hematochezia.
+CURRENT MEDICATIONS:
+Iron supplements and Levaquin.
+ALLERGIES:
+Penicillin.
+REVIEW OF SYSTEMS:
+As per the HPI, otherwise negative.
+PAST MEDICAL HISTORY:
+She is status post birth of a baby girl 5 months ago. She is G1, P1. She is currently using an IUD for contraception.
+SOCIAL HISTORY:
+She has no tobacco use. She has rare alcohol use. No illicit drug use.
+FAMILY HISTORY:
+Her maternal grandmother had stomach cancer. There is no history of hematologic malignancies.
+PHYSICAL EXAM:
+GEN: She is nontoxic, noncachectic appearing.
+HEAD: Examined and normal.
+EYES: Anicteric.
+ENT: No oropharyngeal lesions.
+LYMPH: No cervical, supraclavicular, or axillary lymphadenopathy.
+HEART: Regular S1, S2; no murmurs, rubs, or gallops.
+LUNGS: Clear to auscultation bilaterally.
+ABDOMEN: Nontender, nondistended; normal bowel sounds; no hepatosplenomegaly.
+EXT: Reveal no edema.
+ASSESSMENT/PLAN:
+Iron deficiency anemia. At this point, I am going to schedule her for an EGD and a colonscopy. I am also going to repeat her iron studies. She had a CBC from yesterday, which showed hemoglobin of 10.4. Her MCV was still low at 74.2 and the mean cell hemoglobin was 25.0. I would also like to check her fecal occult blood test x3. I believe with her low iron levels it is going to be very difficult for her to replace it orally. I believe she may need intravenous iron infusions. If that is case, we can arrange for her to find a doctor who can give the iron infusions. She will follow up with Dr. X.
