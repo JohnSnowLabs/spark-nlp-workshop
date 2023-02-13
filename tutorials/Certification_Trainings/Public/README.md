@@ -77,3 +77,5 @@ If you don't have time to cover all these, please check the follwing notebook fo
 [12.Graph_extraction.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/12.Graph_extraction.ipynb)
 
 [17.Table_Question_Answering.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/17.Table_Question_Answering.ipynb)
+
+[20.EntityRuler.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/entity-ruler-certification/tutorials/Certification_Trainings/Public/20.EntityRuler.ipynb)
