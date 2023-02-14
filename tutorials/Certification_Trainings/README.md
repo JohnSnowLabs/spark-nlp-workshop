@@ -162,6 +162,8 @@ If you don't have time to cover all these, please check the following notebook f
 
 [30.Clinical_Text_Classification_with_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/30.Clinical_Text_Classification_with_Spark_NLP.ipynb)
 
+[30.1.Text_Classification_with_DocumentMLClassifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/30.1.Text_Classification_with_DocumentMLClassifier.ipynb)
+
 ### ➤ Normalizers
 
 [23.Drug_Normalizer.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/23.Drug_Normalizer.ipynb)

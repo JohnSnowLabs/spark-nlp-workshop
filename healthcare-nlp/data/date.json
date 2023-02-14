@@ -1,0 +1,1 @@
+{"entity": "Date ", "ruleScope": "sentence", "regex": "\\d{1,2}[\\/\\-\\:]{1}(\\d{1,2}[\\/\\-\\:]{1}){0,1}\\d{2,4}", "valuesDefinition": [], "prefix": [], "suffix": [], "contextLength": 150, "context": []}

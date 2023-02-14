@@ -166,7 +166,11 @@
 
 [04.0.Document_Paragraph_Classification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/04.0.Document_Paragraph_Classification.ipynb)
 
-[04.1.Training_Financial_Classifiers.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/04.1.Training_Financial_Classifiers.ipynb)
+[04.1.Training_Financial_Classifiers.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/04.1.Training_Financial_Binary_Classifier.ipynb)
+
+[04.2.Training_Financial_Multiclass_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/04.2.Training_Financial_Multiclass_Classifier.ipynb)
+
+[04.3.Training_Financial_Multilabel_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/04.3.Training_Financial_Multilabel_Classifier.ipynb)
 
 ## Named Entity Recognition
 
@@ -174,9 +178,15 @@
 
 [05.1.Training_Financial_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/05.1.Training_Financial_NER.ipynb)
 
-[05.2.Financial_NER_Inference_Training.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/05.2.Financial_NER_Inference_Training.ipynb)
+[05.2.Financial_NER_Additional_Examples.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/05.2.Financial_NER_Additional_Examples.ipynb)
 
 [05.3.ZeroShot_Financial_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/05.3.ZeroShot_Financial_NER.ipynb)
+
+[05.4.BertForTokenClassification_TrainEval.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/05.4.BertForTokenClassification_TrainEval.ipynb)
+
+[05.5.BertForTokenClassification_TrainAndSave.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/05.5.BertForTokenClassification_TrainAndSave.ipynb)
+
+[05.6.Contextual_Parser_Rule_Based_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/05.6.Contextual_Parser_Rule_Based_NER.ipynb)
 
 ## Relation Extraction
 
@@ -206,7 +216,7 @@
 
 ## Normalization and Entity Linking
 
-[0.0.Normalization_with_Entity_Resolution_Edgar.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/09.0.Normalization_with_Entity_Resolution_Edgar.ipynb)
+[09.0.Normalization_with_Entity_Resolution_Edgar.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/09.0.Normalization_with_Entity_Resolution_Edgar.ipynb)
 
 [09.1.Entity_Resolution_Edgar_unique_IDs_Tickers.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/09.1.Entity_Resolution_Edgar_unique_IDs_Tickers.ipynb)
 
@@ -220,21 +230,25 @@
 
 [10.1.Chunk_Mappers_Training.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/10.1.Chunk_Mappers_Training.ipynb)
 
+## Use cases
+[80.0.Use_case_Capital_Calls.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/80.0.Use_case_Capital_Calls.ipynb)
+
 ## Deidentification
 
-[11.Deidentification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/11.Deidentification.ipynb)
+[11.0.Deidentification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/11.0.Deidentification.ipynb)
 
-## Graphs
+[11.1.Pretrained_Deidentification_Pipeline.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/11.1.Pretrained_Deidentification_Pipeline.ipy
 
-[80.Financial_Graphs_Neo4j.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/80.Financial_Graphs_Neo4j.ipynb)
-
-## Combining with Visual NLP
-
+## Visual Classification (without Visual NLP)
 [90.0.Financial_Visual_Classification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/90.0.Financial_Visual_Classification.ipynb)
 
+## Combining with Visual NLP
 [90.1.Visual_and_Textual_Classification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/90.1.Visual_and_Textual_Classification.ipynb)
 
 [90.2.Financial_Visual_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/90.2.Financial_Visual_NER.ipynb)
+
+[90.3.Financial_Table_Signature_Extraction.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Finance/90.3.Financial_Table_Signature_Extraction.ipynb)
+
 
 # ☞ Legal NLP notebooks
 
@@ -250,7 +264,13 @@
 
 [04.0.Clause_Document_Classification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/04.0.Clause_Document_Classification.ipynb)
 
-[04.1.Training_Legal_Classifiers.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/04.1.Training_Legal_Classifiers.ipynb)
+[04.1.Training_Legal_Binary_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/04.1.Training_Legal_Binary_Classifier.ipynb)
+
+[04.2.Training_Legal_Multiclass_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/04.2.Training_Legal_Multiclass_Classifier.ipynb)
+
+[04.3.Training_Legal_Multilabel_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/04.3.Training_Legal_Multilabel_Classifier.ipynb)
+
+[04.4.Training_Legal_Multilabel_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/04.4.Training_Legal_Multilabel_Classifier.ipynb)
 
 ## Named Entity Recognition
 
@@ -261,6 +281,12 @@
 [05.2.Clause_based_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/05.2.Clause_based_NER.ipynb)
 
 [05.3.ZeroShot_Legal_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/05.3.ZeroShot_Legal_NER.ipynb)
+
+[05.4.BertForTokenClassification_TrainEval.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/05.4.BertForTokenClassification_TrainEval.ipynb)
+
+[05.5.BertForTokenClassification_TrainAndSave.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/05.5.BertForTokenClassification_TrainAndSave.ipynb)
+
+[05.6.Contextual_Parser_Rule_Based_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/05.6.Contextual_Parser_Rule_Based_NER.ipynb)
 
 ## Relation Extraction
 
@@ -309,8 +335,6 @@
 ## Graphs
 
 [80.0.WIP_Use_Case_Legal_Agreements.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/80.0.WIP_Use_Case_Legal_Agreements.ipynb)
-
-[80.1.Legal_Graphs_Neo4j.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Legal/80.1.Legal_Graphs_Neo4j.ipynb)
 
 ## Combining with Visual NLP
 
