@@ -1,0 +1,42 @@
+Sample Type / Medical Specialty:
+Hematology - Oncology
+Sample Name:
+Hematology Consult
+Description:
+Leukocytosis, acute deep venous thrombosis, right lower extremity with bilateral pulmonary embolism, on intravenous heparin complicated with acute renal failure for evaluation.
+(Medical Transcription Sample Report)
+REASON FOR CONSULTATION:
+Acute deep venous thrombosis, right lower extremity with bilateral pulmonary embolism, on intravenous heparin complicated with acute renal failure for evaluation.
+HISTORY OF PRESENTING ILLNESS:
+Briefly, this is a 36-year-old robust Caucasian gentleman with no significant past medical or surgical history, who works as a sales representative, doing a lot of traveling by plane and car and attending several sales shows, developed acute shortness of breath with an episode of syncope this weekend and was brought in by paramedics to Hospital. A V/Q scan revealed multiple pulmonary perfusion defects consistent with high probability pulmonary embolism. A Doppler venous study of the lower extremity also revealed nonocclusive right popliteal vein thrombosis. A CT of the abdomen and pelvis revealed normal-appearing liver, spleen, and pancreas; however, the right kidney appeared smaller compared to left and suggesting possibility of renal infarct. Renal function on admission was within normal range; however, serial renal function showed rapid increase in creatinine to 5 today. He has been on intravenous heparin and hemodialysis is being planned for tomorrow. Reviewing his history, there is no family members with hypercoagulable state or prior history of any thrombotic complication. He denies any recent injury to his lower extremity and in fact denied any calf pain or swelling.
+PAST MEDICAL AND SURGICAL HISTORY:
+Unremarkable.
+SOCIAL HISTORY:
+He is married and has 1 son. He has a brother who is healthy. There is no history of tobacco use or alcohol use.
+FAMILY HISTORY:
+No family history of hypercoagulable condition.
+MEDICATIONS:
+Advil p.r.n.
+ALLERGIES:
+NONE.
+REVIEW OF SYSTEMS:
+Essentially unremarkable except for sudden onset dyspnea on easy exertion complicated with episode of syncope. He denied any hemoptysis. He denied any calf swelling or pain. Lately, he has been traveling and has been sitting behind a desk for a long period of time.
+PHYSICAL EXAMINATION:
+GENERAL: He is a robust young gentleman, awake, alert, and hemodynamically stable.
+HEENT: Sclerae anicteric. Conjunctivae normal. Oropharynx normal.
+NECK: No adenopathy or thyromegaly. No jugular venous distention.
+HEART: Regular.
+LUNGS: Bilateral air entry.
+ABDOMEN: Obese and benign.
+EXTREMITIES: No calf swelling or calf tenderness appreciated.
+SKIN: No petechiae or ecchymosis.
+NEUROLOGIC: Nonfocal.
+LABORATORY FINDINGS:
+Blood count obtained showed a white count of 16.8, hemoglobin 14.8 g percent, hematocrit 44.6%, MCV 94, and platelet count 209,000. Liver profile normal. Thyroid study revealed a TSH of 1.3. Prothrombin time/INR 1.5, partial thromboplastin time 78.6 seconds. Renal function, BUN 44 and creatinine 5.7. Echocardiogram revealed left ventricular hypertrophy with ejection fraction of 65%, no intramural thrombus noted.
+IMPRESSION:
+1. Bilateral pulmonary embolism, most consistent with emboli from right lower extremity, on intravenous heparin, rule out hereditary hypercoagulable state.
+2. Leukocytosis, most likely leukemoid reaction secondary to acute pulmonary embolism/renal infarction, doubt presence of myeloproliferative disorder.
+3. Acute renal failure secondary to embolic right renal infarction.
+4. Obesity.
+PLAN:
+From hematologic standpoint, we will await hypercoagulable studies, which have all been sent on admission to see if a hereditary component is at play. For now, we will continue intravenous heparin and subsequent oral anticoagulation with Coumadin. In view of worsening renal function, may need temporary hemodialysis until renal function improves. I discussed at length with the patient's wife at the bedside.

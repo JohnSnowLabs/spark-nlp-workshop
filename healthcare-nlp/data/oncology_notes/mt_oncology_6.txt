@@ -1,0 +1,37 @@
+Sample Type / Medical Specialty:
+Hematology - Oncology
+Sample Name:
+Hematology Consult - 1
+Description:
+Markedly elevated PT INR despite stopping Coumadin and administering vitamin K. Patient with a history of iron-deficiency anemia due to chronic blood loss from colitis.
+(Medical Transcription Sample Report)
+HISTORY OF PRESENT ILLNESS:
+The patient is well known to me for a history of iron-deficiency anemia due to chronic blood loss from colitis. We corrected her hematocrit last year with intravenous (IV) iron. Ultimately, she had a total proctocolectomy done on 03/14/2007 to treat her colitis. Her course has been very complicated since then with needing multiple surgeries for removal of hematoma. This is partly because she was on anticoagulation for a right arm deep venous thrombosis (DVT) she had early this year, complicated by septic phlebitis.
+Chart was reviewed, and I will not reiterate her complex history.
+I am asked to see the patient again because of concerns for coagulopathy.
+She had surgery again last month to evacuate a pelvic hematoma, and was found to have vancomycin resistant enterococcus, for which she is on multiple antibiotics and followed by infectious disease now.
+She is on total parenteral nutrition (TPN) as well.
+LABORATORY DATA:
+Labs today showed a white blood count of 7.9, hemoglobin 11.0, hematocrit 32.8, and platelets 1,121,000. MCV is 89. Her platelets have been elevated for at least the past week, with counts initially at the 600,000 to 700,000 range and in the last couple of day rising above 1,000,000. Her hematocrit has been essentially stable for the past month or so. White blood count has improved.
+PT has been markedly elevated and today is 44.9 with an INR of 5.0. This is despite stopping Coumadin on 05/31/2007, and with administration of vitamin K via the TPN, as well as additional doses IV. The PT is slightly improved over the last few days, being high at 65.0 with an INR of 7.3 yesterday.
+PTT has not been checked since 05/18/2007 and was normal then at 28.
+LFTs have been elevated. ALT is 100, AST 57, GGT 226, alkaline phosphatase 505, albumin low at 3.3, uric acid high at 4.9, bilirubin normal, LDH normal, and pre-albumin low at 16. Creatinine is at 1.5, with an estimated creatinine clearance low at 41.7. Other electrolytes are fairly normal.
+B12 was assessed on 05/19/2007 and was normal at 941. Folic acid was normal. Iron saturation has not been checked since March, and was normal then. Ferritin has not been checked in a couple of months.
+CURRENT MEDICATIONS:
+Erythropoietin 45,000 units every week, started 05/16/2007. She is on heparin flushes, loperamide, niacin, pantoprazole, Diovan, Afrin nasal spray, caspofungin, daptomycin, Ertapenem, fentanyl or morphine p.r.n. pain, and Compazine or Zofran p.r.n. nausea.
+PHYSICAL EXAMINATION:
+GENERAL: She is alert, and frustrated with her prolonged hospital stay. She notes that she had epistaxis a few days ago, requiring nasal packing and fortunately that had resolved now.
+VITAL SIGNS: Today, temperature is 98.5, pulse 99, respirations 16, blood pressure 105/65, and pulse is 95. She is not requiring oxygen.
+SKIN: No significant ecchymoses are noted.
+ABDOMEN: Ileostomy is in place, with greenish black liquid output. Midline surgical scar has healed well, with a dressing in place in the middle, with no bleeding noted.
+EXTREMITIES: She has no peripheral edema.
+CARDIAC: Regular rate.
+LYMPHATICS: No adenopathy is noted.
+LUNGS: Clear bilaterally.
+IMPRESSION AND PLAN:
+Markedly elevated PT/INR despite stopping Coumadin and administering vitamin K. I will check mixing studies to see if she has deficiency, which could be due to poor production given her elevated LFTs, decreased albumin, and decreased pre-albumin.
+It is possible that she has an inhibitor, which would have to be an acquired inhibitor, generally presenting with an elevated PTT and not PT. I will check a PTT and check mixing studies if that is prolonged. It is doubtful that she has a lupus anticoagulant since she has been presenting with bleeding symptoms rather than clotting. I agree with continuing off of anticoagulation for now.
+She has markedly elevated platelet count. I suspect this is likely reactive to infection, and not from a new myeloproliferative disorder.
+Anemia has been stable, and is multifactorial. Given her decreased creatinine clearance, I agree with erythropoietin support. She was iron deficient last year, and with her multiple surgeries and poor p.o. intake, may have become iron deficient again. She has had part of her small bowel removed, so there may be a component of poor absorption as well. If she is iron deficient, this may contribute also to her elevated platelet counts. I will check a ferritin. This may be difficult to interpret because of inflammation. If it is decreased, plan will be to add iron supplementation intravenously. If it is elevated, we could consider a bone marrow biopsy to evaluate her iron stores, and also assess her myelopoiesis given the markedly elevated platelet counts.
+She needs continued treatment as you are for her infections.
+I will discuss the case with Dr. X as well since there is a question as to whether she might need additional surgery. She is not a surgical candidate now with her elevated PT/INR.
