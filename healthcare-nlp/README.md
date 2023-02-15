@@ -52,6 +52,7 @@
 
 [04.4.Clinical_Deidentification_Improvement.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/04.4.Clinical_Deidentification_Improvement.ipynb)
 
+[04.5.Clinical_Deidentification_Utility_Module.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/04.5.Clinical_Deidentification_Utility_Module.ipynb)
 
 ### ➤ Clinical Entity Resolution
 
