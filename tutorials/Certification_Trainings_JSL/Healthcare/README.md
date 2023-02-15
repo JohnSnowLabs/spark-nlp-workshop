@@ -68,6 +68,11 @@
 
 [4.3.Clinical_Deidentification_SparkNLP_vs_Cloud_Providers_Comparison.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/4.3.Clinical_Deidentification_SparkNLP_vs_Cloud_Providers_Comparison.ipynb)
 
+[4.4.Clinical_Deidentification_Improvement.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/4.4.Clinical_Deidentification_Improvement.ipynb)
+
+[4.5.Clinical_Deidentification_Utility_Module](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/4.5.Clinical_Deidentification_Utility_Module.ipynb)
+
+
 ### ➤ Optical Character Recognition with Spark OCR
 
 [5.Spark_OCR.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/5.Spark_OCR.ipynb)
@@ -93,6 +98,8 @@
 [21.Gender_Classifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/21.Gender_Classifier.ipynb)
 
 [30.Clinical_Text_Classification_with_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/30.Clinical_Text_Classification_with_Spark_NLP.ipynb)
+
+[30.1.Text_Classification_with_DocumentMLClassifier](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/30.1.Text_Classification_with_DocumentMLClassifier.ipynb)
 
 ### ➤ Normalizers
 
