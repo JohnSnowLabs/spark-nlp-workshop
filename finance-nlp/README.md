@@ -54,7 +54,7 @@
 
 [08.3.Finetuning_Table_Question_Answering.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/08.3.Finetuning_Table_Question_Answering.ipynb)
 
-## Normalization and Entity Linking
+## Normalization and Entity Resolution (Linking)
 [09.0.Normalization_with_Entity_Resolution_Edgar.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/09.0.Normalization_with_Entity_Resolution_Edgar.ipynb)
 
 [09.1.Entity_Resolution_Edgar_unique_IDs_Tickers.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/09.1.Entity_Resolution_Edgar_unique_IDs_Tickers.ipynb)
@@ -63,10 +63,14 @@
 
 [09.3.Entity_Resolution_Training.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/09.3.Entity_Resolution_Training.ipynb)
 
-## Augmentation with external sources with Chunk Mappers
+## Augmentation with external sources using Chunk Mappers
 [10.0.Data_Augmentation_with_ChunkMappers.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/10.0.Data_Augmentation_with_ChunkMappers.ipynb)
 
 [10.1.Data_Augmentation_with_ChunkMappers_Edgar.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/10.1.Data_Augmentation_with_ChunkMappers_Edgar.ipynb)
+
+[10.1.Data_Augmentation_with_ChunkMappers_Edgar.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/10.1.Data_Augmentation_with_ChunkMappers_Edgar.ipynb)
+
+[10.2.Chunk_Mappers_Training.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/10.2.Chunk_Mappers_Training.ipynb)
 
 ## Deidentification
 [11.0.Deidentification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/11.0.Deidentification.ipynb)
