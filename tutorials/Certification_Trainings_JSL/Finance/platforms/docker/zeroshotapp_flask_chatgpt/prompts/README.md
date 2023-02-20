@@ -1,1 +1,0 @@
-This is the folder where all the prompts will be saved after you click "Save" in the interface.
