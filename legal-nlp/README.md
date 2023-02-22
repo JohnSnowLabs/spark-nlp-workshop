@@ -39,6 +39,8 @@
 
 [06.2.Relation_Extraction_Training.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/06.2.Relation_Extraction_Training.ipynb)
 
+[06.3.Classification_NER_RE_on_Parties.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/06.3.Classification_NER_RE_on_Parties.ipynb)
+
 ## Assertion Status: Understanding Entities in Context
 
 [07.0.Understand_Entities_in_Context.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/07.0.Understand_Entities_in_Context.ipynb)
