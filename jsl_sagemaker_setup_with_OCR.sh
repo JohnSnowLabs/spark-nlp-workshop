@@ -2,9 +2,9 @@
 
 
 PYSPARK="3.2.2"
-SPARKNLP="4.0.0"
+SPARKNLP="4.3.0"
 SPARKHOME="/home/ec2-user/SageMaker/spark-3.2.2-bin-hadoop2.7"
-OCR="4.0.0.spark32"
+OCR="4.3.1"
 
 echo "setup SageMaker for PySpark $PYSPARK and Spark NLP $SPARKNLP and Spark OCR $OCR_VERSION and Spark NLP for Healthcare $JSL_VERSION"
 JAVA_8=$(alternatives --display java | grep 'jre-1.8.0-openjdk.x86_64/bin/java'| cut -d' ' -f1)

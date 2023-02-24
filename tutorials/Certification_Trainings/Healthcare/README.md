@@ -92,6 +92,10 @@
 
 [21.Gender_Classifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/21.Gender_Classifier.ipynb)
 
+[30.Clinical_Text_Classification_with_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/30.Clinical_Text_Classification_with_Spark_NLP.ipynb)
+
+[30.1.Text_Classification_with_DocumentMLClassifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/30.1.Text_Classification_with_DocumentMLClassifier.ipynb)
+
 ### Normalizers
 
 [23.Drug_Normalizer.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/23.Drug_Normalizer.ipynb)
@@ -122,12 +126,10 @@
 
 ## Biomedical & Clinical NER Models Benchmarks/ Rankings
 
-
-
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-on-anatem)](https://paperswithcode.com/sota/named-entity-recognition-on-anatem?p=biomedical-named-entity-recognition-at-scale)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-on-bc2gm)](https://paperswithcode.com/sota/named-entity-recognition-on-bc2gm?p=biomedical-named-entity-recognition-at-scale)
-	
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-on-bc4chemd)](https://paperswithcode.com/sota/named-entity-recognition-on-bc4chemd?p=biomedical-named-entity-recognition-at-scale)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-on-bionlp13-cg)](https://paperswithcode.com/sota/named-entity-recognition-on-bionlp13-cg?p=biomedical-named-entity-recognition-at-scale)
@@ -146,7 +148,6 @@
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-on-bc5cdr-chemical)](https://paperswithcode.com/sota/named-entity-recognition-on-bc5cdr-chemical?p=biomedical-named-entity-recognition-at-scale)
 
-	
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-ner-on-bc5cdr)](https://paperswithcode.com/sota/named-entity-recognition-ner-on-bc5cdr?p=biomedical-named-entity-recognition-at-scale)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/improving-clinical-document-understanding-on/clinical-assertion-status-detection-on-2010)](https://paperswithcode.com/sota/clinical-assertion-status-detection-on-2010?p=improving-clinical-document-understanding-on)
@@ -162,4 +163,5 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/accurate-clinical-and-biomedical-named-entity/named-entity-recognition-on-bc4chemd)](https://paperswithcode.com/sota/named-entity-recognition-on-bc4chemd?p=accurate-clinical-and-biomedical-named-entity)
 
 ## Porting alternatives for the notebook that are failed to load by GitHub
+
 If a notebook cannot be opened in GitHub, just paste the url to `https://nbviewer.jupyter.org/` to view better or just try to open this in `Colab` by replacing `github.com` in the url with `githubtocolab.com`.

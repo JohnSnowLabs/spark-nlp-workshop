@@ -1,10 +1,8 @@
-# Spark-NLP for Data Scientists and Healthcare Data Scientists 
-
+# Spark-NLP for Data Scientists and Healthcare Data Scientists
 
 ## Spark-NLP for Data Scientists
 
 If you don't have time to cover all these, please check the following notebook for a quick review.
-
 
  [1-hr summary of entire package](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/1hr_workshop/SparkNLP_openSource_workshop_1hr.ipynb)
 
@@ -12,13 +10,12 @@ If you don't have time to cover all these, please check the following notebook f
 
 [1.SparkNLP_Basics.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/1.SparkNLP_Basics.ipynb)
 
-
 [2.Text_Preprocessing_with_SparkNLP_Annotators_Transformers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/2.Text_Preprocessing_with_SparkNLP_Annotators_Transformers.ipynb)
 
 [3.SparkNLP_Pretrained_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/3.SparkNLP_Pretrained_Models.ipynb)
 
-
 ### ➤ Training
+
 [4.NERDL_Training.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/4.NERDL_Training.ipynb)
 
 [4.1_NerDL_Graph.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/4.1_NerDL_Graph.ipynb)
@@ -28,7 +25,6 @@ If you don't have time to cover all these, please check the following notebook f
 [5.1_Text_classification_examples_in_SparkML_SparkNLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/5.1_Text_classification_examples_in_SparkML_SparkNLP.ipynb)
 
 [5.2_Multi_Lingual_Training_and_models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/5.2_Multi_Lingual_Training_and_models.ipynb)
-
 
 ### ➤ Transformers
 
@@ -40,8 +36,6 @@ If you don't have time to cover all these, please check the following notebook f
 
 [16.GPT2_Transformer_In_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/16.GPT2_Transformer_In_Spark_NLP.ipynb)
 
-
-
 ### ➤ T5 & NLU
 
 [10.Question_Answering_and_Summarization_with_T5.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/10.Question_Answering_and_Summarization_with_T5.ipynb)
@@ -49,7 +43,6 @@ If you don't have time to cover all these, please check the following notebook f
 [10.1_T5_Workshop_with_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/10.1_T5_Workshop_with_Spark_NLP.ipynb)
 
 [10.2_SQL_Code_Generation_and_Style_Transfer_with_T5.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/10.2_SQL_Code_Generation_and_Style_Transfer_with_T5.ipynb)
-
 
 [13.NLU_crashcourse_every_Spark_NLP_Model_in_one_line.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/13.NLU_crashcourse_every_Spark_NLP_Model_in_one_line.ipynb)
 
@@ -73,12 +66,9 @@ If you don't have time to cover all these, please check the following notebook f
 
 [17.Table_Question_Answering.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/17.Table_Question_Answering.ipynb)
 
-
-
-## 
+##
 
 # **Spark-NLP for Healthcare**
-
 
 ### ➤ Clinical Named Entity Recognition
 
@@ -146,7 +136,6 @@ If you don't have time to cover all these, please check the following notebook f
 
 [4.3.Clinical_Deidentification_SparkNLP_vs_Cloud_Providers_Comparison.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.3.Clinical_Deidentification_SparkNLP_vs_Cloud_Providers_Comparison.ipynb)
 
-
 ### ➤ Optical Character Recognition with Spark OCR
 
 [5.Spark_OCR.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/5.Spark_OCR.ipynb)
@@ -170,6 +159,10 @@ If you don't have time to cover all these, please check the following notebook f
 [19.MedicalBertForSequenceClassification_in_SparkNLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/19.MedicalBertForSequenceClassification_in_SparkNLP.ipynb)
 
 [21.Gender_Classifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/21.Gender_Classifier.ipynb)
+
+[30.Clinical_Text_Classification_with_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/30.Clinical_Text_Classification_with_Spark_NLP.ipynb)
+
+[30.1.Text_Classification_with_DocumentMLClassifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/30.1.Text_Classification_with_DocumentMLClassifier.ipynb)
 
 ### ➤ Normalizers
 
@@ -201,12 +194,10 @@ If you don't have time to cover all these, please check the following notebook f
 
 ## ☞ Biomedical & Clinical NER Models Benchmarks/ Rankings
 
-
-
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-on-anatem)](https://paperswithcode.com/sota/named-entity-recognition-on-anatem?p=biomedical-named-entity-recognition-at-scale)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-on-bc2gm)](https://paperswithcode.com/sota/named-entity-recognition-on-bc2gm?p=biomedical-named-entity-recognition-at-scale)
-	
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-on-bc4chemd)](https://paperswithcode.com/sota/named-entity-recognition-on-bc4chemd?p=biomedical-named-entity-recognition-at-scale)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-on-bionlp13-cg)](https://paperswithcode.com/sota/named-entity-recognition-on-bionlp13-cg?p=biomedical-named-entity-recognition-at-scale)
@@ -225,12 +216,10 @@ If you don't have time to cover all these, please check the following notebook f
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-on-bc5cdr-chemical)](https://paperswithcode.com/sota/named-entity-recognition-on-bc5cdr-chemical?p=biomedical-named-entity-recognition-at-scale)
 
-	
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-ner-on-bc5cdr)](https://paperswithcode.com/sota/named-entity-recognition-ner-on-bc5cdr?p=biomedical-named-entity-recognition-at-scale)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/improving-clinical-document-understanding-on/clinical-assertion-status-detection-on-2010)](https://paperswithcode.com/sota/clinical-assertion-status-detection-on-2010?p=improving-clinical-document-understanding-on)
 
-
-
 ## ☞ Porting alternatives for the notebook that are failed to load by GitHub
+
 If a notebook cannot be opened in GitHub, just paste the url to `https://nbviewer.jupyter.org/` to view better or just try to open this in `Colab` by replacing `github.com` in the url with `githubtocolab.com`.

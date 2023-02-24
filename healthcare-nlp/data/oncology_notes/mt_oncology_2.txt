@@ -1,0 +1,77 @@
+Sample Type / Medical Specialty:
+Hematology - Oncology
+Sample Name:
+Consult - Breast Cancer
+Description:
+Patient presents with complaint of lump in the upper outer quadrant of the right breast
+(Medical Transcription Sample Report)
+CHIEF COMPLAINT / REASON FOR THE VISIT:
+Patient has been diagnosed to have breast cancer.
+BREAST CANCER HISTORY:
+Patient presented with the following complaints: Lump in the upper outer quadrant of the right breast that has been present for the last 4 weeks. The lump is painless and the skin over the lump is normal. Patient denies any redness, warmth, edema and nipple discharge. Patient had a mammogram recently and was told to have a mass measuring 2 cm in the UOQ and of the left breast. Patient had an excisional biopsy of the mass and subsequently axillary nodal sampling.
+PATHOLOGY:
+Infiltrating ductal carcinoma, Estrogen receptor 56, Progesterone receptor 23, S-phase fraction 2., Her 2 neu 0 and all nodes negative.
+STAGE:
+Stage I.
+TNM STAGE:
+T1, N0 and M0.
+SURGERY:
+S/P lumpectomy left breast and Left axillary node sampling. Patient is here for further recommendation.
+PAST MEDICAL HISTORY:
+Osteoarthritis for 5 years. ASHD for 10 years. Kidney stones recurrent for 10 years.
+SCREENING TEST HISTORY:
+Last rectal exam was done on 10/99. Last mammogram was done on 12/99. Last gynecological exam was done on 10/99. Last PAP smear was done on 10/99. Last chest x-ray was done on 10/99. Last F.O.B. was done on 10/99-X3. Last sigmoidoscopy was done on 1998. Last colonoscopy was done on 1996.
+IMMUNIZATION HISTORY:
+Last flu vaccine was given on 1999. Last pneumonia vaccine was given on 1996.
+FAMILY MEDICAL HISTORY:
+Father age 85, history of cerebrovascular accident (stroke) and hypertension. Mother history of CHF and emphysema that died at the age of 78. No brothers and sisters. 1 son healthy at age 54.
+PAST SURGICAL HISTORY:
+Appendectomy. Biopsy of the left breast 1996 - benign. Cholecystectomy.
+PERSONAL AND SOCIAL HISTORY:
+Marital status: Married. Smoking history: Smoked 1 PPD, quit 12 years ago and after smoking for 30 years. Alcohol history: Drinks socially. Denies any history of drug abuse.
+ALLERGIES:
+There are no known drug allergies.
+CURRENT MEDICATIONS:
+Aspirin 1 tab x 1 / day. Calan SR 120 mg. x 1 / day.
+REVIEW OF SYSTEMS:
+General: Patient feels fairly well. Patient denies history of fever, chills, night sweats and weight loss.
+Head and Eyes: Patient denies any problems relating to the head and eyes.
+Ears Nose and Throat: Patient has no problems related to the ears, nose or throat.
+Respiratory: Patient denies any respiratory complaints, such as cough, shortness of breath, chest pain, wheezing, hemoptysis, etc.
+Cardiovascular: Chest pain in the retrosternal area, Occasional anginal pain and patient describes it as a sensation of tightness. It radiates to the left shoulder. Patient denies any palpitation, syncope, paroxysmal nocturnal dyspnea and orthopnea.
+Gastrointestinal: Patient denies any nausea, vomiting, abdominal pain, dysphagia or any altered bowel movements.
+Genitourinary: Denies any genito-urinary complaints.
+Musculoskeletal: The patient denies any musculoskeletal complaints.
+Neurological: Patient denies any focal motor, sensory or other neurological symptoms.
+PHYSICAL EXAMINATION:
+General: Patient appears well developed, well nourished and healthy. Personality: pleasant and cooperative. Mental status: Alert and oriented. Stature: slender. ECOG performance score 0.
+HEENT: Examination of head, eyes, ears, nose and throat is unremarkable.
+Hematologic / Lymphatic: There is no palpable adenopathy in the inguinal, axillary, or cervical areas.
+Cardiovascular: Heart: Regular rhythm, normal rate without any murmurs or gallops.
+Breast: RIGHT BREAST: Within normal limits. LEFT BREAST: Consistency: slight induration noted due to recent surgery.
+Respiratory: Chest symmetrical, normal, breath sounds equal, bilateral symmetrical, no rales or rhonchi and no
+dullness to percussion.
+Abdomen / Gastrointestinal: Abdomen is soft, non-tender, and without palpable masses. No hepatosplenomegaly is appreciable.
+Extremities: Peripheral pulses are normal. There is no edema, cyanosis, clubbing or significant varicosities. No skin lesions identified.
+Musculoskelatal: No evidence of joint swelling, bone tenderness or muscle tenderness is appreciable.
+Neurological: Brief neurological examination reveals motor power grossly normal in all groups and no gross sensory or other abnormality appreciable.
+RADIOLOGY:
+Mammogram: A mass measuring 2X2 cm. in the upper outer quadrant of the left breast. Lab:
+LAB DATA:
+CMP (comprehensive metabolic panel): WNL. Liver function tests are WNL. CBC with diff shows WBC 3.2 / cmm. Hemoglobin 12.0 grams / dl, Platelets 250000 / cmm and it is dated 1/4/2000.
+IMPRESSION / DIAGNOSIS
+: Carcinoma of the left breast (174.9 - female), Upper outer quadrant (174.4)
+PATHOLOGY:
+Infiltrating ductal carcinoma. S/P lumpectomy and axillary node dissection. (Details as per HPI).
+DISCUSSION:
+Discussed in detail the diagnosis, prognosis and treatment alternatives. Options of treatment discussed. Side effects of Tamoxifen discussed in detail.
+RECOMMENDATIONS:
+Hormonal therapy with Tamoxifen and Radiation therapy to the breast is recommended.
+TESTS ORDERED:
+The following labs are to be drawn about a week or so prior to next appointment:
+HEMATOLOGY: CBC.
+CHEMISTRY: comprehensive metabolic panel (CMP) and liver function panel (LFT).
+MEDICATIONS PRESCRIBED:
+Nolvadex 20 mg. 1 time a day.
+FOLLOW-UP INSTRUCTIONS:
+Return to see William Smith.M.D. for follow up in 3 month (s). Make appointment to Radiation therapy.
