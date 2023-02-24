@@ -33,4 +33,4 @@ export SPARK_HOME=$SPARKHOME
 # Install pyspark spark-nlp
 ! pip install --upgrade -q pyspark==$PYSPARK spark-nlp==$PUBLIC_VERSION findspark
 ! pip install --upgrade -q spark-nlp-jsl==$JSL_VERSION  --extra-index-url https://pypi.johnsnowlabs.com/$SECRET
-! pip install --upgrade -q spark-ocr==$OCR_VERSION\+spark32 --extra-index-url=https://pypi.johnsnowlabs.com/$SPARK_OCR_SECRET
+! pip install --upgrade -q spark-ocr==$OCR_VERSION --extra-index-url=https://pypi.johnsnowlabs.com/$SPARK_OCR_SECRET
