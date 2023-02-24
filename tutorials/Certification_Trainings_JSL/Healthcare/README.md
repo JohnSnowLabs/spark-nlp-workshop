@@ -68,6 +68,10 @@
 
 [4.3.Clinical_Deidentification_SparkNLP_vs_Cloud_Providers_Comparison.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/4.3.Clinical_Deidentification_SparkNLP_vs_Cloud_Providers_Comparison.ipynb)
 
+[4.4.Clinical_Deidentification_Improvement.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/4.4.Clinical_Deidentification_Improvement.ipynb)
+
+[4.5.Clinical_Deidentification_Utility_Module](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/4.5.Clinical_Deidentification_Utility_Module.ipynb)
+
 
 ### ➤ Optical Character Recognition with Spark OCR
 
@@ -92,6 +96,10 @@
 [19.MedicalBertForSequenceClassification_in_SparkNLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/19.MedicalBertForSequenceClassification_in_SparkNLP.ipynb)
 
 [21.Gender_Classifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/21.Gender_Classifier.ipynb)
+
+[30.Clinical_Text_Classification_with_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/30.Clinical_Text_Classification_with_Spark_NLP.ipynb)
+
+[30.1.Text_Classification_with_DocumentMLClassifier](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings_JSL/Healthcare/30.1.Text_Classification_with_DocumentMLClassifier.ipynb)
 
 ### ➤ Normalizers
 
@@ -127,13 +135,12 @@
 
 ## ☞ Biomedical & Clinical NER Models Benchmarks/ Rankings
 
-
 ##
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-on-anatem)](https://paperswithcode.com/sota/named-entity-recognition-on-anatem?p=biomedical-named-entity-recognition-at-scale)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-on-bc2gm)](https://paperswithcode.com/sota/named-entity-recognition-on-bc2gm?p=biomedical-named-entity-recognition-at-scale)
-	
+ 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-on-bc4chemd)](https://paperswithcode.com/sota/named-entity-recognition-on-bc4chemd?p=biomedical-named-entity-recognition-at-scale)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-on-bionlp13-cg)](https://paperswithcode.com/sota/named-entity-recognition-on-bionlp13-cg?p=biomedical-named-entity-recognition-at-scale)
@@ -152,8 +159,6 @@
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-on-bc5cdr-chemical)](https://paperswithcode.com/sota/named-entity-recognition-on-bc5cdr-chemical?p=biomedical-named-entity-recognition-at-scale)
 
-	
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-ner-on-bc5cdr)](https://paperswithcode.com/sota/named-entity-recognition-ner-on-bc5cdr?p=biomedical-named-entity-recognition-at-scale)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/improving-clinical-document-understanding-on/clinical-assertion-status-detection-on-2010)](https://paperswithcode.com/sota/clinical-assertion-status-detection-on-2010?p=improving-clinical-document-understanding-on)
-
