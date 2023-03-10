@@ -129,12 +129,12 @@ then
     echo "Virtual environment created at $env_pth ..."
     echo "Installing libraries ..."
     
-    sudo apt-get update -qq > /dev/null || apt-get update -qq > /dev/null
-    sudo apt-get -y upgrade -qq > /dev/null || apt-get upgrade -qq > /dev/null
-    sudo apt-get install -y jq -qq > /dev/null || apt-get install jq -qq > /dev/null
-    sudo apt-get purge -y openjdk-11* -qq > /dev/null || apt-get purge -y openjdk-11* -qq > /dev/null
-    sudo apt-get install -y openjdk-8-jdk-headless -qq > /dev/null || apt-get install -y openjdk-8-jdk-headless -qq > /dev/null
-    sudo apt-get install -y build-essential python3-pip  -qq > /dev/null || apt-get install -y build-essential python3-pip -qq > /dev/null
+    sudo -E apt-get update -qq > /dev/null || apt-get update -qq > /dev/null
+    sudo -E apt-get -y upgrade -qq > /dev/null || apt-get upgrade -qq > /dev/null
+    sudo -E apt-get install -y jq -qq > /dev/null || apt-get install jq -qq > /dev/null
+    sudo -E apt-get purge -y openjdk-11* -qq > /dev/null || apt-get purge -y openjdk-11* -qq > /dev/null
+    sudo -E apt-get install -y openjdk-8-jdk-headless -qq > /dev/null || apt-get install -y openjdk-8-jdk-headless -qq > /dev/null
+    sudo -E apt-get install -y build-essential python3-pip  -qq > /dev/null || apt-get install -y build-essential python3-pip -qq > /dev/null
     
     pip3 install -q --upgrade pip
     pip install -q --upgrade environment_kernels
