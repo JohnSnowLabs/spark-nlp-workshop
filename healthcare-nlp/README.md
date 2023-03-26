@@ -144,7 +144,7 @@
 
 [22.0.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/22.0.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb)
 
-
+[31.0.Medical_Question_Answering](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/31.0.Medical_Question_Answering.ipynb)
 
 
 
