@@ -1,0 +1,57 @@
+You are a highly experienced and skilled medical annotator who have been working on medical texts to label medical entities.
+
+I will provide you some entity types with sample chunks and I want you to find similar entities from given texts and label them with right entity types.
+
+-  Entity Type: Drug_BrandName
+
+    Examples:
+    a) given sample sentence:
+    She will be started on Cipro planned 400 mg IV daily
+    Drug_BrandName in above given text: Cipro
+
+    b) given sample sentence:
+    Aspirin one tablet daily, Tylenol, and glucosamine chondroitin sulfate.
+    Drug_BrandName in above given text: Tylenol
+
+- Entity Type: Drug_Ingredient
+    Examples:
+    a) given sample sentence:
+    Aspirin one tablet daily, Tylenol, and glucosamine chondroitin sulfate.
+    Drug_Ingredient in above given text: Aspirin, glucosamine chondroitin sulfate
+
+-  Entity Type: Strength
+    Examples:
+    a) given sample sentence:
+    Patient prescribed 1x20mg Prednisone tablet daily for 5 days.
+    Strength in above given text: 20mg
+
+-  Entity Type: Form
+    Examples:
+    a) given sample sentence:
+    Patient prescribed 1x20mg Prednisone tablet daily for 5 days and 10 mg Norco pills every 4-6 hours.
+    Form in above given text: tablet, pills
+
+    -  Entity Type: Dosage
+    Examples:
+    a) given sample sentence:
+    Patient prescribed 1x20mg Prednisone tablet, Aspirin one tablet and 1-2 325 mg / 10 mg Norco pills daily for 5 days.
+    Dosage in above given text: 1, one, 1-2
+
+
+I want you to extract Drug_BrandName, Drug_Ingredient, Strength, Form, Dosage  from the given text and label all of them as Medicine.
+
+Task :
+
+Find entities in the given sentence.
+
+Answer value must be as given (valid JSON) for the given example sentence:
+
+{{"given_sentence": "She will be started on Cipro planned 400 mg IV daily",
+    "list_of_entities":
+    [
+        {{"entity_type": "Medicine", "chunk": "Cipro"}},
+        {{"entity_type": "Medicine", "chunk": "400 mg"}}
+    ]
+}}
+
+Now I want you to find the Drug entities in the given sentence:

@@ -1,0 +1,311 @@
+{
+    "problem_entity_list": [
+        "Psychological_Condition",
+        "Symptom",
+        "Disease_Syndrome_Disorder",
+        "Heart_Disease",
+        "Oncological",
+        "Kidney_Disease",
+        "Overweight",
+        "Diabetes",
+        "Obesity",
+        "EKG_Findings",
+        "Communicable_Disease",
+        "Tumor_Finding",
+        "ImagingFindings",
+        "Cerebrovascular_Disease",
+        "Psychological_Condition",
+        "Hyperlipidemia",
+        "VS_Finding",
+        "Hypertension",
+        "Metastasis"
+    ],
+    "oncology_greedy_entity_list": ["Cancer_Score", "Tumor_Finding", "Site_Lymph_Node", "Adenopathy", "Cancer_Dx", "Cancer_Score", "Cancer_Surgery", "Chemotherapy", "Grade", "Metastasis", "Pathology_Result", "Pathology_Test", "Staging"],
+    "DEID_entity_list": ["ID", "LOCATION", "DATE", "AGE", "PATIENT", "PHONE", "PROFESSION", "HOSPITAL", "ZIP", "NAME"],
+    "task_list": {
+        "Organ_Component": {
+            "covered_gt_label_list": [
+                "Internal_organ_or_component",
+                "External_body_part_or_region"
+            ],
+            "count_filter": 6
+        },
+        "Gender": {
+            "covered_gt_label_list": [
+                "Gender"
+            ],
+            "count_filter": 3
+        },
+        "Procedure_Treatment": {
+            "covered_gt_label_list": [
+                "Procedure",
+                "Treatment"
+            ],
+            "count_filter": 2
+        },
+        "Problem": {
+            "covered_gt_label_list": [
+                "Psychological_Condition",
+                "Symptom",
+                "Disease_Syndrome_Disorder",
+                "Heart_Disease",
+                "Oncological",
+                "Kidney_Disease",
+                "Overweight",
+                "Diabetes",
+                "Obesity",
+                "EKG_Findings",
+                "Communicable_Disease",
+                "Tumor_Finding",
+                "ImagingFindings",
+                "Cerebrovascular_Disease",
+                "Psychological_Condition",
+                "Hyperlipidemia",
+                "VS_Finding",
+                "Hypertension",
+                "Metastasis"
+            ],
+            "count_filter": 7
+        },
+        "Medicine": {
+            "covered_gt_label_list": [
+                "Drug_BrandName",
+                "Drug_Ingredient",
+                "Strength",
+                "Form",
+                "Dosage"
+            ],
+            "count_filter": 4
+        },
+        "Drug": {
+            "covered_gt_label_list": [
+                "Drug_BrandName",
+                "Drug_Ingredient",
+                "Strength",
+                "Form",
+                "Dosage"
+            ],
+            "count_filter": 4
+        },
+        "Test": {
+            "covered_gt_label_list": [
+                "Test"
+            ],
+            "count_filter": 4
+        },
+        "Test_TestResult": {
+            "covered_gt_label_list": [
+                "Test",
+                "Test_Result"
+            ],
+            "count_filter": 4
+        }
+    },
+    "eval_options_dict": {
+        "External_body_part_or_region": {
+            "selected_entity_prediction": [
+                "External_body_part_or_region"
+            ],
+            "selected_entity_gt": [
+                "External_body_part_or_region"
+            ],
+            "gt_type_dict": {
+                "External_body_part_or_region": "External_body_part_or_region"
+            }
+        },
+        "Internal_organ_or_component": {
+            "selected_entity_prediction": [
+                "Internal_organ_or_component"
+            ],
+            "selected_entity_gt": [
+                "Internal_organ_or_component"
+            ],
+            "gt_type_dict": {
+                "Internal_organ_or_component": "Internal_organ_or_component"
+            }
+        },
+        "Gender": {
+            "selected_entity_prediction": [
+                "Gender"
+            ],
+            "selected_entity_gt": [
+                "Gender"
+            ],
+            "gt_type_dict": {
+                "Gender": "Gender"
+            }
+        },
+        "Procedure": {
+            "selected_entity_prediction": [
+                "Procedure"
+            ],
+            "selected_entity_gt": [
+                "Procedure"
+            ],
+            "gt_type_dict": {
+                "Procedure": "Procedure"
+            }
+        },
+        "Treatment": {
+            "selected_entity_prediction": [
+                "Treatment"
+            ],
+            "selected_entity_gt": [
+                "Treatment"
+            ],
+            "gt_type_dict": {
+                "Treatment": "Treatment"
+            }
+        },
+        "Problem": {
+            "selected_entity_prediction": [
+                "Psychological_Condition",
+                "Symptom",
+                "Disease_Syndrome_Disorder",
+                "Heart_Disease",
+                "Oncological",
+                "Kidney_Disease",
+                "Overweight",
+                "Diabetes",
+                "Obesity",
+                "EKG_Findings",
+                "Communicable_Disease",
+                "Tumor_Finding",
+                "ImagingFindings",
+                "Cerebrovascular_Disease",
+                "Psychological_Condition",
+                "Hyperlipidemia",
+                "VS_Finding",
+                "Hypertension",
+                "Metastasis"
+            ],
+            "selected_entity_gt": [
+                "Psychological_Condition",
+                "Symptom",
+                "Disease_Syndrome_Disorder",
+                "Heart_Disease",
+                "Oncological",
+                "Kidney_Disease",
+                "Overweight",
+                "Diabetes",
+                "Obesity",
+                "EKG_Findings",
+                "Communicable_Disease",
+                "Tumor_Finding",
+                "ImagingFindings",
+                "Cerebrovascular_Disease",
+                "Psychological_Condition",
+                "Hyperlipidemia",
+                "VS_Finding",
+                "Hypertension",
+                "Metastasis"
+            ],
+            "gt_type_dict": {
+                "Psychological_Condition": "Psychological_Condition",
+                "Symptom": "Symptom",
+                "Disease_Syndrome_Disorder": "Disease_Syndrome_Disorder",
+                "Heart_Disease": "Heart_Disease",
+                "Oncological": "Oncological",
+                "Kidney_Disease": "Kidney_Disease",
+                "Overweight": "Overweight",
+                "Diabetes": "Diabetes",
+                "Obesity": "Obesity",
+                "EKG_Findings": "EKG_Findings",
+                "Communicable_Disease": "Communicable_Disease",
+                "Tumor_Finding": "Tumor_Finding",
+                "ImagingFindings": "ImagingFindings",
+                "Cerebrovascular_Disease": "Cerebrovascular_Disease",
+                "Hyperlipidemia": "Hyperlipidemia",
+                "VS_Finding": "VS_Finding",
+                "Hypertension": "Hypertension",
+                "Metastasis": "Metastasis"
+            }
+        },
+        "Medicine": {
+            "selected_entity_prediction": [
+                "Drug_BrandName",
+                "Drug_Ingredient",
+                "Strength",
+                "Dosage",
+                "Form"
+            ],
+            "selected_entity_gt": [
+                "Drug_BrandName",
+                "Drug_Ingredient",
+                "Strength",
+                "Dosage",
+                "Form"
+            ],
+            "gt_type_dict": {
+                "Drug_BrandName": "Drug_BrandName",
+                "Drug_Ingredient": "Drug_Ingredient",
+                "Strength": "Strength",
+                "Dosage": "Dosage",
+                "Form": "Form"
+            }
+        },
+        "Drug": {
+            "selected_entity_prediction": [
+                "Drug_BrandName",
+                "Drug_Ingredient"
+            ],
+            "selected_entity_gt": [
+                "Drug_BrandName",
+                "Drug_Ingredient"
+            ],
+            "gt_type_dict": {
+                "Drug_BrandName": "Drug_BrandName",
+                "Drug_Ingredient": "Drug_Ingredient"
+            }
+        },
+        "Drug_Related": {
+            "selected_entity_prediction": [
+                "Strength",
+                "Dosage",
+                "Form"
+            ],
+            "selected_entity_gt": [
+                "Strength",
+                "Dosage",
+                "Form"
+            ],
+            "gt_type_dict": {
+                "Strength": "Strength",
+                "Dosage": "Dosage",
+                "Form": "Form"
+            }
+        },
+        "Test": {
+            "selected_entity_prediction": [
+                "Test"
+            ],
+            "selected_entity_gt": [
+                "Test"
+            ],
+            "gt_type_dict": {
+                "Test": "Test"
+            }
+        },
+        "Test_Result": {
+            "selected_entity_prediction": [
+                "Test_Result"
+            ],
+            "selected_entity_gt": [
+                "Test_Result"
+            ],
+            "gt_type_dict": {
+                "Test_Result": "Test_Result"
+            }
+        }
+    },
+    "entity_for_benchmark":{
+    "Organ_Component": ["External_body_part_or_region", "Internal_organ_or_component"],
+    "Gender": ["Gender"],
+    "Procedure_Treatment": ["Procedure", "Treatment"],
+    "Problem": ["Problem"],
+    "Medicine": ["Medicine"],
+    "Drug": ["Drug", "Drug_Related"],
+    "Test": ["Test"],
+    "Test_TestResult":["Test", "Test_Result"]
+    }
+}

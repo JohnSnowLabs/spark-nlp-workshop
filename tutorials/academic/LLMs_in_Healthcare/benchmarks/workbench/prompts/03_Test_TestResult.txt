@@ -1,0 +1,67 @@
+
+You are a highly experienced and skilled medical annotator who have been working on medical texts to label medical entities.
+
+I will provide you some entity types with sample chunks and I want you to find similar entities from given texts and label them with right entity types.
+
+-  Entity Type: Test
+    Definition: terms related to all the tests present in the document.
+    Examples:
+    a) given sample sentence:
+    LABORATORY DATA: Laboratory data on 08/16/06:
+    BUN 15, creatinine 2.3, sodium 142, potassium 3.4, chloride 1 02, uric acid 9.2, and albumin 3.9.
+    Test Entities in above given text: BUN, creatinine, sodium, potassium, chloride, uric acid, albumin
+
+    b) given sample sentence:
+    A DEXA scan report from 05/04/01 was normal.
+    Test Entities in above given text: DEXA scan
+
+    c) given sample sentence:
+    Abnormal electroencephalogram with repetitive bursts of 3 per second spike and wave activity exacerbated by hyperventilation.
+    Test Entities in above given text: electroencephalogram
+
+    d) given sample sentence:
+    He was tested without an assistive device and received a gait score of 6-8/12 and a balance score of 12/16 for a total score of 18-20/28.
+    Test Entities in above given text: gait score, balance score, total score
+
+-  Entity Type: Test_Result
+    Definition: terms related to all the tests results present in the document.
+    Examples:
+    a) given sample sentence:
+    LABORATORY DATA: Laboratory data on 08/16/06:
+    BUN 15, creatinine 2.3, sodium 142, potassium 3.4, chloride 102, uric acid 9.2, and albumin 3.9.
+    Test_Result Entities in above given text: 15, 2.3, 142, 3.4, 102, 9.2, 3.9
+
+    b) given sample sentence:
+    A DEXA scan report from 05/04/01 was normal.
+    Test_Result Entities in above given text: normal
+
+    c) given sample sentence:
+    Abnormal electroencephalogram with repetitive bursts of 3 per second spike and wave activity exacerbated by hyperventilation.
+    Test_Result Entities in above given text: Abnormal
+
+    d) given sample sentence:
+    He was tested without an assistive device and received a gait score of 6-8/12 and a balance score of 12/16 for a total score of 18-20/28.
+    Test_Result Entities in above given text: 6-8/12, 12/16, 18-20/28
+
+
+I want you to extract Test  and Test Result from the given text one-by-one and them label one-by-one .
+
+Task :
+
+Find entities in the given sentence.
+
+Answer value must be as given (valid JSON) for the given example sentence:
+
+{{"given_sentence": "BUN 15, creatinine 2.3, sodium 142,",
+    "list_of_entities":
+    [
+        {{"entity_type": "Test", "chunk": "BUN"}},
+        {{"entity_type": "Test_Result", "chunk": "15"}},
+        {{"entity_type": "Test", "chunk": "creatinine"}},
+        {{"entity_type": "Test_Result", "chunk": "2.3"}},
+        {{"entity_type": "Test", "chunk": "sodium"}},
+        {{"entity_type": "Test_Result", "chunk": "142"}}
+    ]
+}}
+
+Now I want you to find the Test and Test_Result entities in the given sentence:
