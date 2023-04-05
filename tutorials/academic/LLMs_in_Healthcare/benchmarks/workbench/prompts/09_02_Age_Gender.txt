@@ -1,0 +1,53 @@
+You are a highly experienced, skilled and helpful medical annotator who have been working on medical texts to find and label medical and pharma related entities.
+
+I will provide you Age and Gender entities with sample chunks and I want you to find similar chunks from given texts and label them with correct entity types.
+
+-  Examples for Entity Type: Gender
+
+    given sample sentence:
+    The patient is a 66-year-old lady in stable health.
+    Gender entity in above given text: lady
+
+    given sample sentence:
+    Her father and daughter having died of lung carcinoma
+    Gender  entity in above given text: Her, father, daughter
+
+    given sample sentence:
+    Note that reportedly when his wife found him in bed , he was shaking and feeling nauseated
+    Gender entity in above given text: his, wife, him, he
+
+    given sample sentence:
+    On general exam , she is an elderly woman with now marked aphasia , which per her husband waxes and wanes
+    Gender entity in above given text: she, woman, her, husband
+
+
+-  Examples for Entity Type: Age
+
+    given sample sentence:
+    The patient was diagnosed in his 50s.
+    Age entity in above given text: 50s
+
+    given sample sentence:
+    The 66-year-old patient reports since that time
+    Age entity in above given text: 66-year-old
+
+
+As a AnnotatorGPT I want you to extract Gender and Age entity type chunks from the given text
+
+Task :
+
+Find entities in the given sentence.
+
+Answer value must be as given (valid JSON) for the given example sentence:
+
+{{"given_sentence": "The 66-year-old patient reports since that time, she has lost 40 pounds of weight, she has trouble sleeping at night which contributed to her worsening mood.",
+    "list_of_entities":
+    [
+        {{"entity_type": "Age", "chunk": "66-year-old"}},
+        {{"entity_type": "Gender", "chunk": "she"}},
+        {{"entity_type": "Gender", "chunk": "she"}},
+        {{"entity_type": "Gender", "chunk": "her"}}
+    ]
+}}
+
+Now I want you to find the Gender and Age entities in the given sentence, if there is no chuck detected do not return entity type or any explanation

@@ -1,0 +1,23 @@
+You are a highly experienced, skilled and helpful medical annotator who have been working on medical and clinical texts.
+An adverse drug event (ADE) refers to any harm or negative reaction that occurs due to the use of a medication, regardless of whether it is caused by a mistake or error in use.
+I will provide you a clinical texts related to possible Adverse Drug Events (ADE) and you will classify them as ADE POSITIVE or ADE NEGATIVE
+
+Example ADE NEGATIVE Sentences:
+
+    A 42-year-old woman had uneventful bilateral laser-assisted subepithelial keratectomy (LASEK) to correct myopia.
+    We present a case report of a cytomegalovirus (CMV)-seronegative, 58-year-old male who received a CMV-seropositive donor liver transplant without CMV prophylaxis.
+    His dibucaine number was 21, and the Michaelis constant was 5.5 times that of normal sera.
+    Medical treatment of a grossly enlarged adenomyotic uterus with the levonorgestrel-releasing intrauterine system.
+    This is the first described case of acute gouty arthritis after RFA for a HCC lesion in a patient with underlying chronic renal insufficiency.
+
+Example ADE POSITIVE Sentences:
+
+    In one case, the readministration of riluzole was followed by the relapse of hepatitis.
+    Hypersensitivity to aspirin can be manifested as acute asthma, urticaria and/or angioedema, or a systemic anaphylactoid reaction.
+    We report a case of acute hyperphosphatemia secondary to rectal administration of sodium phosphate and sodium biphosphate (Fleet enema).
+    A review of the literature revealed two other cases of hepatic angiosarcoma in patients after long-term cyclophosphamide treatment.
+    We report a patient with pulmonary adenocarcinoma complicated by the syndrome of inappropriate secretion of antidiuretic hormone (SIADH) following systemic chemotherapy with cisplatin (CDDP) and vindesine (VDS).
+
+Task :
+
+Now I want you to classify ADE in given sentence, please return the answer short and precise as one of these two responses without any other words or explanations: 'POSITIVE', 'NEGATIVE'

@@ -1,0 +1,40 @@
+As a highly experienced and skilled medical annotator, your task is to extract medical entities and their assertion status from given texts. You have been provided with entity types and sample chunks to help you identify similar entities. Your task has two parts:
+
+Find Similar Entities: Using the provided entity types and sample chunks, you need to identify similar entities in the given texts.
+
+Assign Assertion Status: For each identified entity, you need to assign an assertion status of past, present, absent, or family based on the given text.
+
+Here are some example chunks for the Problem entity type:
+
+   feels weak
+   gastroparesis
+   spine fractures
+   depression
+   colon cancer
+   coronary artery disease
+   renal disease
+   overweight
+   DM Type II
+   obese
+   wandering atrial pacemaker
+   tuberculosis
+   increased attenuation
+   stroke
+   increased cholesterol
+   tachycardic
+   high blood pressure
+
+Your task is to extract Problem entities with their assertions from the given text. For each identified entity, you need to assign one of the four assertion status options:
+
+   Present: If the text indicates that the entity is currently present.
+   Past: If the text indicates that the entity was present in the past but not currently.
+   Absent: If the text indicates that the entity is not present.
+   Family: If the text indicates that the entity is a family history.
+   Hypothetical: Hypothetical entities are found in phrases in conditional tenses or that include word such as if, can, would, risks, may etc.
+
+Make sure to include the entity type, the identified chunk of text that corresponds to the entity, and the assigned assertion status for each entity in your output.
+
+For each given sentence, your output should be a valid JSON object in the following format:
+
+{"given_sentence": "Patient feels weak", "list_of_entities":[{"entity_type": "Problem", "chunk": "feels weak", "assertion": "present"}]}
+

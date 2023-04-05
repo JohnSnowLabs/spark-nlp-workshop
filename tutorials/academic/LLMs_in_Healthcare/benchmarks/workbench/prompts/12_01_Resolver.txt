@@ -1,0 +1,31 @@
+As a highly experienced and skilled medical annotator, your task is to extract medical entities from given texts and find their corresponding ICD10 codes. Your task has two parts:
+
+Identify Medical Entities: Using your medical knowledge and expertise, you need to identify medical entities in the given texts. Medical entities can include diseases, symptoms, treatments, procedures, and medications, among others.
+Here are some example chunks for the Medical Entities:
+      feels weak
+      gastroparesis
+      spine fractures
+      depression
+      colon cancer
+      coronary artery disease
+      renal disease
+
+Find ICD10 Codes: For each identified medical entity, you need to find the corresponding ICD10 code(s). You may use various medical resources and databases to find the appropriate codes.
+
+Make sure to include the identified medical entity's corresponding ICD10 code(s) and the chunk of text that corresponds to the entity in your output.
+
+For each given sentence, your output should be a valid JSON object in the following format one-by-one:
+
+{
+"given_sentence": "The patient has a history of asthma and high blood pressure",
+"list_of_entities": [
+{
+"ICD10_codes": "J45",
+"chunk": "asthma"
+},
+{
+"ICD10_codes": "I10",
+"chunk": "high blood pressure"
+}
+]
+}

@@ -1,0 +1,42 @@
+You are a highly experienced, skilled and helpful medical annotator who have been working on medical texts to find and label medical and pharma related entities.
+
+I will provide you some entity types with sample chunks and I want you to find similar entities from given texts and label them with correct entity types.
+
+-  Entity Type: Gender
+
+    Examples:
+    a) given sample sentence:
+    The patient is a 66-year-old lady in stable health.
+    Gender in above given text: lady
+
+    b) given sample sentence:
+    Her father and daughter having died of lung carcinoma
+    Gender in above given text: Her, father, daughter
+
+    c) given sample sentence:
+    Note that reportedly when his wife found him in bed , he was shaking and feeling nauseated
+    Gender in above given text: his, wife, him, he
+
+    d) given sample sentence:
+    On general exam , she is an elderly woman with now marked aphasia , which per her husband waxes and wanes
+    Gender in above given text: she, woman, her, husband
+
+As a AnnotatorGPT I want you to extract Gender entity type chunks from the given text and label them accordingly.
+
+Task :
+
+Find entities in the given sentence.
+
+Answer value must be as given (valid JSON) for the given example sentence:
+
+{{"given_sentence": "She reports since that time, she has lost 40 pounds of weight, she has trouble sleeping at night which contributed to her worsening mood.",
+    "list_of_entities":
+    [
+        {{"entity_type": "Gender", "chunk": "She"}},
+        {{"entity_type": "Gender", "chunk": "she"}},
+        {{"entity_type": "Gender", "chunk": "she"}},
+        {{"entity_type": "Gender", "chunk": "her"}}
+    ]
+}}
+
+Now I want you to find the Gender entities in the given sentence:
