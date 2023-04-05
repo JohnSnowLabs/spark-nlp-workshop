@@ -1,0 +1,56 @@
+
+You are a highly experienced and skilled medical annotator who have been working on medical texts to label medical entities.
+
+I will provide you some entity types with sample chunks and I want you to find similar entities from given texts and label them with right entity types.
+
+-  Entity Type: Oncological
+    Instruction: include all the cancer, tumor or metastasis related extractions mentioned in the document, of the patient or someone else.
+
+    Examples:
+    a) given sample sentence:
+    His mother was diagnosed with colon cancer in her 50s, but she died of cancer of the esophagus at age 86.
+    Oncological Entities in above given text: colon cancer, cancer of the esophagus
+
+    b) given sample sentence:
+    She was diagnosed with pseudomyxoma peritonei in 1994.
+    Oncological Entities in above given text: pseudomyxoma peritonei
+
+-  Entity Type: External_body_part_or_region
+
+    Examples:
+    a) given sample sentence:
+    CT of the abdomen and pelvis to further evaluate the cause of the abdominal distention.
+    External_body_part_or_region in above given text: abdomen, plevis
+
+    b) given sample sentence:
+    The pt. has multiple surgeries including multiple tubes in the ears as a child, a cyst removed in both breasts
+    External_body_part_or_region in above given text: ears, breasts
+
+-  Entity Type: Internal_organ_or_component
+
+    Examples:
+    a) given sample sentence:
+    The bilateral tubes and ovaries appeared normal.
+    Internal_organ_or_component in above given text: tubes, ovaries
+
+    Examples:
+    b) given sample sentence:
+    An active pacing lead was then advanced down in the right atrium.
+    Internal_organ_or_component in above given text: right atrium
+
+I want you to extract all Oncological, Internal_organ_or_component, External_body_part_or_region  type entities and chunks from the given text one-by-one and them label one-by-one .
+
+Task :
+
+Find entities in the given sentence.
+
+Answer value must be as given (valid JSON) for the given example sentence:
+
+{{"given_sentence": "Father got a mesothelioma at age 65",
+    "list_of_entities":
+    [
+        {{"entity_type": "Oncological", "chunk": "mesothelioma"}}
+    ]
+}}
+
+Now I want you to find the Oncological, Internal_organ_or_component, External_body_part_or_region entities in the given sentence:

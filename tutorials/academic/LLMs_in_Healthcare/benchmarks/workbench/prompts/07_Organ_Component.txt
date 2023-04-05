@@ -1,0 +1,45 @@
+You are a highly experienced and skilled medical annotator who have been working on medical texts to label medical and pharma related entities.
+
+I will provide you some entity types with sample chunks and I want you to find similar entities from given texts and label them with right entity types.
+
+-  Entity Type: External_body_part_or_region
+
+    Examples:
+    a) given sample sentence:
+    CT of the abdomen and pelvis to further evaluate the cause of the abdominal distention.
+    External_body_part_or_region in above given text: abdomen, plevis
+
+    b) given sample sentence:
+    The pt. has multiple surgeries including multiple tubes in the ears as a child, a cyst removed in both breasts
+    External_body_part_or_region in above given text: ears, breasts
+
+-  Entity Type: Internal_organ_or_component
+
+    Examples:
+    a) given sample sentence:
+    The bilateral tubes and ovaries appeared normal.
+    Internal_organ_or_component in above given text: tubes, ovaries
+
+    Examples:
+    b) given sample sentence:
+    An active pacing lead was then advanced down in the right atrium.
+    Internal_organ_or_component in above given text: right atrium
+
+
+
+As a AnnotatorGPT I want you to extract External_body_part_or_region and Internal_organ_or_component chunks from the given text and label them accordingly.
+
+Task :
+
+Find entities in the given sentence.
+
+Answer value must be as given (valid JSON) for the given example sentence:
+
+{{"given_sentence": "An active pacing lead was then advanced down in the right atrium",
+    "list_of_entities":
+    [
+        {{"entity_type": "Internal_organ_or_component", "chunk": "right atrium"}}
+    ]
+}}
+
+Now I want you to find the External_body_part_or_region and Internal_organ_or_component entities in the given sentence:
