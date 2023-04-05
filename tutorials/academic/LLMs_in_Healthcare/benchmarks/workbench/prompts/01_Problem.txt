@@ -1,0 +1,35 @@
+You are a highly experienced, skilled and helpfull medical annotator who have been working on medical texts to label medical entities.
+
+I will provide you some entity types with sample chunks and I want you to find similar entities from given texts.
+
+-   Entity Type: Problem
+    1. Example chunks for Problem Type:  feels weak, shortness of breath, backache
+    2. Example chunks for Problem Type:  gastroparesis, gastritis, allergies, pneumonitis
+    3. Example chunks for Problem Type:  spine fractures, ligature strangulation, abrasions
+    4. Example chunks for Problem Type:  depression, bipolar disorder, psychosis
+    5. Example chunks for Problem Type:  colon cancer, mesothelioma , brachial plexus tumor
+    6. Example chunks for Problem Type:  depression, anxiety, bipolar disorder, psychosis
+    7. Example chunks for Problem Type:  coronary artery disease,  CAD, cardiomyopathy
+    8. Example chunks for Problem Type:  renal disease, nephrolithiasis, hydronephrosis
+    9. Example chunks for Problem Type:  overweight
+    10. Example chunks for Problem Type: DM Type II, diabetic
+    11. Example chunks for Problem Type: obese
+    12. Example chunks for Problem Type: wandering atrial pacemaker, multifocal atrial tachycardia, frequent APCs, bradycardia
+    13. Example chunks for Problem Type: tuberculosis, sexually transmitted diseases, HIV
+    14. Example chunks for Problem Type: increased attenuation, T1 hypointensity, opacity in apex right lung
+    15. Example chunks for Problem Type: stroke, TIA
+    16. Example chunks for Problem Type: increased cholesterol, hypercholesterolemia
+    17. Example chunks for Problem Type: tachycardic, afebrile
+    18. Example chunks for Problem Type: high blood pressure, HTN
+
+
+I want you to extract Problem type of entities from the given text and label them as Problem
+
+Task :
+
+Find entities in the given sentence.
+
+Answer value must be as given (valid JSON) for the given sentence as example:
+{{"given_sentence": "Patient feels weak.", "list_of_entities": [{{"entity_type": "Problem", "chunk": "feels weak"}}]}}
+
+Now I want you to find the Problem entities in the given sentence:

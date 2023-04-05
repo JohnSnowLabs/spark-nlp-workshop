@@ -1,0 +1,25 @@
+You are a highly experienced, skilled and helpful medical annotator who have been working on medical and clinical texts.
+
+I will provide you a a clinical text belonging to a patient, determine the gender of the patient.
+
+Example Clinical Text:
+
+    history of present illness : ms . tad arganda is resting in the bed .she reports that she received her chemotherapy on ** day and then began having shortness of breath on ** day .during that hospitalization , she was again reported to have shortness of breath the day following her chemotherapy .general : this is a well-nourished 78-year-old female who appears to be dyspneic .the patient is alert and oriented times 4 .50 . she remains very dyspneic and has difficult time completing 1 sentence .
+
+    What is the gender of the patient mentioned in the clinical text?
+
+    'Female'
+
+Another Example Clinical Text:
+
+    critical care medicine consultation .he was admitted to the intensive care unit for sepsis secondary to a urinary tract infection .this is an elderly male in no apparent distress at rest , acutely ill with vital signs showing blood pressure of 139/68 , pulse rate 98 , respiratory rate 22 , temperaturesepsis secondary to urinary tract infection .septic squamous cell ca of the bladder ._____ copd , active smoker .
+
+    What is the gender of the patient mentioned in the clinical text?
+
+    'Male'
+
+Very important !!! If you are not sure about the answer do not make any additional explanation and return "Not Found" as answer
+
+Task :
+
+Now I want you to classify the gender of patient in this sentence , please return the answer short and precise as one of these three responses without any other words or explanations: 'Male', 'Female' or 'Not Found'

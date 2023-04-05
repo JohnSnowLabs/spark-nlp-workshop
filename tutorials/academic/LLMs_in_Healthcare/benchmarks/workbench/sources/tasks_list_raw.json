@@ -1,0 +1,353 @@
+{
+    "problem_entity_list": [
+        "Psychological_Condition",
+        "Symptom",
+        "Disease_Syndrome_Disorder",
+        "Heart_Disease",
+        "Oncological",
+        "Kidney_Disease",
+        "Overweight",
+        "Diabetes",
+        "Obesity",
+        "EKG_Findings",
+        "Communicable_Disease",
+        "Tumor_Finding",
+        "ImagingFindings",
+        "Cerebrovascular_Disease",
+        "Psychological_Condition",
+        "Hyperlipidemia",
+        "VS_Finding",
+        "Hypertension",
+        "Metastasis"
+    ],
+    "oncology_greedy_entity_list": ["Tumor_Finding", "Site_Lymph_Node", "Adenopathy", "Cancer_Dx", "Cancer_Score", "Cancer_Surgery", "Chemotherapy", "Grade", "Metastasis", "Pathology_Result", "Pathology_Test", "Staging"],
+    "DEID_entity_list": ["ID", "LOCATION", "DATE", "AGE", "PATIENT", "PHONE", "PROFESSION", "HOSPITAL", "ZIP", "NAME"],
+
+    "task_list": {
+        "Organ_Component": {
+            "covered_gt_label_list": [
+                "Internal_organ_or_component",
+                "External_body_part_or_region"
+            ],
+            "count_filter": 6,
+            "prompt_file": "07_Organ_Component.txt"
+        },
+        "Gender": {
+            "covered_gt_label_list": [
+                "Gender"
+            ],
+            "count_filter": 3,
+            "prompt_file": "09_01_Gender.txt"
+        },
+        "Procedure_Treatment": {
+            "covered_gt_label_list": [
+                "Procedure",
+                "Treatment"
+            ],
+            "count_filter": 2,
+            "prompt_file": "06_Procedure_Treatment.txt"
+        },
+        "Problem": {
+            "covered_gt_label_list": [
+                "Psychological_Condition",
+                "Symptom",
+                "Disease_Syndrome_Disorder",
+                "Heart_Disease",
+                "Oncological",
+                "Kidney_Disease",
+                "Overweight",
+                "Diabetes",
+                "Obesity",
+                "EKG_Findings",
+                "Communicable_Disease",
+                "Tumor_Finding",
+                "ImagingFindings",
+                "Cerebrovascular_Disease",
+                "Psychological_Condition",
+                "Hyperlipidemia",
+                "VS_Finding",
+                "Hypertension",
+                "Metastasis"
+            ],
+            "count_filter": 7,
+            "prompt_file": "01_Problem.txt"
+        },
+        "Problem_Modifier_Direction": {
+            "covered_gt_label_list": [
+                "Psychological_Condition",
+                "Symptom",
+                "Disease_Syndrome_Disorder",
+                "Heart_Disease",
+                "Oncological",
+                "Kidney_Disease",
+                "Overweight",
+                "Diabetes",
+                "Obesity",
+                "EKG_Findings",
+                "Communicable_Disease",
+                "Tumor_Finding",
+                "ImagingFindings",
+                "Cerebrovascular_Disease",
+                "Psychological_Condition",
+                "Hyperlipidemia",
+                "VS_Finding",
+                "Hypertension",
+                "Metastasis",
+                "Modifier",
+                "Direction"
+            ],
+            "count_filter": 2,
+            "prompt_file": "02_Problem_Direction_Modifier.txt"
+        },
+        "Medicine": {
+            "covered_gt_label_list": [
+                "Drug_BrandName",
+                "Drug_Ingredient",
+                "Strength",
+                "Form",
+                "Dosage"
+            ],
+            "count_filter": 4,
+            "prompt_file": "05_01_Medicine.txt"
+        },
+        "Drug": {
+            "covered_gt_label_list": [
+                "Drug_BrandName",
+                "Drug_Ingredient",
+                "Strength",
+                "Form",
+                "Dosage"
+            ],
+            "count_filter": 4,
+            "prompt_file": "05_02_Drug_vs_DrugRelated.txt"
+        },
+        "Test": {
+            "covered_gt_label_list": [
+                "Test"
+            ],
+            "count_filter": 4,
+            "prompt_file": "03_01_Test.txt"
+        },
+        "Oncological": {
+            "covered_gt_label_list": [
+                "Oncological"
+            ],
+            "count_filter": 7,
+            "prompt_file": "11_02_Oncological.txt"
+        }
+    },
+    "eval_options_dict": {
+        "External_body_part_or_region": {
+            "selected_entity_prediction": [
+                "External_body_part_or_region"
+            ],
+            "selected_entity_gt": [
+                "External_body_part_or_region"
+            ],
+            "gt_type_dict": {
+                "External_body_part_or_region": "External_body_part_or_region"
+            }
+        },
+        "Internal_organ_or_component": {
+            "selected_entity_prediction": [
+                "Internal_organ_or_component"
+            ],
+            "selected_entity_gt": [
+                "Internal_organ_or_component"
+            ],
+            "gt_type_dict": {
+                "Internal_organ_or_component": "Internal_organ_or_component"
+            }
+        },
+        "Gender": {
+            "selected_entity_prediction": [
+                "Gender"
+            ],
+            "selected_entity_gt": [
+                "Gender"
+            ],
+            "gt_type_dict": {
+                "Gender": "Gender"
+            }
+        },
+        "Procedure": {
+            "selected_entity_prediction": [
+                "Procedure"
+            ],
+            "selected_entity_gt": [
+                "Procedure"
+            ],
+            "gt_type_dict": {
+                "Procedure": "Procedure"
+            }
+        },
+        "Treatment": {
+            "selected_entity_prediction": [
+                "Treatment"
+            ],
+            "selected_entity_gt": [
+                "Treatment"
+            ],
+            "gt_type_dict": {
+                "Treatment": "Treatment"
+            }
+        },
+        "Problem": {
+            "selected_entity_prediction": [
+                "Problem"
+            ],
+            "selected_entity_gt": [
+                "Psychological_Condition",
+                "Symptom",
+                "Disease_Syndrome_Disorder",
+                "Heart_Disease",
+                "Oncological",
+                "Kidney_Disease",
+                "Overweight",
+                "Diabetes",
+                "Obesity",
+                "EKG_Findings",
+                "Communicable_Disease",
+                "Tumor_Finding",
+                "ImagingFindings",
+                "Cerebrovascular_Disease",
+                "Psychological_Condition",
+                "Hyperlipidemia",
+                "VS_Finding",
+                "Hypertension",
+                "Metastasis"
+            ],
+            "gt_type_dict": {
+                "Psychological_Condition": "Problem",
+                "Symptom": "Problem",
+                "Disease_Syndrome_Disorder": "Problem",
+                "Heart_Disease": "Problem",
+                "Oncological": "Problem",
+                "Kidney_Disease": "Problem",
+                "Overweight": "Problem",
+                "Diabetes": "Problem",
+                "Obesity": "Problem",
+                "EKG_Findings": "Problem",
+                "Communicable_Disease": "Problem",
+                "Tumor_Finding": "Problem",
+                "ImagingFindings": "Problem",
+                "Cerebrovascular_Disease": "Problem",
+                "Hyperlipidemia": "Problem",
+                "VS_Finding": "Problem",
+                "Hypertension": "Problem",
+                "Metastasis": "Problem"
+            }
+        },
+        "Modifier_Direction": {
+            "selected_entity_prediction": [
+                "Modifier",
+                "Direction"
+            ],
+            "selected_entity_gt": [
+                "Modifier",
+                "Direction"
+            ],
+            "gt_type_dict": {
+                "Direction": "Direction",
+                "Modifier": "Modifier"
+            }
+        },
+        "Medicine": {
+            "selected_entity_prediction": [
+                "Medicine"
+            ],
+            "selected_entity_gt": [
+                "Drug_BrandName",
+                "Drug_Ingredient",
+                "Strength",
+                "Dosage",
+                "Form"
+            ],
+            "gt_type_dict": {
+                "Drug_BrandName": "Medicine",
+                "Drug_Ingredient": "Medicine",
+                "Strength": "Medicine",
+                "Dosage": "Medicine",
+                "Form": "Medicine"
+            }
+        },
+        "Drug": {
+            "selected_entity_prediction": [
+                "Drug"
+            ],
+            "selected_entity_gt": [
+                "Drug_BrandName",
+                "Drug_Ingredient"
+            ],
+            "gt_type_dict": {
+                "Drug_BrandName": "Drug",
+                "Drug_Ingredient": "Drug"
+            }
+        },
+        "Drug_Related": {
+            "selected_entity_prediction": [
+                "DrugRelated"
+            ],
+            "selected_entity_gt": [
+                "Strength",
+                "Dosage",
+                "Form"
+            ],
+            "gt_type_dict": {
+                "Strength": "DrugRelated",
+                "Dosage": "DrugRelated",
+                "Form": "DrugRelated"
+            }
+        },
+        "Test": {
+            "selected_entity_prediction": [
+                "Test"
+            ],
+            "selected_entity_gt": [
+                "Test"
+            ],
+            "gt_type_dict": {
+                "Test": "Test"
+            }
+        },
+        "Test_Result": {
+            "selected_entity_prediction": [
+                "Test_Result"
+            ],
+            "selected_entity_gt": [
+                "Test_Result"
+            ],
+            "gt_type_dict": {
+                "Test_Result": "Test_Result"
+            }
+        },
+        "Oncological_Granular":{
+            "selected_entity_prediction": ["Oncological"],
+            "selected_entity_gt":["Tumor_Finding", "Site_Lymph_Node", "Adenopathy", "Cancer_Dx", "Cancer_Score", "Cancer_Surgery", "Chemotherapy", "Grade", "Metastasis", "Pathology_Result", "Pathology_Test", "Staging"],
+            "gt_type_dict": {
+                "Tumor_Finding": "Oncological",
+                "Site_Lymph_Node": "Oncological",
+                "Adenopathy": "Oncological",
+                "Cancer_Dx": "Oncological",
+                "Cancer_Score": "Oncological",
+                "Cancer_Surgery": "Oncological",
+                "Chemotherapy": "Oncological",
+                "Grade": "Oncological",
+                "Metastasis": "Oncological",
+                "Pathology_Result": "Oncological",
+                "Pathology_Test": "Oncological",
+                "Staging": "Oncological"
+           }
+        }
+    },
+    "entity_for_benchmark":{
+    "Organ_Component": ["External_body_part_or_region", "Internal_organ_or_component"],
+    "Gender": ["Gender"],
+    "Procedure_Treatment": ["Procedure", "Treatment"],
+    "Problem": ["Problem"],
+    "Medicine": ["Medicine"],
+    "Drug": ["Drug", "Drug_Related"],
+    "Test": ["Test", "Test_Result"],
+    "Problem_Modifier_Direction": ["Problem_Modifier_Direction", "Modifier_Direction"]
+    }
+}

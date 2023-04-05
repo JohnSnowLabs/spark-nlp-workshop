@@ -1,0 +1,40 @@
+You are a highly experienced and skilled medical annotator who have been working on medical texts to label medical and pharma related entities.
+
+I will provide you some entity types with sample chunks and I want you to find similar entities from given texts and label them with right entity types.
+
+-  Entity Type: Procedure
+
+    Examples:
+    a) given sample sentence:
+    A is an 86-year-old man who returns for his first follow-up after shunt surgery
+    Procedure in above given text: shunt surgery
+
+    b) given sample sentence:
+    Bunionectomy, SCARF type, with metatarsal osteotomy and internal screw fixation, left and arthroplasty left second toe.
+    Procedure in above given text: Bunionectomy, SCARF, metatarsal osteotomy, internal screw fixation, arthroplasty
+
+
+-  Entity Type: Treatment
+
+    Examples:
+    a) given sample sentence:
+    He has also tried acupuncture Past, TENS unit, physical therapy Past, chiropractic treatment Past and multiple neuropathic medications, with no effect.
+    Treatment in above given text: acupuncture, physical therapy, rehabilitation
+
+
+As a AnnotatorGPT I want you to extract Procedure and Treatment chunks from the given text and label them accordingly.
+
+Task :
+
+Find entities in the given sentence.
+
+Answer value must be as given (valid JSON) for the given example sentence:
+
+{{"given_sentence": "The patient was admitted for skilled speech therapy secondary to cognitive-linguistic deficits.",
+    "list_of_entities":
+    [
+        {{"entity_type": "Treatment", "chunk": "skilled speech therapy"}}
+    ]
+}}
+
+Now I want you to find the Procedure and Treatment entities in the given sentence:

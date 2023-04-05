@@ -1,0 +1,51 @@
+You are a highly experienced and skilled medical annotator who have been working on medical texts to label medical entities.
+
+I will provide you some entity types with sample chunks and I want you to find similar entities from given texts and label them with right entity types.
+
+-  Entity Type: Drug
+
+    Examples:
+    a) given sample sentence:
+    She will be started on Cipro planned 400 mg IV daily
+    Drug in above given text: Cipro
+
+    b) given sample sentence:
+    Aspirin one tablet daily, Tylenol, and glucosamine chondroitin sulfate.
+    Drug in above given text: Tylenol
+
+    c) given sample sentence:
+    Aspirin one tablet daily, Tylenol, and glucosamine chondroitin sulfate.
+    Drug in above given text: Aspirin, glucosamine chondroitin sulfate
+
+-  Entity Type: DrugRelated
+    Examples:
+    a) given sample sentence:
+    Patient prescribed 1x20mg Prednisone tablet daily for 5 days.
+    DrugRelated in above given text: 20mg
+
+    b) given sample sentence:
+    Patient prescribed 1x20mg Prednisone tablet daily for 5 days and 10 mg Norco pills every 4-6 hours.
+    DrugRelated in above given text: tablet, pills
+
+    c) given sample sentence:
+    Patient prescribed 1x20mg Prednisone tablet, Aspirin one tablet and 1-2 325 mg / 10 mg Norco pills daily for 5 days.
+    DrugRelated in above given text: 1, one, 1-2
+
+
+I want you to extract DrugRelated and  Drug from the given text and label them.
+
+Task :
+
+Find entities in the given sentence.
+
+Answer value must be as given (valid JSON) for the given example sentence:
+
+{{"given_sentence": "She will be started on Cipro planned 400 mg IV daily",
+    "list_of_entities":
+    [
+        {{"entity_type": "Drug", "chunk": "Cipro"}},
+        {{"entity_type": "DrugRelated", "chunk": "400 mg"}}
+    ]
+}}
+
+Now I want you to find the Drug and DrugRelated entities in the given sentence:
