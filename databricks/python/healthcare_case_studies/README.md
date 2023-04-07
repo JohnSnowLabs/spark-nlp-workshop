@@ -20,13 +20,9 @@
 
 [4. Automating De-Identification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_case_studies/4.%20Automating%20De-Identification.ipynb)
 
-## Suicide Risk Prediction with Databricks, Spark NLP & NLP Lab
-
-[24. Suicide_Detection_PreAnn_Alab.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_case_studies/24.%20Suicide_Detection_PreAnn_Alab.ipynb)
-
 ## Automated Extraction of Medical Risk Factors for Life Insurance Underwriting
 
-[25. Automated_Insurance_Risk_Factor_Extration.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_case_studies/25.%Automated_Insurance_Risk_Factor_Extration.ipynb)
+[24. Automated_Insurance_Risk_Factor_Extration.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_case_studies/24.%Automated_Insurance_Risk_Factor_Extration.ipynb)
 
 ## Clinical Knowledge Graph Extraction
 
