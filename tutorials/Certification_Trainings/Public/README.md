@@ -10,8 +10,9 @@ If you don't have time to cover all these, please check the follwing notebook fo
 
 ### Spark NLP
 
-[1.SparkNLP_Basics.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/1.SparkNLP_Basics.ipynb)
+[0.SparkNLP_for_OpenSource_3h_Notebook.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/0.SparkNLP_for_OpenSource_3h_Notebook.ipynb)
 
+[1.SparkNLP_Basics.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/1.SparkNLP_Basics.ipynb)
 
 [2.Text_Preprocessing_with_SparkNLP_Annotators_Transformers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/2.Text_Preprocessing_with_SparkNLP_Annotators_Transformers.ipynb)
 
@@ -22,6 +23,8 @@ If you don't have time to cover all these, please check the follwing notebook fo
 [4.NERDL_Training.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/4.NERDL_Training.ipynb)
 
 [4.1_NerDL_Graph.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/4.1_NerDL_Graph.ipynb)
+
+[4.2_ZeroShot_NER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/4.2_ZeroShot_NER.ipynb)
 
 [5.Text_Classification_with_ClassifierDL.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/5.Text_Classification_with_ClassifierDL.ipynb)
 
