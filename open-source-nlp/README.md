@@ -27,13 +27,13 @@ If you don't have time to cover all these, please check the follwing notebook fo
 
 [04.3.Import_Transformers_Into_SparkNLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/04.3.Import_Transformers_Into_SparkNLP.ipynb)
 
-
+[04.4.ZeroShot_NER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/04.4.ZeroShot_NER.ipynb)
 
 ### Text Classification
 
 [05.0.Text_Classification_with_ClassifierDL.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/05.0.Text_Classification_with_ClassifierDL.ipynb)
 
-[05.1.Text_classification_examples_in_SparkML_SparkNLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/05.1.Text_Classification_Examples_in_SparkML_SparkNLP.ipynb)
+[05.1.Text_Classification_Examples_in_SparkML_SparkNLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/05.1.Text_Classification_Examples_in_SparkML_SparkNLP.ipynb)
 
 [05.2.Transformers_for_Sequence_Classification_in_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/05.2.Transformers_for_Sequence_Classification_in_SparkNLP.ipynb)
 
@@ -79,7 +79,7 @@ If you don't have time to cover all these, please check the follwing notebook fo
 
 ### Image Classification Notebooks
 
-[16.0.ViT_for_Image_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/16.0.ViT_for_Image_Classification.ipynb)
+[16.0.Transformers_for_Image_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/16.0.Transformers_for_Image_Classification.ipynb)
 
 
 ### Speech Recognition
