@@ -20,6 +20,10 @@ class Evaluate:
         # try:
             if self.file_path != None:
                 df = pd.read_csv(self.file_path)
+                try:
+                    df = df[df['prediction_list'].apply(len) != 0]
+                except:
+                    pass
                 # df = pd.read_csv(self.file_path, delimiter="\t")
                 # df['ground_truth_list'] = df['ground_truth_list'].apply(lambda x: ast.literal_eval(x.replace("'", "\"")))
                 try:
