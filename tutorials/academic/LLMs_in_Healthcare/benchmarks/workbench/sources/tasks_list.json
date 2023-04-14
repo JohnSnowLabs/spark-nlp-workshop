@@ -23,6 +23,10 @@
     "oncology_greedy_entity_list": ["Cancer_Score", "Tumor_Finding", "Site_Lymph_Node", "Adenopathy", "Cancer_Dx", "Cancer_Score", "Cancer_Surgery", "Chemotherapy", "Grade", "Metastasis", "Pathology_Result", "Pathology_Test", "Staging"],
     "DEID_entity_list": ["ID", "LOCATION", "DATE", "AGE", "PATIENT", "PHONE", "PROFESSION", "HOSPITAL", "ZIP", "NAME"],
     "task_list": {
+        "Deid": {
+            "covered_gt_label_list": ["ID", "LOCATION", "DATE", "AGE", "PATIENT", "PHONE", "PROFESSION", "HOSPITAL", "ZIP", "NAME"],
+            "prompt_file":"13_01_DEID.txt"
+        },
         "Organ_Component": {
             "covered_gt_label_list": [
                 "Internal_organ_or_component",
@@ -301,6 +305,21 @@
                 "Pathology_Test": "Oncological",
                 "Staging": "Oncological"
            }
+        },
+        "Deid": {
+            "selected_entity_prediction": ["ID", "DATE", "AGE", "PHONE", "PERSON", "LOCATION", "ORGANIZATION"],
+            "selected_entity_gt": ["ID", "DATE", "AGE", "PHONE", "DOCTOR", "PATIENT", "NAME", "HOSPITAL", "LOCATION", "ORGANIZATION"],
+            "gt_type_dict":{
+                "ID":"ID",
+                "LOCATION":"LOCATION",
+                "DATE":"DATE",
+                "AGE":"AGE",
+                "PATIENT":"PERSON",
+                "DOCTOR":"PERSON",
+                "NAME":"PERSON",
+                "HOSPITAL":"ORGANIZATION",
+                "ORGANIZATION":"ORGANIZATION"
+            }
         }
     },
     "entity_for_benchmark":{
@@ -312,6 +331,7 @@
     "Drug": ["Drug", "Drug_Related"],
     "Test": ["Test"],
     "Test_TestResult":["Test", "Test_Result"],
-    "Oncological": ["Oncological_Granular"]
+    "Oncological": ["Oncological_Granular"],
+    "Deid": ["Deid"]
     }
 }
