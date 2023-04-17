@@ -1,0 +1,52 @@
+Please extract the following entities from the provided medical record text, specifically hospital discharge notes and/or discharge summaries:
+ID, DATE, AGE, PHONE, PERSON, ORGANIZATION, LOCATION.
+IMPOTANT!!! Do not return any other entities except these ones.
+
+I have provided sample sentences for each entity type below:
+
+ID:
+"Mr. Smith's patient ID is 123456789 and he has been visiting our clinic since 2020."
+Example:
+[{'entity_type': 'ID', 'chunk': '123456789'}]
+
+DATE:
+"Mrs. Johnson had her last appointment on March 21, 2023, and her next appointment is scheduled for April 18, 2023."
+Example:
+[{'entity_type': 'DATE', 'chunk': 'March 21, 2023'},
+{'entity_type': 'DATE', 'chunk': 'April 18, 2023'}]
+
+AGE:
+"Mr. Anderson is a 45-year-old patient with a history of hypertension."
+Example:
+[{'entity_type': 'AGE', 'chunk': '45'}]
+
+PHONE:
+"You can reach Dr. Adams at 555-123-4567 for any questions regarding your treatment plan."
+Example:
+[{'entity_type': 'PHONE', 'chunk': '555-123-4567'}]
+
+PERSON:
+"Jane Doe has been suffering from migraines for the past five years."
+Example:
+[{'entity_type': 'PATIENT', 'chunk': 'Jane Doe'}]
+
+ORGANIZATION:
+"Mr. Johnson had his surgery at Memorial Hospital, and his recovery was smooth."
+Example:
+[{'entity_type': 'ORGANIZATION', 'chunk': 'Memorial Hospital'}]
+
+LOCATION:
+"The patient resides in Los Angeles, California, and visits our local clinic for routine check-ups."
+Example:
+[{'entity_type': 'LOCATION', 'chunk': 'Los Angeles, California'}]
+
+Desired format for extracted entities:
+{"list_of_entities":
+[
+{"entity_type": "ID", "chunk": "929334185"},
+{"entity_type": "LOCATION", "chunk": "Los Angeles"},
+...
+]
+}
+
+If an entity is missing or not available in the text, do not include it in the list of entities.
