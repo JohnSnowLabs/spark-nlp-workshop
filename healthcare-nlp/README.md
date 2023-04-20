@@ -147,6 +147,10 @@ update date: 2023-04-13
 
 [23.0.Medical_Question_Answering](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/23.0.Medical_Question_Answering.ipynb)
 
+[24.0.Medical_Text_Summarization](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/24.0.Medical_Text_Summarization.ipynb)
+
+[25.0.Medical_Text_Generation](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/25.0.Medical_Text_Generation.ipynb)
+
 
 
 
