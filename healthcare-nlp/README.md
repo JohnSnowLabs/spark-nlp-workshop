@@ -7,8 +7,8 @@ update date: 2023-04-13
 
 [00.SparkNLP_for_Healthcare_3h_Notebook.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/00.SparkNLP_for_Healthcare_3h_Notebook.ipynb)
 
-### ➤ Clinical Named Entity Recognition
 
+### ➤ Clinical Named Entity Recognition
 
 [01.0.Clinical_Named_Entity_Recognition_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/01.0.Clinical_Named_Entity_Recognition_Model.ipynb)
 
@@ -28,7 +28,6 @@ update date: 2023-04-13
 [02.1.Scope_window_tuning_assertion_status_detection.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/02.1.Scope_window_tuning_assertion_status_detection.ipynb)
 
 
-
 ### ➤ Clinical Relation Extraction
 
 [03.0.Clinical_Relation_Extraction.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/03.0.Clinical_Relation_Extraction.ipynb)
@@ -40,6 +39,7 @@ update date: 2023-04-13
 [03.3.ZeroShot_Clinical_Relation_Extraction.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/03.3.ZeroShot_Clinical_Relation_Extraction.ipynb)
 
 [03.4.Resume_RelationExtractionApproach_Training.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/03.4.Resume_RelationExtractionApproach_Training.ipynb)
+
 
 ### ➤ Clinical De-identification
 
@@ -54,6 +54,7 @@ update date: 2023-04-13
 [04.4.Clinical_Deidentification_Improvement.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/04.4.Clinical_Deidentification_Improvement.ipynb)
 
 [04.5.Clinical_Deidentification_Utility_Module.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/04.5.Clinical_Deidentification_Utility_Module.ipynb)
+
 
 ### ➤ Clinical Entity Resolution
 
@@ -72,12 +73,31 @@ update date: 2023-04-13
 [05.6.Improved_Entity_Resolution_with_SentenceChunkEmbeddings.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/05.6.Improved_Entity_Resolution_with_SentenceChunkEmbeddings.ipynb)
 
 
-
 ### ➤ Entity Code Mapping
 
 [06.0.Chunk_Mapping.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/06.0.Chunk_Mapping.ipynb)
 
 [06.1.Code_Mapping_Pipelines.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/06.1.Code_Mapping_Pipelines.ipynb)
+
+
+### ➤ Large Language Madeling
+
+[23.0.Medical_Question_Answering](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/23.0.Medical_Question_Answering.ipynb)
+
+[24.0.Medical_Text_Summarization](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/24.0.Medical_Text_Summarization.ipynb)
+
+[24.1.Comparison_Medical_Text_Summarization](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/24.1.Comparison_Medical_Text_Summarization.ipynb)
+
+[25.0.Biogpt_Chat_JSL](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/25.0.Biogpt_Chat_JSL.ipynb)
+
+[25.1.Medical_Text_Generation](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/25.1.Medical_Text_Generation.ipynb)
+
+
+### ➤ Topic Based Notebooks
+
+[21.0.Oncology_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/21.0.Oncology_Model.ipynb)
+
+[22.0.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/22.0.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb)
 
 
 ### ➤ Clinical Pipelines
@@ -100,7 +120,6 @@ update date: 2023-04-13
 [08.4.Gender_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/08.4.Gender_Classifier.ipynb)
 
 
-
 ### ➤ Utility Notebooks
 
 [09.0.Contextual_Parser_Rule_Based_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/09.0.Contextual_Parser_Rule_Based_NER.ipynb)
@@ -112,7 +131,6 @@ update date: 2023-04-13
 [12.0.Clinical_Context_Spell_Checker.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/12.0.Clinical_Context_Spell_Checker.ipynb)
 
 
-
 ### ➤ Normalizers
 
 [13.0.Date_Normalizer.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/13.0.Date_Normalizer.ipynb)
@@ -120,10 +138,7 @@ update date: 2023-04-13
 [14.0.Drug_Normalizer.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/14.0.Drug_Normalizer.ipynb)
 
 
-
-
 ### ➤ Auxillary Notebooks
-
 
 [15.0.EntityRuler_with_Clinical_NER_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/15.0.EntityRuler_with_Clinical_NER_Models.ipynb)
 
@@ -139,27 +154,7 @@ update date: 2023-04-13
 
 
 
-### ➤ Topic Based Notebooks
-
-[21.0.Oncology_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/21.0.Oncology_Model.ipynb)
-
-[22.0.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/22.0.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb)
-
-[23.0.Medical_Question_Answering](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/23.0.Medical_Question_Answering.ipynb)
-
-[24.0.Medical_Text_Summarization](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/24.0.Medical_Text_Summarization.ipynb)
-
-[25.0.Medical_Text_Generation](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/25.0.Medical_Text_Generation.ipynb)
-
-
-
-
-
-
-
 ## ☞ Biomedical & Clinical NER Models Benchmarks/ Rankings
-
-##
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/biomedical-named-entity-recognition-at-scale/named-entity-recognition-on-anatem)](https://paperswithcode.com/sota/named-entity-recognition-on-anatem?p=biomedical-named-entity-recognition-at-scale)
 
