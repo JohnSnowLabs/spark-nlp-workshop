@@ -70,6 +70,8 @@
 ## Deidentification
 [11.Deidentification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/11.Deidentification.ipynb)
 
+[11.1.Deidentification_Utility_Module.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/11.1.Deidentification_Utility_Module.ipynb)
+
 ## Coreference Resolution
 [12.Coreference_Resolution.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/12.Coreference_Resolution.ipynb)
 
