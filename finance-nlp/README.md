@@ -77,6 +77,8 @@
 
 [11.1.Pretrained_Deidentification_Pipeline.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/11.1.Pretrained_Deidentification_Pipeline.ipynb)
 
+[11.2.Deidentification_Utility_Module.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/11.2.Deidentification_Utility_Module.ipynb)
+
 ## Use cases
 [80.0.Use_case_Capital_Agreements.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/80.0.Use_case_Capital_Agreements.ipynb)
 
