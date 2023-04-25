@@ -76,7 +76,7 @@
 [12.Coreference_Resolution.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/12.Coreference_Resolution.ipynb)
 
 ## Legal Summarization
-[13.0.Legal_Summarization.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/13.Legal_Summarization.ipynb)
+[13.0.Legal_Summarization.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/13.0.Legal_Summarization.ipynb)
 
 ## Graphs
 [80.0.WIP_Use_Case_Legal_Agreements.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/80.0.WIP_Use_Case_Legal_Agreements.ipynb)
