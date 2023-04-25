@@ -1,0 +1,155 @@
+1  
+MUTUAL NONDISCLOSURE AGREEMENT  
+This Mutual Nondisclosure Agreement (the “Agreement”) is made on _________ (“Effective  
+Date”) by and between:  
+(1) John Snow Labs, a Delaware corporation, registered at 16192 Coastal Highway,  
+Lewes, Delaware 19958 (“John Snow Labs”), and   
+(2) Achiles, S.L, a Spanish corporation, registered at Gran Via, 2º floor, Offices 9
+and 10.(“Company”),  
+(each a “party” and together the “parties”).  
+Recitals:  
+John Snow Labs and Company intend to explore the possibility of a business relationship  
+between each other, whereby each party (“Discloser”) may disclose sensitive information to the  
+other party (“Recipient”).   
+The parties agree as follows:  
+1. Definition.   
+1.1 The term “Confidential Information” means, to the extent previously, presently or  
+subsequently disclosed by or for Discloser to Recipient (whether in writing, orally or by  
+another means), all financial, business, economic, legal, competitively sensitive and technical  
+information of Discloser or any of its affiliates, suppliers, customers and employees  
+(including, without limitation, information about research, development, operations,  
+marketing, transactions, regulatory affairs, discoveries, inventions, methods, processes,  
+articles, materials, algorithms, software, specifications, designs, drawings, data, strategies,  
+codes, patterns, plans, prospects, know-how, formulas, prototypes, procedures, concepts and  
+ideas, whether tangible or intangible, and including all copies, abstracts, summaries, analyses  
+and other derivatives thereof), that is marked, traditionally recognized or otherwise identified  
+as proprietary or confidential at the time of disclosure, or that by its nature would be  
+understood by a reasonable person to be proprietary or confidential.   
+1.2 Confidential Information shall not include any information that:   
+(a)  was rightfully known to Recipient without restriction before receipt from Discloser;  
+(b)  is rightfully disclosed to Recipient without restriction by a third party;  
+(c)  is or becomes generally known to the public without violation of this Agreement by  
+Recipient; or   
+(d)  is independently developed by Recipient or its employees without access to or reliance  
+on such information.   
+June 8, 2022 
+  
+ 2  
+1.3 Discloser represents and warrants to Recipient that it is authorized to disclose any and all  
+Confidential Information made available to Recipient under this Agreement.  
+2. Restrictions.   
+2.1 As to the Discloser of Confidential Information, Recipient agrees:  
+(a)  to use the Confidential Information only for the purpose set out in this Agreement and  
+for its consideration internally of a business relationship or transaction between the  
+parties, and its performance in any resulting arrangement, but not for any other  
+purpose;  
+(b)  to strictly maintain the Confidential Information as confidential, and exercise  
+reasonable precautions to prevent any unauthorized access, use or disclosure;  
+(c)  not to copy the Confidential Information without a prior written approval of Discloser  
+and for any purpose other than set out in this Agreement;  
+(d)  not to disclose the Confidential Information to any third party other than Recipient’s  
+employees and agents who have a need to know for the permitted purpose and who are  
+apprised of the confidential nature of the Confidential Information and all of the  
+restrictions in this Agreement;  
+(e)  not to decompile, disassemble or otherwise reverse engineer of any Confidential  
+Information, or use any similar means to discover its underlying composition,  
+structure, source code or trade secrets; and   
+(f)  not to export or re-export any Confidential Information or product thereof in violation  
+of U.S. or other export control laws or regulations.   
+2.2 Recipient acknowledges the confidential character of the Confidential Information, therefore  
+undertakes to protect and maintain strictly such information in the same grade of protection  
+as its own Confidential Information, but in no case any less than reasonable care.  
+2.3 The terms and conditions of any transaction or possible transaction between the parties, the  
+fact that disclosures, evaluations or discussions are taking place, and the status and results  
+thereof will also be held in confidence by both parties and not disclosed to any third party.  
+Each party shall be responsible for any breach of its confidentiality obligations by its  
+respective employees and agents.  
+3. Compelled Disclosures.   
+These restrictions will not prevent either party from complying with any law, regulation,  
+court order or other legal requirement that purports to compel disclosure of any Confidential  
+Information. Recipient will promptly notify Discloser upon learning of any such legal  
+requirement, and cooperate with Discloser in the exercise of its right to protect the  
+confidentiality of the Confidential Information before any tribunal or governmental agency.  
+  
+ 3  
+4. No Warranties or Licenses.   
+All Confidential Information is provided “AS IS”. Discloser will not be liable to Recipient  
+for damages arising from any use of the Confidential Information, from errors, omissions or  
+otherwise. All of Discloser’s rights in and to its Confidential Information remain the  
+exclusive property of Discloser. Neither this Agreement, nor any disclosure of Confidential  
+Information hereunder (a) grants to Recipient any right or license under any copyright,  
+patent, mask work, trade secret or other intellectual property right, except solely for the use  
+expressly permitted herein, (b) obligates either party to disclose or receive any information,  
+perform any work or enter into any agreement, (c) limits either party from developing,  
+manufacturing or marketing products or services that may be competitive with those of the  
+other except insofar as this Agreement limits the use and disclosure of Confidential  
+Information, (d) limits either party from assigning or reassigning its employees in any way,  
+or (e) limits either party from entering into any business relationship with third parties.  
+5. Termination.   
+This Agreement will terminate as to the further exchange of Confidential Information  
+immediately upon the earlier of (a) receipt by one party of written notice from the other and  
+(b) the first anniversary of this Agreement. The confidentiality obligations of this Agreement,  
+as they apply to any Confidential Information disclosed prior to termination, will survive  
+termination for a period of 3 years; except when such Confidential Information disclosed by  
+the Discloser is source code, trade secret or patient information, in which case the Receiving  
+Party’s obligations to protect such Confidential Information shall be perpetual. Upon  
+termination of this Agreement for any reason, or upon Discloser’s request at any time,  
+Recipient shall promptly return to Discloser or destroy (if applicable) all originals and copies  
+of any Confidential Information and destroy all information, records and materials developed  
+therefrom. Upon request of Discloser, Recipient shall certify in writing that all copies thereof  
+in its possession have been returned and/or destroyed.   
+6. Remedies.   
+Due to the unique nature of the Confidential Information, the parties agree that any breach or  
+threatened breach of this Agreement will cause not only financial harm to Discloser, but also  
+irreparable harm for which money damages will not be an adequate remedy. Therefore,  
+Discloser shall be entitled, in addition to any other legal or equitable remedies, to an  
+injunction or similar equitable relief against any such breach or threatened breach without the  
+ecessity of posting any bond.  
+7. General.   
+7.1 This Agreement constitutes the entire agreement, and supersedes all prior negotiations,  
+understandings or agreements (oral or written), between the parties concerning the subject  
+matter hereof.   
+7.2 This Agreement may be executed in one or more counterparts, each of which is an original,  
+but taken together constituting one and the same instrument. Execution of a facsimile copy  
+  
+ 4  
+shall have the same force and effect as execution of an original, and a facsimile signature  
+shall be deemed an original and valid signature.   
+7.3 No change, consent or waiver to this Agreement will be effective unless in writing and  
+signed by the party against which enforcement is sought. The failure of either party to  
+enforce its rights under this Agreement at any time for any period shall not be construed as a  
+waiver of such rights. Unless expressly provided otherwise, each right and remedy in this  
+Agreement is in addition to any other right or remedy, at law or in equity, and the exercise of  
+one right or remedy will not be deemed a waiver of any other right or remedy.   
+7.4 In the event that any provision of this Agreement shall be determined to be illegal or  
+unenforceable, that provision will be limited or eliminated to the minimum extent necessary  
+so that the Agreement shall otherwise remain in full force and effect and enforceable.   
+7.5 This Agreement shall be governed by and construed in accordance with the laws of the State  
+of Delaware, USA without regard to the conflicts of laws provisions thereof. Exclusive  
+jurisdiction and venue for any action arising under this Agreement is in the federal and state  
+courts having jurisdiction over John Snow Labs’ principal office, and both parties hereby  
+consent to such jurisdiction and venue for this purpose. In any action or proceeding to  
+enforce or interpret this Agreement, the prevailing party will be entitled to recover from the  
+other party its costs and expenses (including reasonable attorneys' fees) incurred in  
+connection with such action or proceeding and enforcing any judgment or order obtained.   
+7.6 Any notice hereunder will be effective upon receipt and shall be given in writing, in English  
+and delivered to the other party at its address given herein or at such other address designated  
+by written notice.  
+IN WITNESS WHEREOF, the parties hereto have executed this Agreement as a sealed  
+instrument, effective as of the date and year first written above.  
+John Snow Labs:  Company:  
+By:  
+__________________________________  
+ By:  
+__________________________________  
+ame:  
+ ___________________________  
+ Name:   
+____Miguel Sanchez_______________  
+Title:  
+_________________________________  
+ Title:   
+CEO of Achiles 
+_________________________  
+Jane Smith 
+Legal Counsel 
