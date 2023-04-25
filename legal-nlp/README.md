@@ -17,6 +17,9 @@
 
 [04.4.Training_Legal_Multilabel_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/04.4.Training_Legal_Multilabel_Classifier.ipynb)
 
+## Splitting with Context Windows for better Classification
+[04.5.Classifying_with_WindowSplitting.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/04.5.Classifying_with_WindowSplitting.ipynb)
+
 ## Named Entity Recognition
 [05.0.NER_and_ZeroShotNER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/05.0.NER_and_ZeroShotNER.ipynb)
 
