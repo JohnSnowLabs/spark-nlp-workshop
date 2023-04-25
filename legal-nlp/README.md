@@ -71,7 +71,7 @@
 [10.1.Chunk_Mappers_Training.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/10.1.Chunk_Mappers_Training.ipynb)
 
 ## Deidentification
-[11.Deidentification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/11.Deidentification.ipynb)
+[11.0.Deidentification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/11.0.Deidentification.ipynb)
 
 [11.1.Deidentification_Utility_Module.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/11.1.Deidentification_Utility_Module.ipynb)
 
