@@ -119,6 +119,7 @@ update date: 2023-04-13
 
 [08.4.Gender_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/08.4.Gender_Classifier.ipynb)
 
+[08.5.Text_Classification_with_Contextual_Window_Splitting.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/08.5.Text_Classification_with_Contextual_Window_Splitting.ipynb)
 
 ### ➤ Utility Notebooks
 
