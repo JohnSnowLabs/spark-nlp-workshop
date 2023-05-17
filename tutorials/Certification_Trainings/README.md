@@ -148,6 +148,23 @@ If you don't have time to cover all these, please check the following notebook f
 
 [5.2.Spark_OCR_Deidentification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/5.2.Spark_OCR_Deidentification.ipynb)
 
+
+### Large Language Modeling
+
+
+[31.Medical_Question_Answering.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/31.Medical_Question_Answering.ipynb)
+
+[31.1.Porting_QA_Models_From_Text_Generator_Backbone.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/31.1.Porting_QA_Models_From_Text_Generator_Backbone.ipynb)
+
+[32.Medical_Text_Summarization.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/32.Medical_Text_Summarization.ipynb)
+
+[32.1.Comparison_Medical_Text_Summarization.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/32.1.Comparison_Medical_Text_Summarization.ipynb)
+
+[33.Biogpt_Chat_JSL.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/33.Biogpt_Chat_JSL.ipynb)
+
+[33.1.Medical_Text_Generation.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/33.1.Medical_Text_Generation.ipynb)
+
+
 ### ➤ Clinical Pipelines
 
 [11.Pretrained_Clinical_Pipelines.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/11.Pretrained_Clinical_Pipelines.ipynb)
@@ -167,14 +184,6 @@ If you don't have time to cover all these, please check the following notebook f
 [30.Clinical_Text_Classification_with_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/30.Clinical_Text_Classification_with_Spark_NLP.ipynb)
 
 [30.1.Text_Classification_with_DocumentMLClassifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/30.1.Text_Classification_with_DocumentMLClassifier.ipynb)
-
-### ➤ Clinical Text Generation
-
-[31.Medical_Question_Answering.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/31.Medical_Question_Answering.ipynb)
-
-[32.Medical_Text_Summarization.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/32.Medical_Text_Summarization.ipynb)
-
-[33.Medical_Text_Generation.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/33.Medical_Text_Generation.ipynb)
 
 ### ➤ Normalizers
 
