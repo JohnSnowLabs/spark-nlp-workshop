@@ -85,7 +85,10 @@
 
 ### Large Language Modeling
 
+
 [31.Medical_Question_Answering.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/31.Medical_Question_Answering.ipynb)
+
+[31.1.Porting_QA_Models_From_Text_Generator_Backbone.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/31.1.Porting_QA_Models_From_Text_Generator_Backbone.ipynb)
 
 [32.Medical_Text_Summarization.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/32.Medical_Text_Summarization.ipynb)
 
