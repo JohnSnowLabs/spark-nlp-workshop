@@ -81,11 +81,14 @@
 ## Legal Summarization
 [13.0.Legal_Summarization.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/13.0.Legal_Summarization.ipynb)
 
-## Graphs
+## Use Cases
 [80.0.WIP_Use_Case_Legal_Agreements.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/80.0.WIP_Use_Case_Legal_Agreements.ipynb)
+
+[80.1.Legal_Subpoenas_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/80.1.Legal_Subpoenas_NER.ipynb)
 
 
 ## Combining with Visual NLP
 [90.0.Legal_Visual_Document_Understanding.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/90.0.Legal_Visual_Document_Understanding.ipynb)
 
 [90.1.Layout_Classification_with_VisualNLP.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/90.1.Layout_Classification_with_VisualNLP.ipynb)
+
