@@ -1,0 +1,1634 @@
+
+
+                                                                   Exhibit 10.14
+
+                                                           Agreement No.________
+
+                            Non-Disclosure Agreement
+
+This Agreement is made between CELERITY SYSTEMS, INC., ("CELERITY") and UNISYS
+Corporation - Federal Systems Division. ("UNISYS") and concerns the handling,
+safeguarding and exchange of sensitive, proprietary or confidential information
+(collectively "Proprietary Information"). It is agreed and understood that any
+exchange of such Proprietary Information is expressly for the sole purpose of
+CELERITY and UNISYS evaluating a possible business arrangement involving an
+existing UNISYS contract with a federal government agency.
+
+1.   For the purposes hereof, Proprietary Information shall be any documents,
+     materials or information that (i) is in tangible form and clearly marked as
+     being proprietary, confidential or sensitive and (ii) is received by one
+     party to this Agreement ("Recipient") from the other party to this
+     Agreement ("Transmitter").
+
+2.   The Recipient agrees to safeguard, protect and handle all Proprietary
+     Information made available under this Agreement with the same degree of
+     care and procedures as Recipient applies to its own confidential or
+     proprietary information. Without the written consent of the Transmitter,
+     the Recipient of Proprietary Information agrees (i) not to disclose,
+     disseminate, reproduce or otherwise distribute such information and
+     materials to any third party, except a governmental judicial authority's
+     issued order and (ii) not to use such information for any other purposes
+     beyond that expressly set forth in this Agreement.
+
+3.   All Proprietary Information disclosed under this Agreement shall remain the
+     property of the Transmitter. It is agreed that the Recipient does not
+     obtain any title or license rights to the Proprietary Information furnished
+     under this Agreement.
+
+4.   All Proprietary Information exchanged under this Agreement shall be
+     returned or destroyed in accordance with written instructions upon the
+     earlier of a written request from the Transmitter or termination of this
+     Agreement. Either party may terminate this Agreement, at any time, by
+     providing written notice to the receiving party. Termination of this
+     Agreement shall not be construed as relieving the Recipient of its
+     obligations to safeguard, protect and dispose of the Proprietary
+     Information as set forth in this Agreement.
+
+5.   The Recipient's obligations to protect, safeguard and handle Proprietary
+     Information received hereunder shall not be binding if such Proprietary
+     Information (i) is in the public domain through no fault of the Recipient,
+     (ii) is known to the Recipient prior to disclosure hereunder, (iii) is
+     lawfully disclosed to Recipient by a third party. The Recipient's
+     obligations shall survive until the Proprietary Information has been
+     returned, destroyed in accordance with written instructions or covered by a
+     subsequent agreement between CELERITY and UNISYS for the contemplated
+     services.
+
+This represents the entire agreement of the parties relative to the subject
+matter and shall be governed and construed under the laws of the Commonwealth of
+Virginia.
+
+Accepted by:
+
+UNISYS Corporation                        CELERITY SYSTEMS, INC.
+
+
+By: /s/ Dennis A. Chaloux                 By: /s/ William R. Chambers
+  ----------------------------------         ----------------------------
+Name: Dennis A. Chaloux                   Name: William R. Chambers
+                                               --------------------------
+Title: Sr. Subcontract Administrator      Title: Vice President
+                                                -------------------------
+Date: 6/30/97                             Date: 6/26/97
+
+
+                               SUBCONTRACT BETWEEN
+
+                               UNISYS CORPORATION
+                               8008 Westpark Drive
+                             McLean, Virginia 22102
+                                       AND
+                             CELERITY SYSTEMS, INC.
+                      9051 Executive Park Drive, Suite 400
+                           Knoxville, Tennessee 37923
+
+SUBCONTRACT NUMBER:                                      97-IW0324-CELERITY
+
+PRIME CONTRACT NUMBER:                                   263-96-D-0324
+
+PERIOD OF PERFORMANCE:                                   (Reference Section 2.0)
+
+SUBCONTRACT TYPE:                                        Firm-Fixed-Price (FFP)
+                                                         Time & Material (T&M)
+                                                         Purchase Orders
+
+SUBCONTRACT AMOUNT:                                      (Reference Section 1.0)
+
+PAYMENT TERMS:                                           Payment shall be made
+
+                                                         upon receipt of proper
+
+                                                         invoice, Net (30) days
+                                                         (Reference Section 13.)
+
+PRIORITY RATING:                                         N/A
+
+SECURITY CLASSIFICATION:                                 None
+
+UNISYS SUBCONTRACT ADMINISTRATOR:                        Dennis A. Chaloux
+
+
+                                TABLE OF CONTENTS
+
+ARTICLE                                                                     PAGE
+
+1.0      Supplies/Services and Prices..........................................3
+2.0      Period of Performance.................................................5
+3.0      Packaging Labeling and Shipping.......................................5
+
+                           4.0 Inspection and Acceptance
+                           5.0 Assignment
+                           6.0 Changes
+                           7.0 Disputes Involving the Government
+
+8.0      Binding Arbitration...................................................6
+
+                           9.0      Delays
+                           10.      Default
+                           11.      Notices
+                           12.      Invoices/Payments
+
+13.      Patent Indemnity......................................................7
+
+                           14.      Risk of Loss
+                           15.      Termination
+
+16.      Title.................................................................8
+
+                           17.      Warranty
+                           18.      Limitation of Liability
+                           19.      Compliance With Laws
+
+20.      Relationship of the Parties..........................................12
+
+                           21.      Indemnification
+                           22.      Limitation of Obligation
+                           23.      Release of News Information
+                           24.      Non-Waiver Rights
+
+25.      Representations and Certifications...................................13
+
+                           26.      Ethical Conduct
+                           27.      Severability
+                           28.      Applicable State Law
+                           29.      Attachments/Exhibits
+                           30.      Statement of Work
+
+31.      Complete Agreement...................................................14
+
+
+                                       2
+
+
+                                    RECITALS
+
+         This Agreement is entered into by and between Unisys Corporation,
+Federal Systems Division, a Delaware corporation, with its principal offices
+located at 8008 Westpark Drive, McLean, Virginia 22102 (hereinafter referred to
+as the "BUYER"), and Celerity Systems, Inc. (hereinafter referred to as the
+"SELLER") with offices located at 9051 Executive Park Drive, Suite 400,
+Knoxville, Tennessee 37923.
+
+                                 WlTNESSETH THAT
+
+         In consideration of mutual promises, covenants, and agreements herein
+set forth, the Parties agree that the SELLER shall furnish and deliver to the
+BUYER all of the supplies, and perform all of the services set forth herein, for
+the consideration stated therein. The rights and obligations of the Parties to
+this Agreement shall be subject to and governed by the terms of this Agreement
+and other documents or specifications attached hereto or Referenced herein.
+
+         This Agreement shall not be varied in its terms or conditions by any
+oral Agreement or representation, or otherwise than by an instrument in writing,
+unless executed by both SELLER and BUYER.
+
+         The section titles used herein are for convenience only and shall in no
+way be construed as part of this Subcontract or as an indication of the meaning
+of the particular section.
+
+1.0      SUPPLIES/SERVICES AND PRICES
+
+         SELLER shall provide the necessary personnel and facilities to furnish
+the supplies/services as determined by or specified in individual Purchase
+Orders issued to the SELLER by the BUYER. All purchase orders shall be issued
+pursuant to and in accordance with this Agreement. Prices set forth in this
+Agreement include taxes, duties, similar charges and include shipping charges.
+All charges for deliveries to the Washington, D.C. Metropolitan Area are
+included in the item prices. Transportation charges for deliveries outside the
+Washington, D.C., Metropolitan Area will be negotiated on an individual Purchase
+Order basis.
+
+Unless otherwise provided in writing by the Subcontract Administrator, the costs
+of the following items or activities shall be unallowable as a direct cost:
+
+         1. Special rearrangement or alteration of facilities
+
+         2. Purchase or lease of any item of general purpose office furniture,
+         office equipment or FIP equipment regardless of dollar value. (General
+         purpose equipment is defined as any items of personal property which
+         are usable for purposes other than research, such as office equipment
+         and furnishings, pocket calculators, etc.);
+
+         3. Travel to attend meetings unless specified in the purchase order
+         issued by the Unisys Subcontract Administrator
+
+         4. Capitalized nonexpendable equipment (defined as having an
+         acquisition cost of $1,000 or more and a life expectancy of more than
+         two years).
+
+
+                                       3
+
+
+         5. Travel Costs unless specified in the specific Purchase Order. When
+authorized, expenditures for domestic travel (transportation, lodging,
+subsistence, and incidental expenses) incurred in direct performance of the
+resultant subcontract shall be subject to the provisions of Section 24 of Public
+Law 99-234 which amends the Office of Federal Procurement Policy Act to provide
+that Subcontractor costs for travel, including lodging, other subsistence, and
+incidental expenses, shall be allowable only to the extent that they do not
+exceed the amount allowed for federal employees. The Subcontractor, therefore,
+shall invoice and be reimbursed for all Travel costs in accordance with
+guidelines published in the Federal Register, Vol. 58, No. 42, Friday March 5,
+1993.
+
+         6. Postage shall be unallowable unless specifically stated in the
+Purchase Order.
+
+         7. If appropriate, any and all Other Direct Costs (ODC's) shall be
+specified in the individual Purchase Orders.
+
+         TRAVEL AND PER DIEM
+
+         (a) Outside the Washington, D.C. Metropolitan Area:
+
+         Travel by air will be reimbursed at actual not to exceed coach fare.
+         Travel subsistence reimbursement will be authorized under the rates and
+         conditions of the Federal Travel Regulations and if applicable, an
+         Agency's Department Travel Manual. Per Diem will be reimbursed at
+         actual, not to exceed the Per Diem rates set forth in Federal Property
+         Management Regulations (FPMR) 41 CFR Chapter 101, Chapter 7, GSA
+         Bulletin FPMR A-40 Supplement (in effect at time of travel). Travel of
+         more than 10 hours, but less than 24 hours, when no lodging is
+         required, Per Diem shall be one-half of the Meals and Incidental
+         Expenses (M&IE) rate prescribed for the location where the majority of
+         the time is spent performing official business. The Per Diem allowance
+         shall not be allowed when the period of official travel is 10 hours or
+         less during the same calendar day. Travel by privately owned vehicle
+         will be reimbursed at the current GSA approved mileage rate. If the
+         Subcontractor incurs travel costs in excess of the amount show in each
+         Purchase Order, it is at its own expense.
+
+         (b) Inside the Washington, D.C. Metropolitan Area:
+
+               (1)  Travel will be reimbursed based on the policies stated in
+                    paragraph (a) above.
+
+               (2)  Normal commuting expenses are not allowed.
+
+         (c) Travel will be reimbursed on a cost basis only. Any burden added
+         to the travel costs will be allowed only as defined in the
+         Subcontractor's standard accounting practice or disclosure statement.
+
+The prices for the supplies/services to be provided by the SELLER are as
+follows:
+
+CLIN              SUPPLIES/SERVICES       QTY.        UNIT PRICE       NET PRICE
+----              -----------------       ----        ----------       ---------
+
+**To be determined on an individual Purchase Order Proposal Basis.**
+
+
+                                       4
+
+
+2.0 PERIOD OF PERFORMANCE
+
+         The term of this Agreement shall be from the date of execution through
+14 August 1997. The Agreement term may be extended four (4) additional
+twelve-month periods upon the BUYER's prior written notice of each such
+twelve-month extension period; provided, however, that this Agreement is not
+otherwise terminated pursuant to the Termination clause herein.
+
+3.0 PACKAGING LABELING AND SHIPPING
+
+         BUYER shall provide SELLER with packaging, labeling and shipping
+instructions with each purchase order issued pursuant to this Agreement. SELLER
+agrees to ship products ordered by BUYER in accordance with such instructions.
+
+4.0 INSPECTION AND ACCEPTANCE
+
+         SELLER shall only tender for acceptance those items that conform to the
+requirements of this Agreement. Unisys reserves the right to inspect or test any
+supplies or services that have been tendered for acceptance. Unisys may require
+repair or replacement of nonconforming supplies or reperformance of
+nonperforming services at no additional cost. Unisys agrees to exercise its post
+acceptance rights (1) within a reasonable time after the defect was discovered
+or should have been discovered; and (2) before any substantial change occurs in
+the condition of the item, unless the change is due to the defect in the item.
+
+The Unisys approving and accepting authority for inspection and acceptance of
+CLIN's will be the Program Manager or his designated representative. The Program
+Manager's designated representative will be identified on each individual P.O.
+issued pursuant to any resulting subcontract agreement.
+
+Unless advised otherwise in individual Purchase Orders, inspection and
+acceptance of all CLIN's hereunder shall take place at the Government
+installation site. The installation site location shall be set forth in
+individual Purchase Orders.
+
+5.0 ASSIGNMENT
+
+         SELLER may assign it's rights to be paid amounts due as a result of
+performance under this contract, to a bank, trust company or other financing
+institution, including any Federal lending agency in accordance with the
+Assignment of Claims Act (31 U.S.C. 3727)
+
+6.0 CHANGES
+
+         Changes in the terms and condition of this Agreement may be made only
+by written agreement of the parties hereto.
+
+7.0 DISPUTES INVOLVING THE GOVERNMENT
+
+         This Agreement is subject to the Contract Disputes Act of 1978, as
+amended (41 U.S.C. 601-613). Failure of the parties to reach agreement on any
+request for equitable adjustment, claim, appeal or action arising under or
+relating to this Agreement shall be a dispute to be resolved in accordance with
+the clause at FAR 52.233-1 Disputes, which is incorporated herein by reference.
+SELLER shall proceed diligently with performance of this Agreement, pending
+final resolution of any dispute arising under this Agreement.
+
+
+                                       5
+
+
+Any decision on appeal, or any other decision of the Government under the Prime
+Contract which cannot be appealed under the "Disputes" clause of the Prime
+Contract, if binding on the BUYER shall also bind the SELLER to the extent that
+it relates to this Agreement, provided the BUYER shall have promptly notified
+the SELLER of such decision and, if requested by SELLER, shall have brought suit
+or filed claim, as appropriate against the Government. A final judgment in any
+such suit or final disposition of such claim shall be conclusive upon the BUYER
+and the SELLER.
+
+For any action brought by the BUYER on behalf of the SELLER pursuant to this
+clause, the SELLER agrees to indemnify and hold the BUYER harmless from all
+costs and expenses incurred by the BUYER in prosecuting any such appeal
+initiated by the BUYER at the Seller's request. All costs and expenses incurred
+by the BUYER shall be paid by the SELLER and shall not be reimbursed or
+compensable as a cost under the Agreement, unless recovered by the BUYER under
+the Prime Contract or as part of an award of damages to the BUYER based on such
+a claim.
+
+8.0 BINDING ARBITRATION
+
+         Any dispute or controversy between the BUYER and SELLER which concerns
+only the BUYER and the SELLER or which does not involve a final decision of the
+Government Contracting Officer, and which cannot be resolved by mutual agreement
+of the parties hereto, shall be settled by arbitration in accordance with the
+commercial rules then in effect of the American Arbitration Association. The
+place of such arbitration shall be Washington, D.C. Each party shall select one
+arbitrator and the two arbitrators so selected shall select the third
+arbitrator. The arbitrators shall be knowledgeable in Government procurement
+matters related to the types of supplies and services provided pursuant to this
+Agreement. The arbitration decision and award shall be binding on the parties,
+and judgment thereon may be entered in any court of competent jurisdiction.
+
+9.0 DELAYS
+
+         SELLER shall be liable for default unless nonperformance is caused by
+an occurrence beyond the reasonable control of the SELLER and without its fault
+or negligence. SELLER shall notify the BUYER in writing as soon as it is
+reasonably possible after the commencement of any excusable delay, setting forth
+the full particulars in connection therewith, shall remedy such occurrence with
+all reasonable dispatch, and shall promptly give written notice to the BUYER of
+the cessation of such occurrence.
+
+10. DEFAULT
+
+         If either party hereto fails to perform an obligation under this
+Agreement, the other party, may issue a default termination letter to the party
+in default of an obligation under this Agreement to cure the default condition.
+If the default condition is not remedied within ten (10) calendar days from the
+day of receipt of such letter, the issuer of the default termination letter may
+the without the necessity of any further notice, discontinue performance and
+terminate this Agreement for default and pursue any other remedies available at
+law or in equity. Any failure to exercise rights under this Article shall not
+constitute a waiver of any past, present or future right or remedy.
+
+11. NOTICES
+
+         All correspondence or notifications required under this Agreement shall
+be addressed as follows:
+
+UNISYS Corporation                            Celerity Systems, Inc.
+
+
+                                       6
+
+
+Attention: Dennis A. Chaloux                  
+8008 Westpark Drive, Mail Stop W5A12          
+McLean, Virginia  22102                       
+Phone: (703) 556-5578 Fax: (703) 556-5283     
+
+Attention: Bill Chambers                  
+9051 Executive Park Drive, Suite 400      
+Knoxville, Tennessee 37923                
+Phone: (423) 539-5300 Fax: (423) 539-5390 
+
+12. INVOICES/PAYMENTS
+
+         SELLER shall submit an original invoice and two (2) copies to:
+
+                               UNISYS Corporation
+                               Attention: Frederick W. Garner III
+                               8008 Westpark Drive, Mail Stop W5F39
+                               McLean, Virginia 22102
+
+SELLER's invoice must include:
+
+         (l) Name and address of the SELLER,
+
+         (2) Invoice Date
+
+         (3) Prime Contract Number, contract line item number and purchase
+         order number
+
+         (4) Description, quantity, unit of measure, unit price and extended
+         price of the items delivered.
+
+         (5) Shipping number and date of shipment including the bill of lading
+         number and weight of shipment. Shipping charges shall be itemized
+         separately.
+
+         (6) Terms of any prompt payment discount if offered.
+
+         (7) Name and address of official to whom payment is to be sent; and
+
+         (8) Name, title and phone number of person to be notified in event of
+         defective invoice.
+
+         SELLER shall submit invoices for payment for the Products and Services
+accepted under this Agreement. Invoices for Products and Services may be
+submitted after the date of delivery of such Products and/or Services to the
+F.O.B. destination site. Upon receipt of a proper invoice, BUYER agrees to pay
+SELLER for accepted Products and Services net forty-five (45) days.
+
+13. PATENT INDEMNITY
+
+         SELLER agrees to indemnify BUYER, the United States Government and
+their respective officers, employees and agents against liability, including
+costs, for actual or alleged direct or contributory infringement of, or
+inducement to infringe, any United States or foreign patent, trademark or
+copyright, arising out of performance under this Agreement.
+
+14. RISK OF LOSS
+
+         Unless the Agreement specifically provides otherwise, risk of loss of
+damage to the supplies 
+
+
+                                       7
+
+
+provided hereunder shall remain with the SELLER until, and shall pass to the
+BUYER upon; (1) delivery of the supplies to a carrier, if transportation is
+f.o.b. origin; or (2) delivery of the supplies to the BUYER at the destination
+specified in the Purchase Order, if transportation is f.o.b. destination.
+
+15. TERMINATION
+
+(a ) Insolvency Termination - Unless otherwise waived by BUYER in writing, this
+Agreement shall automatically terminate if SELLER(i) becomes insolvent, (ii)
+suffers the appointment of receiver or trustee to manage its business
+operations, (iii) attempts an assignment or transfer of this Agreement or any
+rights conferred under this Agreement without BUYER's consent, (iv) commences
+any bankruptcy, reorganization or liquidation action or (v) admits in writing
+that it is unable to perform its obligations under this Agreement.
+
+(b ) Government Contract Termination - In the event the Government Agency (i)
+terminates the Government Contract, (ii) fails to renew or continue the
+Government Contract, (iii) directs or requests that UNISYS remove or cease use
+of Government Contract line items that are associated with the products and
+services covered by this Agreement or (iv) restructures or changes the
+requirements and/or substance of the Government Contract in a manner that serves
+to either generally or specifically eliminate the requirement for the products
+and services set forth in this Agreement, UNISYS may terminate this Agreement,
+in whole or in part with written notice to SELLER. In the event of any such
+termination, UNISYS shall not be liable to SELLER beyond payment for products
+and services ordered and received by UNISYS or the Government Agency, as
+applicable, prior to the effective termination date.
+
+(c.) Ethics Non-Compliance Termination - This Agreement may be terminated by
+UNISYS with written notice if SELLER or an affiliated company is determined to
+be in violation of federal law, executive order, judicial order or the ethical
+provisions of Article 27 (Ethical Conduct) of this Agreement.
+
+(d.) Termination Affects - Termination of this Agreement applies to business
+arrangement between SELLER and BUYER whereby covered products and services may
+be ordered by BUYER from SELLER. Any termination of this Agreement does not
+affect any granted software license rights which shall survive any such
+termination.
+
+16. TITLE
+
+         Unless specified elsewhere in this Agreement or individual Purchase
+Orders issued hereunder, title to items furnished under this Agreement shall
+pass to the BUYER upon acceptance, regardless of when or where BUYER takes
+physical possession.
+
+17. WARRANTY
+
+         SELLER warrants and implies that the items delivered hereunder are
+merchantable and fit for use for the particular purpose described in this
+Agreement.
+
+18. LIMITATION OF LIABILITY
+
+         Except as otherwise provided by an express or implied warranty, SELLER
+will not be liable to BUYER for consequential, incidental, special, punitive,
+exemplary or similar damages resulting from any defect or deficiencies in
+accepted items. In no event shall BUYER be liable to SELLER, or any third party
+to this Agreement, for any consequential, incidental, special, punitive, loss of
+profit or revenue, exemplary 
+
+
+                                       8
+
+
+or similar damages incurred or suffered, regardless of any notification of the
+possibility of such damages.
+
+19. COMPLIANCE WITH LAWS
+
+         SELLER agrees to comply with all applicable Federal, State and local
+laws, executive orders, rules and regulations applicable to its performance
+under this Agreement. SELLER agrees to comply with the following Federal
+Acquisition Regulation clauses, which shall be deemed incorporated by reference:
+
+The following clauses, as amended and modified below, are applicable to this
+order/subcontract. Without limiting any other provisions of the
+order/subcontract, the clauses are incorporated by reference into this
+order/subcontract with the same force and effect as though set forth in full
+text. The dates of the clauses incorporated by reference are the same as the
+corresponding clause in the prime contract or higher tier subcontract. The
+following definitions shall apply to this order/subcontract except as otherwise
+specifically provided.
+
+         "BUYER" - Means legal entity issuing this Order/Subcontract.
+
+         "CONTRACTING OFFICER" - Means Buyer's authorized representative who
+         signed this Order/Subcontract or is identified elsewhere in this
+         Order/Subcontract and will mean Contracting Officer, whenever
+         appropriate, where indicated elsewhere in these terms and conditions.
+
+         "CONTRACTOR" - Means Seller.
+
+         "SELLER" - Means legal entity which contracts with the Buyer.
+
+         "CONTRACT" or "SCHEDULE" - Means this Order Subcontract.
+
+         "SUBCONTRACTOR" - Means Seller's subcontractors.
+
+         "GOVERNMENT" - Means Buyer and will mean Government, whenever
+         appropriate, where indicated elsewhere in these terms and conditions.
+
+         CLAUSE        TITLE
+         ------        -----
+
+         52.202-1      DEFINITIONS (OCT 1995)
+         52.203-3      GRATUITIES (APR 1995)
+         52.203-5      COVENANT AGAINST CONTINGENT FEE (APR 1984)
+         52.203-6      RESTRICTIONS ON SUBCONTRACTOR SALES TO THE 
+                       GOVERNMENT (JUL 1995)
+         52.203-7      ANTI-KICKBACK PROCEDURES (JUL 1995)
+         52.203-10     PRICE OR FEE ADJUSTMENT FOR ILLEGAL OR IMPROPER 
+                       ACTIVITY (SEP 1990)
+         52.203-12     LIMITATION ON PAYMENTS TO INFLUENCE CERTAIN FEDERAL 
+                       TRANSACTIONS
+                       (JAN 1990)
+         52.203-13     PROCUREMENT INTEGRITY -- SERVICE CONTRACTING
+                       (APR 1984)
+         52.204-2      SECURITY REQUIREMENTS (APR 1984)
+         52.209-6      PROTECTING THE GOVERNMENT'S INTEREST WHEN
+                  
+
+                                       9
+
+
+                       SUBCONTRACTING WITH CONTRACTORS DEBARRED,
+                       SUSPENDED, OR PROPOSED FOR DEBARMENT
+                       (JUL 1995)
+         52.210-5      NEW MATERIAL (APR 1984)
+         52.210-7      USED OR RECONDITIONED MATERIAL, RESIDUAL INVENTORY, AND
+                       FORMER GOVERNMENT SURPLUS PROPERTY (APR 1984)
+         52.212-13     STOP-WORK ORDER (AUG 1989)
+         52.212-15     GOVERNMENT DELAY (AUG 1984)
+         52.215-1      EXAMINATION OF RECORDS BY COMPTROLLER GENERAL (FEB 1993)
+         52.215-2      AUDIT AND RECORDS - NEGOTIATION (OCT 1995)
+         52.215-22     PRICE REDUCTION FOR DEFECTIVE COST OR PRICING DATA (OCT
+                       1995)
+         52.215-23     PRICE REDUCTION FOR DEFECTIVE COST OR PRICING DATA -
+                       MODIFICATIONS (DEC 1994)
+         52.215-24     SUBCONTRACTOR COST OR PRICING DATA (OCT 1995)
+         52.215-26     INTEGRITY OF UNIT PRICES (OCT 1995)
+         52.215-27     TERMINATION OF DEFINED BENEFIT PENSION PLANS (MAR 1996)
+         52.215-31     WAIVER OF FACILITIES CAPITAL COST OF MONEY (SEP 1987)
+         52.215-33     ORDER OF PRECEDENCE (JAN 1986)
+         52.215-39     REVERSION OR ADJUSTMENT OF PLANS FOR POST-RETIREMENT
+                       BENEFITS OTHER THAN PENSIONS (MAR 1996)
+         52.215-40     NOTIFICATION OF OWNERSHIP CHANGES (FEB 1995)
+         52.215-42     REQUIREMENTS FOR COST OR PRICING DATA OR INFORMATION
+                       OTHER THAN COST OR PRICING DATA MODIFICATIONS (OCT 1995)
+         52.216-22     INDEFINITE QUANTITY (APR 1984)
+         52.219-8      UTILIZATION OF SMALL, SMALL DISADVANTAGED AND WOMEN-OWNED
+                       SMALL BUSINESS CONCERNS (OCT 1995)
+         52.219-9      SMALL, SMALL DISADVANTAGED, AND WOMEN-OWNED SMALL
+                       BUSINESS SUBCONTRACTING PLAN (OCT 1995)
+         52.222-1      NOTICE TO THE GOVERNMENT OF LABOR DISPUTES (APR 1984)
+         52.222-2      PAYMENT FOR OVERTIME PREMIUMS (APR 1984)
+         52.222-3      CONVICT LABOR (APR 1984)
+         52.222-20     WALSH-HEALY PUBLIC CONTRACTS ACT (APR 1984)
+         52.222-24     PREAWARD ON-SITE EQUAL OPPORTUNITY COMPLIANCE REVIEW (APR
+                       1984) CLAUSE TITLE
+
+         CLAUSE        TITLE
+         ------        -----
+
+         52.222-26     EQUAL OPPORTUNITY (APR 1984)
+         52.222-28     EQUAL OPPORTUNITY PREAWARD CLEARANCE OF SUBCONTRACTS
+                       (OVER $ 1,000,000) (APR 1984)
+         52.222-35     AFFIRMATIVE ACTION FOR SPECIAL DISABLED AND VIETNAM ERA
+                       VETERANS (APR 1984)
+         52.222-36     AFFIRMATIVE ACTION FOR HANDICAPPED WORKERS (APR 1984)
+
+
+                                       10
+
+
+         52.222-37     EMPLOYMENT REPORTS ON SPECIAL DISABLED VETERANS AND
+                       VETERANS OF THE VIETNAM ERA (JAN 1988)
+         52.223-2      CLEAN AIR AND WATER (OVER $ 100,000) (APR 1984)
+         52.223-6      DRUG FREE WORKPLACE (JUL 1990)
+         52.223-14     TOXIC CHEMICAL RELEASE REPORTING (OCT 1995)
+         52.225-3      BUY-AMERICAN ACT - SUPPLIES (JAN 1994)
+         52.225-11     RESTRICTIONS ON CERTAIN FOREIGN PURCHASES (MAY 1992)
+         52.227-1      AUTHORIZATION AND CONSENT (OVER $50,000) (JUL 1995)
+         52.227-2      NOTICE AND ASSISTANCE REGARDING PATENT AND COPYRIGHT
+                       INFRINGEMENT (OVER $100,000) (APR 1984)
+         52.227-3      PATENT INDEMNITY (APR 1984)
+         52.229-3      FEDERAL, STATE, AND LOCAL TAXES (OVER $ 100,000) 
+                       (JAN 1991)
+         52.229-5      TAXES - CONTRACTS PERFORMED IN U.S. POSSESSIONS OR PUERTO
+                       RICO (APR 1984)
+         52.232-1      PAYMENTS (APR 1984)
+         52.232-7      PAYMENTS UNDER TIME-AND-MATERIALS AND LABOR-HOUR
+                       CONTRACTS (APR 1984)
+         52.232-8      DISCOUNTS FOR PROMPT PAYMENT (APR 1989)
+         52.232-9      LIMITATION ON WITHHOLDING OF PAYMENTS (APR 1984)
+         52.232-11     EXTRAS (APR 1984)
+         52.232-17     INTEREST (OVER $100,000) (JAN 1991)
+         52.232-25     PROMPT PAYMENT (MAR 1994)
+         52.232-28     ELECTRONIC FUNDS TRANSFER PAYMENT METHODS (APR 1989)
+         52.233-1      DISPUTES (OCT 1995)
+         52.233-3      PROTEST AFTER AWARD (OCT 1995)
+         52.237-2      PROTECTION OF GOVERNMENT BUILDINGS, EQUIPMENT AND
+                       VEGETATION (APR 1984)
+         52.242-13     BANKRUPTCY (OVER $100,000) (JUL 1995)
+         52.243-1      CHANGES - FIXED PRICE (AUG 1987)
+         52.243-3      CHANGES - TIME-AND-MATERIALS OR LABOR-HOURS (AUG 1987)
+         52.244-1      SUBCONTRACTS (FIXED PRICE CONTRACTS) (FEB 1995)
+         52.244-3      SUBCONTRACTS (TIME-AND-MATERIALS AND LABOR-HOUR
+                       CONTRACTS) (APR 1985)
+         52.245-2      GOVERNMENT PROPERTY (FIXED-PRICE CONTRACTS) (DEC 1989)
+         52.246-2      INSPECTION OF SUPPLIES -- FIXED PRICE (JUL 1985)
+         52.246-4      INSPECTION OF SERVICES --FIXED PRICE (FEB 1992)
+         52.246-16     RESPONSIBILITY FOR SUPPLIES (APR 1984)
+         52.246-25     LIMITATION OF LIABILITY - SERVICES (APR 1984)
+         S2.247-3S     FOB DESTINATION WITHIN CONSIGNEE'S PREMISES (APR 1984)
+         52.249-2      TERMINATION FOR CONVENIENCE OF THE GOVERNMENT
+                       (FIXED-PRICE) (APR 1984)
+         52.249-4      TERMINATION FOR CONVENIENCE OF THE GOVERNMENT (SERVICES)
+                       (FIXED-PRICE) (APR 1984)
+         52.249-8      DEFAULT (FIXED-PRICE SUPPLY AND SERVICE) (OVER $100,000)
+                       (APR 1984)
+         52.253-1      COMPUTER GENERATED FORMS (JAN 1991)
+
+
+                                       11
+
+
+1-2 DEPARTMENT OF HEALTH AND HUMAN SERVICES ACQUISITION (HSAR) (48 CFR CHAPTER
+3) CLAUSES.
+
+CLAUSE      TITLE
+------      -----
+352.202-1   DEFINITIONS (APR 1984)
+352.232-9   WITHHOLDING OF CONTRACT PAYMENTS (APR 1984)
+352.270-4   PRICING OF ADJUSTMENTS (APR 1984)
+352.270-6   PUBLICATION AND PUBLICITY (JUL 1991)
+352.270-7   PAPERWORK REDUCTION ACT (APR 1984)
+
+20. RELATIONSHIP OF THE PARTIES
+
+         The relationship of the parties to this Agreement is that of a prime
+contractor and a subcontractor, and nothing herein shall be deemed or construed
+to create a joint venture, partnership or agency relationship between the
+parties for any purpose. It is further understood that each party is an
+independent contractor and as such shall have no authority to bind or commit the
+other.
+
+         SELLER is expressly prohibited from communicating with Government
+personnel with respect to any aspect of the Project under this Agreement without
+the prior consent of the BUYER, or as otherwise agreed by the parties. Any
+authorized communications between SELLER's personnel and Government personnel
+shall be conducted in the presence of the BUYER's Project Manager or other
+authorized representative unless otherwise agreed by the parties.
+
+21. INDEMNIFICATION
+
+         The employees of SELLER and the BUYER engaged in performance under this
+Agreement shall at all times be deemed to be performing as independent
+contractors and not as agents or employees of the other and the acts and
+omission of such employees shall be deemed to be those of their respective
+employers. SELLER shall indemnify and hold harmless the BUYER and its employees
+from and against any and all losses, claims, demands, judgments, costs, and
+expenses, of every nature and kind, arising out of or incidental to, or in any
+way resulting from the acts or omission of SELLER or SELLER's employees while
+acting within the scope of their employment.
+
+22. LIMITATION OF OBLIGATION
+
+         Nothing contained herein shall be deemed as obligating the BUYER to
+order any of the services described herein; however, when and if services are
+ordered by BUYER hereunder, such orders shall be subject to the terms and
+conditions of this Agreement.
+
+23. RELEASE OF NEWS INFORMATION
+
+         In the event the SELLER desires to issue a news release, public
+announcement, advertisement, or other form of publicity concerning their efforts
+in connection with this Agreement, then the SELLER, shall obtain the written
+approval of the BUYER prior to the release of said information and shall give
+full consideration to the role and contribution of the BUYER. Written approval
+shall not be unreasonably withheld by BUYER and shall be in accordance with the
+requirements of the Prime Contract.
+
+24. NON-WAIVER OF RIGHTS
+
+
+                                       12
+
+
+         The failure of BUYER to insist upon strict performance of the terms and
+conditions of this Agreement or to exercise any rights or remedies, shall not be
+construed as a waiver of its rights to assert any of same rights or to rely on
+any such terms or conditions at any time thereafter.
+
+25. REPRESENTATIONS AND CERTIFICATIONS
+
+         All representations and certifications which have been submitted to the
+BUYER in connection with the award of this Agreement are incorporated herein and
+made a part hereof and such have been relied upon by the BUYER in issuing this
+Agreement. SELLER agrees to promptly advise the BUYER should there be any change
+in status with respect to the matters covered by such representations and
+certifications.
+
+26. ETHICAL CONDUCT
+
+         SELLER agrees not to engage in any association, activity, work or
+undertaking which constitutes an unethical action, business operation or conduct
+in the furtherance of SELLER's production, distribution, marketing and sale of
+the products and services covered by this Agreement. SELLER shall promptly
+notify BUYER in writing, in the event (i) SELLER, SELLER's parent company or any
+company affiliated with SELLER or its parent company is debarred, suspended,
+proposed for debarment or suspension, or otherwise excluded from federal
+procurement and nonprocurement programs (ii) operation of segregated facilities,
+(iii) use of gratuities, kickback arrangements or bribes with federal agencies
+or officials or (iv) noncompliance with federal laws, executive orders, judicial
+orders or federal regulations concerning affirmative action or equal employment
+opportunity.
+
+27. SEVERABILITY
+
+         If any term or provision of this Agreement shall be found by a court of
+competent jurisdiction to be illegal or otherwise unenforceable, the same shall
+not invalidate the whole of this Agreement, but such term or provision shall be
+deemed modified to the extent necessary in the court's opinion to render such
+term or provision enforceable, and the rights and obligations of the parties
+shall be construed and enforced accordingly, preserving to the fullest
+permissible extent the intent and agreements of the parties herein set forth.
+
+28. APPLICABLE STATE LAW
+
+         This Agreement shall be deemed to have been entered into in the
+Commonwealth of Virginia, United States of America, and shall for all purposes,
+be governed by and construed under the laws thereof regardless of where any
+court action or legal proceeding is brought in connection with this Agreement.
+
+29. ATTACHMENTS/EXHIBITS
+
+         The exhibits and attachments referred to in this Agreement are
+incorporated by reference and made a part of this Agreement. This Agreement and
+the exhibits and attachments hereto set forth the entire agreement between the
+parties.
+
+Attachment A- Special Subcontract Flow-Down Provisions
+Attachment B - Representations and Certifications
+
+
+                                       13
+
+
+30. STATEMENT OF WORK
+
+         SELLER shall provide the necessary personnel, material and facilities
+to deliver to the BUYER the supplies and services set forth in each Purchase
+Order. The individual Purchase Order(s) shall have a Statement of Work
+(Attachment C) which will give the SELLER guidance to the scope of work where
+support is being requested. SELLER services shall be ordered pursuant to
+Purchase Order(s) issued by the BUYER, and all such services shall be performed
+in accordance with the specific terms and conditions of each Purchase Order.
+
+               A.   Work will be performed under this Subcontract only in
+                    pursuance of written Purchase Orders approved by the BUYER's
+                    Subcontract Administrator.
+
+               B.   SELLER's proposed pricing shall be in accordance with
+                    Sections B, D, and G of this subcontract. The agreement of
+                    the parties as to the labor mix to be used and other
+                    allowable direct costs shall also be incorporated into the
+                    Purchase Order.
+
+               C.   If the SELLER disputes the Purchase Order as issued, it
+                    shall notify the BUYER's Subcontract Administrator in
+                    writing within five (5) working days. Notwithstanding this
+                    notification, me SELLER shall commence work, without delay,
+                    to provide the services and deliverables as ordered.
+
+31. COMPLETE AGREEMENT
+
+         This Agreement contains the entire agreement between the parties hereto
+with respect to the matters covered herein. No other agreements,
+representations, warranties or other matters, oral or written, shall be deemed
+to bind the parties hereto with respect to the subject matter hereof. Any
+changes or amendments to this Agreement may be made only in writing and signed
+by the parties to be bound thereby.
+
+IN WITNESS WHEREOF, the parties hereto have executed this Agreement by their
+officers "hereunto duly authorized as of the date first written above.
+
+UNISYS CORPORATION                              CELERITY SYSTEMS, INC.
+
+
+BY:                                             BY:
+   ---------------------------------               -----------------------------
+
+TYPED NAME: Dennis A. Chaloux                   TYPED NAME: William Chambers
+
+TITLE: Sr. Subcontract Administrator            TITLE: Vice President
+                                                       Business Development
+
+DATE:                                           DATE:
+     -------------------------------                 ---------------------------
+
+
+                                       14
+
+
+                                  ATTACHMENT A
+
+H.1 ORDERING PROVISION
+
+The following ordering procedures shall apply to all Purchase Orders issued
+under any resultant Subcontract. Any supplies and/or services to be furnished
+under any resulting Subcontract will be ordered by issuance of a written
+Purchase Order. Purchase Orders shall be issued in accordance with the terms and
+conditions of the Subcontract Agreement.
+
+H.2 PROCUREMENT INTEGRITY - SPECIAL PROVISIONS ON EACH PURCHASE ORDER
+
+All Subcontractor personnel who will be personally and substantially involved in
+the performance of any Purchase Order issued under this contract which requires
+the Subcontractor to act on behalf of, or provide advice with respect to any
+phase of an agency procurement, as defined in FAR 3.104-4, shall execute and
+submit a "Employee/Contractor Non-Disclosure Agreement" Form (See Attachment in
+Section J). This is required prior to the commencement of any work on such
+Purchase Order and whenever replacement personnel are proposed under an ongoing
+Purchase Order.
+
+H.3 OBSERVANCE OF LEGAL HOLIDAYS AND EXCUSED ABSENCE
+
+The Government observes the following listed days as holidays:
+
+New Years Day
+Martin Luther King's Birthday
+President's Day
+Memorial Day
+Independence Day
+Labor Day
+Columbus Day
+Veteran's Day
+Thanksgiving Day
+Christmas
+
+In addition to the days designated as holidays, the Government observes the
+following days:
+
+Any other day designated by Federal Statute
+Any other day designated by Executive Order
+Any other day designated by the President's Proclamation
+
+It is understood and agreed between the parties that the observance of such days
+by Government personnel shall not be a reason for an additional period of
+performance, or entitlement of compensation except as set forth within the
+Subcontract Agreement. No form of holiday or other premium compensation will be
+reimbursed either as a direct or indirect cost, other than normal compensation
+for time worked.
+
+H.4 INSURANCE
+
+The Subcontractor shall secure, pay the premiums for and keep in force until the
+expiration of the 
+
+
+                                       15
+
+
+resulting Subcontract, and any renewal thereof, adequate insurance as provided
+below, such insurance to specifically include liability assumed by the
+Subcontractor under this contract.
+
+               a. Workman's Compensation insurance as required by law of the
+               State.
+
+               b. Comprehensive bodily injury liability insurance with limits of
+               not less than $500,000 for each accident
+
+               c. Property damage liability with a limit of not less than
+               $100,000 for each accident.
+
+               d. Automotive bodily injury liability insurance with limits of
+               not less than $200,000 for each person and $500,000 for each
+               accident, and property damage liability insurance, with a limit
+               of not less than $40,000 for each accident.
+
+Each policy of insurance shall contain an endorsement that any cancellation or
+material change in the coverage adversely affecting the Government's interest
+shall not be effective unless the insurer or the Subcontractor gives written
+notice of cancellation or change, as required by the Subcontract Administrator.
+When the coverage is provided by self-insurance, the Subcontractor shall not
+change or decrease the coverage without the Subcontract Administrator's prior
+approval.
+
+A certificate of each policy of insurance shall be furnished to the Subcontract
+Administrator within ten (10) days after notice of award certifying, among other
+things, that the policy contains the aforementioned endorsement. The insurance
+company providing the above insurance shall be satisfactory to the Government.
+Notice of policy changes shall be furnished to the Subcontract Administrator.
+The substance of this clause shall be made to flow down to any lower tier
+subcontractors.
+
+H.5 IDENTIFICATION OF CONTRACTOR EMPLOYEES
+
+         During the period of any resulting subcontract, the rights of ingress
+and egress to and from any office for subcontractor representatives shall be
+made available as required. All Subcontractor employees whose duties under the
+resulting subcontract requires their presence at any Government facility shall
+be clearly identifiable by a distinctive badge furnished by the Government. In
+addition, corporate identification badges will be worn on the outer garment at
+all times. The obtaining of the corporate identification badge is the sole
+responsibility of the subcontractor. All prescribed information shall
+immediately be delivered to the Government Security Office for cancellation or
+disposition upon the termination of the employment of any subcontractor
+personnel. All on-site subcontractor personnel shall abide by security
+regulations, applicable to that site.
+
+H.6 GOVERNMENT FURNISHED ITEMS
+
+         All Government furnished items will be identified in the appropriate
+Purchase Order. If any given Purchase Order issued under this contract requires
+work to be performed on the Government's site, the Government will provide
+office work space, office automation equipment and furniture for Subcontractor
+personnel.
+
+H.7 NON-PERSONAL SERVICES
+
+
+                                       16
+
+
+         (a) As stated in the Federal Register, Volume 57, No. 190, page 45096,
+dated September 30, 1992, Policy Letter on Inherently Governmental Functions, no
+personal services shall be performed under this contract. No Subcontractor
+employee will be directly supervised by the Government. All individual employee
+assignments, and daily work direction, shall be given by the applicable employee
+supervisor. If the Subcontractor believes any Government action or communication
+has been given that would create a personal services relationship between the
+Government and any Subcontractor employee, the Subcontractor shall promptly
+notify the Subcontract Administrator of this communication or action.
+
+         (b) The Subcontractor shall not perform any inherently Governmental
+actions under this subcontract. No Subcontractor employee shall hold him or
+herself out to be a Government employee, agent, or representative. No
+Subcontractor employee shall state orally or in writing at any time that he or
+she is acting on behalf of the Government. In all communications with third
+parties in connection with this subcontract, Subcontractor employees shall
+identify themselves as Subcontractor employees and specify the name of the
+company for which they work.
+
+         (c) The Subcontractor shall insure that all of its employees working on
+this subcontract are informed of the substance of this clause. Nothing in this
+clause shall limit Unisys' rights in any way under any other provision of the
+Subcontract, including those related to Unisys' right to inspect and accept the
+services to be performed under this subcontract. The substance of this clause
+shall be included in all subcontracts at any tier.
+
+H.8 ORGANIZATIONAL CONFLICTS OF INTEREST
+
+         (a) The Subcontractor warrants that, to the best of the Subcontractor's
+knowledge and belief, there are no relevant facts or circumstances which could
+give rise to an organizational conflict of interest (OCI), as defined in FAR
+9.5, Organizational and Consultants Conflicts of Interest, or that the
+Subcontractor has disclosed all such relevant information.
+
+         (b) The Subcontractor agrees that if an actual or potential OCI is
+discovered after award, the Subcontractor shall make a full disclosure in
+writing to the Subcontract Administrator. This disclosure shall include a
+description of actions which the Subcontractor has taken or proposes to take,
+after consultation with the Subcontract Administrator, to avoid, mitigate, or
+neutralize the actual or potential conflict.
+
+         (c) The Subcontract Administrator may terminate this contract for
+convenience, in whole or in part, if it deems such termination necessary to
+avoid OCI. If the Subcontractor was aware of a potential OCI prior to award or
+discovered an actual or potential conflict after award and did not disclose or
+misrepresented relevant information to the Subcontract Administrator, Unisys may
+terminate the contract for default, advise the Government Contract Office, or
+pursue other remedies as may be permitted by law or this contract.
+
+          (d) The Subcontractor shall include this clause in all subcontracts
+          and in lower tier subcontracts unless a waiver is requested from, and
+          granted by, the Subcontract Administrator.
+
+          (e) In the event that a Purchase Order is issued to the Subcontractor
+          that would require activity that would create a potential conflict of
+          interest, the Subcontractor shall:
+
+               (1) Notify the Subcontract Administrator of a potential conflict,
+               and;
+
+
+                                       17
+
+
+               (2) Recommend to the Subcontract Administrator an alternate
+               tasking approach which would avoid the potential conflict, or
+
+               (3) Present for approval a conflict of interest mitigation plan
+               that will:
+
+
+                                       18
+
+
+                    (a) Describe in detail the Purchase Order requirement that
+                    creates the potential conflict of interest; and
+
+                    (b) Outline in detail the actions to be taken by the
+                    Subcontractor or Unisys in the performance of the task to
+                    mitigate the conflict, division of subcontractor effort, and
+                    limited access to information, or other acceptable means.
+
+               (4) The Subcontractor shall not commence work on a Purchase Order
+               related to a potential conflict of interest until specifically
+               notified by the Subcontract Administrator to proceed.
+
+               (5) If the Subcontract Administrator determines that it is in the
+               best interest of the Government to issue a Purchase Order,
+               notwithstanding a conflict of interest, a request for waiver
+               shall be submitted in accordance with FAR 9.503.
+
+
+                                       19
+
+
+                                  ATTACHMENT B
+                       REPRESENTATIONS AND CERTIFICATIONS
+
+TAXPAYER IDENTIFICATION
+(FAR 52.204-3) (MAR 1994)
+
+         (a) Definitions.
+
+         "Common parent" as used in this solicitation provision, means that
+corporate entity that owns or controls an affiliated group of corporations that
+files its Federal income tax returns on a consolidated basis, and of which the
+offeror is a member.
+
+         "Corporate status" as used in this solicitation provision, means a
+designation as to whether the offeror is a corporate entity, an unincorporated
+entity (e.g., sole proprietorship or partnership), or a corporation providing
+medical and health care services.
+
+         "Taxpayer Identification Number (TIN)" as used in this solicitation
+provision, means the number required by the IRS to be used by the offeror in
+reporting income tax and other returns.
+
+         (b) All offerors are required to submit the information required in
+paragraphs (c) through (e) of this solicitation provision in order to comply
+with reporting requirements of 26 U.S.C. 6041, 6041A, and 6050M and implementing
+regulations issued by the Internal Revenue Service (IRS). If the resulting
+contract is subject to reporting requirements described in 4.903, the failure or
+refusal by the offeror to furnish the information may result in a 31 percent
+reduction of payments otherwise due under the contract.
+
+         (c) Taxpayer Identification Number (TIN).
+
+                  (/)    [TIN: 101556194
+                  ( )    TIN has been applied for.
+                  ( )    TIN is not required because:
+                  ( )    Offeror is a nonresident alien, foreign corporation, or
+                         foreign partnership that does not have income
+                         effectively connected with the conduct of a trade or
+                         business in the U.S. and does not have an office or
+                         place of business or a fiscal paying agent in the U.S.;
+                  ( )    Offeror is an agency or instrumentality of a foreign
+                         government;
+                  ( )    Offeror is an agency or instrumentality of a Federal,
+                         state, or local government;
+                  ( )    Other. State basis. ______________________________.
+
+         (d) Corporate Status.
+
+                  ( )    Corporation providing medical and health care services,
+                         or engaged in the billing and collecting of payments
+                         for such services;
+                  (?)    Other corporate entity;
+                  ( )    Not a corporate entity;
+                  ( )    Sole proprietorship
+
+
+                                       20
+
+
+                  ( )    Partnership
+                  ( )    Hospital or extended care facility described in 26 CFR
+                         501(c)(3) that is exempt from taxation under 26 CFR 501
+                         (a).
+
+         (e) Common Parent.
+
+                  (/)    Offeror is not owned or controlled by a common parent
+                         as defined in paragraph (a) of this clause.
+                  ( )    Name and TIN of common parent:
+
+                  Name
+                  TIN_________________________________
+
+Offerors must complete the following representations when the resulting contract
+is to be performed inside the United States its territories or possessions
+Puerto Rico, the Trust Territory of the Pacific Islands or the District of
+Columbia.
+
+SMALL BUSINESS CONCERN REPRESENTATION
+(FAR 52.219-1 ) (FEB 1990)
+
+         (a) Representation. The offeror represents and certifies as part of its
+offer that it (/) is, ( ) is not a small business concern and that (/) all, ( )
+not all end items to be furnished will be manufactured or produced by a small
+business concern in the United States, its territories or possessions, Puerto
+Rico, or the Trust Territory of the Pacific Islands.
+
+         (b) Definition.
+
+         Small business concern, as used in this provision, means a concern,
+including its affiliates, that is independently owned and operated, not dominant
+in the field of operation in which it is bidding on Government contracts, and
+qualified as a small business under the criteria and size standards in this
+solicitation.
+
+         (c) Notice. Under 15 U.S.C. 645(d), any person who misrepresents a
+firm's status as a small business concern in paragraph (a) of this clause in
+order to obtain a contract to be awarded under the preference programs
+established pursuant to sections 8(a), 8(d), 9, or 15 of the Small Business Act
+or any other provision of Federal law that specifically references section 8(d)
+for a definition of program eligibility, shall (1) be punished by imposition of
+a fine, imprisonment, or both (2) be subject to administrative remedies; and (3)
+be ineligible for participation in programs conducted under the authority of the
+Act.
+
+SMALL DISADVANTAGED BUSINESS CONCERN
+REPRESENTATION (FAR 52.219-2) (FEB 1990)
+
+         (a) Representation. The offeror represents that it ( ) is, (/) is not a
+small disadvantaged business concern.
+
+         (b) Definitions.
+
+         Asian Pacific Americans, as used in this provision, means United States
+citizens whose origins are in Japan, China, the Philippines, Vietnam, Korea,
+Samoa, Guam, the U.S. Trust Territory of the 
+
+
+                                       21
+
+
+Pacific Islands (Republic of Palau), the Northern Mariana Islands, Laos,
+Kampuchea (Cambodia), Taiwan, Burma, Thailand, Malaysia, Indonesia, Singapore,
+Brunei, Republic of the Marshal Islands, or the Federated States of Micronesia.
+
+         Indian tribe, as used in this provision, means any Indian tribe, band,
+nation, or other organized group or community of Indians, including any Alaska
+Native Corporation as defined in 13 CFR 124.1000 which is recognized as such by
+the State in which such tribe, band, nation, group or community resides.
+
+         Native Americans, as used in this provision, means American Indians,
+Eskimos, Aleuts, and native Hawaiians.
+
+         Native Hawaiian Organization, as used in this provision, means any
+community service organization serving Native Hawaiians in, and chartered as a
+not-for-profit organization by, the State of Hawaii, which is controlled by
+Native Hawaiians, and whose business activities will principally benefit such
+Native Hawaiians.
+
+         Small business concern, as used in this provision, means a concern,
+including its affiliates, that is independently owned and operated, not dominant
+in the field of operation in which it is bidding on Government contracts, and
+qualified as a small business under the criteria and size standards in 13 CFR
+part 121.
+
+         Small disadvantaged business concern, as used in this provision, means
+a small business concern that (a) is at least 51 percent owned by one or more
+individuals who are both socially and economically disadvantaged, or a publicly
+owned business having at least 51 percent of its stock unconditionally owned by
+one or more socially and economically disadvantaged individuals and (b) has its
+management and daily business controlled by one or more such individuals. This
+term also means a small business concern that is at least 51 percent
+unconditionally owned by an economically disadvantaged Indian tribe or Native
+Hawaiian Organization, or a publicly owned business having at least 51 percent
+of its stock unconditionally owned by one of these entities which has its
+management and daily business controlled by members of an economically
+disadvantaged Indian tribe or Native Hawaiian Organization, and which meets the
+requirements of 13 CFR part 124.
+
+         Subcontinent Asian Americans, as used in this provision, means United
+States citizens whose origins are in India, Pakistan, Bangladesh, Sri Lanka,
+Bhutan, or Nepal.
+
+         (c) Qualified groups. The offeror shall presume that socially and
+economically disadvantaged individuals include Black Americans, Hispanic
+Americans, Native Americans, Asian-Pacific Americans, Subcontinent Asian
+Americans, and other individuals found to be qualified by SBA under 13 CFR 124.
+The offeror shall presume that socially and economically disadvantaged entities
+also include Indian tribes and Native Hawaiian Organizations.
+
+WOMEN-OWNED SMALL BUSINESS REPRESENTATION
+(FAR 52.219-3) (APR 1984)
+
+         (a) Representation. The offeror represents that it ( ) is, (/) is not a
+women-owned small business concern.
+
+         (b) Definitions.
+
+
+                                       22
+
+
+         "Small business concern", as used in this provision, means a concern,
+including its affiliates, that is independently owned and operated, not dominate
+in the field of operation in which it is bidding on Government contracts, and
+qualified as a small business under the criteria and size standards in 13 CFR
+121.
+
+         "Women-owned", as used in this provision, means a small business that
+is at least 51 percent owned by a woman or women who are U.S. citizens and who
+also control and operate the business.
+
+WOMEN-OWNED BUSINESS
+(FAR 52.204-5) (OCT 1995)
+(SOLICITATIONS ANTICIPATED TO EXCEED $100,000)
+
+         As prescribed in FAR 4.603(b):     /
+
+         (a) Representation. The offeror represents that it ( ) is, (/); not a
+women-owned business concern.
+
+         (b) Definition. Women-owned business concern, as used in this provision
+means a concern which is at least 51 percent owned by one or more women; or in
+the case of any publicly owned business at least 51 percent of the stock of
+which is owned by one or more women; whose management and daily business
+operations are controlled by one or more women.
+
+The following certifications and representations are required to implement
+provisions of Executive Order 11246 and must be completed by all Offerors.
+
+CERTIFICATION OF NONSEGREGATED FACILITIES
+(FAR 52.222-21) (APR 1984)
+
+         (a) Segregated facilities, as used in this provision, means any waiting
+rooms, work areas, rest rooms and wash rooms, restaurants and other eating
+areas, time clocks, locker rooms and other storage or dressing areas, parking
+lots, drinking fountains, recreation or entertainment areas, transportation, and
+housing facilities provided for employees, that are segregated by explicit
+directive or are in fact segregated on the basis of race, color, religion, or
+national origin because of habit, local custom, or otherwise.
+
+         (b) By the submission of this offer, the offeror certifies that it does
+not and will not maintain or provide for its employees any segregated facilities
+at any of its establishments, and that it does not and will not permit its
+employees to perform their services at any location under its control where
+segregated facilities are maintained. The offeror agrees that a breach of this
+certification is a violation of the Equal Opportunity clause in the contract.
+
+         (c) The offeror further agrees that (except where it has obtained
+identical certifications from proposed subcontractors for specific time periods)
+it will--
+
+               (1 ) Obtain identical certifications from proposed subcontractors
+before the award of subcontracts under which the subcontractor will be subject
+to the Equal Opportunity clause:
+
+               (2) Retain the certifications in the files; and
+
+               (3) Forward the following notice to the proposed subcontractors
+(except if the 
+
+
+                                       23
+
+
+proposed subcontractors have submitted identical certifications for specific
+time periods):
+
+NOTICE TO PROSPECTIVE SUBCONTRACTORS OF REQUIREMENT FOR
+CERTIFICATIONS OF NONSEGREGATED FACILITIES
+
+         A Certification of Nonsegregated Facilities must be submitted before
+the award of a subcontract under which the subcontractor will be subject to the
+Equal Opportunity clause. The certification may be submitted either for each
+subcontract or for all subcontracts during a period (i.e., quarterly,
+semiannually, or annually). NOTE: The penalty for making false statements in
+offers is prescribed in 18 U.S.C. 1001.
+
+PREVIOUS CONTRACTS AND COMPLIANCE REPORTS
+(FAR 52.222-22) (APR 1984)
+
+         The offeror represents that--
+
+         (a) It ( ) has, (/) has not participated in a previous contract or
+subcontract subject either to the Equal Opportunity clause of this solicitation,
+the clause originally contained in Section 310 of Executive Order No. 10925, or
+the clause contained in Section 201 of Executive Order No. 11114;
+
+         (b) It ( ) has, (/) has not filed all required compliance reports; and
+
+         (c) Representations indicating submission of required compliance
+reports, signed by proposed subcontractors, will be obtained before subcontract
+awards.
+
+AFFIRMATIVE ACTION COMPLIANCE
+(FAR 52.222-25) (APR 1984)
+
+The offeror represents that--
+
+         (a) It ( ) has developed and has on file, (/) has not developed and
+does not have on file, at each establishment, affirmative action programs
+required by the rules and regulations of the Secretary of Labor (41 CFR 60-1 and
+60-2), or
+
+         (b) It (/) has not previously had contracts subject to the written
+affirmative action programs requirement of the rules and regulations of the
+Secretary of Labor.
+
+CERTIFICATION AND DISCLOSURE REGARDING PAYMENTS TO INFLUENCE CERTAIN FEDERAL
+TRANSACTIONS (FAR 52.203.11 )(JAN 1990) (SOLICITATIONS EXPECTED TO EXCEED
+$100,000)
+
+         (a) The definitions and prohibitions contained in the clause, at FAR
+52.203-12, Limitation on Payments to Influence Certain Federal Transactions,
+included in this solicitation, are hereby incorporated by reference in paragraph
+(b) of this certification.
+
+         (b) The offeror, by signing its offer, hereby certifies to the best of
+his or her knowledge and belief as of December 12, 1989, that--
+
+
+                                       24
+
+
+               (1) No Federal appropriated funds have been paid or will be paid
+to any person for influencing or attempting to influence an officer or employee
+of any agency, a Member of Congress, an officer or employee of Congress, or an
+employee of a Member of Congress on his or her behalf in connection with the
+awarding of any Federal contract, the making of any Federal grant, the making of
+any Federal loan, the entering into of any cooperative agreement, and the
+extension, continuation, renewal, amendment or modification of any Federal
+contract, grant, loan, or cooperative agreement;
+
+               (2) If any funds other than Federal appropriated funds (including
+profit or fee received under a covered Federal transaction) have been paid, or
+will be paid, to any person for influencing or attempting to influence an
+officer or employee of any agency, a Member of Congress, an officer or employee
+of Congress, or an employee of a Member of Congress on his or her behalf in
+connection with this solicitation, the offeror shall complete and submit, with
+its offer, OMB standard form LLL, Disclosure of Lobbying Activities. to the
+Contracting Officer; and
+
+               (3) He or she will include the language of this certification in
+all subcontract awards at any tier and require that all recipients of
+subcontract awards in excess of $100,000 shall certify and disclose accordingly.
+
+         (c) Submission of this certification and disclosure is a prerequisite
+for making or entering into this contract imposed by section 1352, title 31,
+United States Code. Any person who makes an expenditure prohibited under this
+provision or who fails to file or amend the disclosure form to be filed or
+amended by this provision, shall be subject to a civil penalty of not less than
+$10,000, and not more than $100,000, for each such failure.
+
+BUY AMERICAN ACT-TRADE AGREEMENTS-BALANCE OF PAYMENTS PROGRAM CERTIFICATE
+(52.225-8) (JAN 1994)
+
+As prescribed in FAR 25.408(a)(1)
+
+         (a) The offeror hereby certifies that each end product, except those
+listed in paragraph (b) of this provision, is a domestic end product (as defined
+in the clause entitled "Buy American Act" - Trade Agreements Balance of Payments
+Program) and that components of unknown origin have been mined, produced, or
+manufactured outside the United States, a designated country, a North American
+Free Trade Agreement (NAFTA) Country, or a Caribbean Basin country, as defined
+in section 25.401 of the Federal Acquisition Regulation.
+
+         (b) Excluded End Products:
+
+Line Item Number           Country of Origin
+
+___________________________________________________
+___________________________________________________
+___________________________________________________
+             (List as necessary)
+
+         (c) Offers will be evaluated by giving certain preferences to domestic
+end products, designated country end products, NAFTA country end products, and
+Caribbean Basin country end products over other end products. In order to obtain
+these preferences in the evaluation of each excluded end product 
+
+
+                                       25
+
+
+listed in paragraph (b) of this provision, offerors must identify and certify
+below those excluded end products that are designated or NAFTA country end
+products, or Caribbean Basin country end products. Products that are not
+identified and certified below will not be deemed designated country end
+products, NAFTA country end products, or Caribbean Basin country end products.
+Offerors must certify by inserting the applicable line item numbers in the
+following:
+
+         (1) The offeror certifies that the following supplies qualify as
+"designated or NAFTA country end products" as those terms are defined in the
+clause entitled "Buy American Act - Trade Agreements Act - Balance of Payments
+Program":
+
+         _______________________________________________
+                  (Insert Line item numbers)
+
+         (2) The offeror certifies that the following supplies qualify as
+"Caribbean Basin country end products" as that term is defined in the clause
+entitled "Buy American Act -Trade Agreements - Balance of Payments Program":
+
+         _______________________________________________
+                  (Insert Line item numbers)
+
+         (d) Offers will be evaluated in accordance with Part 25 of the Federal
+Acquisition Regulation.
+
+BUY AMERICAN ACT-NORTH-AMERICAN FREE TRADE AGREEMENT IMPLEMENTATION ACT-BALANCE
+OF PAYMENTS PROGRAM CERTIFICATE
+(52.225-20) (JAN 1997)
+
+(a) The offeror certifies that each end product, except those listed in
+paragraph (g)(2) of this provision, is a domestic end product (as defined in the
+clause entitled "Buy American Act-North American Free Trade Agreement
+Implementation Act-Balance of Payments Program") and that components of unknown
+origin have been considered to have been mined, produced, or manufactured
+outside the United States.
+
+(b)  Excluded End Products:
+
+_______________________________________________
+Line Item No.     Country of Origin
+
+_______________________________________________
+           (List as necessary)
+
+_______________________________________________
+
+(c) Offers will be evaluated by giving certain preferences to domestic end
+products or NAFTA country end products over other end products. In order to
+obtain these preferences in the evaluation of each excluded end product listed
+in paragraph (b) of this provision, offerors must identify and certify below
+those excluded end products that are NAFTA country end products. Products that
+are not 
+
+
+                                       26
+
+
+identified and certified below will not be deemed NAFTA country end products.
+
+The offeror certifies that the following supplies qualify as "NAFTA country end
+products" as that term is defined in the clause entitled "Buy American Act-North
+American Free Trade Agreement Implementation Act-Balance of Payments Program."
+
+_______________________________________________
+Line Item No.--   Country of Origin
+
+_______________________________________________
+              (List as necessary)
+
+(d)  Offers will be evaluated in accordance with Part 25 of the Federal
+     Acquisition Regulations.
+
+                               (End of provision)
+
+The following certification and representations is required to implement
+provisions of Executive Order 12549 and must be completed by all Offerors.
+
+CERTIFICATION REGARDING DEBARMENT, SUSPENSION, PROPOSED DEBARMENT, AND OTHER
+
+RESPONSIBILITY MATTERS (FAR 52.209-5) (MAY 1989)
+
+         (a)   (1)    The Offeror certifies, to the best of its knowledge and 
+                      belief, that-
+
+                      (i) The offeror and/or any of its Principals --
+
+                           (A) Are ( ) are not (/) presently debarred,
+suspended, proposed for debarment, or declared ineligible for the award of
+contracts by any Federal agency;
+
+                           (B) Have ( ) have not (/) within a 3-year period
+preceding this offer, been convicted of or had a civil judgment rendered against
+them for: commission of fraud or a criminal offense in connection with
+obtaining, attempting to obtain, or performing a public (Federal, state, or
+local) contract or subcontract; violation of Federal or state antitrust statutes
+relating to the submission of offers; or commission of embezzlement, theft,
+forgery, bribery, falsification or destruction of records, making false
+statements, or receiving stolen property; and
+
+                           (C) Are ( ) are not (/) presently indicted for, or
+otherwise criminally or civilly charged by a governmental entity with,
+commission of any of the offenses enumerated in subdivision (A)(1)(i)(B) of this
+provision.
+                    (ii) The Offeror has ( ) has not (/) within a 3-year period
+preceding this offer, had one or more contracts terminated for default by any
+Federal agency.
+
+               (2) "Principals", for the purposes of this certification, means
+officers; directors; owners, partners; and, persons having primary management or
+supervisory responsibilities within a business entity (e.g., general manager;
+plant manager; head of a subsidiary, division or business segment, and similar
+positions).
+
+
+                                       27
+
+
+         THIS CERTIFICATION CONCERNS A MATTER WITHIN THE JURISDICTION OF AN
+AGENCY OF THE UNITED STATES AND THE MAKING OF A FALSE, FICTITIOUS, OR FRAUDULENT
+CERTIFICATION MAY RENDER THE MAKER SUBJECT TO PROSECUTION UNDER SECTION 1001,
+TITLE 18, UNITED STATES CODE.
+
+         (b) The Offeror shall provide immediate written notice to the
+Contracting Officer if, at any time prior to contract award, the Offeror learns
+that its certification was erroneous when submitted or has become erroneous by
+reasons of changed circumstances.
+
+         (c) A certification that any of the items in paragraph (a) of this
+provision exists will not necessarily result in withholding of an award under
+this solicitation. However, the certification will be considered in connection
+with a determination of the Offeror's responsibility. Failure of the Offeror to
+furnish a certification or provide such additional information as requested by
+the Contracting Officer may render the Offeror nonresponsible.
+
+         (d) Nothing contained in the foregoing shall be construed to require
+establishment of a system of records in order to render, in good faith, the
+certification required by paragraph (a) of this provision. The knowledge and
+information of an Offeror is not required to exceed that which is normally
+possessed by a prudent person in the ordinary course of business dealings.
+
+         (e) The certification in paragraph (a) of this provision is a material
+representation of fact upon which reliance was placed when making award. If it
+is later determined that the Offeror knowingly rendered an erroneous
+certification, in addition to other remedies available to the Government, the
+Contracting Officer may terminate the contract resulting from this solicitation
+for default.
+
+CERTIFICATION:
+
+The undersigned certifies under penalty of law that the information provided
+above to the best of his/her knowledge is true and correct. I have executed this
+certification as of the day and year stated below.
+
+
+---------------------------------------
+Signature of authorized representative
+
+William Chambers
+---------------------------------------
+Typed name of authorized representative
+
+Vice President Business Development
+---------------------------------------
+Title of authorized representative
+
+           6/26/97
+----------------------------------------
+                  Date
+
+
+                                       28
+
