@@ -81,6 +81,9 @@
 ## Legal Summarization
 [13.0.Legal_Summarization.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/13.0.Legal_Summarization.ipynb)
 
+## Normalizer
+[14.0.Date_Normalizer.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/14.0.Date_Normalizer.ipynb)
+
 ## Use Cases
 [80.0.Legal_Contract_Understanding.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/80.0.Legal_Contract_Understanding.ipynb)
 

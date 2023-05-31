@@ -82,6 +82,9 @@
 ## Financial Summarization
 [12.1.Financial_Summarization.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/12.1.Financial_Summarization.ipynb)
 
+## Normalizer
+[13.0.Date_Normalizer.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/13.0.Date_Normalizer.ipynb)
+
 ## Use cases
 [80.0.Use_case_Capital_Agreements.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/80.0.Use_case_Capital_Agreements.ipynb)
 
