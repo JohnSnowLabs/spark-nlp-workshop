@@ -1,90 +1,93 @@
-This Non-Disclosure Agreement (“Agreement”) is made and entered into on this 2nd day of January, 2023, by and between PlusUltra Inc., a Delaware corporation having its principal offices at 111 Way White, Austin, NH 229484 (“PlusUltra”) and John Snow Labs Inc., a Delaware corporation, located at , , ,  (the “Company”). 
- 
-For the purpose of evaluating a possible relationship between the parties (the "Purpose"), the parties may disclose to each other in oral and written form or in other medium, certain Confidential Information, as defined below, relating to their respective pipelines, products and businesses. 
- 
+This Non-Disclosure Agreement (“Agreement”) is made and entered into on this 2nd day of January, 2023, by and between PlusUltra Inc., a Delaware corporation having its principal offices at 111 Way White, Austin, NH 229484 (“PlusUltra”) and John Snow Labs Inc., a Delaware corporation, located at , , ,  (the “Company”).
+
+For the purpose of evaluating a possible relationship between the parties (the "Purpose"), the parties may disclose to each other in oral and written form or in other medium, certain Confidential Information, as defined below, relating to their respective pipelines, products and businesses.
+
 As a precondition to any such disclosure, each party hereby agrees to keep all such Confidential Information of the other party in strict confidence under the terms set out in this Agreement. 
-For purposes of this Agreement, a party receiving Confidential Information hereunder shall be referred to as the “Receiving Party” and a party disclosing Confidential Information hereunder shall be referred to as the “Disclosing Party” and each of them shall be individually referred to as a “Party” and collectively, the “Parties. 
-” Definition of Confidential Information. 
+For purposes of this Agreement, a party receiving Confidential Information hereunder shall be referred to as the “Receiving Party” and a party disclosing Confidential Information hereunder shall be referred to as the “Disclosing Party” and each of them shall be individually referred to as a “Party” and collectively, the “Parties.
 
-For the purpose of this Agreement, “Confidential Information”  shall mean any proprietary information relating to a Disclosing Party, its business or assets or that of any of its customers, Affiliates (defined below), subcontractors or other persons that is not generally known to the public, whether of a technical, business or other nature, including but not limited to inventions, know-how, trade-secrets, methods, techniques, processes, designs, drawings, diagrams, formulae and analysis, clinical data, and any business information, including but not limited to price lists, customers lists, costs analyses, reports, surveys and market information and data), whether communicated in tangible or intangible form. 
+Definition of Confidential Information.
 
-Any analyses, compilations, comparisons studies or other work prepared by or for the Receiving Party containing any Confidential Information of the Disclosing Party (“Derivative Materials”), shall be also regarded as Confidential Information of the Disclosing Party hereunder. 
- 
-For purposes of this Agreement, “Affiliate” of a Party shall mean any person, corporation or business entity controlling, controlled by or under common control with such Party. 
- 
-Exclusions from Definition.  
-The term Confidential Information shall not include any information that the Receiving Party shall evidence in writing that was either: 
-- already known to it prior to the disclosure thereto by the Disclosing Party; 
-- or before being divulged by the Receiving Party to any third party, such information: 
-(i) was in the public domain through no wrongful act of the Receiving Party; 
-(ii) was rightfully received by the Receiving Party from a third party without restriction on disclosure and without a breach of any confidentiality obligation running directly or indirectly to the Disclosing Party; 
-or (iii) was independently developed by the Receiving Party without the use, directly or indirectly, of any of the Disclosing Party’s Confidential Information. 
- 
-Restrictions on Disclosure of Confidential Information. 
+For the purpose of this Agreement, “Confidential Information”  shall mean any proprietary information relating to a Disclosing Party, its business or assets or that of any of its customers, Affiliates (defined below), subcontractors or other persons that is not generally known to the public, whether of a technical, business or other nature, including but not limited to inventions, know-how, trade-secrets, methods, techniques, processes, designs, drawings, diagrams, formulae and analysis, clinical data, and any business information, including but not limited to price lists, customers lists, costs analyses, reports, surveys and market information and data), whether communicated in tangible or intangible form.
+
+Any analyses, compilations, comparisons studies or other work prepared by or for the Receiving Party containing any Confidential Information of the Disclosing Party (“Derivative Materials”), shall be also regarded as Confidential Information of the Disclosing Party hereunder.
+
+For purposes of this Agreement, “Affiliate” of a Party shall mean any person, corporation or business entity controlling, controlled by or under common control with such Party.
+
+Exclusions from Definition.
+The term Confidential Information shall not include any information that the Receiving Party shall evidence in writing that was either:
+- already known to it prior to the disclosure thereto by the Disclosing Party;
+- or before being divulged by the Receiving Party to any third party, such information:
+(i) was in the public domain through no wrongful act of the Receiving Party;
+(ii) was rightfully received by the Receiving Party from a third party without restriction on disclosure and without a breach of any confidentiality obligation running directly or indirectly to the Disclosing Party;
+or (iii) was independently developed by the Receiving Party without the use, directly or indirectly, of any of the Disclosing Party’s Confidential Information.
+
+Restrictions on Disclosure of Confidential Information.
 The Receiving Party shall neither:
-- (i) use any Confidential Information other than as necessary specifically for the Purpose, nor 
-- (ii) disclose any Confidential Information, in whole or in part, to any person other than its directors, officers, employees, agents or consultants (or to directors, officers, employees, agents or consultants of one of its Affiliates), who have a bona fide need to know such Confidential Information for the Purpose, and who are under a duty of confidentiality to the Receiving Party on substantially the same basis as required of Receiving Party under this Agreement (each a “Representative”). 
- 
-The Receiving Party shall ensure that its Representatives will maintain the confidentiality as required by the terms of this Agreement of any Disclosing Party’s Confidential Information received by such Representatives and Receiving Party shall be absolutely responsible for any breach of such obligations by its Representatives. 
-Standard of Protection. 
+- (i) use any Confidential Information other than as necessary specifically for the Purpose, nor
+- (ii) disclose any Confidential Information, in whole or in part, to any person other than its directors, officers, employees, agents or consultants (or to directors, officers, employees, agents or consultants of one of its Affiliates), who have a bona fide need to know such Confidential Information for the Purpose, and who are under a duty of confidentiality to the Receiving Party on substantially the same basis as required of Receiving Party under this Agreement (each a “Representative”).
 
-For the purpose hereof, the Receiving Party its Representatives shall use efforts commensurate with those that it employs for the protection of its own corresponding sensitive information, which shall in any event be no lesser a standard than the type of efforts that would be taken by a careful hi-tech business for the protection of its commercial and technical secrets. 
-Ownership of Information. 
+The Receiving Party shall ensure that its Representatives will maintain the confidentiality as required by the terms of this Agreement of any Disclosing Party’s Confidential Information received by such Representatives and Receiving Party shall be absolutely responsible for any breach of such obligations by its Representatives.
 
-No license or right under any patent, copyright, trademark, trade-name, mask work protection right or any other intellectual property right, is either granted or implied to the Receiving Party and its Representatives by the conveying thereto of any Confidential Information by the Disclosing Party. 
+Standard of Protection.
 
-All Confidential Information (including tangible copies, reproductions, reductions and computerized, magnetic or electronic versions thereof), shall remain at all times the property of the Disclosing Party and/or its Affiliate (as applicable), shall not be repurposed or reproduced in any way, and shall be returned to the Disclosing Party or destroyed (with written confirmation to the Disclosing Party) at the Disclosing Party's first request which may at any time be made. 
- 
-Any portion of Derivative Materials, whether created by the Receiving Party or its Representatives, shall become the Disclosing Party's (or its Affiliate’s, as applicable) property and shall be also returned to the Disclosing Party or destroyed (with confirmation to the Disclosing Party) promptly upon the Disclosing Party's request. 
- 
-Without limiting the foregoing, the Receiving Party shall not assert directly or indirectly any right, including any right of set-off or lien, with respect to Disclosing Party’s Confidential Information. 
- 
-Notwithstanding the foregoing, the Receiving Party and its Representatives may retain: 
+For the purpose hereof, the Receiving Party its Representatives shall use efforts commensurate with those that it employs for the protection of its own corresponding sensitive information, which shall in any event be no lesser a standard than the type of efforts that would be taken by a careful hi-tech business for the protection of its commercial and technical secrets.
+
+Ownership of Information.
+
+No license or right under any patent, copyright, trademark, trade-name, mask work protection right or any other intellectual property right, is either granted or implied to the Receiving Party and its Representatives by the conveying thereto of any Confidential Information by the Disclosing Party.
+
+All Confidential Information (including tangible copies, reproductions, reductions and computerized, magnetic or electronic versions thereof), shall remain at all times the property of the Disclosing Party and/or its Affiliate (as applicable), shall not be repurposed or reproduced in any way, and shall be returned to the Disclosing Party or destroyed (with written confirmation to the Disclosing Party) at the Disclosing Party's first request which may at any time be made.
+
+Any portion of Derivative Materials, whether created by the Receiving Party or its Representatives, shall become the Disclosing Party's (or its Affiliate’s, as applicable) property and shall be also returned to the Disclosing Party or destroyed (with confirmation to the Disclosing Party) promptly upon the Disclosing Party's request.
+
+Without limiting the foregoing, the Receiving Party shall not assert directly or indirectly any right, including any right of set-off or lien, with respect to Disclosing Party’s Confidential Information.
+
+Notwithstanding the foregoing, the Receiving Party and its Representatives may retain:
 - (i) one (1) copy of any of Disclosing Party’s Confidential Information as required under any recordkeeping or retention requirements required of Receiving Party or its Representatives by law, rule or regulation applicable to Receiving Party or its Representatives and 
-- (ii) any computer records or files created pursuant to automatic archiving back-up procedures and the like, which cannot reasonably be deleted; 
-in each case subject to the confidentiality provisions of this Agreement, which shall survive indefinitely following any termination or expiration of this Agreement. 
- 
-Compliance with Legal Requirements. 
-If the Receiving Party or any of its Representatives shall be legally required (by formal questioning or, in the written opinion of its legal counsel, by applicable laws) to disclose any of Disclosing Party’s Confidential Information, the Receiving Party shall immediately notify the Disclosing Party of such request or requirement prior to disclosure so that the Disclosing Party may seek an appropriate protective order with the reasonable assistance of the Receiving Party, and/or waive compliance with the terms of this undertaking, at the Disclosing Party's absolute discretion, and at Disclosing Party’s sole expense. 
- 
-If such order or waiver is not timely obtained, only such portion of the Confidential Information as specifically required shall be disclosed, and Receiving Party will use its commercially reasonable efforts to obtain confidential treatment of the Confidential Information to be disclosed. 
-Notwithstanding the foregoing, Receiving Party and its Representatives shall not be required to provide notice or seek consent to disclose any information in connection with any disclosure to any regulatory or governmental entity having jurisdiction over the Receiving Party or Representatives (as applicable), except with respect to any investigation or audit specifically targeting the Disclosing Party or the Purpose to the extent legally permissible. 
- 
-Term; 
-Survival. 
-The term of this Agreement shall expire on the earlier of 
-(a) two years from the date of this Agreement or 
-(b) the date on which the Parties (or their Affiliates) enter into a transaction document relating to the Purpose containing confidentiality provisions with respect to the potential transaction or 
-(c) either Party gives written notice of termination of this Agreement to the other Party. 
-Notwithstanding any termination of this Agreement, the confidentiality obligations of the Receiving Party shall survive any termination or expiration of this Agreement for five (5) years from the date of this Agreement, except to the extent provided for elsewhere herein. 
- 
-Remedies. 
-Receiving Party understands that any violation of this Agreement may cause Disclosing Party immediate and irreparable harm which monetary damages may not adequately remedy. 
-Therefore, upon any actual or impending violation of this Agreement, Disclosing Party may seek a restraining order or other injunction, without bond, restraining or enjoining such violation by Receiving Party, its Representatives or any entity or person acting in concert with Receiving Party. 
-Receiving Party understands that such relief is additional to and does not limit the availability to Disclosing Party of any other remedy. 
+- (ii) any computer records or files created pursuant to automatic archiving back-up procedures and the like, which cannot reasonably be deleted;
+in each case subject to the confidentiality provisions of this Agreement, which shall survive indefinitely following any termination or expiration of this Agreement.
 
-Scope of Relations. 
-Neither this Agreement nor the disclosure by the Disclosing Party or its Affiliates of Confidential Information to the Receiving Party or its receipt thereof shall constitute or imply any offer, promise or intention of either Party to enter into any agreement, joint venture or other business engagement, nor constitute any representation, warranty, assurance or guarantee by the Disclosing Party or its Affiliates, with respect to the accuracy, originality, or efficiency of the Confidential Information. 
+Compliance with Legal Requirements.
+If the Receiving Party or any of its Representatives shall be legally required (by formal questioning or, in the written opinion of its legal counsel, by applicable laws) to disclose any of Disclosing Party’s Confidential Information, the Receiving Party shall immediately notify the Disclosing Party of such request or requirement prior to disclosure so that the Disclosing Party may seek an appropriate protective order with the reasonable assistance of the Receiving Party, and/or waive compliance with the terms of this undertaking, at the Disclosing Party's absolute discretion, and at Disclosing Party’s sole expense.
 
-No Waiver. 
-No failure or delay by any Party in exercising any right, power or privilege hereunder shall operate as a waiver thereof, nor shall any single or partial exercise thereof preclude any other or further exercise thereof or the exercise of any other right, power or privilege hereunder. 
- 
-Applicable Law and Jurisdiction. 
-This Agreement shall be governed by, construed and enforced in accordance with the laws of New York State. 
-The Parties hereby irrevocably submit to the jurisdiction of the competent courts located in New York County of New York State and hereby waive any objection regarding jurisdiction or forum. 
-This Agreement is only for the benefit of the Parties. 
-The Parties agree that unless and until definitive documentation with respect to a transaction has been signed and delivered by the Parties or one of their respective Affiliates, neither Party or any of their respective Affiliates shall have any legal obligation of any kind whatsoever (other than confidentiality obligations under this Agreement) with respect to the Purpose by virtue of this Agreement or any other written or oral communication with respect to the Purpose or any other potential transaction. 
- 
-Company hereby acknowledges and confirms that it is aware and that it will advise its Representatives that the U.S. federal securities laws prohibit any person who is in possession of any material non-public information about a company that is subject to the reporting requirements of the U.S. 
+If such order or waiver is not timely obtained, only such portion of the Confidential Information as specifically required shall be disclosed, and Receiving Party will use its commercially reasonable efforts to obtain confidential treatment of the Confidential Information to be disclosed.
+Notwithstanding the foregoing, Receiving Party and its Representatives shall not be required to provide notice or seek consent to disclose any information in connection with any disclosure to any regulatory or governmental entity having jurisdiction over the Receiving Party or Representatives (as applicable), except with respect to any investigation or audit specifically targeting the Disclosing Party or the Purpose to the extent legally permissible.
 
-Securities Exchange Act of 1934, as amended (the “Exchange Act”), from purchasing, selling or trading securities of such issuer-company and that PlusUltra’s parent company, PlusUltra Limited, is such a reporting company. 
- 
-Company acknowledges that the provisions of U.S.  promulgated under the Exchange Act requires the public announcement of previously non-public material information if that information is disclosed to anyone who has not agreed with an Exchange Act reporting issuer to maintain the confidentiality of that information. 
- 
-Company agrees not to take, directly or indirectly, any action that would require PlusUltra Limited to make a public announcement pursuant to the requirements of Regulation FD 
- 
-IN WITNESS WHEREOF, the Parties have executed and delivered this Non-Disclosure Agreement, as of the date first written above. 
- 
+Term;
+Survival.
+The term of this Agreement shall expire on the earlier of
+(a) two years from the date of this Agreement or
+(b) the date on which the Parties (or their Affiliates) enter into a transaction document relating to the Purpose containing confidentiality provisions with respect to the potential transaction or
+(c) either Party gives written notice of termination of this Agreement to the other Party.
+Notwithstanding any termination of this Agreement, the confidentiality obligations of the Receiving Party shall survive any termination or expiration of this Agreement for five (5) years from the date of this Agreement, except to the extent provided for elsewhere herein.
+
+Remedies.
+Receiving Party understands that any violation of this Agreement may cause Disclosing Party immediate and irreparable harm which monetary damages may not adequately remedy.
+Therefore, upon any actual or impending violation of this Agreement, Disclosing Party may seek a restraining order or other injunction, without bond, restraining or enjoining such violation by Receiving Party, its Representatives or any entity or person acting in concert with Receiving Party.
+Receiving Party understands that such relief is additional to and does not limit the availability to Disclosing Party of any other remedy.
+
+Scope of Relations.
+Neither this Agreement nor the disclosure by the Disclosing Party or its Affiliates of Confidential Information to the Receiving Party or its receipt thereof shall constitute or imply any offer, promise or intention of either Party to enter into any agreement, joint venture or other business engagement, nor constitute any representation, warranty, assurance or guarantee by the Disclosing Party or its Affiliates, with respect to the accuracy, originality, or efficiency of the Confidential Information.
+
+No Waiver.
+No failure or delay by any Party in exercising any right, power or privilege hereunder shall operate as a waiver thereof, nor shall any single or partial exercise thereof preclude any other or further exercise thereof or the exercise of any other right, power or privilege hereunder.
+
+Applicable Law and Jurisdiction.
+This Agreement shall be governed by, construed and enforced in accordance with the laws of New York State.
+The Parties hereby irrevocably submit to the jurisdiction of the competent courts located in New York County of New York State and hereby waive any objection regarding jurisdiction or forum.
+This Agreement is only for the benefit of the Parties.
+The Parties agree that unless and until definitive documentation with respect to a transaction has been signed and delivered by the Parties or one of their respective Affiliates, neither Party or any of their respective Affiliates shall have any legal obligation of any kind whatsoever (other than confidentiality obligations under this Agreement) with respect to the Purpose by virtue of this Agreement or any other written or oral communication with respect to the Purpose or any other potential transaction.
+
+Company hereby acknowledges and confirms that it is aware and that it will advise its Representatives that the U.S. federal securities laws prohibit any person who is in possession of any material non-public information about a company that is subject to the reporting requirements of the U.S.
+
+Securities Exchange Act of 1934, as amended (the “Exchange Act”), from purchasing, selling or trading securities of such issuer-company and that PlusUltra’s parent company, PlusUltra Limited, is such a reporting company.
+
+Company acknowledges that the provisions of U.S.  promulgated under the Exchange Act requires the public announcement of previously non-public material information if that information is disclosed to anyone who has not agreed with an Exchange Act reporting issuer to maintain the confidentiality of that information.
+
+Company agrees not to take, directly or indirectly, any action that would require PlusUltra Limited to make a public announcement pursuant to the requirements of Regulation FD
+
+IN WITNESS WHEREOF, the Parties have executed and delivered this Non-Disclosure Agreement, as of the date first written above.
+
 PlusUltra 						John Snow Labs Inc. 
 By:	____________________			By:	___________________ 
 Name:  					Name: 
