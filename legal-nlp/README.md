@@ -87,10 +87,9 @@
 ## Use Cases
 [80.0.Legal_Contract_Understanding.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/80.0.Legal_Contract_Understanding.ipynb)
 
-[80.1.Legal_Subpoenas_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/80.1.Legal_Subpoenas_NER.ipynb)
+[80.1.Legal_Contract_Understanding_NDA.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/80.1.Legal_Contract_Understanding_NDA.ipynb)
 
-[80.2.Legal_Contract_Understanding_NDA.ipynb](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/80.2.Legal_Contract_Understanding_NDA.ipynb)
-
+[80.2.Legal_Subpoenas_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/80.2.Legal_Subpoenas_NER.ipynb)
 
 ## Combining with Visual NLP
 [90.0.Legal_Visual_Document_Understanding.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/90.0.Legal_Visual_Document_Understanding.ipynb)
