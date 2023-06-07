@@ -2,6 +2,6 @@ pandas==1.1.5
 beautifulsoup4
 jupyter
 pyspark==3.2.2
-tensorflow==2.4.1
+tensorflow==2.11.1
 tensorflow-addons
 svgwrite==1.4
