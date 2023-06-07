@@ -1,6 +1,6 @@
 johnsnowlabs==4.2.3
 nbformat
-Flask==2.2.2
+Flask==2.2.5
 pyspark==3.2.2
 requests==2.28.1
 flask-bootstrap==3.3.7.1
