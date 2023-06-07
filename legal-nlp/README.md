@@ -81,8 +81,11 @@
 ## Legal Summarization
 [13.0.Legal_Summarization.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/13.0.Legal_Summarization.ipynb)
 
+## 14.0.Chunk Key Phrase Extraction
+[14.0.Legal_ChunkKeyPhraseExtraction.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/14.0.Legal_ChunkKeyPhraseExtraction.ipynb)
+
 ## Normalizer
-[14.0.Date_Normalizer.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/14.0.Date_Normalizer.ipynb)
+[15.0.Date_Normalizer.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/15.0.Date_Normalizer.ipynb)
 
 ## Use Cases
 [80.0.Legal_Contract_Understanding.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/80.0.Legal_Contract_Understanding.ipynb)
