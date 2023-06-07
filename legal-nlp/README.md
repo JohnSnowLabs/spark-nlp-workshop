@@ -81,7 +81,7 @@
 ## Legal Summarization
 [13.0.Legal_Summarization.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/13.0.Legal_Summarization.ipynb)
 
-## 14.0.Chunk Key Phrase Extraction
+## Chunk Key Phrase Extraction
 [14.0.Legal_ChunkKeyPhraseExtraction.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/14.0.Legal_ChunkKeyPhraseExtraction.ipynb)
 
 ## Normalizer
