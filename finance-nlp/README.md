@@ -85,6 +85,9 @@
 ## Normalizer
 [13.0.Date_Normalizer.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/13.0.Date_Normalizer.ipynb)
 
+## Chunk Key Phrase Extraction
+[14.0.Financial_ChunkKeyPhraseExtraction.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/14.0.Financial_ChunkKeyPhraseExtraction.ipynb)
+
 ## Use cases
 [80.0.Use_case_Capital_Agreements.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/80.0.Use_case_Capital_Agreements.ipynb)
 
