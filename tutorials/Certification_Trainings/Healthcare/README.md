@@ -94,6 +94,8 @@
 
 [32.1.Comparison_Medical_Text_Summarization.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/32.1.Comparison_Medical_Text_Summarization.ipynb)
 
+[32.2.ExtractiveSummarization.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/32.2.ExtractiveSummarization.ipynb)
+
 [33.Biogpt_Chat_JSL.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/33.Biogpt_Chat_JSL.ipynb)
 
 [33.1.Medical_Text_Generation.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/33.1.Medical_Text_Generation.ipynb)
@@ -154,6 +156,8 @@
 [18.Chunk_Sentence_Splitter.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/18.Chunk_Sentence_Splitter.ipynb)
 
 [20.SentenceDetectorDL_Healthcare.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/20.SentenceDetectorDL_Healthcare.ipynb)
+
+[34.Model_Download_Helpers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/34.Model_Download_Helpers.ipynb)
 
 
 
