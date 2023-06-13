@@ -160,6 +160,9 @@ If you don't have time to cover all these, please check the following notebook f
 
 [32.1.Comparison_Medical_Text_Summarization.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/32.1.Comparison_Medical_Text_Summarization.ipynb)
 
+[32.2.ExtractiveSummarization.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/32.2.ExtractiveSummarization.ipynb)
+
+
 [33.Biogpt_Chat_JSL.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/33.Biogpt_Chat_JSL.ipynb)
 
 [33.1.Medical_Text_Generation.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/33.1.Medical_Text_Generation.ipynb)
@@ -212,6 +215,8 @@ If you don't have time to cover all these, please check the following notebook f
 [26.Chunk_Mapping.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/26.Chunk_Mapping.ipynb)
 
 [27.Oncology_Model.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/27.Oncology_Model.ipynb)
+
+[34.Model_Download_Helpers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/34.Model_Download_Helpers.ipynb)
 
 ## ☞ Biomedical & Clinical NER Models Benchmarks/ Rankings
 
