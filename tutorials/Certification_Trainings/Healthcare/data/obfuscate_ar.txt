@@ -1,0 +1,90 @@
+أبها#CITY
+أبو النمرس#CITY
+أبو حماد#CITY
+أبوظبي#CITY
+أريانة#CITY
+أريانة الجنوبية#CITY
+أريانة الشرقية#CITY
+أريانة الشمالية#CITY
+أريانة الغربية#CITY
+أزرو#CITY
+آيسلندا#COUNTRY
+أذربيجان#COUNTRY
+أرمينيا#COUNTRY
+أستراليا#COUNTRY
+أفغانستان#COUNTRY
+ألبانيا#COUNTRY
+ألمانيا#COUNTRY
+أنتيغوا وبربودا#COUNTRY
+أندورا#COUNTRY
+أنغولا#COUNTRY
+مستشفى الأجيال#HOSPITAL
+مستشفى الأحساء#HOSPITAL
+مستشفى الأروى#HOSPITAL
+مستشفى الأسنان#HOSPITAL
+مستشفى الأطفال#HOSPITAL
+مستشفى الأطفال والولادة#HOSPITAL
+مستشفى الأطفال وحديثي الولادة#HOSPITAL
+مستشفى الأطفال وحديثي الولادة ورعاية الأطفال المبتسرين#HOSPITAL
+مستشفى الأطفال وحديثي الولادة ورعاية الأطفال المبتسرين وطب الأطفال#HOSPITAL
+مستشفى الأفق#HOSPITAL
+الشارع الأبخازي#STREET
+الشارع الأبيض#STREET
+الشارع الأحمر#STREET
+الشارع الأخضر#STREET
+الشارع الأرجنتيني#STREET
+الشارع الأردني#STREET
+الشارع الأزاني#STREET
+الشارع الأزرق#STREET
+الشارع الأسترالي#STREET
+الشارع الأسفلتي#STREET
+أرامكو#COMPANY
+أكوا باور#COMPANY
+أوراسكوم للإنشاء والصناعة#COMPANY
+أوراسكوم للاستثمار#COMPANY
+أورانج الأردن#COMPANY
+أورانج المغرب#COMPANY
+الاتصالات السعودية (STC)#COMPANY
+الاتصالات المتنقلة الإماراتية (اتصالات)#COMPANY
+البنك الأهلي السعودي#COMPANY
+البنك الأهلي المصري#COMPANY
+آمال#NAME
+آنا#NAME
+آية#NAME
+أحمد#NAME
+أدهم#NAME
+أروى#NAME
+أساور#NAME
+أسعد#NAME
+أسماء#NAME
+أسيل#NAME
+آمال#NAME
+آنا#NAME
+آية#NAME
+أروى#NAME
+أساور#NAME
+أسماء#NAME
+أسيل#NAME
+أفنان#NAME
+أمل#NAME
+أميرة#NAME
+أحمد#NAME
+أدهم#NAME
+أسعد#NAME
+أشرف#NAME
+أمين#NAME
+أنس#NAME
+أنور#NAME
+أيمن#NAME
+إبراهيم#NAME
+إدريس#NAME
+طبيب عام#PROFESSION
+محاسب#PROFESSION
+محاسب تكاليف#PROFESSION
+محاسب ضرائب#PROFESSION
+محاسب مالي#PROFESSION
+محامي#PROFESSION
+محلل أعمال#PROFESSION
+محلل أعمال تحليل البيانات#PROFESSION
+محلل أعمال تحليل البيانات المالية#PROFESSION
+محلل أعمال تحليل البيانات المالية محترف#PROFESSION
