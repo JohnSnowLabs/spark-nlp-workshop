@@ -48,26 +48,26 @@
 الاتصالات المتنقلة الإماراتية (اتصالات)#COMPANY
 البنك الأهلي السعودي#COMPANY
 البنك الأهلي المصري#COMPANY
-آمال#NAME
-آنا#NAME
-آية#NAME
-أحمد#NAME
-أدهم#NAME
-أروى#NAME
-أساور#NAME
-أسعد#NAME
-أسماء#NAME
-أسيل#NAME
-آمال#NAME
-آنا#NAME
-آية#NAME
-أروى#NAME
-أساور#NAME
-أسماء#NAME
-أسيل#NAME
-أفنان#NAME
-أمل#NAME
-أميرة#NAME
+آمال#PATIENT
+آنا#PATIENT
+آية#PATIENT
+أحمد#PATIENT
+أدهم#PATIENT
+أروى#PATIENT
+أساور#PATIENT
+أسعد#PATIENT
+أسماء#PATIENT
+أسيل#PATIENT
+آمال#DOCTOR
+آنا#DOCTOR
+آية#DOCTOR
+أروى#DOCTOR
+أساور#DOCTOR
+أسماء#DOCTOR
+أسيل#DOCTOR
+أفنان#DOCTOR
+أمل#DOCTOR
+أميرة#DOCTOR
 أحمد#NAME
 أدهم#NAME
 أسعد#NAME
