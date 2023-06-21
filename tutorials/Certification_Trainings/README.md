@@ -158,10 +158,11 @@ If you don't have time to cover all these, please check the following notebook f
 
 [32.Medical_Text_Summarization.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/32.Medical_Text_Summarization.ipynb)
 
-[32.1.Comparison_Medical_Text_Summarization.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/32.1.Comparison_Medical_Text_Summarization.ipynb)
+[32.1.Medical_Text_Summarization_with_Abstractive_Approach.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/32.1.Medical_Text_Summarization_with_Abstractive_Approach.ipynb)
 
-[32.2.ExtractiveSummarization.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/32.2.ExtractiveSummarization.ipynb)
+[32.2.Medical_Text_Summarization_with_Extractive_Approach.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/32.2.Medical_Text_Summarization_with_Extractive_Approach.ipynb)
 
+[32.3.Comparison_Medical_Text_Summarization.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/32.3.Comparison_Medical_Text_Summarization.ipynb)
 
 [33.Biogpt_Chat_JSL.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/33.Biogpt_Chat_JSL.ipynb)
 
