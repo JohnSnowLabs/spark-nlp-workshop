@@ -1,0 +1,70 @@
+# Open source MOOC notebooks
+
+This folder contains the notebooks created for the Open Source MOOC course. The following notebooks have been added:
+
+- WordSegmenter.ipynb
+- WordEmbeddingsModel.ipynb
+- WordEmbeddings.ipynb
+- Word2Vec.ipynb
+- Wav2Vec2ForCTC.ipynb
+- ViveknSentiment.ipynb
+- ViT_for_Image_Classification.ipynb
+- UniversalSentenceEncoder.ipynb
+- TypedDependency.ipynb
+- Tokenizer.ipynb
+- TokenAssembler.ipynb
+- Token2Chunk.ipynb
+- TFNerDLGraphBuilder.ipynb
+- TapasForQuestionAnswering.ipynb
+- T5Transformer.ipynb
+- SymmetricDelete Spellchecker.ipynb
+- StopWordsCleaner.ipynb
+- Stemmer.ipynb
+- SpanBertCoref.ipynb
+- SentimentDL.ipynb
+- SentimentDetector.ipynb
+- SentenceEmbeddings.ipynb
+- SentenceDetectorDL.ipynb
+- Sentence_Embeddings_with_Transformers.ipynb
+- RegexTokenizer.ipynb
+- PretrainedPipeline.ipynb
+- POSTagger.ipynb
+- NorvigSweeting Spellchecker.ipynb
+- Normalizer.ipynb
+- NerVisualizer.ipynb
+- NerOverwriter.ipynb
+- NerDLModel_NerConverter.ipynb
+- NerDLApproach.ipynb
+- NerCrf.ipynb
+- MultiDocumentAssembler.ipynb
+- MultiClassifierDL.ipynb
+- MarianTransformer.ipynb
+- LightPipeline.ipynb
+- Lemmatizer.ipynb
+- LanguageDetectorDL.ipynb
+- KeywordExtractionwithYAKE.ipynb
+- ImageAssembler.ipynb
+- GraphExtraction & GraphFinisher.ipynb
+- GPT2Transformer.ipynb
+- Finisher.ipynb
+- EntityRuler.ipynb
+- DocumentNormalizer.ipynb
+- DocumentAssembler.ipynb
+- Doc2Vec.ipynb
+- Doc2Chunk.ipynb
+- DependencyParser.ipynb
+- DateMatcher_MultiDateMatcher.ipynb
+- ContextSpellChecker.ipynb
+- CoNLL Preparation for NER.ipynb
+- ClassifierDLModel.ipynb
+- ClassifierDLApproach.ipynb
+- ChunkTokenizer.ipynb
+- Chunker.ipynb
+- ChunkEmbeddings.ipynb
+- Chunk2Doc.ipynb
+- BertForTokenClassification.ipynb
+- BertForSequenceClassification.ipynb
+- BertForQuestionAnswering.ipynb
+- BertEmbeddings.ipynb
+
+To follow the development of the notebooks, please check [this Google spreadsgeet](https://docs.google.com/spreadsheets/d/1H2wKqcrNJwrF_2Zk3fZCAjHPuJHP4mBa3_KZWbPmy5E/edit?usp=sharing).
