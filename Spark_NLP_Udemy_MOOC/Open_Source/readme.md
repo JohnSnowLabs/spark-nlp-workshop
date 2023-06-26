@@ -1,70 +1,107 @@
 # Open source MOOC notebooks
 
-This folder contains the notebooks created for the Open Source MOOC course. The following notebooks have been added:
+The MOOC is structured as following:
 
-- WordSegmenter.ipynb
-- WordEmbeddingsModel.ipynb
-- WordEmbeddings.ipynb
-- Word2Vec.ipynb
-- Wav2Vec2ForCTC.ipynb
-- ViveknSentiment.ipynb
-- ViT_for_Image_Classification.ipynb
-- UniversalSentenceEncoder.ipynb
-- TypedDependency.ipynb
-- Tokenizer.ipynb
-- TokenAssembler.ipynb
-- Token2Chunk.ipynb
-- TFNerDLGraphBuilder.ipynb
-- TapasForQuestionAnswering.ipynb
-- T5Transformer.ipynb
-- SymmetricDelete Spellchecker.ipynb
-- StopWordsCleaner.ipynb
-- Stemmer.ipynb
-- SpanBertCoref.ipynb
-- SentimentDL.ipynb
-- SentimentDetector.ipynb
-- SentenceEmbeddings.ipynb
-- SentenceDetectorDL.ipynb
-- Sentence_Embeddings_with_Transformers.ipynb
-- RegexTokenizer.ipynb
-- PretrainedPipeline.ipynb
-- POSTagger.ipynb
-- NorvigSweeting Spellchecker.ipynb
-- Normalizer.ipynb
-- NerVisualizer.ipynb
-- NerOverwriter.ipynb
-- NerDLModel_NerConverter.ipynb
-- NerDLApproach.ipynb
-- NerCrf.ipynb
-- MultiDocumentAssembler.ipynb
-- MultiClassifierDL.ipynb
-- MarianTransformer.ipynb
-- LightPipeline.ipynb
-- Lemmatizer.ipynb
-- LanguageDetectorDL.ipynb
-- KeywordExtractionwithYAKE.ipynb
-- ImageAssembler.ipynb
-- GraphExtraction & GraphFinisher.ipynb
-- GPT2Transformer.ipynb
-- Finisher.ipynb
-- EntityRuler.ipynb
-- DocumentNormalizer.ipynb
-- DocumentAssembler.ipynb
-- Doc2Vec.ipynb
-- Doc2Chunk.ipynb
-- DependencyParser.ipynb
-- DateMatcher_MultiDateMatcher.ipynb
-- ContextSpellChecker.ipynb
-- CoNLL Preparation for NER.ipynb
-- ClassifierDLModel.ipynb
-- ClassifierDLApproach.ipynb
-- ChunkTokenizer.ipynb
-- Chunker.ipynb
-- ChunkEmbeddings.ipynb
-- Chunk2Doc.ipynb
-- BertForTokenClassification.ipynb
-- BertForSequenceClassification.ipynb
-- BertForQuestionAnswering.ipynb
-- BertEmbeddings.ipynb
 
-To follow the development of the notebooks, please check [this Google spreadsgeet](https://docs.google.com/spreadsheets/d/1H2wKqcrNJwrF_2Zk3fZCAjHPuJHP4mBa3_KZWbPmy5E/edit?usp=sharing).
+- Section 1: Introduction
+  - Spark NLP for Data Scientists overview
+  - Spark NLP Course Structure
+- Section 2: Text Preprocessing - Text Normalization with Spell Checker
+  - 02.01.ContextSpellChecker.ipynb
+  - 02.05.NorvigSweetingSpellchecker.ipynb
+  - 02.06.SymmetricDeleteSpellchecker.ipynb
+- Section 3: Text Processing - Extracting and Normalizing the Dates
+  - 03.01.DateMatcher_MultiDateMatcher.ipynb
+- Section 4: Text Preprocessing - NGram Generation
+  - 04.01.NGramGenerator.ipynb
+- Section 5: Text Preprocessing - Stemming and Lemmatizing
+  - 05.01.Lemmatizer_LemmatizerModel.ipynb
+- Section 6: Text Preprocessing Models
+  - 06.01.Stemmer.ipynb
+  - 06.02.SentenceDetectorDLModel.ipynb
+  - 06.03.Normalizer.ipynb
+  - 06.04.StopWordsCleaner.ipynb
+- Section 7: Text cleaning with DocumentNormalizer
+  - 07.01.DocumentNormalizer.ipynb
+- Section 8: Text Preprocessing - Text tokenization with Tokenizer
+  - 08.01.Tokenizer.ipynb
+  - 08.02.RegexTokenizer.ipynb
+  - 08.03.ChunkTokenizer.ipynb
+  - 08.04.TokenAssembler.ipynb
+- Section 9: Information Extraction - Keyword Extraction
+  - 09.01.YakeKeywordExtraction.ipynb
+- Section 10: Information Extraction with Regular Expression
+  - 10.01.RegexMatcher.ipynb
+- Section 11: Information Extraction with Text-based models
+  - 11.01.TextMatcher_BigTextMatcher.ipynb
+- Section 12: Dependency Parsing and Coreference Resolution with DependecyParser
+  - 12.01.DependencyParser_TypedDependencyParser.ipynb
+  - 12.02.POSTagger.ipynb
+  - 12.03.Chunker.ipynb
+- Section 13: Information Extraction - Graph-based Information Extraction
+  - 13.01.GraphExtraction_GraphFinisher.ipynb
+- Section 14: Coreference Resolution with SpanBertCoref
+  - 14.01.SpanBertCoref.ipynb
+- Section 15: Text Representation with Embeddings and Vectorization - Word Embeddings
+  - 15.01.Word2Vec.ipynb
+  - 15.02.WordEmbeddings.ipynb
+- Section 16: Text Representation with Embeddings and Vectorization - Sentence Embeddings
+  - 16.01.Doc2Vec.ipynb
+  - 16.02.ChunkEmbeddings.ipynb
+  - 16.03.SentenceEmbeddings.ipynb
+  - 16.04.UniversalSentenceEncoder.ipynb
+- Section 17: Text Representation with Embeddings and Vectorization with Transformers
+  - 17.01.Transformers-based_Embeddings.ipynb
+- Section 18: Sentiment Analysis
+  - 18.01.ViveknSentiment.ipynb
+  - 18.02.SentimentDL.ipynb
+  - 18.03.SentimentDetector.ipynb
+- Section 19: Text Classification with Transformers
+  - 19.01.BertForSequenceClassification.ipynb
+  - 19.03.Sentence_Embeddings_with_Transformers.ipynb
+- Section 20: Text Classification - Training Text Classification models with ClassifierDL
+  - 20.01.ClassifierDLApproach.ipynb
+  - 20.02.ClassifierDLModel.ipynb
+  - 20.03.MultiClassifierDL.ipynb
+- Section 21: Named Entity Recognition (NER)- Rule-based NER with EntityRuler
+  - 21.01.EntityRuler.ipynb
+- Section 22: Named Entity Recognition (NER) - NER with BiLSTM-CNN-Char architecture
+  - 22.01.NerDLModel_NerConverter.ipynb
+  - 22.02.NerOverwriter.ipynb
+- Section 23: Named Entity Recognition (NER) - Visualizing the Named Entities
+  - 23.01.NerVisualizer.ipynb
+- Section 24: Named Entity Recognition (NER) - Training custom NER models with NerDLApproach
+  - 24.01.NerDLApproach.ipynb
+  - 24.02.TFNerDLGraphBuilder.ipynb
+  - 24.03.CoNLL_Preparation_for_NER.ipynb
+- Section 25: Named Entity Recognition (NER) - Conditional Random Fields for NER with NerCrf
+  - 25.01.NerCrf.ipynb
+- Section 26: Named Entity Recognition (NER) - NER with Bert for Token Classification
+  - 26.01.BertForTokenClassification.ipynb
+- Section 27: Question Answering from Text with Transformers
+  - 27.01.QuestionAnswering_with_Transformers.ipynb
+  - 27.02.MultiDocumentAssembler.ipynb
+- Section 28: Question Answering from Tables with TAPAS
+  - 28.01.TapasForQuestionAnswering.ipynb
+- Section 29: Multilingual NLP - Word segmentation with WordSegmenter
+  - 29.01.WordSegmenter.ipynb
+- Section 30: Multilingual NLP - Multilingual machine translation with MarianTransformer
+  - 30.01.MarianTransformer.ipynb
+- Section 31: Multilingual NLP - Language Detection with LanguageDetectorDL
+  - 31.01.LanguageDetectorDL.ipynb
+- Section 32: Advanced Topics - Image Classifiation with VIT
+  - 32.01.ImageAssembler.ipynb
+  - 32.02.ViTForImageClassification.ipynb
+- Section 33: Advanced Topics - Leveraging the T5 model for NLP (T5Transformer)
+  - 33.01.T5Transformer.ipynb
+- Section 34: Advanced Topics - Speech-to-Text Conversion
+  - 34.01.Wav2Vec2ForCTC.ipynb
+- Section 35: Utility Tools & Annotators
+  - 35.01.LightPipeline.ipynb
+  - 35.02.Token2Chunk.ipynb
+  - 35.03.PretrainedPipeline.ipynb
+  - 35.04.DocumentAssembler.ipynb
+  - 35.05.Finisher.ipynb
+  - 35.06.Doc2Chunk.ipynb
+  - 35.07.Chunk2Doc.ipynb
+  - 35.08.GPT2Transformer.ipynb
