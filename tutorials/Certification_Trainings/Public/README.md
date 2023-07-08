@@ -32,6 +32,8 @@ If you don't have time to cover all these, please check the follwing notebook fo
 
 [5.2_Multi_Lingual_Training_and_models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/5.2_Multi_Lingual_Training_and_models.ipynb)
 
+[5.4.ZeroShot_Text_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/5.4.ZeroShot_Text_Classification.ipynb)
+
 
 ### Transformers
 
