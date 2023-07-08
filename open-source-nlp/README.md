@@ -39,6 +39,8 @@ If you don't have time to cover all these, please check the follwing notebook fo
 
 [05.3.Multi_Lingual_Training_and_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/05.3.Multi_Lingual_Training_and_Models.ipynb)
 
+[05.4.ZeroShot_Text_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/05.4.ZeroShot_Text_Classification.ipynb)
+
 [06.0.Text_Similarities_and_Dimension_Reduction_Visualizations_for_Embeddings.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/06.0.Text_Similarities_and_Dimension_Reduction_Visualizations_for_Embeddings.ipynb)
 
 
