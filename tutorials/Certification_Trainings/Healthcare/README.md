@@ -133,6 +133,8 @@
 
 [30.2.Text_Classification_with_Contextual_Window_Splitting.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/30.2.Text_Classification_with_Contextual_Window_Splitting.ipynb)
 
+[30.3.Text_Classification_with_FewShotClassifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/30.3.Text_Classification_with_FewShotClassifier.ipynb)
+
 
 ### Normalizers
 
