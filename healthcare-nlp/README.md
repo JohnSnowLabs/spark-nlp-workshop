@@ -153,6 +153,9 @@ update date: 2023-04-13
 
 [20.0.Named_Entity_Disambiguation.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/20.0.Named_Entity_Disambiguation.ipynb)
 
+[26.0.Voice_of_Patient_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/26.0.Voice_of_Patient_Model.ipynb)
+
+[27.0.Social_Determinant_of_Health_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/27.0.Social_Determinant_of_Health_Model.ipynb)
 
 
 ## ☞ Biomedical & Clinical NER Models Benchmarks/ Rankings
