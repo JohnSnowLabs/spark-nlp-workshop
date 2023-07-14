@@ -63,7 +63,7 @@ If you don't have time to cover all these, please check the follwing notebook fo
 [12.0.NLU_Crashcourse_Every_SparkNLP_Model_in_One_Line.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/12.0.NLU_Crashcourse_Every_SparkNLP_Model_in_One_Line.ipynb)
 
 
-### Transformers
+### Transformers and Large Language Modeling
 
 [13.0.T5_Question_Answering_and_Summarization_with_SparkNLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/13.0.T5_Question_Answering_and_Summarization_with_SparkNLP.ipynb)
 
@@ -72,6 +72,8 @@ If you don't have time to cover all these, please check the follwing notebook fo
 [13.2.T5_SQL_Code_Generation_and_Style_Transfer_with_SparkNLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/13.2.T5_SQL_Code_Generation_and_Style_Transfer_with_SparkNLP.ipynb)
 
 [14.0.GPT2_Transformer_In_SparkNLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/14.0.GPT2_Transformer_In_SparkNLP.ipynb)
+
+[18.0.Text_Summarization_with_BART.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/18.0.Text_Summarization_with_BART.ipynb)
 
 
 ### Table Question Answering (TAPAS) 

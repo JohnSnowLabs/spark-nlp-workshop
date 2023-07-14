@@ -32,10 +32,10 @@ If you don't have time to cover all these, please check the follwing notebook fo
 
 [5.2_Multi_Lingual_Training_and_models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/5.2_Multi_Lingual_Training_and_models.ipynb)
 
-[5.4.ZeroShot_Text_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/5.4.ZeroShot_Text_Classification.ipynb)
+[5.4_ZeroShot_Text_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/5.4_ZeroShot_Text_Classification.ipynb)
 
 
-### Transformers
+### Transformers and Large Language Modeling
 
 [5.3_Transformers_for_Sequence_Classification_in_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/5.3_Transformers_for_Sequence_Classification_in_Spark_NLP.ipynb)
 
@@ -45,7 +45,7 @@ If you don't have time to cover all these, please check the follwing notebook fo
 
 [16.GPT2_Transformer_In_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/16.GPT2_Transformer_In_Spark_NLP.ipynb)
 
-
+[21.Text_Summarization_with_BART.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/21.Text_Summarization_with_BART.ipynb)
 
 ### T5 & NLU
 
@@ -62,7 +62,7 @@ If you don't have time to cover all these, please check the follwing notebook fo
 
 [18.ViT_for_Image_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/18.ViT_for_Image_Classification.ipynb)
 
-### Speech Recognition
+### ➤ Speech Recognition Notebooks
 
 [19.Automatic_Speech_Recognition_Wav2Vec2.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/19.Automatic_Speech_Recognition_Wav2Vec2.ipynb)
 
