@@ -4,11 +4,13 @@
 
 If you don't have time to cover all these, please check the following notebook for a quick review.
 
- [1-hr summary of entire package](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/1hr_workshop/SparkNLP_openSource_workshop_1hr.ipynb)
+[1-hr summary of entire package](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/1hr_workshop/SparkNLP_openSource_workshop_1hr.ipynb)
 
-# **Spark NLP**
+### ➤ SparkNLP Overview
 
 [0.SparkNLP_for_OpenSource_3h_Notebook.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/0.SparkNLP_for_OpenSource_3h_Notebook.ipynb)
+
+### Spark NLP
 
 [1.SparkNLP_Basics.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/1.SparkNLP_Basics.ipynb)
 
@@ -16,13 +18,22 @@ If you don't have time to cover all these, please check the following notebook f
 
 [3.SparkNLP_Pretrained_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/3.SparkNLP_Pretrained_Models.ipynb)
 
-### ➤ Training
+
+### Named Entity Recognition 
 
 [4.NERDL_Training.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/4.NERDL_Training.ipynb)
 
 [4.1_NerDL_Graph.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/4.1_NerDL_Graph.ipynb)
 
+[14.Transformers_for_Token_Classification_in_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/14.Transformers_for_Token_Classification_in_Spark_NLP.ipynb)
+
+[15.Import_Transformers_Into_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/15.Import_Transformers_Into_Spark_NLP.ipynb)
+
 [4.2_ZeroShot_NER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/4.2_ZeroShot_NER.ipynb)
+
+
+
+### Text Classification
 
 [5.Text_Classification_with_ClassifierDL.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/5.Text_Classification_with_ClassifierDL.ipynb)
 
@@ -30,25 +41,18 @@ If you don't have time to cover all these, please check the following notebook f
 
 [5.2_Multi_Lingual_Training_and_models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/5.2_Multi_Lingual_Training_and_models.ipynb)
 
-[5.2_Multi_Lingual_Training_and_models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/5.4_ZeroShot_Text_Classification.ipynb)
+[5.3_Transformers_for_Sequence_Classification_in_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/5.3_Transformers_for_Sequence_Classification_in_Spark_NLP.ipynb)
 
 [5.4_ZeroShot_Text_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/5.4_ZeroShot_Text_Classification.ipynb)
 
-
-### ➤ Transformers and Large Language Modeling
-
-[5.3_Transformers_for_Sequence_Classification_in_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/5.3_Transformers_for_Sequence_Classification_in_Spark_NLP.ipynb)
-
-[14.Transformers_for_Token_Classification_in_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/14.Transformers_for_Token_Classification_in_Spark_NLP.ipynb)
-
-[15.Import_Transformers_Into_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/15.Import_Transformers_Into_Spark_NLP.ipynb)
-
-[16.GPT2_Transformer_In_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/16.GPT2_Transformer_In_Spark_NLP.ipynb)
-
-[21.Text_Summarization_with_BART.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/21.Text_Summarization_with_BART.ipynb)
+[11.Text_Similarities_and_dimension_reduction_visualizations_for_Embeddings.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/11.Text_Similarities_and_dimension_reduction_visualizations_for_Embeddings.ipynb)
 
 
-### ➤ T5 & NLU
+###  NLU
+
+[13.NLU_crashcourse_every_Spark_NLP_Model_in_one_line.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/13.NLU_crashcourse_every_Spark_NLP_Model_in_one_line.ipynb)
+
+### Transformers and Large Language Modeling
 
 [10.Question_Answering_and_Summarization_with_T5.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/10.Question_Answering_and_Summarization_with_T5.ipynb)
 
@@ -56,21 +60,26 @@ If you don't have time to cover all these, please check the following notebook f
 
 [10.2_SQL_Code_Generation_and_Style_Transfer_with_T5.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/10.2_SQL_Code_Generation_and_Style_Transfer_with_T5.ipynb)
 
-[13.NLU_crashcourse_every_Spark_NLP_Model_in_one_line.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/13.NLU_crashcourse_every_Spark_NLP_Model_in_one_line.ipynb)
 
-### ➤ Image Classification Notebooks
+[16.GPT2_Transformer_In_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/16.GPT2_Transformer_In_Spark_NLP.ipynb)
+
+[21.Text_Summarization_with_BART.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/21.Text_Summarization_with_BART.ipynb)
+
+
+### Table Question Answering (TAPAS) 
+
+[17.Table_Question_Answering.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/17.Table_Question_Answering.ipynb)
+
+### Image Classification Notebooks
 
 [18.ViT_for_Image_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/18.ViT_for_Image_Classification.ipynb)
-
 
 ### ➤ Speech Recognition Notebooks
 
 [19.Automatic_Speech_Recognition_Wav2Vec2.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/19.Automatic_Speech_Recognition_Wav2Vec2.ipynb)
 
 
-
-
-### ➤ Auxillary Notebooks
+### Auxillary Notebooks
 
 [6.Playground_DataFrames.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/6.Playground_DataFrames.ipynb)
 
@@ -80,21 +89,22 @@ If you don't have time to cover all these, please check the following notebook f
 
 [9.SentenceDetectorDL.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/9.SentenceDetectorDL.ipynb)
 
-[11.Text_Similarities_and_dimension_reduction_visualizations_for_Embeddings.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/11.Text_Similarities_and_dimension_reduction_visualizations_for_Embeddings.ipynb)
-
 [12.Graph_extraction.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/12.Graph_extraction.ipynb)
 
-[17.Table_Question_Answering.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/17.Table_Question_Answering.ipynb)
+[20.EntityRuler.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/entity-ruler-certification/tutorials/Certification_Trainings/Public/20.EntityRuler.ipynb)
 
 ##
 
 # **Spark-NLP for Healthcare**
 
-### ➤ Clinical Named Entity Recognition
+
+### ➤ SparkNLP for Healthcare Overview
+
+[00.SparkNLP_for_Healthcare_3h_Notebook.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/00.SparkNLP_for_Healthcare_3h_Notebook.ipynb)
+
+### Clinical Named Entity Recognition
 
 [1.Clinical_Named_Entity_Recognition_Model.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/1.Clinical_Named_Entity_Recognition_Model.ipynb)
-
-[1.2.Contextual_Parser_Rule_Based_NER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/1.2.Contextual_Parser_Rule_Based_NER.ipynb)
 
 [1.3.prepare_CoNLL_from_annotations_for_NER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/1.3.prepare_CoNLL_from_annotations_for_NER.ipynb)
 
@@ -104,19 +114,17 @@ If you don't have time to cover all these, please check the following notebook f
 
 [1.6.ZeroShot_Clinical_NER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/1.6.ZeroShot_Clinical_NER.ipynb)
 
-[7.Clinical_NER_Chunk_Merger.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/7.Clinical_NER_Chunk_Merger.ipynb)
 
-[16.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/16.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb)
 
-[28.EntityRuler_with_Clinical_NER_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/28.EntityRuler_with_Clinical_NER_Models.ipynb)
 
-### ➤ Clinical Assertion
+### Clinical Assertion
 
 [2.Clinical_Assertion_Model.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/2.Clinical_Assertion_Model.ipynb)
 
 [2.1.Scope_window_tuning_assertion_status_detection.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/2.1.Scope_window_tuning_assertion_status_detection.ipynb)
 
-### ➤ Clinical Entity Resolution
+
+### Clinical Entity Resolution
 
 [3.Clinical_Entity_Resolvers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/3.Clinical_Entity_Resolvers.ipynb)
 
@@ -134,7 +142,13 @@ If you don't have time to cover all these, please check the following notebook f
 
 [24.1.Improved_Entity_Resolution_with_SentenceChunkEmbeddings.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/24.1.Improved_Entity_Resolution_with_SentenceChunkEmbeddings.ipynb)
 
-### ➤ Clinical Relation Extraction
+### ➤ Entity Code Mapping
+
+[26.Chunk_Mapping.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/26.Chunk_Mapping.ipynb)
+
+[11.1.Healthcare_Code_Mapping.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/11.1.Healthcare_Code_Mapping.ipynb)
+
+### Clinical Relation Extraction
 
 [10.Clinical_Relation_Extraction.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/10.Clinical_Relation_Extraction.ipynb)
 
@@ -144,9 +158,8 @@ If you don't have time to cover all these, please check the following notebook f
 
 [10.3.ZeroShot_Clinical_Relation_Extraction.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/10.3.ZeroShot_Clinical_Relation_Extraction.ipynb)
 
-[29.Coreference_Resolution_with_Clinical_NER_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/29.Coreference_Resolution_with_Clinical_NER_Models.ipynb)
 
-### ➤ Clinical De-identification
+### Clinical De-identification
 
 [4.Clinical_DeIdentification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.Clinical_DeIdentification.ipynb)
 
@@ -156,7 +169,11 @@ If you don't have time to cover all these, please check the following notebook f
 
 [4.3.Clinical_Deidentification_SparkNLP_vs_Cloud_Providers_Comparison.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.3.Clinical_Deidentification_SparkNLP_vs_Cloud_Providers_Comparison.ipynb)
 
-### ➤ Optical Character Recognition with Spark OCR
+[4.4.Clinical_Deidentification_Improvement.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.4.Clinical_Deidentification_Improvement.ipynb)
+
+[4.5.Clinical_Deidentification_Utility_Module.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/4.5.Clinical_Deidentification_Utility_Module.ipynb)
+
+### Optical Character Recognition with Spark OCR
 
 [5.Spark_OCR.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/5.Spark_OCR.ipynb)
 
@@ -164,9 +181,9 @@ If you don't have time to cover all these, please check the following notebook f
 
 [5.2.Spark_OCR_Deidentification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/5.2.Spark_OCR_Deidentification.ipynb)
 
+[5.3.Spark_OCR_Utility_Module.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/5.3.Spark_OCR_Utility_Module.ipynb)
 
 ### Large Language Modeling
-
 
 [31.Medical_Question_Answering.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/31.Medical_Question_Answering.ipynb)
 
@@ -185,15 +202,7 @@ If you don't have time to cover all these, please check the following notebook f
 [33.1.Medical_Text_Generation.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/33.1.Medical_Text_Generation.ipynb)
 
 
-### ➤ Clinical Pipelines
-
-[11.Pretrained_Clinical_Pipelines.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/11.Pretrained_Clinical_Pipelines.ipynb)
-
-[11.1.Healthcare_Code_Mapping.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/11.1.Healthcare_Code_Mapping.ipynb)
-
-[11.2.Pretrained_NER_Profiling_Pipelines.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/11.2.Pretrained_NER_Profiling_Pipelines.ipynb)
-
-### ➤ Classifiers
+### Classifiers
 
 [8.Generic_Classifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/8.Generic_Classifier.ipynb)
 
@@ -205,41 +214,70 @@ If you don't have time to cover all these, please check the following notebook f
 
 [30.1.Text_Classification_with_DocumentMLClassifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/30.1.Text_Classification_with_DocumentMLClassifier.ipynb)
 
+[30.2.Text_Classification_with_Contextual_Window_Splitting.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/30.2.Text_Classification_with_Contextual_Window_Splitting.ipynb)
+
 [30.3.Text_Classification_with_FewShotClassifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/30.3.Text_Classification_with_FewShotClassifier.ipynb)
 
-### ➤ Normalizers
+
+### Clinical Pipelines
+
+[11.Pretrained_Clinical_Pipelines.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/11.Pretrained_Clinical_Pipelines.ipynb)
+
+[11.2.Pretrained_NER_Profiling_Pipelines.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/11.2.Pretrained_NER_Profiling_Pipelines.ipynb)
+### ➤ Topic Based Notebooks
+
+[16.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/16.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb)
+
+[27.Oncology_Model.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/27.Oncology_Model.ipynb)
+
+[35.Voice_of_Patient_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/35.Voice_of_Patient_Models.ipynb)
+
+[36.Social_Determinant_of_Health_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/36.Social_Determinant_of_Health_Models.ipynb)
+
+
+### ➤ Utility Notebooks
+
+[1.2.Contextual_Parser_Rule_Based_NER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/1.2.Contextual_Parser_Rule_Based_NER.ipynb)
+
+[7.Clinical_NER_Chunk_Merger.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/7.Clinical_NER_Chunk_Merger.ipynb)
+
+[20.SentenceDetectorDL_Healthcare.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/20.SentenceDetectorDL_Healthcare.ipynb)
+
+[6.Clinical_Context_Spell_Checker.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/6.Clinical_Context_Spell_Checker.ipynb)
+
+
+### Normalizers
 
 [23.Drug_Normalizer.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/23.Drug_Normalizer.ipynb)
 
 [25.Date_Normalizer.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/25.Date_Normalizer.ipynb)
 
-### ➤ Auxillary Notebooks
 
-[6.Clinical_Context_Spell_Checker.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/6.Clinical_Context_Spell_Checker.ipynb)
+### Auxillary Notebooks
 
-[9.Chunk_Key_Phrase_Extraction.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/9.Chunk_Key_Phrase_Extraction.ipynb)
 
-[12.Named_Entity_Disambiguation.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/12.Named_Entity_Disambiguation.ipynb)
+[28.EntityRuler_with_Clinical_NER_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/28.EntityRuler_with_Clinical_NER_Models.ipynb)
 
-[14.German_Healthcare_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/14.German_Healthcare_Models.ipynb)
-
-[15.German_Licensed_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/15.German_Licensed_Models.ipynb)
+[29.Coreference_Resolution_with_Clinical_NER_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/29.Coreference_Resolution_with_Clinical_NER_Models.ipynb)
 
 [17.Graph_builder_for_DL_models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/17.Graph_builder_for_DL_models.ipynb)
 
 [18.Chunk_Sentence_Splitter.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/18.Chunk_Sentence_Splitter.ipynb)
 
-[20.SentenceDetectorDL_Healthcare.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/20.SentenceDetectorDL_Healthcare.ipynb)
+[9.Chunk_Key_Phrase_Extraction.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/9.Chunk_Key_Phrase_Extraction.ipynb)
 
-[26.Chunk_Mapping.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/26.Chunk_Mapping.ipynb)
-
-[27.Oncology_Model.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/27.Oncology_Model.ipynb)
+[12.Named_Entity_Disambiguation.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/12.Named_Entity_Disambiguation.ipynb)
 
 [34.Model_Download_Helpers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/34.Model_Download_Helpers.ipynb)
 
-[35.Voice_of_Patient_Model.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/35.Voice_of_Patient_Model.ipynb)
 
-[36.Social_Determinant_of_Health_Model.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/36.Social_Determinant_of_Health_Model.ipynb)
+
+### World Language Models
+
+[14.German_Healthcare_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/14.German_Healthcare_Models.ipynb)
+
+[15.German_Licensed_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/15.German_Licensed_Models.ipynb)
+
 
 ## ☞ Biomedical & Clinical NER Models Benchmarks/ Rankings
 

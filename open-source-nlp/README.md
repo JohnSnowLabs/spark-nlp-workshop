@@ -2,11 +2,11 @@
 
 If you don't have time to cover all these, please check the follwing notebook for a quick review.
 
-
- [3-hr summary of entire package](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/00.SparkNLP_for_OpenSource_3h_Notebook.ipynb)
-
 ## Table of Contents
 
+### ➤ SparkNLP Overview
+
+[3-hr summary of entire package](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/00.SparkNLP_for_OpenSource_3h_Notebook.ipynb)
 
 ### Spark NLP Basics
 
@@ -44,24 +44,9 @@ If you don't have time to cover all these, please check the follwing notebook fo
 [06.0.Text_Similarities_and_Dimension_Reduction_Visualizations_for_Embeddings.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/06.0.Text_Similarities_and_Dimension_Reduction_Visualizations_for_Embeddings.ipynb)
 
 
-
-### Auxillary Notebooks
-
-[07.0.Context_Spell_Checker.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/07.0.Context_Spell_Checker.ipynb)
-
-[08.0.Keyword_Extraction_YAKE.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/08.0.Keyword_Extraction_YAKE.ipynb)
-
-[09.0.SentenceDetectorDL.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/09.0.SentenceDetectorDL.ipynb)
-
-[10.0.Graph_Extraction.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/10.0.Graph_Extraction.ipynb)
-
-[11.0.EntityRuler.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/entity-ruler-certification/open-source-nlp/11.0.EntityRuler.ipynb)
-
-
 ###  NLU
 
 [12.0.NLU_Crashcourse_Every_SparkNLP_Model_in_One_Line.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/12.0.NLU_Crashcourse_Every_SparkNLP_Model_in_One_Line.ipynb)
-
 
 ### Transformers and Large Language Modeling
 
@@ -89,3 +74,17 @@ If you don't have time to cover all these, please check the follwing notebook fo
 ### Speech Recognition
 
 [17.0.Automatic_Speech_Recognition_Wav2Vec2.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/17.0.Automatic_Speech_Recognition_Wav2Vec2.ipynb)
+
+
+
+### Auxillary Notebooks
+
+[07.0.Context_Spell_Checker.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/07.0.Context_Spell_Checker.ipynb)
+
+[08.0.Keyword_Extraction_YAKE.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/08.0.Keyword_Extraction_YAKE.ipynb)
+
+[09.0.SentenceDetectorDL.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/09.0.SentenceDetectorDL.ipynb)
+
+[10.0.Graph_Extraction.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/10.0.Graph_Extraction.ipynb)
+
+[11.0.EntityRuler.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/entity-ruler-certification/open-source-nlp/11.0.EntityRuler.ipynb)

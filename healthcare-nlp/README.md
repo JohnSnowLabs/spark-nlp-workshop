@@ -80,13 +80,19 @@ update date: 2023-04-13
 [06.1.Code_Mapping_Pipelines.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/06.1.Code_Mapping_Pipelines.ipynb)
 
 
-### ➤ Large Language Madeling
+### ➤ Large Language Modeling
 
 [23.0.Medical_Question_Answering](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/23.0.Medical_Question_Answering.ipynb)
 
+[23.1.Porting_QA_Models_From_Text_Generator_Backbone](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/23.1.Porting_QA_Models_From_Text_Generator_Backbone.ipynb)
+
 [24.0.Medical_Text_Summarization](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/24.0.Medical_Text_Summarization.ipynb)
 
-[24.1.Comparison_Medical_Text_Summarization](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/24.1.Comparison_Medical_Text_Summarization.ipynb)
+[24.1.Medical_Text_Summarization_with_Abstractive_Approach](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/24.1.Medical_Text_Summarization_with_Abstractive_Approach.ipynb)
+
+[24.2.Medical_Text_Summarization_with_Extractive_Approach](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/24.2.Medical_Text_Summarization_with_Extractive_Approach.ipynb)
+
+[24.3.Comparison_Medical_Text_Summarization](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/24.3.Comparison_Medical_Text_Summarization.ipynb)
 
 [25.0.Biogpt_Chat_JSL](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/25.0.Biogpt_Chat_JSL.ipynb)
 
@@ -98,6 +104,12 @@ update date: 2023-04-13
 [21.0.Oncology_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/21.0.Oncology_Model.ipynb)
 
 [22.0.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/22.0.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb)
+
+[26.0.Voice_of_Patient_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/26.0.Voice_of_Patient_Models.ipynb)
+
+[27.0.Social_Determinant_of_Health_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/27.0.Social_Determinant_of_Health_Models.ipynb)
+
+
 
 
 ### ➤ Clinical Pipelines
@@ -120,6 +132,9 @@ update date: 2023-04-13
 [08.4.Gender_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/08.4.Gender_Classifier.ipynb)
 
 [08.5.Text_Classification_with_Contextual_Window_Splitting.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/08.5.Text_Classification_with_Contextual_Window_Splitting.ipynb)
+
+[08.6.Text_Classification_with_FewShotClassifier](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/08.6.Text_Classification_with_FewShotClassifier.ipynb)
+
 
 ### ➤ Utility Notebooks
 
@@ -153,9 +168,7 @@ update date: 2023-04-13
 
 [20.0.Named_Entity_Disambiguation.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/20.0.Named_Entity_Disambiguation.ipynb)
 
-[26.0.Voice_of_Patient_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/26.0.Voice_of_Patient_Model.ipynb)
-
-[27.0.Social_Determinant_of_Health_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/27.0.Social_Determinant_of_Health_Model.ipynb)
+[28.0.Model_Download_Helpers.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/228.Model_Download_Helpers.ipynb)
 
 
 ## ☞ Biomedical & Clinical NER Models Benchmarks/ Rankings
