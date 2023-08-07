@@ -97,7 +97,7 @@
 [90.0.Financial_Visual_Classification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/90.0.Financial_Visual_Classification.ipynb)
 
 ## Vector Search
-[16.0.earning_calls_preprocessing.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/16.0.earning_calls_preprocessing.ipynb)
+[16.0.earning_calls_sample.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/16.0.earning_calls_sample.ipynb)
 
 ## Combining with Visual NLP
 [90.1.Visual_and_Textual_Classification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/90.1.Visual_and_Textual_Classification.ipynb)
