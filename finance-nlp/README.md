@@ -88,6 +88,9 @@
 ## Chunk Key Phrase Extraction
 [14.0.Financial_ChunkKeyPhraseExtraction.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/14.0.Financial_ChunkKeyPhraseExtraction.ipynb)
 
+## Vector Search
+[16.0.Vector_Store_Integration.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/16.0.Vector_Store_Integration.ipynb)
+
 ## Use cases
 [80.0.Use_case_Capital_Agreements.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/finance-nlp/80.0.Use_case_Capital_Agreements.ipynb)
 

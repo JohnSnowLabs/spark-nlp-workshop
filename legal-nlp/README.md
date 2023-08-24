@@ -87,6 +87,9 @@
 ## Normalizer
 [15.0.Date_Normalizer.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/15.0.Date_Normalizer.ipynb)
 
+## Vector Search
+[17.0.Vector_Store_Integration.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/17.0.Vector_Store_Integration.ipynb)
+
 ## Use Cases
 [80.0.Legal_Contract_Understanding.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/legal-nlp/80.0.Legal_Contract_Understanding.ipynb)
 
