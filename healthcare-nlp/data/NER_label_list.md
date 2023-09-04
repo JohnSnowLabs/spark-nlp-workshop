@@ -437,7 +437,6 @@
 - `Vital_Signs_Header`
 - `Warfarin`
 - `Weight`
-- `X`
 - `ZIP`
 - `behavior_alcohol`
 - `behavior_drug`
