@@ -1,0 +1,15 @@
+Patient Name: Olivia Thompson
+Social Security Number: 231-74-1234
+Date of Birth: August 10, 1985
+Mobile: +91 (123) 456-7890
+Gender: Female
+
+Olivia Thompson is a 35-year-old female residing in the city of Brighton, Massachusetts. She lives in a suburban area with her husband and two children. She works as a marketing executive for a multinational corporation.
+
+Olivia has a past medical history of allergic rhinitis, for which she is currently taking over-the-counter antihistamines as needed. There is no history of any significant medical conditions or surgeries.
+
+There is no significant family history of chronic illnesses or genetic disorders. Olivia's parents are both healthy and there are no known instances of cancer, heart disease, or diabetes in the immediate family.
+
+Olivia presented with a history of recurrent headaches, predominantly located in the fronto-temporal region. The headaches are described as throbbing in nature and occur approximately 2-3 times a week. They are associated with photophobia, but she denies any vision changes or other neurological symptoms.
+
+Olivia underwent a comprehensive laboratory workup, including complete blood count, basic metabolic panel, and liver function tests, which were all within normal limits. An MRI of the brain was performed, which did not reveal any structural abnormalities. A diagnosis of primary headaches, possibly migraines, was made based on the clinical presentation and exclusion of other underlying causes.
