@@ -1,0 +1,1 @@
+{"setType": "regex", "type": "context parser", "entity": "PhoneNumber", "ruleScope": "document", "matchScope": "sub-token", "caseSensitive": true, "regex": "(\\+\\d{1,2}\\s)?\\(?\\d{3}\\)?[\\s.-]\\d{3}[\\s.-]\\d{4}", "contextLength": "40", "prefix": ["Mobile", "Phone", "Number", "Fax"], "suffix": [], "exceptionDistance": "0", "contextException": [], "completeMatchRegex": "false"}

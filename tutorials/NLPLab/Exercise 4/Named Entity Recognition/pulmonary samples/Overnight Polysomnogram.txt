@@ -1,0 +1,27 @@
+Patient comes in for initial testing.
+
+The patient underwent an overnight polysomnogram on 09/22/06 and the details of the polysomnographic study are reported separately. The highlights of the study include the following:
+
+A. Obstructive apneas and hypopneas were identified with an overall apnea-hypopnea index of 15.2 events per hour in the supine position. All events occurred in the supine position and were more prominent during stage REM sleep. Minimum oxygen saturation was 88%.
+B. Periodic limb movements in sleep were identified with an overall index of 32 events per hour of sleep.
+C. The patient's sleep efficiency was reduced to 89.2%. There was significant sleep fragmentation due to the obstructive apneas and hypopneas as well as due to the periodic limb movements in sleep disorder. The patient did not achieve any stage III/IV sleep and stage REM sleep was diminished at 12.7%. There was a corresponding increase in stage I sleep and stage II sleep at 10.8% and 65.7% respectively.
+
+DIAGNOSTIC IMPRESSION:
+1. Obstructive sleep apnea syndrome, supine position dependent, moderate (780.53-0).
+2. Periodic limb movement in sleep disorder, moderate (780.53-4).
+
+CASE DISCUSSION: Thank you once again for allowing us to participate in the care of the patient here at the Sleep Clinic.
+
+The patient exhibits obstructive sleep apnea, a condition associated with increased risk of myocardial infarction, stroke and sudden death. Furthermore, patients with this condition are susceptible to excessive daytime sleepiness while driving and there is a higher incidence of automobile accident. The patient should be warned with regards to these possibilities.
+
+Patients with this condition can be successfully treated with nasal CPAP (continuous positive airway pressure), so that the patient should return to the sleep laboratory for repeat overnight polysomnogram with CPAP titration. The sleep laboratory if necessary can introduce the patient to the proper use of the CPAP equipment and to determine a necessary pressure to prevent apneas.
+
+It is reported that the patient undergo careful ENT/maxillofacial evaluation by a physician familiar with sleep disorders. Anatomical abnormalities in the upper airway often cause or predispose to this condition. Surgical intervention may be helpful or necessary if such conditions exist. Alternatively, ________ may be of benefit in some patients depending upon the anatomical abnormalities.
+
+Obstructive sleep apnea is worsened by obesity. The patient should be encouraged to lose weight. Patients usually lose weight more effectively when involved in a behavioral weight loss program. It is sometimes difficult for patients to lose weight until the OSA is adequately treated because excessive daytime sleepiness results in decreased physical activity in the daytime.
+
+Patient may have worsening obstructive sleep apnea by nasal airway obstruction and nasal congestion. If present, these conditions should be treated. In addition, any home allergens such as pets, down bedding or other factors should be removed from the sleep environment.
+
+The patient should be informed that obstructive sleep apnea may be worsened by the use of alcohol or sedative medications particularly taken in the evening. Therefore, the evening use of sedative medications and alcohol are to be avoided.
+
+The patient also exhibits periodic limb movements in sleep disorder. This may require treatment. However, it will be appropriate to obtain the repeat overnight polysomnogram with CPAP titration to see if the PLMS continues to be troublesome. If so, treatment recommendations will be made.

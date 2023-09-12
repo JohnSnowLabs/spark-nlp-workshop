@@ -1,0 +1,16 @@
+<View orientation="horizontal">
+  <Labels name="label" toName="text">
+    <Label value="Disease_Syndrome_Disorder" model="ner_jsl_enriched" background="#963b7c"/>
+    <Label value="VS_Finding" model="ner_jsl_enriched" background="#df0c9e"/>
+    <Label value="Test_Result" model="ner_jsl_enriched" background="#c3755a"/>
+    <Label value="Drug_Ingredient" model="ner_jsl_enriched" background="#67ec09"/>
+    <Label value="Modifier" model="ner_jsl_enriched" background="#7df795"/>
+    <Label value="Gender" model="ner_jsl_enriched" background="#529629"/>
+    <Label value="Age" model="ner_jsl_enriched" background="#a52811"/>
+    <Label value="Employment" model="ner_jsl_enriched" background="#e7311b"/>
+    <Label value="Present" model="assertion_jsl_augmented" background="#c02325" assertion="true"/>
+    <Label value="Absent" model="assertion_jsl_augmented" background="#5b4ddc" assertion="true"/>
+    <Label value="Possible" model="assertion_jsl_augmented" background="#37a70c" assertion="true"/>
+  </Labels>
+  <Text name="text" value="$text"/>
+</View>
