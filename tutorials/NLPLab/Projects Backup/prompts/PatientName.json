@@ -1,0 +1,14 @@
+{
+    "id": 1,
+    "name": "PatientName",
+    "prompt_type": "ner",
+    "model_source": "external",
+    "prompts": {
+        "ner": [
+            "You are a highly experienced, skilled, and helpful medical annotator analyzing patient encounter notes. You need to identify all mentions of the patient's name and surname in the provided text. Only consider proper English first names and last names. Also extract appellatives such as Mr., Ms., Mrs., Prof, PhD, etc. together with the patient's name if they appear in the text.\nDo not extract common nouns such as \"patient\", \"he\", \"the boy\", \"lady\", etc. \nDo not extract references to family members, locations, job titles, etc.\n"
+        ]
+    },
+    "false_prompts": {},
+    "description": "",
+    "service_provider_id": 1
+}
