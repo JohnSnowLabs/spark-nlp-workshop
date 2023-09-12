@@ -1,0 +1,9 @@
+<View orientation="horizontal-sticky">
+  <Labels name="label" toName="text">
+    <Label value="TREATMENT" background="#55d5cc" hotkey="T"/>
+    <Label value="PROBLEM" background="#7ab95e"/>
+    <Label value="TEST" background="#4f1a82"/>
+    <Label value="Medicine" background="#0000ff"/>
+    <Label value="MedicalCondition" background="#ff8c00"/>
+    <Label value="Pathogen" background="#008000" />
+  </Labels>

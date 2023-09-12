@@ -1,0 +1,38 @@
+<View>
+  <Labels name="ner" toName="text">
+    <Label value="Age" background="pink" hotkey="A"/>
+    <Label value="Gender" background="#452228" hotkey="S"/>
+    <Label value="Employment" background="olive" hotkey="D"/>
+    <Label value="Date" background="orange" hotkey="F"/>
+    <Label value="Disease_Syndrome_Disorder" background="#0036f8" hotkey="Q"/>
+    <Label value="Modifier" background="gray" hotkey="W"/>
+    <Label value="VS_Finding" background="green" hotkey="E"/>
+    <Label value="Test_Result" background="purple" hotkey="T"/>
+    <Label value="Drug_Ingredient" background="gold" hotkey="Y"/>
+    <Label value="Present" assertion="true" background="red" hotkey="Z"/>
+    <Label value="Absent" assertion="true" background="red" hotkey="X"/>
+    <Label value="Possible" assertion="true" background="red" hotkey="C"/>
+    <Label value="Family" assertion="true" background="red" hotkey="V"/>
+  </Labels>
+  <Relations>
+    <Relation value="is_diagnosis_date_of" background="yellowgreen"/>
+    <Relation value="is_modifier_of" background="yellowgreen"/>
+    <Relation value="is_cause_of" background="yellowgreen"/>
+    <Relation value="is_result_of" background="yellowgreen"/>
+  </Relations>
+  <View style="height: 200px; overflow: auto;">
+    <Text name="text" value="$text"/>
+  </View>
+  <Header value="Gender"/>
+  <Choices name="Gender" toName="text" choice="single" showInLine="true">
+    <Choice value="Female" hotkey="_"/>
+    <Choice value="Male" hotkey="_"/>
+    <Choice value="Unknown" hotkey="_"/>
+  </Choices>
+  <Header value="Kind of Text"/>
+  <Choices name="Kind_of_Text" toName="text" choice="single" showInLine="true">
+    <Choice value="Surgical Note" hotkey="_"/>
+    <Choice value="Other Clinical Text" hotkey="_"/>
+    <Choice value="Unknown" hotkey="_"/>
+  </Choices>
+</View>

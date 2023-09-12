@@ -1,0 +1,9 @@
+HISTORY:This is a digital EEG performed on a 75-year-old male with seizures.
+
+BACKGROUND ACTIVITY: The background activity consists of a 8 Hz to 9 Hz rhythm arising in the posterior head region. This rhythm is also accompanied by some beta activity which occurs infrequently. There are also muscle contractions occurring at 4 Hz to 5 Hz which suggests possible Parkinson's. Part of the EEG is obscured by the muscle contraction artifact. There are also left temporal sharps occurring infrequently during the tracing. At one point of time, there was some slowing occurring in the right frontal head region.
+
+ACTIVATION PROCEDURES: Photic stimulation was performed and did not show any significant abnormality.
+
+SLEEP PATTERNS: No sleep architecture was observed during this tracing.
+
+IMPRESSION: This awake/alert/drowsy EEG is abnormal due to the presence of slowing in the right frontal head region, due to the presence of sharps arising in the left temporal head region, and due to the tremors. The slowing can be consistent with underlying structural abnormalities, so a stroke, subdural hematoma, etc., should be ruled out. The tremor probably represents a Parkinson's tremor and the sharps arising in the left temporal head region can potentially give way to seizures or may also represent underlying structural abnormalities, so clinical correlation is recommended.
