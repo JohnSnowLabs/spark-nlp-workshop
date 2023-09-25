@@ -1,21 +1,25 @@
 ### Spark-NLP for Healthcare in AWS Glue
 
-In this page we explain how to start Glue session with Spark-NLP + Spark-NLP Healthcare in AWS Glue UI. This configuration is already ready-to-use for **Glue Notebooks**.
+On this page, we explain how to start a Glue session with Spark-NLP + Spark-NLP Healthcare in AWS Glue UI. This configuration is already ready-to-use for **Glue Notebooks**.
 
 ### Steps
 ## 1. Create Notebook
 
 You must go to "Notebooks" section of AWS Glue on the UI. You need to click on Jupyter Notebook and upload existing notebooks or create new notebook. Once we choose, we can continue by clicking "Create" button.
 
-Please give an job name and choose IAM role. The chosen IAM role has to have access to s3 buckets.
+![Screen Shot 2023-09-25 at 7 51 01 PM](https://github.com/JohnSnowLabs/spark-nlp-workshop/assets/72014272/5376beba-e8c6-4f3b-9a92-397ad21ea4a6)
 
-Once we start the notebook, We need to make configuration on Glue session that will be started. We can make these configuration by using Glue interactive session magics.
 
+Please give a job name and choose the IAM role. The chosen IAM role has to have access to s3 buckets.
+
+Once we start the notebook, We need to make a configuration on the Glue session that will be started. We can make these configurations by using Glue interactive session magics.
+
+![Screen Shot 2023-09-25 at 7 52 52 PM](https://github.com/JohnSnowLabs/spark-nlp-workshop/assets/72014272/a69c52e1-681e-405a-b650-9bd054a3d5d3)
 
 
 ## 2. Start Session
 
-Once we start the notebook, We need to configure the Glue session that will be started. we can make these configuration by using Glue interactive session magics.
+Once we start the notebook, We need to configure the Glue session that will be started. we can make these configurations by using Glue interactive session magics.
 
 
 In the first cell of the notebook, enter the following for configurations:
@@ -53,17 +57,17 @@ In the first cell of the notebook, enter the following for configurations:
 }
 ```
 **__Important__**:
-You need to install the johnsnowlabs jars, whl files and upload to your s3 bucket.
+You need to install the johnsnowlabs jars, .whl files and upload them to your s3 bucket.
 
 Also, you need to enter the path of the bucket for spark.jsl.settings.pretrained.cache_folder.
 
-Please create s3 access key, secret key, session token using aws cli. This is important to have an access to s3 bucket.
+Please create an s3 access key, secret key, and session token using AWS CLI. This is important to have access to the s3 bucket.
 
 Make sure that you replace all the secret information (marked here as <jsl_license>, <pretrained.credentials.access_key_id>, <pretrained.credentials.secret_access_key> ) by the appropriate values that you received with your license.<br/> 
 
 If you are having issues with the license, please contact JSL team at support@johnsnowlabs.com
 
-Once you made changes on the configurations and run the first cell, you can start the `Glue Session` by running the following code in the second cell:
+Once you made changes to the configurations and run the first cell, you can start the `Glue Session` by running the following code in the second cell:
 
 ```
 %glue_version 4.0
@@ -82,7 +86,7 @@ spark._jvm.com.johnsnowlabs.util.start.registerListenerAndStartRefresh()
 job = Job(glueContext)
 ```
 
-You can find the described configuration in the begining of the all example healthcare notebooks which is located the healthcare folder of the repo.
+You can find the described configuration at the beginning of all example healthcare notebooks which is located in the healthcare folder of the repo.
 
 ## 3. Any Doubt?
 Write us to support@johnsnowlabs.com
