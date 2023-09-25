@@ -5,57 +5,57 @@
 
 ### ➤ Clinical Named Entity Recognition
 
-[01.0.Clinical_Named_Entity_Recognition_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/01.0.Clinical_Named_Entity_Recognition_Model.ipynb)
+[01.0.Clinical_Named_Entity_Recognition_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/emr/healthcare/01.0.Clinical_Named_Entity_Recognition_Model.ipynb)
 
 
 
 ### ➤ Clinical Assertion
 
-[02.0.Clinical_Assertion_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/02.0.Clinical_Assertion_Model.ipynb)
+[02.0.Clinical_Assertion_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/emr/healthcare/02.0.Clinical_Assertion_Model.ipynb)
 
 
 
 ### ➤ Clinical Relation Extraction
 
-[03.0.Clinical_Relation_Extraction.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/03.0.Clinical_Relation_Extraction.ipynb)
+[03.0.Clinical_Relation_Extraction.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/emr/healthcare/03.0.Clinical_Relation_Extraction.ipynb)
 
 
 
 ### ➤ Clinical De-identification
 
-[04.0.Clinical_DeIdentification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/04.0.Clinical_DeIdentification.ipynb)
+[04.0.Clinical_DeIdentification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/emr/healthcare/04.0.Clinical_DeIdentification.ipynb)
 
 
 
 ### ➤ Clinical Entity Resolution
 
-[05.0.Clinical_Entity_Resolvers.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/05.0.Clinical_Entity_Resolvers.ipynb)
+[05.0.Clinical_Entity_Resolvers.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/emr/healthcare/05.0.Clinical_Entity_Resolvers.ipynb)
 
 
 
 ### ➤ Large Language Modeling
 
-[23.0.Medical_Question_Answering](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/23.0.Medical_Question_Answering.ipynb)
+[23.0.Medical_Question_Answering](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/emr/healthcare/23.0.Medical_Question_Answering.ipynb)
 
-[24.0.Medical_Text_Summarization](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/24.0.Medical_Text_Summarization.ipynb)
+[24.0.Medical_Text_Summarization](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/emr/healthcare/24.0.Medical_Text_Summarization.ipynb)
 
 
 
 ### ➤ Topic Based Notebooks
 
-[21.0.Oncology_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/21.0.Oncology_Model.ipynb)
+[21.0.Oncology_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/emr/healthcare/21.0.Oncology_Model.ipynb)
 
-[22.0.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/22.0.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb)
+[22.0.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/emr/healthcare/22.0.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb)
 
-[26.0.Voice_of_Patient_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/26.0.Voice_of_Patient_Models.ipynb)
+[26.0.Voice_of_Patient_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/emr/healthcare/26.0.Voice_of_Patient_Models.ipynb)
 
-[27.0.Social_Determinant_of_Health_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/27.0.Social_Determinant_of_Health_Models.ipynb)
+[27.0.Social_Determinant_of_Health_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/emr/healthcare/27.0.Social_Determinant_of_Health_Models.ipynb)
 
 
 
 ### ➤ Classifiers
 
-[08.0.Clinical_Text_Classification_with_SparkNLP.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/08.0.Clinical_Text_Classification_with_SparkNLP.ipynb)
+[08.0.Clinical_Text_Classification_with_SparkNLP.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/emr/healthcare/08.0.Clinical_Text_Classification_with_SparkNLP.ipynb)
 
 
 
