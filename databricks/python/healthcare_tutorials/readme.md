@@ -42,6 +42,10 @@
 
 [24.Medical_Text_Summarization.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/24.Medical_Text_Summarization.ipynb)
 
+[31.Medical_Question_Answering.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/31.Medical_Question_Answering.ipynb)
+
+[37.Text2SQL_Generation.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/37.Text2SQL_Generation.ipynb)
+
 ### ➤ Clinical Classifiers
 
 [3.Training_a_Text_Classification_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/3.%20Training%20a%20Text%20Classification%20Model.ipynb)
@@ -52,9 +56,15 @@
 
 ### ➤ Topic Based Notebooks
 
+[3.1.Calculate_Medicare_Risk_Adjustment_Score.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/3.1.Calculate_Medicare_Risk_Adjustment_Score.ipynb)
+
 [22.Oncology_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/22.%20Oncology%20Models.ipynb)
 
 [9.Adverse_Drug_Events_Detection_using_Named_Entity_Recognition_Classification_and_Assertion_Status_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/9.%20Adverse%20Drug%20Events%20Detection%20using%20Named%20Entity%20Recognition,%20Classification%20and%20Assertion%20Status%20Models.ipynb)
+
+[35.Voice_of_Patient_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/35.Voice_of_Patient_Models.ipynb)
+
+[36.Social_Determinant_of_Health_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/36.Social_Determinant_of_Health_Models.ipynb)
 
 ### ➤ Auxillary Notebooks
 
