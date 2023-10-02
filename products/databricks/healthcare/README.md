@@ -1,66 +1,102 @@
+# Requirements for Databircks
+
+
+
+*   Wheel ------> `spark_nlp_jsl-5.0.2-py3-none-any.whl`
+*   Maven------>`com.johnsnowlabs.nlp:spark-nlp_2.12:5.0.2` </br>
+(Install new -> Library Source(select maven)->Search Packages -> Maven Central )
+*   JAR    ------> `spark_nlp_jsl_5.0.2.jar`
+*   PyPI    ------> `johnsnowlabs-for-databricks==5.0.8`
+*   PyPI    ------> `numpy==1.22.4`
+*   PyPI    ------> `spark-nlp-display`
+*   PyPI    ------> `spark-nlp==5.0.2`
+*   PyPI    ------> `tensorflow-addons`
+*   PyPI    ------> `tensorflow==2.12.0`
+
+
+
+
+
 # **Spark-NLP for Healthcare**
 
 ## Table of Contents  
 
 ### ➤ All in One Notebook
 
-[SparkNLP_for_Healthcare_3h_Notebook.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/SparkNLP_for_Healthcare_3h_Notebook.ipynb)
+# **Spark-NLP for Healthcare**
 
-[1.Detect_clinical_entities_relations_and_assertion_status_with_pretrained_pipelines.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/1.%20Detect%20clinical%20entities,%20relations%20and%20assertion%20status%20with%20pretrained%20pipelines.ipynb)
+## Table of Contents  
+
+### ➤ All in One Notebook
+
+[00.Get_Started_Spark_NLP_for_Healthcare.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/00.Get_Started_Spark_NLP_for_Healthcare.ipynb)
+
+[07.0.Pretrained_Clinical_Pipelines.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/07.0.Pretrained_Clinical_Pipelines.ipynb)
 
 
 ### ➤ Clinical Named Entity Recognition
 
-[2.Training_and_Reusing_Clinical_Named_Entity_Recognition_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/2.%20Training%20and%20Reusing%20Clinical%20Named%20Entity%20Recognition%20Models.ipynb)
+[01.0.Clinical_Named_Entity_Recognition_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/01.0.Clinical_Named_Entity_Recognition_Model.ipynb)
 
-[8.ZeroShot_Clinical_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/8.ZeroShot_Clinical_NER.ipynb)
+[01.4.ZeroShot_Clinical_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/01.4.ZeroShot_Clinical_NER.ipynb)
 
-[10.Named_Entity_Recognition_using_rules.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/10.%20Named%20Entity%20Recognition%20using%20rules.ipynb)
+[09.0.Contextual_Parser_Rule_Based_NER.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/09.0.Contextual_Parser_Rule_Based_NER.ipynb)
 
 ### ➤ Clinical Assertion
 
-[5.Training_and_Reusing_Assertion_Status_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/5.%20Training%20and%20Reusing%20Assertion%20Status%20Models.ipynb)
+[02.0.Clinical_Assertion_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/02.0.Clinical_Assertion_Model.ipynb)
 
 
 ### ➤ Clinical Relation Extraction
 
-[4.Clinical_Relation_Extraction.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/4.%20Training%20and%20Reusing%20Clinical%20Relation%20Extraction%20Models.ipynb)
+[03.0.Clinical_Relation_Extraction.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/03.0.Clinical_Relation_Extraction.ipynb)
 
-[11.ZeroShot_Clinical_Relation_Extraction.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/11.ZeroShot_Clinical_Relation_Extraction.ipynb)
+[03.3.ZeroShot_Clinical_Relation_Extraction.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/03.3.ZeroShot_Clinical_Relation_Extraction.ipynb)
 
 ### ➤ Clinical De-identification
 
-[6.Clinical_DeIdentification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/6.%20Clinical%20Deidentification%20Models.ipynb)
+[04.0.Clinical_DeIdentification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/04.0.Clinical_DeIdentification.ipynb)
 
 ### ➤ Clinical Entity Resolution
 
-[7.Clinical_Entity_Resolvers.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/7.%20Clinical%20Entity%20Coding%20with%20Pretrained%20Resolver%20Models.ipynb)
+[05.0.Clinical_Entity_Resolvers.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/05.0.Clinical_Entity_Resolvers.ipynb)
 
-[23.Chunk_Mapping.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/23.Chunk_Mapping.ipynb)
+[06.0.Chunk_Mapping.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/06.0.Chunk_Mapping.ipynb)
 
 ### ➤ Large Language Modeling
 
-[24.Medical_Text_Summarization.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/24.Medical_Text_Summarization.ipynb)
+[23.0.Medical_Question_Answering.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/23.0.Medical_Question_Answering.ipynb)
+
+[24.0.Medical_Text_Summarization.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/24.0.Medical_Text_Summarization.ipynb)
+
+[29.0.Text2SQL_Generation.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/29.0.Text2SQL_Generation.ipynb)
 
 ### ➤ Clinical Classifiers
 
-[3.Training_a_Text_Classification_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/3.%20Training%20a%20Text%20Classification%20Model.ipynb)
+[08.2.Generic_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/08.2.Generic_Classifier.ipynb)
 
-[14.Advanced_Sentence_Detection_using_Pretrained_Classification_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/14.%20Advanced%20Sentence%20Detection%20using%20Pretrained%20Classification%20Model.ipynb)
+[11.0.SentenceDetectorDL_Healthcare.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/11.0.SentenceDetectorDL_Healthcare.ipynb)
 
-[21.MedicalBertForSequenceClassification_in_SparkNLP.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/21.MedicalBertForSequenceClassification_in_SparkNLP.ipynb)
+[08.3.MedicalBertForSequenceClassification_in_SparkNLP.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/08.3.MedicalBertForSequenceClassification_in_SparkNLP.ipynb)
 
 ### ➤ Topic Based Notebooks
 
-[22.Oncology_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/22.%20Oncology%20Models.ipynb)
+[05.3.Calculate_Medicare_Risk_Adjustment_Score.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/05.3.Calculate_Medicare_Risk_Adjustment_Score.ipynb)
 
-[9.Adverse_Drug_Events_Detection_using_Named_Entity_Recognition_Classification_and_Assertion_Status_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/9.%20Adverse%20Drug%20Events%20Detection%20using%20Named%20Entity%20Recognition,%20Classification%20and%20Assertion%20Status%20Models.ipynb)
+[21.0.Oncology_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/21.0.Oncology_Model.ipynb)
+
+[22.0.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/22.0.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb)
+
+[26.0.Voice_of_Patient_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/22.0.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb)
+
+[27.0.Social_Determinant_of_Health_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/27.0.Social_Determinant_of_Health_Models.ipynb)
+
 
 ### ➤ Auxillary Notebooks
 
-[12.Context_Based_Clinical_Spell_Checker.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/12.%20Context%20Based%20Clinical%20Spell%20Checker.ipynb)
+[10.0.Clinical_NER_Chunk_Merger.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/10.0.Clinical_NER_Chunk_Merger.ipynb)
 
-[13.Merging_Annotations_From_Multiple_Named_Entity_Recognition_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials/13.%20Merging%20Annotations%20From%20Multiple%20Named%20Entity%20Recognition%20Models.ipynb)
+[12.0.Clinical_Context_Spell_Checker.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/12.0.Clinical_Context_Spell_Checker.ipynb)
 
 ## ☞ Biomedical & Clinical NER Models Benchmarks/ Rankings
 

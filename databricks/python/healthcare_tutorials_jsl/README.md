@@ -40,7 +40,11 @@
 
 ### ➤ Large Language Modeling
 
+[23.0.Medical_Question_Answering.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/23.0.Medical_Question_Answering.ipynb)
+
 [24.0.Medical_Text_Summarization.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/24.0.Medical_Text_Summarization.ipynb)
+
+[29.0.Text2SQL_Generation.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/29.0.Text2SQL_Generation.ipynb)
 
 ### ➤ Clinical Classifiers
 
@@ -57,6 +61,11 @@
 [21.0.Oncology_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/21.0.Oncology_Model.ipynb)
 
 [22.0.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/22.0.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb)
+
+[26.0.Voice_of_Patient_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/22.0.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb)
+
+[27.0.Social_Determinant_of_Health_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/27.0.Social_Determinant_of_Health_Models.ipynb)
+
 
 ### ➤ Auxillary Notebooks
 
