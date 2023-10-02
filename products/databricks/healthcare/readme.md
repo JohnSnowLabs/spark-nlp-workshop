@@ -1,3 +1,28 @@
+# Requirements for Databircks
+
+
+
+*   Wheel ------> `spark_nlp_jsl-5.0.2-py3-none-any.whl`
+*   Maven------>`com.johnsnowlabs.nlp:spark-nlp_2.12:5.0.2` </br>
+(Install new -> Library Source(select maven)->Search Packages -> Maven Central )
+*   JAR    ------> `spark_nlp_jsl_5.0.2.jar`
+*   PyPI    ------> `johnsnowlabs-for-databricks==5.0.8`
+*   PyPI    ------> `numpy==1.22.4`
+*   PyPI    ------> `spark-nlp-display`
+*   PyPI    ------> `spark-nlp==5.0.2`
+*   PyPI    ------> `tensorflow-addons`
+*   PyPI    ------> `tensorflow==2.12.0`
+
+
+
+
+
+# **Spark-NLP for Healthcare**
+
+## Table of Contents  
+
+### ➤ All in One Notebook
+
 # **Spark-NLP for Healthcare**
 
 ## Table of Contents  
@@ -40,7 +65,11 @@
 
 ### ➤ Large Language Modeling
 
+[23.0.Medical_Question_Answering.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/23.0.Medical_Question_Answering.ipynb)
+
 [24.0.Medical_Text_Summarization.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/24.0.Medical_Text_Summarization.ipynb)
+
+[29.0.Text2SQL_Generation.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/29.0.Text2SQL_Generation.ipynb)
 
 ### ➤ Clinical Classifiers
 
@@ -57,6 +86,11 @@
 [21.0.Oncology_Model.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/21.0.Oncology_Model.ipynb)
 
 [22.0.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/22.0.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb)
+
+[26.0.Voice_of_Patient_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/22.0.Adverse_Drug_Event_ADE_NER_and_Classifier.ipynb)
+
+[27.0.Social_Determinant_of_Health_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_tutorials_jsl/27.0.Social_Determinant_of_Health_Models.ipynb)
+
 
 ### ➤ Auxillary Notebooks
 
