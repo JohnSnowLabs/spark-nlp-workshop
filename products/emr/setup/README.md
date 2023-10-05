@@ -1,6 +1,6 @@
 ### Spark-NLP for Healthcare in AWS EMR
 
-In this page, we explain how to setup Spark-NLP + Spark-NLP Healthcare in AWS EMR, using the AWS console. Also, You can create an EMR cluster automatically, you should follow [`this tutorial`](https://github.com/JohnSnowLabs/johnsnowlabs/blob/main/notebooks/create_emr_cluster.ipynb) to create EMR cluster automatically.
+In this page, we explain how to setup Spark-NLP + Spark-NLP Healthcare in AWS EMR, using the AWS Management Console. Also, You can create an EMR cluster automatically, you should follow [`this tutorial`](https://github.com/JohnSnowLabs/johnsnowlabs/blob/main/notebooks/create_emr_cluster.ipynb) to create an EMR cluster automatically.
 
 This configuration is already ready-to-use for **EMR Notebooks**.
 
