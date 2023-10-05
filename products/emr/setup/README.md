@@ -45,7 +45,7 @@ The script we'll use for this setup is `jsl_emr_bootstrap2.sh` which is containe
 You need to make a change in the script and add your license key to the med_license parameter in line 13 of the script. <br/>
 
 
-This script will install johnsnowlabs 5.0.2, you can edit the script if you need different versions.<br/>
+This script will install johnsnowlabs 5.1.0, you can edit the script if you need different versions.<br/>
 
 
 
