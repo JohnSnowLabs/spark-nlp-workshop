@@ -1,0 +1,26 @@
+<View>
+  <Labels name="label" toName="text">
+    <Label value="PROBLEM" model="ner_clinical" background="#db9a07"/>
+    <Label value="TEST" model="ner_clinical" background="#5c7f5b"/>
+    <Label value="TREATMENT" model="ner_clinical" background="#5bca01"/>
+    <Label value="Present" model="assertion_jsl" background="#b7d84e" assertion="true"/>
+    <Label value="Absent" model="assertion_jsl" background="#9f6e5c" assertion="true"/>
+    <Label value="Possible" model="assertion_jsl" background="#4e7006" assertion="true"/>
+    <Label value="Planned" model="assertion_jsl" background="#07732b" assertion="true"/>
+    <Label value="Someoneelse" model="assertion_jsl" background="#eb0bcc" assertion="true"/>
+    <Label value="Past" model="assertion_jsl" background="#8e4c8e" assertion="true"/>
+    <Label value="Family" model="assertion_jsl" background="#44f179" assertion="true"/>
+    <Label value="None" model="assertion_jsl" background="#206a99" assertion="true"/>
+    <Label value="Hypotetical" model="assertion_jsl" background="#d96074" assertion="true"/>
+  </Labels>
+  <Relations>
+    <Relation value="TeCP" model="re_clinical"/>
+    <Relation value="TrWP" model="re_clinical"/>
+    <Relation value="TeRP" model="re_clinical"/>
+    <Relation value="TrIP" model="re_clinical"/>
+    <Relation value="TrCP" model="re_clinical"/>
+    <Relation value="TrAP" model="re_clinical"/>
+    <Relation value="PIP" model="re_clinical"/>
+  </Relations>
+  <Text name="text" value="$text"/>
+</View>
