@@ -1,9 +1,0 @@
-<View orientation="horizontal-sticky">
-
-  <Choices toName="text" name="Response" choice="single"  showInLine="true">
-    <Choice value="Expected Response" hotkey="E"/>
-    <Choice value="Plausible Response" hotkey="P"/>
-    <Choice value="Implausible Response" hotkey="I"/>
-  </Choices>
-    <Text name="text" value="$text"/>
-</View>

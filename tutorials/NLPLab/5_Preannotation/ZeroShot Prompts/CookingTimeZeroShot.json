@@ -1,0 +1,20 @@
+{
+    "id": 5,
+    "name": "CookingTimeZeroShot",
+    "prompt_type": "ner",
+    "model_source": "downloaded",
+    "prompts": {
+        "ner": [
+            "How many minutes does the cooking take?",
+            "How many hours does the cooking take?"
+        ]
+    },
+    "false_prompts": {
+        "ner": [
+            "What is the cooking step?",
+            "What is the ingredient?"
+        ]
+    },
+    "description": "",
+    "model_name": "ner_zero_shot_ner_roberta"
+}

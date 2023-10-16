@@ -1,5 +1,0 @@
-PROCEDURE: The test was performed in an observed hospital laboratory due to the evidence of obstructive sleep apnea. The patient was monitored for EEG, EOG, jaw and leg EMG, thoracoabdominal impedance, oral/nasal thermistors, EKG, and oximetry.
-
-CPAP TITRATION STUDY: Total sleep time 425 minutes, sleep onset 7.8 minutes, and sleep efficiency 95%. Stage I 6%, stage II 53%, stage III 20%, and REM stage 15%, and awake 5%. Number of awakenings 6. Total arousals 36 with index 5.4, mild leg jerk movement with index 10.1. There was one apnea and 17 hypopneas with apnea/hypopnea index 2.7. The pressures required to prevent apnea/hypopnea varied between 5 and 11 cm H2O. The optimal pressure was 11 cm H2O, which prevented all of the apneas/hypopneas. The patient spent all his sleeping time in supine position. Average oxygen saturation 94% with lowest oxygen saturation 89%. Only less than 0.2 minutes was spent with oxygen saturation less than 90%.
-
-SUMMARY: Weight loss, PFTs if not done and CPAP with nasal mask at 11 cm H2O.

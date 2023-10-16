@@ -1,0 +1,1 @@
+{"setType": "regex", "type": "context parser", "entity": "cook_time", "ruleScope": "sentence", "matchScope": "sub-token", "caseSensitive": true, "regex": "\\d+", "contextLength": "20", "prefix": [], "suffix": ["minutes", "seconds", "min", "secs", "sec", "mins", "hour", "hours"], "exceptionDistance": "0", "contextException": [], "dictionary": "", "completeMatchRegex": "false"}
