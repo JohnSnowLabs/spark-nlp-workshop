@@ -1,1 +1,0 @@
-{"setType": "regex", "type": "context parser", "entity": "Email", "ruleScope": "document", "matchScope": "sub-token", "caseSensitive": true, "regex": "[a-zA-Z0-9.!#$%&\u2019*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*", "contextLength": "40", "prefix": [], "suffix": [], "exceptionDistance": "0", "contextException": [], "dictionary": "", "completeMatchRegex": "false"}

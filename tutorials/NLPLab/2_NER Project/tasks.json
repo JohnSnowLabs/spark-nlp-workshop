@@ -1,0 +1,86 @@
+[
+  {
+    "completions": [],
+    "predictions": [],
+    "created_at": "2023-10-13 16:23:59",
+    "created_by": "admin",
+    "data": {
+      "text": "J.K. is a 50 years old gentleman who has past medical history significant for obesity and diabetes type 2. He presents to our hospital with a chief complaint of headache and tiredness. The patient states that he was in relatively good health until last September. He noticed that he has had many headaches since then and that he becomes tired quickly. He was seen in the beginning of the month by a cardiologist and was put on diuretics due to high blood pressure.",
+      "title": "tasks.zip/3.txt"
+    },
+    "id": 3,
+    "sections": []
+  },
+  {
+    "completions": [],
+    "predictions": [],
+    "created_at": "2023-10-13 16:23:59",
+    "created_by": "admin",
+    "data": {
+      "text": "A 35-year-old male teacher came to the clinic on July 20th, 2023, mentioning recurrent episodes of joint pain. After a thorough assessment, he was diagnosed with Rheumatoid Arthritis exhibiting an aggressive pattern. Radiographic findings highlighted joint erosions in both wrists. Laboratory tests showed elevated rheumatoid factor levels. I've initiated treatment with Methotrexate to help control the disease activity.",
+      "title": "tasks.zip/6.txt"
+    },
+    "id": 6,
+    "sections": []
+  },
+  {
+    "completions": [],
+    "predictions": [],
+    "created_at": "2023-10-13 16:23:59",
+    "created_by": "admin",
+    "data": {
+      "text": "HISTORY AND PHYSICAL EXAMINATION\n\nC.M. is a 65 years old male who works as an architect. He has a medical history significant for hypertension and diabetes, both diagnosed back in 2017.\n\nHe presented to the ER on 12/12/2020 with complains of shortness of breath, fever and mild cough. Chest CT was ordered to assess the possibility of pneumonia. Given our current epidemiological context we did a nasopharyngeal swab, which came back negative for COVID-19.\n\nVITAL SIGNS:\n\nBlood pressure: 140/90 mmHg\n\nTemperature: 38\n\nPulse: 64\n\nFAMILY HISTORY:\n\nHis father was diagnosed with kidney failure caused by diabetes.\n\nCURRENT MEDICATION:\n\nTylenol 500mg by mouth three times daily.",
+      "title": "tasks.zip/1.txt"
+    },
+    "id": 1,
+    "sections": []
+  },
+  {
+    "completions": [],
+    "predictions": [],
+    "created_at": "2023-10-13 16:23:59",
+    "created_by": "admin",
+    "data": {
+      "text": "A 56-year-old male patient presented to the clinic with complaints of persistent fatigue. On examination, he is employed as a construction worker and reported symptoms beginning around May 10th, 2023. He was diagnosed with Chronic Fatigue Syndrome with a severe onset. The recent blood test showed an elevated erythrocyte sedimentation rate. I have prescribed him a 10-day course of Ibuprofen to alleviate the associated muscle pain.",
+      "title": "tasks.zip/4.txt"
+    },
+    "id": 4,
+    "sections": []
+  },
+  {
+    "completions": [],
+    "predictions": [],
+    "created_at": "2023-10-13 16:23:59",
+    "created_by": "admin",
+    "data": {
+      "text": "The patient is a 40-year-old white male who presents with a chief complaint of \"chest pain\".\n\nThe patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that his chest pain started yesterday evening and has been somewhat intermittent. The severity of the pain has progressively increased. He describes the pain as a sharp and heavy pain which radiates to his neck and left arm. He admits some shortness of breath and sweating\n\nHe states that he had nausea and vomiting yesterday. He denies any fever or chills. He states that he took 3 nitroglycerin sublingual tablets over the past 1 hour. There is a possibility the patient is having heart attack.",
+      "title": "tasks.zip/2.txt"
+    },
+    "id": 2,
+    "sections": []
+  },
+  {
+    "completions": [],
+    "predictions": [],
+    "created_at": "2023-10-13 16:23:59",
+    "created_by": "admin",
+    "data": {
+      "text": "A 42-year-old female patient, who works as a bank teller, visited the clinic on August 5th, 2018, with complaints of intermittent dizziness. She was subsequently diagnosed with Meniere's Disease that appears to have a moderate progression. The MRI findings confirmed the absence of any structural anomalies in her brain. Her blood tests revealed slightly decreased hemoglobin levels. Based on her symptoms, I have recommended a trial of Betahistine to help manage her condition",
+      "title": "tasks.zip/5.txt"
+    },
+    "id": 5,
+    "sections": []
+  },
+  {
+    "completions": [],
+    "predictions": [],
+    "created_at": "2023-10-13 16:23:59",
+    "created_by": "admin",
+    "data": {
+      "text": "A 48-year-old female, employed in the tech industry, consulted me on June 15th, 2023, voicing concerns about her frequent memory lapses. Post-evaluation, she was diagnosed with Mild Cognitive Impairment with a stress-related etiology. Neurological examination findings were largely unremarkable, but neuropsychological tests highlighted deficits in short-term memory. Her blood tests ruled out any thyroid or vitamin deficiencies. I have advised her to start on Donepezil to potentially slow the cognitive decline.",
+      "title": "tasks.zip/7.txt"
+    },
+    "id": 7,
+    "sections": []
+  }
+]

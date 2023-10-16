@@ -1,0 +1,9 @@
+<View orientation="horizontal" oneClickSubmit="true">
+  <Choices name="Emotion" toName="text" choice="single">
+    <Header value="Select Emotion"/>
+    <Choice value="positive"/>
+    <Choice value="negative"/>
+    <Choice value="neutral"/>
+  </Choices>
+  <Text name="text" value="$text"/>
+</View>

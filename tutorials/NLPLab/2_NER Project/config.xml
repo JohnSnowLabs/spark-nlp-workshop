@@ -1,0 +1,22 @@
+<View orientation="horizontal">
+  <Labels name="label" toName="text">
+    <Label value="Age" background="#ff3333" hotkey="A"/>
+    <Label value="Gender" background="#4c753d" hotkey="G"/>
+    <Label value="Employment" background="#0036f8" hotkey="E"/>
+    <Label value="Date" background="#ffb800"/>
+    <Label value="Disease Syndrome Disorder" background="#ba2b2b"/>
+    <Label value="Modifier" background="#b4b731"/>
+    <Label value="VS Finding" background="#fb16c8"/>
+    <Label value="Test Result" background="#13fa7c"/>
+    <Label value="Drug Ingredient" background="#7a6109"/>
+    <Label value="Present" background="#0b7a09" assertion="true"/>
+    <Label value="Absent" background="#0b7a09" assertion="true"/>
+    <Label value="Possible" background="#0b7a09" assertion="true"/>
+    <Label value="Family" background="#0b7a09" assertion="true"/>
+  </Labels>
+  <Relations>
+    	<Relation value="Is_cause_of"/>
+    	<Relation value="Is_result_of"/>
+</Relations>
+  <Text name="text" value="$text"/>
+</View>

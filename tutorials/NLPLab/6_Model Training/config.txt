@@ -1,0 +1,15 @@
+<View>
+  <Labels name="label" toName="text">
+    <Label value="spice" background="#af405f" />
+    <Label value="meat" background="#027b16" />
+    <Label value="herb" background="#831dc3"/>
+    <Label value="dairy" background="#53e2fd" />
+    <Label value="fruit" background="#60fb5c" />
+    <Label value="vegetable" background="#80eb50" />
+    <Label value="quantity" background="#3ecb6f" />
+    <Label value="temperature" background="#1c239f" />
+    <Label value="cook_time" background="#e68f1c" />
+  </Labels>
+  <Text name="text" value="$text"/>
+
+</View>

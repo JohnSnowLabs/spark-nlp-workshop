@@ -1,7 +1,0 @@
-PROCEDURE: The test was performed in an observed hospital laboratory. The patient was monitored for EEG, EOG, jaw and leg EMG, thoracoabdominal impedance, oral/nasal thermistors, EKG, and oximetry. The test was performed due to suspicion of sleep apnea and poor sleep quality with frequent awakenings.
-
-The patient's height 6 feet, 1 inch and his weight 260 pounds.
-
-DETAILS: Total sleep period 377 minutes, total sleep time 241 minutes, sleep onset 33 minutes, and sleep efficiency 64%. Stage I 9%, stage II 59%, stage III 23%, and REM stage 9%. There were 306 apneas and hypopnea with apnea/hypopnea index 76. Out of them 109 apneas and 197 hypopneas. There were 40 arousals with index 9.9. Mean oxygen saturation 91% with lowest oxygen saturation 70%. A 19% of sleep time was spent with oxygen saturation less than 90% and 1% with less than 80%. Oxygen saturation during awake 95%. The patient slept in supine left side and right side, no preferred body position identified for apneas. Average pulse 85 BPMs with lowest 61 and highest 116 BPMs. No significant snoring throughout the study. No significant leg jerk movement.
-
-SUMMARY: Severe obstructive sleep apnea with apnea/hypopnea index 76 and respiratory disturbance index 9.9. Suggest weight loss, thyroid function evaluation, and CPAP titration study.

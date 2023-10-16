@@ -1,0 +1,12 @@
+<View visualNER="true" orientation="horizontal-sticky">
+  <View visibleWhen="never">
+    <Header value="Recognized Text"/>
+    <TextArea maxSubmissions="1" name="answer" rows="1" toName="image" perRegion="true"/>
+  </View>
+  <RectangleLabels name="label" toName="image">
+    <Label value="KEY" model="visualner_keyvalue_10kfilings" background="#c6f00e" hotkey="k"/>
+    <Label value="VALUE" model="visualner_keyvalue_10kfilings" background="#266599" hotkey="v"/>
+    <Label value="HEADER" model="visualner_keyvalue_10kfilings" background="#fe4785" hotkey="h"/>
+  </RectangleLabels>
+  <Image name="image" value="$image" zoom="true" zoomControl="true"/>
+</View>
