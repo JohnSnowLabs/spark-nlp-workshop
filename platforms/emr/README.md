@@ -1,87 +1,110 @@
 ### Spark-NLP for Healthcare in AWS EMR
 
-In this page we explain how to setup Spark-NLP + Spark-NLP Healthcare in AWS EMR, using the AWS console. This configuration is already ready-to-use for **EMR Notebooks**.
+In this page, we explain how to setup Spark-NLP + Spark-NLP Healthcare in AWS EMR, using the AWS console. Also, You can create an EMR cluster automatically, you should follow [`this tutorial`](https://github.com/JohnSnowLabs/johnsnowlabs/blob/main/notebooks/create_emr_cluster.ipynb) to create EMR cluster automatically.
+
+You can find example healthcare notebooks for EMR clusters in [`this folder`](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/products/emr/healthcare)
+
+This configuration is already ready-to-use for **EMR Notebooks**.
 
 ### Steps
-## 1. Software and Steps
+## 1. Software
 
-You must go to the blue button "Create Cluster" on the UI. By doing that you will get directed to the "Create Cluster - Quick Options" page. Don't use the quick options, click on "**Go to advanced options**" instead. ![image](https://user-images.githubusercontent.com/25952802/156375266-a91577f6-c9db-4592-98c2-8fa05036dca7.png)
+You must go to "EMR" on the UI. By doing that you will get directed to the "Create Cluster" page and click on the orange Create Cluster button. Choose the EMR release as 6.5.0 and please pick the following selection in the checkboxes.
 
-Now in Advanced Options, please pick the following selection in the checkboxes,
-![image](https://user-images.githubusercontent.com/25952802/156355170-56d1ba27-4751-49d3-b929-197ab167e1d4.png)
+![1](https://github.com/JohnSnowLabs/spark-nlp-workshop/assets/72014272/e495e6ba-d519-464c-a08f-8d350a15354c)
 
-Also in the "**Edit Software Settings**" section, enter the following for configurations:
-
-![image](https://user-images.githubusercontent.com/25952802/156357280-510009c6-2f12-44c5-9fe0-bd38e4d86838.png)
-
-```
-[{
-  "Classification": "spark-env",
-  "Configurations": [{
-    "Classification": "export",
-    "Properties": {
-      "PYSPARK_PYTHON": "/usr/bin/python3",
-      "AWS_ACCESS_KEY_ID": "XYXYXYXYXYXYXYXYXYXY",
-      "AWS_SECRET_ACCESS_KEY": "XYXYXYXYXYXYXYXYXYXY", 
-      "SPARK_NLP_LICENSE": "XYXYXYXYXYXYXYXYXYXYXYXYXYXY"
-    }
-  }]
-},
-{
-  "Classification": "spark-defaults",
-    "Properties": {
-      "spark.yarn.stagingDir": "hdfs:///tmp",
-      "spark.yarn.preserve.staging.files": "true",
-      "spark.kryoserializer.buffer.max": "2000M",
-      "spark.serializer": "org.apache.spark.serializer.KryoSerializer",
-      "spark.driver.maxResultSize": "0",
-      "spark.driver.memory": "32G"
-    }
-}]
-```
-**__Important__**:
-Make sure that you replace all the secret information(marked here as XYXYXYXYXY) by the appropriate values that you received with your license.<br/> 
-
-If you are having issues with the license, please contact JSL team at support@johnsnowlabs.com
 
 ## 2. Hardware
 Please choose the hardware and networking configuration you prefer, or just pick the defaults.
 
-**Important:** Keep in mind that there should be only one master node if you want to use EMR Notebooks. However, cluster can be scaled with additional slave nodes - which can be modified under `Cluster Nodes and Instances` section.
-![image](https://user-images.githubusercontent.com/25952802/156366353-c2326f2f-d903-40f5-87be-92273112e262.png)
+**Important:** Keep in mind that there should be only one master node if you want to use EMR Notebooks. However, the cluster can be scaled with additional slave nodes - which can be modified under `Cluster Nodes and Instances` section.
+
+![2](https://github.com/JohnSnowLabs/spark-nlp-workshop/assets/72014272/357544ca-19a9-46d4-8099-c0ae65882d27)
 
 
-Please set EBS Volume to `50 GiB` and move to next step by clicking the "Next" blue button.<br/>
-![image](https://user-images.githubusercontent.com/25952802/156357686-820d2c6d-f2c5-47ba-9140-7a60ba11cf6a.png)
+Please set EBS Volume to `50 GiB to 100 GiB` and move to the next step by clicking the "Next" blue button.<br/>
+
+![3](https://github.com/JohnSnowLabs/spark-nlp-workshop/assets/72014272/45b2287e-6aa6-413d-ad59-85ac7d19d75f)
+
+
 
 ## 3. General Cluster Settings
-Here is where you name your cluster, and you can change the location of the cluster logs. If the location of the logs is OK for you, take note of the path so you can debug potential problems by using the logs.<br/>
+
+
+In this part, we will make the necessary configurations of cluster settings. We're gonna add a script to be automatically executed after the cluster is created. This script will make changes on user's part and download some packages. We can click on the add button of `Steps` and upload the `initialization_script.sh` from your s3 bucket. `initialization_script.sh` script can be found in this folder and you can upload it to your s3 bucket.
+
+![4](https://github.com/JohnSnowLabs/spark-nlp-workshop/assets/72014272/b4c4ca6d-120e-411c-b0bf-cd71c33dbfdf)
+
+
+Go to the bottom of the page, and expand the `Bootstrap Actions` tab. We're gonna add an action to execute during the bootstrap of the cluster. Press on `Add` button. You need to provide a path to a script on S3.
+
+![5](https://github.com/JohnSnowLabs/spark-nlp-workshop/assets/72014272/05c3931c-16f7-47ad-b135-2612e85b3de4)
+
+
+The script we'll use for this setup is `jsl_emr_bootstrap2.sh` which is contained in this folder.
+
+
+You need to make a change in the script and add your license key to the med_license parameter in line 13 of the script. <br/>
+
+
+This script will install johnsnowlabs 5.0.2, you can edit the script if you need different versions.<br/>
+
+
+
+Also, expand the `Software Settings` tab, and enter the following for configurations:
+
+```
+[
+  {
+    "Classification": "spark-env",
+    "Configurations": [
+      {
+        "Classification": "export",
+        "Properties": {
+          "JSL_EMR": "1",
+          "PYSPARK_PYTHON": "/usr/bin/python3",
+          "SPARK_NLP_LICENSE": "XYXYXYXYXYXYXYXYXYXYXYXYXYXY"
+        }
+      }
+    ],
+    "Properties": {}
+  },
+  {
+    "Classification": "spark-defaults",
+    "Properties": {
+      "spark.driver.maxResultSize": "0",
+      "spark.driver.memory": "32G",
+      "spark.jsl.settings.aws.region": "us-east-1",
+      "spark.jsl.settings.pretrained.credentials.access_key_id": "XYXYXYXYXYXYXYXYXYXYXYXYXYXY",
+      "spark.jsl.settings.pretrained.credentials.secret_access_key": "XYXYXYXYXYXYXYXYXYXYXYXYXYXY",
+      "spark.kryoserializer.buffer.max": "2000M",
+      "spark.serializer": "org.apache.spark.serializer.KryoSerializer",
+      "spark.yarn.preserve.staging.files": "true",
+      "spark.yarn.stagingDir": "hdfs:///tmp"
+    }
+  }
+]
+```
+**__Important__**:
+Make sure that you replace all the secret information(marked here as XYXYXYXYXY) with the appropriate values that you received with your license.<br/> 
+
+If you are having issues with the license, please contact JSL team at support@johnsnowlabs.com
+
 
 Under **Tags** section, please add a `KEY: VALUE` pair with `for-use-with-amazon-emr-managed-policies` `true`
-![image](https://user-images.githubusercontent.com/25952802/156359265-0e4ed417-9c5d-4301-adc6-4736c6cda225.png)
 
-Go to the bottom of the page, and expand the `Bootstrap Actions` tab. We're gonna add an action to execute during bootstrap of the cluster. Select `Custom Action`, then press on `Configure and add`. You need to provide a path to a script on S3. The path needs to be public. Keep this in mind, no secret information can be contained there.<br/>
-The script we'll used for this setup is `emr_bootstrap_v2.sh` contained in the same folder this tutorial is located on Github.<br/>
+![6](https://github.com/JohnSnowLabs/spark-nlp-workshop/assets/72014272/0f03d691-1681-4c94-a6f0-7a62ec4605f2)
 
-This script will install **Spark-NLP 3.4.0**, and **Spark-NLP Healthcare 3.4.0**. You'll have to edit the script if you need different versions.<br/>
-After you entered the route to S3 in which you place the `emr_bootstrap_v2.sh` file, and before clicking "add" in the dialog box, you must pass an additional parameter containing the **SECRET** value you received with your license. Just paste the secret on the "Optional arguments" field in that dialog box.<br/>
-![image](https://user-images.githubusercontent.com/25952802/156359956-7bd8ae16-05f3-497d-8a1e-8e869b684503.png)
 
 ## 4. Security
-After selecting a `EC2 key pair` - to connect the master node with `SSH`, please select default roles and create the cluster.
+After selecting a `EC2 key pair` - to connect the master node with `SSH` and select the IAM roles, we can click on the orange `Create Cluster` button and a Cluster will be created.
 
-## 5. Create an EMR Notebook
-Please start a notebook server, connect it to the cluster you just created(be patient, it takes a while), and test with the `NLP_EMR_Setup.ipynb` that we provide in this folder.<br/>
+## 5.
+Make sure that license.johnsnowlabs.com and licensecheck.johnsnowlabs.com are on whitelist domains. If they are not, please whitelist these domains.
 
-In order to use and write files to `hdfs:///` without limitations, we need to grant sudo rights for `livy` user after SSHing to master node.
+## 6. Start Notebooks Server
 
-To connect master node:
-```bash
-~$ ssh -i <EC2 key pair>.pem hadoop@<host>.ec2
-```
-Please grant access when logged in via:
-```bash
-emr-cluster@xxx:~$ sudo usermod -a -G hdfsadmingroup livy
-```
-## 6. Any Doubt?
+To open the Notebooks, you can create Workspaces from EMR Studio and attach the Cluster that you just created.
+
+## 7. Any Doubt?
 Write us to support@johnsnowlabs.com
