@@ -68,6 +68,19 @@ Also, expand the `Software Settings` tab, and enter the following for configurat
     "Properties": {}
   },
   {
+    "Classification": "yarn-env",
+    "Configurations": [
+      {
+        "Classification": "export",
+        "Properties": {
+          "JSL_EMR": "1",
+          "SPARK_NLP_LICENSE": "XYXYXYXYXYXYXYXYXYXYXYXYXYXY"
+        }
+      }
+    ],
+    "Properties": {}
+  },
+  {
     "Classification": "spark-defaults",
     "Properties": {
       "spark.driver.maxResultSize": "0",
@@ -75,6 +88,8 @@ Also, expand the `Software Settings` tab, and enter the following for configurat
       "spark.jsl.settings.aws.region": "us-east-1",
       "spark.jsl.settings.pretrained.credentials.access_key_id": "XYXYXYXYXYXYXYXYXYXYXYXYXYXY",
       "spark.jsl.settings.pretrained.credentials.secret_access_key": "XYXYXYXYXYXYXYXYXYXYXYXYXYXY",
+      "spark.yarn.appMasterEnv.SPARK_NLP_LICENSE": "XYXYXYXYXYXYXYXYXYXYXYXYXYXY",
+      "spark.executorEnv.SPARK_NLP_LICENSE": "XYXYXYXYXYXYXYXYXYXYXYXYXYXY",
       "spark.kryoserializer.buffer.max": "2000M",
       "spark.serializer": "org.apache.spark.serializer.KryoSerializer",
       "spark.yarn.preserve.staging.files": "true",
