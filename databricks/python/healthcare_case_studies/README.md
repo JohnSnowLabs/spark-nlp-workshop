@@ -1,6 +1,10 @@
+**The notebooks in this folder are only compatible with the library versions within the corresponding notebook**
+
 # Spark NLP for Healthcare Case Studies For Databricks
 
 ## Abstracting Real World Data from Oncology Notes
+
+
 
 [15. Entity Extraction.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/databricks/python/healthcare_case_studies/15.%20Entity%20Extraction.ipynb)
 
