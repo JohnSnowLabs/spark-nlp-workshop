@@ -25,15 +25,15 @@
 
 ### ➤ Clinical Named Entity Recognition
 
-[01.0.Extract_text_from_scanned_PDF_files ](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/databricks/ocr/01.0.Extract_text_from_scanned_PDF_files.ipynb)
+[01.0.Extract_text_from_scanned_PDF_files ](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/databricks/visual/01.0.Extract_text_from_scanned_PDF_files.ipynb)
 
-[02.0.Advanced_Image_Processing_and_Text_Recognition_with_Visual_NLP ](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/databricks/ocr/02.0.Advanced_Image_Processing_and_Text_Recognition_with_Visual_NLP.ipynb)
+[02.0.Advanced_Image_Processing_and_Text_Recognition_with_Visual_NLP ](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/databricks/visual/02.0.Advanced_Image_Processing_and_Text_Recognition_with_Visual_NLP.ipynb)
 
-[03.0.Deidentification_of_text_in_images ](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/databricks/ocr/03.0.Deidentification_of_text_in_images.ipynb)
+[03.0.Deidentification_of_text_in_images ](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/databricks/visual/03.0.Deidentification_of_text_in_images.ipynb)
 
-[04.0.Deidentification_of_DICOM_files ](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/databricks/ocr/04.0.Deidentification_of_DICOM_files.ipynb)
+[04.0.Deidentification_of_DICOM_files ](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/databricks/visual/04.0.Deidentification_of_DICOM_files.ipynb)
 
-[05.0.Visual_Document_Classifier_Lilt ](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/databricks/ocr/05.0.Visual_Document_Classifier_Lilt.ipynb)
+[05.0.Visual_Document_Classifier_Lilt ](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/products/databricks/visual/05.0.Visual_Document_Classifier_Lilt.ipynb)
 
 ## Automatic deployment of John Snow Labs NLP on Databricks
 
