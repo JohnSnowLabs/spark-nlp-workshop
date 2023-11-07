@@ -20,5 +20,5 @@ docker-compose up -d
 - Make sure docker is installed on your system.
 - If you face any error while importing the lib inside jupyter, make sure all the credentials are correct in the key files and restart the service again.
 - If the default `port 8888` is already occupied by another process, please change the mapping.
-- You can change/adjust volume and port mapping in the `docker-compose.yml` file.
+- You can change/adjust volume and port mapping in the `docker-compose.yaml` file.
 - You don’t have a license key? Ask for a trial license [here](https://www.johnsnowlabs.com/install/).
