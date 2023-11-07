@@ -1,0 +1,11 @@
+version: "2"
+services:
+  datascience-notebook:
+    image: johnsnowlabs/sparknlp:sparknlp_for_healthcare_jupyter
+    volumes:
+      - ./:/mnt
+    ports:
+      - "8888:8888"
+    env_file:
+      - sparknlp_keys.txt
+    container_name: sparknlp_for_healthcare_jupyter
