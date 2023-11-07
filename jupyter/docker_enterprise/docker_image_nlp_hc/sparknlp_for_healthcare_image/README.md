@@ -4,7 +4,7 @@
 - Run the following commands to download the docker-compose.yml and the sparknlp_keys.txt files on your local machine:
 
 ```bash
-curl -o docker-compose.yaml https://raw.githubusercontent.com/JohnSnowLabs/spark-nlp-workshop/master/docker_enterprise/jupyter/docker_image_nlp_hc/sparknlp_for_healthcare_image/docker-compose.yaml
+curl -o docker-compose.yaml https://raw.githubusercontent.com/JohnSnowLabs/spark-nlp-workshop/master/jupyter/docker_enterprise/docker_image_nlp_hc/sparknlp_for_healthcare_image/docker-compose.yaml
 curl -o sparknlp_keys.txt https://raw.githubusercontent.com/JohnSnowLabs/spark-nlp-workshop/master/jupyter/docker_enterprise/docker_image_nlp_hc/sparknlp_for_healthcare_image/sparknlp_keys.txt
 ```
 - Download your license key in json format from [my.JohnSnowLabs.com](https://my.johnsnowlabs.com/)
