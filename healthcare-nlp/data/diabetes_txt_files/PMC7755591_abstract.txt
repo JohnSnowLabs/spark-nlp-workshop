@@ -1,0 +1,9 @@
+Patient: Male, 70-year-old
+Final Diagnosis: Adrenal insufficiency • diabetes insipidus • lung adenocarcinoma Symptoms: Anorexia • fatigue
+Medication: —
+Clinical Procedure: —
+Specialty: Endocrinology and Metabolic • Neurosurgery • Oncology
+Unusual clinical course
+Hyponatremia is an electrolyte disorder frequently encountered by clinicians. Secondary adrenal insufficiency due to pituitary metastatic tumors should be considered as an alternative diagnosis when clinicians encounter patients with lung cancer who demonstrate hyponatremia. However, masked central diabetes insipidus should also be considered to prevent critical dehydration when glucocorticoid replacement therapy will be initiated.
+A 70-year-old man with advanced lung adenocarcinoma demonstrated high-grade hyponatremia of 122 mmol/L. Magnetic resonance imaging disclosed a metastatic pituitary tumor and endocrinological examinations confirmed panhypopituitarism, including secondary adrenal insufficiency. Hydrocortisone replacement revealed masked diabetes insipidus with elevation of serum sodium levels that reached 151 mmol/L. Desmopressin administration was required to prevent water depletion and to immediately ameliorate the hypernatremia.
+This is the first case report of masked diabetes insipidus that demonstrated high-grade hyponatremia. Secondary adrenal insufficiency can mask the hypernatremia that is a typical manifestation of diabetes insipidus. Physicians should consider adrenal insufficiency and diabetes insipidus due to pituitary metastasis of advanced malignancies, even when they encounter patients with hyponatremia.

@@ -1,0 +1,10 @@
+Patient: Female, 40
+Final Diagnosis: Combined central and nephrogenic diabetes insipidus
+Symptoms: Confusion • polyuria
+Medication: —
+Clinical Procedure: —
+Specialty: Nephrology
+Rare disease
+Patients with malignancies often have electrolyte abnormalities. We present a case of a patient with central diabetes insipidus secondary to metastatic pituitary invasion complicated by hypercalcemic nephrogenic diabetes insipidus.
+We present a case of 40-year-old female with a history of stage IV breast cancer with skeletal and leptomeningeal metastasis, who was admitted with polyuria, polydipsia, and recent onset of confusion. The patient was found to have profound hypernatremia and severe hypercalcemia with normal parathyroid and vitamin D serum levels. Urine studies showed low urine osmolality and high urine output, despite the higher serum osmolality. The patient received 5% dextrose for rehydration, 1 dose of intravenous (IV) pamidronate, 1 dose of IV desmopressin, and 4 days of subcutaneous calcitonin 200 international units Q12H. Initially, her urine output in the hospital was in the range of 350–400 milliliters/hour, which responded well to 1 dose of 1-desamino-8d-arginine vasopressin (DDAVP). In the subsequent days, her confusion resolved with normalization of serum sodium and calcium, but she died because of the extensive malignancy.
+Our case emphasizes the importance of identification of causes and complications of electrolyte abnormalities associated with metastatic cancers. These electrolyte abnormalities can be primary or paraneoplastic and should be actively pursued and treated in such cases.

@@ -1,0 +1,5 @@
+Supplemental Digital Content is available in the text.
+Coronary artery disease (CAD) is accelerated in subjects with type 2 diabetes mellitus (T2D).
+To test whether this reflects differential genetic influences on CAD risk in subjects with T2D, we performed a systematic assessment of genetic overlap between CAD and T2D in 66 643 subjects (27 708 with CAD and 24 259 with T2D). Variants showing apparent association with CAD in stratified analyses or evidence of interaction were evaluated in a further 117 787 subjects (16 694 with CAD and 11 537 with T2D).
+None of the previously characterized CAD loci was found to have specific effects on CAD in T2D individuals, and a genome-wide interaction analysis found no new variants for CAD that could be considered T2D specific. When we considered the overall genetic correlations between CAD and its risk factors, we found no substantial differences in these relationships by T2D background.
+This study found no evidence that the genetic architecture of CAD differs in those with T2D compared with those without T2D.

@@ -1,0 +1,10 @@
+Patient: Female, 75-year-old 
+ Final Diagnosis: Central diabetes insipidus 
+ Symptoms: Thirst • polydipsia • polyuria 
+ Medication: Desmopressin 
+ Clinical Procedure: Vasopressin administration test 
+ Specialty: Metabolic Disorders and Diabetics 
+ Rare coexistence of disease or pathology 
+Central diabetes insipidus (CDI) is a rare disorder characterized by large volumes of dilute urine because of a lack of antidiuretic hormone. Co-existing CDI and diabetes mellitus without inherited disorders such as Wolfram syndrome are rare. It is both important and challenging to diagnose this combination because the 2 conditions present with thirst, polydipsia, and polyuria. A few cases of CDI developing in patients with type 2 diabetes mellitus (T2D) have been reported. We report an unusual case of CDI that developed in an older patient with T2D. The aims of this report are to share the clinical course and discuss clues to the early diagnosis of CDI in T2D.
+A 70-year-old Japanese woman developed T2D with hyperglycemia symptoms, including thirst, polydipsia, and polyuria. After starting medical treatment, the hyperglycemia and its symptoms improved. The glycated hemoglobin level decreased from 9% to 6%. However, 5 years later (at 75 years of age), she re-exhibited thirst, polydipsia, and polyuria despite stable glycemic control. Her urine volume was large (6.3 L/day). A urine glucose test was negative. The plasma osmolality was high (321 mOsm/kg), while the urinary osmolality was low (125 mOsm/kg). A significant increase in urinary osmolality following vasopressin administration indicated a diagnosis of CDI. Desmopressin therapy effectively relieved the symptoms.
+This case highlights the need to consider CDI as a rare but important comorbid disorder in patients with diabetes mellitus, including T2D, particularly those presenting with thirst, polydipsia, and polyuria despite well-controlled glycemia.

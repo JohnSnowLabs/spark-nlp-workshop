@@ -1,0 +1,10 @@
+Patient: Female, 31-year-old 
+ Final Diagnosis: Central diabetes insipidus 
+ Symptoms: Polydipsia • polyuria 
+ Medication: — 
+ Clinical Procedure: — 
+ Specialty: Endocrinology and Metabolic 
+ Unusual clinical course 
+Nephrogenic diabetes insipidus is a well-known adverse effect of lithium use. Albeit rare, there have also been documented cases of central diabetes insipidus (CDI) associated with lithium use.
+A 31-year-old woman with a past medical history of bipolar disorder, managed with lithium 300 mg by mouth every day for 3 years, was assessed for a 1-year history of polyuria with accompanying polydipsia. During her initial hospital stay, her estimated urine output was more than 4 L per day. Initial labs showed elevated serum sodium (149 mmol/L; reference range 135–145), elevated serum osmolality (304 mOsm/kg; reference range 275–295), urine osmolality of 99 mOsm/kg (reference range 50–1200), and urine specific gravity (1.005; reference range 1.005–1.030). Lithium was at a subtherapeutic level of 0.05 mEq/L (reference range 0.6–1.2). Magnetic resonance imaging of the brain revealed no abnormalities of the pituitary gland. Two different occasions of desmopressin administration resulted in >50% increase in urine osmolality, confirming the diagnosis of CDI. Common causes of CDI, including trauma, tumors, and familial CDI, were ruled out and chronic lithium use was determined as the most probable cause for the patient’s CDI.
+CDI in the background of chronic lithium use is rarely reported. We present this case to consider CDI as a differential diagnosis when evaluating polyuria and hypernatremia in patients with long-term lithium use. These presentations warrant the consideration of both types of diabetes insipidus in the differential diagnoses.

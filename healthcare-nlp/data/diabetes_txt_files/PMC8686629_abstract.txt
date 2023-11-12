@@ -1,0 +1,10 @@
+Patient: Male, 2-year-old 
+ Final Diagnosis: Adipsic diabetes insipidus 
+ Symptoms: Dehydration • polyuria 
+ Medication: Desmopressin 
+ Clinical Procedure: Fluid replacement 
+ Specialty: Pediatrics and Neonatology • Endocrine and Metabolic 
+ Rare coexistence of disease or pathology 
+Diabetes insipidus (DI) is a clinical syndrome characterized by polyuria and polydipsia that result from a deficiency of antidiuretic hormone (ADH), central DI, or resistance to ADH, nephrogenic DI. In otherwise healthy patients with DI, normal thirst mechanism, and free access to water, the thirst system can maintain plasma osmolality in the near-normal range. However, in cases where DI presents with adipsia, cognitive impairment, or restricted access to water, true hypernatremia may occur, leading to severe morbidity and mortality.
+We report a case of a 2-year-old boy who had global developmental delay and post-brain debulking surgery involving the hypothalamic region, which resulted in central DI and thirst center dysfunction. We describe the clinical presentation, the current understanding of adipsic DI, and a new practical approach for management. The main guidelines of treatment include (1) fixed desmopressin dosing that allows minimal urinary breakthroughs in-between the doses; (2) timely diaper weight-based replacement of water; (3) bodyweight-based fluid correction 2 times a day, and (4) providing the nutritional and water requirements in a way similar to any healthy child but at fixed time intervals.
+This plan of management showed good effectiveness in controlling plasma sodium level and volume status of a child with adipsic DI without interfering with his average growth. This home treatment method is practical and readily available, provided that the family remains very adherent.

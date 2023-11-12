@@ -1,0 +1,4 @@
+The aquaporin 2 mutation V71M causes nephrogenic diabetes insipidus in humans.
+Val71 is highly conserved in aqua(glycero)porins and points into the translocation pore.
+The V71M mutation does not impair the activity and oligomerization of a bacterial homolog.
+Several point mutations have been identified in human aquaporins, but their effects on the function of the respective aquaporins are mostly enigmatic. We analyzed the impact of the aquaporin 2 mutation V71M, which causes nephrogenic diabetes insipidus in humans, on aquaporin structure and activity, using the bacterial aquaglyceroporin GlpF as a model. Importantly, the sequence and structure around the V71M mutation is highly conserved between aquaporin 2 and GlpF. The V71M mutation neither impairs substrate flux nor oligomerization of the aquaglyceroporin. Therefore, the human aquaporin 2 mutant V71M is most likely active, but cellular trafficking is probably impaired.

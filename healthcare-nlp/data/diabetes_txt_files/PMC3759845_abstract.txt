@@ -1,0 +1,4 @@
+Non-synonymous mutations affecting both alleles of PCSK1 (proprotein convertase 1/3) are associated with obesity and impaired prohormone processing. We report a proband who was compound heterozygous for a maternally inherited frameshift mutation and a paternally inherited 474kb deletion that encompasses PCSK1, representing a novel genetic mechanism underlying this phenotype. Although pro-vasopressin is not a known physiological substrate of PCSK1, the development of central diabetes insipidus in this proband suggests that PCSK1 deficiency can be associated with impaired osmoregulation.
+We identify a fourth patient with PCSK1 deficiency.
+The null phenotype of PCSK1 deficiency includes obesity and neuroendocrine abnormalities.
+We extend the clinical phenotype to include central diabetes insipidus, as well as severe obesity and impaired prohormone processing.
