@@ -111,7 +111,6 @@ update date: 2023-04-13
 
 
 
-
 ### ➤ Clinical Pipelines
 
 [07.0.Pretrained_Clinical_Pipelines.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/07.0.Pretrained_Clinical_Pipelines.ipynb)
@@ -164,12 +163,15 @@ update date: 2023-04-13
 
 [18.0.Chunk_Sentence_Splitter.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/18.0.Chunk_Sentence_Splitter.ipynb)
 
+[18.1.Section_Header_Splitting_and_Classification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/18.1.Section_Header_Splitting_and_Classification.ipynb)
+
 [19.0.Chunk_Key_Phrase_Extraction.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/19.0.Chunk_Key_Phrase_Extraction.ipynb)
 
 [20.0.Named_Entity_Disambiguation.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/20.0.Named_Entity_Disambiguation.ipynb)
 
-[28.0.Model_Download_Helpers.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/228.Model_Download_Helpers.ipynb)
+[28.0.Model_Download_Helpers.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/28.0.Model_Download_Helpers.ipynb)
 
+[31.0.Structured_Streaming_with_SparkNLP_for_Healthcare.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/31.0.Structured_Streaming_with_SparkNLP_for_Healthcare.ipynb)
 
 ## ☞ Biomedical & Clinical NER Models Benchmarks/ Rankings
 
