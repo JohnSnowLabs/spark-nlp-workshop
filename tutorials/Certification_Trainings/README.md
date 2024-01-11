@@ -266,6 +266,8 @@ If you don't have time to cover all these, please check the following notebook f
 
 [34.Model_Download_Helpers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/34.Model_Download_Helpers.ipynb)
 
+[39.Structured_Streaming_With_Spark_NLP_for_Healthcare.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/39.Structured_Streaming_With_Spark_NLP_for_Healthcare.ipynb)
+
 ### World Language Models
 
 [14.German_Healthcare_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/14.German_Healthcare_Models.ipynb)

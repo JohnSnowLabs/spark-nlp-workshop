@@ -170,14 +170,13 @@
 [18.1.Section_Header_Splitting_and_Classification.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/18.1.Section_Header_Splitting_and_Classification.ipynb)
 
 
-
 [9.Chunk_Key_Phrase_Extraction.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/9.Chunk_Key_Phrase_Extraction.ipynb)
 
 [12.Named_Entity_Disambiguation.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/12.Named_Entity_Disambiguation.ipynb)
 
 [34.Model_Download_Helpers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/34.Model_Download_Helpers.ipynb)
 
-[39.Structured_Streaming_With_Spark_NLP_for_Healthcare.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/39.Structured_Streaming_With_Spark_NLP_for_Healthcare.ipynb)]
+[39.Structured_Streaming_With_Spark_NLP_for_Healthcare.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/39.Structured_Streaming_With_Spark_NLP_for_Healthcare.ipynb)
 
 ### World Language Models
 
