@@ -1,6 +1,6 @@
 johnsnowlabs==4.2.3
 nbformat
-streamlit==1.15.2
+streamlit==1.30.0
 Flask==2.2.5
 pyspark==3.2.2
 #rich==12.6.0
