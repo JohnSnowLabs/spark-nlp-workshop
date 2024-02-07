@@ -1,9 +1,11 @@
-{"AWS_ACCESS_KEY_ID": "",
-    "AWS_SECRET_ACCESS_KEY": "",
-    "SPARK_OCR_LICENSE": "",
-    "SPARK_OCR_SECRET": "",
-    "PUBLIC_VERSION": "",
-    "OCR_VERSION": "",
-    "SPARK_NLP_LICENSE": "",
-    "SECRET": "",
-    "JSL_VERSION": ""}
+{"SPARK_NLP_LICENSE": "", 
+      
+"SECRET": "",
+
+"JSL_VERSION": "", 
+    
+"PUBLIC_VERSION": "", 
+    
+"AWS_ACCESS_KEY_ID": "", 
+    
+"AWS_SECRET_ACCESS_KEY": ""}
