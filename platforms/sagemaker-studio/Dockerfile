@@ -1,47 +1,47 @@
-FROM continuumio/miniconda3:4.9.2
+# Use a specific Miniconda version
+FROM continuumio/miniconda3:4.10.3
 
-COPY environment.yml .
-
-ENV CONDA_DIR $HOME/miniconda3
-
-ENV PATH=$CONDA_DIR/bin:$PATH
-
-RUN apt-get --allow-releaseinfo-change update \
-    && apt-get -qq update -y \
-    && apt-get install -y iputils-ping \
-    && apt-get -qq install -y --no-install-recommends \
-    build-essential git make clang libboost-dev postgresql-client ca-certificates \
-    && rm -rf /var/lib/apt/lists/*
-
-RUN apt-get --allow-releaseinfo-change update \
-    && apt-get update -y \
-    && apt-get -y upgrade \
-    && apt-get install -y build-essential \
-    && apt-get install -y software-properties-common \
-    && apt-get -y install gnupg jq \
-    && wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | apt-key add - \
-    && apt-get -y update \
-    && apt-get -y upgrade \
-    && add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/ \
-    && apt-get install --fix-broken \
-    && apt-get update -y && apt-get install -y adoptopenjdk-8-hotspot
-
-ENV JAVA_HOME /usr/lib/jvm/adoptopenjdk-8-hotspot-amd64/
-RUN export JAVA_HOME
-
-RUN update-java-alternatives --set adoptopenjdk-8-hotspot-amd64
-RUN java -version
-
+# Copy requirements.txt and license.json
+COPY requirements.txt .
 COPY license.json .
 
-RUN conda init bash \
-    && . ~/.bashrc \
-    && conda env create -f environment.yml \
-    && conda activate myenv \
-    && PUBLIC_VERSION=$(jq -r '.PUBLIC_VERSION' license.json) \
-    && OCR_VERSION=$(jq -r '.OCR_VERSION' license.json) \
-    && SPARK_OCR_SECRET=$(jq -r '.SPARK_OCR_SECRET' license.json) \
-    && SECRET=$(jq -r '.SECRET' license.json) \
-    && pip install spark-nlp==$PUBLIC_VERSION findspark \
-    && pip install spark-nlp-jsl==$PUBLIC_VERSION --extra-index-url https://pypi.johnsnowlabs.com/$SECRET \
-    && pip install spark-ocr==$OCR_VERSION --extra-index-url=https://pypi.johnsnowlabs.com/$SPARK_OCR_SECRET --upgrade --no-deps
+# Set environment variables
+ENV CONDA_DIR=/opt/conda \
+    PATH=/opt/conda/bin:$PATH \
+    JAVA_HOME=/usr/lib/jvm/temurin-8-jdk-amd64/
+
+# Update APT package repositories and install required packages
+RUN apt-get update -qq && \
+    apt-get install -y --no-install-recommends \
+        iputils-ping \
+        build-essential \
+        git \
+        make \
+        clang \
+        libboost-dev \
+        postgresql-client \
+        ca-certificates \
+        software-properties-common \
+        gnupg \
+        jq \
+        wget \
+        apt-transport-https && \
+    mkdir -p /etc/apt/keyrings && \
+    wget -O - https://packages.adoptium.net/artifactory/api/gpg/key/public | tee /etc/apt/keyrings/adoptium.asc && \
+    echo "deb [signed-by=/etc/apt/keyrings/adoptium.asc] https://packages.adoptium.net/artifactory/deb $(awk -F= '/^VERSION_CODENAME/{print$2}' /etc/os-release) main" | tee /etc/apt/sources.list.d/adoptium.list && \
+    apt-get update -qq && \
+    apt-get install -y temurin-8-jdk
+
+# Activate Miniconda, create environment, and install Python packages
+RUN conda init bash && \
+    . ~/.bashrc && \
+    conda create -n myenv python=3.9 -y && \
+    conda activate myenv && \
+    pip install -r requirements.txt && \
+    PUBLIC_VERSION=$(jq -r '.PUBLIC_VERSION' license.json) && \
+    SECRET=$(jq -r '.SECRET' license.json) && \
+    pip install spark-nlp==$PUBLIC_VERSION findspark && \
+    pip install spark-nlp-jsl==$PUBLIC_VERSION --extra-index-url https://pypi.johnsnowlabs.com/$SECRET
+
+# Set the default CMD command
+CMD ["java", "-version"]
