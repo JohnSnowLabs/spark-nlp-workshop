@@ -8,10 +8,9 @@ These are the deidentified outputs we got for the given inputs
 
 {
     "predictions": [
-        "Name : <PATIENT>, Record date: <DATE>, # <DEVICE>.  Dr. <DOCTOR>,  E-MAIL: <EMAIL>."
+       "Name : `<PATIENT>`, Record date: `<DATE>`, # `<DEVICE>`.  Dr. `<DOCTOR>`,  E-MAIL: `<EMAIL>`."
     ]
 }
-
 
 
 ## out2
@@ -20,7 +19,7 @@ These are the deidentified outputs we got for the given inputs
 
 {
     "predictions": [
-        "Name : Lynne Logan, Record date: 2093-01-25, # L3157974.  Dr. Sherlon Handing,  E-MAIL: Marvin@yahoo.com."
+        "Name : `Lynne Logan`, Record date: `2093-01-25`, # `L3157974`.  Dr. `Sherlon Handing`,  E-MAIL: `Marvin@yahoo.com`."
     ]
 }
 
@@ -32,7 +31,7 @@ These are the deidentified outputs we got for the given inputs
 
 {
     "predictions": [
-        "Name : ****, Record date: ****, # ****.  Dr. ****,  E-MAIL: ****."
+        "Name : `****`, Record date: `****`, # `****`.  Dr. `****`,  E-MAIL: `****`."
     ]
 }
 
@@ -44,6 +43,6 @@ These are the deidentified outputs we got for the given inputs
 
 {
     "predictions": [
-        "Name : [**************], Record date: [********], # [****].  Dr. [********],  E-MAIL: [*************]."
+        "Name : `[**************]`, Record date: `[********]`, # `[****]`.  Dr. `[********]`,  E-MAIL: `[*************]`."
     ]
 }
