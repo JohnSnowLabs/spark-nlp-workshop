@@ -3,7 +3,6 @@
   
 {"**text**": "Input Text that is to be Deidentified",
 "**masking_policy**":"Deidentification-Policy we want to follow" (`masked`, if nothing specified)
-
 }
 
 We tried to check the different masking policies with these 4 inputs.
