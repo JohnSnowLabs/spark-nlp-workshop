@@ -1,0 +1,34 @@
+{
+    "predictions": [
+        {
+            "document": "Mike, who is suffering from a rare form of cancer known as glioblastoma, recently underwent genomic sequencing that revealed a mutation in the TP53 gene, a key regulator in the cell cycle and apoptosis, often associated with tumor development.",
+            "ner_chunk": "cancer",
+            "ner_label": "Cancer",
+            "confidence": "1.0"
+        },
+        {
+            "document": "Mike, who is suffering from a rare form of cancer known as glioblastoma, recently underwent genomic sequencing that revealed a mutation in the TP53 gene, a key regulator in the cell cycle and apoptosis, often associated with tumor development.",
+            "ner_chunk": "glioblastoma",
+            "ner_label": "Cancer",
+            "confidence": "1.0"
+        },
+        {
+            "document": "Mike, who is suffering from a rare form of cancer known as glioblastoma, recently underwent genomic sequencing that revealed a mutation in the TP53 gene, a key regulator in the cell cycle and apoptosis, often associated with tumor development.",
+            "ner_chunk": "TP53",
+            "ner_label": "Gene_or_gene_product",
+            "confidence": "1.0"
+        },
+        {
+            "document": "Mike, who is suffering from a rare form of cancer known as glioblastoma, recently underwent genomic sequencing that revealed a mutation in the TP53 gene, a key regulator in the cell cycle and apoptosis, often associated with tumor development.",
+            "ner_chunk": "cell",
+            "ner_label": "Cell",
+            "confidence": "1.0"
+        },
+        {
+            "document": "Mike, who is suffering from a rare form of cancer known as glioblastoma, recently underwent genomic sequencing that revealed a mutation in the TP53 gene, a key regulator in the cell cycle and apoptosis, often associated with tumor development.",
+            "ner_chunk": "tumor",
+            "ner_label": "Cancer",
+            "confidence": "1.0"
+        }
+    ]
+}
