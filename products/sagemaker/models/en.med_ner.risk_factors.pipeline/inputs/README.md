@@ -25,22 +25,3 @@ Provide a single text document as a string.
     "text": "Single text document"
 }
 ```
-
-Additionally, the model produces predictions at two distinct output levels:
-
-- **Document**: Predictions are generated for entire documents.
-- **Chunk**: Predictions are generated for smaller chunks within documents.
-
-By default, the output level is set to `chunk`.
-
-You can specify the desired output level in the input as follows:
-
-```json
-{
-    "text": [
-        "Text document 1",
-        "Text document 2",
-        ...
-    ],
-    "output_level": "document"
-}
