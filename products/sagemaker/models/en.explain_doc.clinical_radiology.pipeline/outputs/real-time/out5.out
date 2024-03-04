@@ -1,0 +1,130 @@
+{
+    "predictions": [
+        {
+            "document": "The patient is a 30-year-old female with a long history of insulin dependent diabetes, type 2; coronary artery disease; chronic renal insufficiency; peripheral vascular disease, also secondary to diabetes; who was originally admitted to an outside hospital for what appeared to be acute paraplegia, lower extremities. She did receive a course of Bactrim for 14 days for UTI. Evidently, at some point in time, the patient was noted to develop a pressure-type wound on the sole of her left foot and left great toe. She was also noted to have a large sacral wound; this is in a similar location with her previous laminectomy, and this continues to receive daily care. The patient was transferred secondary to inability to participate in full physical and occupational therapy and continue medical management of her diabetes, the sacral decubitus, left foot pressure wound, and associated complications of diabetes. She is given Fragmin 5000 units subcutaneously daily, Xenaderm to wounds topically b.i.d., Lantus 40 units subcutaneously at bedtime, OxyContin 30 mg p.o. q.12 h., folic acid 1 mg daily, levothyroxine 0.1 mg p.o. daily, Prevacid 30 mg daily, Avandia 4 mg daily, Norvasc 10 mg daily, Lexapro 20 mg daily, aspirin 81 mg daily, Senna 2 tablets p.o. q.a.m., Neurontin 400 mg p.o. t.i.d., Percocet 5/325 mg 2 tablets q.4 h. p.r.n., magnesium citrate 1 bottle p.o. p.r.n., sliding scale coverage insulin, Wellbutrin 100 mg p.o. daily, and Bactrim DS b.i.d.",
+            "relation": [
+                "is_related",
+                "is_related"
+            ],
+            "ner_chunk1": [
+                "pressure-type wound",
+                "pressure-type wound"
+            ],
+            "ner_chunk1_begin": [
+                "444",
+                "444"
+            ],
+            "ner_chunk1_end": [
+                "462",
+                "462"
+            ],
+            "ner_label1": [
+                "Symptom",
+                "Symptom"
+            ],
+            "ner_chunk2": [
+                "left foot",
+                "left great toe"
+            ],
+            "ner_chunk2_begin": [
+                "483",
+                "497"
+            ],
+            "ner_chunk2_end": [
+                "491",
+                "510"
+            ],
+            "ner_label2": [
+                "BodyPart",
+                "BodyPart"
+            ],
+            "confidence": [
+                "0.999964",
+                "0.9907776"
+            ]
+        },
+        {
+            "document": "Bilateral breast ultrasound was subsequently performed, which demonstrated an ovoid mass measuring approximately 0.5 x 0.5 x 0.4 cm in diameter located within the anteromedial aspect of the left shoulder. This mass demonstrates isoechoic echotexture to the adjacent muscle, with no evidence of internal color flow. This may represent benign fibrous tissue or a lipoma.",
+            "relation": [
+                "is_related",
+                "is_related",
+                "is_related",
+                "is_related",
+                "is_related",
+                "is_related"
+            ],
+            "ner_chunk1": [
+                "Bilateral breast",
+                "Bilateral breast",
+                "ultrasound",
+                "ovoid mass",
+                "mass",
+                "isoechoic echotexture"
+            ],
+            "ner_chunk1_begin": [
+                "0",
+                "0",
+                "17",
+                "78",
+                "210",
+                "228"
+            ],
+            "ner_chunk1_end": [
+                "15",
+                "15",
+                "26",
+                "87",
+                "213",
+                "248"
+            ],
+            "ner_label1": [
+                "BodyPart",
+                "BodyPart",
+                "Imaging_Test",
+                "ImagingFindings",
+                "ImagingFindings",
+                "ImagingFindings"
+            ],
+            "ner_chunk2": [
+                "ultrasound",
+                "ovoid mass",
+                "ovoid mass",
+                "0.5 x 0.5 x 0.4 cm",
+                "adjacent muscle",
+                "adjacent muscle"
+            ],
+            "ner_chunk2_begin": [
+                "17",
+                "78",
+                "78",
+                "113",
+                "257",
+                "257"
+            ],
+            "ner_chunk2_end": [
+                "26",
+                "87",
+                "87",
+                "130",
+                "271",
+                "271"
+            ],
+            "ner_label2": [
+                "Imaging_Test",
+                "ImagingFindings",
+                "ImagingFindings",
+                "Measurements",
+                "BodyPart",
+                "BodyPart"
+            ],
+            "confidence": [
+                "1.0",
+                "0.99999714",
+                "0.99956936",
+                "1.0",
+                "0.9976392",
+                "0.9999993"
+            ]
+        }
+    ]
+}
