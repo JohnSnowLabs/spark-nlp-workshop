@@ -1,0 +1,140 @@
+{
+    "assertion_predictions": [
+        {
+            "document": "Been taking Lipitor for 15 years, have experienced severe fatigue a lot!!!. Doctor moved me to voltaren 2 months ago, so far, have only experienced cramps",
+            "chunk": "Lipitor",
+            "entity": "DRUG",
+            "assertion": "conditional"
+        },
+        {
+            "document": "Been taking Lipitor for 15 years, have experienced severe fatigue a lot!!!. Doctor moved me to voltaren 2 months ago, so far, have only experienced cramps",
+            "chunk": "severe fatigue",
+            "entity": "ADE",
+            "assertion": "present"
+        },
+        {
+            "document": "Been taking Lipitor for 15 years, have experienced severe fatigue a lot!!!. Doctor moved me to voltaren 2 months ago, so far, have only experienced cramps",
+            "chunk": "voltaren",
+            "entity": "DRUG",
+            "assertion": null
+        },
+        {
+            "document": "Been taking Lipitor for 15 years, have experienced severe fatigue a lot!!!. Doctor moved me to voltaren 2 months ago, so far, have only experienced cramps",
+            "chunk": "cramps",
+            "entity": "ADE",
+            "assertion": null
+        },
+        {
+            "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
+            "chunk": "Zocor",
+            "entity": "DRUG",
+            "assertion": "present"
+        },
+        {
+            "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
+            "chunk": "constant headaches",
+            "entity": "ADE",
+            "assertion": "present"
+        },
+        {
+            "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
+            "chunk": "dizziness",
+            "entity": "ADE",
+            "assertion": "present"
+        },
+        {
+            "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
+            "chunk": "Celebrex",
+            "entity": "DRUG",
+            "assertion": null
+        },
+        {
+            "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
+            "chunk": "occasional joint pain",
+            "entity": "ADE",
+            "assertion": null
+        }
+    ],
+    "relation_predictions": [
+        {
+            "document": "Been taking Lipitor for 15 years, have experienced severe fatigue a lot!!!. Doctor moved me to voltaren 2 months ago, so far, have only experienced cramps",
+            "chunk_1": "Lipitor",
+            "entity_1": "DRUG",
+            "chunk_2": "severe fatigue",
+            "entity_2": "ADE",
+            "relation": "1"
+        },
+        {
+            "document": "Been taking Lipitor for 15 years, have experienced severe fatigue a lot!!!. Doctor moved me to voltaren 2 months ago, so far, have only experienced cramps",
+            "chunk_1": "Lipitor",
+            "entity_1": "DRUG",
+            "chunk_2": "cramps",
+            "entity_2": "ADE",
+            "relation": "1"
+        },
+        {
+            "document": "Been taking Lipitor for 15 years, have experienced severe fatigue a lot!!!. Doctor moved me to voltaren 2 months ago, so far, have only experienced cramps",
+            "chunk_1": "severe fatigue",
+            "entity_1": "ADE",
+            "chunk_2": "voltaren",
+            "entity_2": "DRUG",
+            "relation": "1"
+        },
+        {
+            "document": "Been taking Lipitor for 15 years, have experienced severe fatigue a lot!!!. Doctor moved me to voltaren 2 months ago, so far, have only experienced cramps",
+            "chunk_1": "voltaren",
+            "entity_1": "DRUG",
+            "chunk_2": "cramps",
+            "entity_2": "ADE",
+            "relation": "1"
+        },
+        {
+            "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
+            "chunk_1": "Zocor",
+            "entity_1": "DRUG",
+            "chunk_2": "constant headaches",
+            "entity_2": "ADE",
+            "relation": "1"
+        },
+        {
+            "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
+            "chunk_1": "Zocor",
+            "entity_1": "DRUG",
+            "chunk_2": "dizziness",
+            "entity_2": "ADE",
+            "relation": "1"
+        },
+        {
+            "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
+            "chunk_1": "Zocor",
+            "entity_1": "DRUG",
+            "chunk_2": "occasional joint pain",
+            "entity_2": "ADE",
+            "relation": "1"
+        },
+        {
+            "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
+            "chunk_1": "constant headaches",
+            "entity_1": "ADE",
+            "chunk_2": "Celebrex",
+            "entity_2": "DRUG",
+            "relation": "0"
+        },
+        {
+            "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
+            "chunk_1": "dizziness",
+            "entity_1": "ADE",
+            "chunk_2": "Celebrex",
+            "entity_2": "DRUG",
+            "relation": "0"
+        },
+        {
+            "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
+            "chunk_1": "Celebrex",
+            "entity_1": "DRUG",
+            "chunk_2": "occasional joint pain",
+            "entity_2": "ADE",
+            "relation": "1"
+        }
+    ]
+}
