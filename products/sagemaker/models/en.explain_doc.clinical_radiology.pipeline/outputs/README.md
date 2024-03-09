@@ -1,6 +1,6 @@
 # Output Format
 
-The output at the chunk level consists of a JSON object with the following structure:
+The output consists of a JSON object with the following structure:
 
 ```json
 
