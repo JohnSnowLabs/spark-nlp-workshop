@@ -2,83 +2,128 @@
     "assertion_predictions": [
         {
             "document": "Used Crestor for 10+ years with frequent muscle aches and fatigue. Doctor recently changed me to Naproxen, now experiencing less frequent muscle soreness.",
-            "chunk": "Crestor",
+            "ner_chunk": "Crestor",
             "entity": "DRUG",
-            "assertion": "present"
+            "begin": 5,
+            "end": 11,
+            "confidence": "0.9983",
+            "assertion": "-"
         },
         {
             "document": "Used Crestor for 10+ years with frequent muscle aches and fatigue. Doctor recently changed me to Naproxen, now experiencing less frequent muscle soreness.",
-            "chunk": "muscle aches",
+            "ner_chunk": "muscle aches",
             "entity": "ADE",
+            "begin": 41,
+            "end": 52,
+            "confidence": "0.7823",
             "assertion": "present"
         },
         {
             "document": "Used Crestor for 10+ years with frequent muscle aches and fatigue. Doctor recently changed me to Naproxen, now experiencing less frequent muscle soreness.",
-            "chunk": "fatigue",
+            "ner_chunk": "fatigue",
             "entity": "ADE",
+            "begin": 58,
+            "end": 64,
+            "confidence": "0.9402",
             "assertion": "present"
         },
         {
             "document": "Used Crestor for 10+ years with frequent muscle aches and fatigue. Doctor recently changed me to Naproxen, now experiencing less frequent muscle soreness.",
-            "chunk": "Naproxen",
+            "ner_chunk": "Naproxen",
             "entity": "DRUG",
-            "assertion": null
+            "begin": 97,
+            "end": 104,
+            "confidence": "0.9903",
+            "assertion": "-"
         },
         {
             "document": "Used Crestor for 10+ years with frequent muscle aches and fatigue. Doctor recently changed me to Naproxen, now experiencing less frequent muscle soreness.",
-            "chunk": "muscle soreness",
+            "ner_chunk": "muscle soreness",
             "entity": "ADE",
-            "assertion": null
+            "begin": 138,
+            "end": 152,
+            "confidence": "0.76125",
+            "assertion": "present"
         }
     ],
     "relation_predictions": [
         {
             "document": "Used Crestor for 10+ years with frequent muscle aches and fatigue. Doctor recently changed me to Naproxen, now experiencing less frequent muscle soreness.",
-            "chunk_1": "Crestor",
+            "ner_chunk_1": "Crestor",
             "entity_1": "DRUG",
-            "chunk_2": "muscle aches",
+            "ner_chunk_1_begin": "5",
+            "ner_chunk_1_end": "11",
+            "ner_chunk_2": "muscle aches",
             "entity_2": "ADE",
-            "relation": "1"
+            "ner_chunk_2_begin": "41",
+            "ner_chunk_2_end": "52",
+            "relation": "1",
+            "confidence": "0.99999917"
         },
         {
             "document": "Used Crestor for 10+ years with frequent muscle aches and fatigue. Doctor recently changed me to Naproxen, now experiencing less frequent muscle soreness.",
-            "chunk_1": "Crestor",
+            "ner_chunk_1": "Crestor",
             "entity_1": "DRUG",
-            "chunk_2": "fatigue",
+            "ner_chunk_1_begin": "5",
+            "ner_chunk_1_end": "11",
+            "ner_chunk_2": "fatigue",
             "entity_2": "ADE",
-            "relation": "1"
+            "ner_chunk_2_begin": "58",
+            "ner_chunk_2_end": "64",
+            "relation": "1",
+            "confidence": "0.99999964"
         },
         {
             "document": "Used Crestor for 10+ years with frequent muscle aches and fatigue. Doctor recently changed me to Naproxen, now experiencing less frequent muscle soreness.",
-            "chunk_1": "Crestor",
+            "ner_chunk_1": "Crestor",
             "entity_1": "DRUG",
-            "chunk_2": "muscle soreness",
+            "ner_chunk_1_begin": "5",
+            "ner_chunk_1_end": "11",
+            "ner_chunk_2": "muscle soreness",
             "entity_2": "ADE",
-            "relation": "1"
+            "ner_chunk_2_begin": "138",
+            "ner_chunk_2_end": "152",
+            "relation": "1",
+            "confidence": "0.9956077"
         },
         {
             "document": "Used Crestor for 10+ years with frequent muscle aches and fatigue. Doctor recently changed me to Naproxen, now experiencing less frequent muscle soreness.",
-            "chunk_1": "muscle aches",
+            "ner_chunk_1": "muscle aches",
             "entity_1": "ADE",
-            "chunk_2": "Naproxen",
+            "ner_chunk_1_begin": "41",
+            "ner_chunk_1_end": "52",
+            "ner_chunk_2": "Naproxen",
             "entity_2": "DRUG",
-            "relation": "0"
+            "ner_chunk_2_begin": "97",
+            "ner_chunk_2_end": "104",
+            "relation": "0",
+            "confidence": "1.0"
         },
         {
             "document": "Used Crestor for 10+ years with frequent muscle aches and fatigue. Doctor recently changed me to Naproxen, now experiencing less frequent muscle soreness.",
-            "chunk_1": "fatigue",
+            "ner_chunk_1": "fatigue",
             "entity_1": "ADE",
-            "chunk_2": "Naproxen",
+            "ner_chunk_1_begin": "58",
+            "ner_chunk_1_end": "64",
+            "ner_chunk_2": "Naproxen",
             "entity_2": "DRUG",
-            "relation": "0"
+            "ner_chunk_2_begin": "97",
+            "ner_chunk_2_end": "104",
+            "relation": "0",
+            "confidence": "1.0"
         },
         {
             "document": "Used Crestor for 10+ years with frequent muscle aches and fatigue. Doctor recently changed me to Naproxen, now experiencing less frequent muscle soreness.",
-            "chunk_1": "Naproxen",
+            "ner_chunk_1": "Naproxen",
             "entity_1": "DRUG",
-            "chunk_2": "muscle soreness",
+            "ner_chunk_1_begin": "97",
+            "ner_chunk_1_end": "104",
+            "ner_chunk_2": "muscle soreness",
             "entity_2": "ADE",
-            "relation": "1"
+            "ner_chunk_2_begin": "138",
+            "ner_chunk_2_end": "152",
+            "relation": "1",
+            "confidence": "0.99999976"
         }
     ]
 }

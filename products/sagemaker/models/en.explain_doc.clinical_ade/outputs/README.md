@@ -1,58 +1,72 @@
-
 ## Explaining the Output
 
 ### Assertion Prediction
 
-This segment of the analysis aims to identify and specify the assertions made about entities within the text. It assesses the context to determine the status or condition attributed to each recognized entity.
+This segment analyzes the text to identify assertions made about entities. It determines the status or condition attributed to each recognized entity within the document.
 
 #### Document
-
-Refers to the complete body of text analyzed. The model scans this text to detect and interpret entities based on the provided information.
+The complete body of text analyzed. The model scans this text to detect entities and interpret their context.
 
 - **Example**: "Used Crestor for 10+ years with frequent muscle aches and fatigue. Doctor recently changed me to Naproxen, now experiencing less frequent muscle soreness."
 
-#### Chunk
+#### ner_chunk
+Specifies the exact text from the document where the entity was identified.
 
-Highlights a segment of the document identified as containing an entity. This could range from drug names to medical terms or conditions.
+- **Example**: `muscle aches`
 
-- **Example**: `Crestor`
+#### entity
+The category assigned to the identified chunk, aiding in understanding its role within the text.
 
-#### Entity
+- **Example**: `ADE`
 
-Classifies the identified chunk into a predefined category, aiding in the understanding of its role or significance within the text.
+#### begin & end
+The position markers within the document where the entity was found.
 
-- **Example**: `DRUG`
+- **Example**: `begin`: 41, `end`: 52
 
-#### Assertion
+#### confidence
+The model's confidence level in the entity's correct identification.
 
-Describes the assertion made regarding the entity, such as its presence, absence, or any condition relevant to the context of the document.
+- **Example**: `0.7823`
+
+#### assertion
+The specific assertion made about the entity.
 
 - **Example**: `present`
 
 ### Relation Prediction
 
-This part of the output deals with the identification and classification of relationships between entities recognized within the text, focusing on how these entities interact or relate to each other.
+This output identifies and classifies relationships between recognized entities, focusing on their interactions.
 
 #### Document
+Refers to the full text under analysis.
 
-This is the same as in assertion predictions, referring to the entire text under analysis.
+#### ner_chunk_1 and ner_chunk_2
+The segments where entities in a relationship are identified.
 
-#### Chunk_1 and Chunk_2
+- **Example**: ner_chunk_1: `Crestor`, ner_chunk_2: `muscle aches`
+  
+#### ner_chunk_1_begin & ner_chunk_1_end
+Position markers for the first entity's identification.
 
-Represent the text segments where entities involved in a relationship are identified. These chunks are analyzed to understand the nature of their interaction.
-
-- **Example**: chunk_1: `Crestor`, chunk_2: `muscle aches`
+- **Example**: `ner_chunk_1_begin`: "5", `ner_chunk_1_end`: "11" 
 
 #### Entity_1 and Entity_2
+Classifications of the chunks involved in the relationship.
 
-These specify the categories of the identified chunks, helping to clarify the relationship by classifying each entity according to its nature.
+- **Example**: entity_1: `DRUG`, entity_2: `ADE`
 
-- **Example**: entity_1: `DRUG`, entity_2: `ADE` (Adverse Drug Event)
+#### ner_chunk_2_begin & ner_chunk_2_end
+Position markers for the second entity's identification.
 
-#### Relation
+- **Example**: `ner_chunk_2_begin`: "41", `ner_chunk_2_end`: "52"
 
-Specifies the presence (1) or absence (0) of a relationship between two entities.
+#### relation
+Indicates the presence (1) or absence (0) of a relationship.
 
-- **Example**: `1` 
+- **Example**: `1`
 
+#### confidence
+The confidence level in the identified relationship between entities.
 
+- **Example**: `0.99999917`

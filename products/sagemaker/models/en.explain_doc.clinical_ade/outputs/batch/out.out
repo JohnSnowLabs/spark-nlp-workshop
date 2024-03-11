@@ -2,139 +2,216 @@
     "assertion_predictions": [
         {
             "document": "Been taking Lipitor for 15 years, have experienced severe fatigue a lot!!!. Doctor moved me to voltaren 2 months ago, so far, have only experienced cramps",
-            "chunk": "Lipitor",
+            "ner_chunk": "Lipitor",
             "entity": "DRUG",
+            "begin": 12,
+            "end": 18,
+            "confidence": "0.9998",
+            "assertion": "-"
+        },
+        {
+            "document": "Been taking Lipitor for 15 years, have experienced severe fatigue a lot!!!. Doctor moved me to voltaren 2 months ago, so far, have only experienced cramps",
+            "ner_chunk": "severe fatigue",
+            "entity": "ADE",
+            "begin": 51,
+            "end": 64,
+            "confidence": "0.78",
             "assertion": "conditional"
         },
         {
             "document": "Been taking Lipitor for 15 years, have experienced severe fatigue a lot!!!. Doctor moved me to voltaren 2 months ago, so far, have only experienced cramps",
-            "chunk": "severe fatigue",
-            "entity": "ADE",
-            "assertion": "present"
+            "ner_chunk": "voltaren",
+            "entity": "DRUG",
+            "begin": 95,
+            "end": 102,
+            "confidence": "0.9992",
+            "assertion": "-"
         },
         {
             "document": "Been taking Lipitor for 15 years, have experienced severe fatigue a lot!!!. Doctor moved me to voltaren 2 months ago, so far, have only experienced cramps",
-            "chunk": "voltaren",
-            "entity": "DRUG",
-            "assertion": null
-        },
-        {
-            "document": "Been taking Lipitor for 15 years, have experienced severe fatigue a lot!!!. Doctor moved me to voltaren 2 months ago, so far, have only experienced cramps",
-            "chunk": "cramps",
+            "ner_chunk": "cramps",
             "entity": "ADE",
-            "assertion": null
-        },
-        {
-            "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
-            "chunk": "Zocor",
-            "entity": "DRUG",
+            "begin": 148,
+            "end": 153,
+            "confidence": "0.988",
             "assertion": "present"
         },
         {
             "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
-            "chunk": "constant headaches",
-            "entity": "ADE",
-            "assertion": "present"
-        },
-        {
-            "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
-            "chunk": "dizziness",
-            "entity": "ADE",
-            "assertion": "present"
-        },
-        {
-            "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
-            "chunk": "Celebrex",
+            "ner_chunk": "Zocor",
             "entity": "DRUG",
-            "assertion": null
+            "begin": 8,
+            "end": 12,
+            "confidence": "0.9997",
+            "assertion": "-"
         },
         {
             "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
-            "chunk": "occasional joint pain",
+            "ner_chunk": "constant headaches",
             "entity": "ADE",
-            "assertion": null
+            "begin": 42,
+            "end": 59,
+            "confidence": "0.7586",
+            "assertion": "present"
+        },
+        {
+            "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
+            "ner_chunk": "dizziness",
+            "entity": "ADE",
+            "begin": 65,
+            "end": 73,
+            "confidence": "0.9985",
+            "assertion": "present"
+        },
+        {
+            "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
+            "ner_chunk": "Celebrex",
+            "entity": "DRUG",
+            "begin": 104,
+            "end": 111,
+            "confidence": "0.9988",
+            "assertion": "-"
+        },
+        {
+            "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
+            "ner_chunk": "occasional joint pain",
+            "entity": "ADE",
+            "begin": 164,
+            "end": 184,
+            "confidence": "0.8241",
+            "assertion": "present"
         }
     ],
     "relation_predictions": [
         {
             "document": "Been taking Lipitor for 15 years, have experienced severe fatigue a lot!!!. Doctor moved me to voltaren 2 months ago, so far, have only experienced cramps",
-            "chunk_1": "Lipitor",
+            "ner_chunk_1": "Lipitor",
             "entity_1": "DRUG",
-            "chunk_2": "severe fatigue",
+            "ner_chunk_1_begin": "12",
+            "ner_chunk_1_end": "18",
+            "ner_chunk_2": "severe fatigue",
             "entity_2": "ADE",
-            "relation": "1"
+            "ner_chunk_2_begin": "51",
+            "ner_chunk_2_end": "64",
+            "relation": "1",
+            "confidence": "1.0"
         },
         {
             "document": "Been taking Lipitor for 15 years, have experienced severe fatigue a lot!!!. Doctor moved me to voltaren 2 months ago, so far, have only experienced cramps",
-            "chunk_1": "Lipitor",
+            "ner_chunk_1": "Lipitor",
             "entity_1": "DRUG",
-            "chunk_2": "cramps",
+            "ner_chunk_1_begin": "12",
+            "ner_chunk_1_end": "18",
+            "ner_chunk_2": "cramps",
             "entity_2": "ADE",
-            "relation": "1"
+            "ner_chunk_2_begin": "148",
+            "ner_chunk_2_end": "153",
+            "relation": "1",
+            "confidence": "1.0"
         },
         {
             "document": "Been taking Lipitor for 15 years, have experienced severe fatigue a lot!!!. Doctor moved me to voltaren 2 months ago, so far, have only experienced cramps",
-            "chunk_1": "severe fatigue",
+            "ner_chunk_1": "severe fatigue",
             "entity_1": "ADE",
-            "chunk_2": "voltaren",
+            "ner_chunk_1_begin": "51",
+            "ner_chunk_1_end": "64",
+            "ner_chunk_2": "voltaren",
             "entity_2": "DRUG",
-            "relation": "1"
+            "ner_chunk_2_begin": "95",
+            "ner_chunk_2_end": "102",
+            "relation": "1",
+            "confidence": "0.96616125"
         },
         {
             "document": "Been taking Lipitor for 15 years, have experienced severe fatigue a lot!!!. Doctor moved me to voltaren 2 months ago, so far, have only experienced cramps",
-            "chunk_1": "voltaren",
+            "ner_chunk_1": "voltaren",
             "entity_1": "DRUG",
-            "chunk_2": "cramps",
+            "ner_chunk_1_begin": "95",
+            "ner_chunk_1_end": "102",
+            "ner_chunk_2": "cramps",
             "entity_2": "ADE",
-            "relation": "1"
+            "ner_chunk_2_begin": "148",
+            "ner_chunk_2_end": "153",
+            "relation": "1",
+            "confidence": "0.99999547"
         },
         {
             "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
-            "chunk_1": "Zocor",
+            "ner_chunk_1": "Zocor",
             "entity_1": "DRUG",
-            "chunk_2": "constant headaches",
+            "ner_chunk_1_begin": "8",
+            "ner_chunk_1_end": "12",
+            "ner_chunk_2": "constant headaches",
             "entity_2": "ADE",
-            "relation": "1"
+            "ner_chunk_2_begin": "42",
+            "ner_chunk_2_end": "59",
+            "relation": "1",
+            "confidence": "0.9942973"
         },
         {
             "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
-            "chunk_1": "Zocor",
+            "ner_chunk_1": "Zocor",
             "entity_1": "DRUG",
-            "chunk_2": "dizziness",
+            "ner_chunk_1_begin": "8",
+            "ner_chunk_1_end": "12",
+            "ner_chunk_2": "dizziness",
             "entity_2": "ADE",
-            "relation": "1"
+            "ner_chunk_2_begin": "65",
+            "ner_chunk_2_end": "73",
+            "relation": "1",
+            "confidence": "0.998899"
         },
         {
             "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
-            "chunk_1": "Zocor",
+            "ner_chunk_1": "Zocor",
             "entity_1": "DRUG",
-            "chunk_2": "occasional joint pain",
+            "ner_chunk_1_begin": "8",
+            "ner_chunk_1_end": "12",
+            "ner_chunk_2": "occasional joint pain",
             "entity_2": "ADE",
-            "relation": "1"
+            "ner_chunk_2_begin": "164",
+            "ner_chunk_2_end": "184",
+            "relation": "1",
+            "confidence": "0.9984377"
         },
         {
             "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
-            "chunk_1": "constant headaches",
+            "ner_chunk_1": "constant headaches",
             "entity_1": "ADE",
-            "chunk_2": "Celebrex",
+            "ner_chunk_1_begin": "42",
+            "ner_chunk_1_end": "59",
+            "ner_chunk_2": "Celebrex",
             "entity_2": "DRUG",
-            "relation": "0"
+            "ner_chunk_2_begin": "104",
+            "ner_chunk_2_end": "111",
+            "relation": "0",
+            "confidence": "0.99999964"
         },
         {
             "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
-            "chunk_1": "dizziness",
+            "ner_chunk_1": "dizziness",
             "entity_1": "ADE",
-            "chunk_2": "Celebrex",
+            "ner_chunk_1_begin": "65",
+            "ner_chunk_1_end": "73",
+            "ner_chunk_2": "Celebrex",
             "entity_2": "DRUG",
-            "relation": "0"
+            "ner_chunk_2_begin": "104",
+            "ner_chunk_2_end": "111",
+            "relation": "0",
+            "confidence": "1.0"
         },
         {
             "document": "Been on Zocor for over a decade, enduring constant headaches and dizziness. My physician switched me to Celebrex recently, and since then, I have mostly dealt with occasional joint pain.",
-            "chunk_1": "Celebrex",
+            "ner_chunk_1": "Celebrex",
             "entity_1": "DRUG",
-            "chunk_2": "occasional joint pain",
+            "ner_chunk_1_begin": "104",
+            "ner_chunk_1_end": "111",
+            "ner_chunk_2": "occasional joint pain",
             "entity_2": "ADE",
-            "relation": "1"
+            "ner_chunk_2_begin": "164",
+            "ner_chunk_2_end": "184",
+            "relation": "1",
+            "confidence": "0.99807066"
         }
     ]
 }
