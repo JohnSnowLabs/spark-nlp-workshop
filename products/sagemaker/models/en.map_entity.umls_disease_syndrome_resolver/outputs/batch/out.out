@@ -1,0 +1,92 @@
+{
+    "predictions": [
+        {
+            "document": "HTG-induced pancreatitis associated with an acute hepatitis, and obesity",
+            "ner_chunk": "HTG-induced pancreatitis",
+            "begin": 0,
+            "end": 23,
+            "ner_label": "PROBLEM",
+            "umls_code": "C0376670"
+        },
+        {
+            "document": "HTG-induced pancreatitis associated with an acute hepatitis, and obesity",
+            "ner_chunk": "an acute hepatitis",
+            "begin": 41,
+            "end": 58,
+            "ner_label": "PROBLEM",
+            "umls_code": "C0019159"
+        },
+        {
+            "document": "HTG-induced pancreatitis associated with an acute hepatitis, and obesity",
+            "ner_chunk": "obesity",
+            "begin": 65,
+            "end": 71,
+            "ner_label": "PROBLEM",
+            "umls_code": "C0028754"
+        },
+        {
+            "document": "A 34-year-old female with a history of poor appetite, gestational diabetes mellitus, acyclovir allergy and polyuria",
+            "ner_chunk": "poor appetite",
+            "begin": 39,
+            "end": 51,
+            "ner_label": "PROBLEM",
+            "umls_code": "C0003123"
+        },
+        {
+            "document": "A 34-year-old female with a history of poor appetite, gestational diabetes mellitus, acyclovir allergy and polyuria",
+            "ner_chunk": "gestational diabetes mellitus",
+            "begin": 54,
+            "end": 82,
+            "ner_label": "PROBLEM",
+            "umls_code": "C0085207"
+        },
+        {
+            "document": "A 34-year-old female with a history of poor appetite, gestational diabetes mellitus, acyclovir allergy and polyuria",
+            "ner_chunk": "acyclovir allergy",
+            "begin": 85,
+            "end": 101,
+            "ner_label": "PROBLEM",
+            "umls_code": "C0571297"
+        },
+        {
+            "document": "A 34-year-old female with a history of poor appetite, gestational diabetes mellitus, acyclovir allergy and polyuria",
+            "ner_chunk": "polyuria",
+            "begin": 107,
+            "end": 114,
+            "ner_label": "PROBLEM",
+            "umls_code": "C0018965"
+        },
+        {
+            "document": "A 45-year-old male diagnosed with hypertension and hyperlipidemia, experiencing chest pain and shortness of breath.",
+            "ner_chunk": "hypertension",
+            "begin": 34,
+            "end": 45,
+            "ner_label": "PROBLEM",
+            "umls_code": "C0020538"
+        },
+        {
+            "document": "A 45-year-old male diagnosed with hypertension and hyperlipidemia, experiencing chest pain and shortness of breath.",
+            "ner_chunk": "hyperlipidemia",
+            "begin": 51,
+            "end": 64,
+            "ner_label": "PROBLEM",
+            "umls_code": "C0020473"
+        },
+        {
+            "document": "A 45-year-old male diagnosed with hypertension and hyperlipidemia, experiencing chest pain and shortness of breath.",
+            "ner_chunk": "chest pain",
+            "begin": 80,
+            "end": 89,
+            "ner_label": "PROBLEM",
+            "umls_code": "C0694545"
+        },
+        {
+            "document": "A 45-year-old male diagnosed with hypertension and hyperlipidemia, experiencing chest pain and shortness of breath.",
+            "ner_chunk": "shortness of breath",
+            "begin": 95,
+            "end": 113,
+            "ner_label": "PROBLEM",
+            "umls_code": "C0748643"
+        }
+    ]
+}
