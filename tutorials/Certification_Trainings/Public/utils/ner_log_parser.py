@@ -13,13 +13,13 @@ def parse_logfile(path):
         if row and row[0].startswith("Quality on"):
             set_idx = row[0].split(" ")[2]
         if row and row[0][:2] in ["B-","I-"]:
-            data.append((current_epoch, set_idx, row[0], row[0].split("-")[-1], *np.array(row[1:]).astype(np.float)))
+            data.append((current_epoch, set_idx, row[0], row[0].split("-")[-1], *np.array(row[1:]).astype(np.float64)))
         if row and row[0][:13]=="Macro-average":
             data_i = [d.split(": ")[-1] for d in row[1].split("\t")[-1].split(", ")]
-            avg_data.append((current_epoch, set_idx, row[0], *np.array(data_i).astype(np.float)))
+            avg_data.append((current_epoch, set_idx, row[0], *np.array(data_i).astype(np.float64)))
         if row and row[0][:13]=="Micro-average":
             data_i = [d.split(": ")[-1] for d in row[1].split("\t")[-1].split(", ")]
-            avg_data.append((current_epoch, set_idx, row[0], *np.array(data_i).astype(np.float)))
+            avg_data.append((current_epoch, set_idx, row[0], *np.array(data_i).astype(np.float64)))
     return  (pd.DataFrame(data, columns=["epoch","set","label","entity","tp","fp","fn","prec","rec","f1"]), 
             pd.DataFrame(avg_data, columns=["epoch","set","metric","prec","rec","f1"]), 
             graph)
@@ -44,7 +44,7 @@ def get_charts (log_file, threshold=0.0):
     for j,s in enumerate(["validation","test"]):
         try:
             for i, m in enumerate(["prec","rec","f1"]):
-                avg_metrics[m] = avg_metrics[m].astype(np.float)
+                avg_metrics[m] = avg_metrics[m].astype(np.float64)
                 cdf = avg_metrics[avg_metrics.set==s].reset_index()[["epoch","metric", m]].pivot(index="epoch",columns="metric",values=m).reset_index().fillna(0)
                 axs[i][j].title.set_text(s+" - "+m) 
                 cdf.plot(x="epoch", ax=axs[i][j])
