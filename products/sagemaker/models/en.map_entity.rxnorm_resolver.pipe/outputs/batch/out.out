@@ -6,7 +6,9 @@
             "begin": 22,
             "end": 33,
             "ner_label": "DRUG",
-            "rxnorm_code": "1000049"
+            "ner_confidence": "0.6573",
+            "rxnorm_code": "1000049",
+            "rxnorm_confidence": "0.6573"
         },
         {
             "document": "The patient was given Adapin 10 MG, coumadn 5 mg",
@@ -14,7 +16,9 @@
             "begin": 36,
             "end": 47,
             "ner_label": "DRUG",
-            "rxnorm_code": "200883"
+            "ner_confidence": "0.6365",
+            "rxnorm_code": "200883",
+            "rxnorm_confidence": "0.0543"
         },
         {
             "document": "She is given folic acid 1 mg daily , levothyroxine 0.1 mg and aspirin 81 mg daily.",
@@ -22,7 +26,9 @@
             "begin": 13,
             "end": 27,
             "ner_label": "DRUG",
-            "rxnorm_code": "315966"
+            "ner_confidence": "0.67852503",
+            "rxnorm_code": "315966",
+            "rxnorm_confidence": "0.67852503"
         },
         {
             "document": "She is given folic acid 1 mg daily , levothyroxine 0.1 mg and aspirin 81 mg daily.",
@@ -30,7 +36,9 @@
             "begin": 29,
             "end": 33,
             "ner_label": "FREQUENCY",
-            "rxnorm_code": "216351"
+            "ner_confidence": "0.9891",
+            "rxnorm_code": "216351",
+            "rxnorm_confidence": "0.9333"
         },
         {
             "document": "She is given folic acid 1 mg daily , levothyroxine 0.1 mg and aspirin 81 mg daily.",
@@ -38,7 +46,9 @@
             "begin": 37,
             "end": 56,
             "ner_label": "DRUG",
-            "rxnorm_code": "892245"
+            "ner_confidence": "0.8457667",
+            "rxnorm_code": "892245",
+            "rxnorm_confidence": "0.2008"
         },
         {
             "document": "She is given folic acid 1 mg daily , levothyroxine 0.1 mg and aspirin 81 mg daily.",
@@ -46,7 +56,9 @@
             "begin": 62,
             "end": 74,
             "ner_label": "DRUG",
-            "rxnorm_code": "434451"
+            "ner_confidence": "0.72886664",
+            "rxnorm_code": "434451",
+            "rxnorm_confidence": "0.72886664"
         },
         {
             "document": "She is given folic acid 1 mg daily , levothyroxine 0.1 mg and aspirin 81 mg daily.",
@@ -54,7 +66,9 @@
             "begin": 76,
             "end": 80,
             "ner_label": "FREQUENCY",
-            "rxnorm_code": "216351"
+            "ner_confidence": "0.9967",
+            "rxnorm_code": "216351",
+            "rxnorm_confidence": "0.9333"
         },
         {
             "document": "The doctor prescribed Lisinopril 20 MG once daily for hypertension.",
@@ -62,7 +76,9 @@
             "begin": 22,
             "end": 37,
             "ner_label": "DRUG",
-            "rxnorm_code": "314077"
+            "ner_confidence": "0.6994",
+            "rxnorm_code": "314077",
+            "rxnorm_confidence": "0.6994"
         },
         {
             "document": "The doctor prescribed Lisinopril 20 MG once daily for hypertension.",
@@ -70,7 +86,9 @@
             "begin": 39,
             "end": 48,
             "ner_label": "FREQUENCY",
-            "rxnorm_code": "216351"
+            "ner_confidence": "0.94275",
+            "rxnorm_code": "216351",
+            "rxnorm_confidence": "0.1926"
         }
     ]
 }

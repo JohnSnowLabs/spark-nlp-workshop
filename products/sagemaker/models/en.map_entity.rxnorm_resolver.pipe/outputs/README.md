@@ -11,7 +11,9 @@ The output consists of a JSON object with the following structure:
             "begin": Start Index,
             "end": End Index,
             "ner_label": "Label 1",
-            "rxnorm_code": code
+            "ner_confidence": Score,
+            "rxnorm_code": code,
+            "rxnorm_confidence": Score,
         },
         {
             "document": "Text of the document 1",
@@ -19,7 +21,9 @@ The output consists of a JSON object with the following structure:
             "begin": Start Index,
             "end": End Index,
             "ner_label": "Label 2",
-            "rxnorm_code": code
+            "ner_confidence": Score,
+            "rxnorm_code": code,
+            "rxnorm_confidence": Score,
         },
 
         {
@@ -28,11 +32,14 @@ The output consists of a JSON object with the following structure:
             "begin": Start Index,
             "end": End Index,
             "ner_label": "Label 2",
-            "rxnorm_code": code
+            "ner_confidence": Score,
+            "rxnorm_code": code,
+            "rxnorm_confidence": Score,
         },
         ...
     ]
 }
+
 
 ```
 
@@ -50,4 +57,8 @@ The output consists of a JSON object with the following structure:
 
     - **ner_label**: Label assigned to the named entity.
 
+    - **ner_confidence**: Confidence score associated with Named Entity Recognition.
+
     - **rxnorm_code**: rxnorm code associated with the prediction.
+
+    - **rxnorm_confidence**: Confidence score associated with the rxnorm_code.
