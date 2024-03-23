@@ -6,7 +6,9 @@
             "begin": 37,
             "end": 42,
             "ner_label": "PROBLEM",
-            "umls_code": "C0004096"
+            "ner_confidence": "0.9883",
+            "umls_code": "C0004096",
+            "umls_confidence": "0.9883"
         },
         {
             "document": "A 25-year-old male with a history of asthma and allergic rhinitis experiencing wheezing, coughing, and shortness of breath.",
@@ -14,7 +16,9 @@
             "begin": 48,
             "end": 64,
             "ner_label": "PROBLEM",
-            "umls_code": "C2607914"
+            "ner_confidence": "0.98784995",
+            "umls_code": "C2607914",
+            "umls_confidence": "0.98784995"
         },
         {
             "document": "A 25-year-old male with a history of asthma and allergic rhinitis experiencing wheezing, coughing, and shortness of breath.",
@@ -22,7 +26,9 @@
             "begin": 79,
             "end": 86,
             "ner_label": "PROBLEM",
-            "umls_code": "C1319018"
+            "ner_confidence": "0.997",
+            "umls_code": "C1319018",
+            "umls_confidence": "0.1876"
         },
         {
             "document": "A 25-year-old male with a history of asthma and allergic rhinitis experiencing wheezing, coughing, and shortness of breath.",
@@ -30,7 +36,9 @@
             "begin": 89,
             "end": 96,
             "ner_label": "PROBLEM",
-            "umls_code": "C0043167"
+            "ner_confidence": "0.999",
+            "umls_code": "C0043167",
+            "umls_confidence": "0.1291"
         },
         {
             "document": "A 25-year-old male with a history of asthma and allergic rhinitis experiencing wheezing, coughing, and shortness of breath.",
@@ -38,7 +46,9 @@
             "begin": 103,
             "end": 121,
             "ner_label": "PROBLEM",
-            "umls_code": "C0748643"
+            "ner_confidence": "0.8419666",
+            "umls_code": "C0748643",
+            "umls_confidence": "0.4083"
         }
     ]
 }
