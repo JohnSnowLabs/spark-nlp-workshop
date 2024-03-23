@@ -6,7 +6,9 @@
             "begin": 0,
             "end": 23,
             "ner_label": "PROBLEM",
-            "umls_code": "C0376670"
+            "ner_confidence": "0.9539",
+            "umls_code": "C0376670",
+            "umls_confidence": "0.1170"
         },
         {
             "document": "HTG-induced pancreatitis associated with an acute hepatitis, and obesity",
@@ -14,7 +16,9 @@
             "begin": 41,
             "end": 58,
             "ner_label": "PROBLEM",
-            "umls_code": "C0019159"
+            "ner_confidence": "0.9794333",
+            "umls_code": "C0019159",
+            "umls_confidence": "0.2740"
         },
         {
             "document": "HTG-induced pancreatitis associated with an acute hepatitis, and obesity",
@@ -22,7 +26,9 @@
             "begin": 65,
             "end": 71,
             "ner_label": "PROBLEM",
-            "umls_code": "C0028754"
+            "ner_confidence": "0.9828",
+            "umls_code": "C0028754",
+            "umls_confidence": "0.9828"
         },
         {
             "document": "A 34-year-old female with a history of poor appetite, gestational diabetes mellitus, acyclovir allergy and polyuria",
@@ -30,7 +36,9 @@
             "begin": 39,
             "end": 51,
             "ner_label": "PROBLEM",
-            "umls_code": "C0003123"
+            "ner_confidence": "0.97704995",
+            "umls_code": "C0003123",
+            "umls_confidence": "0.3963"
         },
         {
             "document": "A 34-year-old female with a history of poor appetite, gestational diabetes mellitus, acyclovir allergy and polyuria",
@@ -38,7 +46,9 @@
             "begin": 54,
             "end": 82,
             "ner_label": "PROBLEM",
-            "umls_code": "C0085207"
+            "ner_confidence": "0.95376664",
+            "umls_code": "C0085207",
+            "umls_confidence": "0.95376664"
         },
         {
             "document": "A 34-year-old female with a history of poor appetite, gestational diabetes mellitus, acyclovir allergy and polyuria",
@@ -46,7 +56,9 @@
             "begin": 85,
             "end": 101,
             "ner_label": "PROBLEM",
-            "umls_code": "C0571297"
+            "ner_confidence": "0.74755",
+            "umls_code": "C0571297",
+            "umls_confidence": "0.74755"
         },
         {
             "document": "A 34-year-old female with a history of poor appetite, gestational diabetes mellitus, acyclovir allergy and polyuria",
@@ -54,7 +66,9 @@
             "begin": 107,
             "end": 114,
             "ner_label": "PROBLEM",
-            "umls_code": "C0018965"
+            "ner_confidence": "0.9951",
+            "umls_code": "C0018965",
+            "umls_confidence": "0.1252"
         },
         {
             "document": "A 45-year-old male diagnosed with hypertension and hyperlipidemia, experiencing chest pain and shortness of breath.",
@@ -62,7 +76,9 @@
             "begin": 34,
             "end": 45,
             "ner_label": "PROBLEM",
-            "umls_code": "C0020538"
+            "ner_confidence": "0.9994",
+            "umls_code": "C0020538",
+            "umls_confidence": "0.9994"
         },
         {
             "document": "A 45-year-old male diagnosed with hypertension and hyperlipidemia, experiencing chest pain and shortness of breath.",
@@ -70,7 +86,9 @@
             "begin": 51,
             "end": 64,
             "ner_label": "PROBLEM",
-            "umls_code": "C0020473"
+            "ner_confidence": "0.9972",
+            "umls_code": "C0020473",
+            "umls_confidence": "0.9972"
         },
         {
             "document": "A 45-year-old male diagnosed with hypertension and hyperlipidemia, experiencing chest pain and shortness of breath.",
@@ -78,7 +96,9 @@
             "begin": 80,
             "end": 89,
             "ner_label": "PROBLEM",
-            "umls_code": "C0694545"
+            "ner_confidence": "0.99660003",
+            "umls_code": "C0694545",
+            "umls_confidence": "0.2079"
         },
         {
             "document": "A 45-year-old male diagnosed with hypertension and hyperlipidemia, experiencing chest pain and shortness of breath.",
@@ -86,7 +106,9 @@
             "begin": 95,
             "end": 113,
             "ner_label": "PROBLEM",
-            "umls_code": "C0748643"
+            "ner_confidence": "0.8344334",
+            "umls_code": "C0748643",
+            "umls_confidence": "0.4083"
         }
     ]
 }

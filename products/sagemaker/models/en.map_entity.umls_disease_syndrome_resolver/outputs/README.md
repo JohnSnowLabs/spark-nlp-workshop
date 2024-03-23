@@ -11,7 +11,9 @@ The output consists of a JSON object with the following structure:
             "begin": Start Index,
             "end": End Index,
             "ner_label": "Label 1",
-            "umls_code": code
+            "ner_confidence": Score,
+            "umls_code": code,
+            "umls_confidence": Score,
         },
         {
             "document": "Text of the document 1",
@@ -19,7 +21,9 @@ The output consists of a JSON object with the following structure:
             "begin": Start Index,
             "end": End Index,
             "ner_label": "Label 2",
-            "umls_code": code
+            "ner_confidence": Score,
+            "umls_code": code,
+            "umls_confidence": Score,
         },
 
         {
@@ -28,11 +32,14 @@ The output consists of a JSON object with the following structure:
             "begin": Start Index,
             "end": End Index,
             "ner_label": "Label 2",
-            "umls_code": code
+            "ner_confidence": Score,
+            "umls_code": code,
+            "umls_confidence": Score,
         },
         ...
     ]
 }
+
 
 ```
 
@@ -50,4 +57,8 @@ The output consists of a JSON object with the following structure:
 
     - **ner_label**: Label assigned to the named entity.
 
+    - **ner_confidence**: Confidence score associated with Named Entity Recognition.
+
     - **umls_code**: umls code associated with the prediction.
+
+    - **umls_confidence**: Confidence score associated with the umls_code.
