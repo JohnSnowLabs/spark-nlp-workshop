@@ -1,0 +1,5 @@
+{
+    "predictions": [
+        "Zusammenfassung : <PATIENT> wird am Morgen des <DATE> ins <HOSPITAL> eingeliefert. Herr <PATIENT> ist <AGE> Jahre alt und hat zu viel Wasser in den Beinen. Pers\u00f6nliche Daten :\nID-Nummer: <ID> Platte <PLATE> Kontonummer: <ACCOUNT>\nSSN : <SSN> Lizenznummer: <DLN> Adresse : <STREET> <ZIP>"
+    ]
+}
