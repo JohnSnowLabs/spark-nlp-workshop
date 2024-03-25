@@ -1,0 +1,8 @@
+{
+    "predictions": [
+        "Herr <PATIENT> - Telefon: <ID> - Beruf: <PROFESSION> an der <ORGANIZATION>. Er berichtet \u00fcber Krankenhausaufenthalte im <HOSPITAL>, und die Akte zeigt weitere Krankenhausaufenthalte, darunter <HOSPITAL> im Jahr <DATE>, <HOSPITAL> am <DATE>, <HOSPITAL> im Jahr <DATE>.",
+        "Dr.  <DOCTOR> - <USERNAME>, <HOSPITAL>, <STREET>, <CITY>",
+        "Er arbeitete bis <DATE> - <PROFESSION> bei <ORGANIZATION> in <CITY>, verbrannte sich an beiden Beinen - entwickelte Geschw\u00fcre. Der Patient konsultierte Dr. <DOCTOR> im <DATE>.",
+        "Koronare Herzkrankheit : s/p ant SEMI + Stent LAD <DATE> , Dr . <DOCTOR> , ETT <CITY> <DATE> - neg . Scan auf Isch\u00e4mie ."
+    ]
+}
