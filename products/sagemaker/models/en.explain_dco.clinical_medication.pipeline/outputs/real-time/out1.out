@@ -104,8 +104,8 @@
             "begin": 267,
             "end": 273,
             "ner_label": "DRUG",
-            "assertion": "Planned",
-            "confidence": "0.9816"
+            "ner_confidence": "0.9816",
+            "assertion": "Planned"
         },
         {
             "document": "The patient is a 40-year-old white male who presents with a chief complaint of 'chest pain'. The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that chest pain started yesterday evening. He has been advised Aspirin 81 milligrams QDay. insulin 50 units in a.m. HCTZ 50 mg QDay. Nitroglycerin 1/150 sublingually.",
@@ -113,8 +113,8 @@
             "begin": 295,
             "end": 301,
             "ner_label": "DRUG",
-            "assertion": "Planned",
-            "confidence": "0.9998"
+            "ner_confidence": "0.9998",
+            "assertion": "Planned"
         },
         {
             "document": "The patient is a 40-year-old white male who presents with a chief complaint of 'chest pain'. The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that chest pain started yesterday evening. He has been advised Aspirin 81 milligrams QDay. insulin 50 units in a.m. HCTZ 50 mg QDay. Nitroglycerin 1/150 sublingually.",
@@ -122,8 +122,8 @@
             "begin": 320,
             "end": 323,
             "ner_label": "DRUG",
-            "assertion": "Planned",
-            "confidence": "0.9948"
+            "ner_confidence": "0.9948",
+            "assertion": "Planned"
         },
         {
             "document": "The patient is a 40-year-old white male who presents with a chief complaint of 'chest pain'. The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that chest pain started yesterday evening. He has been advised Aspirin 81 milligrams QDay. insulin 50 units in a.m. HCTZ 50 mg QDay. Nitroglycerin 1/150 sublingually.",
@@ -131,130 +131,146 @@
             "begin": 337,
             "end": 349,
             "ner_label": "DRUG",
-            "assertion": "Past",
-            "confidence": "0.9994"
+            "ner_confidence": "0.9994",
+            "assertion": "Past"
         }
     ],
     "relation_predictions": [
         {
             "document": "The patient is a 40-year-old white male who presents with a chief complaint of 'chest pain'. The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that chest pain started yesterday evening. He has been advised Aspirin 81 milligrams QDay. insulin 50 units in a.m. HCTZ 50 mg QDay. Nitroglycerin 1/150 sublingually.",
-            "relation": "DRUG-STRENGTH",
-            "relation_begin": 267,
-            "relation_end": 287,
             "ner_chunk1": "Aspirin",
             "ner_chunk1_begin": "267",
             "ner_chunk1_end": "273",
             "ner_label1": "DRUG",
+            "ner_chunk1_confidence": "0.9816",
             "ner_chunk2": "81 milligrams",
             "ner_chunk2_begin": "275",
             "ner_chunk2_end": "287",
             "ner_label2": "STRENGTH",
-            "confidence": "1.0"
+            "ner_chunk2_confidence": "0.81974995",
+            "relation": "DRUG-STRENGTH",
+            "relation_begin": 267,
+            "relation_end": 287,
+            "relation_confidence": "1.0"
         },
         {
             "document": "The patient is a 40-year-old white male who presents with a chief complaint of 'chest pain'. The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that chest pain started yesterday evening. He has been advised Aspirin 81 milligrams QDay. insulin 50 units in a.m. HCTZ 50 mg QDay. Nitroglycerin 1/150 sublingually.",
-            "relation": "DRUG-FREQUENCY",
-            "relation_begin": 267,
-            "relation_end": 292,
             "ner_chunk1": "Aspirin",
             "ner_chunk1_begin": "267",
             "ner_chunk1_end": "273",
             "ner_label1": "DRUG",
+            "ner_chunk1_confidence": "0.9816",
             "ner_chunk2": "QDay",
             "ner_chunk2_begin": "289",
             "ner_chunk2_end": "292",
             "ner_label2": "FREQUENCY",
-            "confidence": "1.0"
+            "ner_chunk2_confidence": "0.9916",
+            "relation": "DRUG-FREQUENCY",
+            "relation_begin": 267,
+            "relation_end": 292,
+            "relation_confidence": "1.0"
         },
         {
             "document": "The patient is a 40-year-old white male who presents with a chief complaint of 'chest pain'. The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that chest pain started yesterday evening. He has been advised Aspirin 81 milligrams QDay. insulin 50 units in a.m. HCTZ 50 mg QDay. Nitroglycerin 1/150 sublingually.",
-            "relation": "DRUG-DOSAGE",
-            "relation_begin": 295,
-            "relation_end": 310,
             "ner_chunk1": "insulin",
             "ner_chunk1_begin": "295",
             "ner_chunk1_end": "301",
             "ner_label1": "DRUG",
+            "ner_chunk1_confidence": "0.9998",
             "ner_chunk2": "50 units",
             "ner_chunk2_begin": "303",
             "ner_chunk2_end": "310",
             "ner_label2": "DOSAGE",
-            "confidence": "1.0"
+            "ner_chunk2_confidence": "0.8536",
+            "relation": "DRUG-DOSAGE",
+            "relation_begin": 295,
+            "relation_end": 310,
+            "relation_confidence": "1.0"
         },
         {
             "document": "The patient is a 40-year-old white male who presents with a chief complaint of 'chest pain'. The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that chest pain started yesterday evening. He has been advised Aspirin 81 milligrams QDay. insulin 50 units in a.m. HCTZ 50 mg QDay. Nitroglycerin 1/150 sublingually.",
-            "relation": "DRUG-FREQUENCY",
-            "relation_begin": 295,
-            "relation_end": 317,
             "ner_chunk1": "insulin",
             "ner_chunk1_begin": "295",
             "ner_chunk1_end": "301",
             "ner_label1": "DRUG",
+            "ner_chunk1_confidence": "0.9998",
             "ner_chunk2": "in a.m",
             "ner_chunk2_begin": "312",
             "ner_chunk2_end": "317",
             "ner_label2": "FREQUENCY",
-            "confidence": "1.0"
+            "ner_chunk2_confidence": "0.66085005",
+            "relation": "DRUG-FREQUENCY",
+            "relation_begin": 295,
+            "relation_end": 317,
+            "relation_confidence": "1.0"
         },
         {
             "document": "The patient is a 40-year-old white male who presents with a chief complaint of 'chest pain'. The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that chest pain started yesterday evening. He has been advised Aspirin 81 milligrams QDay. insulin 50 units in a.m. HCTZ 50 mg QDay. Nitroglycerin 1/150 sublingually.",
-            "relation": "DRUG-STRENGTH",
-            "relation_begin": 320,
-            "relation_end": 329,
             "ner_chunk1": "HCTZ",
             "ner_chunk1_begin": "320",
             "ner_chunk1_end": "323",
             "ner_label1": "DRUG",
+            "ner_chunk1_confidence": "0.9948",
             "ner_chunk2": "50 mg",
             "ner_chunk2_begin": "325",
             "ner_chunk2_end": "329",
             "ner_label2": "STRENGTH",
-            "confidence": "1.0"
+            "ner_chunk2_confidence": "0.948",
+            "relation": "DRUG-STRENGTH",
+            "relation_begin": 320,
+            "relation_end": 329,
+            "relation_confidence": "1.0"
         },
         {
             "document": "The patient is a 40-year-old white male who presents with a chief complaint of 'chest pain'. The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that chest pain started yesterday evening. He has been advised Aspirin 81 milligrams QDay. insulin 50 units in a.m. HCTZ 50 mg QDay. Nitroglycerin 1/150 sublingually.",
-            "relation": "DRUG-FREQUENCY",
-            "relation_begin": 320,
-            "relation_end": 334,
             "ner_chunk1": "HCTZ",
             "ner_chunk1_begin": "320",
             "ner_chunk1_end": "323",
             "ner_label1": "DRUG",
+            "ner_chunk1_confidence": "0.9948",
             "ner_chunk2": "QDay",
             "ner_chunk2_begin": "331",
             "ner_chunk2_end": "334",
             "ner_label2": "FREQUENCY",
-            "confidence": "1.0"
+            "ner_chunk2_confidence": "0.9985",
+            "relation": "DRUG-FREQUENCY",
+            "relation_begin": 320,
+            "relation_end": 334,
+            "relation_confidence": "1.0"
         },
         {
             "document": "The patient is a 40-year-old white male who presents with a chief complaint of 'chest pain'. The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that chest pain started yesterday evening. He has been advised Aspirin 81 milligrams QDay. insulin 50 units in a.m. HCTZ 50 mg QDay. Nitroglycerin 1/150 sublingually.",
-            "relation": "DRUG-STRENGTH",
-            "relation_begin": 337,
-            "relation_end": 355,
             "ner_chunk1": "Nitroglycerin",
             "ner_chunk1_begin": "337",
             "ner_chunk1_end": "349",
             "ner_label1": "DRUG",
+            "ner_chunk1_confidence": "0.9994",
             "ner_chunk2": "1/150",
             "ner_chunk2_begin": "351",
             "ner_chunk2_end": "355",
             "ner_label2": "STRENGTH",
-            "confidence": "1.0"
+            "ner_chunk2_confidence": "0.8967",
+            "relation": "DRUG-STRENGTH",
+            "relation_begin": 337,
+            "relation_end": 355,
+            "relation_confidence": "1.0"
         },
         {
             "document": "The patient is a 40-year-old white male who presents with a chief complaint of 'chest pain'. The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that chest pain started yesterday evening. He has been advised Aspirin 81 milligrams QDay. insulin 50 units in a.m. HCTZ 50 mg QDay. Nitroglycerin 1/150 sublingually.",
-            "relation": "DRUG-ROUTE",
-            "relation_begin": 337,
-            "relation_end": 368,
             "ner_chunk1": "Nitroglycerin",
             "ner_chunk1_begin": "337",
             "ner_chunk1_end": "349",
             "ner_label1": "DRUG",
+            "ner_chunk1_confidence": "0.9994",
             "ner_chunk2": "sublingually",
             "ner_chunk2_begin": "357",
             "ner_chunk2_end": "368",
             "ner_label2": "ROUTE",
-            "confidence": "1.0"
+            "ner_chunk2_confidence": "0.9816",
+            "relation": "DRUG-ROUTE",
+            "relation_begin": 337,
+            "relation_end": 368,
+            "relation_confidence": "1.0"
         }
     ]
 }
