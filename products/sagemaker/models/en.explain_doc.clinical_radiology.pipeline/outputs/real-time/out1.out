@@ -136,7 +136,16 @@
             "begin": 1,
             "end": 12,
             "ner_label": "ImagingFindings",
-            "confidence": "0.8463",
+            "ner_confidence": "0.8463",
+            "assertion": "Confirmed"
+        },
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "pleural effusion",
+            "begin": 46,
+            "end": 61,
+            "ner_label": "Disease_Syndrome_Disorder",
+            "ner_confidence": "0.69865",
             "assertion": "Confirmed"
         },
         {
@@ -145,7 +154,7 @@
             "begin": 83,
             "end": 90,
             "ner_label": "ImagingFindings",
-            "confidence": "0.9442",
+            "ner_confidence": "0.9442",
             "assertion": "Confirmed"
         },
         {
@@ -154,7 +163,16 @@
             "begin": 121,
             "end": 125,
             "ner_label": "ImagingFindings",
-            "confidence": "0.7488",
+            "ner_confidence": "0.7488",
+            "assertion": "Confirmed"
+        },
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "lower lobe opacities",
+            "begin": 134,
+            "end": 153,
+            "ner_label": "Symptom",
+            "ner_confidence": "0.30993333",
             "assertion": "Confirmed"
         },
         {
@@ -163,7 +181,7 @@
             "begin": 196,
             "end": 207,
             "ner_label": "ImagingFindings",
-            "confidence": "0.9832",
+            "ner_confidence": "0.9832",
             "assertion": "Negative"
         },
         {
@@ -172,36 +190,44 @@
             "begin": 220,
             "end": 244,
             "ner_label": "ImagingFindings",
-            "confidence": "0.5607",
+            "ner_confidence": "0.5607",
             "assertion": "Confirmed"
         }
     ],
     "relation_predictions": [
         {
             "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
-            "relation": "not_related",
             "ner_chunk1": "upper lungs",
             "ner_chunk1_begin": "105",
             "ner_chunk1_end": "115",
             "ner_label1": "BodyPart",
+            "ner_chunk1_confidence": "0.5999",
             "ner_chunk2": "clear",
             "ner_chunk2_begin": "121",
             "ner_chunk2_end": "125",
             "ner_label2": "ImagingFindings",
-            "confidence": "0.947544"
+            "ner_chunk2_confidence": "0.7488",
+            "relation": "not_related",
+            "relation_begin": 105,
+            "relation_end": 125,
+            "relation_confidence": "0.947544"
         },
         {
             "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
-            "relation": "is_related",
             "ner_chunk1": "mild degenerative changes",
             "ner_chunk1_begin": "220",
             "ner_chunk1_end": "244",
             "ner_label1": "ImagingFindings",
+            "ner_chunk1_confidence": "0.5607",
             "ner_chunk2": "thoracic spine",
             "ner_chunk2_begin": "253",
             "ner_chunk2_end": "266",
             "ner_label2": "BodyPart",
-            "confidence": "0.99999964"
+            "ner_chunk2_confidence": "0.7687",
+            "relation": "is_related",
+            "relation_begin": 220,
+            "relation_end": 266,
+            "relation_confidence": "0.99999964"
         }
     ]
 }

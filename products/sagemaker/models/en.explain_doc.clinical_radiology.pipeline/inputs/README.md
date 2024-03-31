@@ -1,6 +1,6 @@
 ## Input Format
 
-To use the pipeline model, you need to provide input in one of the following supported formats:
+To use the model, you need to provide input in one of the following supported formats:
 
 ### Format 1: Array of Text Documents
 
