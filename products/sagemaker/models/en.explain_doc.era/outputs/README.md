@@ -1,50 +1,129 @@
-Let's explain each of the output columns :
+## Output Format
+
+The output consists of a JSON object with the following structure:
+
+```json
+
+{
+    "ner_predictions": [
+        {
+            "document": "Text of the document 1",
+            "ner_chunk": "Named Entity 1",
+            "begin": Start Index,
+            "end": End Index,
+            "ner_label": "Label 1",
+            "confidence": Score
+        },
+        {
+            "document": "Text of the document 1",
+            "ner_chunk": "Named Entity 2",
+            "begin": Start Index,
+            "end": End Index,
+            "ner_label": "Label 2",
+            "confidence": Score
+        },
+        ...
+    ],
+    "assertion_predictions": [
+        {
+            "document": "Text of the document 1",
+            "ner_chunk": "Named Entity 2",
+            "begin": Start Index,
+            "end": End Index,
+            "ner_label": "Label 2",
+            "ner_confidence": Score,
+            "assertion": "Assertion status",
+            "assertion_confidence": Score,
+        },
+        ...
+    ],
+    "relation_predictions": [
+        {
+            "document": "Text of the document 1",
+            "ner_chunk1": "Named Entity 1",
+            "ner_chunk1_begin": Start Index,
+            "ner_chunk1_end": End Index,
+            "ner_label1": "Label 1",
+            "ner_chunk1_confidence": Score,
+            "ner_chunk2": "Named Entity 2",
+            "ner_chunk2_begin": Start Index,
+            "ner_chunk2_end": End Index,
+            "ner_label2": "Label 2",
+            "ner_chunk2_confidence": Score,
+            "relation": "Relation Type",
+            "relation_begin": Relation Start Index,
+            "relation_end": Relation End Index,
+            "relation_confidence": Score
+        },
+        ...
+    ]
+}
+```
 
 
-### `document`
-**Description:** The text under analysis, offering context for the extraction.
+## NER Predictions
+An array containing NER predictions for each input document.
 
-**Example:** She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge.
+- **document**: The original input text for which predictions are made.
 
-### `relation`
-**Description:** Specifies the type of relationship identified between two entities. "
+- **ner_chunk**: Named entity recognized in the document.
 
-**Example:** The `AFTER` relation between the patient being "admitted" and their admission to "The John Hopkins Hospital" implies a sequence of events, where the admission precedes the involvement with the specific clinical department.
+- **begin**: Starting character index of the named entity chunk within the document.
 
-### `entity1`
-**Description:** Identifies the category of the first entity in the relationship.
+- **end**: Ending character index of the named entity chunk within the document.
 
-**Example:** The term "admitted" falls under `OCCURRENCE` denoting the event of the patient's admission to the hospital.
+- **ner_label**: Label assigned to the named entity.
 
-### `entity1_begin` & `entity1_end`
-**Description:** These are numerical indicators for the starting and ending character positions of the first entity within the document, pinpointing its exact location.
+- **confidence**: Confidence score associated with the prediction.
 
-**Example Positions:** Character positions from  `7-14` accurately locate "admitted" in the document.
+## Assertion Predictions
+An array containing assertions for each input document.
 
-### `chunk1`
-**Description:** This is the direct text snippet from the document identified as the first entity, facilitating the extraction's specificity and accuracy.
+- **document**: The original input text for which assertions are made.
 
-**Example:** `admitted` is highlighted as the chunk, indicating the action of being admitted.
+- **ner_chunk**: Named entity associated with the assertion.
 
-### `entity2`
-**Description:** Similar to `entity1`, this identifies the second entity's category.
+- **begin**: Starting character index of the named entity chunk within the document.
 
-**Example:** "The John Hopkins Hospital" is categorized as `CLINICAL_DEPT` signifying the specific department responsible for the patient's care.
+- **end**: Ending character index of the named entity chunk within the document.
 
-### `entity2_begin` & `entity2_end`
-**Description:** Mark the start and end character positions of the second entity within the document, analogous to `entity1_begin` and `entity1_end` but for the second entity.
+- **ner_label**: Label assigned to the named entity.
 
-**Example Positions:** Characters from `19-43` define the placement of "The John Hopkins Hospital" in the text.
+- **ner_confidence**: Confidence score associated with the ner prediction.
 
-### `chunk2`
-**Description:** The exact text snippet identified as the second entity, providing concrete evidence of the clinical department involved.
+- **assertion**: Assertion status.
 
-**Example:** `The John Hopkins Hospital` is extracted as the chunk, denoting the facility where the patient was admitted.
+- **assertion_confidence**: Confidence score associated with the assertion.
 
-### `confidence`
-**Description:** A numerical value indicating the confidence level in the relationship extraction and entity identification, ranging from 0 to 1. 
+## Relation Predictions
+An array containing relations between named entities within each input document.
 
-**Example:** The confidence score of `0.9621104` underscores the system's strong assurance in correctly identifying relationship extraction and entity identification.
+- **document**: The original input text for which relations are identified.
 
+- **ner_chunk1**: First named entity involved in the relation.
 
+- **ner_chunk1_begin**: Starting character index of the first named entity chunk within the document.
 
+- **ner_chunk1_end**: Ending character index of the first named entity chunk within the document.
+
+- **ner_label1**: Label assigned to the first named entity.
+
+- **ner_chunk1_confidence**: The confidence score associated with the recognition of the first named entity.
+
+- **ner_chunk2**: Second named entity involved in the relation.
+
+- **ner_chunk2_begin**: Starting character index of the second named entity chunk within the document.
+
+- **ner_chunk2_end**: Ending character index of the second named entity chunk within the document.
+
+- **ner_label2**: Label assigned to the second named entity.
+
+- **ner_chunk2_confidence**: The confidence score associated with the recognition of the second named entity.
+
+- **relations**: Type of relation identified.
+
+- **relation_begin**: Starting character index of the relation within the document.
+
+- **relation_end**:  Ending character index of the relation within the document.
+
+- **relation_confidence**: Confidence score associated with the relation.
