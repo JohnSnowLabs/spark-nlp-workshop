@@ -7,7 +7,7 @@ If you don't have time to cover all these, please check the follwing notebook fo
 
 ## Table of Contents
 
-### ➤ SparkNLP Overview
+### SparkNLP Overview
 
 [0.SparkNLP_for_OpenSource_3h_Notebook.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/0.SparkNLP_for_OpenSource_3h_Notebook.ipynb)
 
@@ -26,12 +26,13 @@ If you don't have time to cover all these, please check the follwing notebook fo
 
 [4.1_NerDL_Graph.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/4.1_NerDL_Graph.ipynb)
 
-[14.Transformers_for_Token_Classification_in_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/14.Transformers_for_Token_Classification_in_Spark_NLP.ipynb)
-
-[15.Import_Transformers_Into_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/15.Import_Transformers_Into_Spark_NLP.ipynb)
-
 [4.2_ZeroShot_NER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/4.2_ZeroShot_NER.ipynb)
 
+[4.3_Transformers_for_Token_Classification_in_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/4.3_Transformers_for_Token_Classification_in_Spark_NLP.ipynb)
+
+[4.4_Import_Transformers_Into_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/4.4_Import_Transformers_Into_Spark_NLP.ipynb)
+
+[4.5_EntityRuler.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/entity-ruler-certification/tutorials/Certification_Trainings/Public/4.5_EntityRuler.ipynb)
 
 
 ### Text Classification
@@ -48,7 +49,6 @@ If you don't have time to cover all these, please check the follwing notebook fo
 
 [11.Text_Similarities_and_dimension_reduction_visualizations_for_Embeddings.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/11.Text_Similarities_and_dimension_reduction_visualizations_for_Embeddings.ipynb)
 
-
 ###  NLU
 
 [13.NLU_crashcourse_every_Spark_NLP_Model_in_one_line.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/13.NLU_crashcourse_every_Spark_NLP_Model_in_one_line.ipynb)
@@ -61,23 +61,24 @@ If you don't have time to cover all these, please check the follwing notebook fo
 
 [10.2_SQL_Code_Generation_and_Style_Transfer_with_T5.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/10.2_SQL_Code_Generation_and_Style_Transfer_with_T5.ipynb)
 
+[14.GPT2_Transformer_In_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/14.GPT2_Transformer_In_Spark_NLP.ipynb)
 
-[16.GPT2_Transformer_In_Spark_NLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/16.GPT2_Transformer_In_Spark_NLP.ipynb)
-
-[21.Text_Summarization_with_BART.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/21.Text_Summarization_with_BART.ipynb)
+[18.Summarization.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/18.Summarization.ipynb)
 
 
-### Table Question Answering (TAPAS) 
+### Question Answering 
 
-[17.Table_Question_Answering.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/17.Table_Question_Answering.ipynb)
+[15.0_Question_Answering.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/15.0_Question_Answering.ipynb)
+
+[15.1_Table_Question_Answering.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/15.1_Table_Question_Answering.ipynb)
 
 ### Image Classification Notebooks
 
-[18.ViT_for_Image_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/18.ViT_for_Image_Classification.ipynb)
+[19.Image_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/19.Image_Classification.ipynb)
 
-### ➤ Speech Recognition Notebooks
+### Speech Recognition Notebooks
 
-[19.Automatic_Speech_Recognition_Wav2Vec2.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/19.Automatic_Speech_Recognition_Wav2Vec2.ipynb)
+[17.Speech_Recognition.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/17.Speech_Recognition.ipynb)
 
 
 ### Auxillary Notebooks
@@ -92,4 +93,12 @@ If you don't have time to cover all these, please check the follwing notebook fo
 
 [12.Graph_extraction.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/12.Graph_extraction.ipynb)
 
-[20.EntityRuler.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/entity-ruler-certification/tutorials/Certification_Trainings/Public/20.EntityRuler.ipynb)
+[20.0_Translations.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/20.0_Translations.ipynb)
+
+[21.0_Document_Splitters.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/21.0_Document_Splitters.ipynb)
+
+[21.1_Document_Similarity_Ranker.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/21.1_Document_Similarity_Ranker.ipynb)
+
+[22.1_OpenAI_In_SparkNLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/22.1_OpenAI_In_SparkNLP.ipynb)
+
+

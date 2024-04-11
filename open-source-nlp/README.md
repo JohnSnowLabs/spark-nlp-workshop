@@ -10,6 +10,8 @@ If you don't have time to cover all these, please check the follwing notebook fo
 
 ### Spark NLP Basics
 
+[00.SparkNLP_for_OpenSource_3h_Notebook.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/00.SparkNLP_for_OpenSource_3h_Notebook.ipynb)
+
 [01.0.SparkNLP_Basics.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/01.0.SparkNLP_Basics.ipynb)
 
 [02.0.Text_Preprocessing_with_SparkNLP_Annotators_Transformers.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/02.0.Text_Preprocessing_with_SparkNLP_Annotators_Transformers.ipynb)
@@ -28,6 +30,8 @@ If you don't have time to cover all these, please check the follwing notebook fo
 [04.3.Import_Transformers_Into_SparkNLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/04.3.Import_Transformers_Into_SparkNLP.ipynb)
 
 [04.4.ZeroShot_NER.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/04.4.ZeroShot_NER.ipynb)
+
+[04.5.EntityRuler.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/entity-ruler-certification/open-source-nlp/04.5.EntityRuler.ipynb)
 
 ### Text Classification
 
@@ -58,23 +62,24 @@ If you don't have time to cover all these, please check the follwing notebook fo
 
 [14.0.GPT2_Transformer_In_SparkNLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/14.0.GPT2_Transformer_In_SparkNLP.ipynb)
 
-[18.0.Text_Summarization_with_BART.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/18.0.Text_Summarization_with_BART.ipynb)
+[18.0.Summarization.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/18.0.Summarization.ipynb)
 
 
-### Table Question Answering (TAPAS) 
+### Question Answering
 
-[15.0.Table_Question_Answering.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/15.0.Table_Question_Answering.ipynb)
+[15.0.Question_Answering.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/15.0.Question_Answering.ipynb)
+
+[15.1.Table_Question_Answering.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/15.1.Table_Question_Answering.ipynb)
 
 
 ### Image Classification Notebooks
 
-[16.0.Transformers_for_Image_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/16.0.Transformers_for_Image_Classification.ipynb)
+[16.0.Image_Classification.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/16.0.Image_Classification.ipynb)
 
 
 ### Speech Recognition
 
-[17.0.Automatic_Speech_Recognition_Wav2Vec2.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/17.0.Automatic_Speech_Recognition_Wav2Vec2.ipynb)
-
+[17.0.Speech_Recognition.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/17.0.Speech_Recognition.ipynb)
 
 
 ### Auxillary Notebooks
@@ -87,4 +92,11 @@ If you don't have time to cover all these, please check the follwing notebook fo
 
 [10.0.Graph_Extraction.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/10.0.Graph_Extraction.ipynb)
 
-[11.0.EntityRuler.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/entity-ruler-certification/open-source-nlp/11.0.EntityRuler.ipynb)
+[20.0.Translations .ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/20.0.Translations .ipynb)
+
+[21.0.Document_Splitters.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/21.0.Document_Splitters.ipynb)
+
+[21.1.Document_Similarity_Ranker.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/21.1.Document_Similarity_Ranker.ipynb)
+
+[22.1.OpenAI_In_SparkNLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/22.1.OpenAI_In_SparkNLP.ipynb)
+
