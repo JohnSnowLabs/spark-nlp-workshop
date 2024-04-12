@@ -92,7 +92,9 @@ If you don't have time to cover all these, please check the follwing notebook fo
 
 [10.0.Graph_Extraction.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/10.0.Graph_Extraction.ipynb)
 
-[20.0.Translations .ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/20.0.Translations .ipynb)
+[19.0.Llama2_Transformer_In_SparkNLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/19.0.Llama2_Transformer_In_SparkNLP.ipynb)
+
+[20.0.Translations.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/20.0.Translations .ipynb)
 
 [21.0.Document_Splitters.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/open-source-nlp/21.0.Document_Splitters.ipynb)
 
