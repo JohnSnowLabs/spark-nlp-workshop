@@ -101,4 +101,6 @@ If you don't have time to cover all these, please check the follwing notebook fo
 
 [22.1_OpenAI_In_SparkNLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/22.1_OpenAI_In_SparkNLP.ipynb)
 
+[23.0_Llama2_Transformer_In_SparkNLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/23.0_Llama2_Transformer_In_SparkNLP.ipynb)
+
 
