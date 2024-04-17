@@ -38,10 +38,10 @@ Go to the bottom of the page, and expand the `Bootstrap Actions` tab. Press on `
 ![5](https://github.com/JohnSnowLabs/spark-nlp-workshop/assets/72014272/05c3931c-16f7-47ad-b135-2612e85b3de4)
 
 
-The script we'll use for this setup is `jsl_emr_bootstrap.sh` which is contained in this folder.
+The script we'll use for this setup is `emr_bootstrap.sh` which is contained in this folder.
 
 
-You need to put your credentials into `jsl_emr_bootstrap.sh` file <br/>
+You need to put your credentials into `emr_bootstrap.sh` file <br/>
 
 #### 7. We will define spark parameters under Software settings tab:
 
