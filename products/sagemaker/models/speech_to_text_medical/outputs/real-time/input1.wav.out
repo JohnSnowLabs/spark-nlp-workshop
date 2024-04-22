@@ -1,0 +1,169 @@
+{
+    "document": "My husband has a spot on his lip that he thought was cold sore, but now it has broken open and leaks fluid all day",
+    "segments": [
+        {
+            "speaker": "SPEAKER_00",
+            "start": 0.401,
+            "end": 7.1,
+            "text": "My husband has a spot on his lip that he thought was cold sore, but now it has broken open and leaks fluid all day"
+        }
+    ],
+    "ner_predictions": [
+        {
+            "ner_chunk": "husband",
+            "begin": 3,
+            "end": 9,
+            "ner_label": "Gender",
+            "confidence": "0.9994"
+        },
+        {
+            "ner_chunk": "spot on his lip",
+            "begin": 17,
+            "end": 31,
+            "ner_label": "Symptom",
+            "confidence": "0.55395"
+        },
+        {
+            "ner_chunk": "he",
+            "begin": 38,
+            "end": 39,
+            "ner_label": "Gender",
+            "confidence": "0.9979"
+        },
+        {
+            "ner_chunk": "cold",
+            "begin": 53,
+            "end": 56,
+            "ner_label": "Modifier",
+            "confidence": "0.7477"
+        },
+        {
+            "ner_chunk": "sore",
+            "begin": 58,
+            "end": 61,
+            "ner_label": "Symptom",
+            "confidence": "0.6247"
+        },
+        {
+            "ner_chunk": "broken open",
+            "begin": 79,
+            "end": 89,
+            "ner_label": "Symptom",
+            "confidence": "0.43985"
+        },
+        {
+            "ner_chunk": "leaks fluid",
+            "begin": 95,
+            "end": 105,
+            "ner_label": "Symptom",
+            "confidence": "0.7144"
+        },
+        {
+            "ner_chunk": "all day",
+            "begin": 107,
+            "end": 113,
+            "ner_label": "RelativeDate",
+            "confidence": "0.46680003"
+        }
+    ],
+    "assertion_predictions": [
+        {
+            "ner_chunk": "spot on his lip",
+            "begin": 17,
+            "end": 31,
+            "ner_label": "Symptom",
+            "ner_confidence": "0.55395",
+            "assertion": "Present"
+        },
+        {
+            "ner_chunk": "sore",
+            "begin": 58,
+            "end": 61,
+            "ner_label": "Symptom",
+            "ner_confidence": "0.6247",
+            "assertion": "Possible"
+        },
+        {
+            "ner_chunk": "broken open",
+            "begin": 79,
+            "end": 89,
+            "ner_label": "Symptom",
+            "ner_confidence": "0.43985",
+            "assertion": "Present"
+        },
+        {
+            "ner_chunk": "leaks fluid",
+            "begin": 95,
+            "end": 105,
+            "ner_label": "Symptom",
+            "ner_confidence": "0.7144",
+            "assertion": "Present"
+        }
+    ],
+    "relation_predictions": [
+        {
+            "ner_chunk1": "spot on his lip",
+            "ner_chunk1_begin": "17",
+            "ner_chunk1_end": "31",
+            "ner_label1": "Symptom",
+            "ner_chunk1_confidence": "0.55395",
+            "ner_chunk2": "all day",
+            "ner_chunk2_begin": "107",
+            "ner_chunk2_end": "113",
+            "ner_label2": "RelativeDate",
+            "ner_chunk2_confidence": "0.46680003",
+            "relation": "O",
+            "relation_begin": 17,
+            "relation_end": 113,
+            "relation_confidence": "0.9802182"
+        },
+        {
+            "ner_chunk1": "sore",
+            "ner_chunk1_begin": "58",
+            "ner_chunk1_end": "61",
+            "ner_label1": "Symptom",
+            "ner_chunk1_confidence": "0.6247",
+            "ner_chunk2": "all day",
+            "ner_chunk2_begin": "107",
+            "ner_chunk2_end": "113",
+            "ner_label2": "RelativeDate",
+            "ner_chunk2_confidence": "0.46680003",
+            "relation": "O",
+            "relation_begin": 58,
+            "relation_end": 113,
+            "relation_confidence": "1.0"
+        },
+        {
+            "ner_chunk1": "broken open",
+            "ner_chunk1_begin": "79",
+            "ner_chunk1_end": "89",
+            "ner_label1": "Symptom",
+            "ner_chunk1_confidence": "0.43985",
+            "ner_chunk2": "all day",
+            "ner_chunk2_begin": "107",
+            "ner_chunk2_end": "113",
+            "ner_label2": "RelativeDate",
+            "ner_chunk2_confidence": "0.46680003",
+            "relation": "O",
+            "relation_begin": 79,
+            "relation_end": 113,
+            "relation_confidence": "1.0"
+        },
+        {
+            "ner_chunk1": "leaks fluid",
+            "ner_chunk1_begin": "95",
+            "ner_chunk1_end": "105",
+            "ner_label1": "Symptom",
+            "ner_chunk1_confidence": "0.7144",
+            "ner_chunk2": "all day",
+            "ner_chunk2_begin": "107",
+            "ner_chunk2_end": "113",
+            "ner_label2": "RelativeDate",
+            "ner_chunk2_confidence": "0.46680003",
+            "relation": "is_date_of",
+            "relation_begin": 95,
+            "relation_end": 113,
+            "relation_confidence": "1.0"
+        }
+    ]
+}

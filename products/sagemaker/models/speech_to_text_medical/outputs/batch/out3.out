@@ -1,0 +1,38 @@
+{
+    "document": "There is pain in the muscles I do not know caused.",
+    "segments": [
+        {
+            "speaker": "SPEAKER_00",
+            "start": 0.523,
+            "end": 3.819,
+            "text": "There is pain in the muscles I do not know caused."
+        }
+    ],
+    "ner_predictions": [
+        {
+            "ner_chunk": "pain",
+            "begin": 9,
+            "end": 12,
+            "ner_label": "Symptom",
+            "confidence": "0.9794"
+        },
+        {
+            "ner_chunk": "muscles",
+            "begin": 21,
+            "end": 27,
+            "ner_label": "Internal_organ_or_component",
+            "confidence": "0.3696"
+        }
+    ],
+    "assertion_predictions": [
+        {
+            "ner_chunk": "pain",
+            "begin": 9,
+            "end": 12,
+            "ner_label": "Symptom",
+            "ner_confidence": "0.9794",
+            "assertion": "Absent"
+        }
+    ],
+    "relation_predictions": []
+}
