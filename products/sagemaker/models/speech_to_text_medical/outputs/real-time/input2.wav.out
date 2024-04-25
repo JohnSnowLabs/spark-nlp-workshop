@@ -3,31 +3,31 @@
     "segments": [
         {
             "speaker": "SPEAKER_00",
-            "start": 0.1,
+            "begin": 0.1,
             "end": 4.94,
             "text": "Lately I've been dealing with congestion and difficulty breathing, especially while eating."
         },
         {
             "speaker": "SPEAKER_00",
-            "start": 5.901,
+            "begin": 5.901,
             "end": 10.88,
             "text": "After getting the influenza vaccine, I developed a fever and decreased appetite."
         },
         {
             "speaker": "SPEAKER_00",
-            "start": 11.801,
+            "begin": 11.801,
             "end": 15.898,
             "text": "Despite trying albuterol treatments, my symptoms haven't improved"
         },
         {
             "speaker": "SPEAKER_00",
-            "start": 16.481,
+            "begin": 16.481,
             "end": 18.81,
             "text": "and my urine output has decreased."
         },
         {
             "speaker": "SPEAKER_00",
-            "start": 19.693,
+            "begin": 19.693,
             "end": 20.999,
             "text": "Hoping for a solution soon."
         }
@@ -38,56 +38,56 @@
             "begin": 30,
             "end": 39,
             "ner_label": "Symptom",
-            "confidence": "0.9786"
+            "ner_confidence": "0.9786"
         },
         {
             "ner_chunk": "difficulty breathing",
             "begin": 45,
             "end": 64,
             "ner_label": "Symptom",
-            "confidence": "0.79995"
+            "ner_confidence": "0.79995"
         },
         {
             "ner_chunk": "influenza vaccine",
             "begin": 110,
             "end": 126,
             "ner_label": "Vaccine_Name",
-            "confidence": "0.93735003"
+            "ner_confidence": "0.93735003"
         },
         {
             "ner_chunk": "fever",
             "begin": 143,
             "end": 147,
             "ner_label": "VS_Finding",
-            "confidence": "0.9875"
+            "ner_confidence": "0.9875"
         },
         {
             "ner_chunk": "decreased appetite",
             "begin": 153,
             "end": 170,
             "ner_label": "Symptom",
-            "confidence": "0.84305"
+            "ner_confidence": "0.84305"
         },
         {
             "ner_chunk": "albuterol",
             "begin": 188,
             "end": 196,
             "ner_label": "Drug_Ingredient",
-            "confidence": "0.9841"
+            "ner_confidence": "0.9841"
         },
         {
             "ner_chunk": "urine output has decreased",
             "begin": 246,
             "end": 271,
             "ner_label": "Symptom",
-            "confidence": "0.41342497"
+            "ner_confidence": "0.41342497"
         },
         {
             "ner_chunk": "solution",
             "begin": 287,
             "end": 294,
             "ner_label": "Form",
-            "confidence": "0.9779"
+            "ner_confidence": "0.9779"
         }
     ],
     "assertion_predictions": [
@@ -96,7 +96,6 @@
             "begin": 30,
             "end": 39,
             "ner_label": "Symptom",
-            "ner_confidence": "0.9786",
             "assertion": "Present"
         },
         {
@@ -104,7 +103,6 @@
             "begin": 45,
             "end": 64,
             "ner_label": "Symptom",
-            "ner_confidence": "0.79995",
             "assertion": "Present"
         },
         {
@@ -112,7 +110,6 @@
             "begin": 110,
             "end": 126,
             "ner_label": "Vaccine_Name",
-            "ner_confidence": "0.93735003",
             "assertion": "Planned"
         },
         {
@@ -120,7 +117,6 @@
             "begin": 143,
             "end": 147,
             "ner_label": "VS_Finding",
-            "ner_confidence": "0.9875",
             "assertion": "Present"
         },
         {
@@ -128,7 +124,6 @@
             "begin": 153,
             "end": 170,
             "ner_label": "Symptom",
-            "ner_confidence": "0.84305",
             "assertion": "Present"
         },
         {
@@ -136,7 +131,6 @@
             "begin": 188,
             "end": 196,
             "ner_label": "Drug_Ingredient",
-            "ner_confidence": "0.9841",
             "assertion": "Past"
         },
         {
@@ -144,7 +138,6 @@
             "begin": 246,
             "end": 271,
             "ner_label": "Symptom",
-            "ner_confidence": "0.41342497",
             "assertion": "Hypothetical"
         }
     ],
