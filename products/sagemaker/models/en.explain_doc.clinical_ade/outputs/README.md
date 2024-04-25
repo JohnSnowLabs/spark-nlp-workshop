@@ -1,72 +1,129 @@
-## Explaining the Output
+# Output Format
 
-### Assertion Prediction
+The output consists of a JSON object with the following structure:
 
-This segment analyzes the text to identify assertions made about entities. It determines the status or condition attributed to each recognized entity within the document.
+```json
 
-#### Document
-The complete body of text analyzed. The model scans this text to detect entities and interpret their context.
+{
+    "ner_predictions": [
+        {
+            "document": "Text of the document 1",
+            "ner_chunk": "Named Entity 1",
+            "begin": Start Index,
+            "end": End Index,
+            "ner_label": "Label 1",
+            "confidence": Score
+        },
+        {
+            "document": "Text of the document 1",
+            "ner_chunk": "Named Entity 2",
+            "begin": Start Index,
+            "end": End Index,
+            "ner_label": "Label 2",
+            "confidence": Score
+        },
+        ...
+    ],
+    "assertion_predictions": [
+        {
+            "document": "Text of the document 1",
+            "ner_chunk": "Named Entity 2",
+            "begin": Start Index,
+            "end": End Index,
+            "ner_label": "Label 2",
+            "ner_confidence": Score,
+            "assertion": "Assertion status",
+            "assertion_confidence": Score,
+        },
+        ...
+    ],
+    "relation_predictions": [
+        {
+            "document": "Text of the document 1",
+            "ner_chunk1": "Named Entity 1",
+            "ner_chunk1_begin": Start Index,
+            "ner_chunk1_end": End Index,
+            "ner_label1": "Label 1",
+            "ner_chunk1_confidence": Score,
+            "ner_chunk2": "Named Entity 2",
+            "ner_chunk2_begin": Start Index,
+            "ner_chunk2_end": End Index,
+            "ner_label2": "Label 2",
+            "ner_chunk2_confidence": Score,
+            "relation": "Relation Type",
+            "relation_begin": Relation Start Index,
+            "relation_end": Relation End Index,
+            "relation_confidence": Score
+        },
+        ...
+    ]
+}
+```
 
-- **Example**: "Used Crestor for 10+ years with frequent muscle aches and fatigue. Doctor recently changed me to Naproxen, now experiencing less frequent muscle soreness."
 
-#### ner_chunk
-Specifies the exact text from the document where the entity was identified.
+## NER Predictions
+An array containing NER predictions for each input document.
 
-- **Example**: `muscle aches`
+- **document**: The original input text for which predictions are made.
 
-#### entity
-The category assigned to the identified chunk, aiding in understanding its role within the text.
+- **ner_chunk**: Named entity recognized in the document.
 
-- **Example**: `ADE`
+- **begin**: Starting character index of the named entity chunk within the document.
 
-#### begin & end
-The position markers within the document where the entity was found.
+- **end**: Ending character index of the named entity chunk within the document.
 
-- **Example**: `begin`: 41, `end`: 52
+- **ner_label**: Label assigned to the named entity.
 
-#### confidence
-The model's confidence level in the entity's correct identification.
+- **confidence**: Confidence score associated with the prediction.
 
-- **Example**: `0.7823`
+## Assertion Predictions
+An array containing assertions for each input document.
 
-#### assertion
-The specific assertion made about the entity.
+- **document**: The original input text for which assertions are made.
 
-- **Example**: `present`
+- **ner_chunk**: Named entity associated with the assertion.
 
-### Relation Prediction
+- **begin**: Starting character index of the named entity chunk within the document.
 
-This output identifies and classifies relationships between recognized entities, focusing on their interactions.
+- **end**: Ending character index of the named entity chunk within the document.
 
-#### Document
-Refers to the full text under analysis.
+- **ner_label**: Label assigned to the named entity.
 
-#### ner_chunk_1 and ner_chunk_2
-The segments where entities in a relationship are identified.
+- **ner_confidence**: Confidence score associated with the ner prediction.
 
-- **Example**: ner_chunk_1: `Crestor`, ner_chunk_2: `muscle aches`
-  
-#### ner_chunk_1_begin & ner_chunk_1_end
-Position markers for the first entity's identification.
+- **assertion**: Assertion status.
 
-- **Example**: `ner_chunk_1_begin`: "5", `ner_chunk_1_end`: "11" 
+- **assertion_confidence**: Confidence score associated with the assertion.
 
-#### Entity_1 and Entity_2
-Classifications of the chunks involved in the relationship.
+## Relation Predictions
+An array containing relations between named entities within each input document.
 
-- **Example**: entity_1: `DRUG`, entity_2: `ADE`
+- **document**: The original input text for which relations are identified.
 
-#### ner_chunk_2_begin & ner_chunk_2_end
-Position markers for the second entity's identification.
+- **ner_chunk1**: First named entity involved in the relation.
 
-- **Example**: `ner_chunk_2_begin`: "41", `ner_chunk_2_end`: "52"
+- **ner_chunk1_begin**: Starting character index of the first named entity chunk within the document.
 
-#### relation
-Indicates the presence (1) or absence (0) of a relationship.
+- **ner_chunk1_end**: Ending character index of the first named entity chunk within the document.
 
-- **Example**: `1`
+- **ner_label1**: Label assigned to the first named entity.
 
-#### confidence
-The confidence level in the identified relationship between entities.
+- **ner_chunk1_confidence**: The confidence score associated with the recognition of the first named entity.
 
-- **Example**: `0.99999917`
+- **ner_chunk2**: Second named entity involved in the relation.
+
+- **ner_chunk2_begin**: Starting character index of the second named entity chunk within the document.
+
+- **ner_chunk2_end**: Ending character index of the second named entity chunk within the document.
+
+- **ner_label2**: Label assigned to the second named entity.
+
+- **ner_chunk2_confidence**: The confidence score associated with the recognition of the second named entity.
+
+- **relations**: Type of relation identified.
+
+- **relation_begin**: Starting character index of the relation within the document.
+
+- **relation_end**:  Ending character index of the relation within the document.
+
+- **relation_confidence**: Confidence score associated with the relation.
