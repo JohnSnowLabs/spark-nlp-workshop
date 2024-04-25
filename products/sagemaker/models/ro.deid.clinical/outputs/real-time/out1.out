@@ -1,0 +1,5 @@
+{
+    "predictions": [
+        "TOMOGRAFIA COMPUTERIZATA A CREIERULUI INVESTIGATII REZULTAT DLP Medic Laborator : <DOCTOR> PROTOCOL DE EXPLORARE PRIN COMPUTER TOMOGRAFIE DATA : <DATE> Nume si prenume : <PATIENT> , <AGE> ani, Sex : M\nTEL : <PHONE>,\nE-mail : <EMAIL> CNP : <IDNUM> Licență : <LICENSE>, Înmatriculare : <PLATE>, Cont : <ACCOUNT>,\nSolicitare : Angio CT coronarian\nkg : 100 Dg .\nde trimitere Stare post-AVCI . Stare post-trombectomie . Proces inlocuitor de spatiu ventricular stang Trimis de : Sectia Clinica Neurologie 1a <HOSPITAL> Medic : <DOCTOR> CONCLUZII : - Tromb ventricular stang de 20/40/17 mm , - Leziuni sechelar ischemice in segmentele apicale septal si inferior , cu aspect anevrismal apical VS - Leziune non-ischemica/MINOCA ? 48 mediocardiaca septala - Examenul AngioCT coronarian nu pune in evidenta ateromatoza sau stenoze coronariene semnificative."
+    ]
+}
