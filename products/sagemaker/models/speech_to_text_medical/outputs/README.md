@@ -9,7 +9,7 @@ The output consists of a JSON object with the following structure:
     "segments": [
         {
             "speaker": "SPEAKER_ID",
-            "start": Start Timestamp,
+            "begin": Start Timestamp,
             "end": End Timestamp,
             "text": "Transcribed text for the segment."
         },
@@ -21,7 +21,7 @@ The output consists of a JSON object with the following structure:
             "begin": Start Index,
             "end": End Index,
             "ner_label": "Label",
-            "confidence": Score
+            "ner_confidence": Score
         },
         ...
     ],
@@ -31,7 +31,6 @@ The output consists of a JSON object with the following structure:
             "begin": Start Index,
             "end": End Index,
             "ner_label": "Label",
-            "ner_confidence": Score,
             "assertion": "Assertion status",
         },
         ...
@@ -42,15 +41,11 @@ The output consists of a JSON object with the following structure:
             "ner_chunk1_begin": Start Index,
             "ner_chunk1_end": End Index,
             "ner_label1": "Label 1",
-            "ner_chunk1_confidence": Score,
             "ner_chunk2": "Named Entity 2",
             "ner_chunk2_begin": Start Index,
             "ner_chunk2_end": End Index,
             "ner_label2": "Label 2",
-            "ner_chunk2_confidence": Score,
             "relation": "Relation Type",
-            "relation_begin": Relation Start Index,
-            "relation_end": Relation End Index,
             "relation_confidence": Score
         },
         ...
@@ -69,7 +64,7 @@ The output consists of a JSON object with the following structure:
 An array containing segmented transcriptions, providing details such as speaker IDs, start and end timestamps, and the transcribed text for each segment.
 
 - **speaker**: The ID or label assigned to the speaker.
-- **start**: The start timestamp of the segment.
+- **begin**: The start timestamp of the segment.
 - **end**: The end timestamp of the segment.
 - **text**: The transcribed text for the segment.
 
@@ -86,7 +81,7 @@ An array containing NER predictions for each input document.
 
 - **ner_label**: Label assigned to the named entity.
 
-- **confidence**: Confidence score associated with the prediction.
+- **ner_confidence**: Confidence score associated with the ner prediction.
 
 ## Assertion Predictions
 
@@ -99,8 +94,6 @@ An array containing assertions for each input document.
 - **end**: Ending character index of the named entity chunk within the document.
 
 - **ner_label**: Label assigned to the named entity.
-
-- **ner_confidence**: Confidence score associated with the ner prediction.
 
 - **assertion**: Assertion status.
 
@@ -116,8 +109,6 @@ An array containing relations between named entities within each input document.
 
 - **ner_label1**: Label assigned to the first named entity.
 
-- **ner_chunk1_confidence**: The confidence score associated with the recognition of the first named entity.
-
 - **ner_chunk2**: Second named entity involved in the relation.
 
 - **ner_chunk2_begin**: Starting character index of the second named entity chunk within the document.
@@ -126,12 +117,6 @@ An array containing relations between named entities within each input document.
 
 - **ner_label2**: Label assigned to the second named entity.
 
-- **ner_chunk2_confidence**: The confidence score associated with the recognition of the second named entity.
-
 - **relations**: Type of relation identified.
-
-- **relation_begin**: Starting character index of the relation within the document.
-
-- **relation_end**:  Ending character index of the relation within the document.
 
 - **relation_confidence**: Confidence score associated with the relation.
