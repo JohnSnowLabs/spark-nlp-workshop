@@ -10,6 +10,9 @@ Make sure the following prerequisites are set:
     - `sdk list java`  
     list available java libraries:
 
+    ![image](https://github.com/JohnSnowLabs/spark-nlp-workshop/assets/64752006/9d05bd11-14c5-454e-bbab-fea4e91da905)
+
+
 2. Installing Java
     - `sdk install java 8.0.402-amzn` 
     - `whereis java`
