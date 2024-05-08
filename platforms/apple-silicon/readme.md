@@ -4,7 +4,7 @@ Starting from version 4.0.0, Spark NLP has experimental support for apple silico
 
 Make sure the following prerequisites are set:
 
-1. Installing SDKMAN, you can follow the official documentation at https://sdkman.io/install
+1. Installing SDKMAN, you can also follow the official documentation at https://sdkman.io/install
     - `$ curl -s "https://get.sdkman.io" | bash`
     - `source "$HOME/.sdkman/bin/sdkman-init.sh"`
     - `sdk list java`  
@@ -18,7 +18,7 @@ Make sure the following prerequisites are set:
     - `whereis java`
     - `java -version`
 
-3. Installing MiniConda, you can follow the official documentation at https://docs.anaconda.com/free/miniconda/#quick-command-line-install  
+3. Installing MiniConda, you can also follow the official documentation at https://docs.anaconda.com/free/miniconda/#quick-command-line-install  
     - `mkdir -p ~/miniconda3`
     - `curl https://repo.anaconda.com/miniconda/Miniconda3-py39_23.11.0-2-MacOSX-arm64.sh -o ~/miniconda3/miniconda.sh` PS: you can change python version to 3.10 or 3.11
     - `bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3`
