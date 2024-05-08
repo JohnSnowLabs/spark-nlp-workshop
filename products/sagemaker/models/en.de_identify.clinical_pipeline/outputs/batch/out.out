@@ -1,6 +1,0 @@
-{
-    "predictions": [
-        "Name : <PATIENT>, Record date: <DATE>, # <DEVICE>.  Dr. <DOCTOR>,  E-MAIL: <EMAIL>.",
-        "My name is <PATIENT>"
-    ]
-}

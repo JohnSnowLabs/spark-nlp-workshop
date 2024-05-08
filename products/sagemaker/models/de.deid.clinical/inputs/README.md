@@ -26,6 +26,16 @@ Provide a single text document as a string.
 }
 ```
 
+### Format 3: JSON Lines (JSONL):
+
+Provide input in JSON Lines format, where each line is a JSON object representing a text document along with any optional parameters.
+
+```
+{"text": "Text document 1"}
+{"text": "Text document 2"}
+```
+
+
 ### Important Parameters
 
 - **masking_policy**: `str`
@@ -71,4 +81,3 @@ You can specify these parameters in the input as follows:
     "masking_policy": "masked",
     "sep": "\n",
 }
-```

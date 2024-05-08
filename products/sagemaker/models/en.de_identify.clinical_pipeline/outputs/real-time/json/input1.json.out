@@ -1,0 +1,5 @@
+{
+    "predictions": [
+        "Record date : <DATE>, <DOCTOR>, M.D. is <PROFESSION>,  Name: <PATIENT>. Age: <AGE>. Phone: <PHONE>. MR. # <MEDICALRECORD> Date: <DATE> PCP: <DOCTOR>. Record date: <DATE>. <HOSPITAL> <STREET>. This <AGE> male, presented with chest heaviness that started during a pick-up basketball game. His past medical history was unremarkable. <HOSPITAL> denied prior cardiac symptoms and suffered no chest trauma during the game. His father had suffered an acute myocardial infarction at age <AGE>. <PATIENT> was a nonsmoker, did not drink alcohol, and denied recreational drug use. Elvis Presley swallowed a tablet of aspirin before coming to the emergency room. His blood pressure was 160/90 mm Hg, and his heart rate was 80 bpm. Physical examination revealed no stigmata of Marfan syndrome. The rest of his physical examination was normal. DD: <DATE> . DV: <DATE>, <HOSPITAL> <STREET>.  PHONE : <PHONE>"
+    ]
+}
