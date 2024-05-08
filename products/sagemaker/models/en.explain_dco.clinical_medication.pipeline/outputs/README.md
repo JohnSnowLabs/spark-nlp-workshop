@@ -1,6 +1,6 @@
 # Output Format
 
-The output consists of a JSON object with the following structure:
+### JSON Format
 
 ```json
 
@@ -12,7 +12,7 @@ The output consists of a JSON object with the following structure:
             "begin": Start Index,
             "end": End Index,
             "ner_label": "Label 1",
-            "confidence": Score
+            "ner_confidence": Score
         },
         {
             "document": "Text of the document 1",
@@ -20,7 +20,7 @@ The output consists of a JSON object with the following structure:
             "begin": Start Index,
             "end": End Index,
             "ner_label": "Label 2",
-            "confidence": Score
+            "ner_confidence": Score
         },
         ...
     ],
@@ -31,26 +31,23 @@ The output consists of a JSON object with the following structure:
             "begin": Start Index,
             "end": End Index,
             "ner_label": "Label 2",
-            "assertion": Assertion status,
-            "confidence": Score,
+            "assertion": "Assertion status",
         },
         ...
     ],
     "relation_predictions": [
         {
             "document": "Text of the document 1",
-            "relations": "Relation Type",
-            "relation_begin": Relation Start Index,
-            "relation_end": Relation End Index,
-            "ner_chunk1": "Named Entity",
+            "ner_chunk1": "Named Entity 1",
             "ner_chunk1_begin": Start Index,
             "ner_chunk1_end": End Index,
-            "ner_label1": "Label",
-            "ner_chunk2": "Named Entity",
+            "ner_label1": "Label 1",
+            "ner_chunk2": "Named Entity 2",
             "ner_chunk2_begin": Start Index,
             "ner_chunk2_end": End Index,
-            "ner_label2": "Label",
-            "confidence": Score
+            "ner_label2": "Label 2",
+            "relation": "Relation Type",
+            "relation_confidence": Score
         },
         ...
     ]
@@ -71,7 +68,7 @@ An array containing NER predictions for each input document.
 
 - **ner_label**: Label assigned to the named entity.
 
-- **confidence**: Confidence score associated with the prediction.
+- **ner_confidence**: Confidence score associated with the ner prediction.
 
 ## Assertion Predictions
 An array containing assertions for each input document.
@@ -86,20 +83,12 @@ An array containing assertions for each input document.
 
 - **ner_label**: Label assigned to the named entity.
 
-- **confidence**: Confidence score associated with the assertion.
-
 - **assertion**: Assertion status.
 
 ## Relation Predictions
 An array containing relations between named entities within each input document.
 
 - **document**: The original input text for which relations are identified.
-
-- **relations**: Type of relation identified.
-
-- **relation_begin**: Starting character index of the relation within the document.
-
-- **relation_end**:  Ending character index of the relation within the document.
 
 - **ner_chunk1**: First named entity involved in the relation.
 
@@ -117,4 +106,17 @@ An array containing relations between named entities within each input document.
 
 - **ner_label2**: Label assigned to the second named entity.
 
-- **confidence**: Confidence score associated with the relation.
+- **relations**: Type of relation identified.
+
+- **relation_confidence**: Confidence score associated with the relation.
+
+
+
+### JSON Lines (JSONL) Format
+
+```
+{"ner_predictions": [{"ner_chunk": "Named Entity 1", "begin": Start Index, "end": End Index, "ner_label": "Label 1", "ner_confidence": Score}, {"ner_chunk": "Named Entity 2", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "ner_confidence": Score}, ...], "assertion_predictions": [{"ner_chunk": "Named Entity 2", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "assertion": "Assertion status"}, ...], "relation_predictions": [{"ner_chunk1": "Named Entity 1", "ner_chunk1_begin": Start Index, "ner_chunk1_end": End Index, "ner_label1": "Label 1", "ner_chunk2": "Named Entity 2", "ner_chunk2_begin": Start Index, "ner_chunk2_end": End Index, "ner_label2": "Label 2", "relation": "Relation Type", "relation_confidence": Score}, ...]}
+{"ner_predictions": [{"ner_chunk": "Named Entity 1", "begin": Start Index, "end": End Index, "ner_label": "Label 1", "ner_confidence": Score}, {"ner_chunk": "Named Entity 2", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "ner_confidence": Score}, ...], "assertion_predictions": [{"ner_chunk": "Named Entity 2", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "assertion": "Assertion status"}, ...], "relation_predictions": [{"ner_chunk1": "Named Entity 1", "ner_chunk1_begin": Start Index, "ner_chunk1_end": End Index, "ner_label1": "Label 1", "ner_chunk2": "Named Entity 2", "ner_chunk2_begin": Start Index, "ner_chunk2_end": End Index, "ner_label2": "Label 2", "relation": "Relation Type", "relation_confidence": Score}, ...]}
+```
+
+The JSON Lines format consists of individual JSON objects, where each object represents predictions for a single input text.

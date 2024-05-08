@@ -1,0 +1,653 @@
+{
+    "ner_predictions": [
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "admitted",
+            "begin": 7,
+            "end": 14,
+            "ner_label": "OCCURRENCE",
+            "ner_confidence": "0.9958"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "The John Hopkins Hospital",
+            "begin": 19,
+            "end": 43,
+            "ner_label": "CLINICAL_DEPT",
+            "ner_confidence": "0.859"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "2 days ago",
+            "begin": 45,
+            "end": 54,
+            "ner_label": "DATE",
+            "ner_confidence": "0.80329996"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "gestational diabetes mellitus",
+            "begin": 74,
+            "end": 102,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.8622667"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "denied",
+            "begin": 119,
+            "end": 124,
+            "ner_label": "EVIDENTIAL",
+            "ner_confidence": "0.9585"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "pain",
+            "begin": 126,
+            "end": 129,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9996"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "any headache",
+            "begin": 135,
+            "end": 146,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.93675"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "the endocrinology service",
+            "begin": 165,
+            "end": 189,
+            "ner_label": "CLINICAL_DEPT",
+            "ner_confidence": "0.58563334"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "discharged",
+            "begin": 203,
+            "end": 212,
+            "ner_label": "OCCURRENCE",
+            "ner_confidence": "0.9679"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "03/02/2018",
+            "begin": 217,
+            "end": 226,
+            "ner_label": "DATE",
+            "ner_confidence": "0.9979"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "insulin glargine",
+            "begin": 243,
+            "end": 258,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.80145"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "insulin lispro",
+            "begin": 273,
+            "end": 286,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.9448"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "metformin",
+            "begin": 293,
+            "end": 301,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.9993"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "two times a day",
+            "begin": 311,
+            "end": 325,
+            "ner_label": "FREQUENCY",
+            "ner_confidence": "0.9330751"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "follow-up with endocrinology post discharge",
+            "begin": 342,
+            "end": 384,
+            "ner_label": "OCCURRENCE",
+            "ner_confidence": "0.53038"
+        }
+    ],
+    "assertion_predictions": [
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "admitted",
+            "begin": 7,
+            "end": 14,
+            "ner_label": "OCCURRENCE",
+            "assertion": "present",
+            "assertion_confidence": "0.9991"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "The John Hopkins Hospital",
+            "begin": 19,
+            "end": 43,
+            "ner_label": "CLINICAL_DEPT",
+            "assertion": "present",
+            "assertion_confidence": "0.9999"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "2 days ago",
+            "begin": 45,
+            "end": 54,
+            "ner_label": "DATE",
+            "assertion": "present",
+            "assertion_confidence": "0.9993"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "gestational diabetes mellitus",
+            "begin": 74,
+            "end": 102,
+            "ner_label": "PROBLEM",
+            "assertion": "present",
+            "assertion_confidence": "0.9772"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "denied",
+            "begin": 119,
+            "end": 124,
+            "ner_label": "EVIDENTIAL",
+            "assertion": "absent",
+            "assertion_confidence": "0.9886"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "pain",
+            "begin": 126,
+            "end": 129,
+            "ner_label": "PROBLEM",
+            "assertion": "absent",
+            "assertion_confidence": "0.9992"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "any headache",
+            "begin": 135,
+            "end": 146,
+            "ner_label": "PROBLEM",
+            "assertion": "absent",
+            "assertion_confidence": "1.0"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "the endocrinology service",
+            "begin": 165,
+            "end": 189,
+            "ner_label": "CLINICAL_DEPT",
+            "assertion": "present",
+            "assertion_confidence": "0.9995"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "discharged",
+            "begin": 203,
+            "end": 212,
+            "ner_label": "OCCURRENCE",
+            "assertion": "present",
+            "assertion_confidence": "0.9995"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "03/02/2018",
+            "begin": 217,
+            "end": 226,
+            "ner_label": "DATE",
+            "assertion": "present",
+            "assertion_confidence": "0.9995"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "insulin glargine",
+            "begin": 243,
+            "end": 258,
+            "ner_label": "TREATMENT",
+            "assertion": "present",
+            "assertion_confidence": "0.9999"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "insulin lispro",
+            "begin": 273,
+            "end": 286,
+            "ner_label": "TREATMENT",
+            "assertion": "present",
+            "assertion_confidence": "1.0"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "metformin",
+            "begin": 293,
+            "end": 301,
+            "ner_label": "TREATMENT",
+            "assertion": "present",
+            "assertion_confidence": "0.821"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "two times a day",
+            "begin": 311,
+            "end": 325,
+            "ner_label": "FREQUENCY",
+            "assertion": "present",
+            "assertion_confidence": "1.0"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk": "follow-up with endocrinology post discharge",
+            "begin": 342,
+            "end": 384,
+            "ner_label": "OCCURRENCE",
+            "assertion": "present",
+            "assertion_confidence": "0.9999"
+        }
+    ],
+    "relation_predictions": [
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "admitted",
+            "ner_chunk1_begin": "7",
+            "ner_chunk1_end": "14",
+            "ner_label1": "OCCURRENCE",
+            "ner_chunk2": "The John Hopkins Hospital",
+            "ner_chunk2_begin": "19",
+            "ner_chunk2_end": "43",
+            "ner_label2": "CLINICAL_DEPT",
+            "relation": "AFTER",
+            "relation_confidence": "0.9621104"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "admitted",
+            "ner_chunk1_begin": "7",
+            "ner_chunk1_end": "14",
+            "ner_label1": "OCCURRENCE",
+            "ner_chunk2": "2 days ago",
+            "ner_chunk2_begin": "45",
+            "ner_chunk2_end": "54",
+            "ner_label2": "DATE",
+            "relation": "OVERLAP",
+            "relation_confidence": "0.99970835"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "admitted",
+            "ner_chunk1_begin": "7",
+            "ner_chunk1_end": "14",
+            "ner_label1": "OCCURRENCE",
+            "ner_chunk2": "gestational diabetes mellitus",
+            "ner_chunk2_begin": "74",
+            "ner_chunk2_end": "102",
+            "ner_label2": "PROBLEM",
+            "relation": "BEFORE",
+            "relation_confidence": "0.99985516"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "The John Hopkins Hospital",
+            "ner_chunk1_begin": "19",
+            "ner_chunk1_end": "43",
+            "ner_label1": "CLINICAL_DEPT",
+            "ner_chunk2": "2 days ago",
+            "ner_chunk2_begin": "45",
+            "ner_chunk2_end": "54",
+            "ner_label2": "DATE",
+            "relation": "OVERLAP",
+            "relation_confidence": "0.85771245"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "The John Hopkins Hospital",
+            "ner_chunk1_begin": "19",
+            "ner_chunk1_end": "43",
+            "ner_label1": "CLINICAL_DEPT",
+            "ner_chunk2": "gestational diabetes mellitus",
+            "ner_chunk2_begin": "74",
+            "ner_chunk2_end": "102",
+            "ner_label2": "PROBLEM",
+            "relation": "BEFORE",
+            "relation_confidence": "0.90553373"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "2 days ago",
+            "ner_chunk1_begin": "45",
+            "ner_chunk1_end": "54",
+            "ner_label1": "DATE",
+            "ner_chunk2": "gestational diabetes mellitus",
+            "ner_chunk2_begin": "74",
+            "ner_chunk2_end": "102",
+            "ner_label2": "PROBLEM",
+            "relation": "OVERLAP",
+            "relation_confidence": "0.91259193"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "denied",
+            "ner_chunk1_begin": "119",
+            "ner_chunk1_end": "124",
+            "ner_label1": "EVIDENTIAL",
+            "ner_chunk2": "pain",
+            "ner_chunk2_begin": "126",
+            "ner_chunk2_end": "129",
+            "ner_label2": "PROBLEM",
+            "relation": "BEFORE",
+            "relation_confidence": "0.9999995"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "denied",
+            "ner_chunk1_begin": "119",
+            "ner_chunk1_end": "124",
+            "ner_label1": "EVIDENTIAL",
+            "ner_chunk2": "any headache",
+            "ner_chunk2_begin": "135",
+            "ner_chunk2_end": "146",
+            "ner_label2": "PROBLEM",
+            "relation": "BEFORE",
+            "relation_confidence": "1.0"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "pain",
+            "ner_chunk1_begin": "126",
+            "ner_chunk1_end": "129",
+            "ner_label1": "PROBLEM",
+            "ner_chunk2": "any headache",
+            "ner_chunk2_begin": "135",
+            "ner_chunk2_end": "146",
+            "ner_label2": "PROBLEM",
+            "relation": "OVERLAP",
+            "relation_confidence": "1.0"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "the endocrinology service",
+            "ner_chunk1_begin": "165",
+            "ner_chunk1_end": "189",
+            "ner_label1": "CLINICAL_DEPT",
+            "ner_chunk2": "discharged",
+            "ner_chunk2_begin": "203",
+            "ner_chunk2_end": "212",
+            "ner_label2": "OCCURRENCE",
+            "relation": "OVERLAP",
+            "relation_confidence": "0.58700085"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "the endocrinology service",
+            "ner_chunk1_begin": "165",
+            "ner_chunk1_end": "189",
+            "ner_label1": "CLINICAL_DEPT",
+            "ner_chunk2": "03/02/2018",
+            "ner_chunk2_begin": "217",
+            "ner_chunk2_end": "226",
+            "ner_label2": "DATE",
+            "relation": "OVERLAP",
+            "relation_confidence": "0.9934176"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "the endocrinology service",
+            "ner_chunk1_begin": "165",
+            "ner_chunk1_end": "189",
+            "ner_label1": "CLINICAL_DEPT",
+            "ner_chunk2": "insulin glargine",
+            "ner_chunk2_begin": "243",
+            "ner_chunk2_end": "258",
+            "ner_label2": "TREATMENT",
+            "relation": "OVERLAP",
+            "relation_confidence": "0.81412697"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "the endocrinology service",
+            "ner_chunk1_begin": "165",
+            "ner_chunk1_end": "189",
+            "ner_label1": "CLINICAL_DEPT",
+            "ner_chunk2": "insulin lispro",
+            "ner_chunk2_begin": "273",
+            "ner_chunk2_end": "286",
+            "ner_label2": "TREATMENT",
+            "relation": "OVERLAP",
+            "relation_confidence": "0.99916553"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "the endocrinology service",
+            "ner_chunk1_begin": "165",
+            "ner_chunk1_end": "189",
+            "ner_label1": "CLINICAL_DEPT",
+            "ner_chunk2": "metformin",
+            "ner_chunk2_begin": "293",
+            "ner_chunk2_end": "301",
+            "ner_label2": "TREATMENT",
+            "relation": "OVERLAP",
+            "relation_confidence": "0.9987596"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "the endocrinology service",
+            "ner_chunk1_begin": "165",
+            "ner_chunk1_end": "189",
+            "ner_label1": "CLINICAL_DEPT",
+            "ner_chunk2": "two times a day",
+            "ner_chunk2_begin": "311",
+            "ner_chunk2_end": "325",
+            "ner_label2": "FREQUENCY",
+            "relation": "OVERLAP",
+            "relation_confidence": "0.99342334"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "discharged",
+            "ner_chunk1_begin": "203",
+            "ner_chunk1_end": "212",
+            "ner_label1": "OCCURRENCE",
+            "ner_chunk2": "03/02/2018",
+            "ner_chunk2_begin": "217",
+            "ner_chunk2_end": "226",
+            "ner_label2": "DATE",
+            "relation": "OVERLAP",
+            "relation_confidence": "1.0"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "discharged",
+            "ner_chunk1_begin": "203",
+            "ner_chunk1_end": "212",
+            "ner_label1": "OCCURRENCE",
+            "ner_chunk2": "insulin glargine",
+            "ner_chunk2_begin": "243",
+            "ner_chunk2_end": "258",
+            "ner_label2": "TREATMENT",
+            "relation": "BEFORE",
+            "relation_confidence": "0.50815845"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "discharged",
+            "ner_chunk1_begin": "203",
+            "ner_chunk1_end": "212",
+            "ner_label1": "OCCURRENCE",
+            "ner_chunk2": "insulin lispro",
+            "ner_chunk2_begin": "273",
+            "ner_chunk2_end": "286",
+            "ner_label2": "TREATMENT",
+            "relation": "AFTER",
+            "relation_confidence": "0.9454373"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "discharged",
+            "ner_chunk1_begin": "203",
+            "ner_chunk1_end": "212",
+            "ner_label1": "OCCURRENCE",
+            "ner_chunk2": "metformin",
+            "ner_chunk2_begin": "293",
+            "ner_chunk2_end": "301",
+            "ner_label2": "TREATMENT",
+            "relation": "AFTER",
+            "relation_confidence": "0.99802953"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "discharged",
+            "ner_chunk1_begin": "203",
+            "ner_chunk1_end": "212",
+            "ner_label1": "OCCURRENCE",
+            "ner_chunk2": "two times a day",
+            "ner_chunk2_begin": "311",
+            "ner_chunk2_end": "325",
+            "ner_label2": "FREQUENCY",
+            "relation": "OVERLAP",
+            "relation_confidence": "0.6045001"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "03/02/2018",
+            "ner_chunk1_begin": "217",
+            "ner_chunk1_end": "226",
+            "ner_label1": "DATE",
+            "ner_chunk2": "insulin glargine",
+            "ner_chunk2_begin": "243",
+            "ner_chunk2_end": "258",
+            "ner_label2": "TREATMENT",
+            "relation": "OVERLAP",
+            "relation_confidence": "0.9542913"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "03/02/2018",
+            "ner_chunk1_begin": "217",
+            "ner_chunk1_end": "226",
+            "ner_label1": "DATE",
+            "ner_chunk2": "insulin lispro",
+            "ner_chunk2_begin": "273",
+            "ner_chunk2_end": "286",
+            "ner_label2": "TREATMENT",
+            "relation": "OVERLAP",
+            "relation_confidence": "0.99488455"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "03/02/2018",
+            "ner_chunk1_begin": "217",
+            "ner_chunk1_end": "226",
+            "ner_label1": "DATE",
+            "ner_chunk2": "metformin",
+            "ner_chunk2_begin": "293",
+            "ner_chunk2_end": "301",
+            "ner_label2": "TREATMENT",
+            "relation": "AFTER",
+            "relation_confidence": "0.6547407"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "03/02/2018",
+            "ner_chunk1_begin": "217",
+            "ner_chunk1_end": "226",
+            "ner_label1": "DATE",
+            "ner_chunk2": "two times a day",
+            "ner_chunk2_begin": "311",
+            "ner_chunk2_end": "325",
+            "ner_label2": "FREQUENCY",
+            "relation": "OVERLAP",
+            "relation_confidence": "0.9954657"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "insulin glargine",
+            "ner_chunk1_begin": "243",
+            "ner_chunk1_end": "258",
+            "ner_label1": "TREATMENT",
+            "ner_chunk2": "insulin lispro",
+            "ner_chunk2_begin": "273",
+            "ner_chunk2_end": "286",
+            "ner_label2": "TREATMENT",
+            "relation": "OVERLAP",
+            "relation_confidence": "1.0"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "insulin glargine",
+            "ner_chunk1_begin": "243",
+            "ner_chunk1_end": "258",
+            "ner_label1": "TREATMENT",
+            "ner_chunk2": "metformin",
+            "ner_chunk2_begin": "293",
+            "ner_chunk2_end": "301",
+            "ner_label2": "TREATMENT",
+            "relation": "OVERLAP",
+            "relation_confidence": "0.99999654"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "insulin glargine",
+            "ner_chunk1_begin": "243",
+            "ner_chunk1_end": "258",
+            "ner_label1": "TREATMENT",
+            "ner_chunk2": "two times a day",
+            "ner_chunk2_begin": "311",
+            "ner_chunk2_end": "325",
+            "ner_label2": "FREQUENCY",
+            "relation": "OVERLAP",
+            "relation_confidence": "0.9479991"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "insulin lispro",
+            "ner_chunk1_begin": "273",
+            "ner_chunk1_end": "286",
+            "ner_label1": "TREATMENT",
+            "ner_chunk2": "metformin",
+            "ner_chunk2_begin": "293",
+            "ner_chunk2_end": "301",
+            "ner_label2": "TREATMENT",
+            "relation": "OVERLAP",
+            "relation_confidence": "1.0"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "insulin lispro",
+            "ner_chunk1_begin": "273",
+            "ner_chunk1_end": "286",
+            "ner_label1": "TREATMENT",
+            "ner_chunk2": "two times a day",
+            "ner_chunk2_begin": "311",
+            "ner_chunk2_end": "325",
+            "ner_label2": "FREQUENCY",
+            "relation": "OVERLAP",
+            "relation_confidence": "1.0"
+        },
+        {
+            "document": "She is admitted to The John Hopkins Hospital 2 days ago with a history of gestational diabetes mellitus diagnosed. She denied pain and any headache. She was seen by the endocrinology service and she was discharged on 03/02/2018 on 40 units of insulin glargine, 12 units of insulin lispro, and metformin 1000 mg two times a day. She had close follow-up with endocrinology post discharge. ",
+            "ner_chunk1": "metformin",
+            "ner_chunk1_begin": "293",
+            "ner_chunk1_end": "301",
+            "ner_label1": "TREATMENT",
+            "ner_chunk2": "two times a day",
+            "ner_chunk2_begin": "311",
+            "ner_chunk2_end": "325",
+            "ner_label2": "FREQUENCY",
+            "relation": "OVERLAP",
+            "relation_confidence": "1.0"
+        }
+    ]
+}
