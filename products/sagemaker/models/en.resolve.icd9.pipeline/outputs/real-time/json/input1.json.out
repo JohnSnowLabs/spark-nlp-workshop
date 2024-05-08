@@ -1,0 +1,34 @@
+{
+    "predictions": [
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years and anisakiasis. Also, it was reported that fetal and neonatal hemorrhage.",
+            "ner_chunk": "gestational diabetes mellitus",
+            "begin": 39,
+            "end": 67,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9424",
+            "icd9_code": "V12.21",
+            "icd9_confidence": "0.3498"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years and anisakiasis. Also, it was reported that fetal and neonatal hemorrhage.",
+            "ner_chunk": "anisakiasis",
+            "begin": 95,
+            "end": 105,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9933",
+            "icd9_code": "127.1",
+            "icd9_confidence": "0.9933"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years and anisakiasis. Also, it was reported that fetal and neonatal hemorrhage.",
+            "ner_chunk": "fetal and neonatal hemorrhage",
+            "begin": 135,
+            "end": 163,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.81154996",
+            "icd9_code": "772",
+            "icd9_confidence": "0.81154996"
+        }
+    ]
+}

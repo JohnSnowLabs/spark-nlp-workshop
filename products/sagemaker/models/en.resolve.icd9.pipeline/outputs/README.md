@@ -1,6 +1,6 @@
 ## Output Format
 
-The output consists of a JSON object with the following structure:
+### JSON Format
 
 ```json
 {
@@ -12,8 +12,8 @@ The output consists of a JSON object with the following structure:
             "end": End Index,
             "ner_label": "Label 1",
             "ner_confidence": Score,
-            "umls_code": code,
-            "umls_confidence": Score,
+            "icd9_code": code,
+            "icd9_confidence": Score,
         },
         {
             "document": "Text of the document 1",
@@ -22,8 +22,8 @@ The output consists of a JSON object with the following structure:
             "end": End Index,
             "ner_label": "Label 2",
             "ner_confidence": Score,
-            "umls_code": code,
-            "umls_confidence": Score,
+            "icd9_code": code,
+            "icd9_confidence": Score,
         },
 
         {
@@ -33,8 +33,8 @@ The output consists of a JSON object with the following structure:
             "end": End Index,
             "ner_label": "Label 2",
             "ner_confidence": Score,
-            "umls_code": code,
-            "umls_confidence": Score,
+            "icd9_code": code,
+            "icd9_confidence": Score,
         },
         ...
     ]
@@ -59,16 +59,16 @@ The output consists of a JSON object with the following structure:
 
     - **ner_confidence**: Confidence score associated with Named Entity Recognition.
 
-    - **umls_code**: umls code associated with the prediction.
+    - **icd9_code**: icd9 code associated with the prediction.
 
-    - **umls_confidence**: Confidence score associated with the umls_code.
+    - **icd9_confidence**: Confidence score associated with the icd9_code.
 
 
 ### JSON Lines (JSONL) Format
 
 ```
-{"predictions": [{"ner_chunk": "Named Entity 1", "begin": Start Index, "end": End Index, "ner_label": "Label 1", "ner_confidence": Score, "umls_code": code, "umls_confidence": Score}, {"ner_chunk": "Named Entity 2", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "ner_confidence": Score, "umls_code": code, "umls_confidence": Score}, ...]}
-{"predictions": [{"ner_chunk": "Named Entity 1", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "ner_confidence": Score, "umls_code": code, "umls_confidence": Score}, {"ner_chunk": "Named Entity 2", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "ner_confidence": Score, "umls_code": code, "umls_confidence": Score}, ...]}
+{"predictions": [{"ner_chunk": "Named Entity 1", "begin": Start Index, "end": End Index, "ner_label": "Label 1", "ner_confidence": Score, "icd9_code": code, "icd9_confidence": Score}, {"ner_chunk": "Named Entity 2", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "ner_confidence": Score, "icd9_code": code, "icd9_confidence": Score}, ...]}
+{"predictions": [{"ner_chunk": "Named Entity 1", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "ner_confidence": Score, "icd9_code": code, "icd9_confidence": Score}, {"ner_chunk": "Named Entity 2", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "ner_confidence": Score, "icd9_code": code, "icd9_confidence": Score}, ...]}
 ```
 
 The JSON Lines format consists of individual JSON objects, where each object represents predictions for a single input text.

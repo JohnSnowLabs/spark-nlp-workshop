@@ -1,6 +1,6 @@
 ## Output Format
 
-The output consists of a JSON object with the following structure:
+### JSON Format
 
 ```json
 {
@@ -62,6 +62,7 @@ The output consists of a JSON object with the following structure:
     - **umls_code**: umls code associated with the prediction.
 
     - **umls_confidence**: Confidence score associated with the umls_code.
+
 
 
 ### JSON Lines (JSONL) Format
