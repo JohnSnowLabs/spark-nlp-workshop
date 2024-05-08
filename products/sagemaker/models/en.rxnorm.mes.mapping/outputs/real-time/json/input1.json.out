@@ -1,0 +1,19 @@
+{
+    "predictions": [
+        {
+            "text": "92880 5487 47613",
+            "rxnorm_code": "92880",
+            "mesh_code": "D000068880"
+        },
+        {
+            "text": "92880 5487 47613",
+            "rxnorm_code": "5487",
+            "mesh_code": "D006852"
+        },
+        {
+            "text": "92880 5487 47613",
+            "rxnorm_code": "47613",
+            "mesh_code": "D019355"
+        }
+    ]
+}
