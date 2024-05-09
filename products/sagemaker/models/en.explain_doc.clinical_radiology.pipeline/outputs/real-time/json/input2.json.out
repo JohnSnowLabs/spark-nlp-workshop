@@ -2,19 +2,19 @@
     "ner_predictions": [
         {
             "document": "Procedure: FOOT 3 OR MORE VIEWS, Clinical History: 49 yo b m w cc of bilateral foot pain. please eval thanks. Report: See Impression. Impression: BILATERAL FEET: No traumatic, arthritic, or developmental abnormality  is discernible.",
-            "ner_chunk": "bilateral foot",
+            "ner_chunk": "bilateral",
             "begin": 69,
-            "end": 82,
-            "ner_label": "BodyPart",
-            "ner_confidence": "0.615"
+            "end": 77,
+            "ner_label": "Direction",
+            "ner_confidence": "0.9853"
         },
         {
             "document": "Procedure: FOOT 3 OR MORE VIEWS, Clinical History: 49 yo b m w cc of bilateral foot pain. please eval thanks. Report: See Impression. Impression: BILATERAL FEET: No traumatic, arthritic, or developmental abnormality  is discernible.",
-            "ner_chunk": "pain",
-            "begin": 84,
+            "ner_chunk": "foot pain",
+            "begin": 79,
             "end": 87,
             "ner_label": "Symptom",
-            "ner_confidence": "0.7286"
+            "ner_confidence": "0.6934"
         },
         {
             "document": "Procedure: FOOT 3 OR MORE VIEWS, Clinical History: 49 yo b m w cc of bilateral foot pain. please eval thanks. Report: See Impression. Impression: BILATERAL FEET: No traumatic, arthritic, or developmental abnormality  is discernible.",
@@ -66,19 +66,11 @@
         },
         {
             "document": "Bilateral breast ultrasound was subsequently performed, which demonstrated an ovoid mass measuring approximately 0.5 x 0.5 x 0.4 cm in diameter located within the anteromedial aspect of the left shoulder. This mass demonstrates isoechoic echotexture to the adjacent muscle, with no evidence of internal color flow. This may represent benign fibrous tissue or a lipoma.",
-            "ner_chunk": "0.5 x 0.5 x 0.4",
+            "ner_chunk": "0.5 x 0.5 x 0.4 cm",
             "begin": 113,
-            "end": 127,
-            "ner_label": "Measurements",
-            "ner_confidence": "0.9815801"
-        },
-        {
-            "document": "Bilateral breast ultrasound was subsequently performed, which demonstrated an ovoid mass measuring approximately 0.5 x 0.5 x 0.4 cm in diameter located within the anteromedial aspect of the left shoulder. This mass demonstrates isoechoic echotexture to the adjacent muscle, with no evidence of internal color flow. This may represent benign fibrous tissue or a lipoma.",
-            "ner_chunk": "cm",
-            "begin": 129,
             "end": 130,
-            "ner_label": "Units",
-            "ner_confidence": "0.9696"
+            "ner_label": "Measurements",
+            "ner_confidence": "0.9908667"
         },
         {
             "document": "Bilateral breast ultrasound was subsequently performed, which demonstrated an ovoid mass measuring approximately 0.5 x 0.5 x 0.4 cm in diameter located within the anteromedial aspect of the left shoulder. This mass demonstrates isoechoic echotexture to the adjacent muscle, with no evidence of internal color flow. This may represent benign fibrous tissue or a lipoma.",
@@ -106,11 +98,11 @@
         },
         {
             "document": "Bilateral breast ultrasound was subsequently performed, which demonstrated an ovoid mass measuring approximately 0.5 x 0.5 x 0.4 cm in diameter located within the anteromedial aspect of the left shoulder. This mass demonstrates isoechoic echotexture to the adjacent muscle, with no evidence of internal color flow. This may represent benign fibrous tissue or a lipoma.",
-            "ner_chunk": "muscle",
-            "begin": 266,
+            "ner_chunk": "adjacent muscle",
+            "begin": 257,
             "end": 271,
             "ner_label": "BodyPart",
-            "ner_confidence": "0.7963"
+            "ner_confidence": "0.5201"
         },
         {
             "document": "Bilateral breast ultrasound was subsequently performed, which demonstrated an ovoid mass measuring approximately 0.5 x 0.5 x 0.4 cm in diameter located within the anteromedial aspect of the left shoulder. This mass demonstrates isoechoic echotexture to the adjacent muscle, with no evidence of internal color flow. This may represent benign fibrous tissue or a lipoma.",
