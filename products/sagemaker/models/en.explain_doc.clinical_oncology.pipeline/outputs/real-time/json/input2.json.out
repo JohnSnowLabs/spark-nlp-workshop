@@ -1,0 +1,610 @@
+{
+    "ner_predictions": [
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "She",
+            "begin": 0,
+            "end": 2,
+            "ner_label": "Gender",
+            "ner_confidence": "1.0"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "computed tomography",
+            "begin": 16,
+            "end": 34,
+            "ner_label": "Imaging_Test",
+            "ner_confidence": "0.93485"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "CT",
+            "begin": 37,
+            "end": 38,
+            "ner_label": "Imaging_Test",
+            "ner_confidence": "0.9724"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "abdomen",
+            "begin": 53,
+            "end": 59,
+            "ner_label": "Site_Other_Body_Part",
+            "ner_confidence": "0.9363"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "pelvis",
+            "begin": 65,
+            "end": 70,
+            "ner_label": "Site_Other_Body_Part",
+            "ner_confidence": "0.5375"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "ovarian",
+            "begin": 96,
+            "end": 102,
+            "ner_label": "Site_Other_Body_Part",
+            "ner_confidence": "0.7866"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "mass",
+            "begin": 104,
+            "end": 107,
+            "ner_label": "Tumor_Finding",
+            "ner_confidence": "0.9573"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "Pap smear",
+            "begin": 112,
+            "end": 120,
+            "ner_label": "Pathology_Test",
+            "ner_confidence": "0.96725"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "one month later",
+            "begin": 132,
+            "end": 146,
+            "ner_label": "Relative_Date",
+            "ner_confidence": "0.8786667"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "atypical glandular cells",
+            "begin": 165,
+            "end": 188,
+            "ner_label": "Pathology_Result",
+            "ner_confidence": "0.7270667"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "adenocarcinoma",
+            "begin": 205,
+            "end": 218,
+            "ner_label": "Cancer_Dx",
+            "ner_confidence": "0.9992"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "pathologic specimen",
+            "begin": 225,
+            "end": 243,
+            "ner_label": "Pathology_Test",
+            "ner_confidence": "0.76105"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "extension",
+            "begin": 252,
+            "end": 260,
+            "ner_label": "Invasion",
+            "ner_confidence": "0.9241"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "tumor",
+            "begin": 269,
+            "end": 273,
+            "ner_label": "Tumor_Finding",
+            "ner_confidence": "0.9077"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "fallopian tubes",
+            "begin": 290,
+            "end": 304,
+            "ner_label": "Site_Other_Body_Part",
+            "ner_confidence": "0.9492"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "appendix",
+            "begin": 307,
+            "end": 314,
+            "ner_label": "Site_Other_Body_Part",
+            "ner_confidence": "0.9971"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "omentum",
+            "begin": 317,
+            "end": 323,
+            "ner_label": "Site_Other_Body_Part",
+            "ner_confidence": "0.9937"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "enlarged",
+            "begin": 341,
+            "end": 348,
+            "ner_label": "Lymph_Node_Modifier",
+            "ner_confidence": "0.9882"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "lymph nodes",
+            "begin": 350,
+            "end": 360,
+            "ner_label": "Site_Lymph_Node",
+            "ner_confidence": "0.80105"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "tumor",
+            "begin": 401,
+            "end": 405,
+            "ner_label": "Tumor_Finding",
+            "ner_confidence": "0.9851"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "stage IIIC",
+            "begin": 411,
+            "end": 420,
+            "ner_label": "Staging",
+            "ner_confidence": "0.99035"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "papillary serous ovarian adenocarcinoma",
+            "begin": 422,
+            "end": 460,
+            "ner_label": "Oncological",
+            "ner_confidence": "0.60825"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "Two months later",
+            "begin": 463,
+            "end": 478,
+            "ner_label": "Relative_Date",
+            "ner_confidence": "0.9206333"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "lung metastases",
+            "begin": 512,
+            "end": 526,
+            "ner_label": "Oncological",
+            "ner_confidence": "0.96220005"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk": "Chest computed tomography",
+            "begin": 0,
+            "end": 24,
+            "ner_label": "Imaging_Test",
+            "ner_confidence": "0.94563335"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk": "CT",
+            "begin": 27,
+            "end": 28,
+            "ner_label": "Imaging_Test",
+            "ner_confidence": "0.9701"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk": "pulmonary",
+            "begin": 38,
+            "end": 46,
+            "ner_label": "Site_Lung",
+            "ner_confidence": "0.9976"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk": "lesions",
+            "begin": 48,
+            "end": 54,
+            "ner_label": "Tumor_Finding",
+            "ner_confidence": "0.9101"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk": "posterior",
+            "begin": 59,
+            "end": 67,
+            "ner_label": "Direction",
+            "ner_confidence": "0.9531"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk": "right",
+            "begin": 80,
+            "end": 84,
+            "ner_label": "Direction",
+            "ner_confidence": "0.9989"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk": "upper lobe",
+            "begin": 86,
+            "end": 95,
+            "ner_label": "Site_Lung",
+            "ner_confidence": "0.78859997"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk": "peripheral lung cancer",
+            "begin": 102,
+            "end": 123,
+            "ner_label": "Cancer_Dx",
+            "ner_confidence": "0.60636663"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk": "pulmonary metastases",
+            "begin": 139,
+            "end": 158,
+            "ner_label": "Oncological",
+            "ner_confidence": "0.7248"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk": "metastases of the thoracic vertebrae",
+            "begin": 170,
+            "end": 205,
+            "ner_label": "Oncological",
+            "ner_confidence": "0.55206"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk": "sternum",
+            "begin": 208,
+            "end": 214,
+            "ner_label": "Site_Bone",
+            "ner_confidence": "0.9935"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk": "ribs",
+            "begin": 221,
+            "end": 224,
+            "ner_label": "Site_Bone",
+            "ner_confidence": "0.999"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk": "CT images",
+            "begin": 274,
+            "end": 282,
+            "ner_label": "Imaging_Test",
+            "ner_confidence": "0.90505004"
+        }
+    ],
+    "assertion_predictions": [
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "She",
+            "begin": 0,
+            "end": 2,
+            "ner_label": "Gender",
+            "assertion": "Present",
+            "assertion_confidence": "0.9992"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "computed tomography",
+            "begin": 16,
+            "end": 34,
+            "ner_label": "Imaging_Test",
+            "assertion": "Past",
+            "assertion_confidence": "0.9997"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "CT",
+            "begin": 37,
+            "end": 38,
+            "ner_label": "Imaging_Test",
+            "assertion": "Past",
+            "assertion_confidence": "0.7904"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "mass",
+            "begin": 104,
+            "end": 107,
+            "ner_label": "Tumor_Finding",
+            "assertion": "Present",
+            "assertion_confidence": "0.9996"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "Pap smear",
+            "begin": 112,
+            "end": 120,
+            "ner_label": "Pathology_Test",
+            "assertion": "Past",
+            "assertion_confidence": "0.9988"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "atypical glandular cells",
+            "begin": 165,
+            "end": 188,
+            "ner_label": "Pathology_Result",
+            "assertion": "Present",
+            "assertion_confidence": "0.957"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "adenocarcinoma",
+            "begin": 205,
+            "end": 218,
+            "ner_label": "Cancer_Dx",
+            "assertion": "Possible",
+            "assertion_confidence": "0.9251"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "pathologic specimen",
+            "begin": 225,
+            "end": 243,
+            "ner_label": "Pathology_Test",
+            "assertion": "Past",
+            "assertion_confidence": "0.9993"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "extension",
+            "begin": 252,
+            "end": 260,
+            "ner_label": "Invasion",
+            "assertion": "Present",
+            "assertion_confidence": "0.9978"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "tumor",
+            "begin": 269,
+            "end": 273,
+            "ner_label": "Tumor_Finding",
+            "assertion": "Present",
+            "assertion_confidence": "0.9992"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "enlarged",
+            "begin": 341,
+            "end": 348,
+            "ner_label": "Lymph_Node_Modifier",
+            "assertion": "Present",
+            "assertion_confidence": "0.9787"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "tumor",
+            "begin": 401,
+            "end": 405,
+            "ner_label": "Tumor_Finding",
+            "assertion": "Present",
+            "assertion_confidence": "0.9994"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "papillary serous ovarian adenocarcinoma",
+            "begin": 422,
+            "end": 460,
+            "ner_label": "Oncological",
+            "assertion": "Present",
+            "assertion_confidence": "0.9962"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk": "lung metastases",
+            "begin": 512,
+            "end": 526,
+            "ner_label": "Oncological",
+            "assertion": "Present",
+            "assertion_confidence": "0.9975"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk": "Chest computed tomography",
+            "begin": 0,
+            "end": 24,
+            "ner_label": "Imaging_Test",
+            "assertion": "Past",
+            "assertion_confidence": "0.9993"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk": "CT",
+            "begin": 27,
+            "end": 28,
+            "ner_label": "Imaging_Test",
+            "assertion": "Past",
+            "assertion_confidence": "0.9997"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk": "lesions",
+            "begin": 48,
+            "end": 54,
+            "ner_label": "Tumor_Finding",
+            "assertion": "Present",
+            "assertion_confidence": "0.9969"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk": "peripheral lung cancer",
+            "begin": 102,
+            "end": 123,
+            "ner_label": "Cancer_Dx",
+            "assertion": "Present",
+            "assertion_confidence": "0.9845"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk": "pulmonary metastases",
+            "begin": 139,
+            "end": 158,
+            "ner_label": "Oncological",
+            "assertion": "Present",
+            "assertion_confidence": "0.9301"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk": "metastases of the thoracic vertebrae",
+            "begin": 170,
+            "end": 205,
+            "ner_label": "Oncological",
+            "assertion": "Present",
+            "assertion_confidence": "0.8446"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk": "CT images",
+            "begin": 274,
+            "end": 282,
+            "ner_label": "Imaging_Test",
+            "assertion": "Past",
+            "assertion_confidence": "0.9976"
+        }
+    ],
+    "relation_predictions": [
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk1": "abdomen",
+            "ner_chunk1_begin": "53",
+            "ner_chunk1_end": "59",
+            "ner_label1": "Site_Other_Body_Part",
+            "ner_chunk2": "mass",
+            "ner_chunk2_begin": "104",
+            "ner_chunk2_end": "107",
+            "ner_label2": "Tumor_Finding",
+            "relation": "O",
+            "relation_confidence": "0.9437938"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk1": "pelvis",
+            "ner_chunk1_begin": "65",
+            "ner_chunk1_end": "70",
+            "ner_label1": "Site_Other_Body_Part",
+            "ner_chunk2": "mass",
+            "ner_chunk2_begin": "104",
+            "ner_chunk2_end": "107",
+            "ner_label2": "Tumor_Finding",
+            "relation": "O",
+            "relation_confidence": "0.9618621"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk1": "ovarian",
+            "ner_chunk1_begin": "96",
+            "ner_chunk1_end": "102",
+            "ner_label1": "Site_Other_Body_Part",
+            "ner_chunk2": "mass",
+            "ner_chunk2_begin": "104",
+            "ner_chunk2_end": "107",
+            "ner_label2": "Tumor_Finding",
+            "relation": "is_location_of",
+            "relation_confidence": "0.921906"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk1": "Pap smear",
+            "ner_chunk1_begin": "112",
+            "ner_chunk1_end": "120",
+            "ner_label1": "Pathology_Test",
+            "ner_chunk2": "adenocarcinoma",
+            "ner_chunk2_begin": "205",
+            "ner_chunk2_end": "218",
+            "ner_label2": "Cancer_Dx",
+            "relation": "is_finding_of",
+            "relation_confidence": "0.52542114"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk1": "tumor",
+            "ner_chunk1_begin": "269",
+            "ner_chunk1_end": "273",
+            "ner_label1": "Tumor_Finding",
+            "ner_chunk2": "fallopian tubes",
+            "ner_chunk2_begin": "290",
+            "ner_chunk2_end": "304",
+            "ner_label2": "Site_Other_Body_Part",
+            "relation": "is_location_of",
+            "relation_confidence": "0.9026299"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk1": "tumor",
+            "ner_chunk1_begin": "269",
+            "ner_chunk1_end": "273",
+            "ner_label1": "Tumor_Finding",
+            "ner_chunk2": "appendix",
+            "ner_chunk2_begin": "307",
+            "ner_chunk2_end": "314",
+            "ner_label2": "Site_Other_Body_Part",
+            "relation": "is_location_of",
+            "relation_confidence": "0.6649267"
+        },
+        {
+            "document": "She underwent a computed tomography (CT) scan of the abdomen and pelvis, which showed a complex ovarian mass. A Pap smear performed one month later was positive for atypical glandular cells suspicious for adenocarcinoma. The pathologic specimen showed extension of the tumor throughout the fallopian tubes, appendix, omentum, and 5 out of 5 enlarged lymph nodes. The final pathologic diagnosis of the tumor was stage IIIC papillary serous ovarian adenocarcinoma. Two months later, the patient was diagnosed with lung metastases.",
+            "ner_chunk1": "tumor",
+            "ner_chunk1_begin": "269",
+            "ner_chunk1_end": "273",
+            "ner_label1": "Tumor_Finding",
+            "ner_chunk2": "omentum",
+            "ner_chunk2_begin": "317",
+            "ner_chunk2_end": "323",
+            "ner_label2": "Site_Other_Body_Part",
+            "relation": "O",
+            "relation_confidence": "0.80328876"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk1": "pulmonary",
+            "ner_chunk1_begin": "38",
+            "ner_chunk1_end": "46",
+            "ner_label1": "Site_Lung",
+            "ner_chunk2": "lesions",
+            "ner_chunk2_begin": "48",
+            "ner_chunk2_end": "54",
+            "ner_label2": "Tumor_Finding",
+            "relation": "is_location_of",
+            "relation_confidence": "0.93497586"
+        },
+        {
+            "document": "Chest computed tomography (CT) showed pulmonary lesions in posterior segment of right upper lobe, and peripheral lung cancer with multiple pulmonary metastases. Multiple metastases of the thoracic vertebrae, sternum, and ribs were considered, which were similar to previous CT images.",
+            "ner_chunk1": "lesions",
+            "ner_chunk1_begin": "48",
+            "ner_chunk1_end": "54",
+            "ner_label1": "Tumor_Finding",
+            "ner_chunk2": "upper lobe",
+            "ner_chunk2_begin": "86",
+            "ner_chunk2_end": "95",
+            "ner_label2": "Site_Lung",
+            "relation": "is_location_of",
+            "relation_confidence": "0.9341804"
+        }
+    ]
+}

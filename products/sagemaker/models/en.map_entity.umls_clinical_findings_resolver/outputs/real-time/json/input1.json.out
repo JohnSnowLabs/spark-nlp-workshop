@@ -1,0 +1,34 @@
+{
+    "predictions": [
+        {
+            "document": "HTG-induced pancreatitis associated with an acute hepatitis, and obesity",
+            "ner_chunk": "HTG-induced pancreatitis",
+            "begin": 0,
+            "end": 23,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9539",
+            "umls_code": "C1963198",
+            "umls_confidence": "0.4456"
+        },
+        {
+            "document": "HTG-induced pancreatitis associated with an acute hepatitis, and obesity",
+            "ner_chunk": "an acute hepatitis",
+            "begin": 41,
+            "end": 58,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9794333",
+            "umls_code": "C4750596",
+            "umls_confidence": "0.7237"
+        },
+        {
+            "document": "HTG-induced pancreatitis associated with an acute hepatitis, and obesity",
+            "ner_chunk": "obesity",
+            "begin": 65,
+            "end": 71,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9828",
+            "umls_code": "C1963185",
+            "umls_confidence": "0.9828"
+        }
+    ]
+}

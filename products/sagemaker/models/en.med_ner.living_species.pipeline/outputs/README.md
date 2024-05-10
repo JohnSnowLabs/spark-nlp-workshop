@@ -1,6 +1,6 @@
 # Output Format
 
-The model generates output in the following format:
+### JSON
 
 ```json
 {
@@ -11,7 +11,7 @@ The model generates output in the following format:
             "begin": Start Index,
             "end": End Index,
             "ner_label": "Label 1",
-            "confidence": Score
+            "ner_confidence": Score
         },
         {
             "document": "Text of the document 1",
@@ -19,7 +19,7 @@ The model generates output in the following format:
             "begin": Start Index,
             "end": End Index,
             "ner_label": "Label 2",
-            "confidence": Score
+            "ner_confidence": Score
         },
 
         {
@@ -28,7 +28,7 @@ The model generates output in the following format:
             "begin": Start Index,
             "end": End Index,
             "ner_label": "Label 2",
-            "confidence": Score
+            "ner_confidence": Score
         },
         ...
     ]
@@ -50,5 +50,15 @@ The model generates output in the following format:
 
     - **ner_label**: Label assigned to the named entity.
 
-    - **confidence**: Confidence score associated with the prediction.
+    - **ner_confidence**: Confidence score associated with the ner prediction.
 
+
+### JSON Lines (JSONL) Format
+
+```
+{"predictions": [{"ner_chunk": "Named Entity 1", "begin": Start Index, "end": End Index, "ner_label": "Label 1", "ner_confidence": Score}, {"ner_chunk": "Named Entity 2", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "ner_confidence": Score}, ...]}
+{"predictions": [{"ner_chunk": "Named Entity 1", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "ner_confidence": Score}, {"ner_chunk": "Named Entity 2", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "ner_confidence": Score}, ...]}
+```
+
+
+The JSON Lines format consists of individual JSON objects, where each object represents predictions for a single input text.

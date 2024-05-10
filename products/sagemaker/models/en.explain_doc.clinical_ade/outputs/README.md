@@ -1,6 +1,6 @@
 # Output Format
 
-The output consists of a JSON object with the following structure:
+### JSON Format
 
 ```json
 
@@ -12,7 +12,7 @@ The output consists of a JSON object with the following structure:
             "begin": Start Index,
             "end": End Index,
             "ner_label": "Label 1",
-            "confidence": Score
+            "ner_confidence": Score
         },
         {
             "document": "Text of the document 1",
@@ -20,7 +20,7 @@ The output consists of a JSON object with the following structure:
             "begin": Start Index,
             "end": End Index,
             "ner_label": "Label 2",
-            "confidence": Score
+            "ner_confidence": Score
         },
         ...
     ],
@@ -31,9 +31,7 @@ The output consists of a JSON object with the following structure:
             "begin": Start Index,
             "end": End Index,
             "ner_label": "Label 2",
-            "ner_confidence": Score,
             "assertion": "Assertion status",
-            "assertion_confidence": Score,
         },
         ...
     ],
@@ -44,16 +42,31 @@ The output consists of a JSON object with the following structure:
             "ner_chunk1_begin": Start Index,
             "ner_chunk1_end": End Index,
             "ner_label1": "Label 1",
-            "ner_chunk1_confidence": Score,
             "ner_chunk2": "Named Entity 2",
             "ner_chunk2_begin": Start Index,
             "ner_chunk2_end": End Index,
             "ner_label2": "Label 2",
-            "ner_chunk2_confidence": Score,
             "relation": "Relation Type",
-            "relation_begin": Relation Start Index,
-            "relation_end": Relation End Index,
             "relation_confidence": Score
+        },
+        ...
+    ],
+    "classification_predictions": [
+        {
+            "document": "Text of the document 1",
+            "sentence": "Sentence 1",
+            "begin": Start Index,
+            "end": End Index,
+            "class": "label",
+            "class_confidence": Score
+        },
+        {
+            "document": "Text of the document 1",
+            "sentence": "Sentence 2",
+            "begin": Start Index,
+            "end": End Index,
+            "class": "label",
+            "class_confidence": Score
         },
         ...
     ]
@@ -74,7 +87,7 @@ An array containing NER predictions for each input document.
 
 - **ner_label**: Label assigned to the named entity.
 
-- **confidence**: Confidence score associated with the prediction.
+- **ner_confidence**: Confidence score associated with the NER prediction.
 
 ## Assertion Predictions
 An array containing assertions for each input document.
@@ -89,11 +102,7 @@ An array containing assertions for each input document.
 
 - **ner_label**: Label assigned to the named entity.
 
-- **ner_confidence**: Confidence score associated with the ner prediction.
-
 - **assertion**: Assertion status.
-
-- **assertion_confidence**: Confidence score associated with the assertion.
 
 ## Relation Predictions
 An array containing relations between named entities within each input document.
@@ -108,8 +117,6 @@ An array containing relations between named entities within each input document.
 
 - **ner_label1**: Label assigned to the first named entity.
 
-- **ner_chunk1_confidence**: The confidence score associated with the recognition of the first named entity.
-
 - **ner_chunk2**: Second named entity involved in the relation.
 
 - **ner_chunk2_begin**: Starting character index of the second named entity chunk within the document.
@@ -118,12 +125,31 @@ An array containing relations between named entities within each input document.
 
 - **ner_label2**: Label assigned to the second named entity.
 
-- **ner_chunk2_confidence**: The confidence score associated with the recognition of the second named entity.
-
 - **relations**: Type of relation identified.
 
-- **relation_begin**: Starting character index of the relation within the document.
-
-- **relation_end**:  Ending character index of the relation within the document.
-
 - **relation_confidence**: Confidence score associated with the relation.
+
+## Classification Predictions
+
+This array contains the results of sentence-level classification performed by a sentence classifier.
+
+- **document**: The original input text document.
+
+- **sentence**: The extracted sentence from the document.
+
+- **begin**: The starting character index of the sentence within the document.
+
+- **end**: The ending character index of the sentence within the document.
+
+- **class**: The predicted label for the corresponding sentence.
+
+- **class_confidence**: The confidence score associated with the predicted class, indicating the model's certainty in its prediction.
+
+### JSON Lines (JSONL) Format
+
+```
+{"ner_predictions": [{"ner_chunk": "Named Entity 1", "begin": Start Index, "end": End Index, "ner_label": "Label 1", "ner_confidence": Score}, {"ner_chunk": "Named Entity 2", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "ner_confidence": Score}, ...], "assertion_predictions": [{"ner_chunk": "Named Entity 2", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "assertion": "Assertion status"}, ...], "relation_predictions": [{"ner_chunk1": "Named Entity 1", "ner_chunk1_begin": Start Index, "ner_chunk1_end": End Index, "ner_label1": "Label 1", "ner_chunk2": "Named Entity 2", "ner_chunk2_begin": Start Index, "ner_chunk2_end": End Index, "ner_label2": "Label 2", "relation": "Relation Type", "relation_confidence": Score}, ...], "classification_predictions": [{"sentence": "Sentence 1", "begin": Start Index, "end": End Index, "class": "label", "class_confidence": Score},{"sentence": "Sentence 2", "begin": Start Index, "end": End Index, "class": "label", "class_confidence": Score}, ...]}
+{"ner_predictions": [{"ner_chunk": "Named Entity 1", "begin": Start Index, "end": End Index, "ner_label": "Label 1", "ner_confidence": Score}, {"ner_chunk": "Named Entity 2", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "ner_confidence": Score}, ...], "assertion_predictions": [{"ner_chunk": "Named Entity 2", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "assertion": "Assertion status"}, ...], "relation_predictions": [{"ner_chunk1": "Named Entity 1", "ner_chunk1_begin": Start Index, "ner_chunk1_end": End Index, "ner_label1": "Label 1", "ner_chunk2": "Named Entity 2", "ner_chunk2_begin": Start Index, "ner_chunk2_end": End Index, "ner_label2": "Label 2", "relation": "Relation Type", "relation_confidence": Score}, ...], "classification_predictions": [{"sentence": "Sentence 1", "begin": Start Index, "end": End Index, "class": "label", "class_confidence": Score},{"sentence": "Sentence 2", "begin": Start Index, "end": End Index, "class": "label", "class_confidence": Score}, ...]}
+```
+
+The JSON Lines format consists of individual JSON objects, where each object represents predictions for a single input text.

@@ -1,0 +1,184 @@
+{
+    "predictions": [
+        {
+            "document": "An 86-year-old female with persistent abdominal pain, nausea and projectile vomiting, during evaluation in the emergency room, was found to have a high amylase, as well as lipase count and she is being admitted for management of unspecified gastrointestinal hemorrhage.",
+            "ner_chunk": "persistent abdominal pain",
+            "begin": 27,
+            "end": 51,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9549",
+            "icd9_code": "789.0",
+            "icd9_confidence": "0.6235"
+        },
+        {
+            "document": "An 86-year-old female with persistent abdominal pain, nausea and projectile vomiting, during evaluation in the emergency room, was found to have a high amylase, as well as lipase count and she is being admitted for management of unspecified gastrointestinal hemorrhage.",
+            "ner_chunk": "nausea",
+            "begin": 54,
+            "end": 59,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9995",
+            "icd9_code": "536.2",
+            "icd9_confidence": "0.2171"
+        },
+        {
+            "document": "An 86-year-old female with persistent abdominal pain, nausea and projectile vomiting, during evaluation in the emergency room, was found to have a high amylase, as well as lipase count and she is being admitted for management of unspecified gastrointestinal hemorrhage.",
+            "ner_chunk": "projectile vomiting",
+            "begin": 65,
+            "end": 83,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.99434996",
+            "icd9_code": "307.54",
+            "icd9_confidence": "0.6460"
+        },
+        {
+            "document": "An 86-year-old female with persistent abdominal pain, nausea and projectile vomiting, during evaluation in the emergency room, was found to have a high amylase, as well as lipase count and she is being admitted for management of unspecified gastrointestinal hemorrhage.",
+            "ner_chunk": "evaluation",
+            "begin": 93,
+            "end": 102,
+            "ner_label": "TEST",
+            "ner_confidence": "0.7622",
+            "icd9_code": "309",
+            "icd9_confidence": "0.2038"
+        },
+        {
+            "document": "An 86-year-old female with persistent abdominal pain, nausea and projectile vomiting, during evaluation in the emergency room, was found to have a high amylase, as well as lipase count and she is being admitted for management of unspecified gastrointestinal hemorrhage.",
+            "ner_chunk": "a high amylase",
+            "begin": 145,
+            "end": 158,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.90860003",
+            "icd9_code": "535.2",
+            "icd9_confidence": "0.0986"
+        },
+        {
+            "document": "An 86-year-old female with persistent abdominal pain, nausea and projectile vomiting, during evaluation in the emergency room, was found to have a high amylase, as well as lipase count and she is being admitted for management of unspecified gastrointestinal hemorrhage.",
+            "ner_chunk": "lipase count",
+            "begin": 172,
+            "end": 183,
+            "ner_label": "TEST",
+            "ner_confidence": "0.88765",
+            "icd9_code": "272.7",
+            "icd9_confidence": "0.3121"
+        },
+        {
+            "document": "An 86-year-old female with persistent abdominal pain, nausea and projectile vomiting, during evaluation in the emergency room, was found to have a high amylase, as well as lipase count and she is being admitted for management of unspecified gastrointestinal hemorrhage.",
+            "ner_chunk": "management",
+            "begin": 215,
+            "end": 224,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.9986",
+            "icd9_code": "309",
+            "icd9_confidence": "0.2784"
+        },
+        {
+            "document": "An 86-year-old female with persistent abdominal pain, nausea and projectile vomiting, during evaluation in the emergency room, was found to have a high amylase, as well as lipase count and she is being admitted for management of unspecified gastrointestinal hemorrhage.",
+            "ner_chunk": "unspecified gastrointestinal hemorrhage",
+            "begin": 229,
+            "end": 267,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.89243335",
+            "icd9_code": "578.9",
+            "icd9_confidence": "0.5944"
+        },
+        {
+            "document": "Complaints of unspecified upper abdominal pain and swelling in a 32-year-old woman led to the evaluation of possible disease of intestine. She had a history of mixed irritable bowel syndrome and congenital lactase deficiency. Several diagnostic tests were performed. Blood tests showed abnormal results of blood chemistry and colonoscopy was performed.",
+            "ner_chunk": "unspecified upper abdominal pain",
+            "begin": 14,
+            "end": 45,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.805175",
+            "icd9_code": "789.00",
+            "icd9_confidence": "0.4183"
+        },
+        {
+            "document": "Complaints of unspecified upper abdominal pain and swelling in a 32-year-old woman led to the evaluation of possible disease of intestine. She had a history of mixed irritable bowel syndrome and congenital lactase deficiency. Several diagnostic tests were performed. Blood tests showed abnormal results of blood chemistry and colonoscopy was performed.",
+            "ner_chunk": "swelling",
+            "begin": 51,
+            "end": 58,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9994",
+            "icd9_code": "729.81",
+            "icd9_confidence": "0.4068"
+        },
+        {
+            "document": "Complaints of unspecified upper abdominal pain and swelling in a 32-year-old woman led to the evaluation of possible disease of intestine. She had a history of mixed irritable bowel syndrome and congenital lactase deficiency. Several diagnostic tests were performed. Blood tests showed abnormal results of blood chemistry and colonoscopy was performed.",
+            "ner_chunk": "the evaluation",
+            "begin": 90,
+            "end": 103,
+            "ner_label": "TEST",
+            "ner_confidence": "0.83545",
+            "icd9_code": "302.4",
+            "icd9_confidence": "0.1755"
+        },
+        {
+            "document": "Complaints of unspecified upper abdominal pain and swelling in a 32-year-old woman led to the evaluation of possible disease of intestine. She had a history of mixed irritable bowel syndrome and congenital lactase deficiency. Several diagnostic tests were performed. Blood tests showed abnormal results of blood chemistry and colonoscopy was performed.",
+            "ner_chunk": "disease of intestine",
+            "begin": 117,
+            "end": 136,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.84213334",
+            "icd9_code": "562",
+            "icd9_confidence": "0.1838"
+        },
+        {
+            "document": "Complaints of unspecified upper abdominal pain and swelling in a 32-year-old woman led to the evaluation of possible disease of intestine. She had a history of mixed irritable bowel syndrome and congenital lactase deficiency. Several diagnostic tests were performed. Blood tests showed abnormal results of blood chemistry and colonoscopy was performed.",
+            "ner_chunk": "mixed irritable bowel syndrome",
+            "begin": 160,
+            "end": 189,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.95814997",
+            "icd9_code": "564.1",
+            "icd9_confidence": "0.9717"
+        },
+        {
+            "document": "Complaints of unspecified upper abdominal pain and swelling in a 32-year-old woman led to the evaluation of possible disease of intestine. She had a history of mixed irritable bowel syndrome and congenital lactase deficiency. Several diagnostic tests were performed. Blood tests showed abnormal results of blood chemistry and colonoscopy was performed.",
+            "ner_chunk": "congenital lactase deficiency",
+            "begin": 195,
+            "end": 223,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9917",
+            "icd9_code": "277.81",
+            "icd9_confidence": "0.0759"
+        },
+        {
+            "document": "Complaints of unspecified upper abdominal pain and swelling in a 32-year-old woman led to the evaluation of possible disease of intestine. She had a history of mixed irritable bowel syndrome and congenital lactase deficiency. Several diagnostic tests were performed. Blood tests showed abnormal results of blood chemistry and colonoscopy was performed.",
+            "ner_chunk": "Several diagnostic tests",
+            "begin": 226,
+            "end": 249,
+            "ner_label": "TEST",
+            "ner_confidence": "0.7106333",
+            "icd9_code": "V72.69",
+            "icd9_confidence": "0.1406"
+        },
+        {
+            "document": "Complaints of unspecified upper abdominal pain and swelling in a 32-year-old woman led to the evaluation of possible disease of intestine. She had a history of mixed irritable bowel syndrome and congenital lactase deficiency. Several diagnostic tests were performed. Blood tests showed abnormal results of blood chemistry and colonoscopy was performed.",
+            "ner_chunk": "Blood tests",
+            "begin": 267,
+            "end": 277,
+            "ner_label": "TEST",
+            "ner_confidence": "0.93785",
+            "icd9_code": "578.1",
+            "icd9_confidence": "0.1081"
+        },
+        {
+            "document": "Complaints of unspecified upper abdominal pain and swelling in a 32-year-old woman led to the evaluation of possible disease of intestine. She had a history of mixed irritable bowel syndrome and congenital lactase deficiency. Several diagnostic tests were performed. Blood tests showed abnormal results of blood chemistry and colonoscopy was performed.",
+            "ner_chunk": "abnormal results of blood chemistry",
+            "begin": 286,
+            "end": 320,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.8009399",
+            "icd9_code": "790.6",
+            "icd9_confidence": "0.4051"
+        },
+        {
+            "document": "Complaints of unspecified upper abdominal pain and swelling in a 32-year-old woman led to the evaluation of possible disease of intestine. She had a history of mixed irritable bowel syndrome and congenital lactase deficiency. Several diagnostic tests were performed. Blood tests showed abnormal results of blood chemistry and colonoscopy was performed.",
+            "ner_chunk": "colonoscopy",
+            "begin": 326,
+            "end": 336,
+            "ner_label": "TEST",
+            "ner_confidence": "0.9871",
+            "icd9_code": "562.1",
+            "icd9_confidence": "0.4739"
+        }
+    ]
+}

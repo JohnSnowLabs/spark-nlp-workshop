@@ -1,0 +1,194 @@
+{
+    "ner_predictions": [
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "Cardiac size",
+            "begin": 1,
+            "end": 12,
+            "ner_label": "ImagingFindings",
+            "ner_confidence": "0.8463"
+        },
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "left",
+            "begin": 41,
+            "end": 44,
+            "ner_label": "Direction",
+            "ner_confidence": "0.9433"
+        },
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "pleural effusion",
+            "begin": 46,
+            "end": 61,
+            "ner_label": "Disease_Syndrome_Disorder",
+            "ner_confidence": "0.69865"
+        },
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "right",
+            "begin": 77,
+            "end": 81,
+            "ner_label": "Direction",
+            "ner_confidence": "0.9554"
+        },
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "effusion",
+            "begin": 83,
+            "end": 90,
+            "ner_label": "ImagingFindings",
+            "ner_confidence": "0.9442"
+        },
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "upper lungs",
+            "begin": 105,
+            "end": 115,
+            "ner_label": "BodyPart",
+            "ner_confidence": "0.5999"
+        },
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "clear",
+            "begin": 121,
+            "end": 125,
+            "ner_label": "ImagingFindings",
+            "ner_confidence": "0.7488"
+        },
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "Right",
+            "begin": 128,
+            "end": 132,
+            "ner_label": "Direction",
+            "ner_confidence": "0.9839"
+        },
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "lower lobe opacities",
+            "begin": 134,
+            "end": 153,
+            "ner_label": "Symptom",
+            "ner_confidence": "0.30993333"
+        },
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "CT",
+            "begin": 180,
+            "end": 181,
+            "ner_label": "Imaging_Test",
+            "ner_confidence": "0.9859"
+        },
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "pneumothorax",
+            "begin": 196,
+            "end": 207,
+            "ner_label": "ImagingFindings",
+            "ner_confidence": "0.9832"
+        },
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "mild degenerative changes",
+            "begin": 220,
+            "end": 244,
+            "ner_label": "ImagingFindings",
+            "ner_confidence": "0.5607"
+        },
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "thoracic spine",
+            "begin": 253,
+            "end": 266,
+            "ner_label": "BodyPart",
+            "ner_confidence": "0.7687"
+        }
+    ],
+    "assertion_predictions": [
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "Cardiac size",
+            "begin": 1,
+            "end": 12,
+            "ner_label": "ImagingFindings",
+            "assertion": "Confirmed"
+        },
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "pleural effusion",
+            "begin": 46,
+            "end": 61,
+            "ner_label": "Disease_Syndrome_Disorder",
+            "assertion": "Confirmed"
+        },
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "effusion",
+            "begin": 83,
+            "end": 90,
+            "ner_label": "ImagingFindings",
+            "assertion": "Confirmed"
+        },
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "clear",
+            "begin": 121,
+            "end": 125,
+            "ner_label": "ImagingFindings",
+            "assertion": "Confirmed"
+        },
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "lower lobe opacities",
+            "begin": 134,
+            "end": 153,
+            "ner_label": "Symptom",
+            "assertion": "Confirmed"
+        },
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "pneumothorax",
+            "begin": 196,
+            "end": 207,
+            "ner_label": "ImagingFindings",
+            "assertion": "Negative"
+        },
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk": "mild degenerative changes",
+            "begin": 220,
+            "end": 244,
+            "ner_label": "ImagingFindings",
+            "assertion": "Confirmed"
+        }
+    ],
+    "relation_predictions": [
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk1": "upper lungs",
+            "ner_chunk1_begin": "105",
+            "ner_chunk1_end": "115",
+            "ner_label1": "BodyPart",
+            "ner_chunk2": "clear",
+            "ner_chunk2_begin": "121",
+            "ner_chunk2_end": "125",
+            "ner_label2": "ImagingFindings",
+            "relation": "not_related",
+            "relation_confidence": "0.947544"
+        },
+        {
+            "document": " Cardiac size cannot be evaluated. Large left pleural effusion is new. Small right effusion is new.  The upper lungs are clear. Right lower lobe opacities are better seen in prior CT. There is no pneumothorax. There are mild degenerative changes in the thoracic spine",
+            "ner_chunk1": "mild degenerative changes",
+            "ner_chunk1_begin": "220",
+            "ner_chunk1_end": "244",
+            "ner_label1": "ImagingFindings",
+            "ner_chunk2": "thoracic spine",
+            "ner_chunk2_begin": "253",
+            "ner_chunk2_end": "266",
+            "ner_label2": "BodyPart",
+            "relation": "is_related",
+            "relation_confidence": "0.99999964"
+        }
+    ]
+}

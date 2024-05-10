@@ -1,32 +1,64 @@
+# Output Format
 
-Let's explain each of output columns:
+### JSON
 
-## document
-It refers to the full body of text that the pipeline is analyzing. It includes all the content on which entity recognition is performed. 
+```json
+{
+    "predictions": [
+        {
+            "document": "Text of the document 1",
+            "ner_chunk": "Named Entity 1",
+            "begin": Start Index,
+            "end": End Index,
+            "ner_label": "Label 1",
+            "ner_confidence": Score
+        },
+        {
+            "document": "Text of the document 1",
+            "ner_chunk": "Named Entity 2",
+            "begin": Start Index,
+            "end": End Index,
+            "ner_label": "Label 2",
+            "ner_confidence": Score
+        },
 
-Example: The human KCNJ9 (Kir 3.3, GIRK3) is a member of the G-protein-activated inwardly rectifying potassium (GIRK) channel family. Here we describe the genomicorganization of the KCNJ9 locus on chromosome 1q21-23 as a candidate gene forType II diabetes mellitus in the Pima Indian population. The gene spansapproximately 7.6 kb and contains one noncoding and two coding exons separated byapproximately 2.2 and approximately 2.6 kb introns, respectively. We identified14 single nucleotide polymorphisms (SNPs), including one that predicts aVal366Ala substitution, and an 8 base-pair (bp) insertion/deletion. Ourexpression studies revealed the presence of the transcript in various humantissues including pancreas, and two major insulin-responsive tissues: fat andskeletal muscle. The characterization of the KCNJ9 gene should facilitate furtherstudies on the function of the KCNJ9 protein and allow evaluation of thepotential role of the locus in Type II diabetes.
+        {
+            "document": "Text of the document 2",
+            "ner_chunk": "Named Entity 1",
+            "begin": Start Index,
+            "end": End Index,
+            "ner_label": "Label 2",
+            "ner_confidence": Score
+        },
+        ...
+    ]
+}
 
-## ner_chunk
-It is a substring of the document text that has been identified as a named entity.
+```
 
-Example: `human`
+### Explanation of Fields
 
-## begin
-Indicates the starting position of the named entity within the document text.
+- **predictions**: An array containing predictions for each input document.
 
-Example: `4`
+    - **document**: The original input text for which predictions are made.
 
-## end
-Indicates the ending position of the named entity within the document text.
+    - **ner_chunk**: Named entity recognized in the document.
 
-Example: `8`
+    - **begin**: Starting character index of the named entity chunk within the document.
 
-## ner_label
-It specifies the category or type of the named entity that has been recognized in the text. The value assigned is a label that classifies the entity according to a predefined taxonomy of entity types. This classification helps in understanding the role or nature of the entity within the context of the document.
+    - **end**: Ending character index of the named entity chunk within the document.
 
-Example: `Organism`
+    - **ner_label**: Label assigned to the named entity.
 
-## confidence
-It represents the degree of certainty or confidence that the model has in its identification and classification of the named entity. Confidence scores are typically expressed as a number between 0 and 1, where a higher number indicates greater confidence. A score close to 1, suggests that the system is very certain of its analysis.
+    - **ner_confidence**: Confidence score associated with the ner prediction.
 
-Example: `0.9996`
+
+### JSON Lines (JSONL) Format
+
+```
+{"predictions": [{"ner_chunk": "Named Entity 1", "begin": Start Index, "end": End Index, "ner_label": "Label 1", "ner_confidence": Score}, {"ner_chunk": "Named Entity 2", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "ner_confidence": Score}, ...]}
+{"predictions": [{"ner_chunk": "Named Entity 1", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "ner_confidence": Score}, {"ner_chunk": "Named Entity 2", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "ner_confidence": Score}, ...]}
+```
+
+
+The JSON Lines format consists of individual JSON objects, where each object represents predictions for a single input text.

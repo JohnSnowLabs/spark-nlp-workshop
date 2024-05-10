@@ -1,33 +1,64 @@
-Let's explain each of output columns:
+# Output Format
+
+### JSON
+
+```json
+{
+    "predictions": [
+        {
+            "document": "Text of the document 1",
+            "ner_chunk": "Named Entity 1",
+            "begin": Start Index,
+            "end": End Index,
+            "ner_label": "Label 1",
+            "ner_confidence": Score
+        },
+        {
+            "document": "Text of the document 1",
+            "ner_chunk": "Named Entity 2",
+            "begin": Start Index,
+            "end": End Index,
+            "ner_label": "Label 2",
+            "ner_confidence": Score
+        },
+
+        {
+            "document": "Text of the document 2",
+            "ner_chunk": "Named Entity 1",
+            "begin": Start Index,
+            "end": End Index,
+            "ner_label": "Label 2",
+            "ner_confidence": Score
+        },
+        ...
+    ]
+}
+
+```
+
+### Explanation of Fields
+
+- **predictions**: An array containing predictions for each input document.
+
+    - **document**: The original input text for which predictions are made.
+
+    - **ner_chunk**: Named entity recognized in the document.
+
+    - **begin**: Starting character index of the named entity chunk within the document.
+
+    - **end**: Ending character index of the named entity chunk within the document.
+
+    - **ner_label**: Label assigned to the named entity.
+
+    - **ner_confidence**: Confidence score associated with the ner prediction.
 
 
-## document
-Refers to the complete text being analyzed by the pipeline, encompassing all content subjected to entity recognition.
+### JSON Lines (JSONL) Format
 
-**Example:** "Maria is a 20-year-old girl who was diagnosed with hyperthyroidism 1 month ago."
+```
+{"predictions": [{"ner_chunk": "Named Entity 1", "begin": Start Index, "end": End Index, "ner_label": "Label 1", "ner_confidence": Score}, {"ner_chunk": "Named Entity 2", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "ner_confidence": Score}, ...]}
+{"predictions": [{"ner_chunk": "Named Entity 1", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "ner_confidence": Score}, {"ner_chunk": "Named Entity 2", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "ner_confidence": Score}, ...]}
+```
 
-## ner_chunk
-A substring from the document text identified as a named entity.
 
-**Example:** `20-year-old`
-
-## begin
-The starting position of the named entity within the document text.
-
-**Example:** `11`
-
-## end
-The ending position of the named entity within the document text.
-
-**Example:** `21`
-
-## ner_label
-The category or type of the named entity recognized in the text, classified according to a predefined taxonomy of entity types. This classification aids in understanding the entity's role or nature within the document context.
-
-**Example:** `Age`
-
-## confidence
-The confidence level the model has in its identification and classification of the named entity. Confidence scores are usually between 0 and 1, with a higher number indicating greater certainty. A score nearing 1 suggests high confidence in the analysis.
-
-**Example:** `0.9618`
-
+The JSON Lines format consists of individual JSON objects, where each object represents predictions for a single input text.
