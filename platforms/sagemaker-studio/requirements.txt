@@ -7,7 +7,7 @@ numpy==1.23.5
 scipy==1.10.1
 scikit-learn==1.2.2
 pandas==1.5.3
-pillow==9.4.0
+pillow==10.3.0
 python-dateutil==2.8.2
 requests==2.31.0
 svgwrite==1.4
