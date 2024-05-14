@@ -1,7 +1,7 @@
 awscli
 boto3
 ipykernel
-pyspark==3.1.2
+pyspark==3.2.2
 setuptools
 numpy==1.23.5
 scipy==1.10.1
