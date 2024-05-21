@@ -1,0 +1,24 @@
+{
+    "predictions": [
+        {
+            "document": "The patient was advised to take Omeprazole 20 mg daily before breakfast for acid reflux.",
+            "ner_chunk": "Omeprazole 20 mg",
+            "begin": 32,
+            "end": 47,
+            "ner_label": "DRUG",
+            "ner_confidence": "0.69296664",
+            "umls_code": "C0988268",
+            "umls_confidence": "0.69296664"
+        },
+        {
+            "document": "The patient was advised to take Omeprazole 20 mg daily before breakfast for acid reflux.",
+            "ner_chunk": "daily before breakfast",
+            "begin": 49,
+            "end": 70,
+            "ner_label": "FREQUENCY",
+            "ner_confidence": "0.94656664",
+            "umls_code": "C3221142",
+            "umls_confidence": "0.1427"
+        }
+    ]
+}
