@@ -72,6 +72,8 @@ update date: 2023-04-13
 
 [05.6.Improved_Entity_Resolution_with_SentenceChunkEmbeddings.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/05.6.Improved_Entity_Resolution_with_SentenceChunkEmbeddings.ipynb)
 
+[05.7.MedDRA_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/05.7.MedDRA_Models.ipynb)
+
 
 ### ➤ Entity Code Mapping
 
@@ -172,6 +174,8 @@ update date: 2023-04-13
 [28.0.Model_Download_Helpers.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/28.0.Model_Download_Helpers.ipynb)
 
 [31.0.Structured_Streaming_with_SparkNLP_for_Healthcare.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/31.0.Structured_Streaming_with_SparkNLP_for_Healthcare.ipynb)
+
+[34.0.Clinical_Medication_Use_Case.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/34.0.Clinical_Medication_Use_Case.ipynb)
 
 ## ☞ Biomedical & Clinical NER Models Benchmarks/ Rankings
 
