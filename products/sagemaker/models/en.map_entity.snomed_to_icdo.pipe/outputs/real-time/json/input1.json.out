@@ -1,0 +1,18 @@
+{
+    "predictions": [
+        {
+            "text": "26638004 25370001",
+            "snomed_code": "26638004",
+            "begin": 0,
+            "end": 7,
+            "icdo_code": "8322/0"
+        },
+        {
+            "text": "26638004 25370001",
+            "snomed_code": "25370001",
+            "begin": 9,
+            "end": 16,
+            "icdo_code": "8170/3"
+        }
+    ]
+}

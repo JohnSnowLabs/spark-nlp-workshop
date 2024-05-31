@@ -1,0 +1,3 @@
+{"predictions": [{"snomed_code": "733187009", "begin": 0, "end": 8, "umls_code": "C4546029"}]}
+{"predictions": [{"snomed_code": "449433008", "begin": 0, "end": 8, "umls_code": "C3164619"}]}
+{"predictions": [{"snomed_code": "51264003", "begin": 0, "end": 7, "umls_code": "C0271267"}]}

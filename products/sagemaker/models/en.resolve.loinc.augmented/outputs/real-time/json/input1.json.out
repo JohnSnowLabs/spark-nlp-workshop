@@ -1,0 +1,37 @@
+{
+    "predictions": [
+        {
+            "document": "The patient is a 22-year-old female with a history of obesity. She has a Body mass index (BMI) of 33.5 kg/m2, aspartate aminotransferase 64, and alanine aminotransferase 126.",
+            "ner_chunk": "BMI",
+            "begin": 90,
+            "end": 92,
+            "ner_label": "Test",
+            "ner_confidence": "0.9971",
+            "loinc_code": "39156-5",
+            "loinc_resolution": "BMI [Body mass index]",
+            "loinc_confidence": "0.9456"
+        },
+        {
+            "document": "The patient is a 22-year-old female with a history of obesity. She has a Body mass index (BMI) of 33.5 kg/m2, aspartate aminotransferase 64, and alanine aminotransferase 126.",
+            "ner_chunk": "aspartate aminotransferase",
+            "begin": 110,
+            "end": 135,
+            "ner_label": "Test",
+            "ner_confidence": "0.9059",
+            "loinc_code": "14409-7",
+            "loinc_resolution": "Aspartate aminotransferase [Aspartate aminotransferase]",
+            "loinc_confidence": "0.9928"
+        },
+        {
+            "document": "The patient is a 22-year-old female with a history of obesity. She has a Body mass index (BMI) of 33.5 kg/m2, aspartate aminotransferase 64, and alanine aminotransferase 126.",
+            "ner_chunk": "alanine aminotransferase",
+            "begin": 145,
+            "end": 168,
+            "ner_label": "Test",
+            "ner_confidence": "0.9822",
+            "loinc_code": "16324-6",
+            "loinc_resolution": "Alanine aminotransferase [Alanine aminotransferase]",
+            "loinc_confidence": "0.9868"
+        }
+    ]
+}

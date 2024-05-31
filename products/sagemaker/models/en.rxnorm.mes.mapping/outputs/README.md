@@ -8,11 +8,15 @@
         {
             "text": "Input text",
             "rxnorm_code": "RxNorm Code",
+            "begin": Start Index,
+            "end": End Index,
             "mesh_code": "MeSH Code",
         },
         {
             "text": "Input text",
             "rxnorm_code": "RxNorm Code",
+            "begin": Start Index,
+            "end": End Index,
             "mesh_code": "MeSH Code",
         },
         ...
@@ -27,15 +31,20 @@
 
   - **text**: The input text provided for mapping.
 
-  - **rxnorm_code**: The corresponding RxNorm code for the input text.
+  - **rxnorm_code**: The corresponding RxNorm code in the input text.
 
-  - **mesh_code**: The corresponding MeSH code for the input text.
+  - **begin**: Start index of the RxNorm code within the input text.
+
+  - **end**: End index of the RxNorm code within the input text.
+
+  - **mesh_code**: The corresponding MeSH code for the RxNorm code.
 
 
 ### JSON Lines (JSONL) Format
 
 ```
-{"predictions": [{"rxnorm_code": "RxNorm Code", "mesh_code": "MeSH Code"}, {"rxnorm_code": "RxNorm Code", "mesh_code": "MeSH Code"}, ...]}
+{"predictions": [{"rxnorm_code": "RxNorm Code", "begin": Start Index, "end": End Index, "mesh_code": "MeSH Code"}, {"rxnorm_code": "RxNorm Code", "begin": Start Index, "end": End Index, "mesh_code": "MeSH Code"}, ...]}
+{"predictions": [{"rxnorm_code": "RxNorm Code", "begin": Start Index, "end": End Index, "mesh_code": "MeSH Code"}, {"rxnorm_code": "RxNorm Code", "begin": Start Index, "end": End Index, "mesh_code": "MeSH Code"}, ...]}
 ```
 
-The JSON Lines format consists of individual JSON objects, where each object represents predictions for a single input text. The structure of each object is similar to the JSON format explained above.
+The JSON Lines format consists of individual JSON objects, where each object represents predictions for a single input text.

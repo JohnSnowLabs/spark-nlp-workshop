@@ -3,16 +3,22 @@
         {
             "text": "92880 5487 47613",
             "rxnorm_code": "92880",
+            "begin": 0,
+            "end": 4,
             "mesh_code": "D000068880"
         },
         {
             "text": "92880 5487 47613",
             "rxnorm_code": "5487",
+            "begin": 6,
+            "end": 9,
             "mesh_code": "D006852"
         },
         {
             "text": "92880 5487 47613",
             "rxnorm_code": "47613",
+            "begin": 11,
+            "end": 15,
             "mesh_code": "D019355"
         }
     ]

@@ -1,0 +1,64 @@
+{
+    "predictions": [
+        {
+            "document": "She is followed by Dr. X in our office and has a history of severe tricuspid regurgitation. On 05/12/08, preserved left and right ventricular systolic function, aortic sclerosis with apparent mild aortic stenosis. She has previously had a Persantine Myoview nuclear rest-stress test scan completed at ABCD Medical Center in 07/06 that was negative. She has had significant mitral valve regurgitation in the past being moderate, but on the most recent echocardiogram on 05/12/08, that was not felt to be significant. She does have a history of significant hypertension in the past. She has had dizzy spells and denies clearly any true syncope. She has had bradycardia in the past from beta-blocker therapy.",
+            "ner_chunk": "tricuspid regurgitation",
+            "begin": 67,
+            "end": 89,
+            "ner_label": "HP",
+            "ner_confidence": "0.9826",
+            "hpo_code": "HP:0005180",
+            "hpo_resolution": "tricuspid regurgitation",
+            "hpo_confidence": "0.9899",
+            "aux_labels": "MSH:D014262||SNOMED:111287006||UMLS:C0040961||ORPHA:228410"
+        },
+        {
+            "document": "She is followed by Dr. X in our office and has a history of severe tricuspid regurgitation. On 05/12/08, preserved left and right ventricular systolic function, aortic sclerosis with apparent mild aortic stenosis. She has previously had a Persantine Myoview nuclear rest-stress test scan completed at ABCD Medical Center in 07/06 that was negative. She has had significant mitral valve regurgitation in the past being moderate, but on the most recent echocardiogram on 05/12/08, that was not felt to be significant. She does have a history of significant hypertension in the past. She has had dizzy spells and denies clearly any true syncope. She has had bradycardia in the past from beta-blocker therapy.",
+            "ner_chunk": "aortic stenosis",
+            "begin": 197,
+            "end": 211,
+            "ner_label": "HP",
+            "ner_confidence": "0.8053",
+            "hpo_code": "HP:0001650",
+            "hpo_resolution": "aortic stenosis",
+            "hpo_confidence": "0.9740",
+            "aux_labels": "MSH:D001024||SNOMED:60573004||UMLS:C0003507||ORPHA:536471"
+        },
+        {
+            "document": "She is followed by Dr. X in our office and has a history of severe tricuspid regurgitation. On 05/12/08, preserved left and right ventricular systolic function, aortic sclerosis with apparent mild aortic stenosis. She has previously had a Persantine Myoview nuclear rest-stress test scan completed at ABCD Medical Center in 07/06 that was negative. She has had significant mitral valve regurgitation in the past being moderate, but on the most recent echocardiogram on 05/12/08, that was not felt to be significant. She does have a history of significant hypertension in the past. She has had dizzy spells and denies clearly any true syncope. She has had bradycardia in the past from beta-blocker therapy.",
+            "ner_chunk": "mitral valve regurgitation",
+            "begin": 373,
+            "end": 398,
+            "ner_label": "HP",
+            "ner_confidence": "0.91050005",
+            "hpo_code": "HP:0001653",
+            "hpo_resolution": "mitral valve regurgitation",
+            "hpo_confidence": "0.9867",
+            "aux_labels": "MSH:D008944||SNOMED:48724000||UMLS:C0026266,C3551535||ORPHA:363700"
+        },
+        {
+            "document": "She is followed by Dr. X in our office and has a history of severe tricuspid regurgitation. On 05/12/08, preserved left and right ventricular systolic function, aortic sclerosis with apparent mild aortic stenosis. She has previously had a Persantine Myoview nuclear rest-stress test scan completed at ABCD Medical Center in 07/06 that was negative. She has had significant mitral valve regurgitation in the past being moderate, but on the most recent echocardiogram on 05/12/08, that was not felt to be significant. She does have a history of significant hypertension in the past. She has had dizzy spells and denies clearly any true syncope. She has had bradycardia in the past from beta-blocker therapy.",
+            "ner_chunk": "hypertension",
+            "begin": 555,
+            "end": 566,
+            "ner_label": "HP",
+            "ner_confidence": "0.9848",
+            "hpo_code": "HP:0000822",
+            "hpo_resolution": "hypertension",
+            "hpo_confidence": "0.9974",
+            "aux_labels": "MSH:D006973||SNOMED:24184005,38341003||UMLS:C0020538,C0497247||ORPHA:231160"
+        },
+        {
+            "document": "She is followed by Dr. X in our office and has a history of severe tricuspid regurgitation. On 05/12/08, preserved left and right ventricular systolic function, aortic sclerosis with apparent mild aortic stenosis. She has previously had a Persantine Myoview nuclear rest-stress test scan completed at ABCD Medical Center in 07/06 that was negative. She has had significant mitral valve regurgitation in the past being moderate, but on the most recent echocardiogram on 05/12/08, that was not felt to be significant. She does have a history of significant hypertension in the past. She has had dizzy spells and denies clearly any true syncope. She has had bradycardia in the past from beta-blocker therapy.",
+            "ner_chunk": "bradycardia",
+            "begin": 655,
+            "end": 665,
+            "ner_label": "HP",
+            "ner_confidence": "0.9965",
+            "hpo_code": "HP:0001662",
+            "hpo_resolution": "bradycardia",
+            "hpo_confidence": "0.9724",
+            "aux_labels": "MSH:D001919||SNOMED:48867003||UMLS:C0428977||ORPHA:330001"
+        }
+    ]
+}

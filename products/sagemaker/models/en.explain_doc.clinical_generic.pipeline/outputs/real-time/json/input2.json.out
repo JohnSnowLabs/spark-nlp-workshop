@@ -1,0 +1,278 @@
+{
+    "ner_predictions": [
+        {
+            "document": "The patient is a 30-year-old female with a long history of insulin dependent diabetes, type 2. She received a course of Bactrim for 14 days for UTI.  She was prescribed 5000 units of Fragmin  subcutaneously daily, and along with Lantus 40 units subcutaneously at bedtime.",
+            "ner_chunk": "insulin",
+            "begin": 59,
+            "end": 65,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.5547"
+        },
+        {
+            "document": "The patient is a 30-year-old female with a long history of insulin dependent diabetes, type 2. She received a course of Bactrim for 14 days for UTI.  She was prescribed 5000 units of Fragmin  subcutaneously daily, and along with Lantus 40 units subcutaneously at bedtime.",
+            "ner_chunk": "diabetes",
+            "begin": 77,
+            "end": 84,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.6342"
+        },
+        {
+            "document": "The patient is a 30-year-old female with a long history of insulin dependent diabetes, type 2. She received a course of Bactrim for 14 days for UTI.  She was prescribed 5000 units of Fragmin  subcutaneously daily, and along with Lantus 40 units subcutaneously at bedtime.",
+            "ner_chunk": "type 2",
+            "begin": 87,
+            "end": 92,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.96895003"
+        },
+        {
+            "document": "The patient is a 30-year-old female with a long history of insulin dependent diabetes, type 2. She received a course of Bactrim for 14 days for UTI.  She was prescribed 5000 units of Fragmin  subcutaneously daily, and along with Lantus 40 units subcutaneously at bedtime.",
+            "ner_chunk": "Bactrim",
+            "begin": 120,
+            "end": 126,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.9916"
+        },
+        {
+            "document": "The patient is a 30-year-old female with a long history of insulin dependent diabetes, type 2. She received a course of Bactrim for 14 days for UTI.  She was prescribed 5000 units of Fragmin  subcutaneously daily, and along with Lantus 40 units subcutaneously at bedtime.",
+            "ner_chunk": "UTI",
+            "begin": 144,
+            "end": 146,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9903"
+        },
+        {
+            "document": "The patient is a 30-year-old female with a long history of insulin dependent diabetes, type 2. She received a course of Bactrim for 14 days for UTI.  She was prescribed 5000 units of Fragmin  subcutaneously daily, and along with Lantus 40 units subcutaneously at bedtime.",
+            "ner_chunk": "5000 units of Fragmin  subcutaneously",
+            "begin": 169,
+            "end": 205,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.59686005"
+        },
+        {
+            "document": "The patient is a 30-year-old female with a long history of insulin dependent diabetes, type 2. She received a course of Bactrim for 14 days for UTI.  She was prescribed 5000 units of Fragmin  subcutaneously daily, and along with Lantus 40 units subcutaneously at bedtime.",
+            "ner_chunk": "Lantus",
+            "begin": 229,
+            "end": 234,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.9955"
+        },
+        {
+            "document": "The patient was prescribed 1 capsule of Advil 10 mg for 5 days and magnesium hydroxide 100mg/1ml suspension PO. He was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night, 12 units of insulin lispro with meals, and metformin 1000 mg two times a day.",
+            "ner_chunk": "1 capsule of Advil 10 mg",
+            "begin": 27,
+            "end": 50,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.63818336"
+        },
+        {
+            "document": "The patient was prescribed 1 capsule of Advil 10 mg for 5 days and magnesium hydroxide 100mg/1ml suspension PO. He was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night, 12 units of insulin lispro with meals, and metformin 1000 mg two times a day.",
+            "ner_chunk": "magnesium hydroxide",
+            "begin": 67,
+            "end": 85,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.84870005"
+        },
+        {
+            "document": "The patient was prescribed 1 capsule of Advil 10 mg for 5 days and magnesium hydroxide 100mg/1ml suspension PO. He was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night, 12 units of insulin lispro with meals, and metformin 1000 mg two times a day.",
+            "ner_chunk": "40 units of insulin glargine",
+            "begin": 179,
+            "end": 206,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.61964"
+        },
+        {
+            "document": "The patient was prescribed 1 capsule of Advil 10 mg for 5 days and magnesium hydroxide 100mg/1ml suspension PO. He was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night, 12 units of insulin lispro with meals, and metformin 1000 mg two times a day.",
+            "ner_chunk": "12 units of insulin lispro",
+            "begin": 218,
+            "end": 243,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.66034"
+        },
+        {
+            "document": "The patient was prescribed 1 capsule of Advil 10 mg for 5 days and magnesium hydroxide 100mg/1ml suspension PO. He was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night, 12 units of insulin lispro with meals, and metformin 1000 mg two times a day.",
+            "ner_chunk": "metformin",
+            "begin": 261,
+            "end": 269,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.9958"
+        }
+    ],
+    "assertion_predictions": [
+        {
+            "document": "The patient is a 30-year-old female with a long history of insulin dependent diabetes, type 2. She received a course of Bactrim for 14 days for UTI.  She was prescribed 5000 units of Fragmin  subcutaneously daily, and along with Lantus 40 units subcutaneously at bedtime.",
+            "ner_chunk": "insulin",
+            "begin": 59,
+            "end": 65,
+            "ner_label": "TREATMENT",
+            "assertion": "Family"
+        },
+        {
+            "document": "The patient is a 30-year-old female with a long history of insulin dependent diabetes, type 2. She received a course of Bactrim for 14 days for UTI.  She was prescribed 5000 units of Fragmin  subcutaneously daily, and along with Lantus 40 units subcutaneously at bedtime.",
+            "ner_chunk": "diabetes",
+            "begin": 77,
+            "end": 84,
+            "ner_label": "PROBLEM",
+            "assertion": "Present"
+        },
+        {
+            "document": "The patient is a 30-year-old female with a long history of insulin dependent diabetes, type 2. She received a course of Bactrim for 14 days for UTI.  She was prescribed 5000 units of Fragmin  subcutaneously daily, and along with Lantus 40 units subcutaneously at bedtime.",
+            "ner_chunk": "type 2",
+            "begin": 87,
+            "end": 92,
+            "ner_label": "PROBLEM",
+            "assertion": "Present"
+        },
+        {
+            "document": "The patient is a 30-year-old female with a long history of insulin dependent diabetes, type 2. She received a course of Bactrim for 14 days for UTI.  She was prescribed 5000 units of Fragmin  subcutaneously daily, and along with Lantus 40 units subcutaneously at bedtime.",
+            "ner_chunk": "Bactrim",
+            "begin": 120,
+            "end": 126,
+            "ner_label": "TREATMENT",
+            "assertion": "Past"
+        },
+        {
+            "document": "The patient is a 30-year-old female with a long history of insulin dependent diabetes, type 2. She received a course of Bactrim for 14 days for UTI.  She was prescribed 5000 units of Fragmin  subcutaneously daily, and along with Lantus 40 units subcutaneously at bedtime.",
+            "ner_chunk": "UTI",
+            "begin": 144,
+            "end": 146,
+            "ner_label": "PROBLEM",
+            "assertion": "Past"
+        },
+        {
+            "document": "The patient is a 30-year-old female with a long history of insulin dependent diabetes, type 2. She received a course of Bactrim for 14 days for UTI.  She was prescribed 5000 units of Fragmin  subcutaneously daily, and along with Lantus 40 units subcutaneously at bedtime.",
+            "ner_chunk": "5000 units of Fragmin  subcutaneously",
+            "begin": 169,
+            "end": 205,
+            "ner_label": "TREATMENT",
+            "assertion": "Past"
+        },
+        {
+            "document": "The patient is a 30-year-old female with a long history of insulin dependent diabetes, type 2. She received a course of Bactrim for 14 days for UTI.  She was prescribed 5000 units of Fragmin  subcutaneously daily, and along with Lantus 40 units subcutaneously at bedtime.",
+            "ner_chunk": "Lantus",
+            "begin": 229,
+            "end": 234,
+            "ner_label": "TREATMENT",
+            "assertion": "Past"
+        },
+        {
+            "document": "The patient was prescribed 1 capsule of Advil 10 mg for 5 days and magnesium hydroxide 100mg/1ml suspension PO. He was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night, 12 units of insulin lispro with meals, and metformin 1000 mg two times a day.",
+            "ner_chunk": "1 capsule of Advil 10 mg",
+            "begin": 27,
+            "end": 50,
+            "ner_label": "TREATMENT",
+            "assertion": "Planned"
+        },
+        {
+            "document": "The patient was prescribed 1 capsule of Advil 10 mg for 5 days and magnesium hydroxide 100mg/1ml suspension PO. He was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night, 12 units of insulin lispro with meals, and metformin 1000 mg two times a day.",
+            "ner_chunk": "magnesium hydroxide",
+            "begin": 67,
+            "end": 85,
+            "ner_label": "TREATMENT",
+            "assertion": "Planned"
+        },
+        {
+            "document": "The patient was prescribed 1 capsule of Advil 10 mg for 5 days and magnesium hydroxide 100mg/1ml suspension PO. He was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night, 12 units of insulin lispro with meals, and metformin 1000 mg two times a day.",
+            "ner_chunk": "40 units of insulin glargine",
+            "begin": 179,
+            "end": 206,
+            "ner_label": "TREATMENT",
+            "assertion": "Past"
+        },
+        {
+            "document": "The patient was prescribed 1 capsule of Advil 10 mg for 5 days and magnesium hydroxide 100mg/1ml suspension PO. He was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night, 12 units of insulin lispro with meals, and metformin 1000 mg two times a day.",
+            "ner_chunk": "12 units of insulin lispro",
+            "begin": 218,
+            "end": 243,
+            "ner_label": "TREATMENT",
+            "assertion": "Past"
+        },
+        {
+            "document": "The patient was prescribed 1 capsule of Advil 10 mg for 5 days and magnesium hydroxide 100mg/1ml suspension PO. He was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night, 12 units of insulin lispro with meals, and metformin 1000 mg two times a day.",
+            "ner_chunk": "metformin",
+            "begin": 261,
+            "end": 269,
+            "ner_label": "TREATMENT",
+            "assertion": "Planned"
+        }
+    ],
+    "relation_predictions": [
+        {
+            "document": "The patient is a 30-year-old female with a long history of insulin dependent diabetes, type 2. She received a course of Bactrim for 14 days for UTI.  She was prescribed 5000 units of Fragmin  subcutaneously daily, and along with Lantus 40 units subcutaneously at bedtime.",
+            "ner_chunk1": "insulin",
+            "ner_chunk1_begin": "59",
+            "ner_chunk1_end": "65",
+            "ner_label1": "TREATMENT",
+            "ner_chunk2": "diabetes",
+            "ner_chunk2_begin": "77",
+            "ner_chunk2_end": "84",
+            "ner_label2": "PROBLEM",
+            "relation": "TrAP",
+            "relation_confidence": "0.9747736"
+        },
+        {
+            "document": "The patient is a 30-year-old female with a long history of insulin dependent diabetes, type 2. She received a course of Bactrim for 14 days for UTI.  She was prescribed 5000 units of Fragmin  subcutaneously daily, and along with Lantus 40 units subcutaneously at bedtime.",
+            "ner_chunk1": "insulin",
+            "ner_chunk1_begin": "59",
+            "ner_chunk1_end": "65",
+            "ner_label1": "TREATMENT",
+            "ner_chunk2": "type 2",
+            "ner_chunk2_begin": "87",
+            "ner_chunk2_end": "92",
+            "ner_label2": "PROBLEM",
+            "relation": "TrAP",
+            "relation_confidence": "1.0"
+        },
+        {
+            "document": "The patient is a 30-year-old female with a long history of insulin dependent diabetes, type 2. She received a course of Bactrim for 14 days for UTI.  She was prescribed 5000 units of Fragmin  subcutaneously daily, and along with Lantus 40 units subcutaneously at bedtime.",
+            "ner_chunk1": "diabetes",
+            "ner_chunk1_begin": "77",
+            "ner_chunk1_end": "84",
+            "ner_label1": "PROBLEM",
+            "ner_chunk2": "type 2",
+            "ner_chunk2_begin": "87",
+            "ner_chunk2_end": "92",
+            "ner_label2": "PROBLEM",
+            "relation": "PIP",
+            "relation_confidence": "0.5765517"
+        },
+        {
+            "document": "The patient is a 30-year-old female with a long history of insulin dependent diabetes, type 2. She received a course of Bactrim for 14 days for UTI.  She was prescribed 5000 units of Fragmin  subcutaneously daily, and along with Lantus 40 units subcutaneously at bedtime.",
+            "ner_chunk1": "Bactrim",
+            "ner_chunk1_begin": "120",
+            "ner_chunk1_end": "126",
+            "ner_label1": "TREATMENT",
+            "ner_chunk2": "UTI",
+            "ner_chunk2_begin": "144",
+            "ner_chunk2_end": "146",
+            "ner_label2": "PROBLEM",
+            "relation": "TrAP",
+            "relation_confidence": "0.99997115"
+        },
+        {
+            "document": "The patient was prescribed 1 capsule of Advil 10 mg for 5 days and magnesium hydroxide 100mg/1ml suspension PO. He was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night, 12 units of insulin lispro with meals, and metformin 1000 mg two times a day.",
+            "ner_chunk1": "1 capsule of Advil 10 mg",
+            "ner_chunk1_begin": "27",
+            "ner_chunk1_end": "50",
+            "ner_label1": "TREATMENT",
+            "ner_chunk2": "magnesium hydroxide",
+            "ner_chunk2_begin": "67",
+            "ner_chunk2_end": "85",
+            "ner_label2": "TREATMENT",
+            "relation": "O",
+            "relation_confidence": "0.9999919"
+        },
+        {
+            "document": "The patient was prescribed 1 capsule of Advil 10 mg for 5 days and magnesium hydroxide 100mg/1ml suspension PO. He was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night, 12 units of insulin lispro with meals, and metformin 1000 mg two times a day.",
+            "ner_chunk1": "40 units of insulin glargine",
+            "ner_chunk1_begin": "179",
+            "ner_chunk1_end": "206",
+            "ner_label1": "TREATMENT",
+            "ner_chunk2": "12 units of insulin lispro",
+            "ner_chunk2_begin": "218",
+            "ner_chunk2_end": "243",
+            "ner_label2": "TREATMENT",
+            "relation": "O",
+            "relation_confidence": "0.8752808"
+        }
+    ]
+}

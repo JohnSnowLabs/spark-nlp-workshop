@@ -3,16 +3,22 @@
         {
             "text": "1191",
             "rxnorm_code": "1191",
+            "begin": 0,
+            "end": 3,
             "mesh_code": "D001241"
         },
         {
             "text": "6809",
             "rxnorm_code": "6809",
+            "begin": 0,
+            "end": 3,
             "mesh_code": "D008687"
         },
         {
             "text": "47613",
             "rxnorm_code": "47613",
+            "begin": 0,
+            "end": 4,
             "mesh_code": "D019355"
         }
     ]
