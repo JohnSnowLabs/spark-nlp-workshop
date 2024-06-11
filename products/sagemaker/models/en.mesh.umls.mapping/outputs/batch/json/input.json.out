@@ -1,0 +1,25 @@
+{
+    "predictions": [
+        {
+            "text": "C028491",
+            "mesh_code": "C028491",
+            "begin": 0,
+            "end": 6,
+            "umls_code": "C0043904"
+        },
+        {
+            "text": "D019326",
+            "mesh_code": "D019326",
+            "begin": 0,
+            "end": 6,
+            "umls_code": "C0045010"
+        },
+        {
+            "text": "C579867",
+            "mesh_code": "C579867",
+            "begin": 0,
+            "end": 6,
+            "umls_code": "C3696376"
+        }
+    ]
+}

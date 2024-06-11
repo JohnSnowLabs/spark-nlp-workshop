@@ -1,0 +1,18 @@
+{
+    "predictions": [
+        {
+            "text": "1161611",
+            "rxnorm_code": "1161611",
+            "begin": 0,
+            "end": 6,
+            "umls_code": "C3215948"
+        },
+        {
+            "text": "315677",
+            "rxnorm_code": "315677",
+            "begin": 0,
+            "end": 5,
+            "umls_code": "C0984912"
+        }
+    ]
+}

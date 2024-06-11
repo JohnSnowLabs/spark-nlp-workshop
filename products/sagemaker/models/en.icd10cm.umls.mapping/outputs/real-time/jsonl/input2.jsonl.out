@@ -1,0 +1,3 @@
+{"predictions": [{"icd10cm_code": "M8950", "begin": 0, "end": 4, "umls_code": "C4721411"}]}
+{"predictions": [{"icd10cm_code": "R822", "begin": 0, "end": 3, "umls_code": "C0159076"}]}
+{"predictions": [{"icd10cm_code": "R0901", "begin": 0, "end": 4, "umls_code": "C0004044"}]}

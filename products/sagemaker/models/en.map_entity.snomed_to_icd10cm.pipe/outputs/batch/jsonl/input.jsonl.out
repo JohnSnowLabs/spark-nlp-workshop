@@ -1,0 +1,3 @@
+{"predictions": [{"snomed_code": "128041000119107", "begin": 0, "end": 14, "icd10cm_code": "K22.70"}]}
+{"predictions": [{"snomed_code": "292278006", "begin": 0, "end": 8, "icd10cm_code": "T43.595"}]}
+{"predictions": [{"snomed_code": "293072005", "begin": 0, "end": 8, "icd10cm_code": "T37.1X5"}]}
