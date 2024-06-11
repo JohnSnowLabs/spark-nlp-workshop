@@ -1,24 +1,24 @@
 {
     "predictions": [
         {
-            "document": "The patient was given Adapin 10 MG, coumadn 5 mg",
+            "document": "The patient was given Adapin 10 MG, coumadin 5 mg",
             "ner_chunk": "Adapin 10 MG",
             "begin": 22,
             "end": 33,
             "ner_label": "DRUG",
-            "ner_confidence": "0.6573",
+            "ner_confidence": "0.6566",
             "rxnorm_code": "1000049",
-            "rxnorm_confidence": "0.6573"
+            "rxnorm_confidence": "0.6566"
         },
         {
-            "document": "The patient was given Adapin 10 MG, coumadn 5 mg",
-            "ner_chunk": "coumadn 5 mg",
+            "document": "The patient was given Adapin 10 MG, coumadin 5 mg",
+            "ner_chunk": "coumadin 5 mg",
             "begin": 36,
-            "end": 47,
+            "end": 48,
             "ner_label": "DRUG",
-            "ner_confidence": "0.6365",
-            "rxnorm_code": "200883",
-            "rxnorm_confidence": "0.0543"
+            "ner_confidence": "0.61093336",
+            "rxnorm_code": "855333",
+            "rxnorm_confidence": "0.61093336"
         },
         {
             "document": "She is given folic acid 1 mg daily , levothyroxine 0.1 mg and aspirin 81 mg daily.",

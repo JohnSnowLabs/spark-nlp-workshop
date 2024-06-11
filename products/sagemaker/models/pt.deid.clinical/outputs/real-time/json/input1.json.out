@@ -1,5 +1,5 @@
 {
     "predictions": [
-        "NHC: 256<SEX>deAntonio Gonçalvesres 232569870o Postal: 21Rua Das Flores 23<SEX>: <ID> NHC: <ID>. Endereço: <STREET> <DATE> Postal: <ZIP>. Dados de cuidado17/06/2016 nascimentoMaria <PATIENT>. Idade: <AGE> anos Data de admissão: <DATE>. \nDoutora: <DOCTOR>"
+        "Nome do <SEX>: <PATIENT> NHC: <ID>. Endereço: <STREET>.\nCódigo Postal: <ZIP>-... Nome do <SEX>: <PATIENT> NHC: <ID>. Endereço: <STREET>.\nCódigo Postal: <ZIP>. Dados de cuidados. Data de nascimento: <DATE>. Idade: <AGE> anos Data de admissão: <DATE>. \nDoutora: <DOCTOR>"
     ]
 }
