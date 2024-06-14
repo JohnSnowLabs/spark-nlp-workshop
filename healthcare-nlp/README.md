@@ -74,6 +74,8 @@ update date: 2023-04-13
 
 [05.7.MedDRA_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/05.7.MedDRA_Models.ipynb)
 
+[05.8.Resolving_Medical_Terms_to_Terminology_Codes_Directly.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/05.8.Resolving_Medical_Terms_to_Terminology_Codes_Directly.ipynb)
+
 
 ### ➤ Entity Code Mapping
 

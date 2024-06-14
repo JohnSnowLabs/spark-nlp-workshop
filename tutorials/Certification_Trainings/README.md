@@ -141,6 +141,10 @@ If you don't have time to cover all these, please check the following notebook f
 
 [3.2.Sentence_Entity_Resolvers_with_EntityChunkEmbeddings.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/3.2.Sentence_Entity_Resolvers_with_EntityChunkEmbeddings.ipynb)
 
+[3.3.MedDRA_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/3.3.MedDRA_Models.ipynb)
+
+[3.4.Resolving_Medical_Terms_to_Terminology_Codes_Directly.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/3.4.Resolving_Medical_Terms_to_Terminology_Codes_Directly.ipynb)
+
 [13.Snomed_Entity_Resolver_Model_Training.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/13.Snomed_Entity_Resolver_Model_Training.ipynb)
 
 [13.1.Finetuning_Sentence_Entity_Resolver_Model.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/13.1.Finetuning_Sentence_Entity_Resolver_Model.ipynb)
