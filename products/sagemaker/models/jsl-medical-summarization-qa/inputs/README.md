@@ -87,7 +87,6 @@ You can pick one of the following templates:
 {
     "summarization": "You are a helpful AI assistant.\nSummarize the following document:\n## Document Start ##\n{context}\n## Document End ##",
     "open_book_qa": "You are a helpful AI assistant.\nAnswer the following question based on the given context:\n## Context Start ##\n{context}\n## Context End ##\n## Question Start ##\n{question}\n## Question End ##",
-    "closed_book_qa": "You are a helpful AI assistant.\nAnswer the following question:\n## Question Start ##\n{question}\n## Question End ##",
 }
 ```
 You can select any of these templates according to your use case. We perform string formatting, then pass it to the chat template.
