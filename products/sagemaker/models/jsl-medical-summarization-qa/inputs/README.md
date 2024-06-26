@@ -106,17 +106,17 @@ For JSON Lines input format, **max_new_tokens**, **temperature**, and **template
 | Parameter                  | Value     | Description                                                                                                                                                                                                                                                                                                                               |
 |----------------------------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **`dtype`**                | `float16` | The data type for the model weights and activations.                                                                                                                                                                                                                                                                                      |
-| **`max_model_len`**        | `4,096`   | This indicates that your input and the model response combined should come under this limit (`input + output <= max_model_len`). |
+| **`max_model_len`**        | Variable  | This indicates that your input and the model response combined should come under this limit (`input + output <= max_model_len`). This is determined based on total available GPU memory: <ul><li>More than 16 GB GPU memory : 8,192 tokens</li><li>Less than 16 GB GPU memory: Default: 4,096 tokens.</li></ul> |
 | **`tensor_parallel_size`** | Variable  | The number of GPUs to use for distributed execution with tensor parallelism.                                                                                                                                                                                                                                                              |
 
 Other than the parameters mentioned above, we are utilizing the default parameters specified for the `LLM` class in the [VLLM documentation](https://docs.vllm.ai/en/latest/dev/offline_inference/llm.html).
 
-#### Supported Instances
+#### Instance-Specific `max_model_len` Values
 
-| Instance Type     | GPU Model  | Number of GPUs | Total GPU Memory (GB) |
-|-------------------|------------|----------------|-----------------------|
-| `ml.g4dn.xlarge`  | NVIDIA T4  | 1              | 16                    |
-| `ml.g5.2xlarge`   | NVIDIA A10G| 1              | 24                    |
+| Instance Type     | GPU Model  | Number of GPUs | Total GPU Memory (GB) | max_model_len   |
+|-------------------|------------|----------------|-----------------------|-----------------| 
+| `ml.g4dn.xlarge`  | NVIDIA T4  | 1              | 16                    | 4,096           |
+| `ml.g5.2xlarge`   | NVIDIA A10G| 1              | 24                    | 8,192           |
 
 
 Total Memory values are approximate. Usable memory may be slightly less. For pricing details, visit the [Amazon SageMaker pricing page](https://aws.amazon.com/sagemaker/pricing/).
