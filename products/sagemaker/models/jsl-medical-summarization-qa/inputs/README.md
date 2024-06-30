@@ -65,20 +65,25 @@ Provide input in JSON Lines format, where each line is a JSON object.
   - **Constraints**: Provide a string for a single text or a list of strings for multiple inputs. Additionally, you can also provide a dictionary or a list containing multiple dictionaries with keys `context` and `question`. If you select the `open_book_qa` template, the model will format the input accordingly. If no template is selected, the `context` and `question` strings will be concatenated with a newline.
 
 **Optional Parameters for JSON Input Format:**
-- **`max_new_tokens`**: The maximum number of tokens the model should generate as output. (Can be passed as an environment variable while deploying the model from the model package.)
+- **`max_new_tokens`**: The maximum number of tokens the model should generate as output. (*Can be passed as an environment variable while deploying the model from the model package.*)
   - **Type**: `int`
   - **Default**: `128`
   - **Constraints**: Must be a positive integer greater than 0.
 
-- **`temperature`**: The temperature parameter controlling the randomness of token generation. (Can be passed as an environment variable while creating a deployable model from the model package.)
+- **`temperature`**: The temperature parameter controlling the randomness of token generation. (*Can be passed as an environment variable while creating a deployable model from the model package.*)
   - **Type**: `float`
   - **Default**: `0.1`
   - **Constraints**: Must be a float between 0.0 and 1.0.
 
+- **`repetition_penalty`**: The repetition penalty parameter that penalizes new tokens based on whether they appear in the prompt and the generated text so far. Values > 1 encourage the model to use new tokens, while values < 1 encourage the model to repeat tokens. (*Can be passed as an environment variable while creating a deployable model from the model package.*)
+  - **Type**: `float`
+  - **Default**: `1.0`
+  - **Constraints**: Must be a float greater than 0 and less than or equal to 2.
+  
 - **`template`**: You can select the predefined template.
   - **Type**: `str`
   - **Default**: `None`
-
+  
 Chat template:
 `'<s><|user|>\n{input_text}<|end|>\n<|assistant|>\n'`
 
@@ -97,7 +102,7 @@ If no template is provided, we take your `input_text` as it is and do not perfor
 > **Parameter Priority**: User-provided parameters are given priority, followed by environment variables, and finally default values.
 
 ### Note:
-For JSON Lines input format, **max_new_tokens**, **temperature**, and **template** are not supported in the input request. You either need to specify these parameters as environment variables when creating the model from the model package, or the default parameters will be used.
+For JSON Lines input format, **max_new_tokens**, **temperature**, **repetition_penalty**, and **template** are not supported in the input request. You either need to specify these parameters as environment variables when creating the model from the model package, or the default parameters will be used.
 
 ---
 
