@@ -65,28 +65,33 @@ Provide input in JSON Lines format, where each line is a JSON object.
   - **Constraints**: Provide a string for a single text or a list of strings for multiple inputs. Additionally, you can also provide a dictionary or a list containing multiple dictionaries with keys `context` and `question`. If you select the `open_book_qa` template, the model will format the input accordingly. If no template is selected, the `context` and `question` strings will be concatenated with a newline.
 
 **Optional Parameters for JSON Input Format:**
-- **`max_new_tokens`**: The maximum number of tokens the model should generate as output. (Can be passed as an environment variable while deploying the model from the model package.)
+- **`max_new_tokens`**: The maximum number of tokens the model should generate as output. (*Can be passed as an environment variable while deploying the model from the model package.*)
   - **Type**: `int`
   - **Default**: `128`
   - **Constraints**: Must be a positive integer greater than 0.
 
-- **`temperature`**: The temperature parameter controlling the randomness of token generation. (Can be passed as an environment variable while creating a deployable model from the model package.)
+- **`temperature`**: The temperature parameter controlling the randomness of token generation. (*Can be passed as an environment variable while creating a deployable model from the model package.*)
   - **Type**: `float`
   - **Default**: `0.1`
   - **Constraints**: Must be a float between 0.0 and 1.0.
 
+- **`repetition_penalty`**: The repetition penalty parameter that penalizes new tokens based on whether they appear in the prompt and the generated text so far. Values > 1 encourage the model to use new tokens, while values < 1 encourage the model to repeat tokens. (*Can be passed as an environment variable while creating a deployable model from the model package.*)
+  - **Type**: `float`
+  - **Default**: `1.0`
+  - **Constraints**: Must be a float greater than 0 and less than or equal to 2.
+  
 - **`template`**: You can select the predefined template.
   - **Type**: `str`
   - **Default**: `None`
-
+  
 Chat template:
 `'<s><|user|>\n{input_text}<|end|>\n<|assistant|>\n'`
 
 You can pick one of the following templates:
 ```json
 {
-    "summarization": "You are a helpful AI assistant.\nSummarize the following document:\n## Document Start ##\n{context}\n## Document End ##",
-    "open_book_qa": "You are a helpful AI assistant.\nAnswer the following question based on the given context:\n## Context Start ##\n{context}\n## Context End ##\n## Question Start ##\n{question}\n## Question End ##",
+    "summarization": "Summarize the following document:\n## Document Start ##\n{context}\n## Document End ##",
+    "open_book_qa": "Answer the following question based on the given context:\n## Context Start ##\n{context}\n## Context End ##\n## Question Start ##\n{question}\n## Question End ##",
 }
 ```
 You can select any of these templates according to your use case. We perform string formatting, then pass it to the chat template.
@@ -97,7 +102,7 @@ If no template is provided, we take your `input_text` as it is and do not perfor
 > **Parameter Priority**: User-provided parameters are given priority, followed by environment variables, and finally default values.
 
 ### Note:
-For JSON Lines input format, **max_new_tokens**, **temperature**, and **template** are not supported in the input request. You either need to specify these parameters as environment variables when creating the model from the model package, or the default parameters will be used.
+For JSON Lines input format, **max_new_tokens**, **temperature**, **repetition_penalty**, and **template** are not supported in the input request. You either need to specify these parameters as environment variables when creating the model from the model package, or the default parameters will be used.
 
 ---
 
@@ -106,17 +111,17 @@ For JSON Lines input format, **max_new_tokens**, **temperature**, and **template
 | Parameter                  | Value     | Description                                                                                                                                                                                                                                                                                                                               |
 |----------------------------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **`dtype`**                | `float16` | The data type for the model weights and activations.                                                                                                                                                                                                                                                                                      |
-| **`max_model_len`**        | `4,096`   | This indicates that your input and the model response combined should come under this limit (`input + output <= max_model_len`). |
+| **`max_model_len`**        | Variable  | This indicates that your input and the model response combined should come under this limit (`input + output <= max_model_len`). This is determined based on total available GPU memory: <ul><li>More than 16 GB GPU memory : 8,192 tokens</li><li>Less than 16 GB GPU memory: Default: 4,096 tokens.</li></ul> |
 | **`tensor_parallel_size`** | Variable  | The number of GPUs to use for distributed execution with tensor parallelism.                                                                                                                                                                                                                                                              |
 
 Other than the parameters mentioned above, we are utilizing the default parameters specified for the `LLM` class in the [VLLM documentation](https://docs.vllm.ai/en/latest/dev/offline_inference/llm.html).
 
-#### Supported Instances
+#### Instance-Specific `max_model_len` Values
 
-| Instance Type     | GPU Model  | Number of GPUs | Total GPU Memory (GB) |
-|-------------------|------------|----------------|-----------------------|
-| `ml.g4dn.xlarge`  | NVIDIA T4  | 1              | 16                    |
-| `ml.g5.2xlarge`   | NVIDIA A10G| 1              | 24                    |
+| Instance Type     | GPU Model  | Number of GPUs | Total GPU Memory (GB) | max_model_len   |
+|-------------------|------------|----------------|-----------------------|-----------------| 
+| `ml.g4dn.xlarge`  | NVIDIA T4  | 1              | 16                    | 4,096           |
+| `ml.g5.2xlarge`   | NVIDIA A10G| 1              | 24                    | 8,192           |
 
 
 Total Memory values are approximate. Usable memory may be slightly less. For pricing details, visit the [Amazon SageMaker pricing page](https://aws.amazon.com/sagemaker/pricing/).
