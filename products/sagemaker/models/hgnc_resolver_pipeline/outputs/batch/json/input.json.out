@@ -1,0 +1,37 @@
+{
+    "predictions": [
+        {
+            "document": "Recent studies have suggested a potential link between the double homeobox 4 like 20 (pseudogene), also known as DUX4L20, and FBXO48 and RNA guanine-7 methyltransferase ",
+            "ner_chunk": "DUX4L20",
+            "begin": 113,
+            "end": 119,
+            "ner_label": "GENE",
+            "ner_confidence": "0.9654",
+            "hgnc_code": "HGNC:50801",
+            "hgnc_resolution": "DUX4L20 [double homeobox 4 like 20 (pseudogene)]",
+            "hgnc_confidence": "0.9803"
+        },
+        {
+            "document": "Recent studies have suggested a potential link between the double homeobox 4 like 20 (pseudogene), also known as DUX4L20, and FBXO48 and RNA guanine-7 methyltransferase ",
+            "ner_chunk": "FBXO48",
+            "begin": 126,
+            "end": 131,
+            "ner_label": "GENE",
+            "ner_confidence": "0.9833",
+            "hgnc_code": "HGNC:33857",
+            "hgnc_resolution": "FBXO48 [F-box protein 48]",
+            "hgnc_confidence": "0.9502"
+        },
+        {
+            "document": "The EGFR gene encodes a protein that is involved in cell proliferation and survival. Mutations in this gene have been implicated in the development of several types of cancer.",
+            "ner_chunk": "EGFR",
+            "begin": 4,
+            "end": 7,
+            "ner_label": "GENE",
+            "ner_confidence": "0.9994",
+            "hgnc_code": "HGNC:3236",
+            "hgnc_resolution": "EGFR [epidermal growth factor receptor]",
+            "hgnc_confidence": "0.9225"
+        }
+    ]
+}

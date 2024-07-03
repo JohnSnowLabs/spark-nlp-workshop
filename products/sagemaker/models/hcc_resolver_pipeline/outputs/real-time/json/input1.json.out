@@ -1,0 +1,26 @@
+{
+    "predictions": [
+        {
+            "document": "The patient's medical record indicates a diagnosis of Diabetes and Chronic Obstructive Pulmonary Disease, requiring comprehensive care and management.",
+            "ner_chunk": "Diabetes",
+            "begin": 54,
+            "end": 61,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9907",
+            "hcc_code": "19",
+            "hcc_resolution": "diabetes monitored [type 2 diabetes mellitus without complications]",
+            "hcc_confidence": "0.5660"
+        },
+        {
+            "document": "The patient's medical record indicates a diagnosis of Diabetes and Chronic Obstructive Pulmonary Disease, requiring comprehensive care and management.",
+            "ner_chunk": "Chronic Obstructive Pulmonary Disease",
+            "begin": 67,
+            "end": 103,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.95212495",
+            "hcc_code": "111",
+            "hcc_resolution": "chronic obstructive pulmonary disease [chronic obstructive pulmonary disease, unspecified]",
+            "hcc_confidence": "0.9924"
+        }
+    ]
+}

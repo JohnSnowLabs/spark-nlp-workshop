@@ -1,0 +1,48 @@
+{
+    "predictions": [
+        {
+            "document": "Given the severity of her abdominal examination and her persistence of her symptoms,it is detected that need for laparoscopic appendectomy and possible jejunectomy as well as pyeloplasty. We recommend performing a mediastinoscopy",
+            "ner_chunk": "laparoscopic appendectomy",
+            "begin": 113,
+            "end": 137,
+            "ner_label": "Procedure",
+            "ner_confidence": "0.8082",
+            "icd10pcs_code": "0DTJ8ZZ",
+            "icd10pcs_resolution": "resection of appendix, endo [resection of appendix, endo]",
+            "icd10pcs_confidence": "0.0955"
+        },
+        {
+            "document": "Given the severity of her abdominal examination and her persistence of her symptoms,it is detected that need for laparoscopic appendectomy and possible jejunectomy as well as pyeloplasty. We recommend performing a mediastinoscopy",
+            "ner_chunk": "jejunectomy",
+            "begin": 152,
+            "end": 162,
+            "ner_label": "Procedure",
+            "ner_confidence": "0.9983",
+            "icd10pcs_code": "0DBA8ZZ",
+            "icd10pcs_resolution": "excision of jejunum, endo [excision of jejunum, endo]",
+            "icd10pcs_confidence": "0.1608"
+        },
+        {
+            "document": "Given the severity of her abdominal examination and her persistence of her symptoms,it is detected that need for laparoscopic appendectomy and possible jejunectomy as well as pyeloplasty. We recommend performing a mediastinoscopy",
+            "ner_chunk": "pyeloplasty",
+            "begin": 175,
+            "end": 185,
+            "ner_label": "Procedure",
+            "ner_confidence": "0.9992",
+            "icd10pcs_code": "0TS84ZZ",
+            "icd10pcs_resolution": "reposition bilateral ureters, perc endo approach [reposition bilateral ureters, perc endo approach]",
+            "icd10pcs_confidence": "0.0609"
+        },
+        {
+            "document": "Given the severity of her abdominal examination and her persistence of her symptoms,it is detected that need for laparoscopic appendectomy and possible jejunectomy as well as pyeloplasty. We recommend performing a mediastinoscopy",
+            "ner_chunk": "mediastinoscopy",
+            "begin": 214,
+            "end": 228,
+            "ner_label": "Procedure",
+            "ner_confidence": "0.9703",
+            "icd10pcs_code": "BB1CZZZ",
+            "icd10pcs_resolution": "fluoroscopy of mediastinum [fluoroscopy of mediastinum]",
+            "icd10pcs_confidence": "0.4845"
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "predictions": [
+        {
+            "document": "A 65-year-old woman presents to the office with generalized fatigue for the last 4 months.\n  She used to walk 1 mile each evening but now gets tired after 1-2 blocks. She has a history of Crohn disease and hypertension\n  for which she receives appropriate medications. She is married and lives with her husband. She eats a balanced diet that\n  includes chicken, fish, pork, fruits, and vegetables. She rarely drinks alcohol and denies tobacco use. Vital signs are\n  within normal limits. A physical examination is unremarkable. Laboratory studies show the following: Hemoglobin: 9.8g/dL, Hematocrit: 32%, Mean Corpuscular Volume: 110 \u03bcm3",
+            "ner_chunk": "Vital signs",
+            "begin": 448,
+            "end": 458,
+            "ner_label": "Test",
+            "ner_confidence": "0.87475",
+            "loinc_code": "8716-3",
+            "loinc_resolution": "Vital signs [Vital signs]",
+            "loinc_confidence": "0.9796"
+        },
+        {
+            "document": "A 65-year-old woman presents to the office with generalized fatigue for the last 4 months.\n  She used to walk 1 mile each evening but now gets tired after 1-2 blocks. She has a history of Crohn disease and hypertension\n  for which she receives appropriate medications. She is married and lives with her husband. She eats a balanced diet that\n  includes chicken, fish, pork, fruits, and vegetables. She rarely drinks alcohol and denies tobacco use. Vital signs are\n  within normal limits. A physical examination is unremarkable. Laboratory studies show the following: Hemoglobin: 9.8g/dL, Hematocrit: 32%, Mean Corpuscular Volume: 110 \u03bcm3",
+            "ner_chunk": "A physical examination",
+            "begin": 488,
+            "end": 509,
+            "ner_label": "Test",
+            "ner_confidence": "0.91120005",
+            "loinc_code": "LP7801-6",
+            "loinc_resolution": "Physical exam [Physical exam]",
+            "loinc_confidence": "0.2517"
+        },
+        {
+            "document": "A 65-year-old woman presents to the office with generalized fatigue for the last 4 months.\n  She used to walk 1 mile each evening but now gets tired after 1-2 blocks. She has a history of Crohn disease and hypertension\n  for which she receives appropriate medications. She is married and lives with her husband. She eats a balanced diet that\n  includes chicken, fish, pork, fruits, and vegetables. She rarely drinks alcohol and denies tobacco use. Vital signs are\n  within normal limits. A physical examination is unremarkable. Laboratory studies show the following: Hemoglobin: 9.8g/dL, Hematocrit: 32%, Mean Corpuscular Volume: 110 \u03bcm3",
+            "ner_chunk": "Laboratory studies",
+            "begin": 528,
+            "end": 545,
+            "ner_label": "Test",
+            "ner_confidence": "0.70070004",
+            "loinc_code": "26436-6",
+            "loinc_resolution": "Laboratory studies [Laboratory studies]",
+            "loinc_confidence": "0.9922"
+        },
+        {
+            "document": "A 65-year-old woman presents to the office with generalized fatigue for the last 4 months.\n  She used to walk 1 mile each evening but now gets tired after 1-2 blocks. She has a history of Crohn disease and hypertension\n  for which she receives appropriate medications. She is married and lives with her husband. She eats a balanced diet that\n  includes chicken, fish, pork, fruits, and vegetables. She rarely drinks alcohol and denies tobacco use. Vital signs are\n  within normal limits. A physical examination is unremarkable. Laboratory studies show the following: Hemoglobin: 9.8g/dL, Hematocrit: 32%, Mean Corpuscular Volume: 110 \u03bcm3",
+            "ner_chunk": "Hemoglobin",
+            "begin": 567,
+            "end": 576,
+            "ner_label": "Test",
+            "ner_confidence": "0.9995",
+            "loinc_code": "14775-1",
+            "loinc_resolution": "Hemoglobin [Hemoglobin]",
+            "loinc_confidence": "0.8477"
+        },
+        {
+            "document": "A 65-year-old woman presents to the office with generalized fatigue for the last 4 months.\n  She used to walk 1 mile each evening but now gets tired after 1-2 blocks. She has a history of Crohn disease and hypertension\n  for which she receives appropriate medications. She is married and lives with her husband. She eats a balanced diet that\n  includes chicken, fish, pork, fruits, and vegetables. She rarely drinks alcohol and denies tobacco use. Vital signs are\n  within normal limits. A physical examination is unremarkable. Laboratory studies show the following: Hemoglobin: 9.8g/dL, Hematocrit: 32%, Mean Corpuscular Volume: 110 \u03bcm3",
+            "ner_chunk": "Hematocrit",
+            "begin": 588,
+            "end": 597,
+            "ner_label": "Test",
+            "ner_confidence": "0.9986",
+            "loinc_code": "11151-8",
+            "loinc_resolution": "Hematocrit [Hematocrit]",
+            "loinc_confidence": "0.9867"
+        },
+        {
+            "document": "A 65-year-old woman presents to the office with generalized fatigue for the last 4 months.\n  She used to walk 1 mile each evening but now gets tired after 1-2 blocks. She has a history of Crohn disease and hypertension\n  for which she receives appropriate medications. She is married and lives with her husband. She eats a balanced diet that\n  includes chicken, fish, pork, fruits, and vegetables. She rarely drinks alcohol and denies tobacco use. Vital signs are\n  within normal limits. A physical examination is unremarkable. Laboratory studies show the following: Hemoglobin: 9.8g/dL, Hematocrit: 32%, Mean Corpuscular Volume: 110 \u03bcm3",
+            "ner_chunk": "Mean Corpuscular Volume",
+            "begin": 605,
+            "end": 627,
+            "ner_label": "Test",
+            "ner_confidence": "0.7",
+            "loinc_code": "11272-2",
+            "loinc_resolution": "Erythrocyte mean corpuscular volume [Erythrocyte mean corpuscular volume]",
+            "loinc_confidence": "0.2173"
+        }
+    ]
+}

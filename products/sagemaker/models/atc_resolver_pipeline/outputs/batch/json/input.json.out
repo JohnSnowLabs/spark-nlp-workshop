@@ -1,0 +1,48 @@
+{
+    "predictions": [
+        {
+            "document": "He was seen by the endocrinology service and she was discharged on eltrombopag at night, amlodipine with meals metformin two times a day.",
+            "ner_chunk": "eltrombopag",
+            "begin": 67,
+            "end": 77,
+            "ner_label": "DRUG",
+            "ner_confidence": "0.9968",
+            "atc_code": "B02BX05",
+            "atc_resolution": "eltrombopag ",
+            "atc_confidence": "0.9964"
+        },
+        {
+            "document": "He was seen by the endocrinology service and she was discharged on eltrombopag at night, amlodipine with meals metformin two times a day.",
+            "ner_chunk": "amlodipine",
+            "begin": 89,
+            "end": 98,
+            "ner_label": "DRUG",
+            "ner_confidence": "0.9996",
+            "atc_code": "C08CA01",
+            "atc_resolution": "amlodipine ",
+            "atc_confidence": "0.9969"
+        },
+        {
+            "document": "He was seen by the endocrinology service and she was discharged on eltrombopag at night, amlodipine with meals metformin two times a day.",
+            "ner_chunk": "metformin",
+            "begin": 111,
+            "end": 119,
+            "ner_label": "DRUG",
+            "ner_confidence": "0.9994",
+            "atc_code": "A10BA02",
+            "atc_resolution": "metformin ",
+            "atc_confidence": "0.9988"
+        },
+        {
+            "document": "She was given antidepressant for a month",
+            "ner_chunk": "antidepressant",
+            "begin": 14,
+            "end": 27,
+            "ner_label": "DRUG",
+            "ner_confidence": "0.9991",
+            "atc_code": "N06A",
+            "atc_resolution": "ANTIDEPRESSANTS",
+            "atc_confidence": "0.9688"
+        }
+    ]
+}

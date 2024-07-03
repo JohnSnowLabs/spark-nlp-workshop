@@ -1,0 +1,70 @@
+{
+    "predictions": [
+        {
+            "document": "A 45-year-old female patient presented with persistent chest pain and shortness of breath. After a thorough evaluation, it was decided to perform a coronary artery bypass graft (CABG) surgery. Post-operatively, the patient will be monitored in the intensive care unit (ICU) and will undergo cardiac rehabilitation.",
+            "ner_chunk": "a coronary artery bypass graft",
+            "begin": 146,
+            "end": 175,
+            "ner_label": "Procedure",
+            "ner_confidence": "0.81618005",
+            "icd10pcs_code": "B223ZZZ",
+            "icd10pcs_resolution": "computerized tomography (ct scan) of multiple coronary artery bypass grafts [computerized tomography (ct scan) of multiple coronary artery bypass grafts]",
+            "icd10pcs_confidence": "0.1740"
+        },
+        {
+            "document": "A 45-year-old female patient presented with persistent chest pain and shortness of breath. After a thorough evaluation, it was decided to perform a coronary artery bypass graft (CABG) surgery. Post-operatively, the patient will be monitored in the intensive care unit (ICU) and will undergo cardiac rehabilitation.",
+            "ner_chunk": "CABG",
+            "begin": 178,
+            "end": 181,
+            "ner_label": "Procedure",
+            "ner_confidence": "0.9907",
+            "icd10pcs_code": "2W65XZZ",
+            "icd10pcs_resolution": "traction of back [traction of back]",
+            "icd10pcs_confidence": "0.1499"
+        },
+        {
+            "document": "A 45-year-old female patient presented with persistent chest pain and shortness of breath. After a thorough evaluation, it was decided to perform a coronary artery bypass graft (CABG) surgery. Post-operatively, the patient will be monitored in the intensive care unit (ICU) and will undergo cardiac rehabilitation.",
+            "ner_chunk": "surgery",
+            "begin": 184,
+            "end": 190,
+            "ner_label": "Procedure",
+            "ner_confidence": "0.9928",
+            "icd10pcs_code": "08H",
+            "icd10pcs_resolution": "medical and surgical @ eye @ insertion [medical and surgical @ eye @ insertion]",
+            "icd10pcs_confidence": "0.1032"
+        },
+        {
+            "document": "A 45-year-old female patient presented with persistent chest pain and shortness of breath. After a thorough evaluation, it was decided to perform a coronary artery bypass graft (CABG) surgery. Post-operatively, the patient will be monitored in the intensive care unit (ICU) and will undergo cardiac rehabilitation.",
+            "ner_chunk": "cardiac rehabilitation",
+            "begin": 291,
+            "end": 312,
+            "ner_label": "Procedure",
+            "ner_confidence": "0.94945",
+            "icd10pcs_code": "5A1213Z",
+            "icd10pcs_resolution": "performance of cardiac pacing, intermittent [performance of cardiac pacing, intermittent]",
+            "icd10pcs_confidence": "0.1300"
+        },
+        {
+            "document": "A 30-year-old male patient arrived with severe trauma from a car accident. An emergency laparotomy was performed to control internal bleeding. The surgical team also carried out a splenectomy due to a ruptured spleen. The patient was stabilized and transferred to the surgical intensive care unit (SICU) for further observation and care.",
+            "ner_chunk": "An emergency laparotomy",
+            "begin": 75,
+            "end": 97,
+            "ner_label": "Procedure",
+            "ner_confidence": "0.68083334",
+            "icd10pcs_code": "0B5F8ZZ",
+            "icd10pcs_resolution": "destruction of right lower lung lobe, endo [destruction of right lower lung lobe, endo]",
+            "icd10pcs_confidence": "0.0543"
+        },
+        {
+            "document": "A 30-year-old male patient arrived with severe trauma from a car accident. An emergency laparotomy was performed to control internal bleeding. The surgical team also carried out a splenectomy due to a ruptured spleen. The patient was stabilized and transferred to the surgical intensive care unit (SICU) for further observation and care.",
+            "ner_chunk": "a splenectomy",
+            "begin": 178,
+            "end": 190,
+            "ner_label": "Procedure",
+            "ner_confidence": "0.98399997",
+            "icd10pcs_code": "06V13DZ",
+            "icd10pcs_resolution": "restriction of splenic vein with intralum dev, perc approach [restriction of splenic vein with intralum dev, perc approach]",
+            "icd10pcs_confidence": "0.0711"
+        }
+    ]
+}

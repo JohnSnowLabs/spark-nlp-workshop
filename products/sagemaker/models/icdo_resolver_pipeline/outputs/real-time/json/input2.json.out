@@ -1,0 +1,147 @@
+{
+    "predictions": [
+        {
+            "document": "A few studies have demonstrated that ANGPTL1 functions as a tumor suppressor gene in breast cancer  , hepatocellular carcinoma  , colorectal cancer and parathyroid carcinoma.",
+            "ner_chunk": "tumor",
+            "begin": 60,
+            "end": 64,
+            "ner_label": "Tumor_Finding",
+            "ner_confidence": "0.9633",
+            "icdo_code": "8000/1",
+            "icdo_resolution": "tumor",
+            "icdo_confidence": "0.9963"
+        },
+        {
+            "document": "A few studies have demonstrated that ANGPTL1 functions as a tumor suppressor gene in breast cancer  , hepatocellular carcinoma  , colorectal cancer and parathyroid carcinoma.",
+            "ner_chunk": "breast cancer",
+            "begin": 85,
+            "end": 97,
+            "ner_label": "Oncological",
+            "ner_confidence": "0.939",
+            "icdo_code": "8010/3-C50.9",
+            "icdo_resolution": "carcinoma, of breast",
+            "icdo_confidence": "0.2247"
+        },
+        {
+            "document": "A few studies have demonstrated that ANGPTL1 functions as a tumor suppressor gene in breast cancer  , hepatocellular carcinoma  , colorectal cancer and parathyroid carcinoma.",
+            "ner_chunk": "hepatocellular",
+            "begin": 102,
+            "end": 115,
+            "ner_label": "Histological_Type",
+            "ner_confidence": "0.9995",
+            "icdo_code": "C22.0",
+            "icdo_resolution": "liver",
+            "icdo_confidence": "0.3523"
+        },
+        {
+            "document": "A few studies have demonstrated that ANGPTL1 functions as a tumor suppressor gene in breast cancer  , hepatocellular carcinoma  , colorectal cancer and parathyroid carcinoma.",
+            "ner_chunk": "carcinoma",
+            "begin": 117,
+            "end": 125,
+            "ner_label": "Cancer_Dx",
+            "ner_confidence": "0.971",
+            "icdo_code": "8010/3",
+            "icdo_resolution": "carcinoma",
+            "icdo_confidence": "0.9625"
+        },
+        {
+            "document": "A few studies have demonstrated that ANGPTL1 functions as a tumor suppressor gene in breast cancer  , hepatocellular carcinoma  , colorectal cancer and parathyroid carcinoma.",
+            "ner_chunk": "colorectal cancer",
+            "begin": 130,
+            "end": 146,
+            "ner_label": "Oncological",
+            "ner_confidence": "0.9151",
+            "icdo_code": "8010/3-C18.9",
+            "icdo_resolution": "carcinoma, of colon",
+            "icdo_confidence": "0.0954"
+        },
+        {
+            "document": "A few studies have demonstrated that ANGPTL1 functions as a tumor suppressor gene in breast cancer  , hepatocellular carcinoma  , colorectal cancer and parathyroid carcinoma.",
+            "ner_chunk": "parathyroid carcinoma",
+            "begin": 152,
+            "end": 172,
+            "ner_label": "Oncological",
+            "ner_confidence": "0.8334",
+            "icdo_code": "8010/3-C75.0",
+            "icdo_resolution": "carcinoma, of parathyroid gland",
+            "icdo_confidence": "0.1392"
+        },
+        {
+            "document": "TRAF6 is a putative oncogene in a variety of cancers including  bladder cancer , and skin cancer. WWP2 appears to regulate the expression of the well characterized tumor suppressor phosphatase and tensin homolog (PTEN) in endometrial cancer and squamous cell carcinoma.",
+            "ner_chunk": "cancers",
+            "begin": 45,
+            "end": 51,
+            "ner_label": "Oncological",
+            "ner_confidence": "0.962",
+            "icdo_code": "8000/3",
+            "icdo_resolution": "cancer",
+            "icdo_confidence": "0.9045"
+        },
+        {
+            "document": "TRAF6 is a putative oncogene in a variety of cancers including  bladder cancer , and skin cancer. WWP2 appears to regulate the expression of the well characterized tumor suppressor phosphatase and tensin homolog (PTEN) in endometrial cancer and squamous cell carcinoma.",
+            "ner_chunk": "bladder cancer",
+            "begin": 64,
+            "end": 77,
+            "ner_label": "Oncological",
+            "ner_confidence": "0.92655003",
+            "icdo_code": "8010/3-C67.9",
+            "icdo_resolution": "carcinoma, of bladder",
+            "icdo_confidence": "0.1117"
+        },
+        {
+            "document": "TRAF6 is a putative oncogene in a variety of cancers including  bladder cancer , and skin cancer. WWP2 appears to regulate the expression of the well characterized tumor suppressor phosphatase and tensin homolog (PTEN) in endometrial cancer and squamous cell carcinoma.",
+            "ner_chunk": "skin cancer",
+            "begin": 85,
+            "end": 95,
+            "ner_label": "Oncological",
+            "ner_confidence": "0.8052",
+            "icdo_code": "8010/3-C44.9",
+            "icdo_resolution": "carcinoma, of skin",
+            "icdo_confidence": "0.1407"
+        },
+        {
+            "document": "TRAF6 is a putative oncogene in a variety of cancers including  bladder cancer , and skin cancer. WWP2 appears to regulate the expression of the well characterized tumor suppressor phosphatase and tensin homolog (PTEN) in endometrial cancer and squamous cell carcinoma.",
+            "ner_chunk": "tumor",
+            "begin": 164,
+            "end": 168,
+            "ner_label": "Oncological",
+            "ner_confidence": "0.9592",
+            "icdo_code": "8000/1",
+            "icdo_resolution": "tumor",
+            "icdo_confidence": "0.9963"
+        },
+        {
+            "document": "TRAF6 is a putative oncogene in a variety of cancers including  bladder cancer , and skin cancer. WWP2 appears to regulate the expression of the well characterized tumor suppressor phosphatase and tensin homolog (PTEN) in endometrial cancer and squamous cell carcinoma.",
+            "ner_chunk": "endometrial cancer",
+            "begin": 222,
+            "end": 239,
+            "ner_label": "Oncological",
+            "ner_confidence": "0.96370006",
+            "icdo_code": "8380/3",
+            "icdo_resolution": "endometrioid carcinoma",
+            "icdo_confidence": "0.1140"
+        },
+        {
+            "document": "TRAF6 is a putative oncogene in a variety of cancers including  bladder cancer , and skin cancer. WWP2 appears to regulate the expression of the well characterized tumor suppressor phosphatase and tensin homolog (PTEN) in endometrial cancer and squamous cell carcinoma.",
+            "ner_chunk": "squamous cell",
+            "begin": 245,
+            "end": 257,
+            "ner_label": "Histological_Type",
+            "ner_confidence": "0.9893",
+            "icdo_code": "805-808",
+            "icdo_resolution": "squamous cell neoplasms",
+            "icdo_confidence": "0.2989"
+        },
+        {
+            "document": "TRAF6 is a putative oncogene in a variety of cancers including  bladder cancer , and skin cancer. WWP2 appears to regulate the expression of the well characterized tumor suppressor phosphatase and tensin homolog (PTEN) in endometrial cancer and squamous cell carcinoma.",
+            "ner_chunk": "carcinoma",
+            "begin": 259,
+            "end": 267,
+            "ner_label": "Cancer_Dx",
+            "ner_confidence": "0.994",
+            "icdo_code": "8010/3",
+            "icdo_resolution": "carcinoma",
+            "icdo_confidence": "0.9625"
+        }
+    ]
+}

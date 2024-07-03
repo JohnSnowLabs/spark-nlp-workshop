@@ -1,0 +1,70 @@
+{
+    "predictions": [
+        {
+            "document": "The patient is a 22-year-old female with a history of obesity. She has a Body mass index (BMI) of 33.5 kg/m2, aspartate aminotransferase 64, and alanine aminotransferase 126.",
+            "ner_chunk": "BMI)",
+            "begin": 90,
+            "end": 93,
+            "ner_label": "Test",
+            "ner_confidence": "0.698",
+            "loinc_code": "39156-5",
+            "loinc_resolution": "BMI [Body mass index]",
+            "loinc_confidence": "0.4923"
+        },
+        {
+            "document": "The patient is a 22-year-old female with a history of obesity. She has a Body mass index (BMI) of 33.5 kg/m2, aspartate aminotransferase 64, and alanine aminotransferase 126.",
+            "ner_chunk": "aspartate aminotransferase",
+            "begin": 110,
+            "end": 135,
+            "ner_label": "Test",
+            "ner_confidence": "0.8905",
+            "loinc_code": "14409-7",
+            "loinc_resolution": "Aspartate aminotransferase [Aspartate aminotransferase]",
+            "loinc_confidence": "0.9928"
+        },
+        {
+            "document": "The patient is a 22-year-old female with a history of obesity. She has a Body mass index (BMI) of 33.5 kg/m2, aspartate aminotransferase 64, and alanine aminotransferase 126.",
+            "ner_chunk": "alanine aminotransferase",
+            "begin": 145,
+            "end": 168,
+            "ner_label": "Test",
+            "ner_confidence": "0.825",
+            "loinc_code": "16324-6",
+            "loinc_resolution": "Alanine aminotransferase [Alanine aminotransferase]",
+            "loinc_confidence": "0.9868"
+        },
+        {
+            "document": "Final diagnosis:  : DNA was extracted from the peripheral blood specimen and a polymerase chain reaction (PCR)-based assay performed that is designed to detect the presence of two separate mutations in the FLT3 gene: (1) within a susceptible region that includes coding sequence for the intracellular juxtamembrane domain and (2)   Negative. Neither expansion of the region susceptible to nor changes consistent with mutation of the codon for ASP835 were identified.",
+            "ner_chunk": "the peripheral blood specimen",
+            "begin": 43,
+            "end": 71,
+            "ner_label": "Test",
+            "ner_confidence": "0.69299996",
+            "loinc_code": "LP7072-4",
+            "loinc_resolution": "Blood peripheral [Blood peripheral]",
+            "loinc_confidence": "0.4696"
+        },
+        {
+            "document": "Final diagnosis:  : DNA was extracted from the peripheral blood specimen and a polymerase chain reaction (PCR)-based assay performed that is designed to detect the presence of two separate mutations in the FLT3 gene: (1) within a susceptible region that includes coding sequence for the intracellular juxtamembrane domain and (2)   Negative. Neither expansion of the region susceptible to nor changes consistent with mutation of the codon for ASP835 were identified.",
+            "ner_chunk": "a polymerase chain reaction",
+            "begin": 77,
+            "end": 103,
+            "ner_label": "Test",
+            "ner_confidence": "0.73675",
+            "loinc_code": "LP89236-1",
+            "loinc_resolution": "RNA polymerase I [RNA polymerase I]",
+            "loinc_confidence": "0.0792"
+        },
+        {
+            "document": "Final diagnosis:  : DNA was extracted from the peripheral blood specimen and a polymerase chain reaction (PCR)-based assay performed that is designed to detect the presence of two separate mutations in the FLT3 gene: (1) within a susceptible region that includes coding sequence for the intracellular juxtamembrane domain and (2)   Negative. Neither expansion of the region susceptible to nor changes consistent with mutation of the codon for ASP835 were identified.",
+            "ner_chunk": "PCR)-based assay",
+            "begin": 106,
+            "end": 121,
+            "ner_label": "Test",
+            "ner_confidence": "0.75715",
+            "loinc_code": "13590-5",
+            "loinc_resolution": "aPCR PPP [Activated protein C resistance]",
+            "loinc_confidence": "0.0693"
+        }
+    ]
+}

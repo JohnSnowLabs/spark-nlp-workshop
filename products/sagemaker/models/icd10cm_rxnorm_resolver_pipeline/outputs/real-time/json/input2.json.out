@@ -1,0 +1,369 @@
+{
+    "rxnorm_predictions": [
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, COPD, gastritis, and TIA. He initially presented to Braintree with a nonspecific ST-T abnormality and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of occlusion of the mid left anterior descending coronary artery lesion, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine, possibly secondary to a vagal reaction. He was subsequently transferred to the CCU for close monitoring. He was hemodynamically stable at the time of admission to the CCU.",
+            "ner_chunk": "atropine",
+            "begin": 436,
+            "end": 443,
+            "ner_label": "DRUG",
+            "ner_confidence": "0.9999",
+            "rxnorm_code": "1666780",
+            "rxnorm_resolution": "atropine Injection",
+            "rxnorm_confidence": "0.4969"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, COPD, gastritis, and TIA. He initially presented to Braintree with a nonspecific ST-T abnormality and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of occlusion of the mid left anterior descending coronary artery lesion, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine, possibly secondary to a vagal reaction. He was subsequently transferred to the CCU for close monitoring. He was hemodynamically stable at the time of admission to the CCU.",
+            "ner_chunk": "fluids",
+            "begin": 449,
+            "end": 454,
+            "ner_label": "DRUG",
+            "ner_confidence": "0.9995",
+            "rxnorm_code": "90230",
+            "rxnorm_resolution": "liquid [liquid]",
+            "rxnorm_confidence": "0.4616"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, COPD, gastritis, and TIA. He initially presented to Braintree with a nonspecific ST-T abnormality and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of occlusion of the mid left anterior descending coronary artery lesion, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine, possibly secondary to a vagal reaction. He was subsequently transferred to the CCU for close monitoring. He was hemodynamically stable at the time of admission to the CCU.",
+            "ner_chunk": "dopamine",
+            "begin": 461,
+            "end": 468,
+            "ner_label": "DRUG",
+            "ner_confidence": "0.9976",
+            "rxnorm_code": "1743862",
+            "rxnorm_resolution": "dopamine Injection",
+            "rxnorm_confidence": "0.4995"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with an acute hepatitis, and obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection. She had been on dapagliflozin for six months at the time of presentation. Physical examination on presentation was significant for dry oral mucosa; significantly, her abdominal examination was benign with no tenderness or guarding. Pertinent laboratory findings on admission were: serum glucose 111 mg/dl, bicarbonate 18 mmol/l, anion gap 20, creatinine 0.4 mg/dL, triglycerides 508 mg/dL, total cholesterol 122 mg/dL, glycated hemoglobin (HbA1c) 10%, and venous pH 7.27. Serum lipase was normal at 43 U/L. Serum acetone levels could not be assessed as blood samples kept hemolyzing due to significant lipemia. The patient was initially admitted for starvation ketosis, as she reported poor oral intake for three days prior to admission.",
+            "ner_chunk": "amoxicillin",
+            "begin": 411,
+            "end": 421,
+            "ner_label": "DRUG",
+            "ner_confidence": "0.9999",
+            "rxnorm_code": "370576",
+            "rxnorm_resolution": "amoxicillin Oral Suspension",
+            "rxnorm_confidence": "0.4813"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with an acute hepatitis, and obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection. She had been on dapagliflozin for six months at the time of presentation. Physical examination on presentation was significant for dry oral mucosa; significantly, her abdominal examination was benign with no tenderness or guarding. Pertinent laboratory findings on admission were: serum glucose 111 mg/dl, bicarbonate 18 mmol/l, anion gap 20, creatinine 0.4 mg/dL, triglycerides 508 mg/dL, total cholesterol 122 mg/dL, glycated hemoglobin (HbA1c) 10%, and venous pH 7.27. Serum lipase was normal at 43 U/L. Serum acetone levels could not be assessed as blood samples kept hemolyzing due to significant lipemia. The patient was initially admitted for starvation ketosis, as she reported poor oral intake for three days prior to admission.",
+            "ner_chunk": "dapagliflozin",
+            "begin": 474,
+            "end": 486,
+            "ner_label": "DRUG",
+            "ner_confidence": "0.9983",
+            "rxnorm_code": "1488568",
+            "rxnorm_resolution": "dapagliflozin Oral Tablet",
+            "rxnorm_confidence": "0.4880"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with an acute hepatitis, and obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection. She had been on dapagliflozin for six months at the time of presentation. Physical examination on presentation was significant for dry oral mucosa; significantly, her abdominal examination was benign with no tenderness or guarding. Pertinent laboratory findings on admission were: serum glucose 111 mg/dl, bicarbonate 18 mmol/l, anion gap 20, creatinine 0.4 mg/dL, triglycerides 508 mg/dL, total cholesterol 122 mg/dL, glycated hemoglobin (HbA1c) 10%, and venous pH 7.27. Serum lipase was normal at 43 U/L. Serum acetone levels could not be assessed as blood samples kept hemolyzing due to significant lipemia. The patient was initially admitted for starvation ketosis, as she reported poor oral intake for three days prior to admission.",
+            "ner_chunk": "Serum acetone",
+            "begin": 965,
+            "end": 977,
+            "ner_label": "DRUG",
+            "ner_confidence": "0.7603",
+            "rxnorm_code": "377016",
+            "rxnorm_resolution": "acetone Topical Solution",
+            "rxnorm_confidence": "0.1149"
+        }
+    ],
+    "icd10cm_predictions": [
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, COPD, gastritis, and TIA. He initially presented to Braintree with a nonspecific ST-T abnormality and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of occlusion of the mid left anterior descending coronary artery lesion, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine, possibly secondary to a vagal reaction. He was subsequently transferred to the CCU for close monitoring. He was hemodynamically stable at the time of admission to the CCU.",
+            "ner_chunk": "hypertension",
+            "begin": 65,
+            "end": 76,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9984",
+            "icd10cm_code": "I15",
+            "icd10cm_resolution": "secondary hypertension [secondary hypertension]",
+            "icd10cm_confidence": "0.4849"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, COPD, gastritis, and TIA. He initially presented to Braintree with a nonspecific ST-T abnormality and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of occlusion of the mid left anterior descending coronary artery lesion, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine, possibly secondary to a vagal reaction. He was subsequently transferred to the CCU for close monitoring. He was hemodynamically stable at the time of admission to the CCU.",
+            "ner_chunk": "chronic renal insufficiency",
+            "begin": 79,
+            "end": 105,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9780667",
+            "icd10cm_code": "N18.6",
+            "icd10cm_resolution": "end stage renal disease [end stage renal disease]",
+            "icd10cm_confidence": "0.1417"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, COPD, gastritis, and TIA. He initially presented to Braintree with a nonspecific ST-T abnormality and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of occlusion of the mid left anterior descending coronary artery lesion, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine, possibly secondary to a vagal reaction. He was subsequently transferred to the CCU for close monitoring. He was hemodynamically stable at the time of admission to the CCU.",
+            "ner_chunk": "COPD",
+            "begin": 108,
+            "end": 111,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9999",
+            "icd10cm_code": "W17.0",
+            "icd10cm_resolution": "fall into well [fall into well]",
+            "icd10cm_confidence": "0.2428"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, COPD, gastritis, and TIA. He initially presented to Braintree with a nonspecific ST-T abnormality and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of occlusion of the mid left anterior descending coronary artery lesion, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine, possibly secondary to a vagal reaction. He was subsequently transferred to the CCU for close monitoring. He was hemodynamically stable at the time of admission to the CCU.",
+            "ner_chunk": "gastritis",
+            "begin": 114,
+            "end": 122,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9993",
+            "icd10cm_code": "K29.0",
+            "icd10cm_resolution": "acute gastritis [acute gastritis]",
+            "icd10cm_confidence": "0.4076"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, COPD, gastritis, and TIA. He initially presented to Braintree with a nonspecific ST-T abnormality and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of occlusion of the mid left anterior descending coronary artery lesion, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine, possibly secondary to a vagal reaction. He was subsequently transferred to the CCU for close monitoring. He was hemodynamically stable at the time of admission to the CCU.",
+            "ner_chunk": "TIA",
+            "begin": 129,
+            "end": 131,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9998",
+            "icd10cm_code": "H53.55",
+            "icd10cm_resolution": "tritanomaly [tritanomaly]",
+            "icd10cm_confidence": "0.2499"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, COPD, gastritis, and TIA. He initially presented to Braintree with a nonspecific ST-T abnormality and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of occlusion of the mid left anterior descending coronary artery lesion, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine, possibly secondary to a vagal reaction. He was subsequently transferred to the CCU for close monitoring. He was hemodynamically stable at the time of admission to the CCU.",
+            "ner_chunk": "a nonspecific ST-T abnormality",
+            "begin": 175,
+            "end": 204,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.95210004",
+            "icd10cm_code": "H50.40",
+            "icd10cm_resolution": "unspecified heterotropia [unspecified heterotropia]",
+            "icd10cm_confidence": "0.1191"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, COPD, gastritis, and TIA. He initially presented to Braintree with a nonspecific ST-T abnormality and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of occlusion of the mid left anterior descending coronary artery lesion, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine, possibly secondary to a vagal reaction. He was subsequently transferred to the CCU for close monitoring. He was hemodynamically stable at the time of admission to the CCU.",
+            "ner_chunk": "occlusion of the mid left anterior descending coronary artery lesion",
+            "begin": 300,
+            "end": 367,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.83212996",
+            "icd10cm_code": "I21.02",
+            "icd10cm_resolution": "stemi involving left anterior descending coronary artery [st elevation (stemi) myocardial infarction involving left anterior descending coronary artery]",
+            "icd10cm_confidence": "0.2677"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, COPD, gastritis, and TIA. He initially presented to Braintree with a nonspecific ST-T abnormality and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of occlusion of the mid left anterior descending coronary artery lesion, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine, possibly secondary to a vagal reaction. He was subsequently transferred to the CCU for close monitoring. He was hemodynamically stable at the time of admission to the CCU.",
+            "ner_chunk": "hypotension",
+            "begin": 395,
+            "end": 405,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9837",
+            "icd10cm_code": "I95",
+            "icd10cm_resolution": "hypotension [hypotension]",
+            "icd10cm_confidence": "0.9785"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, COPD, gastritis, and TIA. He initially presented to Braintree with a nonspecific ST-T abnormality and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of occlusion of the mid left anterior descending coronary artery lesion, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine, possibly secondary to a vagal reaction. He was subsequently transferred to the CCU for close monitoring. He was hemodynamically stable at the time of admission to the CCU.",
+            "ner_chunk": "bradycardia",
+            "begin": 411,
+            "end": 421,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.997",
+            "icd10cm_code": "R00.1",
+            "icd10cm_resolution": "bradycardia, unspecified [bradycardia, unspecified]",
+            "icd10cm_confidence": "0.3964"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, COPD, gastritis, and TIA. He initially presented to Braintree with a nonspecific ST-T abnormality and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of occlusion of the mid left anterior descending coronary artery lesion, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine, possibly secondary to a vagal reaction. He was subsequently transferred to the CCU for close monitoring. He was hemodynamically stable at the time of admission to the CCU.",
+            "ner_chunk": "a vagal reaction",
+            "begin": 493,
+            "end": 508,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.8416",
+            "icd10cm_code": "I87.1",
+            "icd10cm_resolution": "compression of vein [compression of vein]",
+            "icd10cm_confidence": "0.1132"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with an acute hepatitis, and obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection. She had been on dapagliflozin for six months at the time of presentation. Physical examination on presentation was significant for dry oral mucosa; significantly, her abdominal examination was benign with no tenderness or guarding. Pertinent laboratory findings on admission were: serum glucose 111 mg/dl, bicarbonate 18 mmol/l, anion gap 20, creatinine 0.4 mg/dL, triglycerides 508 mg/dL, total cholesterol 122 mg/dL, glycated hemoglobin (HbA1c) 10%, and venous pH 7.27. Serum lipase was normal at 43 U/L. Serum acetone levels could not be assessed as blood samples kept hemolyzing due to significant lipemia. The patient was initially admitted for starvation ketosis, as she reported poor oral intake for three days prior to admission.",
+            "ner_chunk": "gestational diabetes mellitus",
+            "begin": 39,
+            "end": 67,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9255",
+            "icd10cm_code": "O24.4",
+            "icd10cm_resolution": "gestational diabetes mellitus [gestational diabetes mellitus]",
+            "icd10cm_confidence": "0.9838"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with an acute hepatitis, and obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection. She had been on dapagliflozin for six months at the time of presentation. Physical examination on presentation was significant for dry oral mucosa; significantly, her abdominal examination was benign with no tenderness or guarding. Pertinent laboratory findings on admission were: serum glucose 111 mg/dl, bicarbonate 18 mmol/l, anion gap 20, creatinine 0.4 mg/dL, triglycerides 508 mg/dL, total cholesterol 122 mg/dL, glycated hemoglobin (HbA1c) 10%, and venous pH 7.27. Serum lipase was normal at 43 U/L. Serum acetone levels could not be assessed as blood samples kept hemolyzing due to significant lipemia. The patient was initially admitted for starvation ketosis, as she reported poor oral intake for three days prior to admission.",
+            "ner_chunk": "subsequent type two diabetes mellitus",
+            "begin": 117,
+            "end": 153,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.77357996",
+            "icd10cm_code": "E11",
+            "icd10cm_resolution": "type 2 diabetes mellitus [type 2 diabetes mellitus]",
+            "icd10cm_confidence": "0.3189"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with an acute hepatitis, and obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection. She had been on dapagliflozin for six months at the time of presentation. Physical examination on presentation was significant for dry oral mucosa; significantly, her abdominal examination was benign with no tenderness or guarding. Pertinent laboratory findings on admission were: serum glucose 111 mg/dl, bicarbonate 18 mmol/l, anion gap 20, creatinine 0.4 mg/dL, triglycerides 508 mg/dL, total cholesterol 122 mg/dL, glycated hemoglobin (HbA1c) 10%, and venous pH 7.27. Serum lipase was normal at 43 U/L. Serum acetone levels could not be assessed as blood samples kept hemolyzing due to significant lipemia. The patient was initially admitted for starvation ketosis, as she reported poor oral intake for three days prior to admission.",
+            "ner_chunk": "an acute hepatitis",
+            "begin": 172,
+            "end": 189,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9745667",
+            "icd10cm_code": "B15",
+            "icd10cm_resolution": "acute hepatitis a [acute hepatitis a]",
+            "icd10cm_confidence": "0.7783"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with an acute hepatitis, and obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection. She had been on dapagliflozin for six months at the time of presentation. Physical examination on presentation was significant for dry oral mucosa; significantly, her abdominal examination was benign with no tenderness or guarding. Pertinent laboratory findings on admission were: serum glucose 111 mg/dl, bicarbonate 18 mmol/l, anion gap 20, creatinine 0.4 mg/dL, triglycerides 508 mg/dL, total cholesterol 122 mg/dL, glycated hemoglobin (HbA1c) 10%, and venous pH 7.27. Serum lipase was normal at 43 U/L. Serum acetone levels could not be assessed as blood samples kept hemolyzing due to significant lipemia. The patient was initially admitted for starvation ketosis, as she reported poor oral intake for three days prior to admission.",
+            "ner_chunk": "obesity",
+            "begin": 196,
+            "end": 202,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9973",
+            "icd10cm_code": "E66",
+            "icd10cm_resolution": "overweight and obesity [overweight and obesity]",
+            "icd10cm_confidence": "0.7115"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with an acute hepatitis, and obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection. She had been on dapagliflozin for six months at the time of presentation. Physical examination on presentation was significant for dry oral mucosa; significantly, her abdominal examination was benign with no tenderness or guarding. Pertinent laboratory findings on admission were: serum glucose 111 mg/dl, bicarbonate 18 mmol/l, anion gap 20, creatinine 0.4 mg/dL, triglycerides 508 mg/dL, total cholesterol 122 mg/dL, glycated hemoglobin (HbA1c) 10%, and venous pH 7.27. Serum lipase was normal at 43 U/L. Serum acetone levels could not be assessed as blood samples kept hemolyzing due to significant lipemia. The patient was initially admitted for starvation ketosis, as she reported poor oral intake for three days prior to admission.",
+            "ner_chunk": "a body mass index",
+            "begin": 209,
+            "end": 225,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.845925",
+            "icd10cm_code": "Z68",
+            "icd10cm_resolution": "body mass index [bmi] [body mass index [bmi]]",
+            "icd10cm_confidence": "0.5329"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with an acute hepatitis, and obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection. She had been on dapagliflozin for six months at the time of presentation. Physical examination on presentation was significant for dry oral mucosa; significantly, her abdominal examination was benign with no tenderness or guarding. Pertinent laboratory findings on admission were: serum glucose 111 mg/dl, bicarbonate 18 mmol/l, anion gap 20, creatinine 0.4 mg/dL, triglycerides 508 mg/dL, total cholesterol 122 mg/dL, glycated hemoglobin (HbA1c) 10%, and venous pH 7.27. Serum lipase was normal at 43 U/L. Serum acetone levels could not be assessed as blood samples kept hemolyzing due to significant lipemia. The patient was initially admitted for starvation ketosis, as she reported poor oral intake for three days prior to admission.",
+            "ner_chunk": "polyuria",
+            "begin": 285,
+            "end": 292,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9897",
+            "icd10cm_code": "R35",
+            "icd10cm_resolution": "polyuria [polyuria]",
+            "icd10cm_confidence": "0.9976"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with an acute hepatitis, and obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection. She had been on dapagliflozin for six months at the time of presentation. Physical examination on presentation was significant for dry oral mucosa; significantly, her abdominal examination was benign with no tenderness or guarding. Pertinent laboratory findings on admission were: serum glucose 111 mg/dl, bicarbonate 18 mmol/l, anion gap 20, creatinine 0.4 mg/dL, triglycerides 508 mg/dL, total cholesterol 122 mg/dL, glycated hemoglobin (HbA1c) 10%, and venous pH 7.27. Serum lipase was normal at 43 U/L. Serum acetone levels could not be assessed as blood samples kept hemolyzing due to significant lipemia. The patient was initially admitted for starvation ketosis, as she reported poor oral intake for three days prior to admission.",
+            "ner_chunk": "polydipsia",
+            "begin": 295,
+            "end": 304,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9931",
+            "icd10cm_code": "R63.1",
+            "icd10cm_resolution": "polydipsia [polydipsia]",
+            "icd10cm_confidence": "0.9996"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with an acute hepatitis, and obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection. She had been on dapagliflozin for six months at the time of presentation. Physical examination on presentation was significant for dry oral mucosa; significantly, her abdominal examination was benign with no tenderness or guarding. Pertinent laboratory findings on admission were: serum glucose 111 mg/dl, bicarbonate 18 mmol/l, anion gap 20, creatinine 0.4 mg/dL, triglycerides 508 mg/dL, total cholesterol 122 mg/dL, glycated hemoglobin (HbA1c) 10%, and venous pH 7.27. Serum lipase was normal at 43 U/L. Serum acetone levels could not be assessed as blood samples kept hemolyzing due to significant lipemia. The patient was initially admitted for starvation ketosis, as she reported poor oral intake for three days prior to admission.",
+            "ner_chunk": "poor appetite",
+            "begin": 307,
+            "end": 319,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.998",
+            "icd10cm_code": "R45.81",
+            "icd10cm_resolution": "low self-esteem [low self-esteem]",
+            "icd10cm_confidence": "0.1324"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with an acute hepatitis, and obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection. She had been on dapagliflozin for six months at the time of presentation. Physical examination on presentation was significant for dry oral mucosa; significantly, her abdominal examination was benign with no tenderness or guarding. Pertinent laboratory findings on admission were: serum glucose 111 mg/dl, bicarbonate 18 mmol/l, anion gap 20, creatinine 0.4 mg/dL, triglycerides 508 mg/dL, total cholesterol 122 mg/dL, glycated hemoglobin (HbA1c) 10%, and venous pH 7.27. Serum lipase was normal at 43 U/L. Serum acetone levels could not be assessed as blood samples kept hemolyzing due to significant lipemia. The patient was initially admitted for starvation ketosis, as she reported poor oral intake for three days prior to admission.",
+            "ner_chunk": "vomiting",
+            "begin": 326,
+            "end": 333,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9934",
+            "icd10cm_code": "R11.1",
+            "icd10cm_resolution": "vomiting [vomiting]",
+            "icd10cm_confidence": "0.9951"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with an acute hepatitis, and obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection. She had been on dapagliflozin for six months at the time of presentation. Physical examination on presentation was significant for dry oral mucosa; significantly, her abdominal examination was benign with no tenderness or guarding. Pertinent laboratory findings on admission were: serum glucose 111 mg/dl, bicarbonate 18 mmol/l, anion gap 20, creatinine 0.4 mg/dL, triglycerides 508 mg/dL, total cholesterol 122 mg/dL, glycated hemoglobin (HbA1c) 10%, and venous pH 7.27. Serum lipase was normal at 43 U/L. Serum acetone levels could not be assessed as blood samples kept hemolyzing due to significant lipemia. The patient was initially admitted for starvation ketosis, as she reported poor oral intake for three days prior to admission.",
+            "ner_chunk": "a respiratory tract infection",
+            "begin": 427,
+            "end": 455,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.91305006",
+            "icd10cm_code": "T17",
+            "icd10cm_resolution": "foreign body in respiratory tract [foreign body in respiratory tract]",
+            "icd10cm_confidence": "0.4154"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with an acute hepatitis, and obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection. She had been on dapagliflozin for six months at the time of presentation. Physical examination on presentation was significant for dry oral mucosa; significantly, her abdominal examination was benign with no tenderness or guarding. Pertinent laboratory findings on admission were: serum glucose 111 mg/dl, bicarbonate 18 mmol/l, anion gap 20, creatinine 0.4 mg/dL, triglycerides 508 mg/dL, total cholesterol 122 mg/dL, glycated hemoglobin (HbA1c) 10%, and venous pH 7.27. Serum lipase was normal at 43 U/L. Serum acetone levels could not be assessed as blood samples kept hemolyzing due to significant lipemia. The patient was initially admitted for starvation ketosis, as she reported poor oral intake for three days prior to admission.",
+            "ner_chunk": "dry oral mucosa",
+            "begin": 589,
+            "end": 603,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.7224",
+            "icd10cm_code": "R68.2",
+            "icd10cm_resolution": "dry mouth, unspecified [dry mouth, unspecified]",
+            "icd10cm_confidence": "0.8509"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with an acute hepatitis, and obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection. She had been on dapagliflozin for six months at the time of presentation. Physical examination on presentation was significant for dry oral mucosa; significantly, her abdominal examination was benign with no tenderness or guarding. Pertinent laboratory findings on admission were: serum glucose 111 mg/dl, bicarbonate 18 mmol/l, anion gap 20, creatinine 0.4 mg/dL, triglycerides 508 mg/dL, total cholesterol 122 mg/dL, glycated hemoglobin (HbA1c) 10%, and venous pH 7.27. Serum lipase was normal at 43 U/L. Serum acetone levels could not be assessed as blood samples kept hemolyzing due to significant lipemia. The patient was initially admitted for starvation ketosis, as she reported poor oral intake for three days prior to admission.",
+            "ner_chunk": "tenderness",
+            "begin": 666,
+            "end": 675,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9997",
+            "icd10cm_code": "R45.86",
+            "icd10cm_resolution": "emotional lability [emotional lability]",
+            "icd10cm_confidence": "0.2149"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with an acute hepatitis, and obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection. She had been on dapagliflozin for six months at the time of presentation. Physical examination on presentation was significant for dry oral mucosa; significantly, her abdominal examination was benign with no tenderness or guarding. Pertinent laboratory findings on admission were: serum glucose 111 mg/dl, bicarbonate 18 mmol/l, anion gap 20, creatinine 0.4 mg/dL, triglycerides 508 mg/dL, total cholesterol 122 mg/dL, glycated hemoglobin (HbA1c) 10%, and venous pH 7.27. Serum lipase was normal at 43 U/L. Serum acetone levels could not be assessed as blood samples kept hemolyzing due to significant lipemia. The patient was initially admitted for starvation ketosis, as she reported poor oral intake for three days prior to admission.",
+            "ner_chunk": "guarding",
+            "begin": 680,
+            "end": 687,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9992",
+            "icd10cm_code": "R45.82",
+            "icd10cm_resolution": "worries [worries]",
+            "icd10cm_confidence": "0.1193"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with an acute hepatitis, and obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection. She had been on dapagliflozin for six months at the time of presentation. Physical examination on presentation was significant for dry oral mucosa; significantly, her abdominal examination was benign with no tenderness or guarding. Pertinent laboratory findings on admission were: serum glucose 111 mg/dl, bicarbonate 18 mmol/l, anion gap 20, creatinine 0.4 mg/dL, triglycerides 508 mg/dL, total cholesterol 122 mg/dL, glycated hemoglobin (HbA1c) 10%, and venous pH 7.27. Serum lipase was normal at 43 U/L. Serum acetone levels could not be assessed as blood samples kept hemolyzing due to significant lipemia. The patient was initially admitted for starvation ketosis, as she reported poor oral intake for three days prior to admission.",
+            "ner_chunk": "hemolyzing",
+            "begin": 1030,
+            "end": 1039,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.8774",
+            "icd10cm_code": "D74",
+            "icd10cm_resolution": "methemoglobinemia [methemoglobinemia]",
+            "icd10cm_confidence": "0.1060"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with an acute hepatitis, and obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection. She had been on dapagliflozin for six months at the time of presentation. Physical examination on presentation was significant for dry oral mucosa; significantly, her abdominal examination was benign with no tenderness or guarding. Pertinent laboratory findings on admission were: serum glucose 111 mg/dl, bicarbonate 18 mmol/l, anion gap 20, creatinine 0.4 mg/dL, triglycerides 508 mg/dL, total cholesterol 122 mg/dL, glycated hemoglobin (HbA1c) 10%, and venous pH 7.27. Serum lipase was normal at 43 U/L. Serum acetone levels could not be assessed as blood samples kept hemolyzing due to significant lipemia. The patient was initially admitted for starvation ketosis, as she reported poor oral intake for three days prior to admission.",
+            "ner_chunk": "significant lipemia",
+            "begin": 1048,
+            "end": 1066,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.94519997",
+            "icd10cm_code": "E78.41",
+            "icd10cm_resolution": "elevated lipoprotein(a) [elevated lipoprotein(a)]",
+            "icd10cm_confidence": "0.1453"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with an acute hepatitis, and obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection. She had been on dapagliflozin for six months at the time of presentation. Physical examination on presentation was significant for dry oral mucosa; significantly, her abdominal examination was benign with no tenderness or guarding. Pertinent laboratory findings on admission were: serum glucose 111 mg/dl, bicarbonate 18 mmol/l, anion gap 20, creatinine 0.4 mg/dL, triglycerides 508 mg/dL, total cholesterol 122 mg/dL, glycated hemoglobin (HbA1c) 10%, and venous pH 7.27. Serum lipase was normal at 43 U/L. Serum acetone levels could not be assessed as blood samples kept hemolyzing due to significant lipemia. The patient was initially admitted for starvation ketosis, as she reported poor oral intake for three days prior to admission.",
+            "ner_chunk": "starvation ketosis",
+            "begin": 1108,
+            "end": 1125,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.98645",
+            "icd10cm_code": "E41",
+            "icd10cm_resolution": "nutritional marasmus [nutritional marasmus]",
+            "icd10cm_confidence": "0.1225"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with an acute hepatitis, and obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection. She had been on dapagliflozin for six months at the time of presentation. Physical examination on presentation was significant for dry oral mucosa; significantly, her abdominal examination was benign with no tenderness or guarding. Pertinent laboratory findings on admission were: serum glucose 111 mg/dl, bicarbonate 18 mmol/l, anion gap 20, creatinine 0.4 mg/dL, triglycerides 508 mg/dL, total cholesterol 122 mg/dL, glycated hemoglobin (HbA1c) 10%, and venous pH 7.27. Serum lipase was normal at 43 U/L. Serum acetone levels could not be assessed as blood samples kept hemolyzing due to significant lipemia. The patient was initially admitted for starvation ketosis, as she reported poor oral intake for three days prior to admission.",
+            "ner_chunk": "poor oral intake",
+            "begin": 1144,
+            "end": 1159,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.8695667",
+            "icd10cm_code": "Z59.4",
+            "icd10cm_resolution": "lack of adequate food [lack of adequate food]",
+            "icd10cm_confidence": "0.2086"
+        }
+    ]
+}

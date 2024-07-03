@@ -1,0 +1,202 @@
+{
+    "predictions": [
+        {
+            "document": "The patient is a 40-year-old white male who presents with a chief complaint of \"chest pain\". The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that his chest pain started yesterday evening. He has been advised Aspirin 81 milligrams QDay. Humulin N. insulin 50 units in a.m. Hydrochlorothiazide 50 mg QDay. Nitroglycerin 1/150 sublingually PRN chest pain.",
+            "ner_chunk": "chest pain",
+            "begin": 80,
+            "end": 89,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.81095004",
+            "mesh_code": "D002637",
+            "mesh_resolution": "Chest Pain",
+            "mesh_confidence": "0.9854"
+        },
+        {
+            "document": "The patient is a 40-year-old white male who presents with a chief complaint of \"chest pain\". The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that his chest pain started yesterday evening. He has been advised Aspirin 81 milligrams QDay. Humulin N. insulin 50 units in a.m. Hydrochlorothiazide 50 mg QDay. Nitroglycerin 1/150 sublingually PRN chest pain.",
+            "ner_chunk": "diabetic",
+            "begin": 108,
+            "end": 115,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9946",
+            "mesh_code": "D003920",
+            "mesh_resolution": "Diabetes Mellitus",
+            "mesh_confidence": "0.2912"
+        },
+        {
+            "document": "The patient is a 40-year-old white male who presents with a chief complaint of \"chest pain\". The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that his chest pain started yesterday evening. He has been advised Aspirin 81 milligrams QDay. Humulin N. insulin 50 units in a.m. Hydrochlorothiazide 50 mg QDay. Nitroglycerin 1/150 sublingually PRN chest pain.",
+            "ner_chunk": "coronary artery disease",
+            "begin": 144,
+            "end": 166,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.94269997",
+            "mesh_code": "D003324",
+            "mesh_resolution": "Coronary Artery Disease",
+            "mesh_confidence": "0.9952"
+        },
+        {
+            "document": "The patient is a 40-year-old white male who presents with a chief complaint of \"chest pain\". The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that his chest pain started yesterday evening. He has been advised Aspirin 81 milligrams QDay. Humulin N. insulin 50 units in a.m. Hydrochlorothiazide 50 mg QDay. Nitroglycerin 1/150 sublingually PRN chest pain.",
+            "ner_chunk": "his chest pain",
+            "begin": 209,
+            "end": 222,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9567666",
+            "mesh_code": "D002637",
+            "mesh_resolution": "Chest Pain",
+            "mesh_confidence": "0.8183"
+        },
+        {
+            "document": "The patient is a 40-year-old white male who presents with a chief complaint of \"chest pain\". The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that his chest pain started yesterday evening. He has been advised Aspirin 81 milligrams QDay. Humulin N. insulin 50 units in a.m. Hydrochlorothiazide 50 mg QDay. Nitroglycerin 1/150 sublingually PRN chest pain.",
+            "ner_chunk": "Aspirin",
+            "begin": 271,
+            "end": 277,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.9998",
+            "mesh_code": "D001241",
+            "mesh_resolution": "Aspirin",
+            "mesh_confidence": "0.9986"
+        },
+        {
+            "document": "The patient is a 40-year-old white male who presents with a chief complaint of \"chest pain\". The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that his chest pain started yesterday evening. He has been advised Aspirin 81 milligrams QDay. Humulin N. insulin 50 units in a.m. Hydrochlorothiazide 50 mg QDay. Nitroglycerin 1/150 sublingually PRN chest pain.",
+            "ner_chunk": "Humulin N",
+            "begin": 299,
+            "end": 307,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.98345",
+            "mesh_code": "C007966",
+            "mesh_resolution": "humulon",
+            "mesh_confidence": "0.1852"
+        },
+        {
+            "document": "The patient is a 40-year-old white male who presents with a chief complaint of \"chest pain\". The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that his chest pain started yesterday evening. He has been advised Aspirin 81 milligrams QDay. Humulin N. insulin 50 units in a.m. Hydrochlorothiazide 50 mg QDay. Nitroglycerin 1/150 sublingually PRN chest pain.",
+            "ner_chunk": "insulin",
+            "begin": 310,
+            "end": 316,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.9881",
+            "mesh_code": "D061385",
+            "mesh_resolution": "Insulins",
+            "mesh_confidence": "0.6107"
+        },
+        {
+            "document": "The patient is a 40-year-old white male who presents with a chief complaint of \"chest pain\". The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that his chest pain started yesterday evening. He has been advised Aspirin 81 milligrams QDay. Humulin N. insulin 50 units in a.m. Hydrochlorothiazide 50 mg QDay. Nitroglycerin 1/150 sublingually PRN chest pain.",
+            "ner_chunk": "Hydrochlorothiazide",
+            "begin": 335,
+            "end": 353,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.9999",
+            "mesh_code": "D006852",
+            "mesh_resolution": "Hydrochlorothiazide",
+            "mesh_confidence": "0.9859"
+        },
+        {
+            "document": "The patient is a 40-year-old white male who presents with a chief complaint of \"chest pain\". The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that his chest pain started yesterday evening. He has been advised Aspirin 81 milligrams QDay. Humulin N. insulin 50 units in a.m. Hydrochlorothiazide 50 mg QDay. Nitroglycerin 1/150 sublingually PRN chest pain.",
+            "ner_chunk": "Nitroglycerin",
+            "begin": 367,
+            "end": 379,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.9999",
+            "mesh_code": "D005996",
+            "mesh_resolution": "Nitroglycerin",
+            "mesh_confidence": "0.9959"
+        },
+        {
+            "document": "The patient is a 40-year-old white male who presents with a chief complaint of \"chest pain\". The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that his chest pain started yesterday evening. He has been advised Aspirin 81 milligrams QDay. Humulin N. insulin 50 units in a.m. Hydrochlorothiazide 50 mg QDay. Nitroglycerin 1/150 sublingually PRN chest pain.",
+            "ner_chunk": "chest pain",
+            "begin": 404,
+            "end": 413,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.959",
+            "mesh_code": "D002637",
+            "mesh_resolution": "Chest Pain",
+            "mesh_confidence": "0.9854"
+        },
+        {
+            "document": " A 5-month-old boy brought by his parents because of 2 days of cough. Mother took him when cough started 2 days go to Clinic. But cough got worse and he also started having fever yesterday at night. Mother did not measure it. REVIEW OF SYSTEMS: No vomiting. No diarrhea. No skin rash. No cyanosis. ",
+            "ner_chunk": "cough",
+            "begin": 63,
+            "end": 67,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9737",
+            "mesh_code": "D003371",
+            "mesh_resolution": "Cough",
+            "mesh_confidence": "0.9985"
+        },
+        {
+            "document": " A 5-month-old boy brought by his parents because of 2 days of cough. Mother took him when cough started 2 days go to Clinic. But cough got worse and he also started having fever yesterday at night. Mother did not measure it. REVIEW OF SYSTEMS: No vomiting. No diarrhea. No skin rash. No cyanosis. ",
+            "ner_chunk": "cough",
+            "begin": 91,
+            "end": 95,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9992",
+            "mesh_code": "D003371",
+            "mesh_resolution": "Cough",
+            "mesh_confidence": "0.9985"
+        },
+        {
+            "document": " A 5-month-old boy brought by his parents because of 2 days of cough. Mother took him when cough started 2 days go to Clinic. But cough got worse and he also started having fever yesterday at night. Mother did not measure it. REVIEW OF SYSTEMS: No vomiting. No diarrhea. No skin rash. No cyanosis. ",
+            "ner_chunk": "cough",
+            "begin": 130,
+            "end": 134,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9992",
+            "mesh_code": "D003371",
+            "mesh_resolution": "Cough",
+            "mesh_confidence": "0.9985"
+        },
+        {
+            "document": " A 5-month-old boy brought by his parents because of 2 days of cough. Mother took him when cough started 2 days go to Clinic. But cough got worse and he also started having fever yesterday at night. Mother did not measure it. REVIEW OF SYSTEMS: No vomiting. No diarrhea. No skin rash. No cyanosis. ",
+            "ner_chunk": "fever",
+            "begin": 173,
+            "end": 177,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9997",
+            "mesh_code": "D005334",
+            "mesh_resolution": "Fever",
+            "mesh_confidence": "0.9969"
+        },
+        {
+            "document": " A 5-month-old boy brought by his parents because of 2 days of cough. Mother took him when cough started 2 days go to Clinic. But cough got worse and he also started having fever yesterday at night. Mother did not measure it. REVIEW OF SYSTEMS: No vomiting. No diarrhea. No skin rash. No cyanosis. ",
+            "ner_chunk": "vomiting",
+            "begin": 248,
+            "end": 255,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9955",
+            "mesh_code": "D014839",
+            "mesh_resolution": "Vomiting",
+            "mesh_confidence": "0.9973"
+        },
+        {
+            "document": " A 5-month-old boy brought by his parents because of 2 days of cough. Mother took him when cough started 2 days go to Clinic. But cough got worse and he also started having fever yesterday at night. Mother did not measure it. REVIEW OF SYSTEMS: No vomiting. No diarrhea. No skin rash. No cyanosis. ",
+            "ner_chunk": "diarrhea",
+            "begin": 261,
+            "end": 268,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9984",
+            "mesh_code": "D003967",
+            "mesh_resolution": "Diarrhea",
+            "mesh_confidence": "0.9988"
+        },
+        {
+            "document": " A 5-month-old boy brought by his parents because of 2 days of cough. Mother took him when cough started 2 days go to Clinic. But cough got worse and he also started having fever yesterday at night. Mother did not measure it. REVIEW OF SYSTEMS: No vomiting. No diarrhea. No skin rash. No cyanosis. ",
+            "ner_chunk": "skin rash",
+            "begin": 274,
+            "end": 282,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9907",
+            "mesh_code": "D012877",
+            "mesh_resolution": "Skin Manifestations",
+            "mesh_confidence": "0.2558"
+        },
+        {
+            "document": " A 5-month-old boy brought by his parents because of 2 days of cough. Mother took him when cough started 2 days go to Clinic. But cough got worse and he also started having fever yesterday at night. Mother did not measure it. REVIEW OF SYSTEMS: No vomiting. No diarrhea. No skin rash. No cyanosis. ",
+            "ner_chunk": "cyanosis",
+            "begin": 288,
+            "end": 295,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9986",
+            "mesh_code": "D003490",
+            "mesh_resolution": "Cyanosis",
+            "mesh_confidence": "0.9995"
+        }
+    ]
+}

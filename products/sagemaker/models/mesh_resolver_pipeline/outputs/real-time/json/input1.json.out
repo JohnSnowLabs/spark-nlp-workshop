@@ -1,0 +1,114 @@
+{
+    "predictions": [
+        {
+            "document": "She was admitted to the hospital with chest pain and found to have bilateral pleural effusion, the right greater than the left. We reviewed the pathology obtained from the pericardectomy in March 2006, which was diagnostic of mesothelioma. At this time, chest tube placement for drainage of the fluid occurred and thoracoscopy with fluid biopsies, which were performed, which revealed malignant mesothelioma.",
+            "ner_chunk": "chest pain",
+            "begin": 38,
+            "end": 47,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9943",
+            "mesh_code": "D002637",
+            "mesh_resolution": "Chest Pain",
+            "mesh_confidence": "0.9854"
+        },
+        {
+            "document": "She was admitted to the hospital with chest pain and found to have bilateral pleural effusion, the right greater than the left. We reviewed the pathology obtained from the pericardectomy in March 2006, which was diagnostic of mesothelioma. At this time, chest tube placement for drainage of the fluid occurred and thoracoscopy with fluid biopsies, which were performed, which revealed malignant mesothelioma.",
+            "ner_chunk": "bilateral pleural effusion",
+            "begin": 67,
+            "end": 92,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9502334",
+            "mesh_code": "D010996",
+            "mesh_resolution": "Pleural Effusion",
+            "mesh_confidence": "0.8587"
+        },
+        {
+            "document": "She was admitted to the hospital with chest pain and found to have bilateral pleural effusion, the right greater than the left. We reviewed the pathology obtained from the pericardectomy in March 2006, which was diagnostic of mesothelioma. At this time, chest tube placement for drainage of the fluid occurred and thoracoscopy with fluid biopsies, which were performed, which revealed malignant mesothelioma.",
+            "ner_chunk": "the pathology",
+            "begin": 140,
+            "end": 152,
+            "ner_label": "TEST",
+            "ner_confidence": "0.44089997",
+            "mesh_code": "D010336",
+            "mesh_resolution": "Pathology",
+            "mesh_confidence": "0.3438"
+        },
+        {
+            "document": "She was admitted to the hospital with chest pain and found to have bilateral pleural effusion, the right greater than the left. We reviewed the pathology obtained from the pericardectomy in March 2006, which was diagnostic of mesothelioma. At this time, chest tube placement for drainage of the fluid occurred and thoracoscopy with fluid biopsies, which were performed, which revealed malignant mesothelioma.",
+            "ner_chunk": "the pericardectomy",
+            "begin": 168,
+            "end": 185,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.9546",
+            "mesh_code": "D010492",
+            "mesh_resolution": "Pericardiectomy",
+            "mesh_confidence": "0.3821"
+        },
+        {
+            "document": "She was admitted to the hospital with chest pain and found to have bilateral pleural effusion, the right greater than the left. We reviewed the pathology obtained from the pericardectomy in March 2006, which was diagnostic of mesothelioma. At this time, chest tube placement for drainage of the fluid occurred and thoracoscopy with fluid biopsies, which were performed, which revealed malignant mesothelioma.",
+            "ner_chunk": "mesothelioma",
+            "begin": 226,
+            "end": 237,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.961",
+            "mesh_code": "D000086002",
+            "mesh_resolution": "Mesothelioma, Malignant",
+            "mesh_confidence": "0.6013"
+        },
+        {
+            "document": "She was admitted to the hospital with chest pain and found to have bilateral pleural effusion, the right greater than the left. We reviewed the pathology obtained from the pericardectomy in March 2006, which was diagnostic of mesothelioma. At this time, chest tube placement for drainage of the fluid occurred and thoracoscopy with fluid biopsies, which were performed, which revealed malignant mesothelioma.",
+            "ner_chunk": "chest tube placement",
+            "begin": 254,
+            "end": 273,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.95446664",
+            "mesh_code": "D015505",
+            "mesh_resolution": "Chest Tubes",
+            "mesh_confidence": "0.8324"
+        },
+        {
+            "document": "She was admitted to the hospital with chest pain and found to have bilateral pleural effusion, the right greater than the left. We reviewed the pathology obtained from the pericardectomy in March 2006, which was diagnostic of mesothelioma. At this time, chest tube placement for drainage of the fluid occurred and thoracoscopy with fluid biopsies, which were performed, which revealed malignant mesothelioma.",
+            "ner_chunk": "drainage of the fluid",
+            "begin": 279,
+            "end": 299,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.746675",
+            "mesh_code": "D004322",
+            "mesh_resolution": "Drainage",
+            "mesh_confidence": "0.2251"
+        },
+        {
+            "document": "She was admitted to the hospital with chest pain and found to have bilateral pleural effusion, the right greater than the left. We reviewed the pathology obtained from the pericardectomy in March 2006, which was diagnostic of mesothelioma. At this time, chest tube placement for drainage of the fluid occurred and thoracoscopy with fluid biopsies, which were performed, which revealed malignant mesothelioma.",
+            "ner_chunk": "thoracoscopy",
+            "begin": 314,
+            "end": 325,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.7614",
+            "mesh_code": "D013906",
+            "mesh_resolution": "Thoracoscopy",
+            "mesh_confidence": "0.9864"
+        },
+        {
+            "document": "She was admitted to the hospital with chest pain and found to have bilateral pleural effusion, the right greater than the left. We reviewed the pathology obtained from the pericardectomy in March 2006, which was diagnostic of mesothelioma. At this time, chest tube placement for drainage of the fluid occurred and thoracoscopy with fluid biopsies, which were performed, which revealed malignant mesothelioma.",
+            "ner_chunk": "fluid biopsies",
+            "begin": 332,
+            "end": 345,
+            "ner_label": "TEST",
+            "ner_confidence": "0.7463",
+            "mesh_code": "D000073890",
+            "mesh_resolution": "Liquid Biopsy",
+            "mesh_confidence": "0.1691"
+        },
+        {
+            "document": "She was admitted to the hospital with chest pain and found to have bilateral pleural effusion, the right greater than the left. We reviewed the pathology obtained from the pericardectomy in March 2006, which was diagnostic of mesothelioma. At this time, chest tube placement for drainage of the fluid occurred and thoracoscopy with fluid biopsies, which were performed, which revealed malignant mesothelioma.",
+            "ner_chunk": "malignant mesothelioma",
+            "begin": 385,
+            "end": 406,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9796",
+            "mesh_code": "D000086002",
+            "mesh_resolution": "Mesothelioma, Malignant",
+            "mesh_confidence": "0.5805"
+        }
+    ]
+}

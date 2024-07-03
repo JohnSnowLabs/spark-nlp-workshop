@@ -1,0 +1,72 @@
+{
+    "rxnorm_predictions": [
+        {
+            "document": "The patient is a 41-year-old Vietnamese female with a cough that started last week.\nShe has had right upper quadrant pain radiating to her back starting yesterday.\nShe has a history of infective pericarditis and gestational diabetes mellitus in May 2006.\nMEDICATIONS\n1. Coumadin 1 mg daily. Last INR was on Tuesday, August 14, 2007, and her INR was 2.3.\n2. Amiodarone 100 mg p.o. daily.",
+            "ner_chunk": "Coumadin",
+            "begin": 270,
+            "end": 277,
+            "ner_label": "DRUG",
+            "ner_confidence": "0.9961",
+            "rxnorm_code": "202421",
+            "rxnorm_resolution": "coumadin [coumadin]",
+            "rxnorm_confidence": "0.9903"
+        },
+        {
+            "document": "The patient is a 41-year-old Vietnamese female with a cough that started last week.\nShe has had right upper quadrant pain radiating to her back starting yesterday.\nShe has a history of infective pericarditis and gestational diabetes mellitus in May 2006.\nMEDICATIONS\n1. Coumadin 1 mg daily. Last INR was on Tuesday, August 14, 2007, and her INR was 2.3.\n2. Amiodarone 100 mg p.o. daily.",
+            "ner_chunk": "Amiodarone",
+            "begin": 357,
+            "end": 366,
+            "ner_label": "DRUG",
+            "ner_confidence": "0.9731",
+            "rxnorm_code": "703",
+            "rxnorm_resolution": "amiodarone [amiodarone]",
+            "rxnorm_confidence": "0.4986"
+        }
+    ],
+    "icd10cm_predictions": [
+        {
+            "document": "The patient is a 41-year-old Vietnamese female with a cough that started last week.\nShe has had right upper quadrant pain radiating to her back starting yesterday.\nShe has a history of infective pericarditis and gestational diabetes mellitus in May 2006.\nMEDICATIONS\n1. Coumadin 1 mg daily. Last INR was on Tuesday, August 14, 2007, and her INR was 2.3.\n2. Amiodarone 100 mg p.o. daily.",
+            "ner_chunk": "a cough",
+            "begin": 52,
+            "end": 58,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9635",
+            "icd10cm_code": "R05",
+            "icd10cm_resolution": "cough [cough]",
+            "icd10cm_confidence": "0.7676"
+        },
+        {
+            "document": "The patient is a 41-year-old Vietnamese female with a cough that started last week.\nShe has had right upper quadrant pain radiating to her back starting yesterday.\nShe has a history of infective pericarditis and gestational diabetes mellitus in May 2006.\nMEDICATIONS\n1. Coumadin 1 mg daily. Last INR was on Tuesday, August 14, 2007, and her INR was 2.3.\n2. Amiodarone 100 mg p.o. daily.",
+            "ner_chunk": "right upper quadrant pain",
+            "begin": 96,
+            "end": 120,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.84590006",
+            "icd10cm_code": "R10.11",
+            "icd10cm_resolution": "right upper quadrant pain [right upper quadrant pain]",
+            "icd10cm_confidence": "0.9623"
+        },
+        {
+            "document": "The patient is a 41-year-old Vietnamese female with a cough that started last week.\nShe has had right upper quadrant pain radiating to her back starting yesterday.\nShe has a history of infective pericarditis and gestational diabetes mellitus in May 2006.\nMEDICATIONS\n1. Coumadin 1 mg daily. Last INR was on Tuesday, August 14, 2007, and her INR was 2.3.\n2. Amiodarone 100 mg p.o. daily.",
+            "ner_chunk": "infective pericarditis",
+            "begin": 185,
+            "end": 206,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.95519996",
+            "icd10cm_code": "I30.1",
+            "icd10cm_resolution": "infective pericarditis [infective pericarditis]",
+            "icd10cm_confidence": "0.9862"
+        },
+        {
+            "document": "The patient is a 41-year-old Vietnamese female with a cough that started last week.\nShe has had right upper quadrant pain radiating to her back starting yesterday.\nShe has a history of infective pericarditis and gestational diabetes mellitus in May 2006.\nMEDICATIONS\n1. Coumadin 1 mg daily. Last INR was on Tuesday, August 14, 2007, and her INR was 2.3.\n2. Amiodarone 100 mg p.o. daily.",
+            "ner_chunk": "gestational diabetes mellitus",
+            "begin": 212,
+            "end": 240,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.95213336",
+            "icd10cm_code": "O24.4",
+            "icd10cm_resolution": "gestational diabetes mellitus [gestational diabetes mellitus]",
+            "icd10cm_confidence": "0.9838"
+        }
+    ]
+}

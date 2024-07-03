@@ -1,0 +1,114 @@
+{
+    "predictions": [
+        {
+            "document": "There was no differentiated component characteristic of adenocarcinoma, acinar cell carcinoma or hepatoid carcinoma of the pancreas. The surgical margins were negative for neoplastic infiltration. There was no evidence of perineural invasion. No lymph node metastasis was shown.",
+            "ner_chunk": "adenocarcinoma",
+            "begin": 56,
+            "end": 69,
+            "ner_label": "Cancer_Dx",
+            "ner_confidence": "0.9998",
+            "ncit_code": "C27813",
+            "ncit_resolution": "adenocarcinoma [adenocarcinoma]",
+            "ncit_confidence": "0.9157"
+        },
+        {
+            "document": "There was no differentiated component characteristic of adenocarcinoma, acinar cell carcinoma or hepatoid carcinoma of the pancreas. The surgical margins were negative for neoplastic infiltration. There was no evidence of perineural invasion. No lymph node metastasis was shown.",
+            "ner_chunk": "acinar cell",
+            "begin": 72,
+            "end": 82,
+            "ner_label": "Histological_Type",
+            "ner_confidence": "0.98889995",
+            "ncit_code": "C13077",
+            "ncit_resolution": "acinar cell [acinar cell]",
+            "ncit_confidence": "0.9381"
+        },
+        {
+            "document": "There was no differentiated component characteristic of adenocarcinoma, acinar cell carcinoma or hepatoid carcinoma of the pancreas. The surgical margins were negative for neoplastic infiltration. There was no evidence of perineural invasion. No lymph node metastasis was shown.",
+            "ner_chunk": "carcinoma",
+            "begin": 84,
+            "end": 92,
+            "ner_label": "Cancer_Dx",
+            "ner_confidence": "0.9992",
+            "ncit_code": "C2916",
+            "ncit_resolution": "carcinoma [carcinoma]",
+            "ncit_confidence": "0.9366"
+        },
+        {
+            "document": "There was no differentiated component characteristic of adenocarcinoma, acinar cell carcinoma or hepatoid carcinoma of the pancreas. The surgical margins were negative for neoplastic infiltration. There was no evidence of perineural invasion. No lymph node metastasis was shown.",
+            "ner_chunk": "hepatoid",
+            "begin": 97,
+            "end": 104,
+            "ner_label": "Histological_Type",
+            "ner_confidence": "0.9959",
+            "ncit_code": "C79753",
+            "ncit_resolution": "hepatocellular [hepatocellular]",
+            "ncit_confidence": "0.1771"
+        },
+        {
+            "document": "There was no differentiated component characteristic of adenocarcinoma, acinar cell carcinoma or hepatoid carcinoma of the pancreas. The surgical margins were negative for neoplastic infiltration. There was no evidence of perineural invasion. No lymph node metastasis was shown.",
+            "ner_chunk": "carcinoma of the pancreas",
+            "begin": 106,
+            "end": 130,
+            "ner_label": "Cancer_Dx",
+            "ner_confidence": "0.86300004",
+            "ncit_code": "C3850",
+            "ncit_resolution": "carcinoma of the pancreas [carcinoma of the pancreas]",
+            "ncit_confidence": "0.8888"
+        },
+        {
+            "document": "There was no differentiated component characteristic of adenocarcinoma, acinar cell carcinoma or hepatoid carcinoma of the pancreas. The surgical margins were negative for neoplastic infiltration. There was no evidence of perineural invasion. No lymph node metastasis was shown.",
+            "ner_chunk": "neoplastic infiltration",
+            "begin": 172,
+            "end": 194,
+            "ner_label": "Invasion",
+            "ner_confidence": "0.63014996",
+            "ncit_code": "C3262",
+            "ncit_resolution": "neoplastic growth [neoplastic growth]",
+            "ncit_confidence": "0.1609"
+        },
+        {
+            "document": "There was no differentiated component characteristic of adenocarcinoma, acinar cell carcinoma or hepatoid carcinoma of the pancreas. The surgical margins were negative for neoplastic infiltration. There was no evidence of perineural invasion. No lymph node metastasis was shown.",
+            "ner_chunk": "perineural",
+            "begin": 222,
+            "end": 231,
+            "ner_label": "Site_Other_Body_Part",
+            "ner_confidence": "0.8878",
+            "ncit_code": "C25615",
+            "ncit_resolution": "perineural [perineural]",
+            "ncit_confidence": "0.9703"
+        },
+        {
+            "document": "There was no differentiated component characteristic of adenocarcinoma, acinar cell carcinoma or hepatoid carcinoma of the pancreas. The surgical margins were negative for neoplastic infiltration. There was no evidence of perineural invasion. No lymph node metastasis was shown.",
+            "ner_chunk": "invasion",
+            "begin": 233,
+            "end": 240,
+            "ner_label": "Invasion",
+            "ner_confidence": "0.9605",
+            "ncit_code": "C20625",
+            "ncit_resolution": "invasion [invasion]",
+            "ncit_confidence": "0.9925"
+        },
+        {
+            "document": "There was no differentiated component characteristic of adenocarcinoma, acinar cell carcinoma or hepatoid carcinoma of the pancreas. The surgical margins were negative for neoplastic infiltration. There was no evidence of perineural invasion. No lymph node metastasis was shown.",
+            "ner_chunk": "lymph node",
+            "begin": 246,
+            "end": 255,
+            "ner_label": "Site_Lymph_Node",
+            "ner_confidence": "0.88265",
+            "ncit_code": "C12745",
+            "ncit_resolution": "lymph node [lymph node]",
+            "ncit_confidence": "0.9066"
+        },
+        {
+            "document": "There was no differentiated component characteristic of adenocarcinoma, acinar cell carcinoma or hepatoid carcinoma of the pancreas. The surgical margins were negative for neoplastic infiltration. There was no evidence of perineural invasion. No lymph node metastasis was shown.",
+            "ner_chunk": "metastasis",
+            "begin": 257,
+            "end": 266,
+            "ner_label": "Metastasis",
+            "ner_confidence": "0.9999",
+            "ncit_code": "C19151",
+            "ncit_resolution": "metastasis [metastasis]",
+            "ncit_confidence": "0.8954"
+        }
+    ]
+}

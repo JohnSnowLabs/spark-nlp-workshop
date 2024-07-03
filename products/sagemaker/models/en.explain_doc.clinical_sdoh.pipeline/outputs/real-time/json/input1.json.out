@@ -1,0 +1,483 @@
+{
+    "ner_predictions": [
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "anxiety",
+            "begin": 46,
+            "end": 52,
+            "ner_label": "Mental_Health",
+            "ner_confidence": "0.9897"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "depression",
+            "begin": 58,
+            "end": 67,
+            "ner_label": "Mental_Health",
+            "ner_confidence": "0.9938"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "quality of life",
+            "begin": 100,
+            "end": 114,
+            "ner_label": "Quality_Of_Life",
+            "ner_confidence": "0.6252"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "childhood trauma",
+            "begin": 143,
+            "end": 158,
+            "ner_label": "Childhood_Event",
+            "ner_confidence": "0.74660003"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "violence",
+            "begin": 171,
+            "end": 178,
+            "ner_label": "Violence_Or_Abuse",
+            "ner_confidence": "0.5394"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "abuse",
+            "begin": 184,
+            "end": 188,
+            "ner_label": "Violence_Or_Abuse",
+            "ner_confidence": "0.6209"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "smoking",
+            "begin": 237,
+            "end": 243,
+            "ner_label": "Smoking",
+            "ner_confidence": "0.9858"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "alcohol",
+            "begin": 246,
+            "end": 252,
+            "ner_label": "Alcohol",
+            "ner_confidence": "0.99"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "substance",
+            "begin": 317,
+            "end": 325,
+            "ner_label": "Substance_Use",
+            "ner_confidence": "0.8144"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "sexual activity",
+            "begin": 334,
+            "end": 348,
+            "ner_label": "Sexual_Activity",
+            "ner_confidence": "0.62915"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "monogamous",
+            "begin": 369,
+            "end": 378,
+            "ner_label": "Sexual_Activity",
+            "ner_confidence": "0.6915"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "wife",
+            "begin": 409,
+            "end": 412,
+            "ner_label": "Family_Member",
+            "ner_confidence": "0.9833"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "immigrant",
+            "begin": 434,
+            "end": 442,
+            "ner_label": "Population_Group",
+            "ner_confidence": "0.9974"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "English",
+            "begin": 455,
+            "end": 461,
+            "ner_label": "Language",
+            "ner_confidence": "0.9979"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "difficulty accessing healthcare",
+            "begin": 498,
+            "end": 528,
+            "ner_label": "Access_To_Care",
+            "ner_confidence": "0.39980003"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "medical insurance",
+            "begin": 545,
+            "end": 561,
+            "ner_label": "Insurance_Status",
+            "ner_confidence": "0.67209995"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "herniated disc",
+            "begin": 574,
+            "end": 587,
+            "ner_label": "Disease_Syndrome_Disorder",
+            "ner_confidence": "0.79104996"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "hypertension",
+            "begin": 590,
+            "end": 601,
+            "ner_label": "Hypertension",
+            "ner_confidence": "0.9984"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "coronary artery disease",
+            "begin": 604,
+            "end": 626,
+            "ner_label": "Heart_Disease",
+            "ner_confidence": "0.8474"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "CAD",
+            "begin": 629,
+            "end": 631,
+            "ner_label": "Heart_Disease",
+            "ner_confidence": "0.9993"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "diabetes mellitus",
+            "begin": 638,
+            "end": 654,
+            "ner_label": "Diabetes",
+            "ner_confidence": "0.98969996"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "manic disorder",
+            "begin": 676,
+            "end": 689,
+            "ner_label": "Mental_Health",
+            "ner_confidence": "0.79289997"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "psychotic",
+            "begin": 705,
+            "end": 713,
+            "ner_label": "Mental_Health",
+            "ner_confidence": "0.9743"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "impulsive behavior",
+            "begin": 725,
+            "end": 742,
+            "ner_label": "Mental_Health",
+            "ner_confidence": "0.41135"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "disabled",
+            "begin": 757,
+            "end": 764,
+            "ner_label": "Disability",
+            "ner_confidence": "0.9999"
+        }
+    ],
+    "assertion_predictions": [
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "anxiety",
+            "begin": 46,
+            "end": 52,
+            "ner_label": "Mental_Health",
+            "assertion": "Present",
+            "assertion_confidence": "0.9664"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "depression",
+            "begin": 58,
+            "end": 67,
+            "ner_label": "Mental_Health",
+            "assertion": "Present",
+            "assertion_confidence": "0.9518"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "childhood trauma",
+            "begin": 143,
+            "end": 158,
+            "ner_label": "Childhood_Event",
+            "assertion": "Past",
+            "assertion_confidence": "0.9769"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "violence",
+            "begin": 171,
+            "end": 178,
+            "ner_label": "Violence_Or_Abuse",
+            "assertion": "Past",
+            "assertion_confidence": "0.9774"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "abuse",
+            "begin": 184,
+            "end": 188,
+            "ner_label": "Violence_Or_Abuse",
+            "assertion": "Past",
+            "assertion_confidence": "0.9352"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "smoking",
+            "begin": 237,
+            "end": 243,
+            "ner_label": "Smoking",
+            "assertion": "Present",
+            "assertion_confidence": "0.8129"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "alcohol",
+            "begin": 246,
+            "end": 252,
+            "ner_label": "Alcohol",
+            "assertion": "Present",
+            "assertion_confidence": "0.8281"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "substance",
+            "begin": 317,
+            "end": 325,
+            "ner_label": "Substance_Use",
+            "assertion": "Absent",
+            "assertion_confidence": "0.9289"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "difficulty accessing healthcare",
+            "begin": 498,
+            "end": 528,
+            "ner_label": "Access_To_Care",
+            "assertion": "Absent",
+            "assertion_confidence": "0.7587"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "medical insurance",
+            "begin": 545,
+            "end": 561,
+            "ner_label": "Insurance_Status",
+            "assertion": "Absent",
+            "assertion_confidence": "0.9458"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "herniated disc",
+            "begin": 574,
+            "end": 587,
+            "ner_label": "Disease_Syndrome_Disorder",
+            "assertion": "Present",
+            "assertion_confidence": "0.9756"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "hypertension",
+            "begin": 590,
+            "end": 601,
+            "ner_label": "Hypertension",
+            "assertion": "Present",
+            "assertion_confidence": "0.9449"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "coronary artery disease",
+            "begin": 604,
+            "end": 626,
+            "ner_label": "Heart_Disease",
+            "assertion": "Present",
+            "assertion_confidence": "0.7876"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "CAD",
+            "begin": 629,
+            "end": 631,
+            "ner_label": "Heart_Disease",
+            "assertion": "Present",
+            "assertion_confidence": "0.7521"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "diabetes mellitus",
+            "begin": 638,
+            "end": 654,
+            "ner_label": "Diabetes",
+            "assertion": "Present",
+            "assertion_confidence": "0.9949"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "manic disorder",
+            "begin": 676,
+            "end": 689,
+            "ner_label": "Mental_Health",
+            "assertion": "Present",
+            "assertion_confidence": "0.9689"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "psychotic",
+            "begin": 705,
+            "end": 713,
+            "ner_label": "Mental_Health",
+            "assertion": "Present",
+            "assertion_confidence": "0.9658"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "impulsive behavior",
+            "begin": 725,
+            "end": 742,
+            "ner_label": "Mental_Health",
+            "assertion": "Present",
+            "assertion_confidence": "0.9463"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk": "disabled",
+            "begin": 757,
+            "end": 764,
+            "ner_label": "Symptom",
+            "assertion": "Present",
+            "assertion_confidence": "0.801"
+        }
+    ],
+    "relation_predictions": [
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk1": "anxiety",
+            "ner_chunk1_begin": "46",
+            "ner_chunk1_end": "52",
+            "ner_label1": "Mental_Health",
+            "ner_chunk2": "quality of life",
+            "ner_chunk2_begin": "100",
+            "ner_chunk2_end": "114",
+            "ner_label2": "Quality_Of_Life",
+            "relations": "Mental_Health-Quality_Of_Life",
+            "relation_confidence": "1.0"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk1": "depression",
+            "ner_chunk1_begin": "58",
+            "ner_chunk1_end": "67",
+            "ner_label1": "Mental_Health",
+            "ner_chunk2": "quality of life",
+            "ner_chunk2_begin": "100",
+            "ner_chunk2_end": "114",
+            "ner_label2": "Quality_Of_Life",
+            "relations": "Mental_Health-Quality_Of_Life",
+            "relation_confidence": "1.0"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk1": "childhood trauma",
+            "ner_chunk1_begin": "143",
+            "ner_chunk1_end": "158",
+            "ner_label1": "Childhood_Event",
+            "ner_chunk2": "violence",
+            "ner_chunk2_begin": "171",
+            "ner_chunk2_end": "178",
+            "ner_label2": "Violence_Or_Abuse",
+            "relations": "Childhood_Event-Violence_Or_Abuse",
+            "relation_confidence": "1.0"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk1": "childhood trauma",
+            "ner_chunk1_begin": "143",
+            "ner_chunk1_end": "158",
+            "ner_label1": "Childhood_Event",
+            "ner_chunk2": "abuse",
+            "ner_chunk2_begin": "184",
+            "ner_chunk2_end": "188",
+            "ner_label2": "Violence_Or_Abuse",
+            "relations": "Childhood_Event-Violence_Or_Abuse",
+            "relation_confidence": "1.0"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk1": "childhood trauma",
+            "ner_chunk1_begin": "143",
+            "ner_chunk1_end": "158",
+            "ner_label1": "Childhood_Event",
+            "ner_chunk2": "alcohol",
+            "ner_chunk2_begin": "246",
+            "ner_chunk2_end": "252",
+            "ner_label2": "Alcohol",
+            "relations": "Childhood_Event-Alcohol",
+            "relation_confidence": "1.0"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk1": "violence",
+            "ner_chunk1_begin": "171",
+            "ner_chunk1_end": "178",
+            "ner_label1": "Violence_Or_Abuse",
+            "ner_chunk2": "alcohol",
+            "ner_chunk2_begin": "246",
+            "ner_chunk2_end": "252",
+            "ner_label2": "Alcohol",
+            "relations": "Violence_Or_Abuse-Alcohol",
+            "relation_confidence": "1.0"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk1": "abuse",
+            "ner_chunk1_begin": "184",
+            "ner_chunk1_end": "188",
+            "ner_label1": "Violence_Or_Abuse",
+            "ner_chunk2": "alcohol",
+            "ner_chunk2_begin": "246",
+            "ner_chunk2_end": "252",
+            "ner_label2": "Alcohol",
+            "relations": "Violence_Or_Abuse-Alcohol",
+            "relation_confidence": "1.0"
+        },
+        {
+            "document": "The patient reported experiencing symptoms of anxiety and depression, which have been affecting his quality of life. \nHe reported a history of childhood trauma related to violence and abuse in his household, which has contributed to his smoking, alcohol use and current mental health struggles. \nHe denied any recent substance use or sexual activity and reported being monogamous in his relationship with his wife. \nThe patient is an immigrant and speaks English as a second language. \nHe reported difficulty accessing healthcare due to lack of medical insurance. \nHe has a herniated disc, hypertension, coronary artery disease (CAD) and diabetes mellitus. \nThe patient has a manic disorder, is presently psychotic and shows impulsive behavior. He has been disabled since 2001.",
+            "ner_chunk1": "immigrant",
+            "ner_chunk1_begin": "434",
+            "ner_chunk1_end": "442",
+            "ner_label1": "Population_Group",
+            "ner_chunk2": "English",
+            "ner_chunk2_begin": "455",
+            "ner_chunk2_end": "461",
+            "ner_label2": "Language",
+            "relations": "Population_Group-Language",
+            "relation_confidence": "1.0"
+        }
+    ]
+}

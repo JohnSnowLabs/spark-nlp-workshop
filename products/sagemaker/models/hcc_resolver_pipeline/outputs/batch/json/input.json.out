@@ -1,0 +1,70 @@
+{
+    "predictions": [
+        {
+            "document": "The patient presents with a history of Hypertension and Hyperlipidemia, which have been managed with medication. Recent lab results indicate elevated cholesterol levels, and the patient reports occasional chest pain.",
+            "ner_chunk": "Hypertension",
+            "begin": 39,
+            "end": 50,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9841",
+            "hcc_code": "0",
+            "hcc_resolution": "hypertension [essential (primary) hypertension]",
+            "hcc_confidence": "1.0000"
+        },
+        {
+            "document": "The patient presents with a history of Hypertension and Hyperlipidemia, which have been managed with medication. Recent lab results indicate elevated cholesterol levels, and the patient reports occasional chest pain.",
+            "ner_chunk": "Hyperlipidemia",
+            "begin": 56,
+            "end": 69,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9989",
+            "hcc_code": "0",
+            "hcc_resolution": "hyperlipidemia [hyperlipidemia, unspecified]",
+            "hcc_confidence": "0.9960"
+        },
+        {
+            "document": "The patient presents with a history of Hypertension and Hyperlipidemia, which have been managed with medication. Recent lab results indicate elevated cholesterol levels, and the patient reports occasional chest pain.",
+            "ner_chunk": "elevated cholesterol levels",
+            "begin": 141,
+            "end": 167,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.89603335",
+            "hcc_code": "0",
+            "hcc_resolution": "serum cholesterol raised [abnormal levels of other serum enzymes]",
+            "hcc_confidence": "1.0000"
+        },
+        {
+            "document": "The patient presents with a history of Hypertension and Hyperlipidemia, which have been managed with medication. Recent lab results indicate elevated cholesterol levels, and the patient reports occasional chest pain.",
+            "ner_chunk": "occasional chest pain",
+            "begin": 194,
+            "end": 214,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.95759994",
+            "hcc_code": "0",
+            "hcc_resolution": "localised chest pain [pain, unspecified]",
+            "hcc_confidence": "0.8106"
+        },
+        {
+            "document": "Upon examination, the patient was found to have signs of Congestive Heart Failure and Atrial Fibrillation. The patient's condition requires immediate attention and an adjustment of their current treatment plan.",
+            "ner_chunk": "Congestive Heart Failure",
+            "begin": 57,
+            "end": 80,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.9709",
+            "hcc_code": "0",
+            "hcc_resolution": "chronic congestive heart failure [right heart failure]",
+            "hcc_confidence": "0.8506"
+        },
+        {
+            "document": "Upon examination, the patient was found to have signs of Congestive Heart Failure and Atrial Fibrillation. The patient's condition requires immediate attention and an adjustment of their current treatment plan.",
+            "ner_chunk": "Atrial Fibrillation",
+            "begin": 86,
+            "end": 104,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.99665",
+            "hcc_code": "0",
+            "hcc_resolution": "atrial fibrillation [unspecified atrial fibrillation and atrial flutter]",
+            "hcc_confidence": "0.9712"
+        }
+    ]
+}

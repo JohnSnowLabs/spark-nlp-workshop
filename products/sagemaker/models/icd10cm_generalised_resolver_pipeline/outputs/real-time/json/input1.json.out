@@ -1,0 +1,92 @@
+{
+    "predictions": [
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection.",
+            "ner_chunk": "gestational diabetes mellitus",
+            "begin": 39,
+            "end": 67,
+            "ner_label": "DIABETES",
+            "ner_confidence": "0.9651",
+            "icd10cm_code": "O24",
+            "icd10cm_resolution": "gestational diabetes mellitus [gestational diabetes mellitus]",
+            "icd10cm_confidence": "0.9915"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection.",
+            "ner_chunk": "type two diabetes mellitus",
+            "begin": 128,
+            "end": 153,
+            "ner_label": "DIABETES",
+            "ner_confidence": "0.93165",
+            "icd10cm_code": "E11",
+            "icd10cm_resolution": "type 2 diabetes mellitus [type 2 diabetes mellitus]",
+            "icd10cm_confidence": "0.8714"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection.",
+            "ner_chunk": "obesity",
+            "begin": 172,
+            "end": 178,
+            "ner_label": "OBESITY",
+            "ner_confidence": "0.8819",
+            "icd10cm_code": "E66",
+            "icd10cm_resolution": "obesity [obesity, unspecified]",
+            "icd10cm_confidence": "0.9540"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection.",
+            "ner_chunk": "polyuria",
+            "begin": 261,
+            "end": 268,
+            "ner_label": "SYMPTOM",
+            "ner_confidence": "0.9734",
+            "icd10cm_code": "R35",
+            "icd10cm_resolution": "polyuria [polyuria]",
+            "icd10cm_confidence": "0.9984"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection.",
+            "ner_chunk": "polydipsia",
+            "begin": 271,
+            "end": 280,
+            "ner_label": "SYMPTOM",
+            "ner_confidence": "0.9948",
+            "icd10cm_code": "R63",
+            "icd10cm_resolution": "polydipsia [polydipsia]",
+            "icd10cm_confidence": "0.9935"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection.",
+            "ner_chunk": "poor appetite",
+            "begin": 283,
+            "end": 295,
+            "ner_label": "SYMPTOM",
+            "ner_confidence": "0.9238",
+            "icd10cm_code": "R63",
+            "icd10cm_resolution": "poor appetite [anorexia]",
+            "icd10cm_confidence": "0.9932"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection.",
+            "ner_chunk": "vomiting",
+            "begin": 302,
+            "end": 309,
+            "ner_label": "SYMPTOM",
+            "ner_confidence": "0.9893",
+            "icd10cm_code": "R11",
+            "icd10cm_resolution": "vomiting [vomiting]",
+            "icd10cm_confidence": "0.9934"
+        },
+        {
+            "document": "A 28-year-old female with a history of gestational diabetes mellitus diagnosed eight years prior to presentation and subsequent type two diabetes mellitus, associated with obesity with a body mass index (BMI) of 33.5 kg/m2, presented with a one-week history of polyuria, polydipsia, poor appetite, and vomiting. Two weeks prior to presentation, she was treated with a five-day course of amoxicillin for a respiratory tract infection.",
+            "ner_chunk": "respiratory tract infection",
+            "begin": 405,
+            "end": 431,
+            "ner_label": "DISEASE_SYNDROME_DISORDER",
+            "ner_confidence": "0.5958667",
+            "icd10cm_code": "J98",
+            "icd10cm_resolution": "respiratory tract infection [other specified respiratory disorders]",
+            "icd10cm_confidence": "0.9885"
+        }
+    ]
+}

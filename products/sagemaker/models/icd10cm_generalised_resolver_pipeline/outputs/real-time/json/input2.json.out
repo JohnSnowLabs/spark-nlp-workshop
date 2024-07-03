@@ -1,0 +1,103 @@
+{
+    "predictions": [
+        {
+            "document": "An 86-year-old female with persistent abdominal pain, nausea and projectile vomiting, during evaluation in the emergency room, was found to have a high amylase, as well as lipase count and she is being admitted for management of unspecified gastrointestinal hemorrhage.",
+            "ner_chunk": "abdominal pain",
+            "begin": 38,
+            "end": 51,
+            "ner_label": "SYMPTOM",
+            "ner_confidence": "0.87450004",
+            "icd10cm_code": "R10",
+            "icd10cm_resolution": "abdominal pain [unspecified abdominal pain]",
+            "icd10cm_confidence": "0.9403"
+        },
+        {
+            "document": "An 86-year-old female with persistent abdominal pain, nausea and projectile vomiting, during evaluation in the emergency room, was found to have a high amylase, as well as lipase count and she is being admitted for management of unspecified gastrointestinal hemorrhage.",
+            "ner_chunk": "nausea",
+            "begin": 54,
+            "end": 59,
+            "ner_label": "SYMPTOM",
+            "ner_confidence": "0.9983",
+            "icd10cm_code": "R11",
+            "icd10cm_resolution": "nausea [nausea]",
+            "icd10cm_confidence": "0.9971"
+        },
+        {
+            "document": "An 86-year-old female with persistent abdominal pain, nausea and projectile vomiting, during evaluation in the emergency room, was found to have a high amylase, as well as lipase count and she is being admitted for management of unspecified gastrointestinal hemorrhage.",
+            "ner_chunk": "vomiting",
+            "begin": 76,
+            "end": 83,
+            "ner_label": "SYMPTOM",
+            "ner_confidence": "0.7588",
+            "icd10cm_code": "R11",
+            "icd10cm_resolution": "vomiting [vomiting]",
+            "icd10cm_confidence": "0.9934"
+        },
+        {
+            "document": "An 86-year-old female with persistent abdominal pain, nausea and projectile vomiting, during evaluation in the emergency room, was found to have a high amylase, as well as lipase count and she is being admitted for management of unspecified gastrointestinal hemorrhage.",
+            "ner_chunk": "gastrointestinal hemorrhage",
+            "begin": 241,
+            "end": 267,
+            "ner_label": "DISEASE_SYNDROME_DISORDER",
+            "ner_confidence": "0.3376",
+            "icd10cm_code": "P54",
+            "icd10cm_resolution": "gastrointestinal hemorrhage [other neonatal gastrointestinal hemorrhage]",
+            "icd10cm_confidence": "0.8982"
+        },
+        {
+            "document": "Complaints of unspecified upper abdominal pain and swelling in a 32-year-old woman led to the evaluation of possible disease of intestine. She had a history of mixed irritable bowel syndrome and congenital lactase deficiency. Several diagnostic tests were performed. Blood tests showed abnormal results of blood chemistry and colonoscopy was performed.",
+            "ner_chunk": "upper abdominal pain",
+            "begin": 26,
+            "end": 45,
+            "ner_label": "SYMPTOM",
+            "ner_confidence": "0.6315",
+            "icd10cm_code": "R10",
+            "icd10cm_resolution": "upper abdominal pain [pain localized to upper abdomen]",
+            "icd10cm_confidence": "0.9516"
+        },
+        {
+            "document": "Complaints of unspecified upper abdominal pain and swelling in a 32-year-old woman led to the evaluation of possible disease of intestine. She had a history of mixed irritable bowel syndrome and congenital lactase deficiency. Several diagnostic tests were performed. Blood tests showed abnormal results of blood chemistry and colonoscopy was performed.",
+            "ner_chunk": "swelling",
+            "begin": 51,
+            "end": 58,
+            "ner_label": "SYMPTOM",
+            "ner_confidence": "0.9757",
+            "icd10cm_code": "R60",
+            "icd10cm_resolution": "swelling [edema, unspecified]",
+            "icd10cm_confidence": "0.9904"
+        },
+        {
+            "document": "Complaints of unspecified upper abdominal pain and swelling in a 32-year-old woman led to the evaluation of possible disease of intestine. She had a history of mixed irritable bowel syndrome and congenital lactase deficiency. Several diagnostic tests were performed. Blood tests showed abnormal results of blood chemistry and colonoscopy was performed.",
+            "ner_chunk": "disease of intestine",
+            "begin": 117,
+            "end": 136,
+            "ner_label": "DISEASE_SYNDROME_DISORDER",
+            "ner_confidence": "0.3015",
+            "icd10cm_code": "K63",
+            "icd10cm_resolution": "disease of intestine [disease of intestine, unspecified]",
+            "icd10cm_confidence": "0.9814"
+        },
+        {
+            "document": "Complaints of unspecified upper abdominal pain and swelling in a 32-year-old woman led to the evaluation of possible disease of intestine. She had a history of mixed irritable bowel syndrome and congenital lactase deficiency. Several diagnostic tests were performed. Blood tests showed abnormal results of blood chemistry and colonoscopy was performed.",
+            "ner_chunk": "mixed irritable bowel syndrome",
+            "begin": 160,
+            "end": 189,
+            "ner_label": "DISEASE_SYNDROME_DISORDER",
+            "ner_confidence": "0.68315005",
+            "icd10cm_code": "K58",
+            "icd10cm_resolution": "mixed irritable bowel syndrome [mixed irritable bowel syndrome]",
+            "icd10cm_confidence": "0.9975"
+        },
+        {
+            "document": "Complaints of unspecified upper abdominal pain and swelling in a 32-year-old woman led to the evaluation of possible disease of intestine. She had a history of mixed irritable bowel syndrome and congenital lactase deficiency. Several diagnostic tests were performed. Blood tests showed abnormal results of blood chemistry and colonoscopy was performed.",
+            "ner_chunk": "congenital lactase deficiency",
+            "begin": 195,
+            "end": 223,
+            "ner_label": "DISEASE_SYNDROME_DISORDER",
+            "ner_confidence": "0.5294333",
+            "icd10cm_code": "E73",
+            "icd10cm_resolution": "congenital lactase deficiency [congenital lactase deficiency]",
+            "icd10cm_confidence": "0.9981"
+        }
+    ]
+}

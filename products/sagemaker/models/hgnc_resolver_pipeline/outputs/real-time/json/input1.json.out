@@ -1,0 +1,59 @@
+{
+    "predictions": [
+        {
+            "document": "During today's consultation, we reviewed the results of the comprehensive genetic analysis performed on the patient. This analysis uncovered complex interactions between several genes: DUX4, DUX4L20, FBXO48, MYOD1, and PAX7. These findings are significant as they provide new understanding of the molecular pathways that are involved in muscle differentiation and may play a role in the development and progression of muscular dystrophies in this patient.",
+            "ner_chunk": "DUX4",
+            "begin": 185,
+            "end": 188,
+            "ner_label": "GENE",
+            "ner_confidence": "0.9697",
+            "hgnc_code": "HGNC:50800",
+            "hgnc_resolution": "DUX4 [double homeobox 4]",
+            "hgnc_confidence": "0.8344"
+        },
+        {
+            "document": "During today's consultation, we reviewed the results of the comprehensive genetic analysis performed on the patient. This analysis uncovered complex interactions between several genes: DUX4, DUX4L20, FBXO48, MYOD1, and PAX7. These findings are significant as they provide new understanding of the molecular pathways that are involved in muscle differentiation and may play a role in the development and progression of muscular dystrophies in this patient.",
+            "ner_chunk": "DUX4L20",
+            "begin": 191,
+            "end": 197,
+            "ner_label": "GENE",
+            "ner_confidence": "0.9412",
+            "hgnc_code": "HGNC:50801",
+            "hgnc_resolution": "DUX4L20 [double homeobox 4 like 20 (pseudogene)]",
+            "hgnc_confidence": "0.9803"
+        },
+        {
+            "document": "During today's consultation, we reviewed the results of the comprehensive genetic analysis performed on the patient. This analysis uncovered complex interactions between several genes: DUX4, DUX4L20, FBXO48, MYOD1, and PAX7. These findings are significant as they provide new understanding of the molecular pathways that are involved in muscle differentiation and may play a role in the development and progression of muscular dystrophies in this patient.",
+            "ner_chunk": "FBXO48",
+            "begin": 200,
+            "end": 205,
+            "ner_label": "GENE",
+            "ner_confidence": "0.9676",
+            "hgnc_code": "HGNC:33857",
+            "hgnc_resolution": "FBXO48 [F-box protein 48]",
+            "hgnc_confidence": "0.9502"
+        },
+        {
+            "document": "During today's consultation, we reviewed the results of the comprehensive genetic analysis performed on the patient. This analysis uncovered complex interactions between several genes: DUX4, DUX4L20, FBXO48, MYOD1, and PAX7. These findings are significant as they provide new understanding of the molecular pathways that are involved in muscle differentiation and may play a role in the development and progression of muscular dystrophies in this patient.",
+            "ner_chunk": "MYOD1",
+            "begin": 208,
+            "end": 212,
+            "ner_label": "GENE",
+            "ner_confidence": "0.9847",
+            "hgnc_code": "HGNC:7611",
+            "hgnc_resolution": "MYOD1 [myogenic differentiation 1]",
+            "hgnc_confidence": "0.9720"
+        },
+        {
+            "document": "During today's consultation, we reviewed the results of the comprehensive genetic analysis performed on the patient. This analysis uncovered complex interactions between several genes: DUX4, DUX4L20, FBXO48, MYOD1, and PAX7. These findings are significant as they provide new understanding of the molecular pathways that are involved in muscle differentiation and may play a role in the development and progression of muscular dystrophies in this patient.",
+            "ner_chunk": "PAX7",
+            "begin": 219,
+            "end": 222,
+            "ner_label": "GENE",
+            "ner_confidence": "0.8536",
+            "hgnc_code": "HGNC:8621",
+            "hgnc_resolution": "PAX7 [paired box 7]",
+            "hgnc_confidence": "0.9927"
+        }
+    ]
+}

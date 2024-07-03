@@ -1,0 +1,169 @@
+{
+    "predictions": [
+        {
+            "document": "The patient is a 40-year-old white male who presents with a chief complaint of \"chest pain\". The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that his chest pain started yesterday evening and has been somewhat intermittent. He has been advised Aspirin 81 milligrams QDay. Humulin N. insulin 50 units in a.m. Hydrochlorothiazide 50 mg QDay. Nitroglycerin 1/150 sublingually PRN chest pain.",
+            "ner_chunk": "Aspirin",
+            "begin": 306,
+            "end": 312,
+            "ner_label": "PROCEDURE",
+            "ner_confidence": "0.9998",
+            "hcpcs_code": "G8598",
+            "hcpcs_resolution": "Aspirin or another antiplatelet therapy used",
+            "hcpcs_confidence": "0.1169"
+        },
+        {
+            "document": "The patient is a 40-year-old white male who presents with a chief complaint of \"chest pain\". The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that his chest pain started yesterday evening and has been somewhat intermittent. He has been advised Aspirin 81 milligrams QDay. Humulin N. insulin 50 units in a.m. Hydrochlorothiazide 50 mg QDay. Nitroglycerin 1/150 sublingually PRN chest pain.",
+            "ner_chunk": "Humulin N",
+            "begin": 334,
+            "end": 342,
+            "ner_label": "PROCEDURE",
+            "ner_confidence": "0.98345",
+            "hcpcs_code": "   TD",
+            "hcpcs_resolution": "Rn",
+            "hcpcs_confidence": "0.3187"
+        },
+        {
+            "document": "The patient is a 40-year-old white male who presents with a chief complaint of \"chest pain\". The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that his chest pain started yesterday evening and has been somewhat intermittent. He has been advised Aspirin 81 milligrams QDay. Humulin N. insulin 50 units in a.m. Hydrochlorothiazide 50 mg QDay. Nitroglycerin 1/150 sublingually PRN chest pain.",
+            "ner_chunk": "insulin",
+            "begin": 345,
+            "end": 351,
+            "ner_label": "PROCEDURE",
+            "ner_confidence": "0.9881",
+            "hcpcs_code": "E0784",
+            "hcpcs_resolution": "External ambulatory infusion pump, insulin",
+            "hcpcs_confidence": "0.2998"
+        },
+        {
+            "document": "The patient is a 40-year-old white male who presents with a chief complaint of \"chest pain\". The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that his chest pain started yesterday evening and has been somewhat intermittent. He has been advised Aspirin 81 milligrams QDay. Humulin N. insulin 50 units in a.m. Hydrochlorothiazide 50 mg QDay. Nitroglycerin 1/150 sublingually PRN chest pain.",
+            "ner_chunk": "Hydrochlorothiazide",
+            "begin": 370,
+            "end": 388,
+            "ner_label": "PROCEDURE",
+            "ner_confidence": "0.9999",
+            "hcpcs_code": "G6057",
+            "hcpcs_resolution": "Phenothiazine",
+            "hcpcs_confidence": "0.2268"
+        },
+        {
+            "document": "The patient is a 40-year-old white male who presents with a chief complaint of \"chest pain\". The patient is diabetic and has a prior history of coronary artery disease. The patient presents today stating that his chest pain started yesterday evening and has been somewhat intermittent. He has been advised Aspirin 81 milligrams QDay. Humulin N. insulin 50 units in a.m. Hydrochlorothiazide 50 mg QDay. Nitroglycerin 1/150 sublingually PRN chest pain.",
+            "ner_chunk": "Nitroglycerin",
+            "begin": 402,
+            "end": 414,
+            "ner_label": "PROCEDURE",
+            "ner_confidence": "0.9999",
+            "hcpcs_code": "G6055",
+            "hcpcs_resolution": "Nicotine",
+            "hcpcs_confidence": "0.5803"
+        },
+        {
+            "document": "Two weeks prior to presentation , she was treated with a five-day course of amoxicillin for a respiratory tract infection . She was on metformin , glipizide , and dapagliflozin for T2DM and atorvastatin and gemfibrozil for HTG . She had been on dapagliflozin for six months at the time of presentation .The patient was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night , 12 units of insulin lispro with meals , and metformin 1000 mg two times a day.",
+            "ner_chunk": "amoxicillin",
+            "begin": 76,
+            "end": 86,
+            "ner_label": "PROCEDURE",
+            "ner_confidence": "0.997",
+            "hcpcs_code": "G9498",
+            "hcpcs_resolution": "Antibiotic regimen prescribed",
+            "hcpcs_confidence": "0.3499"
+        },
+        {
+            "document": "Two weeks prior to presentation , she was treated with a five-day course of amoxicillin for a respiratory tract infection . She was on metformin , glipizide , and dapagliflozin for T2DM and atorvastatin and gemfibrozil for HTG . She had been on dapagliflozin for six months at the time of presentation .The patient was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night , 12 units of insulin lispro with meals , and metformin 1000 mg two times a day.",
+            "ner_chunk": "metformin",
+            "begin": 135,
+            "end": 143,
+            "ner_label": "PROCEDURE",
+            "ner_confidence": "0.9998",
+            "hcpcs_code": "G6054",
+            "hcpcs_resolution": "Methsuximide",
+            "hcpcs_confidence": "0.3279"
+        },
+        {
+            "document": "Two weeks prior to presentation , she was treated with a five-day course of amoxicillin for a respiratory tract infection . She was on metformin , glipizide , and dapagliflozin for T2DM and atorvastatin and gemfibrozil for HTG . She had been on dapagliflozin for six months at the time of presentation .The patient was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night , 12 units of insulin lispro with meals , and metformin 1000 mg two times a day.",
+            "ner_chunk": "glipizide",
+            "begin": 147,
+            "end": 155,
+            "ner_label": "PROCEDURE",
+            "ner_confidence": "0.9999",
+            "hcpcs_code": "G6054",
+            "hcpcs_resolution": "Methsuximide",
+            "hcpcs_confidence": "0.0938"
+        },
+        {
+            "document": "Two weeks prior to presentation , she was treated with a five-day course of amoxicillin for a respiratory tract infection . She was on metformin , glipizide , and dapagliflozin for T2DM and atorvastatin and gemfibrozil for HTG . She had been on dapagliflozin for six months at the time of presentation .The patient was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night , 12 units of insulin lispro with meals , and metformin 1000 mg two times a day.",
+            "ner_chunk": "dapagliflozin",
+            "begin": 163,
+            "end": 175,
+            "ner_label": "PROCEDURE",
+            "ner_confidence": "1.0",
+            "hcpcs_code": "G6034",
+            "hcpcs_resolution": "Doxepin",
+            "hcpcs_confidence": "0.1965"
+        },
+        {
+            "document": "Two weeks prior to presentation , she was treated with a five-day course of amoxicillin for a respiratory tract infection . She was on metformin , glipizide , and dapagliflozin for T2DM and atorvastatin and gemfibrozil for HTG . She had been on dapagliflozin for six months at the time of presentation .The patient was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night , 12 units of insulin lispro with meals , and metformin 1000 mg two times a day.",
+            "ner_chunk": "atorvastatin",
+            "begin": 190,
+            "end": 201,
+            "ner_label": "PROCEDURE",
+            "ner_confidence": "0.9999",
+            "hcpcs_code": "G8598",
+            "hcpcs_resolution": "Aspirin or another antiplatelet therapy used",
+            "hcpcs_confidence": "0.1142"
+        },
+        {
+            "document": "Two weeks prior to presentation , she was treated with a five-day course of amoxicillin for a respiratory tract infection . She was on metformin , glipizide , and dapagliflozin for T2DM and atorvastatin and gemfibrozil for HTG . She had been on dapagliflozin for six months at the time of presentation .The patient was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night , 12 units of insulin lispro with meals , and metformin 1000 mg two times a day.",
+            "ner_chunk": "gemfibrozil",
+            "begin": 207,
+            "end": 217,
+            "ner_label": "PROCEDURE",
+            "ner_confidence": "1.0",
+            "hcpcs_code": "G6054",
+            "hcpcs_resolution": "Methsuximide",
+            "hcpcs_confidence": "0.1202"
+        },
+        {
+            "document": "Two weeks prior to presentation , she was treated with a five-day course of amoxicillin for a respiratory tract infection . She was on metformin , glipizide , and dapagliflozin for T2DM and atorvastatin and gemfibrozil for HTG . She had been on dapagliflozin for six months at the time of presentation .The patient was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night , 12 units of insulin lispro with meals , and metformin 1000 mg two times a day.",
+            "ner_chunk": "dapagliflozin",
+            "begin": 245,
+            "end": 257,
+            "ner_label": "PROCEDURE",
+            "ner_confidence": "0.9999",
+            "hcpcs_code": "G6034",
+            "hcpcs_resolution": "Doxepin",
+            "hcpcs_confidence": "0.1965"
+        },
+        {
+            "document": "Two weeks prior to presentation , she was treated with a five-day course of amoxicillin for a respiratory tract infection . She was on metformin , glipizide , and dapagliflozin for T2DM and atorvastatin and gemfibrozil for HTG . She had been on dapagliflozin for six months at the time of presentation .The patient was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night , 12 units of insulin lispro with meals , and metformin 1000 mg two times a day.",
+            "ner_chunk": "insulin glargine",
+            "begin": 391,
+            "end": 406,
+            "ner_label": "PROCEDURE",
+            "ner_confidence": "0.98969996",
+            "hcpcs_code": "E0784",
+            "hcpcs_resolution": "External ambulatory infusion pump, insulin",
+            "hcpcs_confidence": "0.4655"
+        },
+        {
+            "document": "Two weeks prior to presentation , she was treated with a five-day course of amoxicillin for a respiratory tract infection . She was on metformin , glipizide , and dapagliflozin for T2DM and atorvastatin and gemfibrozil for HTG . She had been on dapagliflozin for six months at the time of presentation .The patient was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night , 12 units of insulin lispro with meals , and metformin 1000 mg two times a day.",
+            "ner_chunk": "insulin lispro",
+            "begin": 431,
+            "end": 444,
+            "ner_label": "PROCEDURE",
+            "ner_confidence": "0.97045004",
+            "hcpcs_code": "E0784",
+            "hcpcs_resolution": "External ambulatory infusion pump, insulin",
+            "hcpcs_confidence": "0.2429"
+        },
+        {
+            "document": "Two weeks prior to presentation , she was treated with a five-day course of amoxicillin for a respiratory tract infection . She was on metformin , glipizide , and dapagliflozin for T2DM and atorvastatin and gemfibrozil for HTG . She had been on dapagliflozin for six months at the time of presentation .The patient was seen by the endocrinology service and she was discharged on 40 units of insulin glargine at night , 12 units of insulin lispro with meals , and metformin 1000 mg two times a day.",
+            "ner_chunk": "metformin",
+            "begin": 463,
+            "end": 471,
+            "ner_label": "PROCEDURE",
+            "ner_confidence": "0.9992",
+            "hcpcs_code": "G6054",
+            "hcpcs_resolution": "Methsuximide",
+            "hcpcs_confidence": "0.3279"
+        }
+    ]
+}
