@@ -103,7 +103,7 @@ If you don't have time to cover all these, please check the following notebook f
 [23.0_Llama2_Transformer_In_SparkNLP.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Public/23.0_Llama2_Transformer_In_SparkNLP.ipynb)
 
 
-# ** ➤ Spark-NLP for Healthcare**
+# **➤ Spark-NLP for Healthcare**
 
 
 ### SparkNLP for Healthcare Overview
@@ -288,6 +288,13 @@ If you don't have time to cover all these, please check the following notebook f
 [14.German_Healthcare_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/14.German_Healthcare_Models.ipynb)
 
 [15.German_Licensed_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/15.German_Licensed_Models.ipynb)
+
+
+# **➤ Applied Generative AI**
+
+
+# **➤ Medical Language Models**
+
 
 ## ☞ Biomedical & Clinical NER Models Benchmarks/ Rankings
 
