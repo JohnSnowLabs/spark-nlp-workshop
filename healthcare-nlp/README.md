@@ -27,6 +27,10 @@ update date: 2023-04-13
 
 [02.1.Scope_window_tuning_assertion_status_detection.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/02.1.Scope_window_tuning_assertion_status_detection.ipynb)
 
+[02.2.FewShot_Assertion_Classifier.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/02.2.FewShot_Assertion_Classifier.ipynb)
+
+[02.3.Contextual_Assertion.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/02.3.Contextual_Assertion.ipynb)
+
 
 ### ➤ Clinical Relation Extraction
 
