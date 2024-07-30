@@ -106,6 +106,8 @@ update date: 2023-04-13
 
 [25.1.Medical_Text_Generation](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/25.1.Medical_Text_Generation.ipynb)
 
+[36.0.Loading_Medical_and_Open_Source_LLMs.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/36.0.Loading_Medical_and_Open_Source_LLMs.ipynb)
+
 
 ### ➤ Topic Based Notebooks
 
@@ -116,6 +118,8 @@ update date: 2023-04-13
 [26.0.Voice_of_Patient_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/26.0.Voice_of_Patient_Models.ipynb)
 
 [27.0.Social_Determinant_of_Health_Models.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/27.0.Social_Determinant_of_Health_Models.ipynb)
+
+[35.0.Analyse_Veterinary_Documents_with_Healthcare_NLP.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/35.0.Analyse_Veterinary_Documents_with_Healthcare_NLP.ipynb)
 
 
 
@@ -182,6 +186,9 @@ update date: 2023-04-13
 [31.0.Structured_Streaming_with_SparkNLP_for_Healthcare.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/31.0.Structured_Streaming_with_SparkNLP_for_Healthcare.ipynb)
 
 [34.0.Clinical_Medication_Use_Case.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/healthcare-nlp/34.0.Clinical_Medication_Use_Case.ipynb)
+
+
+
 
 ## ☞ Biomedical & Clinical NER Models Benchmarks/ Rankings
 
