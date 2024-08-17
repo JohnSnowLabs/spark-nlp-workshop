@@ -1,7 +1,7 @@
 {
     "response": [
-        "Based on the provided context, the patient's concern regarding undergoing radiation therapy for his left temporal lesion appears to be related to potential long-term side effects of the treatment.",
-        "Based on the provided context, the patient experienced sharp pain in his lower back soon after the injury, which then progressed to radiating symptoms down his right buttock all the way down to the lateral part of his leg crossing his knee.",
-        "Based on the provided context, the primary issue reported by the patient is \"worsening of hypertension\"."
+        "Based on the provided context, the patient's concern regarding undergoing radiation therapy for his left temporal lesion appears to be related to potential long-term side effects from treatment.",
+        "Based on the provided context, the patient experienced sharp pain in his lower back, which then radiated down his right buttock all the way down to the lateral part of his leg crossing his knee.",
+        "The primary issue reported by the patient is worsening of hypertension."
     ]
 }
