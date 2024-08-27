@@ -1,8 +1,8 @@
-## Input Format
+### Input Format
 
 To use the model, you need to provide input in one of the following supported formats:
 
-### Format 1: Single Input
+#### Format 1: Single Input
 
 Provide a single input as a JSON object.
 
@@ -21,7 +21,7 @@ Alternatively, you can provide a dictionary containing the keys `context` and `q
 }
 ```
 
-### Format 2: Multiple Inputs
+#### Format 2: Multiple Inputs
 
 Provide multiple inputs as a JSON array.
 
@@ -49,7 +49,7 @@ Alternatively, you can provide an array of dictionaries, where each dictionary c
 **Note**: If you provide dictionaries, you can specify the template as `open_book_qa`. If you don't select any template, it will concatenate both strings with a newline.
 
 
-### Format 3: JSON Lines (JSONL):
+#### Format 3: JSON Lines (JSONL):
 
 Provide input in JSON Lines format, where each line is a JSON object.
 ```
@@ -57,7 +57,7 @@ Provide input in JSON Lines format, where each line is a JSON object.
 {"input_text": "input text 2"}
 ```
 
-## Important Parameters
+### Important Parameters
 
 **Required Parameter:**
 - **`input_text`**: The input text(s) provided to the model.
@@ -65,17 +65,17 @@ Provide input in JSON Lines format, where each line is a JSON object.
   - **Constraints**: Provide a string for a single text or a list of strings for multiple inputs. Additionally, you can also provide a dictionary or a list containing multiple dictionaries with keys `context` and `question`. If you select the `open_book_qa` template, the model will format the input accordingly. If no template is selected, the `context` and `question` strings will be concatenated with a newline.
 
 **Optional Parameters for JSON Input Format:**
-- **`max_new_tokens`**: The maximum number of tokens the model should generate as output. (*Can be passed as an environment variable while deploying the model from the model package.*)
+- **`max_new_tokens`**: The maximum number of tokens the model should generate as output. (*Can be passed as an environment variable when initializing the SageMaker Transformer object for batch inference.*)
   - **Type**: `int`
   - **Default**: `128`
   - **Constraints**: Must be a positive integer greater than 0.
 
-- **`temperature`**: The temperature parameter controlling the randomness of token generation. (*Can be passed as an environment variable while creating a deployable model from the model package.*)
+- **`temperature`**: The temperature parameter controlling the randomness of token generation. (*Can be passed as an environment variable when initializing the SageMaker Transformer object for batch inference.*)
   - **Type**: `float`
   - **Default**: `0.1`
   - **Constraints**: Must be a float between 0.0 and 1.0.
 
-- **`repetition_penalty`**: The repetition penalty parameter that penalizes new tokens based on whether they appear in the prompt and the generated text so far. Values > 1 encourage the model to use new tokens, while values < 1 encourage the model to repeat tokens. (*Can be passed as an environment variable while creating a deployable model from the model package.*)
+- **`repetition_penalty`**: The repetition penalty parameter that penalizes new tokens based on whether they appear in the prompt and the generated text so far. Values > 1 encourage the model to use new tokens, while values < 1 encourage the model to repeat tokens. (*Can be passed as an environment variable when initializing the SageMaker Transformer object for batch inference.*)
   - **Type**: `float`
   - **Default**: `1.0`
   - **Constraints**: Must be a float greater than 0 and less than or equal to 2.
@@ -101,8 +101,7 @@ If no template is provided, we take your `input_text` as it is and do not perfor
 
 > **Parameter Priority**: User-provided parameters are given priority, followed by environment variables, and finally default values.
 
-### Note:
-For JSON Lines input format, **max_new_tokens**, **temperature**, **repetition_penalty**, and **template** are not supported in the input request. You either need to specify these parameters as environment variables when creating the model from the model package, or the default parameters will be used.
+**Note**: For JSON Lines input format, **max_new_tokens**, **temperature**, **repetition_penalty**, and **template** are not supported in the input request. You either need to specify these parameters as environment variables when initializing the SageMaker Transformer object for batch inference, or the default parameters will be used.
 
 ---
 
@@ -125,4 +124,5 @@ Other than the parameters mentioned above, we are utilizing the default paramete
 
 
 Total Memory values are approximate. Usable memory may be slightly less. For pricing details, visit the [Amazon SageMaker pricing page](https://aws.amazon.com/sagemaker/pricing/).
+
 
