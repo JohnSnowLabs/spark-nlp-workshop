@@ -1,430 +1,387 @@
-{
-    "ner_predictions": [
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "feeling really tired",
-            "begin": 11,
-            "end": 30,
-            "ner_label": "Symptom",
-            "ner_confidence": "0.42706665"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "all the time",
-            "begin": 32,
-            "end": 43,
-            "ner_label": "Duration",
-            "ner_confidence": "0.5925"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "losing weight",
-            "begin": 53,
-            "end": 65,
-            "ner_label": "Symptom",
-            "ner_confidence": "0.7063"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "doctor",
-            "begin": 91,
-            "end": 96,
-            "ner_label": "Employment",
-            "ner_confidence": "0.9753"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "sugar levels",
-            "begin": 109,
-            "end": 120,
-            "ner_label": "Test",
-            "ner_confidence": "0.40135002"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "high",
-            "begin": 146,
-            "end": 149,
-            "ner_label": "TestResult",
-            "ner_confidence": "0.8967"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "type 2 diabetes",
-            "begin": 163,
-            "end": 177,
-            "ner_label": "Disease_Syndrome_Disorder",
-            "ner_confidence": "0.98926663"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "He",
-            "begin": 180,
-            "end": 181,
-            "ner_label": "Gender",
-            "ner_confidence": "1.0"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "metformin",
-            "begin": 218,
-            "end": 226,
-            "ner_label": "Drug",
-            "ner_confidence": "0.9863"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "500 mg",
-            "begin": 228,
-            "end": 233,
-            "ner_label": "Strength",
-            "ner_confidence": "0.9979"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "twice a day",
-            "begin": 235,
-            "end": 245,
-            "ner_label": "Frequency",
-            "ner_confidence": "0.92523336"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "glipizide",
-            "begin": 252,
-            "end": 260,
-            "ner_label": "Drug",
-            "ner_confidence": "0.7546"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "5 mg",
-            "begin": 262,
-            "end": 265,
-            "ner_label": "Strength",
-            "ner_confidence": "0.99805"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "before breakfast and dinner",
-            "begin": 267,
-            "end": 293,
-            "ner_label": "Frequency",
-            "ner_confidence": "0.90760005"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "exercise",
-            "begin": 339,
-            "end": 346,
-            "ner_label": "HealthStatus",
-            "ner_confidence": "0.9968"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "Now",
-            "begin": 354,
-            "end": 356,
-            "ner_label": "DateTime",
-            "ner_confidence": "0.9957"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "chronic acid reflux disease",
-            "begin": 371,
-            "end": 397,
-            "ner_label": "Disease_Syndrome_Disorder",
-            "ner_confidence": "0.643025"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "GERD",
-            "begin": 402,
-            "end": 405,
-            "ner_label": "Disease_Syndrome_Disorder",
-            "ner_confidence": "0.9902"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "Now",
-            "begin": 408,
-            "end": 410,
-            "ner_label": "DateTime",
-            "ner_confidence": "0.9939"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "daily",
-            "begin": 419,
-            "end": 423,
-            "ner_label": "Frequency",
-            "ner_confidence": "0.9646"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "omeprazole",
-            "begin": 425,
-            "end": 434,
-            "ner_label": "Drug",
-            "ner_confidence": "0.8521"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "20 mg",
-            "begin": 436,
-            "end": 440,
-            "ner_label": "Strength",
-            "ner_confidence": "0.9994"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "heartburn symptoms",
-            "begin": 457,
-            "end": 474,
-            "ner_label": "Symptom",
-            "ner_confidence": "0.70985"
-        }
-    ],
-    "assertion_predictions": [
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "feeling really tired",
-            "begin": 11,
-            "end": 30,
-            "ner_label": "Symptom",
-            "assertion": "Present_Or_Past",
-            "assertion_confidence": "0.9999"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "losing weight",
-            "begin": 53,
-            "end": 65,
-            "ner_label": "Symptom",
-            "assertion": "Present_Or_Past",
-            "assertion_confidence": "0.9983"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "sugar levels",
-            "begin": 109,
-            "end": 120,
-            "ner_label": "Test",
-            "assertion": "Present_Or_Past",
-            "assertion_confidence": "0.886"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "high",
-            "begin": 146,
-            "end": 149,
-            "ner_label": "TestResult",
-            "assertion": "Present_Or_Past",
-            "assertion_confidence": "0.5596"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "type 2 diabetes",
-            "begin": 163,
-            "end": 177,
-            "ner_label": "Disease_Syndrome_Disorder",
-            "assertion": "Present_Or_Past",
-            "assertion_confidence": "0.5282"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "metformin",
-            "begin": 218,
-            "end": 226,
-            "ner_label": "Drug",
-            "assertion": "Present_Or_Past",
-            "assertion_confidence": "0.958"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "glipizide",
-            "begin": 252,
-            "end": 260,
-            "ner_label": "Drug",
-            "assertion": "Present_Or_Past",
-            "assertion_confidence": "0.8632"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "exercise",
-            "begin": 339,
-            "end": 346,
-            "ner_label": "HealthStatus",
-            "assertion": "Hypothetical_Or_Absent",
-            "assertion_confidence": "0.6934"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "chronic acid reflux disease",
-            "begin": 371,
-            "end": 397,
-            "ner_label": "Disease_Syndrome_Disorder",
-            "assertion": "Present_Or_Past",
-            "assertion_confidence": "1.0"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "GERD",
-            "begin": 402,
-            "end": 405,
-            "ner_label": "Disease_Syndrome_Disorder",
-            "assertion": "Present_Or_Past",
-            "assertion_confidence": "0.9688"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "omeprazole",
-            "begin": 425,
-            "end": 434,
-            "ner_label": "Drug",
-            "assertion": "Present_Or_Past",
-            "assertion_confidence": "0.9925"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk": "heartburn symptoms",
-            "begin": 457,
-            "end": 474,
-            "ner_label": "Symptom",
-            "assertion": "Present_Or_Past",
-            "assertion_confidence": "0.9695"
-        }
-    ],
-    "relation_predictions": [
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk1": "sugar levels",
-            "ner_chunk1_begin": "109",
-            "ner_chunk1_end": "120",
-            "ner_label1": "Test",
-            "ner_chunk2": "high",
-            "ner_chunk2_begin": "146",
-            "ner_chunk2_end": "149",
-            "ner_label2": "TestResult",
-            "relation": "Test-TestResult",
-            "relation_confidence": "1.0"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk1": "metformin",
-            "ner_chunk1_begin": "218",
-            "ner_chunk1_end": "226",
-            "ner_label1": "Drug",
-            "ner_chunk2": "500 mg",
-            "ner_chunk2_begin": "228",
-            "ner_chunk2_end": "233",
-            "ner_label2": "Strength",
-            "relation": "Drug-Strength",
-            "relation_confidence": "1.0"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk1": "metformin",
-            "ner_chunk1_begin": "218",
-            "ner_chunk1_end": "226",
-            "ner_label1": "Drug",
-            "ner_chunk2": "twice a day",
-            "ner_chunk2_begin": "235",
-            "ner_chunk2_end": "245",
-            "ner_label2": "Frequency",
-            "relation": "Drug-Frequency",
-            "relation_confidence": "1.0"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk1": "metformin",
-            "ner_chunk1_begin": "218",
-            "ner_chunk1_end": "226",
-            "ner_label1": "Drug",
-            "ner_chunk2": "glipizide",
-            "ner_chunk2_begin": "252",
-            "ner_chunk2_end": "260",
-            "ner_label2": "Drug",
-            "relation": "Drug-Drug",
-            "relation_confidence": "1.0"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk1": "metformin",
-            "ner_chunk1_begin": "218",
-            "ner_chunk1_end": "226",
-            "ner_label1": "Drug",
-            "ner_chunk2": "5 mg",
-            "ner_chunk2_begin": "262",
-            "ner_chunk2_end": "265",
-            "ner_label2": "Strength",
-            "relation": "Drug-Strength",
-            "relation_confidence": "1.0"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk1": "500 mg",
-            "ner_chunk1_begin": "228",
-            "ner_chunk1_end": "233",
-            "ner_label1": "Strength",
-            "ner_chunk2": "glipizide",
-            "ner_chunk2_begin": "252",
-            "ner_chunk2_end": "260",
-            "ner_label2": "Drug",
-            "relation": "Strength-Drug",
-            "relation_confidence": "1.0"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk1": "glipizide",
-            "ner_chunk1_begin": "252",
-            "ner_chunk1_end": "260",
-            "ner_label1": "Drug",
-            "ner_chunk2": "5 mg",
-            "ner_chunk2_begin": "262",
-            "ner_chunk2_end": "265",
-            "ner_label2": "Strength",
-            "relation": "Drug-Strength",
-            "relation_confidence": "1.0"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk1": "glipizide",
-            "ner_chunk1_begin": "252",
-            "ner_chunk1_end": "260",
-            "ner_label1": "Drug",
-            "ner_chunk2": "before breakfast and dinner",
-            "ner_chunk2_begin": "267",
-            "ner_chunk2_end": "293",
-            "ner_label2": "Frequency",
-            "relation": "Drug-Frequency",
-            "relation_confidence": "1.0"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk1": "daily",
-            "ner_chunk1_begin": "419",
-            "ner_chunk1_end": "423",
-            "ner_label1": "Frequency",
-            "ner_chunk2": "omeprazole",
-            "ner_chunk2_begin": "425",
-            "ner_chunk2_end": "434",
-            "ner_label2": "Drug",
-            "relation": "Frequency-Drug",
-            "relation_confidence": "1.0"
-        },
-        {
-            "document": "I had been feeling really tired all the time and was losing weight without even trying. My doctor checked my sugar levels and they came out to be high. So, I have type 2 diabetes. He put me on two medications - I take metformin 500 mg twice a day, and glipizide 5 mg before breakfast and dinner. I also have to watch what I eat and try to exercise more. Now, I also have chronic acid reflux disease or GERD. Now I take daily omeprazole 20 mg to control the heartburn symptoms.",
-            "ner_chunk1": "omeprazole",
-            "ner_chunk1_begin": "425",
-            "ner_chunk1_end": "434",
-            "ner_label1": "Drug",
-            "ner_chunk2": "20 mg",
-            "ner_chunk2_begin": "436",
-            "ner_chunk2_end": "440",
-            "ner_label2": "Strength",
-            "relation": "Drug-Strength",
-            "relation_confidence": "1.0"
-        }
-    ]
-}
+[
+    {
+        "ner_predictions": [
+            {
+                "ner_chunk": "feeling really tired",
+                "begin": 11,
+                "end": 30,
+                "ner_label": "Symptom",
+                "ner_confidence": "0.42706665"
+            },
+            {
+                "ner_chunk": "all the time",
+                "begin": 32,
+                "end": 43,
+                "ner_label": "Duration",
+                "ner_confidence": "0.5925"
+            },
+            {
+                "ner_chunk": "losing weight",
+                "begin": 53,
+                "end": 65,
+                "ner_label": "Symptom",
+                "ner_confidence": "0.7063"
+            },
+            {
+                "ner_chunk": "doctor",
+                "begin": 91,
+                "end": 96,
+                "ner_label": "Employment",
+                "ner_confidence": "0.9753"
+            },
+            {
+                "ner_chunk": "sugar levels",
+                "begin": 109,
+                "end": 120,
+                "ner_label": "Test",
+                "ner_confidence": "0.40135002"
+            },
+            {
+                "ner_chunk": "high",
+                "begin": 146,
+                "end": 149,
+                "ner_label": "TestResult",
+                "ner_confidence": "0.8967"
+            },
+            {
+                "ner_chunk": "type 2 diabetes",
+                "begin": 163,
+                "end": 177,
+                "ner_label": "Disease_Syndrome_Disorder",
+                "ner_confidence": "0.98926663"
+            },
+            {
+                "ner_chunk": "He",
+                "begin": 180,
+                "end": 181,
+                "ner_label": "Gender",
+                "ner_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "metformin",
+                "begin": 218,
+                "end": 226,
+                "ner_label": "Drug",
+                "ner_confidence": "0.9863"
+            },
+            {
+                "ner_chunk": "500 mg",
+                "begin": 228,
+                "end": 233,
+                "ner_label": "Strength",
+                "ner_confidence": "0.9979"
+            },
+            {
+                "ner_chunk": "twice a day",
+                "begin": 235,
+                "end": 245,
+                "ner_label": "Frequency",
+                "ner_confidence": "0.92523336"
+            },
+            {
+                "ner_chunk": "glipizide",
+                "begin": 252,
+                "end": 260,
+                "ner_label": "Drug",
+                "ner_confidence": "0.7546"
+            },
+            {
+                "ner_chunk": "5 mg",
+                "begin": 262,
+                "end": 265,
+                "ner_label": "Strength",
+                "ner_confidence": "0.99805"
+            },
+            {
+                "ner_chunk": "before breakfast and dinner",
+                "begin": 267,
+                "end": 293,
+                "ner_label": "Frequency",
+                "ner_confidence": "0.90760005"
+            },
+            {
+                "ner_chunk": "exercise",
+                "begin": 339,
+                "end": 346,
+                "ner_label": "HealthStatus",
+                "ner_confidence": "0.9968"
+            },
+            {
+                "ner_chunk": "Now",
+                "begin": 354,
+                "end": 356,
+                "ner_label": "DateTime",
+                "ner_confidence": "0.9957"
+            },
+            {
+                "ner_chunk": "chronic acid reflux disease",
+                "begin": 371,
+                "end": 397,
+                "ner_label": "Disease_Syndrome_Disorder",
+                "ner_confidence": "0.643025"
+            },
+            {
+                "ner_chunk": "GERD",
+                "begin": 402,
+                "end": 405,
+                "ner_label": "Disease_Syndrome_Disorder",
+                "ner_confidence": "0.9902"
+            },
+            {
+                "ner_chunk": "Now",
+                "begin": 408,
+                "end": 410,
+                "ner_label": "DateTime",
+                "ner_confidence": "0.9939"
+            },
+            {
+                "ner_chunk": "daily",
+                "begin": 419,
+                "end": 423,
+                "ner_label": "Frequency",
+                "ner_confidence": "0.9646"
+            },
+            {
+                "ner_chunk": "omeprazole",
+                "begin": 425,
+                "end": 434,
+                "ner_label": "Drug",
+                "ner_confidence": "0.8521"
+            },
+            {
+                "ner_chunk": "20 mg",
+                "begin": 436,
+                "end": 440,
+                "ner_label": "Strength",
+                "ner_confidence": "0.9994"
+            },
+            {
+                "ner_chunk": "heartburn symptoms",
+                "begin": 457,
+                "end": 474,
+                "ner_label": "Symptom",
+                "ner_confidence": "0.70985"
+            }
+        ],
+        "assertion_predictions": [
+            {
+                "ner_chunk": "feeling really tired",
+                "begin": 11,
+                "end": 30,
+                "ner_label": "Symptom",
+                "assertion": "Present_Or_Past",
+                "assertion_confidence": "0.9999"
+            },
+            {
+                "ner_chunk": "losing weight",
+                "begin": 53,
+                "end": 65,
+                "ner_label": "Symptom",
+                "assertion": "Present_Or_Past",
+                "assertion_confidence": "0.9983"
+            },
+            {
+                "ner_chunk": "sugar levels",
+                "begin": 109,
+                "end": 120,
+                "ner_label": "Test",
+                "assertion": "Present_Or_Past",
+                "assertion_confidence": "0.886"
+            },
+            {
+                "ner_chunk": "high",
+                "begin": 146,
+                "end": 149,
+                "ner_label": "TestResult",
+                "assertion": "Present_Or_Past",
+                "assertion_confidence": "0.5596"
+            },
+            {
+                "ner_chunk": "type 2 diabetes",
+                "begin": 163,
+                "end": 177,
+                "ner_label": "Disease_Syndrome_Disorder",
+                "assertion": "Present_Or_Past",
+                "assertion_confidence": "0.5282"
+            },
+            {
+                "ner_chunk": "metformin",
+                "begin": 218,
+                "end": 226,
+                "ner_label": "Drug",
+                "assertion": "Present_Or_Past",
+                "assertion_confidence": "0.958"
+            },
+            {
+                "ner_chunk": "glipizide",
+                "begin": 252,
+                "end": 260,
+                "ner_label": "Drug",
+                "assertion": "Present_Or_Past",
+                "assertion_confidence": "0.8632"
+            },
+            {
+                "ner_chunk": "exercise",
+                "begin": 339,
+                "end": 346,
+                "ner_label": "HealthStatus",
+                "assertion": "Hypothetical_Or_Absent",
+                "assertion_confidence": "0.6934"
+            },
+            {
+                "ner_chunk": "chronic acid reflux disease",
+                "begin": 371,
+                "end": 397,
+                "ner_label": "Disease_Syndrome_Disorder",
+                "assertion": "Present_Or_Past",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "GERD",
+                "begin": 402,
+                "end": 405,
+                "ner_label": "Disease_Syndrome_Disorder",
+                "assertion": "Present_Or_Past",
+                "assertion_confidence": "0.9688"
+            },
+            {
+                "ner_chunk": "omeprazole",
+                "begin": 425,
+                "end": 434,
+                "ner_label": "Drug",
+                "assertion": "Present_Or_Past",
+                "assertion_confidence": "0.9925"
+            },
+            {
+                "ner_chunk": "heartburn symptoms",
+                "begin": 457,
+                "end": 474,
+                "ner_label": "Symptom",
+                "assertion": "Present_Or_Past",
+                "assertion_confidence": "0.9695"
+            }
+        ],
+        "relation_predictions": [
+            {
+                "ner_chunk1": "sugar levels",
+                "ner_chunk1_begin": "109",
+                "ner_chunk1_end": "120",
+                "ner_label1": "Test",
+                "ner_chunk2": "high",
+                "ner_chunk2_begin": "146",
+                "ner_chunk2_end": "149",
+                "ner_label2": "TestResult",
+                "relations": "Test-TestResult",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "metformin",
+                "ner_chunk1_begin": "218",
+                "ner_chunk1_end": "226",
+                "ner_label1": "Drug",
+                "ner_chunk2": "500 mg",
+                "ner_chunk2_begin": "228",
+                "ner_chunk2_end": "233",
+                "ner_label2": "Strength",
+                "relations": "Drug-Strength",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "metformin",
+                "ner_chunk1_begin": "218",
+                "ner_chunk1_end": "226",
+                "ner_label1": "Drug",
+                "ner_chunk2": "twice a day",
+                "ner_chunk2_begin": "235",
+                "ner_chunk2_end": "245",
+                "ner_label2": "Frequency",
+                "relations": "Drug-Frequency",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "metformin",
+                "ner_chunk1_begin": "218",
+                "ner_chunk1_end": "226",
+                "ner_label1": "Drug",
+                "ner_chunk2": "glipizide",
+                "ner_chunk2_begin": "252",
+                "ner_chunk2_end": "260",
+                "ner_label2": "Drug",
+                "relations": "Drug-Drug",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "metformin",
+                "ner_chunk1_begin": "218",
+                "ner_chunk1_end": "226",
+                "ner_label1": "Drug",
+                "ner_chunk2": "5 mg",
+                "ner_chunk2_begin": "262",
+                "ner_chunk2_end": "265",
+                "ner_label2": "Strength",
+                "relations": "Drug-Strength",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "500 mg",
+                "ner_chunk1_begin": "228",
+                "ner_chunk1_end": "233",
+                "ner_label1": "Strength",
+                "ner_chunk2": "glipizide",
+                "ner_chunk2_begin": "252",
+                "ner_chunk2_end": "260",
+                "ner_label2": "Drug",
+                "relations": "Strength-Drug",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "glipizide",
+                "ner_chunk1_begin": "252",
+                "ner_chunk1_end": "260",
+                "ner_label1": "Drug",
+                "ner_chunk2": "5 mg",
+                "ner_chunk2_begin": "262",
+                "ner_chunk2_end": "265",
+                "ner_label2": "Strength",
+                "relations": "Drug-Strength",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "glipizide",
+                "ner_chunk1_begin": "252",
+                "ner_chunk1_end": "260",
+                "ner_label1": "Drug",
+                "ner_chunk2": "before breakfast and dinner",
+                "ner_chunk2_begin": "267",
+                "ner_chunk2_end": "293",
+                "ner_label2": "Frequency",
+                "relations": "Drug-Frequency",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "daily",
+                "ner_chunk1_begin": "419",
+                "ner_chunk1_end": "423",
+                "ner_label1": "Frequency",
+                "ner_chunk2": "omeprazole",
+                "ner_chunk2_begin": "425",
+                "ner_chunk2_end": "434",
+                "ner_label2": "Drug",
+                "relations": "Frequency-Drug",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "omeprazole",
+                "ner_chunk1_begin": "425",
+                "ner_chunk1_end": "434",
+                "ner_label1": "Drug",
+                "ner_chunk2": "20 mg",
+                "ner_chunk2_begin": "436",
+                "ner_chunk2_end": "440",
+                "ner_label2": "Strength",
+                "relations": "Drug-Strength",
+                "relation_confidence": "1.0"
+            }
+        ]
+    }
+]
