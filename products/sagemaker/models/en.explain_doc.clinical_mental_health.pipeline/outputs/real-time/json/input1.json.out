@@ -1,0 +1,1010 @@
+[
+    {
+        "ner_predictions": [
+            {
+                "ner_chunk": "38-year-old",
+                "begin": 17,
+                "end": 27,
+                "ner_label": "Age",
+                "ner_confidence": "0.9997"
+            },
+            {
+                "ner_chunk": "male",
+                "begin": 29,
+                "end": 32,
+                "ner_label": "Gender",
+                "ner_confidence": "0.9998"
+            },
+            {
+                "ner_chunk": "anxiety",
+                "begin": 64,
+                "end": 70,
+                "ner_label": "Mental_Health",
+                "ner_confidence": "0.9849"
+            },
+            {
+                "ner_chunk": "depression",
+                "begin": 76,
+                "end": 85,
+                "ner_label": "Mental_Health",
+                "ner_confidence": "0.9939"
+            },
+            {
+                "ner_chunk": "He",
+                "begin": 111,
+                "end": 112,
+                "ner_label": "Gender",
+                "ner_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "hypertension",
+                "begin": 131,
+                "end": 142,
+                "ner_label": "Disease_Syndrome_Disorder",
+                "ner_confidence": "0.9998"
+            },
+            {
+                "ner_chunk": "generalized anxiety disorder",
+                "begin": 145,
+                "end": 172,
+                "ner_label": "Mental_Health",
+                "ner_confidence": "0.4790667"
+            },
+            {
+                "ner_chunk": "major depressive disorder",
+                "begin": 175,
+                "end": 199,
+                "ner_label": "Mental_Health",
+                "ner_confidence": "0.5729333"
+            },
+            {
+                "ner_chunk": "childhood trauma",
+                "begin": 237,
+                "end": 252,
+                "ner_label": "Childhood_Event",
+                "ner_confidence": "0.77225"
+            },
+            {
+                "ner_chunk": "violence",
+                "begin": 255,
+                "end": 262,
+                "ner_label": "Violence_Or_Abuse",
+                "ner_confidence": "0.813"
+            },
+            {
+                "ner_chunk": "abuse",
+                "begin": 268,
+                "end": 272,
+                "ner_label": "Violence_Or_Abuse",
+                "ner_confidence": "0.6704"
+            },
+            {
+                "ner_chunk": "his",
+                "begin": 281,
+                "end": 283,
+                "ner_label": "Gender",
+                "ner_confidence": "0.749"
+            },
+            {
+                "ner_chunk": "his",
+                "begin": 334,
+                "end": 336,
+                "ner_label": "Gender",
+                "ner_confidence": "0.9665"
+            },
+            {
+                "ner_chunk": "smoking",
+                "begin": 338,
+                "end": 344,
+                "ner_label": "Smoking",
+                "ner_confidence": "0.9931"
+            },
+            {
+                "ner_chunk": "alcohol",
+                "begin": 347,
+                "end": 353,
+                "ner_label": "Alcohol",
+                "ner_confidence": "0.9937"
+            },
+            {
+                "ner_chunk": "cocaine",
+                "begin": 382,
+                "end": 388,
+                "ner_label": "Substance_Use",
+                "ner_confidence": "0.8517"
+            },
+            {
+                "ner_chunk": "marijuana",
+                "begin": 394,
+                "end": 402,
+                "ner_label": "Substance_Use",
+                "ner_confidence": "0.9265"
+            },
+            {
+                "ner_chunk": "His",
+                "begin": 405,
+                "end": 407,
+                "ner_label": "Gender",
+                "ner_confidence": "0.9999"
+            },
+            {
+                "ner_chunk": "anxiety",
+                "begin": 409,
+                "end": 415,
+                "ner_label": "Mental_Health",
+                "ner_confidence": "0.985"
+            },
+            {
+                "ner_chunk": "restlessness",
+                "begin": 446,
+                "end": 457,
+                "ner_label": "Symptom",
+                "ner_confidence": "0.5501"
+            },
+            {
+                "ner_chunk": "irritability",
+                "begin": 460,
+                "end": 471,
+                "ner_label": "Symptom",
+                "ner_confidence": "0.9842"
+            },
+            {
+                "ner_chunk": "muscle tension",
+                "begin": 474,
+                "end": 487,
+                "ner_label": "Symptom",
+                "ner_confidence": "0.8"
+            },
+            {
+                "ner_chunk": "difficulties with concentration",
+                "begin": 494,
+                "end": 524,
+                "ner_label": "Symptom",
+                "ner_confidence": "0.6250334"
+            },
+            {
+                "ner_chunk": "He",
+                "begin": 527,
+                "end": 528,
+                "ner_label": "Gender",
+                "ner_confidence": "0.9999"
+            },
+            {
+                "ner_chunk": "suicidal ideation",
+                "begin": 541,
+                "end": 557,
+                "ner_label": "Mental_Health",
+                "ner_confidence": "0.7736"
+            },
+            {
+                "ner_chunk": "Sleep has been poor",
+                "begin": 560,
+                "end": 578,
+                "ner_label": "Symptom",
+                "ner_confidence": "0.50695"
+            },
+            {
+                "ner_chunk": "appetite decreased",
+                "begin": 584,
+                "end": 601,
+                "ner_label": "Symptom",
+                "ner_confidence": "0.65015"
+            },
+            {
+                "ner_chunk": "sertraline",
+                "begin": 632,
+                "end": 641,
+                "ner_label": "Drug",
+                "ner_confidence": "0.989"
+            },
+            {
+                "ner_chunk": "100 mg",
+                "begin": 643,
+                "end": 648,
+                "ner_label": "Drug_Strength",
+                "ner_confidence": "0.7483"
+            },
+            {
+                "ner_chunk": "daily",
+                "begin": 650,
+                "end": 654,
+                "ner_label": "Frequency",
+                "ner_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "propranolol",
+                "begin": 657,
+                "end": 667,
+                "ner_label": "Drug",
+                "ner_confidence": "0.9985"
+            },
+            {
+                "ner_chunk": "20 mg",
+                "begin": 669,
+                "end": 673,
+                "ner_label": "Drug_Strength",
+                "ner_confidence": "0.7721"
+            },
+            {
+                "ner_chunk": "twice daily",
+                "begin": 675,
+                "end": 685,
+                "ner_label": "Frequency",
+                "ner_confidence": "0.93495"
+            },
+            {
+                "ner_chunk": "lisinopril",
+                "begin": 692,
+                "end": 701,
+                "ner_label": "Drug",
+                "ner_confidence": "0.9998"
+            },
+            {
+                "ner_chunk": "20 mg",
+                "begin": 703,
+                "end": 707,
+                "ner_label": "Drug_Strength",
+                "ner_confidence": "0.8377"
+            },
+            {
+                "ner_chunk": "daily",
+                "begin": 709,
+                "end": 713,
+                "ner_label": "Frequency",
+                "ner_confidence": "1.0"
+            }
+        ],
+        "assertion_predictions": [
+            {
+                "ner_chunk": "anxiety",
+                "begin": 64,
+                "end": 70,
+                "ner_label": "Mental_Health",
+                "assertion": "Present",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "depression",
+                "begin": 76,
+                "end": 85,
+                "ner_label": "Mental_Health",
+                "assertion": "Present",
+                "assertion_confidence": "0.9979"
+            },
+            {
+                "ner_chunk": "hypertension",
+                "begin": 131,
+                "end": 142,
+                "ner_label": "Disease_Syndrome_Disorder",
+                "assertion": "Present",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "generalized anxiety disorder",
+                "begin": 145,
+                "end": 172,
+                "ner_label": "Mental_Health",
+                "assertion": "Present",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "major depressive disorder",
+                "begin": 175,
+                "end": 199,
+                "ner_label": "Mental_Health",
+                "assertion": "Present",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "childhood trauma",
+                "begin": 237,
+                "end": 252,
+                "ner_label": "Childhood_Event",
+                "assertion": "Past",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "violence",
+                "begin": 255,
+                "end": 262,
+                "ner_label": "Violence_Or_Abuse",
+                "assertion": "Past",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "abuse",
+                "begin": 268,
+                "end": 272,
+                "ner_label": "Violence_Or_Abuse",
+                "assertion": "Past",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "smoking",
+                "begin": 338,
+                "end": 344,
+                "ner_label": "Smoking",
+                "assertion": "Hypothetical",
+                "assertion_confidence": "0.767"
+            },
+            {
+                "ner_chunk": "alcohol",
+                "begin": 347,
+                "end": 353,
+                "ner_label": "Alcohol",
+                "assertion": "Hypothetical",
+                "assertion_confidence": "0.6916"
+            },
+            {
+                "ner_chunk": "cocaine",
+                "begin": 382,
+                "end": 388,
+                "ner_label": "Substance_Use",
+                "assertion": "Hypothetical",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "marijuana",
+                "begin": 394,
+                "end": 402,
+                "ner_label": "Substance_Use",
+                "assertion": "Hypothetical",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "anxiety",
+                "begin": 409,
+                "end": 415,
+                "ner_label": "Mental_Health",
+                "assertion": "Present",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "restlessness",
+                "begin": 446,
+                "end": 457,
+                "ner_label": "Symptom",
+                "assertion": "Present",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "irritability",
+                "begin": 460,
+                "end": 471,
+                "ner_label": "Symptom",
+                "assertion": "Present",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "muscle tension",
+                "begin": 474,
+                "end": 487,
+                "ner_label": "Symptom",
+                "assertion": "Present",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "difficulties with concentration",
+                "begin": 494,
+                "end": 524,
+                "ner_label": "Symptom",
+                "assertion": "Present",
+                "assertion_confidence": "0.9984"
+            },
+            {
+                "ner_chunk": "suicidal ideation",
+                "begin": 541,
+                "end": 557,
+                "ner_label": "Mental_Health",
+                "assertion": "Absent",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "Sleep has been poor",
+                "begin": 560,
+                "end": 578,
+                "ner_label": "Symptom",
+                "assertion": "Present",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "appetite decreased",
+                "begin": 584,
+                "end": 601,
+                "ner_label": "Symptom",
+                "assertion": "Present",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "sertraline",
+                "begin": 632,
+                "end": 641,
+                "ner_label": "Drug",
+                "assertion": "Possible",
+                "assertion_confidence": "0.6101"
+            },
+            {
+                "ner_chunk": "propranolol",
+                "begin": 657,
+                "end": 667,
+                "ner_label": "Drug",
+                "assertion": "Planned",
+                "assertion_confidence": "0.5914"
+            },
+            {
+                "ner_chunk": "lisinopril",
+                "begin": 692,
+                "end": 701,
+                "ner_label": "Drug",
+                "assertion": "Planned",
+                "assertion_confidence": "0.9841"
+            }
+        ],
+        "relation_predictions": [
+            {
+                "ner_chunk1": "38-year-old",
+                "ner_chunk1_begin": "17",
+                "ner_chunk1_end": "27",
+                "ner_label1": "Age",
+                "ner_chunk2": "anxiety",
+                "ner_chunk2_begin": "64",
+                "ner_chunk2_end": "70",
+                "ner_label2": "Mental_Health",
+                "relations": "Age-Mental_Health",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "38-year-old",
+                "ner_chunk1_begin": "17",
+                "ner_chunk1_end": "27",
+                "ner_label1": "Age",
+                "ner_chunk2": "depression",
+                "ner_chunk2_begin": "76",
+                "ner_chunk2_end": "85",
+                "ner_label2": "Mental_Health",
+                "relations": "Age-Mental_Health",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "male",
+                "ner_chunk1_begin": "29",
+                "ner_chunk1_end": "32",
+                "ner_label1": "Gender",
+                "ner_chunk2": "anxiety",
+                "ner_chunk2_begin": "64",
+                "ner_chunk2_end": "70",
+                "ner_label2": "Mental_Health",
+                "relations": "Gender-Mental_Health",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "male",
+                "ner_chunk1_begin": "29",
+                "ner_chunk1_end": "32",
+                "ner_label1": "Gender",
+                "ner_chunk2": "depression",
+                "ner_chunk2_begin": "76",
+                "ner_chunk2_end": "85",
+                "ner_label2": "Mental_Health",
+                "relations": "Gender-Mental_Health",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "He",
+                "ner_chunk1_begin": "111",
+                "ner_chunk1_end": "112",
+                "ner_label1": "Gender",
+                "ner_chunk2": "generalized anxiety disorder",
+                "ner_chunk2_begin": "145",
+                "ner_chunk2_end": "172",
+                "ner_label2": "Mental_Health",
+                "relations": "Gender-Mental_Health",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "He",
+                "ner_chunk1_begin": "111",
+                "ner_chunk1_end": "112",
+                "ner_label1": "Gender",
+                "ner_chunk2": "major depressive disorder",
+                "ner_chunk2_begin": "175",
+                "ner_chunk2_end": "199",
+                "ner_label2": "Mental_Health",
+                "relations": "Gender-Mental_Health",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "hypertension",
+                "ner_chunk1_begin": "131",
+                "ner_chunk1_end": "142",
+                "ner_label1": "Disease_Syndrome_Disorder",
+                "ner_chunk2": "generalized anxiety disorder",
+                "ner_chunk2_begin": "145",
+                "ner_chunk2_end": "172",
+                "ner_label2": "Mental_Health",
+                "relations": "Disease_Syndrome_Disorder-Mental_Health",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "hypertension",
+                "ner_chunk1_begin": "131",
+                "ner_chunk1_end": "142",
+                "ner_label1": "Disease_Syndrome_Disorder",
+                "ner_chunk2": "major depressive disorder",
+                "ner_chunk2_begin": "175",
+                "ner_chunk2_end": "199",
+                "ner_label2": "Mental_Health",
+                "relations": "Disease_Syndrome_Disorder-Mental_Health",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "childhood trauma",
+                "ner_chunk1_begin": "237",
+                "ner_chunk1_end": "252",
+                "ner_label1": "Childhood_Event",
+                "ner_chunk2": "violence",
+                "ner_chunk2_begin": "255",
+                "ner_chunk2_end": "262",
+                "ner_label2": "Violence_Or_Abuse",
+                "relations": "Childhood_Event-Violence_Or_Abuse",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "childhood trauma",
+                "ner_chunk1_begin": "237",
+                "ner_chunk1_end": "252",
+                "ner_label1": "Childhood_Event",
+                "ner_chunk2": "abuse",
+                "ner_chunk2_begin": "268",
+                "ner_chunk2_end": "272",
+                "ner_label2": "Violence_Or_Abuse",
+                "relations": "Childhood_Event-Violence_Or_Abuse",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "childhood trauma",
+                "ner_chunk1_begin": "237",
+                "ner_chunk1_end": "252",
+                "ner_label1": "Childhood_Event",
+                "ner_chunk2": "his",
+                "ner_chunk2_begin": "281",
+                "ner_chunk2_end": "283",
+                "ner_label2": "Gender",
+                "relations": "Childhood_Event-Gender",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "violence",
+                "ner_chunk1_begin": "255",
+                "ner_chunk1_end": "262",
+                "ner_label1": "Violence_Or_Abuse",
+                "ner_chunk2": "his",
+                "ner_chunk2_begin": "281",
+                "ner_chunk2_end": "283",
+                "ner_label2": "Gender",
+                "relations": "Violence_Or_Abuse-Gender",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "abuse",
+                "ner_chunk1_begin": "268",
+                "ner_chunk1_end": "272",
+                "ner_label1": "Violence_Or_Abuse",
+                "ner_chunk2": "his",
+                "ner_chunk2_begin": "281",
+                "ner_chunk2_end": "283",
+                "ner_label2": "Gender",
+                "relations": "Violence_Or_Abuse-Gender",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "his",
+                "ner_chunk1_begin": "334",
+                "ner_chunk1_end": "336",
+                "ner_label1": "Gender",
+                "ner_chunk2": "smoking",
+                "ner_chunk2_begin": "338",
+                "ner_chunk2_end": "344",
+                "ner_label2": "Smoking",
+                "relations": "Gender-Smoking",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "his",
+                "ner_chunk1_begin": "334",
+                "ner_chunk1_end": "336",
+                "ner_label1": "Gender",
+                "ner_chunk2": "alcohol",
+                "ner_chunk2_begin": "347",
+                "ner_chunk2_end": "353",
+                "ner_label2": "Alcohol",
+                "relations": "Gender-Alcohol",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "his",
+                "ner_chunk1_begin": "334",
+                "ner_chunk1_end": "336",
+                "ner_label1": "Gender",
+                "ner_chunk2": "cocaine",
+                "ner_chunk2_begin": "382",
+                "ner_chunk2_end": "388",
+                "ner_label2": "Substance_Use",
+                "relations": "Gender-Substance_Use",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "his",
+                "ner_chunk1_begin": "334",
+                "ner_chunk1_end": "336",
+                "ner_label1": "Gender",
+                "ner_chunk2": "marijuana",
+                "ner_chunk2_begin": "394",
+                "ner_chunk2_end": "402",
+                "ner_label2": "Substance_Use",
+                "relations": "Gender-Substance_Use",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "smoking",
+                "ner_chunk1_begin": "338",
+                "ner_chunk1_end": "344",
+                "ner_label1": "Smoking",
+                "ner_chunk2": "cocaine",
+                "ner_chunk2_begin": "382",
+                "ner_chunk2_end": "388",
+                "ner_label2": "Substance_Use",
+                "relations": "Smoking-Substance_Use",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "smoking",
+                "ner_chunk1_begin": "338",
+                "ner_chunk1_end": "344",
+                "ner_label1": "Smoking",
+                "ner_chunk2": "marijuana",
+                "ner_chunk2_begin": "394",
+                "ner_chunk2_end": "402",
+                "ner_label2": "Substance_Use",
+                "relations": "Smoking-Substance_Use",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "alcohol",
+                "ner_chunk1_begin": "347",
+                "ner_chunk1_end": "353",
+                "ner_label1": "Alcohol",
+                "ner_chunk2": "cocaine",
+                "ner_chunk2_begin": "382",
+                "ner_chunk2_end": "388",
+                "ner_label2": "Substance_Use",
+                "relations": "Alcohol-Substance_Use",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "alcohol",
+                "ner_chunk1_begin": "347",
+                "ner_chunk1_end": "353",
+                "ner_label1": "Alcohol",
+                "ner_chunk2": "marijuana",
+                "ner_chunk2_begin": "394",
+                "ner_chunk2_end": "402",
+                "ner_label2": "Substance_Use",
+                "relations": "Alcohol-Substance_Use",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "His",
+                "ner_chunk1_begin": "405",
+                "ner_chunk1_end": "407",
+                "ner_label1": "Gender",
+                "ner_chunk2": "anxiety",
+                "ner_chunk2_begin": "409",
+                "ner_chunk2_end": "415",
+                "ner_label2": "Mental_Health",
+                "relations": "Gender-Mental_Health",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "anxiety",
+                "ner_chunk1_begin": "409",
+                "ner_chunk1_end": "415",
+                "ner_label1": "Mental_Health",
+                "ner_chunk2": "restlessness",
+                "ner_chunk2_begin": "446",
+                "ner_chunk2_end": "457",
+                "ner_label2": "Symptom",
+                "relations": "Mental_Health-Symptom",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "anxiety",
+                "ner_chunk1_begin": "409",
+                "ner_chunk1_end": "415",
+                "ner_label1": "Mental_Health",
+                "ner_chunk2": "irritability",
+                "ner_chunk2_begin": "460",
+                "ner_chunk2_end": "471",
+                "ner_label2": "Symptom",
+                "relations": "Mental_Health-Symptom",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "anxiety",
+                "ner_chunk1_begin": "409",
+                "ner_chunk1_end": "415",
+                "ner_label1": "Mental_Health",
+                "ner_chunk2": "muscle tension",
+                "ner_chunk2_begin": "474",
+                "ner_chunk2_end": "487",
+                "ner_label2": "Symptom",
+                "relations": "Mental_Health-Symptom",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "anxiety",
+                "ner_chunk1_begin": "409",
+                "ner_chunk1_end": "415",
+                "ner_label1": "Mental_Health",
+                "ner_chunk2": "difficulties with concentration",
+                "ner_chunk2_begin": "494",
+                "ner_chunk2_end": "524",
+                "ner_label2": "Symptom",
+                "relations": "Mental_Health-Symptom",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "He",
+                "ner_chunk1_begin": "527",
+                "ner_chunk1_end": "528",
+                "ner_label1": "Gender",
+                "ner_chunk2": "suicidal ideation",
+                "ner_chunk2_begin": "541",
+                "ner_chunk2_end": "557",
+                "ner_label2": "Mental_Health",
+                "relations": "Gender-Mental_Health",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "sertraline",
+                "ner_chunk1_begin": "632",
+                "ner_chunk1_end": "641",
+                "ner_label1": "Drug",
+                "ner_chunk2": "100 mg",
+                "ner_chunk2_begin": "643",
+                "ner_chunk2_end": "648",
+                "ner_label2": "Drug_Strength",
+                "relations": "Drug-Drug_Strength",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "sertraline",
+                "ner_chunk1_begin": "632",
+                "ner_chunk1_end": "641",
+                "ner_label1": "Drug",
+                "ner_chunk2": "daily",
+                "ner_chunk2_begin": "650",
+                "ner_chunk2_end": "654",
+                "ner_label2": "Frequency",
+                "relations": "Drug-Frequency",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "sertraline",
+                "ner_chunk1_begin": "632",
+                "ner_chunk1_end": "641",
+                "ner_label1": "Drug",
+                "ner_chunk2": "propranolol",
+                "ner_chunk2_begin": "657",
+                "ner_chunk2_end": "667",
+                "ner_label2": "Drug",
+                "relations": "Drug-Drug",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "sertraline",
+                "ner_chunk1_begin": "632",
+                "ner_chunk1_end": "641",
+                "ner_label1": "Drug",
+                "ner_chunk2": "20 mg",
+                "ner_chunk2_begin": "669",
+                "ner_chunk2_end": "673",
+                "ner_label2": "Drug_Strength",
+                "relations": "Drug-Drug_Strength",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "sertraline",
+                "ner_chunk1_begin": "632",
+                "ner_chunk1_end": "641",
+                "ner_label1": "Drug",
+                "ner_chunk2": "twice daily",
+                "ner_chunk2_begin": "675",
+                "ner_chunk2_end": "685",
+                "ner_label2": "Frequency",
+                "relations": "Drug-Frequency",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "sertraline",
+                "ner_chunk1_begin": "632",
+                "ner_chunk1_end": "641",
+                "ner_label1": "Drug",
+                "ner_chunk2": "lisinopril",
+                "ner_chunk2_begin": "692",
+                "ner_chunk2_end": "701",
+                "ner_label2": "Drug",
+                "relations": "Drug-Drug",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "sertraline",
+                "ner_chunk1_begin": "632",
+                "ner_chunk1_end": "641",
+                "ner_label1": "Drug",
+                "ner_chunk2": "20 mg",
+                "ner_chunk2_begin": "703",
+                "ner_chunk2_end": "707",
+                "ner_label2": "Drug_Strength",
+                "relations": "Drug-Drug_Strength",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "100 mg",
+                "ner_chunk1_begin": "643",
+                "ner_chunk1_end": "648",
+                "ner_label1": "Drug_Strength",
+                "ner_chunk2": "propranolol",
+                "ner_chunk2_begin": "657",
+                "ner_chunk2_end": "667",
+                "ner_label2": "Drug",
+                "relations": "Drug_Strength-Drug",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "100 mg",
+                "ner_chunk1_begin": "643",
+                "ner_chunk1_end": "648",
+                "ner_label1": "Drug_Strength",
+                "ner_chunk2": "lisinopril",
+                "ner_chunk2_begin": "692",
+                "ner_chunk2_end": "701",
+                "ner_label2": "Drug",
+                "relations": "Drug_Strength-Drug",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "daily",
+                "ner_chunk1_begin": "650",
+                "ner_chunk1_end": "654",
+                "ner_label1": "Frequency",
+                "ner_chunk2": "propranolol",
+                "ner_chunk2_begin": "657",
+                "ner_chunk2_end": "667",
+                "ner_label2": "Drug",
+                "relations": "Frequency-Drug",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "daily",
+                "ner_chunk1_begin": "650",
+                "ner_chunk1_end": "654",
+                "ner_label1": "Frequency",
+                "ner_chunk2": "lisinopril",
+                "ner_chunk2_begin": "692",
+                "ner_chunk2_end": "701",
+                "ner_label2": "Drug",
+                "relations": "Frequency-Drug",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "propranolol",
+                "ner_chunk1_begin": "657",
+                "ner_chunk1_end": "667",
+                "ner_label1": "Drug",
+                "ner_chunk2": "20 mg",
+                "ner_chunk2_begin": "669",
+                "ner_chunk2_end": "673",
+                "ner_label2": "Drug_Strength",
+                "relations": "Drug-Drug_Strength",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "propranolol",
+                "ner_chunk1_begin": "657",
+                "ner_chunk1_end": "667",
+                "ner_label1": "Drug",
+                "ner_chunk2": "twice daily",
+                "ner_chunk2_begin": "675",
+                "ner_chunk2_end": "685",
+                "ner_label2": "Frequency",
+                "relations": "Drug-Frequency",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "propranolol",
+                "ner_chunk1_begin": "657",
+                "ner_chunk1_end": "667",
+                "ner_label1": "Drug",
+                "ner_chunk2": "lisinopril",
+                "ner_chunk2_begin": "692",
+                "ner_chunk2_end": "701",
+                "ner_label2": "Drug",
+                "relations": "Drug-Drug",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "propranolol",
+                "ner_chunk1_begin": "657",
+                "ner_chunk1_end": "667",
+                "ner_label1": "Drug",
+                "ner_chunk2": "20 mg",
+                "ner_chunk2_begin": "703",
+                "ner_chunk2_end": "707",
+                "ner_label2": "Drug_Strength",
+                "relations": "Drug-Drug_Strength",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "propranolol",
+                "ner_chunk1_begin": "657",
+                "ner_chunk1_end": "667",
+                "ner_label1": "Drug",
+                "ner_chunk2": "daily",
+                "ner_chunk2_begin": "709",
+                "ner_chunk2_end": "713",
+                "ner_label2": "Frequency",
+                "relations": "Drug-Frequency",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "20 mg",
+                "ner_chunk1_begin": "669",
+                "ner_chunk1_end": "673",
+                "ner_label1": "Drug_Strength",
+                "ner_chunk2": "lisinopril",
+                "ner_chunk2_begin": "692",
+                "ner_chunk2_end": "701",
+                "ner_label2": "Drug",
+                "relations": "Drug_Strength-Drug",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "twice daily",
+                "ner_chunk1_begin": "675",
+                "ner_chunk1_end": "685",
+                "ner_label1": "Frequency",
+                "ner_chunk2": "lisinopril",
+                "ner_chunk2_begin": "692",
+                "ner_chunk2_end": "701",
+                "ner_label2": "Drug",
+                "relations": "Frequency-Drug",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "lisinopril",
+                "ner_chunk1_begin": "692",
+                "ner_chunk1_end": "701",
+                "ner_label1": "Drug",
+                "ner_chunk2": "20 mg",
+                "ner_chunk2_begin": "703",
+                "ner_chunk2_end": "707",
+                "ner_label2": "Drug_Strength",
+                "relations": "Drug-Drug_Strength",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "lisinopril",
+                "ner_chunk1_begin": "692",
+                "ner_chunk1_end": "701",
+                "ner_label1": "Drug",
+                "ner_chunk2": "daily",
+                "ner_chunk2_begin": "709",
+                "ner_chunk2_end": "713",
+                "ner_label2": "Frequency",
+                "relations": "Drug-Frequency",
+                "relation_confidence": "1.0"
+            }
+        ]
+    }
+]
