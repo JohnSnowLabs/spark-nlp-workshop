@@ -1,0 +1,13 @@
+title: Medical Text Translation (EN-FR)
+short_description: Medical text translation between English (EN) and french (FR).
+  The model supports a maximum input length of 1024 tokens.
+long_description: ''
+models_hub_url: ''
+nlu_ref: ''
+platforms:
+  snowflake:
+    listing_url: ''
+  databricks:
+    listing_url: ''
+  sagemaker:
+    listing_url: ''
