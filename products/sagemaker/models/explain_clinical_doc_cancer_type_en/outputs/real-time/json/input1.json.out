@@ -1,0 +1,650 @@
+[
+    {
+        "ner_predictions": [
+            {
+                "ner_chunk": "man",
+                "begin": 14,
+                "end": 16,
+                "ner_label": "Gender",
+                "ner_confidence": "0.9999"
+            },
+            {
+                "ner_chunk": "45 mm",
+                "begin": 119,
+                "end": 123,
+                "ner_label": "Tumor_Size",
+                "ner_confidence": "0.84795"
+            },
+            {
+                "ner_chunk": "anterior",
+                "begin": 125,
+                "end": 132,
+                "ner_label": "Direction",
+                "ner_confidence": "0.9987"
+            },
+            {
+                "ner_chunk": "mediastinal",
+                "begin": 134,
+                "end": 144,
+                "ner_label": "Site_Other_Body_Part",
+                "ner_confidence": "0.8603"
+            },
+            {
+                "ner_chunk": "mass",
+                "begin": 146,
+                "end": 149,
+                "ner_label": "Tumor_Finding",
+                "ner_confidence": "0.9344"
+            },
+            {
+                "ner_chunk": "chest CT",
+                "begin": 164,
+                "end": 171,
+                "ner_label": "Imaging_Test",
+                "ner_confidence": "0.905"
+            },
+            {
+                "ner_chunk": "electromyography",
+                "begin": 203,
+                "end": 218,
+                "ner_label": "Imaging_Test",
+                "ner_confidence": "0.9887"
+            },
+            {
+                "ner_chunk": "VGCC",
+                "begin": 317,
+                "end": 320,
+                "ner_label": "Biomarker",
+                "ner_confidence": "0.9996"
+            },
+            {
+                "ner_chunk": "cisplatin",
+                "begin": 363,
+                "end": 371,
+                "ner_label": "Chemotherapy",
+                "ner_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "75 mg/m\u00b2",
+                "begin": 373,
+                "end": 380,
+                "ner_label": "Dosage",
+                "ner_confidence": "0.82435"
+            },
+            {
+                "ner_chunk": "day 1",
+                "begin": 385,
+                "end": 389,
+                "ner_label": "Cycle_Day",
+                "ner_confidence": "0.90635"
+            },
+            {
+                "ner_chunk": "etoposide",
+                "begin": 406,
+                "end": 414,
+                "ner_label": "Chemotherapy",
+                "ner_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "100 mg/m\u00b2",
+                "begin": 416,
+                "end": 424,
+                "ner_label": "Dosage",
+                "ner_confidence": "0.8969"
+            },
+            {
+                "ner_chunk": "days 1-3",
+                "begin": 429,
+                "end": 436,
+                "ner_label": "Cycle_Day",
+                "ner_confidence": "0.95264995"
+            },
+            {
+                "ner_chunk": "every 3 weeks",
+                "begin": 448,
+                "end": 460,
+                "ner_label": "Frequency",
+                "ner_confidence": "0.97066665"
+            },
+            {
+                "ner_chunk": "for four cycles",
+                "begin": 462,
+                "end": 476,
+                "ner_label": "Duration",
+                "ner_confidence": "0.5101333"
+            },
+            {
+                "ner_chunk": "video-assisted thoracic surgery",
+                "begin": 481,
+                "end": 511,
+                "ner_label": "Cancer_Surgery",
+                "ner_confidence": "0.6493"
+            },
+            {
+                "ner_chunk": "histopathological",
+                "begin": 522,
+                "end": 538,
+                "ner_label": "Pathology_Test",
+                "ner_confidence": "0.9936"
+            },
+            {
+                "ner_chunk": "small cell lung cancer",
+                "begin": 565,
+                "end": 586,
+                "ner_label": "Carcinoma_Type",
+                "ner_confidence": "0.936925"
+            },
+            {
+                "ner_chunk": "SCLC",
+                "begin": 589,
+                "end": 592,
+                "ner_label": "Cancer_Dx",
+                "ner_confidence": "0.9969"
+            },
+            {
+                "ner_chunk": "lymph node",
+                "begin": 600,
+                "end": 609,
+                "ner_label": "Site_Lymph_Node",
+                "ner_confidence": "0.8727"
+            },
+            {
+                "ner_chunk": "metastases",
+                "begin": 611,
+                "end": 620,
+                "ner_label": "Metastasis",
+                "ner_confidence": "0.9998"
+            },
+            {
+                "ner_chunk": "immunohistochemical analysis",
+                "begin": 627,
+                "end": 654,
+                "ner_label": "Pathology_Test",
+                "ner_confidence": "0.94355"
+            },
+            {
+                "ner_chunk": "positive",
+                "begin": 663,
+                "end": 670,
+                "ner_label": "Biomarker_Result",
+                "ner_confidence": "0.9976"
+            },
+            {
+                "ner_chunk": "AE1/AE3",
+                "begin": 684,
+                "end": 690,
+                "ner_label": "Biomarker",
+                "ner_confidence": "0.9992"
+            },
+            {
+                "ner_chunk": "TTF-1",
+                "begin": 693,
+                "end": 697,
+                "ner_label": "Biomarker",
+                "ner_confidence": "0.9991"
+            },
+            {
+                "ner_chunk": "chromogranin A",
+                "begin": 700,
+                "end": 713,
+                "ner_label": "Biomarker",
+                "ner_confidence": "0.9939"
+            },
+            {
+                "ner_chunk": "synaptophysin",
+                "begin": 720,
+                "end": 732,
+                "ner_label": "Biomarker",
+                "ner_confidence": "0.9982"
+            },
+            {
+                "ner_chunk": "pulmonary",
+                "begin": 746,
+                "end": 754,
+                "ner_label": "Site_Lung",
+                "ner_confidence": "0.9965"
+            },
+            {
+                "ner_chunk": "nodule",
+                "begin": 756,
+                "end": 761,
+                "ner_label": "Tumor_Finding",
+                "ner_confidence": "0.9745"
+            },
+            {
+                "ner_chunk": "left",
+                "begin": 770,
+                "end": 773,
+                "ner_label": "Direction",
+                "ner_confidence": "0.9994"
+            },
+            {
+                "ner_chunk": "upper lobe",
+                "begin": 775,
+                "end": 784,
+                "ner_label": "Site_Lung",
+                "ner_confidence": "0.4669"
+            },
+            {
+                "ner_chunk": "disappeared",
+                "begin": 786,
+                "end": 796,
+                "ner_label": "Response_To_Treatment",
+                "ner_confidence": "0.9132"
+            },
+            {
+                "ner_chunk": "FDG-PET/CT",
+                "begin": 803,
+                "end": 812,
+                "ner_label": "Imaging_Test",
+                "ner_confidence": "0.9197"
+            },
+            {
+                "ner_chunk": "primary lesions",
+                "begin": 839,
+                "end": 853,
+                "ner_label": "Tumor_Finding",
+                "ner_confidence": "0.77845"
+            },
+            {
+                "ner_chunk": "metastases",
+                "begin": 858,
+                "end": 867,
+                "ner_label": "Metastasis",
+                "ner_confidence": "0.9996"
+            }
+        ],
+        "assertion_predictions": [
+            {
+                "ner_chunk": "mass",
+                "begin": 146,
+                "end": 149,
+                "ner_label": "Tumor_Finding",
+                "assertion": "Present",
+                "assertion_confidence": "0.9959"
+            },
+            {
+                "ner_chunk": "VGCC",
+                "begin": 317,
+                "end": 320,
+                "ner_label": "Biomarker",
+                "assertion": "Present",
+                "assertion_confidence": "0.9999"
+            },
+            {
+                "ner_chunk": "cisplatin",
+                "begin": 363,
+                "end": 371,
+                "ner_label": "Chemotherapy",
+                "assertion": "Past",
+                "assertion_confidence": "0.9001"
+            },
+            {
+                "ner_chunk": "etoposide",
+                "begin": 406,
+                "end": 414,
+                "ner_label": "Chemotherapy",
+                "assertion": "Present",
+                "assertion_confidence": "0.793"
+            },
+            {
+                "ner_chunk": "for four cycles",
+                "begin": 462,
+                "end": 476,
+                "ner_label": "Duration",
+                "assertion": "Present",
+                "assertion_confidence": "0.6795"
+            },
+            {
+                "ner_chunk": "video-assisted thoracic surgery",
+                "begin": 481,
+                "end": 511,
+                "ner_label": "Cancer_Surgery",
+                "assertion": "Past",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "small cell lung cancer",
+                "begin": 565,
+                "end": 586,
+                "ner_label": "Carcinoma_Type",
+                "assertion": "Present",
+                "assertion_confidence": "0.9988"
+            },
+            {
+                "ner_chunk": "SCLC",
+                "begin": 589,
+                "end": 592,
+                "ner_label": "Carcinoma_Type",
+                "assertion": "Present",
+                "assertion_confidence": "0.999"
+            },
+            {
+                "ner_chunk": "metastases",
+                "begin": 611,
+                "end": 620,
+                "ner_label": "Metastasis",
+                "assertion": "Present",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "AE1/AE3",
+                "begin": 684,
+                "end": 690,
+                "ner_label": "Biomarker",
+                "assertion": "Present",
+                "assertion_confidence": "0.9999"
+            },
+            {
+                "ner_chunk": "TTF-1",
+                "begin": 693,
+                "end": 697,
+                "ner_label": "Biomarker",
+                "assertion": "Present",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "chromogranin A",
+                "begin": 700,
+                "end": 713,
+                "ner_label": "Biomarker",
+                "assertion": "Present",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "synaptophysin",
+                "begin": 720,
+                "end": 732,
+                "ner_label": "Biomarker",
+                "assertion": "Present",
+                "assertion_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "nodule",
+                "begin": 756,
+                "end": 761,
+                "ner_label": "Tumor_Finding",
+                "assertion": "Present",
+                "assertion_confidence": "0.9904"
+            },
+            {
+                "ner_chunk": "disappeared",
+                "begin": 786,
+                "end": 796,
+                "ner_label": "Response_To_Treatment",
+                "assertion": "Present",
+                "assertion_confidence": "0.9852"
+            },
+            {
+                "ner_chunk": "primary lesions",
+                "begin": 839,
+                "end": 853,
+                "ner_label": "Tumor_Finding",
+                "assertion": "Absent",
+                "assertion_confidence": "0.9987"
+            },
+            {
+                "ner_chunk": "metastases",
+                "begin": 858,
+                "end": 867,
+                "ner_label": "Metastasis",
+                "assertion": "Absent",
+                "assertion_confidence": "0.9996"
+            }
+        ],
+        "relation_predictions": [
+            {
+                "ner_chunk1": "cisplatin",
+                "ner_chunk1_begin": "363",
+                "ner_chunk1_end": "371",
+                "ner_label1": "Chemotherapy",
+                "ner_chunk2": "75 mg/m\u00b2",
+                "ner_chunk2_begin": "373",
+                "ner_chunk2_end": "380",
+                "ner_label2": "Dosage",
+                "relations": "Chemotherapy-Dosage",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "cisplatin",
+                "ner_chunk1_begin": "363",
+                "ner_chunk1_end": "371",
+                "ner_label1": "Chemotherapy",
+                "ner_chunk2": "day 1",
+                "ner_chunk2_begin": "385",
+                "ner_chunk2_end": "389",
+                "ner_label2": "Cycle_Day",
+                "relations": "Chemotherapy-Cycle_Day",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "cisplatin",
+                "ner_chunk1_begin": "363",
+                "ner_chunk1_end": "371",
+                "ner_label1": "Chemotherapy",
+                "ner_chunk2": "100 mg/m\u00b2",
+                "ner_chunk2_begin": "416",
+                "ner_chunk2_end": "424",
+                "ner_label2": "Dosage",
+                "relations": "Chemotherapy-Dosage",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "cisplatin",
+                "ner_chunk1_begin": "363",
+                "ner_chunk1_end": "371",
+                "ner_label1": "Chemotherapy",
+                "ner_chunk2": "days 1-3",
+                "ner_chunk2_begin": "429",
+                "ner_chunk2_end": "436",
+                "ner_label2": "Cycle_Day",
+                "relations": "Chemotherapy-Cycle_Day",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "75 mg/m\u00b2",
+                "ner_chunk1_begin": "373",
+                "ner_chunk1_end": "380",
+                "ner_label1": "Dosage",
+                "ner_chunk2": "etoposide",
+                "ner_chunk2_begin": "406",
+                "ner_chunk2_end": "414",
+                "ner_label2": "Chemotherapy",
+                "relations": "Dosage-Chemotherapy",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "day 1",
+                "ner_chunk1_begin": "385",
+                "ner_chunk1_end": "389",
+                "ner_label1": "Cycle_Day",
+                "ner_chunk2": "etoposide",
+                "ner_chunk2_begin": "406",
+                "ner_chunk2_end": "414",
+                "ner_label2": "Chemotherapy",
+                "relations": "Cycle_Day-Chemotherapy",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "etoposide",
+                "ner_chunk1_begin": "406",
+                "ner_chunk1_end": "414",
+                "ner_label1": "Chemotherapy",
+                "ner_chunk2": "100 mg/m\u00b2",
+                "ner_chunk2_begin": "416",
+                "ner_chunk2_end": "424",
+                "ner_label2": "Dosage",
+                "relations": "Chemotherapy-Dosage",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "etoposide",
+                "ner_chunk1_begin": "406",
+                "ner_chunk1_end": "414",
+                "ner_label1": "Chemotherapy",
+                "ner_chunk2": "days 1-3",
+                "ner_chunk2_begin": "429",
+                "ner_chunk2_end": "436",
+                "ner_label2": "Cycle_Day",
+                "relations": "Chemotherapy-Cycle_Day",
+                "relation_confidence": "1.0"
+            },
+            {
+                "ner_chunk1": "45 mm",
+                "ner_chunk1_begin": "119",
+                "ner_chunk1_end": "123",
+                "ner_label1": "Tumor_Size",
+                "ner_chunk2": "mass",
+                "ner_chunk2_begin": "146",
+                "ner_chunk2_end": "149",
+                "ner_label2": "Tumor_Finding",
+                "relations": "is_size_of",
+                "relation_confidence": "0.96841204"
+            },
+            {
+                "ner_chunk1": "mediastinal",
+                "ner_chunk1_begin": "134",
+                "ner_chunk1_end": "144",
+                "ner_label1": "Site_Other_Body_Part",
+                "ner_chunk2": "mass",
+                "ner_chunk2_begin": "146",
+                "ner_chunk2_end": "149",
+                "ner_label2": "Tumor_Finding",
+                "relations": "is_location_of",
+                "relation_confidence": "0.929259"
+            },
+            {
+                "ner_chunk1": "video-assisted thoracic surgery",
+                "ner_chunk1_begin": "481",
+                "ner_chunk1_end": "511",
+                "ner_label1": "Cancer_Surgery",
+                "ner_chunk2": "SCLC",
+                "ner_chunk2_begin": "589",
+                "ner_chunk2_end": "592",
+                "ner_label2": "Cancer_Dx",
+                "relations": "O",
+                "relation_confidence": "0.7123487"
+            },
+            {
+                "ner_chunk1": "histopathological",
+                "ner_chunk1_begin": "522",
+                "ner_chunk1_end": "538",
+                "ner_label1": "Pathology_Test",
+                "ner_chunk2": "SCLC",
+                "ner_chunk2_begin": "589",
+                "ner_chunk2_end": "592",
+                "ner_label2": "Cancer_Dx",
+                "relations": "is_finding_of",
+                "relation_confidence": "0.7382082"
+            },
+            {
+                "ner_chunk1": "SCLC",
+                "ner_chunk1_begin": "589",
+                "ner_chunk1_end": "592",
+                "ner_label1": "Cancer_Dx",
+                "ner_chunk2": "lymph node",
+                "ner_chunk2_begin": "600",
+                "ner_chunk2_end": "609",
+                "ner_label2": "Site_Lymph_Node",
+                "relations": "O",
+                "relation_confidence": "0.9569611"
+            },
+            {
+                "ner_chunk1": "positive",
+                "ner_chunk1_begin": "663",
+                "ner_chunk1_end": "670",
+                "ner_label1": "Biomarker_Result",
+                "ner_chunk2": "AE1/AE3",
+                "ner_chunk2_begin": "684",
+                "ner_chunk2_end": "690",
+                "ner_label2": "Biomarker",
+                "relations": "is_finding_of",
+                "relation_confidence": "0.9118767"
+            },
+            {
+                "ner_chunk1": "positive",
+                "ner_chunk1_begin": "663",
+                "ner_chunk1_end": "670",
+                "ner_label1": "Biomarker_Result",
+                "ner_chunk2": "TTF-1",
+                "ner_chunk2_begin": "693",
+                "ner_chunk2_end": "697",
+                "ner_label2": "Biomarker",
+                "relations": "is_finding_of",
+                "relation_confidence": "0.9033633"
+            },
+            {
+                "ner_chunk1": "positive",
+                "ner_chunk1_begin": "663",
+                "ner_chunk1_end": "670",
+                "ner_label1": "Biomarker_Result",
+                "ner_chunk2": "chromogranin A",
+                "ner_chunk2_begin": "700",
+                "ner_chunk2_end": "713",
+                "ner_label2": "Biomarker",
+                "relations": "is_finding_of",
+                "relation_confidence": "0.88598865"
+            },
+            {
+                "ner_chunk1": "positive",
+                "ner_chunk1_begin": "663",
+                "ner_chunk1_end": "670",
+                "ner_label1": "Biomarker_Result",
+                "ner_chunk2": "synaptophysin",
+                "ner_chunk2_begin": "720",
+                "ner_chunk2_end": "732",
+                "ner_label2": "Biomarker",
+                "relations": "is_finding_of",
+                "relation_confidence": "0.7201675"
+            },
+            {
+                "ner_chunk1": "pulmonary",
+                "ner_chunk1_begin": "746",
+                "ner_chunk1_end": "754",
+                "ner_label1": "Site_Lung",
+                "ner_chunk2": "nodule",
+                "ner_chunk2_begin": "756",
+                "ner_chunk2_end": "761",
+                "ner_label2": "Tumor_Finding",
+                "relations": "is_location_of",
+                "relation_confidence": "0.9324136"
+            },
+            {
+                "ner_chunk1": "pulmonary",
+                "ner_chunk1_begin": "746",
+                "ner_chunk1_end": "754",
+                "ner_label1": "Site_Lung",
+                "ner_chunk2": "primary lesions",
+                "ner_chunk2_begin": "839",
+                "ner_chunk2_end": "853",
+                "ner_label2": "Tumor_Finding",
+                "relations": "O",
+                "relation_confidence": "0.9877203"
+            },
+            {
+                "ner_chunk1": "nodule",
+                "ner_chunk1_begin": "756",
+                "ner_chunk1_end": "761",
+                "ner_label1": "Tumor_Finding",
+                "ner_chunk2": "upper lobe",
+                "ner_chunk2_begin": "775",
+                "ner_chunk2_end": "784",
+                "ner_label2": "Site_Lung",
+                "relations": "is_location_of",
+                "relation_confidence": "0.9326239"
+            },
+            {
+                "ner_chunk1": "upper lobe",
+                "ner_chunk1_begin": "775",
+                "ner_chunk1_end": "784",
+                "ner_label1": "Site_Lung",
+                "ner_chunk2": "primary lesions",
+                "ner_chunk2_begin": "839",
+                "ner_chunk2_end": "853",
+                "ner_label2": "Tumor_Finding",
+                "relations": "O",
+                "relation_confidence": "0.9699064"
+            }
+        ]
+    }
+]
