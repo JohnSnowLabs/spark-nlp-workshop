@@ -101,7 +101,6 @@ If no template is provided, we take your `input_text` as it is and do not perfor
 
 > **Parameter Priority**: User-provided parameters are given priority, followed by environment variables, and finally default values.
 
-**Note**: For JSON Lines input format, **max_new_tokens**, **temperature**, **repetition_penalty**, and **template** are not supported in the input request. You either need to specify these parameters as environment variables when initializing the SageMaker Transformer object for batch inference, or the default parameters will be used.
 
 ---
 
@@ -124,5 +123,4 @@ Other than the parameters mentioned above, we are utilizing the default paramete
 
 
 Total Memory values are approximate. Usable memory may be slightly less. For pricing details, visit the [Amazon SageMaker pricing page](https://aws.amazon.com/sagemaker/pricing/).
-
 
