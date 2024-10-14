@@ -1,83 +1,67 @@
 ## Output Format
 
-### JSON Format
+
+## JSON Format
 
 ```json
 {
     "predictions": [
-        {
-            "document": "Text of the document 1",
-            "ner_chunk": "Named Entity 1",
-            "begin": Start Index,
-            "end": End Index,
-            "ner_label": "Label 1",
-            "ner_confidence": Score,
-            "hpo_code": code,
-            "hpo_resolution": "resolved text",
-            "hpo_confidence": Score,
-            "aux_labels": "other codes"
-        },
-        {
-            "document": "Text of the document 1",
-            "ner_chunk": "Named Entity 2",
-            "begin": Start Index,
-            "end": End Index,
-            "ner_label": "Label 2",
-            "ner_confidence": Score,
-            "hpo_code": code,
-            "hpo_resolution": "resolved text",
-            "hpo_confidence": Score,
-            "aux_labels": "other codes"
-        },
-
-        {
-            "document": "Text of the document 2",
-            "ner_chunk": "Named Entity 1",
-            "begin": Start Index,
-            "end": End Index,
-            "ner_label": "Label 2",
-            "ner_confidence": Score,
-            "hpo_code": code,
-            "hpo_resolution": "resolved text",
-            "hpo_confidence": Score,
-            "aux_labels": "other codes"
-        },
-        ...
+        [
+            {
+                "ner_chunk": "Named entity chunk",
+                "begin": Start_Index,
+                "end": End_Index,
+                "ner_label": "Label",
+                "ner_confidence": "Confidence_Score",
+                "code": "Code",
+                "resolution": "Resolution",
+                "all_k_codes": "Code1:::Code2:::Code3:::...",
+                "all_k_resolutions": "Resolution1:::Resolution2:::Resolution3:::...",
+                "all_k_distances": "Distance1:::Distance2:::Distance3:::...",
+                "all_k_aux_labels": "aux_label1||aux_label2||aux_label3||aux_label4:::...",
+            },
+            {
+                "ner_chunk": "Named entity chunk",
+                "begin": Start_Index,
+                "end": End_Index,
+                "ner_label": "Label",
+                "ner_confidence": "Confidence_Score",
+                "code": "Code",
+                "resolution": "Resolution",
+                "all_k_codes": "Code1:::Code2:::Code3:::...",
+                "all_k_resolutions": "Resolution1:::Resolution2:::Resolution3:::...",
+                "all_k_distances": "Distance1:::Distance2:::Distance3:::...",
+                "all_k_aux_labels": "aux_label1||aux_label2||aux_label3||aux_label4:::...",
+            }
+            // Additional predictions for input 1...
+        ],
+         // Additional predictions for other inputs...
     ]
 }
 
-
 ```
-
-#### Explanation of Fields
-
-- **predictions**: An array containing predictions for each input document.
-
-    - **document**: The original input text for which predictions are made.
-
-    - **ner_chunk**: Named entity recognized in the document.
-
-    - **begin**: Starting character index of the named entity chunk within the document.
-
-    - **end**: Ending character index of the named entity chunk within the document.
-
-    - **ner_label**: Label assigned to the named entity.
-
-    - **ner_confidence**: Confidence score associated with Named Entity Recognition.
-
-    - **hpo_code**: HPO code associated with the prediction.
-
-    - **hpo_resolution**: This field shows the most similar term found in the HPO taxonomy.
-
-    - **hpo_confidence**: Confidence score associated with the HPO code.
-
-    - **aux_labels**: Other associated codes (MeSH, SNOMED, UMLS, ORPHA, OMIM) for the corresponding HPO code.
 
 
 ### JSON Lines (JSONL) Format
 
 ```
-{"predictions": [{"ner_chunk": "Named Entity 1", "begin": Start Index, "end": End Index, "ner_label": "Label 1", "ner_confidence": Score, "hpo_code": code, "hpo_resolution": "resolved text", "hpo_confidence": Score, "aux_labels": "other codes"}, {"ner_chunk": "Named Entity 2", "begin": Start Index, "end": End Index, "ner_label": "Label 2", "ner_confidence": Score, "hpo_code": code, "hpo_resolution": "resolved text", "hpo_confidence": Score, "aux_labels": "other codes"}, ...]}
+{"predictions": [{"ner_chunk": "Named entity chunk", "begin": Start_Index, "end": End_Index, "ner_label": "Label", "ner_confidence": "Confidence_Score", "code": "Code", "resolution": "Resolution", "all_k_codes": "Code1:::Code2:::Code3:::...", "all_k_resolutions": "Resolution1:::Resolution2:::Resolution3:::...", "all_k_distances": "Distance1:::Distance2:::Distance3:::...", "all_k_aux_labels": "aux_label1||aux_label2||aux_label3||aux_label4:::..."}, ...]}
+{"predictions": [{"ner_chunk": "Named entity chunk", "begin": Start_Index, "end": End_Index, "ner_label": "Label", "ner_confidence": "Confidence_Score", "code": "Code", "resolution": "Resolution", "all_k_codes": "Code1:::Code2:::Code3:::...", "all_k_resolutions": "Resolution1:::Resolution2:::Resolution3:::...", "all_k_distances": "Distance1:::Distance2:::Distance3:::...", "all_k_aux_labels": "aux_label1||aux_label2||aux_label3||aux_label4:::..."}, ...]}
 ```
 
-The JSON Lines format consists of individual JSON objects, where each object represents predictions for a single input text. The structure of each object is similar to the JSON format explained above.
+The JSON Lines format consists of individual JSON objects, where each object represents predictions for a single input text.
+
+
+### Explanation of Fields
+
+  - **ner_chunk**: The text of the entity.
+  - **begin**: The index of the beginning of the entity in the text.
+  - **end**: The index of the end of the entity in the text.
+  - **ner_label**: The label of the entity, as determined by the NER model.
+  - **ner_confidence**: The confidence score of the NER model in identifying this entity.
+  - **code**: The code of the term.
+  - **resolution**: The resolved text of the term.
+  - **all_k_codes**: All the codes found found in HCC taxonomy, separated by three colons (`:::`), sorted from most to least similar.
+  - **all_k_resolutions**: All the terms found in HCC taxonomy, separated by three colons (`:::`), sorted from most to least similar.
+  - **all_k_distances**: All k distances, separated by three colons (`:::`), corresponding to each resolution.
+  - **all_k_aux_labels**: All the auxiliary labels (such as MeSH, SNOMED, UMLS, ORPHA, OMIM), separated by double vertical bars (`||`) in a group, with each group separated by three colons (`:::`).
