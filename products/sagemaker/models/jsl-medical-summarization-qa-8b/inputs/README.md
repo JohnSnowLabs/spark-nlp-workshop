@@ -78,7 +78,7 @@ Provide input in JSON Lines format, where each line is a JSON object.
 
 - **`repetition_penalty`**: The repetition penalty parameter that penalizes new tokens based on whether they appear in the prompt and the generated text so far. Values > 1 encourage the model to use new tokens, while values < 1 encourage the model to repeat tokens. (*Can be passed as an environment variable when initializing the SageMaker Transformer object for batch inference.*)
   - **Type**: `float`
-  - **Default**: `1.1`
+  - **Default**: `1.0`
   - **Constraints**: Must be a float greater than 0 and less than or equal to 2.
   
 - **`template`**: You can select the predefined template.
@@ -100,9 +100,6 @@ If no template is provided, we take your `input_text` as it is and do not perfor
 
 > **Parameter Priority**: User-provided parameters are given priority, followed by environment variables, and finally default values.
 
-**Note**: For JSON Lines input format, **max_new_tokens**, **temperature**, **repetition_penalty**, and **template** are not supported in the input request. You either need to specify these parameters as environment variables when initializing the SageMaker Transformer object for batch inference, or the default parameters will be used.
-
-
 ---
 
 ### Model Configuration
@@ -110,7 +107,7 @@ If no template is provided, we take your `input_text` as it is and do not perfor
 | Parameter                  | Value     | Description                                                                                                                                                                                                                                                                                                                               |
 |----------------------------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **`dtype`**                | `float16` | The data type for the model weights and activations.                                                                                                                                                                                                                                                                                      |
-| **`max_model_len`**        | Variable  | This indicates that your input and the model response combined should come under this limit (`input + output <= max_model_len`). This is determined based on total available GPU memory: <ul><li>More than 58 GB GPU memory : 8,192 tokens</li><li>Less than 58 GB GPU memory: Default: 4,096 tokens.</li></ul> |
+| **`max_model_len`**        | Variable  | This indicates that your input and the model response combined should come under this limit (`input + output <= max_model_len`). This is determined based on total available GPU memory: <ul><li>More than 58 GB GPU memory : 32,768 tokens</li><li>Less than 58 GB GPU memory: Default: 16,384 tokens.</li></ul> |
 | **`tensor_parallel_size`** | Variable  | The number of GPUs to use for distributed execution with tensor parallelism.                                                                                                                                                                                                                                                              |
 
 Other than the parameters mentioned above, we are utilizing the default parameters specified for the `LLM` class in the [VLLM documentation](https://docs.vllm.ai/en/latest/dev/offline_inference/llm.html).
@@ -119,8 +116,8 @@ Other than the parameters mentioned above, we are utilizing the default paramete
 
 | Instance Type       | GPU Model  | Number of GPUs | Total GPU Memory (GB) | max_model_len   |
 |---------------------|------------|----------------|-----------------------|-----------------| 
-| `ml.g5.2xlarge`     | NVIDIA A10G| 1              | 24                    | 4,096           |
-| `ml.g4dn.12xlarge`  | NVIDIA T4  | 4              | 64                    | 8,192           |
+| `ml.g5.2xlarge`     | NVIDIA A10G| 1              | 24                    | 16,384          |
+| `ml.g4dn.12xlarge`  | NVIDIA T4  | 4              | 64                    | 32,768          |
 
 
 Total Memory values are approximate. Usable memory may be slightly less. For pricing details, visit the [Amazon SageMaker pricing page](https://aws.amazon.com/sagemaker/pricing/).
