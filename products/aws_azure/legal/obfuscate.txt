@@ -1,0 +1,31 @@
+CTO#SIGNING_TITLE
+Project Manager#SIGNING_TITLE
+Sales Manager#SIGNING_TITLE
+Business Manager#SIGNING_TITLE
+Coordinator#SIGNING_TITLE
+Officer#SIGNING_TITLE
+Legal Agreement#DOC
+Contract#DOC
+Estate Document#DOC
+official Document#DOC
+Deed of Covenant#DOC
+TURER INC#PARTY
+Clark llc.#PARTY
+SESA CO.#PARTY
+John Snow Labs Inc#PARTY
+MGT Trust Company, LLC.#PARTY
+JAMES TURNER#SIGNING_PERSON
+Juan Garcia#SIGNING_PERSON
+Benjamin Dean#SIGNING_PERSON
+Tommy Lee#SIGNING_PERSON
+Dorothy Keen#SIGNING_PERSON
+("AGREEMENT")#ALIAS
+("TRADE COMPANY")#ALIAS
+(the" Agreement")#ALIAS
+("private company")#ALIAS
+(the "Contract")#ALIAS
+26-06-1990#EFFDATE
+03/08/2025#EFFDATE
+01/01/2045#EFFDATE
+11/7/2016#EFFDATE
+12-12-2022#EFFDATE 
