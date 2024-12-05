@@ -1,0 +1,42 @@
+{
+    "predictions": [
+        [
+            {
+                "ner_chunk": "50 mg of eltrombopag oral",
+                "begin": 67,
+                "end": 91,
+                "ner_label": "DRUG",
+                "ner_confidence": "0.72838",
+                "code": "825427",
+                "resolution": "eltrombopag 50 MG Oral Tablet",
+                "all_k_codes": "825427:::2169316:::2049111:::1804806:::1940374:::1597587:::2049117:::1804804:::1597593:::1606862:::310007:::1940376:::2268229:::2256945:::197323:::832080:::213091:::1747574:::1656056:::2361298:::314277:::1424916:::2256947:::805663:::242339",
+                "all_k_resolutions": "eltrombopag 50 MG Oral Tablet:::alpelisib 50 MG Oral Tablet:::encorafenib 50 MG Oral Capsule:::alteplase 50 MG Injection [Activase]:::enasidenib 50 MG Oral Tablet:::olaparib 50 MG Oral Capsule:::encorafenib 50 MG Oral Capsule [Braftovi]:::alteplase 50 MG Injection:::olaparib 50 MG Oral Capsule [Lynparza]:::ivacaftor 50 MG Oral Granules:::dolasetron 50 MG Oral Tablet:::enasidenib 50 MG Oral Tablet [Idhifa]:::ubrogepant 50 MG Oral Tablet:::lasmiditan 50 MG Oral Tablet:::altretamine 50 MG Oral Capsule:::pamabrom 50 MG Oral Capsule:::dolasetron 50 MG Oral Tablet [Anzemet]:::venetoclax 50 MG Oral Tablet:::cangrelor 50 MG Injection:::tucatinib 50 MG Oral Tablet:::venlafaxine 50 MG Oral Tablet:::dabrafenib 50 MG Oral Capsule:::lasmiditan 50 MG Oral Tablet [Reyvow]:::armodafinil 50 MG Oral Tablet [Nuvigil]:::prasterone 50 MG Oral Capsule",
+                "all_k_distances": "4.3863:::6.1202:::6.1623:::6.2046:::6.3518:::6.4410:::6.4845:::6.5186:::6.5723:::6.5797:::6.7074:::6.7092:::6.7096:::6.7196:::6.7407:::6.7514:::6.7546:::6.7600:::6.7941:::6.8422:::6.8493:::6.8817:::6.9487:::6.9651:::6.9651"
+            },
+            {
+                "ner_chunk": "5 mg amlodipine",
+                "begin": 103,
+                "end": 117,
+                "ner_label": "DRUG",
+                "ner_confidence": "0.5661333",
+                "code": "197361",
+                "resolution": "amlodipine 5 MG Oral Tablet",
+                "all_k_codes": "197361:::2377371:::387013:::212549:::311354:::2377373:::402131:::310672:::308136:::198286:::351249:::251857:::404602:::198105:::311386:::403957:::1998462:::855818:::204416:::198189:::1649485:::859981:::1364498:::2377367:::1928948",
+                "all_k_resolutions": "amlodipine 5 MG Oral Tablet:::levamlodipine 5 MG Oral Tablet:::nebivolol 5 MG Oral Tablet:::amlodipine 5 MG Oral Tablet [Norvasc]:::lisinopril 5 MG Oral Tablet:::levamlodipine 5 MG Oral Tablet [Conjupri]:::aripiprazole 5 MG Oral Tablet:::haloperidol 5 MG Oral Tablet:::amlodipine 2.5 MG Oral Tablet:::timolol 5 MG Oral Tablet:::escitalopram 5 MG Oral Tablet:::ramipril 5 MG Oral Tablet:::aripiprazole 5 MG Oral Tablet [Abilify]:::pindolol 5 MG Oral Tablet:::loxapine 5 MG Oral Capsule:::tadalafil 5 MG Oral Tablet:::Sensor aripiprazole 5 MG Oral Tablet:::prasugrel 5 MG Oral Tablet:::haloperidol 5 MG/ML Injectable Solution:::ramipril 5 MG Oral Capsule:::ivabradine 5 MG Oral Tablet:::asenapine 5 MG Sublingual Tablet:::lomitapide 5 MG Oral Capsule [Juxtapid]:::levamlodipine 2.5 MG Oral Tablet:::dronabinol 5 MG/ML Oral Solution",
+                "all_k_distances": "5.8704:::6.9994:::8.1125:::8.1421:::8.1812:::8.3356:::8.5179:::8.6665:::8.7202:::8.7215:::8.7282:::8.8417:::8.8832:::8.9053:::8.9880:::8.9968:::9.0577:::9.0718:::9.1269:::9.1561:::9.2993:::9.3102:::9.3740:::9.3744:::9.3887"
+            },
+            {
+                "ner_chunk": "metformin 1000 mg",
+                "begin": 135,
+                "end": 151,
+                "ner_label": "DRUG",
+                "ner_confidence": "0.6566333",
+                "code": "861004",
+                "resolution": "metformin hydrochloride 1000 MG Oral Tablet",
+                "all_k_codes": "861004:::1665093:::1791593:::311625:::1665050:::1722919:::847074:::1665102:::1721458:::1734683:::1721475:::2265706:::1664981:::1791595:::636337:::312576:::314234:::861006:::1656313:::239180:::1659283:::1719003:::1734686:::1722939:::259239",
+                "all_k_resolutions": "metformin hydrochloride 1000 MG Oral Tablet:::cefepime 1000 MG Injection:::ifosfamide 1000 MG Injection:::methotrexate 1000 MG Injection:::cefazolin 1000 MG Injection:::cefotetan 1000 MG Injection:::taurine 1000 MG Oral Capsule:::cefoxitin 1000 MG Injection:::nafcillin 1000 MG Injection:::ertapenem 1000 MG Injection:::ampicillin 1000 MG Injection:::cefiderocol 1000 MG Injection:::aztreonam 1000 MG Injection:::ifosfamide 1000 MG Injection [Ifex]:::arginine 1000 MG Oral Tablet:::pralidoxime chloride 1000 MG Injection:::sucralfate 1000 MG Oral Tablet:::metformin hydrochloride 1000 MG Oral Tablet [Glucophage]:::cefotaxime 1000 MG Injection:::streptozocin 1000 MG Injection:::ceftazidime 1000 MG Injection:::gemcitabine 1000 MG Injection:::ertapenem 1000 MG Injection [Invanz]:::meropenem 1000 MG Injection:::methylsulfonylmethane 1000 MG Oral Capsule",
+                "all_k_distances": "7.6530:::7.9156:::8.0231:::8.2641:::8.3148:::8.3268:::8.3818:::8.5330:::8.6651:::8.8939:::8.9300:::8.9750:::8.9791:::8.9887:::9.0031:::9.0475:::9.1031:::9.1230:::9.1530:::9.1641:::9.1798:::9.2634:::9.2652:::9.3453:::9.3501"
+            }
+        ]
+    ]
+}
