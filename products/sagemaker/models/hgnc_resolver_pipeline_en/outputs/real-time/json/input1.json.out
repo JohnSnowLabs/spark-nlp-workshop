@@ -1,0 +1,66 @@
+{
+    "predictions": [
+        [
+            {
+                "ner_chunk": "DUX4",
+                "begin": 185,
+                "end": 188,
+                "ner_label": "GENE",
+                "ner_confidence": "0.9697",
+                "code": "HGNC:50800",
+                "resolution": "DUX4 [double homeobox 4]",
+                "all_k_codes": "HGNC:50800:::HGNC:3070:::HGNC:32183:::HGNC:38686:::HGNC:39517:::HGNC:37267:::HGNC:3082:::HGNC:51787:::HGNC:21517:::HGNC:2917:::HGNC:38670:::HGNC:25475:::HGNC:2910:::HGNC:18700:::HGNC:33855:::HGNC:38689:::HGNC:11175:::HGNC:15966:::HGNC:7727:::HGNC:20229:::HGNC:13906:::HGNC:48628:::HGNC:15518:::HGNC:11200:::HGNC:20161",
+                "all_k_resolutions": "DUX4 [double homeobox 4]:::DUSP4 [dual specificity phosphatase 4]:::DUXAP4 [double homeobox A pseudogene 4]:::DUX4L4 [double homeobox 4 like 4 (pseudogene)]:::DUTP4 [deoxyuridine triphosphatase pseudogene 4]:::DUX4L2 [double homeobox 4 like 2 (pseudogene)]:::DUX4L1 [double homeobox 4 like 1 (pseudogene)]:::DUX4L49 [double homeobox 4 like 49 (pseudogene)]:::DUS4L [dihydrouridine synthase 4 like]:::DLX4 [distal-less homeobox 4]:::DUX4L8 [double homeobox 4 like 8 (pseudogene)]:::BEX4 [brain expressed X-linked 4]:::DLL4 [delta like canonical Notch ligand 4]:::DDX4 [DEAD-box helicase 4]:::DUX4L9 [double homeobox 4 like 9 (pseudogene)]:::DUX4L5 [double homeobox 4 like 5 (pseudogene)]:::SNX4 [sorting nexin 4]:::DAZ4 [deleted in azoospermia 4]:::NEDD4 [NEDD4 E3 ubiquitin protein ligase]:::DCAF4 [DDB1 and CUL4 associated factor 4]:::MXD4 [MAX dimerization protein 4]:::TEX49 [testis expressed 49]:::DCTN4 [dynactin subunit 4]:::SOX4 [SRY-box transcription factor 4]:::TOX4 [TOX high mobility group box family member 4]",
+                "all_k_distances": "0.0000:::3.6040:::3.6951:::3.8239:::4.1167:::4.2880:::4.5084:::4.8762:::4.9478:::5.0787:::5.1106:::5.1314:::5.2626:::5.3066:::5.3660:::5.4132:::5.4142:::5.6109:::5.6147:::5.6667:::5.6798:::5.7166:::5.7258:::5.7436:::5.8439"
+            },
+            {
+                "ner_chunk": "DUX4L20",
+                "begin": 191,
+                "end": 197,
+                "ner_label": "GENE",
+                "ner_confidence": "0.9412",
+                "code": "HGNC:50801",
+                "resolution": "DUX4L20 [double homeobox 4 like 20 (pseudogene)]",
+                "all_k_codes": "HGNC:50801:::HGNC:39776:::HGNC:31982:::HGNC:26230:::HGNC:2743:::HGNC:42011:::HGNC:42254:::HGNC:42423:::HGNC:42207:::HGNC:50522:::HGNC:34070:::HGNC:24679:::HGNC:18357:::HGNC:25794:::HGNC:14478:::HGNC:42012:::HGNC:4475:::HGNC:19734:::HGNC:36437:::HGNC:42013:::HGNC:11598:::HGNC:30390:::HGNC:53837:::HGNC:37772:::HGNC:51516",
+                "all_k_resolutions": "DUX4L20 [double homeobox 4 like 20 (pseudogene)]:::ZDHHC20P4 [zinc finger DHHC-type containing 20 pseudogene 4]:::ANKRD20A4P [ankyrin repeat domain 20 family member A4, pseudogene]:::TM4SF20 [transmembrane 4 L six family member 20]:::DDX20 [DEAD-box helicase 20]:::FAM204BP [family with sequence similarity 204 member B, pseudogene]:::MTND4LP20 [MT-ND4L pseudogene 20]:::ZBTB20-AS4 [ZBTB20 antisense RNA 4]:::MTND4P20 [MT-ND4 pseudogene 20]:::TOMM20P4 [TOMM20 pseudogene 4]:::RNY4P20 [RNY4 pseudogene 20]:::FBXL20 [F-box and leucine rich repeat protein 20]:::ARHGAP20 [Rho GTPase activating protein 20]:::FAM204A [family with sequence similarity 204 member A]:::MRPL20 [mitochondrial ribosomal protein L20]:::FAM204CP [family with sequence similarity 204 member C, pseudogene]:::GPR20 [G protein-coupled receptor 20]:::RANBP20P [RAN binding protein 20 pseudogene]:::RPS4XP20 [ribosomal protein S4X pseudogene 20]:::FAM204DP [family with sequence similarity 204 member D, pseudogene]:::TBX20 [T-box transcription factor 20]:::SNX20 [sorting nexin 20]:::PRR20G [proline rich 20G]:::GAPDHP20 [glyceraldehyde 3 phosphate dehydrogenase pseudogene 20]:::SPDYE20P [speedy/RINGO cell cycle regulator family member E20, pseudogene]",
+                "all_k_distances": "0.0000:::6.4373:::6.4389:::6.6875:::6.8085:::6.8100:::6.8730:::6.8812:::6.9250:::6.9846:::7.0950:::7.1020:::7.2438:::7.2766:::7.3176:::7.3252:::7.3437:::7.4235:::7.4729:::7.4762:::7.4965:::7.5218:::7.5315:::7.5501:::7.5699"
+            },
+            {
+                "ner_chunk": "FBXO48",
+                "begin": 200,
+                "end": 205,
+                "ner_label": "GENE",
+                "ner_confidence": "0.9676",
+                "code": "HGNC:33857",
+                "resolution": "FBXO48 [F-box protein 48]",
+                "all_k_codes": "HGNC:33857:::HGNC:4930:::HGNC:16653:::HGNC:13114:::HGNC:22564:::HGNC:18533:::HGNC:37552:::HGNC:24635:::HGNC:23535:::HGNC:23385:::HGNC:23942:::HGNC:20807:::HGNC:23440:::HGNC:21368:::HGNC:23384:::HGNC:52393:::HGNC:23305:::HGNC:21785:::HGNC:23488:::HGNC:31272:::HGNC:1683:::HGNC:12079:::HGNC:37805:::HGNC:55157:::HGNC:31969",
+                "all_k_resolutions": "FBXO48 [F-box protein 48]:::ZBTB48 [zinc finger and BTB domain containing 48]:::MRPL48 [mitochondrial ribosomal protein L48]:::ZNF48 [zinc finger protein 48]:::SPATA48 [spermatogenesis associated 48]:::USP48 [ubiquitin specific peptidase 48]:::PIRC48 [piwi-interacting RNA cluster 48]:::PRSS48 [serine protease 48]:::ZNF488 [zinc finger protein 488]:::ZNF484 [zinc finger protein 484]:::CYCSP48 [CYCS pseudogene 48]:::ZNF486 [zinc finger protein 486]:::ZNF485 [zinc finger protein 485]:::SNRNP48 [small nuclear ribonucleoprotein U11/U12 subunit 48]:::ZNF483 [zinc finger protein 483]:::TEX48 [testis expressed 48]:::ZNF480 [zinc finger protein 480]:::RBM48 [RNA binding motif protein 48]:::ZNF487 [zinc finger protein 487]:::OR4C48P [olfactory receptor family 4 subfamily C member 48 pseudogene]:::CD48 [CD48 molecule]:::TRAJ48 [T cell receptor alpha joining 48]:::GAPDHP48 [glyceraldehyde 3 phosphate dehydrogenase pseudogene 48]:::HMGN2P48 [high mobility group nucleosomal binding domain 2 pseudogene 48]:::FBXO47 [F-box protein 47]",
+                "all_k_distances": "0.0000:::5.3026:::5.3531:::5.4464:::5.8642:::5.8911:::5.9817:::6.0045:::6.1032:::6.1347:::6.1727:::6.2446:::6.3179:::6.3452:::6.3667:::6.3867:::6.3949:::6.4803:::6.5349:::6.5411:::6.5938:::6.6030:::6.6433:::6.7313:::6.8481"
+            },
+            {
+                "ner_chunk": "MYOD1",
+                "begin": 208,
+                "end": 212,
+                "ner_label": "GENE",
+                "ner_confidence": "0.9847",
+                "code": "HGNC:7611",
+                "resolution": "MYOD1 [myogenic differentiation 1]",
+                "all_k_codes": "HGNC:7611:::HGNC:13879:::HGNC:7613:::HGNC:7582:::HGNC:7598:::HGNC:40750:::HGNC:40384:::HGNC:13880:::HGNC:6970:::HGNC:17590:::HGNC:23172:::HGNC:54810:::HGNC:7600:::HGNC:29401:::HGNC:18302:::HGNC:7599:::HGNC:7228:::HGNC:7622:::HGNC:28781:::HGNC:7623:::HGNC:29636:::HGNC:29917:::HGNC:7567:::HGNC:33741:::HGNC:4979",
+                "all_k_resolutions": "MYOD1 [myogenic differentiation 1]:::MYO1H [myosin IH]:::MYOM1 [myomesin 1]:::MYL1 [myosin light chain 1]:::MYO1D [myosin ID]:::MYOCD-AS1 [MYOCD antisense RNA 1]:::MYADM-AS1 [MYADM antisense RNA 1]:::MYO1G [myosin IG]:::MDH1 [malate dehydrogenase 1]:::MYG1 [MYG1 exonuclease]:::MYCT1 [MYC target 1]:::MYG1-AS1 [MYG1 antisense RNA 1]:::MYO1F [myosin IF]:::MYSM1 [Myb like, SWIRM and MPN domains 1]:::MDN1 [midasin AAA ATPase 1]:::MYO1E [myosin IE]:::MRC1 [mannose receptor C-type 1]:::MYT1 [myelin transcription factor 1]:::MDP1 [magnesium dependent phosphatase 1]:::MYT1L [myelin transcription factor 1 like]:::MNS1 [meiosis specific nuclear structural 1]:::MDM1 [Mdm1 nuclear protein]:::MYH1 [myosin heavy chain 1]:::MSANTD1 [Myb/SANT DNA binding domain containing 1]:::MNX1 [motor neuron and pancreas homeobox 1]",
+                "all_k_distances": "0.0000:::6.0302:::6.2004:::6.2268:::6.4159:::6.6053:::6.6239:::6.7211:::6.7314:::6.7537:::6.7611:::6.8063:::6.8215:::6.8536:::6.9048:::6.9172:::6.9348:::6.9395:::6.9683:::7.0125:::7.0214:::7.0451:::7.0701:::7.0703:::7.0788"
+            },
+            {
+                "ner_chunk": "PAX7",
+                "begin": 219,
+                "end": 222,
+                "ner_label": "GENE",
+                "ner_confidence": "0.8536",
+                "code": "HGNC:8621",
+                "resolution": "PAX7 [paired box 7]",
+                "all_k_codes": "HGNC:8621:::HGNC:8748:::HGNC:9351:::HGNC:8792:::HGNC:25557:::HGNC:8860:::HGNC:22958:::HGNC:12630:::HGNC:8791:::HGNC:13638:::HGNC:28130:::HGNC:21957:::HGNC:8767:::HGNC:38100:::HGNC:48824:::HGNC:28174:::HGNC:8659:::HGNC:26257:::HGNC:2292:::HGNC:28439:::HGNC:2291:::HGNC:9618:::HGNC:18196:::HGNC:3073:::HGNC:14971",
+                "all_k_resolutions": "PAX7 [paired box 7]:::PCSK7 [proprotein convertase subtilisin/kexin type 7]:::PRDM7 [PR/SET domain 7]:::PDE7B [phosphodiesterase 7B]:::PRMT7 [protein arginine methyltransferase 7]:::PEX7 [peroxisomal biogenesis factor 7]:::PDLIM7 [PDZ and LIM domain 7]:::USP7 [ubiquitin specific peptidase 7]:::PDE7A [phosphodiesterase 7A]:::VENTXP7 [VENT homeobox pseudogene 7]:::PRR7 [proline rich 7, synaptic]:::KCTD7 [potassium channel tetramerization domain containing 7]:::PDCD7 [programmed cell death 7]:::PAICSP7 [phosphoribosylaminoimidazole carboxylase, phosphoribosylaminoimidazole succinocarboxamide synthetase pseudogene 7]:::PCAT7 [prostate cancer associated transcript 7]:::PLPP7 [phospholipid phosphatase 7 (inactive)]:::PCDH7 [protocadherin 7]:::PDZD7 [PDZ domain containing 7]:::COX7C [cytochrome c oxidase subunit 7C]:::CHMP7 [charged multivesicular body protein 7]:::COX7B [cytochrome c oxidase subunit 7B]:::PTK7 [protein tyrosine kinase 7 (inactive)]:::SOX7 [SRY-box transcription factor 7]:::DUSP7 [dual specificity phosphatase 7]:::SNX7 [sorting nexin 7]",
+                "all_k_distances": "0.0000:::7.7463:::7.7935:::7.7945:::7.8946:::7.9341:::7.9389:::7.9698:::8.0057:::8.0223:::8.0759:::8.0858:::8.1156:::8.1445:::8.1713:::8.1811:::8.1841:::8.2019:::8.2248:::8.2780:::8.3136:::8.3262:::8.3448:::8.3579:::8.4082"
+            }
+        ]
+    ]
+}
