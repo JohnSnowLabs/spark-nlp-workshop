@@ -59,6 +59,6 @@ The JSON Lines format consists of individual JSON objects, where each object rep
   - **ner_confidence**: The confidence score of the NER model in identifying this entity.
   - **code**: The code of the term.
   - **resolution**: The resolved text of the term.
-  - **all_k_codes**: All the codes found found in HCC taxonomy, separated by three colons (`:::`), sorted from most to least similar.
-  - **all_k_resolutions**: All the terms found in HCC taxonomy, separated by three colons (`:::`), sorted from most to least similar.
+  - **all_k_codes**: All the codes found found in HCPCS taxonomy, separated by three colons (`:::`), sorted from most to least similar.
+  - **all_k_resolutions**: All the terms found in HCPCS taxonomy, separated by three colons (`:::`), sorted from most to least similar.
   - **all_k_distances**: All k distances, separated by three colons (`:::`), corresponding to each resolution.
