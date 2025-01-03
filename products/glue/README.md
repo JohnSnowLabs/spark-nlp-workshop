@@ -25,14 +25,13 @@ Once we start the notebook, We need to configure the Glue session that will be s
 In the first cell of the notebook, enter the following for configurations:
 
 ```
-%worker_type G.4X
-%additional_python_modules tensorflow==2.11.0, tensorflow-addons, scikit-learn, johnsnowlabs_by_kshitiz==5.0.7rc5, s3://<your_bucket_name>/assets/packages/spark_nlp-5.0.2-py2.py3-none-any.whl,s3://<your_bucket_name>/assets/packages/spark_nlp_jsl-5.0.2-py3-none-any.whl
-%extra_jars s3://<your_bucket_name>/assets/jars/spark-nlp-assembly-5.0.2.jar,s3://<your_bucket_name>/assets/jars/spark-nlp-jsl-5.0.2.jar
+%additional_python_modules tensorflow==2.11.0, tensorflow-addons, scikit-learn, johnsnowlabs==5.5.2, s3://<your_bucket_name>/assets/packages/spark_nlp-5.5.1-py2.py3-none-any.whl,s3://<your_bucket_name>/assets/packages/spark_nlp_jsl-5.5.1-py3-none-any.whl
+%extra_jars s3://<your_bucket_name>/assets/jars/spark-nlp-assembly-5.5.1.jar,s3://<your_bucket_name>/assets/jars/spark-nlp-jsl-5.5.1.jar
 
 %%configure
 {
 "--conf":"""spark.jsl.settings.pretrained.cache_folder=s3://<your_bucket_name>/cache_pretrained/
---conf spark.jars.packages=org.apache.hadoop:hadoop-aws:3.2.1,com.amazonaws:aws-java-sdk:1.11.828
+--conf spark.jars.packages=org.apache.hadoop:hadoop-aws:3.3.1,com.amazonaws:aws-java-sdk:1.12.500
 --conf spark.driver.memory=64G
 --conf spark.executor.memory=32G
 --conf spark.serializer=org.apache.spark.serializer.KryoSerializer
@@ -40,19 +39,19 @@ In the first cell of the notebook, enter the following for configurations:
 --conf spark.driver.maxResultSize=2000M
 --conf spark.yarn.am.memory=4G
 --conf spark.hadoop.mapred.output.committer.class=org.apache.hadoop.mapred.DirectFileOutputCommitter
-
 --conf spark.hadoop.fs.s3a.access.key=<aws_access_key>
-
 --conf spark.hadoop.fs.s3a.secret.key=<aws_secret_key>
-
 --conf spark.hadoop.fs.s3a.session.token=<aws_session_token>
-
 --conf jsl.settings.license=<jsl_license>
 --conf spark.jsl.settings.pretrained.credentials.access_key_id=<pretrained.credentials.access_key_id>
 --conf spark.jsl.settings.pretrained.credentials.secret_access_key=<pretrained.credentials.secret_access_key>
 --conf spark.hadoop.fs.s3a.aws.credentials.provider=org.apache.hadoop.fs.s3a.TemporaryAWSCredentialsProvider
 --conf spark.hadoop.fs.s3a.impl=org.apache.hadoop.fs.s3a.S3AFileSystem
 --conf spark.hadoop.fs.s3a.path.style.access=true
+--conf spark.extraListeners=com.johnsnowlabs.license.LicenseLifeCycleManager
+--conf spark.hadoop.fs.s3.canned.acl=BucketOwnerFullControl
+--conf spark.hadoop.fs.s3a.endpoint=s3.us-east-1.amazonaws.com
+--conf spark.hadoop.fs.defaultFS=s3a://aws-bundle-s3
 --conf spark.jsl.settings.aws.region=us-east-1"""
 }
 ```
@@ -70,8 +69,6 @@ If you are having issues with the license, please contact JSL team at support@jo
 Once you made changes to the configurations and run the first cell, you can start the `Glue Session` by running the following code in the second cell:
 
 ```
-%glue_version 4.0
-
 import sys
 from awsglue.transforms import *
 from awsglue.utils import getResolvedOptions
