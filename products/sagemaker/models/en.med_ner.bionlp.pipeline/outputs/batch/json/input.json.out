@@ -1,196 +1,176 @@
 {
     "predictions": [
-        {
-            "document": "Under loupe magnification, the lesion was excised with 2 mm margins, oriented with sutures and submitted for frozen section pathology. The report was \"basal cell carcinoma with all margins free of tumor.\" Hemostasis was controlled with the Bovie. Excised lesion diameter was 1.2 cm. The defect was closed by elevating a left laterally based rotation flap utilizing the glabellar skin. The flap was elevated with a scalpel and Bovie, rotated into the defect without tension, ***** to the defect with scissors and inset in layer with interrupted 5-0 Vicryl for the dermis and running 5-0 Prolene for the skin. Donor site was closed in V-Y fashion with similar suture technique.",
-            "ner_chunk": "lesion",
-            "begin": 31,
-            "end": 36,
-            "ner_label": "Pathological_formation",
-            "ner_confidence": "1.0"
-        },
-        {
-            "document": "Under loupe magnification, the lesion was excised with 2 mm margins, oriented with sutures and submitted for frozen section pathology. The report was \"basal cell carcinoma with all margins free of tumor.\" Hemostasis was controlled with the Bovie. Excised lesion diameter was 1.2 cm. The defect was closed by elevating a left laterally based rotation flap utilizing the glabellar skin. The flap was elevated with a scalpel and Bovie, rotated into the defect without tension, ***** to the defect with scissors and inset in layer with interrupted 5-0 Vicryl for the dermis and running 5-0 Prolene for the skin. Donor site was closed in V-Y fashion with similar suture technique.",
-            "ner_chunk": "basal cell carcinoma",
-            "begin": 151,
-            "end": 170,
-            "ner_label": "Cancer",
-            "ner_confidence": "0.9991333"
-        },
-        {
-            "document": "Under loupe magnification, the lesion was excised with 2 mm margins, oriented with sutures and submitted for frozen section pathology. The report was \"basal cell carcinoma with all margins free of tumor.\" Hemostasis was controlled with the Bovie. Excised lesion diameter was 1.2 cm. The defect was closed by elevating a left laterally based rotation flap utilizing the glabellar skin. The flap was elevated with a scalpel and Bovie, rotated into the defect without tension, ***** to the defect with scissors and inset in layer with interrupted 5-0 Vicryl for the dermis and running 5-0 Prolene for the skin. Donor site was closed in V-Y fashion with similar suture technique.",
-            "ner_chunk": "tumor",
-            "begin": 197,
-            "end": 201,
-            "ner_label": "Cancer",
-            "ner_confidence": "0.9999"
-        },
-        {
-            "document": "Under loupe magnification, the lesion was excised with 2 mm margins, oriented with sutures and submitted for frozen section pathology. The report was \"basal cell carcinoma with all margins free of tumor.\" Hemostasis was controlled with the Bovie. Excised lesion diameter was 1.2 cm. The defect was closed by elevating a left laterally based rotation flap utilizing the glabellar skin. The flap was elevated with a scalpel and Bovie, rotated into the defect without tension, ***** to the defect with scissors and inset in layer with interrupted 5-0 Vicryl for the dermis and running 5-0 Prolene for the skin. Donor site was closed in V-Y fashion with similar suture technique.",
-            "ner_chunk": "lesion",
-            "begin": 255,
-            "end": 260,
-            "ner_label": "Pathological_formation",
-            "ner_confidence": "0.5082"
-        },
-        {
-            "document": "Under loupe magnification, the lesion was excised with 2 mm margins, oriented with sutures and submitted for frozen section pathology. The report was \"basal cell carcinoma with all margins free of tumor.\" Hemostasis was controlled with the Bovie. Excised lesion diameter was 1.2 cm. The defect was closed by elevating a left laterally based rotation flap utilizing the glabellar skin. The flap was elevated with a scalpel and Bovie, rotated into the defect without tension, ***** to the defect with scissors and inset in layer with interrupted 5-0 Vicryl for the dermis and running 5-0 Prolene for the skin. Donor site was closed in V-Y fashion with similar suture technique.",
-            "ner_chunk": "glabellar skin",
-            "begin": 369,
-            "end": 382,
-            "ner_label": "Organ",
-            "ner_confidence": "0.79815"
-        },
-        {
-            "document": "Under loupe magnification, the lesion was excised with 2 mm margins, oriented with sutures and submitted for frozen section pathology. The report was \"basal cell carcinoma with all margins free of tumor.\" Hemostasis was controlled with the Bovie. Excised lesion diameter was 1.2 cm. The defect was closed by elevating a left laterally based rotation flap utilizing the glabellar skin. The flap was elevated with a scalpel and Bovie, rotated into the defect without tension, ***** to the defect with scissors and inset in layer with interrupted 5-0 Vicryl for the dermis and running 5-0 Prolene for the skin. Donor site was closed in V-Y fashion with similar suture technique.",
-            "ner_chunk": "flap",
-            "begin": 389,
-            "end": 392,
-            "ner_label": "Tissue",
-            "ner_confidence": "0.9865"
-        },
-        {
-            "document": "Under loupe magnification, the lesion was excised with 2 mm margins, oriented with sutures and submitted for frozen section pathology. The report was \"basal cell carcinoma with all margins free of tumor.\" Hemostasis was controlled with the Bovie. Excised lesion diameter was 1.2 cm. The defect was closed by elevating a left laterally based rotation flap utilizing the glabellar skin. The flap was elevated with a scalpel and Bovie, rotated into the defect without tension, ***** to the defect with scissors and inset in layer with interrupted 5-0 Vicryl for the dermis and running 5-0 Prolene for the skin. Donor site was closed in V-Y fashion with similar suture technique.",
-            "ner_chunk": "dermis",
-            "begin": 563,
-            "end": 568,
-            "ner_label": "Tissue",
-            "ner_confidence": "0.9968"
-        },
-        {
-            "document": "Under loupe magnification, the lesion was excised with 2 mm margins, oriented with sutures and submitted for frozen section pathology. The report was \"basal cell carcinoma with all margins free of tumor.\" Hemostasis was controlled with the Bovie. Excised lesion diameter was 1.2 cm. The defect was closed by elevating a left laterally based rotation flap utilizing the glabellar skin. The flap was elevated with a scalpel and Bovie, rotated into the defect without tension, ***** to the defect with scissors and inset in layer with interrupted 5-0 Vicryl for the dermis and running 5-0 Prolene for the skin. Donor site was closed in V-Y fashion with similar suture technique.",
-            "ner_chunk": "skin",
-            "begin": 602,
-            "end": 605,
-            "ner_label": "Organ",
-            "ner_confidence": "0.9997"
-        },
-        {
-            "document": "The patient was admitted for symptoms that sounded like postictal state. He was initially taken to Hospital. CT showed edema and slight midline shift, and therefore he was transferred here. He has been seen by Hospitalists Service. He has not had a recurrent seizure. Electroencephalogram shows slowing. MRI of the brain shows large inhomogeneous infiltrating right frontotemporal neoplasm surrounding the right middle cerebral artery. There is inhomogeneous uptake consistent with potential necrosis. He also has had a SPECT image of his brain, consistent with neoplasm, suggesting relatively high-grade neoplasm. The patient was diagnosed with a brain tumor in 1999. All details are still not available to us. He underwent a biopsy by Dr. Y. One of the notes suggested that this was a glioma, likely an oligodendroglioma, pending a second opinion at Clinic. That is not available on the chart as I dictate.",
-            "ner_chunk": "patient",
-            "begin": 4,
-            "end": 10,
-            "ner_label": "Organism",
-            "ner_confidence": "1.0"
-        },
-        {
-            "document": "The patient was admitted for symptoms that sounded like postictal state. He was initially taken to Hospital. CT showed edema and slight midline shift, and therefore he was transferred here. He has been seen by Hospitalists Service. He has not had a recurrent seizure. Electroencephalogram shows slowing. MRI of the brain shows large inhomogeneous infiltrating right frontotemporal neoplasm surrounding the right middle cerebral artery. There is inhomogeneous uptake consistent with potential necrosis. He also has had a SPECT image of his brain, consistent with neoplasm, suggesting relatively high-grade neoplasm. The patient was diagnosed with a brain tumor in 1999. All details are still not available to us. He underwent a biopsy by Dr. Y. One of the notes suggested that this was a glioma, likely an oligodendroglioma, pending a second opinion at Clinic. That is not available on the chart as I dictate.",
-            "ner_chunk": "He",
-            "begin": 73,
-            "end": 74,
-            "ner_label": "Organism",
-            "ner_confidence": "0.5876"
-        },
-        {
-            "document": "The patient was admitted for symptoms that sounded like postictal state. He was initially taken to Hospital. CT showed edema and slight midline shift, and therefore he was transferred here. He has been seen by Hospitalists Service. He has not had a recurrent seizure. Electroencephalogram shows slowing. MRI of the brain shows large inhomogeneous infiltrating right frontotemporal neoplasm surrounding the right middle cerebral artery. There is inhomogeneous uptake consistent with potential necrosis. He also has had a SPECT image of his brain, consistent with neoplasm, suggesting relatively high-grade neoplasm. The patient was diagnosed with a brain tumor in 1999. All details are still not available to us. He underwent a biopsy by Dr. Y. One of the notes suggested that this was a glioma, likely an oligodendroglioma, pending a second opinion at Clinic. That is not available on the chart as I dictate.",
-            "ner_chunk": "edema",
-            "begin": 119,
-            "end": 123,
-            "ner_label": "Pathological_formation",
-            "ner_confidence": "0.9999"
-        },
-        {
-            "document": "The patient was admitted for symptoms that sounded like postictal state. He was initially taken to Hospital. CT showed edema and slight midline shift, and therefore he was transferred here. He has been seen by Hospitalists Service. He has not had a recurrent seizure. Electroencephalogram shows slowing. MRI of the brain shows large inhomogeneous infiltrating right frontotemporal neoplasm surrounding the right middle cerebral artery. There is inhomogeneous uptake consistent with potential necrosis. He also has had a SPECT image of his brain, consistent with neoplasm, suggesting relatively high-grade neoplasm. The patient was diagnosed with a brain tumor in 1999. All details are still not available to us. He underwent a biopsy by Dr. Y. One of the notes suggested that this was a glioma, likely an oligodendroglioma, pending a second opinion at Clinic. That is not available on the chart as I dictate.",
-            "ner_chunk": "He",
-            "begin": 190,
-            "end": 191,
-            "ner_label": "Organism",
-            "ner_confidence": "0.5343"
-        },
-        {
-            "document": "The patient was admitted for symptoms that sounded like postictal state. He was initially taken to Hospital. CT showed edema and slight midline shift, and therefore he was transferred here. He has been seen by Hospitalists Service. He has not had a recurrent seizure. Electroencephalogram shows slowing. MRI of the brain shows large inhomogeneous infiltrating right frontotemporal neoplasm surrounding the right middle cerebral artery. There is inhomogeneous uptake consistent with potential necrosis. He also has had a SPECT image of his brain, consistent with neoplasm, suggesting relatively high-grade neoplasm. The patient was diagnosed with a brain tumor in 1999. All details are still not available to us. He underwent a biopsy by Dr. Y. One of the notes suggested that this was a glioma, likely an oligodendroglioma, pending a second opinion at Clinic. That is not available on the chart as I dictate.",
-            "ner_chunk": "He",
-            "begin": 232,
-            "end": 233,
-            "ner_label": "Organism",
-            "ner_confidence": "0.6829"
-        },
-        {
-            "document": "The patient was admitted for symptoms that sounded like postictal state. He was initially taken to Hospital. CT showed edema and slight midline shift, and therefore he was transferred here. He has been seen by Hospitalists Service. He has not had a recurrent seizure. Electroencephalogram shows slowing. MRI of the brain shows large inhomogeneous infiltrating right frontotemporal neoplasm surrounding the right middle cerebral artery. There is inhomogeneous uptake consistent with potential necrosis. He also has had a SPECT image of his brain, consistent with neoplasm, suggesting relatively high-grade neoplasm. The patient was diagnosed with a brain tumor in 1999. All details are still not available to us. He underwent a biopsy by Dr. Y. One of the notes suggested that this was a glioma, likely an oligodendroglioma, pending a second opinion at Clinic. That is not available on the chart as I dictate.",
-            "ner_chunk": "brain",
-            "begin": 315,
-            "end": 319,
-            "ner_label": "Organ",
-            "ner_confidence": "0.9999"
-        },
-        {
-            "document": "The patient was admitted for symptoms that sounded like postictal state. He was initially taken to Hospital. CT showed edema and slight midline shift, and therefore he was transferred here. He has been seen by Hospitalists Service. He has not had a recurrent seizure. Electroencephalogram shows slowing. MRI of the brain shows large inhomogeneous infiltrating right frontotemporal neoplasm surrounding the right middle cerebral artery. There is inhomogeneous uptake consistent with potential necrosis. He also has had a SPECT image of his brain, consistent with neoplasm, suggesting relatively high-grade neoplasm. The patient was diagnosed with a brain tumor in 1999. All details are still not available to us. He underwent a biopsy by Dr. Y. One of the notes suggested that this was a glioma, likely an oligodendroglioma, pending a second opinion at Clinic. That is not available on the chart as I dictate.",
-            "ner_chunk": "right frontotemporal neoplasm",
-            "begin": 360,
-            "end": 388,
-            "ner_label": "Cancer",
-            "ner_confidence": "0.76173335"
-        },
-        {
-            "document": "The patient was admitted for symptoms that sounded like postictal state. He was initially taken to Hospital. CT showed edema and slight midline shift, and therefore he was transferred here. He has been seen by Hospitalists Service. He has not had a recurrent seizure. Electroencephalogram shows slowing. MRI of the brain shows large inhomogeneous infiltrating right frontotemporal neoplasm surrounding the right middle cerebral artery. There is inhomogeneous uptake consistent with potential necrosis. He also has had a SPECT image of his brain, consistent with neoplasm, suggesting relatively high-grade neoplasm. The patient was diagnosed with a brain tumor in 1999. All details are still not available to us. He underwent a biopsy by Dr. Y. One of the notes suggested that this was a glioma, likely an oligodendroglioma, pending a second opinion at Clinic. That is not available on the chart as I dictate.",
-            "ner_chunk": "cerebral artery",
-            "begin": 419,
-            "end": 433,
-            "ner_label": "Multi-tissue_structure",
-            "ner_confidence": "0.9099"
-        },
-        {
-            "document": "The patient was admitted for symptoms that sounded like postictal state. He was initially taken to Hospital. CT showed edema and slight midline shift, and therefore he was transferred here. He has been seen by Hospitalists Service. He has not had a recurrent seizure. Electroencephalogram shows slowing. MRI of the brain shows large inhomogeneous infiltrating right frontotemporal neoplasm surrounding the right middle cerebral artery. There is inhomogeneous uptake consistent with potential necrosis. He also has had a SPECT image of his brain, consistent with neoplasm, suggesting relatively high-grade neoplasm. The patient was diagnosed with a brain tumor in 1999. All details are still not available to us. He underwent a biopsy by Dr. Y. One of the notes suggested that this was a glioma, likely an oligodendroglioma, pending a second opinion at Clinic. That is not available on the chart as I dictate.",
-            "ner_chunk": "He",
-            "begin": 502,
-            "end": 503,
-            "ner_label": "Simple_chemical",
-            "ner_confidence": "0.4689"
-        },
-        {
-            "document": "The patient was admitted for symptoms that sounded like postictal state. He was initially taken to Hospital. CT showed edema and slight midline shift, and therefore he was transferred here. He has been seen by Hospitalists Service. He has not had a recurrent seizure. Electroencephalogram shows slowing. MRI of the brain shows large inhomogeneous infiltrating right frontotemporal neoplasm surrounding the right middle cerebral artery. There is inhomogeneous uptake consistent with potential necrosis. He also has had a SPECT image of his brain, consistent with neoplasm, suggesting relatively high-grade neoplasm. The patient was diagnosed with a brain tumor in 1999. All details are still not available to us. He underwent a biopsy by Dr. Y. One of the notes suggested that this was a glioma, likely an oligodendroglioma, pending a second opinion at Clinic. That is not available on the chart as I dictate.",
-            "ner_chunk": "brain",
-            "begin": 539,
-            "end": 543,
-            "ner_label": "Organ",
-            "ner_confidence": "0.9984"
-        },
-        {
-            "document": "The patient was admitted for symptoms that sounded like postictal state. He was initially taken to Hospital. CT showed edema and slight midline shift, and therefore he was transferred here. He has been seen by Hospitalists Service. He has not had a recurrent seizure. Electroencephalogram shows slowing. MRI of the brain shows large inhomogeneous infiltrating right frontotemporal neoplasm surrounding the right middle cerebral artery. There is inhomogeneous uptake consistent with potential necrosis. He also has had a SPECT image of his brain, consistent with neoplasm, suggesting relatively high-grade neoplasm. The patient was diagnosed with a brain tumor in 1999. All details are still not available to us. He underwent a biopsy by Dr. Y. One of the notes suggested that this was a glioma, likely an oligodendroglioma, pending a second opinion at Clinic. That is not available on the chart as I dictate.",
-            "ner_chunk": "neoplasm",
-            "begin": 562,
-            "end": 569,
-            "ner_label": "Cancer",
-            "ner_confidence": "0.9996"
-        },
-        {
-            "document": "The patient was admitted for symptoms that sounded like postictal state. He was initially taken to Hospital. CT showed edema and slight midline shift, and therefore he was transferred here. He has been seen by Hospitalists Service. He has not had a recurrent seizure. Electroencephalogram shows slowing. MRI of the brain shows large inhomogeneous infiltrating right frontotemporal neoplasm surrounding the right middle cerebral artery. There is inhomogeneous uptake consistent with potential necrosis. He also has had a SPECT image of his brain, consistent with neoplasm, suggesting relatively high-grade neoplasm. The patient was diagnosed with a brain tumor in 1999. All details are still not available to us. He underwent a biopsy by Dr. Y. One of the notes suggested that this was a glioma, likely an oligodendroglioma, pending a second opinion at Clinic. That is not available on the chart as I dictate.",
-            "ner_chunk": "neoplasm",
-            "begin": 605,
-            "end": 612,
-            "ner_label": "Cancer",
-            "ner_confidence": "0.9995"
-        },
-        {
-            "document": "The patient was admitted for symptoms that sounded like postictal state. He was initially taken to Hospital. CT showed edema and slight midline shift, and therefore he was transferred here. He has been seen by Hospitalists Service. He has not had a recurrent seizure. Electroencephalogram shows slowing. MRI of the brain shows large inhomogeneous infiltrating right frontotemporal neoplasm surrounding the right middle cerebral artery. There is inhomogeneous uptake consistent with potential necrosis. He also has had a SPECT image of his brain, consistent with neoplasm, suggesting relatively high-grade neoplasm. The patient was diagnosed with a brain tumor in 1999. All details are still not available to us. He underwent a biopsy by Dr. Y. One of the notes suggested that this was a glioma, likely an oligodendroglioma, pending a second opinion at Clinic. That is not available on the chart as I dictate.",
-            "ner_chunk": "patient",
-            "begin": 619,
-            "end": 625,
-            "ner_label": "Organism",
-            "ner_confidence": "1.0"
-        },
-        {
-            "document": "The patient was admitted for symptoms that sounded like postictal state. He was initially taken to Hospital. CT showed edema and slight midline shift, and therefore he was transferred here. He has been seen by Hospitalists Service. He has not had a recurrent seizure. Electroencephalogram shows slowing. MRI of the brain shows large inhomogeneous infiltrating right frontotemporal neoplasm surrounding the right middle cerebral artery. There is inhomogeneous uptake consistent with potential necrosis. He also has had a SPECT image of his brain, consistent with neoplasm, suggesting relatively high-grade neoplasm. The patient was diagnosed with a brain tumor in 1999. All details are still not available to us. He underwent a biopsy by Dr. Y. One of the notes suggested that this was a glioma, likely an oligodendroglioma, pending a second opinion at Clinic. That is not available on the chart as I dictate.",
-            "ner_chunk": "brain tumor",
-            "begin": 648,
-            "end": 658,
-            "ner_label": "Cancer",
-            "ner_confidence": "0.99965"
-        },
-        {
-            "document": "The patient was admitted for symptoms that sounded like postictal state. He was initially taken to Hospital. CT showed edema and slight midline shift, and therefore he was transferred here. He has been seen by Hospitalists Service. He has not had a recurrent seizure. Electroencephalogram shows slowing. MRI of the brain shows large inhomogeneous infiltrating right frontotemporal neoplasm surrounding the right middle cerebral artery. There is inhomogeneous uptake consistent with potential necrosis. He also has had a SPECT image of his brain, consistent with neoplasm, suggesting relatively high-grade neoplasm. The patient was diagnosed with a brain tumor in 1999. All details are still not available to us. He underwent a biopsy by Dr. Y. One of the notes suggested that this was a glioma, likely an oligodendroglioma, pending a second opinion at Clinic. That is not available on the chart as I dictate.",
-            "ner_chunk": "glioma",
-            "begin": 787,
-            "end": 792,
-            "ner_label": "Cancer",
-            "ner_confidence": "1.0"
-        },
-        {
-            "document": "The patient was admitted for symptoms that sounded like postictal state. He was initially taken to Hospital. CT showed edema and slight midline shift, and therefore he was transferred here. He has been seen by Hospitalists Service. He has not had a recurrent seizure. Electroencephalogram shows slowing. MRI of the brain shows large inhomogeneous infiltrating right frontotemporal neoplasm surrounding the right middle cerebral artery. There is inhomogeneous uptake consistent with potential necrosis. He also has had a SPECT image of his brain, consistent with neoplasm, suggesting relatively high-grade neoplasm. The patient was diagnosed with a brain tumor in 1999. All details are still not available to us. He underwent a biopsy by Dr. Y. One of the notes suggested that this was a glioma, likely an oligodendroglioma, pending a second opinion at Clinic. That is not available on the chart as I dictate.",
-            "ner_chunk": "oligodendroglioma",
-            "begin": 805,
-            "end": 821,
-            "ner_label": "Cancer",
-            "ner_confidence": "1.0"
-        }
+        [
+            {
+                "ner_chunk": "lesion",
+                "begin": 31,
+                "end": 36,
+                "ner_label": "Pathological_formation",
+                "ner_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "basal cell carcinoma",
+                "begin": 151,
+                "end": 170,
+                "ner_label": "Cancer",
+                "ner_confidence": "0.9991333"
+            },
+            {
+                "ner_chunk": "tumor",
+                "begin": 197,
+                "end": 201,
+                "ner_label": "Cancer",
+                "ner_confidence": "0.9999"
+            },
+            {
+                "ner_chunk": "lesion",
+                "begin": 255,
+                "end": 260,
+                "ner_label": "Pathological_formation",
+                "ner_confidence": "0.5082"
+            },
+            {
+                "ner_chunk": "glabellar skin",
+                "begin": 369,
+                "end": 382,
+                "ner_label": "Organ",
+                "ner_confidence": "0.79815"
+            },
+            {
+                "ner_chunk": "flap",
+                "begin": 389,
+                "end": 392,
+                "ner_label": "Tissue",
+                "ner_confidence": "0.9869"
+            },
+            {
+                "ner_chunk": "dermis",
+                "begin": 566,
+                "end": 571,
+                "ner_label": "Tissue",
+                "ner_confidence": "0.9969"
+            },
+            {
+                "ner_chunk": "skin",
+                "begin": 605,
+                "end": 608,
+                "ner_label": "Organ",
+                "ner_confidence": "0.9997"
+            }
+        ],
+        [
+            {
+                "ner_chunk": "patient",
+                "begin": 4,
+                "end": 10,
+                "ner_label": "Organism",
+                "ner_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "He",
+                "begin": 73,
+                "end": 74,
+                "ner_label": "Organism",
+                "ner_confidence": "0.5813"
+            },
+            {
+                "ner_chunk": "edema",
+                "begin": 123,
+                "end": 127,
+                "ner_label": "Pathological_formation",
+                "ner_confidence": "0.9999"
+            },
+            {
+                "ner_chunk": "He",
+                "begin": 194,
+                "end": 195,
+                "ner_label": "Organism",
+                "ner_confidence": "0.5297"
+            },
+            {
+                "ner_chunk": "He",
+                "begin": 240,
+                "end": 241,
+                "ner_label": "Organism",
+                "ner_confidence": "0.6873"
+            },
+            {
+                "ner_chunk": "brain",
+                "begin": 331,
+                "end": 335,
+                "ner_label": "Organ",
+                "ner_confidence": "0.9998"
+            },
+            {
+                "ner_chunk": "right frontotemporal neoplasm",
+                "begin": 378,
+                "end": 406,
+                "ner_label": "Cancer",
+                "ner_confidence": "0.88069993"
+            },
+            {
+                "ner_chunk": "middle cerebral artery",
+                "begin": 430,
+                "end": 451,
+                "ner_label": "Multi-tissue_structure",
+                "ner_confidence": "0.8303333"
+            },
+            {
+                "ner_chunk": "He",
+                "begin": 519,
+                "end": 520,
+                "ner_label": "Simple_chemical",
+                "ner_confidence": "0.4607"
+            },
+            {
+                "ner_chunk": "brain",
+                "begin": 556,
+                "end": 560,
+                "ner_label": "Organ",
+                "ner_confidence": "0.9983"
+            },
+            {
+                "ner_chunk": "neoplasm",
+                "begin": 579,
+                "end": 586,
+                "ner_label": "Cancer",
+                "ner_confidence": "0.9997"
+            },
+            {
+                "ner_chunk": "neoplasm",
+                "begin": 624,
+                "end": 631,
+                "ner_label": "Cancer",
+                "ner_confidence": "0.9998"
+            },
+            {
+                "ner_chunk": "patient",
+                "begin": 638,
+                "end": 644,
+                "ner_label": "Organism",
+                "ner_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "brain tumor",
+                "begin": 667,
+                "end": 677,
+                "ner_label": "Cancer",
+                "ner_confidence": "0.99965"
+            },
+            {
+                "ner_chunk": "glioma",
+                "begin": 799,
+                "end": 804,
+                "ner_label": "Cancer",
+                "ner_confidence": "1.0"
+            },
+            {
+                "ner_chunk": "oligodendroglioma",
+                "begin": 817,
+                "end": 833,
+                "ner_label": "Cancer",
+                "ner_confidence": "1.0"
+            }
+        ]
     ]
 }
