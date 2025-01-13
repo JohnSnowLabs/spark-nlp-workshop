@@ -2,7 +2,7 @@
     "predictions": [
         {
             "prediction": "Other",
-            "confidence": 0.9554362
+            "confidence": "0.9554362"
         }
     ]
 }
