@@ -1,0 +1,503 @@
+{
+    "predictions": [
+        [
+            {
+                "begin": 27,
+                "end": 51,
+                "ner_chunk": "persistent abdominal pain",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.9549",
+                "concept_code": "K80.5",
+                "resolution": "recurrent abdominal pain",
+                "score": 0.8763471841812134,
+                "billable_hcc": [
+                    "0||0||0",
+                    "0||0||0",
+                    "1||0||0",
+                    "1||0||0",
+                    "1||0||0"
+                ],
+                "all_codes": [
+                    "K80.5",
+                    "K80.5",
+                    "R10.9",
+                    "R10.0",
+                    "R10.9"
+                ],
+                "concept_name_detailed": [
+                    "recurrent abdominal pain [calculus of bile duct without cholangitis or cholecystitis]",
+                    "recurrent abdominal pain (finding) [calculus of bile duct without cholangitis or cholecystitis]",
+                    "refractory abdominal pain [unspecified abdominal pain]",
+                    "recurrent acute abdominal pain [acute abdomen]",
+                    "nonspecific abdominal pain [unspecified abdominal pain]"
+                ],
+                "all_resolutions": [
+                    "recurrent abdominal pain",
+                    "recurrent abdominal pain (finding)",
+                    "refractory abdominal pain",
+                    "recurrent acute abdominal pain",
+                    "nonspecific abdominal pain"
+                ],
+                "all_score": [
+                    0.8763471841812134,
+                    0.86885005235672,
+                    0.8286551237106323,
+                    0.8278406858444214,
+                    0.8240739107131958
+                ]
+            },
+            {
+                "begin": 54,
+                "end": 59,
+                "ner_chunk": "nausea",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.9995",
+                "concept_code": "R11.0",
+                "resolution": "nausea",
+                "score": 1.000000238418579,
+                "billable_hcc": [
+                    "1||0||0",
+                    "1||0||0",
+                    "0||0||0",
+                    "0||0||0",
+                    "0||0||0"
+                ],
+                "all_codes": [
+                    "R11.0",
+                    "R11.0",
+                    "R11",
+                    "R11",
+                    "R11"
+                ],
+                "concept_name_detailed": [
+                    "nausea [nausea]",
+                    "nausea (finding) [nausea]",
+                    "nausea present [nausea and vomiting]",
+                    "nausea and vomiting [nausea and vomiting]",
+                    "nausea present (finding) [nausea and vomiting]"
+                ],
+                "all_resolutions": [
+                    "nausea",
+                    "nausea (finding)",
+                    "nausea present",
+                    "nausea and vomiting",
+                    "nausea present (finding)"
+                ],
+                "all_score": [
+                    1.000000238418579,
+                    0.9062079787254333,
+                    0.8711103200912476,
+                    0.8635473847389221,
+                    0.8409349918365479
+                ]
+            },
+            {
+                "begin": 65,
+                "end": 83,
+                "ner_chunk": "projectile vomiting",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.99434996",
+                "concept_code": "R11.12",
+                "resolution": "projectile vomiting",
+                "score": 0.9999996423721313,
+                "billable_hcc": [
+                    "1||0||0",
+                    "0||0||0",
+                    "0||0||0",
+                    "0||0||0",
+                    "1||0||0"
+                ],
+                "all_codes": [
+                    "R11.12",
+                    "R11",
+                    "R11.1",
+                    "R11",
+                    "A08.39"
+                ],
+                "concept_name_detailed": [
+                    "projectile vomiting [projectile vomiting]",
+                    "projectile vomiting (disorder) [nausea and vomiting]",
+                    "vomiting [vomiting]",
+                    "vomiting food [nausea and vomiting]",
+                    "viral vomiting [other viral enteritis]"
+                ],
+                "all_resolutions": [
+                    "projectile vomiting",
+                    "projectile vomiting (disorder)",
+                    "vomiting",
+                    "vomiting food",
+                    "viral vomiting"
+                ],
+                "all_score": [
+                    0.9999996423721313,
+                    0.9205434322357178,
+                    0.8523432612419128,
+                    0.8416711091995239,
+                    0.8325560688972473
+                ]
+            },
+            {
+                "begin": 145,
+                "end": 158,
+                "ner_chunk": "a high amylase",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.90860003",
+                "concept_code": "R74.8",
+                "resolution": "serum amylase raised (finding)",
+                "score": 0.79623943567276,
+                "billable_hcc": [
+                    "1||0||0",
+                    "1||0||0",
+                    "1||0||0",
+                    "1||0||0",
+                    "1||0||0"
+                ],
+                "all_codes": [
+                    "R74.8",
+                    "R74.8",
+                    "R85.0",
+                    "R74.8",
+                    "R85.0"
+                ],
+                "concept_name_detailed": [
+                    "serum amylase raised (finding) [abnormal levels of other serum enzymes]",
+                    "serum amylase raised [abnormal levels of other serum enzymes]",
+                    "increased pancreatic lipase [abnormal level of enzymes in specimens from digestive organs and abdominal cavity]",
+                    "high enzyme level in serum [abnormal levels of other serum enzymes]",
+                    "increased pancreatic lipase (finding) [abnormal level of enzymes in specimens from digestive organs and abdominal cavity]"
+                ],
+                "all_resolutions": [
+                    "serum amylase raised (finding)",
+                    "serum amylase raised",
+                    "increased pancreatic lipase",
+                    "high enzyme level in serum",
+                    "increased pancreatic lipase (finding)"
+                ],
+                "all_score": [
+                    0.79623943567276,
+                    0.7914051413536072,
+                    0.7497529983520508,
+                    0.7493454217910767,
+                    0.7489347457885742
+                ]
+            },
+            {
+                "begin": 229,
+                "end": 267,
+                "ner_chunk": "unspecified gastrointestinal hemorrhage",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.89243335",
+                "concept_code": "K92.2",
+                "resolution": "gastrointestinal hemorrhage, unspecified",
+                "score": 0.9738170504570007,
+                "billable_hcc": [
+                    "1||0||0",
+                    "1||0||0",
+                    "1||0||0",
+                    "1||1||48",
+                    "1||0||0"
+                ],
+                "all_codes": [
+                    "K92.2",
+                    "K92.2",
+                    "K92.2",
+                    "D69.9",
+                    "K25.4"
+                ],
+                "concept_name_detailed": [
+                    "gastrointestinal hemorrhage, unspecified [gastrointestinal hemorrhage, unspecified]",
+                    "obscure gastrointestinal hemorrhage [gastrointestinal hemorrhage, unspecified]",
+                    "obscure gastrointestinal haemorrhage [gastrointestinal hemorrhage, unspecified]",
+                    "hemorrhagic condition, unspecified [hemorrhagic condition, unspecified]",
+                    "chronic or unspecified gastric ulcer with hemorrhage [chronic or unspecified gastric ulcer with hemorrhage]"
+                ],
+                "all_resolutions": [
+                    "gastrointestinal hemorrhage, unspecified",
+                    "obscure gastrointestinal hemorrhage",
+                    "obscure gastrointestinal haemorrhage",
+                    "hemorrhagic condition, unspecified",
+                    "chronic or unspecified gastric ulcer with hemorrhage"
+                ],
+                "all_score": [
+                    0.9738170504570007,
+                    0.8924537897109985,
+                    0.8827970027923584,
+                    0.8715918064117432,
+                    0.8579167127609253
+                ]
+            }
+        ],
+        [
+            {
+                "begin": 14,
+                "end": 45,
+                "ner_chunk": "unspecified upper abdominal pain",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.805175",
+                "concept_code": "R10.10",
+                "resolution": "upper abdominal pain, unspecified",
+                "score": 0.979938268661499,
+                "billable_hcc": [
+                    "1||0||0",
+                    "1||0||0",
+                    "0||0||0",
+                    "0||0||0",
+                    "0||0||0"
+                ],
+                "all_codes": [
+                    "R10.10",
+                    "R10.9",
+                    "R10.1",
+                    "R10.1",
+                    "R10.1"
+                ],
+                "concept_name_detailed": [
+                    "upper abdominal pain, unspecified [upper abdominal pain, unspecified]",
+                    "unspecified abdominal pain [unspecified abdominal pain]",
+                    "upper abdominal pain [pain localized to upper abdomen]",
+                    "upper abdominal pain (finding) [pain localized to upper abdomen]",
+                    "pain localized to upper abdomen [pain localized to upper abdomen]"
+                ],
+                "all_resolutions": [
+                    "upper abdominal pain, unspecified",
+                    "unspecified abdominal pain",
+                    "upper abdominal pain",
+                    "upper abdominal pain (finding)",
+                    "pain localized to upper abdomen"
+                ],
+                "all_score": [
+                    0.979938268661499,
+                    0.9405500292778015,
+                    0.8914374709129333,
+                    0.8855582475662231,
+                    0.8779515027999878
+                ]
+            },
+            {
+                "begin": 51,
+                "end": 58,
+                "ner_chunk": "swelling",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.9994",
+                "concept_code": "R60.9",
+                "resolution": "swelling",
+                "score": 1.0000011920928955,
+                "billable_hcc": [
+                    "1||0||0",
+                    "1||0||0",
+                    "1||0||0",
+                    "1||0||0",
+                    "1||0||0"
+                ],
+                "all_codes": [
+                    "R60.9",
+                    "P83.30",
+                    "R60.9",
+                    "R60.9",
+                    "R60.9"
+                ],
+                "concept_name_detailed": [
+                    "swelling [edema, unspecified]",
+                    "swelling (finding) [unspecified edema specific to newborn]",
+                    "swelling or edema [edema, unspecified]",
+                    "muscle swelling [edema, unspecified]",
+                    "complaining of a swelling [edema, unspecified]"
+                ],
+                "all_resolutions": [
+                    "swelling",
+                    "swelling (finding)",
+                    "swelling or edema",
+                    "muscle swelling",
+                    "complaining of a swelling"
+                ],
+                "all_score": [
+                    1.0000011920928955,
+                    0.9340642094612122,
+                    0.9129384756088257,
+                    0.8990463614463806,
+                    0.8975821137428284
+                ]
+            },
+            {
+                "begin": 117,
+                "end": 136,
+                "ner_chunk": "disease of intestine",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.84213334",
+                "concept_code": "K63.9",
+                "resolution": "disease of intestine",
+                "score": 1.0000001192092896,
+                "billable_hcc": [
+                    "1||0||0",
+                    "1||0||0",
+                    "1||0||0",
+                    "1||0||0",
+                    "1||0||0"
+                ],
+                "all_codes": [
+                    "K63.9",
+                    "K63.9",
+                    "K63.9",
+                    "K63.9",
+                    "K63.9"
+                ],
+                "concept_name_detailed": [
+                    "disease of intestine [disease of intestine, unspecified]",
+                    "disease of intestine (disorder) [disease of intestine, unspecified]",
+                    "disorder of intestine [disease of intestine, unspecified]",
+                    "intestinal disease [disease of intestine, unspecified]",
+                    "disease of small intestine [disease of intestine, unspecified]"
+                ],
+                "all_resolutions": [
+                    "disease of intestine",
+                    "disease of intestine (disorder)",
+                    "disorder of intestine",
+                    "intestinal disease",
+                    "disease of small intestine"
+                ],
+                "all_score": [
+                    1.0000001192092896,
+                    0.9722301363945007,
+                    0.9192954301834106,
+                    0.9125630259513855,
+                    0.9073302149772644
+                ]
+            },
+            {
+                "begin": 160,
+                "end": 189,
+                "ner_chunk": "mixed irritable bowel syndrome",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.95814997",
+                "concept_code": "K58.2",
+                "resolution": "mixed irritable bowel syndrome",
+                "score": 0.9999999403953552,
+                "billable_hcc": [
+                    "1||0||0",
+                    "0||0||0",
+                    "1||0||0",
+                    "1||0||0",
+                    "1||0||0"
+                ],
+                "all_codes": [
+                    "K58.2",
+                    "K58",
+                    "K58.9",
+                    "K58.9",
+                    "K58.0"
+                ],
+                "concept_name_detailed": [
+                    "mixed irritable bowel syndrome [mixed irritable bowel syndrome]",
+                    "irritable bowel syndrome [irritable bowel syndrome]",
+                    "irritable bowel syndrome (disorder) [irritable bowel syndrome without diarrhea]",
+                    "irritable colon syndrome [irritable bowel syndrome without diarrhea]",
+                    "irritable bowel syndrome with diarrhea [irritable bowel syndrome with diarrhea]"
+                ],
+                "all_resolutions": [
+                    "mixed irritable bowel syndrome",
+                    "irritable bowel syndrome",
+                    "irritable bowel syndrome (disorder)",
+                    "irritable colon syndrome",
+                    "irritable bowel syndrome with diarrhea"
+                ],
+                "all_score": [
+                    0.9999999403953552,
+                    0.8407941460609436,
+                    0.8157996535301208,
+                    0.8116376399993896,
+                    0.8114128112792969
+                ]
+            },
+            {
+                "begin": 195,
+                "end": 223,
+                "ner_chunk": "congenital lactase deficiency",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.9917",
+                "concept_code": "E73.0",
+                "resolution": "congenital lactase deficiency",
+                "score": 1.000000238418579,
+                "billable_hcc": [
+                    "1||0||0",
+                    "1||0||0",
+                    "1||0||0",
+                    "1||0||0",
+                    "1||0||0"
+                ],
+                "all_codes": [
+                    "E73.0",
+                    "E73.0",
+                    "E73.8",
+                    "E73.0",
+                    "E73.1"
+                ],
+                "concept_name_detailed": [
+                    "congenital lactase deficiency [congenital lactase deficiency]",
+                    "congenital lactase deficiency (disorder) [congenital lactase deficiency]",
+                    "lactase deficiency [other lactose intolerance]",
+                    "cld - congenital lactase deficiency [congenital lactase deficiency]",
+                    "lactase deficiency (disorder) [secondary lactase deficiency]"
+                ],
+                "all_resolutions": [
+                    "congenital lactase deficiency",
+                    "congenital lactase deficiency (disorder)",
+                    "lactase deficiency",
+                    "cld - congenital lactase deficiency",
+                    "lactase deficiency (disorder)"
+                ],
+                "all_score": [
+                    1.000000238418579,
+                    0.9800158739089966,
+                    0.9227888584136963,
+                    0.9052652716636658,
+                    0.8908753395080566
+                ]
+            },
+            {
+                "begin": 286,
+                "end": 320,
+                "ner_chunk": "abnormal results of blood chemistry",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.8009399",
+                "concept_code": "R79.9",
+                "resolution": "blood chemistry abnormal",
+                "score": 0.9307544231414795,
+                "billable_hcc": [
+                    "1||0||0",
+                    "1||0||0",
+                    "0||0||0",
+                    "1||0||0",
+                    "1||0||0"
+                ],
+                "all_codes": [
+                    "R79.9",
+                    "R79.9",
+                    "R79",
+                    "R79.89",
+                    "R79.9"
+                ],
+                "concept_name_detailed": [
+                    "blood chemistry abnormal [abnormal finding of blood chemistry, unspecified]",
+                    "blood chemistry abnormal (finding) [abnormal finding of blood chemistry, unspecified]",
+                    "other abnormal findings of blood chemistry [other abnormal findings of blood chemistry]",
+                    "other specified abnormal findings of blood chemistry [other specified abnormal findings of blood chemistry]",
+                    "abnormal finding of blood chemistry, unspecified [abnormal finding of blood chemistry, unspecified]"
+                ],
+                "all_resolutions": [
+                    "blood chemistry abnormal",
+                    "blood chemistry abnormal (finding)",
+                    "other abnormal findings of blood chemistry",
+                    "other specified abnormal findings of blood chemistry",
+                    "abnormal finding of blood chemistry, unspecified"
+                ],
+                "all_score": [
+                    0.9307544231414795,
+                    0.9073789715766907,
+                    0.8975028991699219,
+                    0.8874545693397522,
+                    0.8739074468612671
+                ]
+            }
+        ]
+    ]
+}
