@@ -1,0 +1,82 @@
+{
+    "predictions": [
+        [
+            {
+                "begin": 59,
+                "end": 66,
+                "ner_chunk": "Diabetes",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.9878",
+                "concept_code": "19",
+                "resolution": "diabetes mellitus (disorder)",
+                "score": 0.8393428325653076,
+                "all_codes": [
+                    "19",
+                    "19",
+                    "0",
+                    "19",
+                    "0"
+                ],
+                "concept_name_detailed": [
+                    "diabetes mellitus (disorder) [type 2 diabetes mellitus without complications]",
+                    "diabetes mellitus [type 1 diabetes mellitus without complications]",
+                    "renal diabetes (disorder) [other specified diabetes mellitus with kidney complications]",
+                    "type i diabetes mellitus [type 1 diabetes mellitus without complications]",
+                    "type 1 diabetes mellitus [type 1 diabetes mellitus]"
+                ],
+                "all_resolutions": [
+                    "diabetes mellitus (disorder)",
+                    "diabetes mellitus",
+                    "renal diabetes (disorder)",
+                    "type i diabetes mellitus",
+                    "type 1 diabetes mellitus"
+                ],
+                "all_score": [
+                    0.8393428325653076,
+                    0.8375614881515503,
+                    0.8063362836837769,
+                    0.7999697923660278,
+                    0.7912539839744568
+                ]
+            },
+            {
+                "begin": 72,
+                "end": 108,
+                "ner_chunk": "Chronic Obstructive Pulmonary Disease",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.947025",
+                "concept_code": "111",
+                "resolution": "chronic obstructive pulmonary disease",
+                "score": 0.9999998807907104,
+                "all_codes": [
+                    "111",
+                    "111",
+                    "111",
+                    "111",
+                    "111"
+                ],
+                "concept_name_detailed": [
+                    "chronic obstructive pulmonary disease [chronic obstructive pulmonary disease, unspecified]",
+                    "chronic obstructive lung disease [chronic obstructive pulmonary disease, unspecified]",
+                    "copd - chronic obstructive pulmonary disease [chronic obstructive pulmonary disease, unspecified]",
+                    "chronic obstructive lung disease (disorder) [chronic obstructive pulmonary disease, unspecified]",
+                    "chronic obstructive airway disease [chronic obstructive pulmonary disease, unspecified]"
+                ],
+                "all_resolutions": [
+                    "chronic obstructive pulmonary disease",
+                    "chronic obstructive lung disease",
+                    "copd - chronic obstructive pulmonary disease",
+                    "chronic obstructive lung disease (disorder)",
+                    "chronic obstructive airway disease"
+                ],
+                "all_score": [
+                    0.9999998807907104,
+                    0.9534466862678528,
+                    0.9277709126472473,
+                    0.9195234179496765,
+                    0.8972678780555725
+                ]
+            }
+        ]
+    ]
+}

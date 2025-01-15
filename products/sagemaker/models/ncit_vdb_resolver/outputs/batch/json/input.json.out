@@ -1,0 +1,1341 @@
+{
+    "predictions": [
+        [
+            {
+                "begin": 37,
+                "end": 53,
+                "ner_chunk": "debulking surgery",
+                "ner_label": "CANCER_SURGERY",
+                "ner_confidence": "0.78400004",
+                "concept_code": "C15749",
+                "resolution": "debulking surgery",
+                "score": 0.9999998211860657,
+                "all_codes": [
+                    "C15749",
+                    "C160865",
+                    "C160866",
+                    "C15749",
+                    "C15749"
+                ],
+                "all_resolutions": [
+                    "debulking surgery",
+                    "primary debulking surgery",
+                    "interval debulking surgery",
+                    "debulking procedure",
+                    "debulking"
+                ],
+                "all_score": [
+                    0.9999998211860657,
+                    0.9072895646095276,
+                    0.8973025679588318,
+                    0.8779721260070801,
+                    0.851721465587616
+                ]
+            },
+            {
+                "begin": 56,
+                "end": 77,
+                "ner_chunk": "bilateral oophorectomy",
+                "ner_label": "CANCER_SURGERY",
+                "ner_confidence": "0.83615005",
+                "concept_code": "C51590",
+                "resolution": "bilateral oophorectomy",
+                "score": 0.9999991655349731,
+                "all_codes": [
+                    "C51590",
+                    "C51765",
+                    "C51765",
+                    "C49133",
+                    "C51667"
+                ],
+                "all_resolutions": [
+                    "bilateral oophorectomy",
+                    "bilateral salpingo-oophorectomy",
+                    "bilateral salpingectomy with oophorectomy",
+                    "bilateral prophylactic oophorectomy",
+                    "bilateral salpingectomy"
+                ],
+                "all_score": [
+                    0.9999991655349731,
+                    0.9659522771835327,
+                    0.9521262049674988,
+                    0.9364778399467468,
+                    0.9134529829025269
+                ]
+            },
+            {
+                "begin": 84,
+                "end": 94,
+                "ner_chunk": "omentectomy",
+                "ner_label": "CANCER_SURGERY",
+                "ner_confidence": "0.988",
+                "concept_code": "C51787",
+                "resolution": "omentectomy",
+                "score": 1.0,
+                "all_codes": [
+                    "C51787",
+                    "C51788",
+                    "C51787",
+                    "C51788",
+                    "C33209"
+                ],
+                "all_resolutions": [
+                    "omentectomy",
+                    "partial omentectomy",
+                    "resection of omentum",
+                    "partial resection of omentum",
+                    "omentum"
+                ],
+                "all_score": [
+                    1.0,
+                    0.8603771924972534,
+                    0.8370007276535034,
+                    0.8057854771614075,
+                    0.7462188601493835
+                ]
+            },
+            {
+                "begin": 97,
+                "end": 114,
+                "ner_chunk": "total hysterectomy",
+                "ner_label": "CANCER_SURGERY",
+                "ner_confidence": "0.95624995",
+                "concept_code": "C15701",
+                "resolution": "total hysterectomy",
+                "score": 1.0,
+                "all_codes": [
+                    "C15701",
+                    "C51695",
+                    "C15701",
+                    "C15701",
+                    "C51660"
+                ],
+                "all_resolutions": [
+                    "total hysterectomy",
+                    "total abdominal hysterectomy",
+                    "complete hysterectomy",
+                    "full hysterectomy",
+                    "abdominal hysterectomy"
+                ],
+                "all_score": [
+                    1.0,
+                    0.9706456661224365,
+                    0.8939006924629211,
+                    0.8890132308006287,
+                    0.8696089386940002
+                ]
+            },
+            {
+                "begin": 121,
+                "end": 157,
+                "ner_chunk": "radical pelvic lymph nodes dissection",
+                "ner_label": "CANCER_SURGERY",
+                "ner_confidence": "0.80143994",
+                "concept_code": "C51896",
+                "resolution": "pelvic lymph node dissection",
+                "score": 0.9299925565719604,
+                "all_codes": [
+                    "C51896",
+                    "C48936",
+                    "C166163",
+                    "C51896",
+                    "C51896"
+                ],
+                "all_resolutions": [
+                    "pelvic lymph node dissection",
+                    "radical lymph node dissection",
+                    "bilateral pelvic lymph node dissection",
+                    "pelvic lymphadenectomy",
+                    "excision pelvic lymph nodes"
+                ],
+                "all_score": [
+                    0.9299925565719604,
+                    0.9063621163368225,
+                    0.8415289521217346,
+                    0.8406316041946411,
+                    0.8394026160240173
+                ]
+            },
+            {
+                "begin": 166,
+                "end": 182,
+                "ner_chunk": "ovarian carcinoma",
+                "ner_label": "CANCER_DX",
+                "ner_confidence": "0.92355",
+                "concept_code": "C4908",
+                "resolution": "ovarian carcinoma",
+                "score": 1.0000001192092896,
+                "all_codes": [
+                    "C4908",
+                    "C4908",
+                    "C4908",
+                    "C4908",
+                    "C4984"
+                ],
+                "all_resolutions": [
+                    "ovarian carcinoma",
+                    "carcinoma of ovary",
+                    "ovarian cancer",
+                    "carcinoma of the ovary",
+                    "ovarian tumor"
+                ],
+                "all_score": [
+                    1.0000001192092896,
+                    0.9383365511894226,
+                    0.9361097812652588,
+                    0.9348263740539551,
+                    0.9038485288619995
+                ]
+            },
+            {
+                "begin": 185,
+                "end": 197,
+                "ner_chunk": "mucinous-type",
+                "ner_label": "HISTOLOGICAL_TYPE",
+                "ner_confidence": "0.8136",
+                "concept_code": "C14163",
+                "resolution": "mucinous",
+                "score": 0.8929781913757324,
+                "all_codes": [
+                    "C14163",
+                    "C2973",
+                    "C36119",
+                    "C38768",
+                    "C2973"
+                ],
+                "all_resolutions": [
+                    "mucinous",
+                    "mucinous adenoma",
+                    "mucinous lesion",
+                    "mucinous differentiation",
+                    "mucinous cystoma"
+                ],
+                "all_score": [
+                    0.8929781913757324,
+                    0.8247438669204712,
+                    0.8220605254173279,
+                    0.8207640647888184,
+                    0.8160086274147034
+                ]
+            },
+            {
+                "begin": 199,
+                "end": 207,
+                "ner_chunk": "carcinoma",
+                "ner_label": "CANCER_DX",
+                "ner_confidence": "0.9678",
+                "concept_code": "C2916",
+                "resolution": "carcinoma",
+                "score": 0.9999994039535522,
+                "all_codes": [
+                    "C2916",
+                    "C4910",
+                    "C6077",
+                    "C4914",
+                    "C6077"
+                ],
+                "all_resolutions": [
+                    "carcinoma",
+                    "colon carcinoma",
+                    "carcinoma of neck",
+                    "carcinoma of skin",
+                    "carcinoma of the neck"
+                ],
+                "all_score": [
+                    0.9999994039535522,
+                    0.869744062423706,
+                    0.8656007051467896,
+                    0.8640568852424622,
+                    0.8614212870597839
+                ]
+            },
+            {
+                "begin": 525,
+                "end": 533,
+                "ner_chunk": "carcinoma",
+                "ner_label": "CANCER_DX",
+                "ner_confidence": "0.9754",
+                "concept_code": "C2916",
+                "resolution": "carcinoma",
+                "score": 0.9999994039535522,
+                "all_codes": [
+                    "C2916",
+                    "C4910",
+                    "C6077",
+                    "C4914",
+                    "C6077"
+                ],
+                "all_resolutions": [
+                    "carcinoma",
+                    "colon carcinoma",
+                    "carcinoma of neck",
+                    "carcinoma of skin",
+                    "carcinoma of the neck"
+                ],
+                "all_score": [
+                    0.9999994039535522,
+                    0.869744062423706,
+                    0.8656007051467896,
+                    0.8640568852424622,
+                    0.8614212870597839
+                ]
+            },
+            {
+                "begin": 210,
+                "end": 217,
+                "ner_chunk": "stage Ic",
+                "ner_label": "STAGING",
+                "ner_confidence": "0.9956",
+                "concept_code": "C141199",
+                "resolution": "stage ie",
+                "score": 0.8238500952720642,
+                "all_codes": [
+                    "C141199",
+                    "C16899",
+                    "C5222",
+                    "C137669",
+                    "C48717"
+                ],
+                "all_resolutions": [
+                    "stage ie",
+                    "stage",
+                    "ovarian cancer stage ic",
+                    "stage iic",
+                    "n3c stage"
+                ],
+                "all_score": [
+                    0.8238500952720642,
+                    0.8226261138916016,
+                    0.8223693370819092,
+                    0.8138012290000916,
+                    0.8135221004486084
+                ]
+            },
+            {
+                "begin": 297,
+                "end": 308,
+                "ner_chunk": "chemotherapy",
+                "ner_label": "CHEMOTHERAPY",
+                "ner_confidence": "0.9999",
+                "concept_code": "C15632",
+                "resolution": "chemotherapy",
+                "score": 1.0000004768371582,
+                "all_codes": [
+                    "C15632",
+                    "C15632",
+                    "C191",
+                    "C15632",
+                    "C191"
+                ],
+                "all_resolutions": [
+                    "chemotherapy",
+                    "chemo",
+                    "chemotherapy, combination",
+                    "chemotherapy, cancer, general",
+                    "combination chemotherapy"
+                ],
+                "all_score": [
+                    1.0000004768371582,
+                    0.8737051486968994,
+                    0.8588521480560303,
+                    0.844483494758606,
+                    0.8398085236549377
+                ]
+            },
+            {
+                "begin": 311,
+                "end": 326,
+                "ner_chunk": "cyclophosphamide",
+                "ner_label": "CHEMOTHERAPY",
+                "ner_confidence": "0.9997",
+                "concept_code": "C405",
+                "resolution": "cyclophosphamide",
+                "score": 1.0000001192092896,
+                "all_codes": [
+                    "C405",
+                    "C405",
+                    "C9569",
+                    "C9569",
+                    "C63444"
+                ],
+                "all_resolutions": [
+                    "cyclophosphamide",
+                    "(-)-cyclophosphamide",
+                    "cisplatin-cyclophosphamide",
+                    "cyclophosphamide-cisplatin",
+                    "cyclophosphamide-fludarabine"
+                ],
+                "all_score": [
+                    1.0000001192092896,
+                    0.9113725423812866,
+                    0.9031081795692444,
+                    0.8940169811248779,
+                    0.8878666162490845
+                ]
+            },
+            {
+                "begin": 339,
+                "end": 349,
+                "ner_chunk": "carboplatin",
+                "ner_label": "CHEMOTHERAPY",
+                "ner_confidence": "1.0",
+                "concept_code": "C9532",
+                "resolution": "carboplatin-cyclophosphamide",
+                "score": 0.898856520652771,
+                "all_codes": [
+                    "C9532",
+                    "C9532",
+                    "C9532",
+                    "C11854",
+                    "C63402"
+                ],
+                "all_resolutions": [
+                    "carboplatin-cyclophosphamide",
+                    "cyclophosphamide-carboplatin",
+                    "carboplatin/cyclophosphamide",
+                    "bms-188797/carboplatin",
+                    "carboplatin-taxol"
+                ],
+                "all_score": [
+                    0.898856520652771,
+                    0.8942525386810303,
+                    0.8942489624023438,
+                    0.8898212909698486,
+                    0.8866156339645386
+                ]
+            },
+            {
+                "begin": 394,
+                "end": 398,
+                "ner_chunk": "right",
+                "ner_label": "DIRECTION",
+                "ner_confidence": "0.9843",
+                "concept_code": "C160199",
+                "resolution": "right",
+                "score": 1.0000001192092896,
+                "all_codes": [
+                    "C160199",
+                    "C124581",
+                    "C33483",
+                    "C49326",
+                    "C12383"
+                ],
+                "all_resolutions": [
+                    "right",
+                    "right-sided",
+                    "lung, right",
+                    "right testis",
+                    "colon, right"
+                ],
+                "all_score": [
+                    1.0000001192092896,
+                    0.737230658531189,
+                    0.7326736450195312,
+                    0.7324438095092773,
+                    0.7295462489128113
+                ]
+            },
+            {
+                "begin": 459,
+                "end": 463,
+                "ner_chunk": "right",
+                "ner_label": "DIRECTION",
+                "ner_confidence": "0.9842",
+                "concept_code": "C160199",
+                "resolution": "right",
+                "score": 1.0000001192092896,
+                "all_codes": [
+                    "C160199",
+                    "C124581",
+                    "C33483",
+                    "C49326",
+                    "C12383"
+                ],
+                "all_resolutions": [
+                    "right",
+                    "right-sided",
+                    "lung, right",
+                    "right testis",
+                    "colon, right"
+                ],
+                "all_score": [
+                    1.0000001192092896,
+                    0.737230658531189,
+                    0.7326736450195312,
+                    0.7324438095092773,
+                    0.7295462489128113
+                ]
+            },
+            {
+                "begin": 400,
+                "end": 405,
+                "ner_chunk": "breast",
+                "ner_label": "SITE_BREAST",
+                "ner_confidence": "0.9931",
+                "concept_code": "C13020",
+                "resolution": "breast part",
+                "score": 0.8745667934417725,
+                "all_codes": [
+                    "C13020",
+                    "C12370",
+                    "C43595",
+                    "C176709",
+                    "C118809"
+                ],
+                "all_resolutions": [
+                    "breast part",
+                    "breast tissue",
+                    "mammary",
+                    "breast finding",
+                    "breast cancer"
+                ],
+                "all_score": [
+                    0.8745667934417725,
+                    0.8470742702484131,
+                    0.8454771637916565,
+                    0.8377044200897217,
+                    0.8345293402671814
+                ]
+            },
+            {
+                "begin": 465,
+                "end": 470,
+                "ner_chunk": "breast",
+                "ner_label": "SITE_BREAST",
+                "ner_confidence": "0.9778",
+                "concept_code": "C13020",
+                "resolution": "breast part",
+                "score": 0.8745667934417725,
+                "all_codes": [
+                    "C13020",
+                    "C12370",
+                    "C43595",
+                    "C176709",
+                    "C118809"
+                ],
+                "all_resolutions": [
+                    "breast part",
+                    "breast tissue",
+                    "mammary",
+                    "breast finding",
+                    "breast cancer"
+                ],
+                "all_score": [
+                    0.8745667934417725,
+                    0.8470742702484131,
+                    0.8454771637916565,
+                    0.8377044200897217,
+                    0.8345293402671814
+                ]
+            },
+            {
+                "begin": 407,
+                "end": 410,
+                "ner_chunk": "mass",
+                "ner_label": "TUMOR_FINDING",
+                "ner_confidence": "0.9915",
+                "concept_code": "C126027",
+                "resolution": "mass",
+                "score": 1.0000007152557373,
+                "all_codes": [
+                    "C126027",
+                    "C90335",
+                    "C112025",
+                    "C42579",
+                    "C45978"
+                ],
+                "all_resolutions": [
+                    "mass",
+                    "mass description",
+                    "mass measurement",
+                    "unit of mass",
+                    "fungating mass"
+                ],
+                "all_score": [
+                    1.0000007152557373,
+                    0.840757429599762,
+                    0.7978991866111755,
+                    0.7876405119895935,
+                    0.7833571434020996
+                ]
+            },
+            {
+                "begin": 485,
+                "end": 502,
+                "ner_chunk": "Core needle biopsy",
+                "ner_label": "PATHOLOGY_TEST",
+                "ner_confidence": "0.7783666",
+                "concept_code": "C15680",
+                "resolution": "core needle biopsy",
+                "score": 1.0,
+                "all_codes": [
+                    "C15680",
+                    "C15680",
+                    "C15680",
+                    "C51489",
+                    "C15680"
+                ],
+                "all_resolutions": [
+                    "core needle biopsy",
+                    "core biopsy",
+                    "biopsy, core",
+                    "core needle biopsy of pancreas",
+                    "core needle"
+                ],
+                "all_score": [
+                    1.0,
+                    0.9511011838912964,
+                    0.9255685806274414,
+                    0.9093362092971802,
+                    0.8914773464202881
+                ]
+            },
+            {
+                "begin": 513,
+                "end": 523,
+                "ner_chunk": "metaplastic",
+                "ner_label": "HISTOLOGICAL_TYPE",
+                "ner_confidence": "0.9922",
+                "concept_code": "C3236",
+                "resolution": "metaplastic change",
+                "score": 0.9047080874443054,
+                "all_codes": [
+                    "C3236",
+                    "C36786",
+                    "C4083",
+                    "C5164",
+                    "C35988"
+                ],
+                "all_resolutions": [
+                    "metaplastic change",
+                    "metaplastic cell",
+                    "metaplastic polyp",
+                    "metaplastic breast carcinoma",
+                    "metaplastic bone formation"
+                ],
+                "all_score": [
+                    0.9047080874443054,
+                    0.8903445601463318,
+                    0.8658578395843506,
+                    0.8249280452728271,
+                    0.8165273070335388
+                ]
+            }
+        ],
+        [
+            {
+                "begin": 104,
+                "end": 107,
+                "ner_chunk": "mass",
+                "ner_label": "TUMOR_FINDING",
+                "ner_confidence": "0.9573",
+                "concept_code": "C126027",
+                "resolution": "mass",
+                "score": 1.0000007152557373,
+                "all_codes": [
+                    "C126027",
+                    "C90335",
+                    "C112025",
+                    "C42579",
+                    "C45978"
+                ],
+                "all_resolutions": [
+                    "mass",
+                    "mass description",
+                    "mass measurement",
+                    "unit of mass",
+                    "fungating mass"
+                ],
+                "all_score": [
+                    1.0000007152557373,
+                    0.840757429599762,
+                    0.7978991866111755,
+                    0.7876405119895935,
+                    0.7833571434020996
+                ]
+            },
+            {
+                "begin": 16,
+                "end": 34,
+                "ner_chunk": "computed tomography",
+                "ner_label": "IMAGING_TEST",
+                "ner_confidence": "0.93485",
+                "concept_code": "C17204",
+                "resolution": "computed tomography",
+                "score": 1.0000003576278687,
+                "all_codes": [
+                    "C17204",
+                    "C159883",
+                    "C17204",
+                    "C17204",
+                    "C45844"
+                ],
+                "all_resolutions": [
+                    "computed tomography",
+                    "urography computed tomography",
+                    "computed axial tomography",
+                    "ct scan",
+                    "ct scanner"
+                ],
+                "all_score": [
+                    1.0000003576278687,
+                    0.8956605195999146,
+                    0.8955866098403931,
+                    0.8854690790176392,
+                    0.8733323216438293
+                ]
+            },
+            {
+                "begin": 37,
+                "end": 38,
+                "ner_chunk": "CT",
+                "ner_label": "IMAGING_TEST",
+                "ner_confidence": "0.9724",
+                "concept_code": "C104954",
+                "resolution": "ct",
+                "score": 1.0000003576278687,
+                "all_codes": [
+                    "C104954",
+                    "C104957",
+                    "C45844",
+                    "C161328",
+                    "C123577"
+                ],
+                "all_resolutions": [
+                    "ct",
+                    "ct a",
+                    "ct scanner",
+                    "ct number",
+                    "cr-ct"
+                ],
+                "all_score": [
+                    1.0000003576278687,
+                    0.8701925277709961,
+                    0.8519605398178101,
+                    0.8456451892852783,
+                    0.8418126702308655
+                ]
+            },
+            {
+                "begin": 53,
+                "end": 59,
+                "ner_chunk": "abdomen",
+                "ner_label": "SITE_OTHER_BODY_PART",
+                "ner_confidence": "0.9363",
+                "concept_code": "C12664",
+                "resolution": "abdomen",
+                "score": 1.0000008344650269,
+                "all_codes": [
+                    "C12664",
+                    "C12391",
+                    "C12664",
+                    "C12664",
+                    "C13025"
+                ],
+                "all_resolutions": [
+                    "abdomen",
+                    "stomach",
+                    "abdomen, nos",
+                    "abdomen, total",
+                    "stomach part"
+                ],
+                "all_score": [
+                    1.0000008344650269,
+                    0.8771505355834961,
+                    0.858542799949646,
+                    0.8531991839408875,
+                    0.8376491069793701
+                ]
+            },
+            {
+                "begin": 65,
+                "end": 70,
+                "ner_chunk": "pelvis",
+                "ner_label": "SITE_OTHER_BODY_PART",
+                "ner_confidence": "0.5375",
+                "concept_code": "C33287",
+                "resolution": "bone, pelvis",
+                "score": 0.8741135597229004,
+                "all_codes": [
+                    "C33287",
+                    "C12887",
+                    "C105733",
+                    "C33287",
+                    "C23817"
+                ],
+                "all_resolutions": [
+                    "bone, pelvis",
+                    "renal pelvis",
+                    "whole-pelvis",
+                    "pelvic bone",
+                    "kidney/renal pelvis"
+                ],
+                "all_score": [
+                    0.8741135597229004,
+                    0.8667564988136292,
+                    0.8562898635864258,
+                    0.8388118147850037,
+                    0.8083592653274536
+                ]
+            },
+            {
+                "begin": 96,
+                "end": 102,
+                "ner_chunk": "ovarian",
+                "ner_label": "SITE_OTHER_BODY_PART",
+                "ner_confidence": "0.7866",
+                "concept_code": "C12404",
+                "resolution": "ovary",
+                "score": 0.8572745323181152,
+                "all_codes": [
+                    "C12404",
+                    "C12404",
+                    "C33243",
+                    "C3882",
+                    "C33244"
+                ],
+                "all_resolutions": [
+                    "ovary",
+                    "ovaries",
+                    "ovarian cortex",
+                    "ovarian mass",
+                    "ovarian follicle"
+                ],
+                "all_score": [
+                    0.8572745323181152,
+                    0.8545776605606079,
+                    0.8522234559059143,
+                    0.8421778082847595,
+                    0.8389604091644287
+                ]
+            },
+            {
+                "begin": 112,
+                "end": 120,
+                "ner_chunk": "Pap smear",
+                "ner_label": "PATHOLOGY_TEST",
+                "ner_confidence": "0.96725",
+                "concept_code": "C62670",
+                "resolution": "cervical pap test",
+                "score": 0.8581546545028687,
+                "all_codes": [
+                    "C62670",
+                    "C65126",
+                    "C79903",
+                    "C105383",
+                    "C128984"
+                ],
+                "all_resolutions": [
+                    "cervical pap test",
+                    "smear",
+                    "blood smear",
+                    "pap",
+                    "pap stain"
+                ],
+                "all_score": [
+                    0.8581546545028687,
+                    0.856905996799469,
+                    0.8153881430625916,
+                    0.8133909702301025,
+                    0.8035245537757874
+                ]
+            },
+            {
+                "begin": 165,
+                "end": 188,
+                "ner_chunk": "atypical glandular cells",
+                "ner_label": "PATHOLOGY_RESULT",
+                "ner_confidence": "0.7270667",
+                "concept_code": "C36912",
+                "resolution": "atypical glandular cell",
+                "score": 0.992756724357605,
+                "all_codes": [
+                    "C36912",
+                    "C36912",
+                    "C8435",
+                    "C8435",
+                    "C8341"
+                ],
+                "all_resolutions": [
+                    "atypical glandular cell",
+                    "atypical glandular cell, not otherwise specified",
+                    "atypical glandular cells of uncertain significance",
+                    "atypical glandular cells of undetermined significance",
+                    "glandular cell atypia"
+                ],
+                "all_score": [
+                    0.992756724357605,
+                    0.938469648361206,
+                    0.9353052973747253,
+                    0.9344968199729919,
+                    0.9308472871780396
+                ]
+            },
+            {
+                "begin": 205,
+                "end": 218,
+                "ner_chunk": "adenocarcinoma",
+                "ner_label": "CANCER_DX",
+                "ner_confidence": "0.9992",
+                "concept_code": "C5105",
+                "resolution": "colorectal adenocarcinoma",
+                "score": 0.9034679532051086,
+                "all_codes": [
+                    "C5105",
+                    "C4349",
+                    "C4349",
+                    "C4349",
+                    "C3512"
+                ],
+                "all_resolutions": [
+                    "colorectal adenocarcinoma",
+                    "colon adenocarcinoma",
+                    "adenocarcinoma of the colon",
+                    "adenocarcinoma of colon",
+                    "lung adenocarcinoma"
+                ],
+                "all_score": [
+                    0.9034679532051086,
+                    0.8945242166519165,
+                    0.8823220133781433,
+                    0.8813044428825378,
+                    0.8766086101531982
+                ]
+            },
+            {
+                "begin": 225,
+                "end": 243,
+                "ner_chunk": "pathologic specimen",
+                "ner_label": "PATHOLOGY_TEST",
+                "ner_confidence": "0.76105",
+                "concept_code": "C18202",
+                "resolution": "biopsy specimen",
+                "score": 0.9088883399963379,
+                "all_codes": [
+                    "C18202",
+                    "C85501",
+                    "C171436",
+                    "C164014",
+                    "C125006"
+                ],
+                "all_resolutions": [
+                    "biopsy specimen",
+                    "smear specimen",
+                    "specimen pathology indicator",
+                    "solid tissue specimen",
+                    "pathologic examination"
+                ],
+                "all_score": [
+                    0.9088883399963379,
+                    0.8782558441162109,
+                    0.8690714240074158,
+                    0.8651908040046692,
+                    0.8629587888717651
+                ]
+            },
+            {
+                "begin": 252,
+                "end": 260,
+                "ner_chunk": "extension",
+                "ner_label": "INVASION",
+                "ner_confidence": "0.9241",
+                "concept_code": "C45846",
+                "resolution": "extendable",
+                "score": 0.8294858932495117,
+                "all_codes": [
+                    "C45846",
+                    "C120271",
+                    "C91271",
+                    "C182346",
+                    "C173150"
+                ],
+                "all_resolutions": [
+                    "extendable",
+                    "direct extension",
+                    "dynamic extension",
+                    "extension comment",
+                    "extent question"
+                ],
+                "all_score": [
+                    0.8294858932495117,
+                    0.8277506828308105,
+                    0.8193066716194153,
+                    0.8085264563560486,
+                    0.7912508845329285
+                ]
+            },
+            {
+                "begin": 269,
+                "end": 273,
+                "ner_chunk": "tumor",
+                "ner_label": "TUMOR_FINDING",
+                "ner_confidence": "0.9077",
+                "concept_code": "C12922",
+                "resolution": "tumor cell",
+                "score": 0.8479248881340027,
+                "all_codes": [
+                    "C12922",
+                    "C3677",
+                    "C23852",
+                    "C4063",
+                    "C3261"
+                ],
+                "all_resolutions": [
+                    "tumor cell",
+                    "tumor, benign",
+                    "tumor cells",
+                    "tumor of muscle",
+                    "tumor, metastatic"
+                ],
+                "all_score": [
+                    0.8479248881340027,
+                    0.8418221473693848,
+                    0.841091513633728,
+                    0.8219225406646729,
+                    0.8128739595413208
+                ]
+            },
+            {
+                "begin": 401,
+                "end": 405,
+                "ner_chunk": "tumor",
+                "ner_label": "TUMOR_FINDING",
+                "ner_confidence": "0.9851",
+                "concept_code": "C12922",
+                "resolution": "tumor cell",
+                "score": 0.8479248881340027,
+                "all_codes": [
+                    "C12922",
+                    "C3677",
+                    "C23852",
+                    "C4063",
+                    "C3261"
+                ],
+                "all_resolutions": [
+                    "tumor cell",
+                    "tumor, benign",
+                    "tumor cells",
+                    "tumor of muscle",
+                    "tumor, metastatic"
+                ],
+                "all_score": [
+                    0.8479248881340027,
+                    0.8418221473693848,
+                    0.841091513633728,
+                    0.8219225406646729,
+                    0.8128739595413208
+                ]
+            },
+            {
+                "begin": 290,
+                "end": 304,
+                "ner_chunk": "fallopian tubes",
+                "ner_label": "SITE_OTHER_BODY_PART",
+                "ner_confidence": "0.9492",
+                "concept_code": "C12403",
+                "resolution": "fallopian tubes",
+                "score": 1.0000007152557373,
+                "all_codes": [
+                    "C12403",
+                    "C12403",
+                    "C33475",
+                    "C12403",
+                    "C33475"
+                ],
+                "all_resolutions": [
+                    "fallopian tubes",
+                    "fallopian tube",
+                    "fallopian tube, right",
+                    "fallopian tube, nos",
+                    "right fallopian tube"
+                ],
+                "all_score": [
+                    1.0000007152557373,
+                    0.9768484830856323,
+                    0.8879475593566895,
+                    0.8841596245765686,
+                    0.8757270574569702
+                ]
+            },
+            {
+                "begin": 307,
+                "end": 314,
+                "ner_chunk": "appendix",
+                "ner_label": "SITE_OTHER_BODY_PART",
+                "ner_confidence": "0.9971",
+                "concept_code": "C12380",
+                "resolution": "appendix",
+                "score": 0.9999999403953552,
+                "all_codes": [
+                    "C12380",
+                    "C83470",
+                    "C35403",
+                    "C79275",
+                    "C79276"
+                ],
+                "all_resolutions": [
+                    "appendix",
+                    "appendix tip",
+                    "appendix mass",
+                    "body of data: appendices",
+                    "appendices: regional information"
+                ],
+                "all_score": [
+                    0.9999999403953552,
+                    0.8462085127830505,
+                    0.839079737663269,
+                    0.8134976625442505,
+                    0.787269115447998
+                ]
+            },
+            {
+                "begin": 317,
+                "end": 323,
+                "ner_chunk": "omentum",
+                "ner_label": "SITE_OTHER_BODY_PART",
+                "ner_confidence": "0.9937",
+                "concept_code": "C33209",
+                "resolution": "omentum",
+                "score": 1.000000238418579,
+                "all_codes": [
+                    "C33209",
+                    "C40340",
+                    "C32697",
+                    "C51787",
+                    "C32981"
+                ],
+                "all_resolutions": [
+                    "omentum",
+                    "omentum egist",
+                    "greater omentum",
+                    "resection of omentum",
+                    "lesser omentum"
+                ],
+                "all_score": [
+                    1.000000238418579,
+                    0.8821714520454407,
+                    0.8740319609642029,
+                    0.8656542301177979,
+                    0.8563467264175415
+                ]
+            },
+            {
+                "begin": 350,
+                "end": 360,
+                "ner_chunk": "lymph nodes",
+                "ner_label": "SITE_LYMPH_NODE",
+                "ner_confidence": "0.80105",
+                "concept_code": "C32298",
+                "resolution": "cervical lymph nodes",
+                "score": 0.893235445022583,
+                "all_codes": [
+                    "C32298",
+                    "C32298",
+                    "C35812",
+                    "C33769",
+                    "C33034"
+                ],
+                "all_resolutions": [
+                    "cervical lymph nodes",
+                    "cervical lymph node",
+                    "lymph node cancer",
+                    "thoracic lymph node",
+                    "lymph node tissue"
+                ],
+                "all_score": [
+                    0.893235445022583,
+                    0.8725258111953735,
+                    0.8723846673965454,
+                    0.8712409138679504,
+                    0.8702684640884399
+                ]
+            },
+            {
+                "begin": 411,
+                "end": 420,
+                "ner_chunk": "stage IIIC",
+                "ner_label": "STAGING",
+                "ner_confidence": "0.99035",
+                "concept_code": "C137673",
+                "resolution": "stage iiic",
+                "score": 0.9999997019767761,
+                "all_codes": [
+                    "C137673",
+                    "C112010",
+                    "C136479",
+                    "C95179",
+                    "C139544"
+                ],
+                "all_resolutions": [
+                    "stage iiic",
+                    "stage iii",
+                    "stage iiia",
+                    "stage iiic1",
+                    "stage iiic breast cancer"
+                ],
+                "all_score": [
+                    0.9999997019767761,
+                    0.9095178246498108,
+                    0.895308792591095,
+                    0.8859850168228149,
+                    0.8826868534088135
+                ]
+            },
+            {
+                "begin": 422,
+                "end": 430,
+                "ner_chunk": "papillary",
+                "ner_label": "HISTOLOGICAL_TYPE",
+                "ner_confidence": "0.9979",
+                "concept_code": "C14166",
+                "resolution": "papillary",
+                "score": 0.9999997615814209,
+                "all_codes": [
+                    "C14166",
+                    "C35911",
+                    "C35911",
+                    "C36031",
+                    "C36181"
+                ],
+                "all_resolutions": [
+                    "papillary",
+                    "papillary, nos",
+                    "papillary pattern",
+                    "papillary tumor",
+                    "micropapillary"
+                ],
+                "all_score": [
+                    0.9999997615814209,
+                    0.904362678527832,
+                    0.8576534986495972,
+                    0.8308395147323608,
+                    0.8118432760238647
+                ]
+            },
+            {
+                "begin": 432,
+                "end": 437,
+                "ner_chunk": "serous",
+                "ner_label": "HISTOLOGICAL_TYPE",
+                "ner_confidence": "0.9923",
+                "concept_code": "C14168",
+                "resolution": "serous",
+                "score": 0.9999999403953552,
+                "all_codes": [
+                    "C14168",
+                    "C33539",
+                    "C13169",
+                    "C36120",
+                    "C13169"
+                ],
+                "all_resolutions": [
+                    "serous",
+                    "gland, salivary, serous",
+                    "serous membrane",
+                    "serous lesion",
+                    "serosa"
+                ],
+                "all_score": [
+                    0.9999999403953552,
+                    0.8053863048553467,
+                    0.787696361541748,
+                    0.7803736329078674,
+                    0.779338538646698
+                ]
+            },
+            {
+                "begin": 439,
+                "end": 460,
+                "ner_chunk": "ovarian adenocarcinoma",
+                "ner_label": "CANCER_DX",
+                "ner_confidence": "0.95235",
+                "concept_code": "C7700",
+                "resolution": "ovarian adenocarcinoma",
+                "score": 1.000000238418579,
+                "all_codes": [
+                    "C7700",
+                    "C7700",
+                    "C7700",
+                    "C4908",
+                    "C4908"
+                ],
+                "all_resolutions": [
+                    "ovarian adenocarcinoma",
+                    "adenocarcinoma of ovary",
+                    "adenocarcinoma of the ovary",
+                    "ovarian carcinoma",
+                    "ovarian cancer"
+                ],
+                "all_score": [
+                    1.000000238418579,
+                    0.9521949887275696,
+                    0.9473367929458618,
+                    0.8909646272659302,
+                    0.8861076831817627
+                ]
+            },
+            {
+                "begin": 512,
+                "end": 515,
+                "ner_chunk": "lung",
+                "ner_label": "SITE_LUNG",
+                "ner_confidence": "0.9974",
+                "concept_code": "C12468",
+                "resolution": "lung",
+                "score": 1.000000238418579,
+                "all_codes": [
+                    "C12468",
+                    "C12468",
+                    "C12468",
+                    "C13304",
+                    "C33024"
+                ],
+                "all_resolutions": [
+                    "lung",
+                    "lungs",
+                    "respiratory system, lung",
+                    "pulmonary",
+                    "lung tissue"
+                ],
+                "all_score": [
+                    1.000000238418579,
+                    0.9088419079780579,
+                    0.8706839084625244,
+                    0.8676108121871948,
+                    0.8640806078910828
+                ]
+            },
+            {
+                "begin": 517,
+                "end": 526,
+                "ner_chunk": "metastases",
+                "ner_label": "METASTASIS",
+                "ner_confidence": "0.9999",
+                "concept_code": "C40557",
+                "resolution": "metastases",
+                "score": 1.0000003576278687,
+                "all_codes": [
+                    "C40557",
+                    "C7511",
+                    "C3577",
+                    "C7549",
+                    "C36263"
+                ],
+                "all_resolutions": [
+                    "metastases",
+                    "breast metastases",
+                    "lung metastases",
+                    "renal metastases",
+                    "metastatic cancer"
+                ],
+                "all_score": [
+                    1.0000003576278687,
+                    0.9107767939567566,
+                    0.9001948237419128,
+                    0.8925586342811584,
+                    0.8820887804031372
+                ]
+            }
+        ]
+    ]
+}

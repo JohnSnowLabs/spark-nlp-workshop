@@ -1,0 +1,566 @@
+{
+    "predictions": [
+        [
+            {
+                "begin": 80,
+                "end": 89,
+                "ner_chunk": "chest pain",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.81095004",
+                "concept_code": "D002637",
+                "resolution": "chest pain",
+                "score": 1.000000238418579,
+                "all_codes": [
+                    "D002637",
+                    "D002637",
+                    "D002637",
+                    "D002637",
+                    "D013898"
+                ],
+                "all_resolutions": [
+                    "chest pain",
+                    "chest pains",
+                    "pain, chest",
+                    "pains, chest",
+                    "chest injury"
+                ],
+                "all_score": [
+                    1.000000238418579,
+                    0.9223949313163757,
+                    0.9001147747039795,
+                    0.8813276290893555,
+                    0.7900357246398926
+                ]
+            },
+            {
+                "begin": 404,
+                "end": 413,
+                "ner_chunk": "chest pain",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.959",
+                "concept_code": "D002637",
+                "resolution": "chest pain",
+                "score": 1.000000238418579,
+                "all_codes": [
+                    "D002637",
+                    "D002637",
+                    "D002637",
+                    "D002637",
+                    "D013898"
+                ],
+                "all_resolutions": [
+                    "chest pain",
+                    "chest pains",
+                    "pain, chest",
+                    "pains, chest",
+                    "chest injury"
+                ],
+                "all_score": [
+                    1.000000238418579,
+                    0.9223949313163757,
+                    0.9001147747039795,
+                    0.8813276290893555,
+                    0.7900357246398926
+                ]
+            },
+            {
+                "begin": 108,
+                "end": 115,
+                "ner_chunk": "diabetic",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.9946",
+                "concept_code": "D002271",
+                "resolution": "diabetal",
+                "score": 0.9493172764778137,
+                "all_codes": [
+                    "D002271",
+                    "D005905",
+                    "C070071",
+                    "D017719",
+                    "D017719"
+                ],
+                "all_resolutions": [
+                    "diabetal",
+                    "diabeta",
+                    "diabeton",
+                    "foot, diabetic",
+                    "diabetic foot"
+                ],
+                "all_score": [
+                    0.9493172764778137,
+                    0.8931193351745605,
+                    0.8634507656097412,
+                    0.8435542583465576,
+                    0.8424345850944519
+                ]
+            },
+            {
+                "begin": 144,
+                "end": 166,
+                "ner_chunk": "coronary artery disease",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.94269997",
+                "concept_code": "D003324",
+                "resolution": "coronary artery disease",
+                "score": 1.0000001192092896,
+                "all_codes": [
+                    "D003324",
+                    "D003324",
+                    "D003324",
+                    "D003324",
+                    "D003324"
+                ],
+                "all_resolutions": [
+                    "coronary artery disease",
+                    "coronary artery diseases",
+                    "artery disease, coronary",
+                    "artery diseases, coronary",
+                    "coronary arteriosclerosis"
+                ],
+                "all_score": [
+                    1.0000001192092896,
+                    0.9600934982299805,
+                    0.8984563946723938,
+                    0.8772372603416443,
+                    0.8711296916007996
+                ]
+            },
+            {
+                "begin": 209,
+                "end": 222,
+                "ner_chunk": "his chest pain",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.9567666",
+                "concept_code": "D002637",
+                "resolution": "chest pain",
+                "score": 0.8550783395767212,
+                "all_codes": [
+                    "D002637",
+                    "D002637",
+                    "D002637",
+                    "D002637",
+                    "D013898"
+                ],
+                "all_resolutions": [
+                    "chest pain",
+                    "pain, chest",
+                    "pains, chest",
+                    "chest pains",
+                    "injury, chest"
+                ],
+                "all_score": [
+                    0.8550783395767212,
+                    0.8530280590057373,
+                    0.8295688033103943,
+                    0.8216708898544312,
+                    0.7635861039161682
+                ]
+            },
+            {
+                "begin": 271,
+                "end": 277,
+                "ner_chunk": "Aspirin",
+                "ner_label": "TREATMENT",
+                "ner_confidence": "0.9998",
+                "concept_code": "D001241",
+                "resolution": "aspirin",
+                "score": 0.999999463558197,
+                "all_codes": [
+                    "D001241",
+                    "C102148",
+                    "C557598",
+                    "D002216",
+                    "C095840"
+                ],
+                "all_resolutions": [
+                    "aspirin",
+                    "nitroaspirin",
+                    "aspirin-phosphatidylcholine",
+                    "lopirin",
+                    "bromoaspirin"
+                ],
+                "all_score": [
+                    0.999999463558197,
+                    0.8318605422973633,
+                    0.8297411203384399,
+                    0.8272740244865417,
+                    0.8154743909835815
+                ]
+            },
+            {
+                "begin": 299,
+                "end": 307,
+                "ner_chunk": "Humulin N",
+                "ner_label": "TREATMENT",
+                "ner_confidence": "0.98345",
+                "concept_code": "D061386",
+                "resolution": "humulin",
+                "score": 0.9254507422447205,
+                "all_codes": [
+                    "D061386",
+                    "D061386",
+                    "C045625",
+                    "C091683",
+                    "C081210"
+                ],
+                "all_resolutions": [
+                    "humulin",
+                    "humulin s",
+                    "nodulin",
+                    "nosulin",
+                    "humulinic acid"
+                ],
+                "all_score": [
+                    0.9254507422447205,
+                    0.9025837182998657,
+                    0.7947676181793213,
+                    0.7928428649902344,
+                    0.7591618299484253
+                ]
+            },
+            {
+                "begin": 310,
+                "end": 316,
+                "ner_chunk": "insulin",
+                "ner_label": "TREATMENT",
+                "ner_confidence": "0.9881",
+                "concept_code": "D061385",
+                "resolution": "insulins",
+                "score": 0.9472028017044067,
+                "all_codes": [
+                    "D061385",
+                    "C007273",
+                    "D061386",
+                    "D007336",
+                    "D061389"
+                ],
+                "all_resolutions": [
+                    "insulins",
+                    "insulin, des-ala-",
+                    "insulin, regular, human",
+                    "insulin, nph",
+                    "insulin, porcine"
+                ],
+                "all_score": [
+                    0.9472028017044067,
+                    0.8462950587272644,
+                    0.8460032343864441,
+                    0.8412361741065979,
+                    0.8363525867462158
+                ]
+            },
+            {
+                "begin": 335,
+                "end": 353,
+                "ner_chunk": "Hydrochlorothiazide",
+                "ner_label": "TREATMENT",
+                "ner_confidence": "0.9999",
+                "concept_code": "D006852",
+                "resolution": "hydrochlorothiazide",
+                "score": 0.9999994039535522,
+                "all_codes": [
+                    "D006852",
+                    "D002740",
+                    "D006852",
+                    "C042169",
+                    "C020743"
+                ],
+                "all_resolutions": [
+                    "hydrochlorothiazide",
+                    "chlorothiazide",
+                    "dihydrochlorothiazide",
+                    "benzylhydrochlorothiazide",
+                    "hydrochlorothiazide-triamterene"
+                ],
+                "all_score": [
+                    0.9999994039535522,
+                    0.9405955672264099,
+                    0.9194777011871338,
+                    0.8802782297134399,
+                    0.8533188104629517
+                ]
+            },
+            {
+                "begin": 367,
+                "end": 379,
+                "ner_chunk": "Nitroglycerin",
+                "ner_label": "TREATMENT",
+                "ner_confidence": "0.9999",
+                "concept_code": "D005996",
+                "resolution": "nitroglycerin",
+                "score": 0.9999996423721313,
+                "all_codes": [
+                    "D005996",
+                    "D005996",
+                    "C014686",
+                    "C496680",
+                    "C016014"
+                ],
+                "all_resolutions": [
+                    "nitroglycerin",
+                    "nitroglyn",
+                    "mononitroglycerol",
+                    "nitroxycarnitine nitrate",
+                    "4-nitrophenylglycerol"
+                ],
+                "all_score": [
+                    0.9999996423721313,
+                    0.8743144869804382,
+                    0.8509314060211182,
+                    0.8292422294616699,
+                    0.8227726817131042
+                ]
+            }
+        ],
+        [
+            {
+                "begin": 63,
+                "end": 67,
+                "ner_chunk": "cough",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.9737",
+                "concept_code": "D003371",
+                "resolution": "cough",
+                "score": 1.0,
+                "all_codes": [
+                    "D003371",
+                    "D003371",
+                    "D014917",
+                    "D014917",
+                    "C000589846"
+                ],
+                "all_resolutions": [
+                    "cough",
+                    "coughs",
+                    "cough, whooping",
+                    "whooping cough",
+                    "coughcode-n"
+                ],
+                "all_score": [
+                    1.0,
+                    0.9196386337280273,
+                    0.837946355342865,
+                    0.7574732303619385,
+                    0.7517421245574951
+                ]
+            },
+            {
+                "begin": 91,
+                "end": 95,
+                "ner_chunk": "cough",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.9992",
+                "concept_code": "D003371",
+                "resolution": "cough",
+                "score": 1.0,
+                "all_codes": [
+                    "D003371",
+                    "D003371",
+                    "D014917",
+                    "D014917",
+                    "C000589846"
+                ],
+                "all_resolutions": [
+                    "cough",
+                    "coughs",
+                    "cough, whooping",
+                    "whooping cough",
+                    "coughcode-n"
+                ],
+                "all_score": [
+                    1.0,
+                    0.9196386337280273,
+                    0.837946355342865,
+                    0.7574732303619385,
+                    0.7517421245574951
+                ]
+            },
+            {
+                "begin": 130,
+                "end": 134,
+                "ner_chunk": "cough",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.9992",
+                "concept_code": "D003371",
+                "resolution": "cough",
+                "score": 1.0,
+                "all_codes": [
+                    "D003371",
+                    "D003371",
+                    "D014917",
+                    "D014917",
+                    "C000589846"
+                ],
+                "all_resolutions": [
+                    "cough",
+                    "coughs",
+                    "cough, whooping",
+                    "whooping cough",
+                    "coughcode-n"
+                ],
+                "all_score": [
+                    1.0,
+                    0.9196386337280273,
+                    0.837946355342865,
+                    0.7574732303619385,
+                    0.7517421245574951
+                ]
+            },
+            {
+                "begin": 173,
+                "end": 177,
+                "ner_chunk": "fever",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.9997",
+                "concept_code": "D005334",
+                "resolution": "fever",
+                "score": 1.000000238418579,
+                "all_codes": [
+                    "D005334",
+                    "D005334",
+                    "D011778",
+                    "D011778",
+                    "D011778"
+                ],
+                "all_resolutions": [
+                    "fever",
+                    "fevers",
+                    "fevers, query",
+                    "fever, query",
+                    "fevers, q"
+                ],
+                "all_score": [
+                    1.000000238418579,
+                    0.926138699054718,
+                    0.8635846376419067,
+                    0.8553634285926819,
+                    0.840775191783905
+                ]
+            },
+            {
+                "begin": 248,
+                "end": 255,
+                "ner_chunk": "vomiting",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.9955",
+                "concept_code": "D014839",
+                "resolution": "vomiting",
+                "score": 1.000000238418579,
+                "all_codes": [
+                    "D014839",
+                    "D020250",
+                    "D014840",
+                    "D009325",
+                    "C536228"
+                ],
+                "all_resolutions": [
+                    "vomiting",
+                    "vomiting, postoperative",
+                    "vomiting, anticipatory",
+                    "nausea",
+                    "cyclical vomiting"
+                ],
+                "all_score": [
+                    1.000000238418579,
+                    0.8096002340316772,
+                    0.8043601512908936,
+                    0.8031866550445557,
+                    0.7970373034477234
+                ]
+            },
+            {
+                "begin": 261,
+                "end": 268,
+                "ner_chunk": "diarrhea",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.9984",
+                "concept_code": "D003967",
+                "resolution": "diarrhea",
+                "score": 0.9999997019767761,
+                "all_codes": [
+                    "D003967",
+                    "D003967",
+                    "C565627",
+                    "D004403",
+                    "D004403"
+                ],
+                "all_resolutions": [
+                    "diarrhea",
+                    "diarrheas",
+                    "diarrhea, syndromic",
+                    "infectious diarrheal disease",
+                    "infectious diarrheal diseases"
+                ],
+                "all_score": [
+                    0.9999997019767761,
+                    0.9340593814849854,
+                    0.8388155102729797,
+                    0.8328069448471069,
+                    0.8185099959373474
+                ]
+            },
+            {
+                "begin": 274,
+                "end": 282,
+                "ner_chunk": "skin rash",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.9907",
+                "concept_code": "D005076",
+                "resolution": "skin rash",
+                "score": 1.000000238418579,
+                "all_codes": [
+                    "D005076",
+                    "D005076",
+                    "D005076",
+                    "D003963",
+                    "D003963"
+                ],
+                "all_resolutions": [
+                    "skin rash",
+                    "rash",
+                    "rash, skin",
+                    "diaper rash",
+                    "rash, diaper"
+                ],
+                "all_score": [
+                    1.000000238418579,
+                    0.903679370880127,
+                    0.9034512639045715,
+                    0.797792911529541,
+                    0.7784140110015869
+                ]
+            },
+            {
+                "begin": 288,
+                "end": 295,
+                "ner_chunk": "cyanosis",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.9986",
+                "concept_code": "D003490",
+                "resolution": "cyanosis",
+                "score": 0.9999992847442627,
+                "all_codes": [
+                    "D003490",
+                    "D003490",
+                    "C565660",
+                    "D008548",
+                    "D027802"
+                ],
+                "all_resolutions": [
+                    "cyanosis",
+                    "cyanoses",
+                    "cyanosis and hepatic disease",
+                    "melanosis",
+                    "hypoxis"
+                ],
+                "all_score": [
+                    0.9999992847442627,
+                    0.8472979068756104,
+                    0.833354651927948,
+                    0.7520582675933838,
+                    0.7107992172241211
+                ]
+            }
+        ]
+    ]
+}
