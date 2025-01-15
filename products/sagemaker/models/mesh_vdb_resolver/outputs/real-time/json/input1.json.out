@@ -1,0 +1,316 @@
+{
+    "predictions": [
+        [
+            {
+                "begin": 38,
+                "end": 47,
+                "ner_chunk": "chest pain",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.9943",
+                "concept_code": "D002637",
+                "resolution": "chest pain",
+                "score": 1.0000003576278687,
+                "all_codes": [
+                    "D002637",
+                    "D002637",
+                    "D002637",
+                    "D002637",
+                    "D013898"
+                ],
+                "all_resolutions": [
+                    "chest pain",
+                    "chest pains",
+                    "pain, chest",
+                    "pains, chest",
+                    "chest injury"
+                ],
+                "all_score": [
+                    1.0000003576278687,
+                    0.922394871711731,
+                    0.9001147150993347,
+                    0.8813276290893555,
+                    0.7900357246398926
+                ]
+            },
+            {
+                "begin": 67,
+                "end": 92,
+                "ner_chunk": "bilateral pleural effusion",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.9502334",
+                "concept_code": "D010996",
+                "resolution": "pleural effusion",
+                "score": 0.8257865905761719,
+                "all_codes": [
+                    "D010996",
+                    "D010996",
+                    "D010996",
+                    "D010996",
+                    "D016066"
+                ],
+                "all_resolutions": [
+                    "pleural effusion",
+                    "pleural effusions",
+                    "effusion, pleural",
+                    "effusions, pleural",
+                    "effusion, malignant pleural"
+                ],
+                "all_score": [
+                    0.8257865905761719,
+                    0.8088810443878174,
+                    0.796427845954895,
+                    0.7801889777183533,
+                    0.7638202905654907
+                ]
+            },
+            {
+                "begin": 140,
+                "end": 152,
+                "ner_chunk": "the pathology",
+                "ner_label": "TEST",
+                "ner_confidence": "0.44089997",
+                "concept_code": "D010336",
+                "resolution": "pathology",
+                "score": 0.9195465445518494,
+                "all_codes": [
+                    "D010336",
+                    "D010340",
+                    "D010338",
+                    "D010341",
+                    "D057089"
+                ],
+                "all_resolutions": [
+                    "pathology",
+                    "pathology, surgical",
+                    "pathology, clinical",
+                    "pathology, veterinary",
+                    "pathology, molecular"
+                ],
+                "all_score": [
+                    0.9195465445518494,
+                    0.8671680092811584,
+                    0.8643243312835693,
+                    0.8459447026252747,
+                    0.8372940421104431
+                ]
+            },
+            {
+                "begin": 168,
+                "end": 185,
+                "ner_chunk": "the pericardectomy",
+                "ner_label": "TREATMENT",
+                "ner_confidence": "0.9546",
+                "concept_code": "D010492",
+                "resolution": "pericardectomy",
+                "score": 0.9558460116386414,
+                "all_codes": [
+                    "D010492",
+                    "D010492",
+                    "D010492",
+                    "D010492",
+                    "D010492"
+                ],
+                "all_resolutions": [
+                    "pericardectomy",
+                    "pericardectomies",
+                    "pericardotomy",
+                    "pericardotomies",
+                    "pericardiectomy"
+                ],
+                "all_score": [
+                    0.9558460116386414,
+                    0.9290467500686646,
+                    0.8579220175743103,
+                    0.8520034551620483,
+                    0.8384276628494263
+                ]
+            },
+            {
+                "begin": 226,
+                "end": 237,
+                "ner_chunk": "mesothelioma",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.961",
+                "concept_code": "D000086002",
+                "resolution": "malignant mesothelioma",
+                "score": 0.9043309688568115,
+                "all_codes": [
+                    "D000086002",
+                    "D000086002",
+                    "D000086002",
+                    "D054363",
+                    "D000086002"
+                ],
+                "all_resolutions": [
+                    "malignant mesothelioma",
+                    "malignant mesotheliomas",
+                    "malignant pleural mesothelioma",
+                    "fibrous mesothelioma",
+                    "mesothelioma, malignant"
+                ],
+                "all_score": [
+                    0.9043309688568115,
+                    0.8989654779434204,
+                    0.8591769933700562,
+                    0.8589586019515991,
+                    0.8569139242172241
+                ]
+            },
+            {
+                "begin": 254,
+                "end": 273,
+                "ner_chunk": "chest tube placement",
+                "ner_label": "TREATMENT",
+                "ner_confidence": "0.95446664",
+                "concept_code": "D015505",
+                "resolution": "chest tubes",
+                "score": 0.870246410369873,
+                "all_codes": [
+                    "D015505",
+                    "D056446",
+                    "D056446",
+                    "D056446",
+                    "D000069258"
+                ],
+                "all_resolutions": [
+                    "chest tubes",
+                    "knee-chest position",
+                    "knee chest position",
+                    "knee-chest positions",
+                    "chest aspirations"
+                ],
+                "all_score": [
+                    0.870246410369873,
+                    0.7561070919036865,
+                    0.7526574730873108,
+                    0.7446746826171875,
+                    0.740543007850647
+                ]
+            },
+            {
+                "begin": 279,
+                "end": 299,
+                "ner_chunk": "drainage of the fluid",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.746675",
+                "concept_code": "D065634",
+                "resolution": "fluid drainage, cerebrospinal",
+                "score": 0.8580055236816406,
+                "all_codes": [
+                    "D065634",
+                    "D065634",
+                    "D004322",
+                    "D065634",
+                    "D065634"
+                ],
+                "all_resolutions": [
+                    "fluid drainage, cerebrospinal",
+                    "drainage, cerebrospinal fluid",
+                    "drainage",
+                    "fluid drainages, cerebrospinal",
+                    "cerebrospinal fluid drainage"
+                ],
+                "all_score": [
+                    0.8580055236816406,
+                    0.8529242873191833,
+                    0.8477861881256104,
+                    0.8446167707443237,
+                    0.838034987449646
+                ]
+            },
+            {
+                "begin": 314,
+                "end": 325,
+                "ner_chunk": "thoracoscopy",
+                "ner_label": "TREATMENT",
+                "ner_confidence": "0.7614",
+                "concept_code": "D013906",
+                "resolution": "thoracoscopy",
+                "score": 1.0,
+                "all_codes": [
+                    "D013906",
+                    "D013906",
+                    "D020708",
+                    "D013906",
+                    "D013906"
+                ],
+                "all_resolutions": [
+                    "thoracoscopy",
+                    "thoracoscopies",
+                    "thoracoscopes",
+                    "thoracoscopic surgery",
+                    "thoracoscopic surgical procedures"
+                ],
+                "all_score": [
+                    1.0,
+                    0.9153507351875305,
+                    0.8540973663330078,
+                    0.8537589907646179,
+                    0.8490511178970337
+                ]
+            },
+            {
+                "begin": 332,
+                "end": 345,
+                "ner_chunk": "fluid biopsies",
+                "ner_label": "TEST",
+                "ner_confidence": "0.7463",
+                "concept_code": "D001706",
+                "resolution": "biopsies",
+                "score": 0.891502320766449,
+                "all_codes": [
+                    "D001706",
+                    "D001707",
+                    "D000073890",
+                    "D001707",
+                    "D044963"
+                ],
+                "all_resolutions": [
+                    "biopsies",
+                    "biopsies, puncture",
+                    "liquid biopsy",
+                    "puncture biopsies",
+                    "fine needle biopsies"
+                ],
+                "all_score": [
+                    0.891502320766449,
+                    0.8405726552009583,
+                    0.8362082839012146,
+                    0.8332265615463257,
+                    0.8241764903068542
+                ]
+            },
+            {
+                "begin": 385,
+                "end": 406,
+                "ner_chunk": "malignant mesothelioma",
+                "ner_label": "PROBLEM",
+                "ner_confidence": "0.9796",
+                "concept_code": "D000086002",
+                "resolution": "malignant mesothelioma",
+                "score": 1.0000007152557373,
+                "all_codes": [
+                    "D000086002",
+                    "D000086002",
+                    "D000086002",
+                    "D000086002",
+                    "D000086002"
+                ],
+                "all_resolutions": [
+                    "malignant mesothelioma",
+                    "malignant mesotheliomas",
+                    "malignant pleural mesothelioma",
+                    "malignant pleural mesotheliomas",
+                    "mesothelioma, malignant"
+                ],
+                "all_score": [
+                    1.0000007152557373,
+                    0.9908357858657837,
+                    0.9494664669036865,
+                    0.9431859254837036,
+                    0.927587628364563
+                ]
+            }
+        ]
+    ]
+}
