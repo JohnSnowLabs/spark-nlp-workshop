@@ -1,1 +1,0 @@
-{"predictions": [{"icd10cm_code": "E669", "begin": 0, "end": 3, "icd9_code": "27800"}, {"icd10cm_code": "Z6841", "begin": 5, "end": 9, "icd9_code": "V8541"}, {"icd10cm_code": "N138", "begin": 11, "end": 14, "icd9_code": "5934"}]}
