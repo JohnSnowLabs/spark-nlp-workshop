@@ -9,7 +9,7 @@ Provide a single input as a JSON object.
 {
     "input_text": "input text",
     "params": {
-        "max_new_tokens": 1024,
+        "max_tokens": 1024,
         "temperature": 0.7
     }
 }
@@ -21,7 +21,7 @@ Alternatively, provide a dictionary with `context` and `question` keys.
 {
     "input_text": {"context": "Context", "question": "Question"},
     "params": {
-        "max_new_tokens": 1024,
+        "max_tokens": 1024,
         "template": "open_book_qa"
     }
 }
@@ -37,7 +37,7 @@ Provide multiple inputs as a JSON array.
         "input text 2"
     ],
     "params": {
-        "max_new_tokens": 1024,
+        "max_tokens": 1024,
         "temperature": 0.7
     }
 }
@@ -52,7 +52,7 @@ Alternatively, provide an array of dictionaries with `context` and `question` ke
         {"context": "Context 2", "question": "Question 2"}
     ],
     "params": {
-        "max_new_tokens": 1024,
+        "max_tokens": 1024,
         "template": "open_book_qa"
     }
 }
@@ -64,8 +64,8 @@ Alternatively, provide an array of dictionaries with `context` and `question` ke
 Provide input in JSON Lines format, where each line is a JSON object.
 
 ```
-{"input_text": "input text 1", "params": {"max_new_tokens": 1024}}
-{"input_text": "input text 2", "params": {"max_new_tokens": 512}}
+{"input_text": "input text 1", "params": {"max_tokens": 1024}}
+{"input_text": "input text 2", "params": {"max_tokens": 512}}
 ```
 
 ---
@@ -78,7 +78,7 @@ Provide input in JSON Lines format, where each line is a JSON object.
   - **Constraints**: Provide a string for a single text or a list of strings for multiple inputs. Additionally, you can provide a dictionary or a list of dictionaries with keys `context` and `question` with `open_book_qa`, and the input will be formatted accordingly before sending to the model. If no template is selected, the `context` and `question` strings will be concatenated with a newline.
 
 **Optional Parameters (Inside `params` Key):**
-- **`max_new_tokens`**: The maximum number of tokens the model should generate as output.
+- **`max_tokens`**: The maximum number of tokens the model should generate as output.
   - **Type**: `int`
   - **Default**: `1024`
   - **Constraints**: Must be a positive integer greater than 0.
@@ -127,16 +127,8 @@ If no template is provided, the `input_text` is used directly without formatting
 |----------------------------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **`dtype`**                | `float16` | The data type for the model weights and activations.                                                                                                                                                                                                                                                                                      |
 | **`max_model_len`**        | `8192`  | This indicates that your input and the model response combined should come under this limit (`input + output <= max_model_len`). |
-| **`tensor_parallel_size`** | Variable  | The number of GPUs to use for distributed execution with tensor parallelism.                                                                                                                                                                                                                                                              |
+| **`tensor_parallel_size`** | `8`     | The number of GPUs to use for distributed execution with tensor parallelism.                                                                                                                                                                                                                                                              |
 
 Other than the parameters mentioned above, we are utilizing the default parameters specified for the `LLM` class in the [VLLM documentation](https://docs.vllm.ai/en/latest/dev/offline_inference/llm.html).
 
-#### Instance-Specific `max_model_len` Values
-
-| Instance Type       | Inference Type |Number of GPUs | Total GPU Memory (GB) | max_model_len   |
-|---------------------|----------------|---------------|-----------------------|-----------------| 
-| `ml.g6.48xlarge`    |     Real-Time  |8              | 192                   | 8,192           |
-| `ml.g5.48xlarge`    |     Batch      |8              | 192                   | 8,192           |
-
-
-Total Memory values are approximate. Usable memory may be slightly less. For pricing details, visit the [Amazon SageMaker pricing page](https://aws.amazon.com/sagemaker/pricing/).
+---
