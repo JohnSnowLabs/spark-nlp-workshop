@@ -82,6 +82,17 @@ The JSON Lines format consists of individual JSON objects, where each object rep
 
 - **ner_confidence**: Confidence score associated with the NER prediction.
 
+#### Assertion Predictions
+
+- **ner_chunk**: The text of the entity.
+
+- **begin**: Starting index of the named entity chunk within the document.
+
+- **end**: Ending index of the named entity chunk within the document.
+
+- **ner_label**: The label of the entity, as determined by the NER model.
+
+- **assertion**: Assertion status.
 
 #### Relation Predictions
 
@@ -105,7 +116,7 @@ The JSON Lines format consists of individual JSON objects, where each object rep
 
 - **relation_confidence**: Confidence score associated with the relation prediction.
 
-## Classification Predictions
+#### Classification Predictions
 - **sentence**: The extracted sentence from the document.
 
 - **begin**: The starting character index of the sentence within the document.
