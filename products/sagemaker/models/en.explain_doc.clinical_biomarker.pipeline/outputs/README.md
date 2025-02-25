@@ -95,7 +95,7 @@ The JSON Lines format consists of individual JSON objects, where each object rep
 
 - **relation_confidence**: Confidence score associated with the relation prediction.
 
-## Classification Predictions
+#### Classification Predictions
 - **sentence**: The extracted sentence from the document.
 
 - **begin**: The starting character index of the sentence within the document.
