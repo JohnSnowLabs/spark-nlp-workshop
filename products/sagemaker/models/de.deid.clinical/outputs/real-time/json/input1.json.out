@@ -1,5 +1,0 @@
-{
-    "predictions": [
-        "Zusammenfassung : <PATIENT> wird am Morgen des <DATE> ins <HOSPITAL>. .. Zusammenfassung : <PATIENT> wird am Morgen des <DATE> ins <HOSPITAL> eingeliefert. Herr <PATIENT> ist <AGE> Jahre alt und hat zu viel Wasser in den Beinen. Persönliche Daten :ID-Nummer: <ID> Platte <PLATE> Kontonummer: <ACCOUNT> SSN : <SSN> Lizenznummer: <DLN> Adresse : <STREET> <ZIP>"
-    ]
-}

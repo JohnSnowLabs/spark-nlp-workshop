@@ -1,6 +1,0 @@
-{
-    "predictions": [
-        "Dr. <DOCTOR> - <USERNAME>, <HOSPITAL>, <STREET>, <CITY>",
-        "Er arbeitete bis <DATE> - <PROFESSION> bei <ORGANIZATION> in <CITY>, verbrannte sich an beiden Beinen - entwickelte Geschwüre. Der Patient konsultierte Dr. <DOCTOR> im <DATE>."
-    ]
-}
