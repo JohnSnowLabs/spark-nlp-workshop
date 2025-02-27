@@ -1,6 +1,6 @@
 ## Input Format
 
-To use the model, you need to provide input in one of the following supported formats:
+To use the pipeline model, you need to provide input in one of the following supported formats:
 
 ### Format 1: Array of Text Documents
 
@@ -36,23 +36,22 @@ Provide input in JSON Lines format, where each line is a JSON object representin
 ```
 
 
-### Important Parameter
+### Important Parameters
 
 - **masking_policy**: `str`
 
     Users can select a masking policy to determine how sensitive entities are handled:
 
+    Example: "**Dr. Hans-Wolfgang Weihmann - RM57, Städt Klinikum Dresden-Friedrichstadt, Friedrichstraße 41, Dresden**"
+
     - **masked**: Default policy that masks entities with their type.
 
-      Example: "My name is Mike. I was admitted to the hospital yesterday."  
-      -> "My name is `<PATIENT>`. I was admitted to the hospital yesterday."
+      -> 'Dr.  `<PATIENT>` - `<USERNAME>`, `<HOSPITAL>`, `<STREET>`, `<CITY>`'
 
     - **obfuscated**: Replaces sensitive entities with random values of the same type.
 
-      Example: "My name is Mike. I was admitted to the hospital yesterday."  
-      -> "My name is `Barbaraann Share`. I was admitted to the hospital yesterday."
-
-    
+      -> 'Dr.  `Karl-August Blümel` - `RP400`, `University Hospital Cologne`, `Fadime-Pölitz-Allee`, `Böblingen`'
+      
 You can specify these parameters in the input as follows:
 
 ```json
