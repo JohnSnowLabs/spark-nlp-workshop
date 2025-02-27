@@ -1,0 +1,231 @@
+{
+    "predictions": [
+        [
+            {
+                "begin": 185,
+                "end": 188,
+                "ner_chunk": "DUX4",
+                "ner_label": "GENE",
+                "ner_confidence": "0.9697",
+                "concept_code": "HGNC:50800",
+                "resolution": "dux4",
+                "score": 1.0000001192092896,
+                "all_codes": [
+                    "HGNC:50800",
+                    "HGNC:38686",
+                    "HGNC:51778",
+                    "HGNC:51771",
+                    "HGNC:37265"
+                ],
+                "concept_name_detailed": [
+                    "DUX4 [double homeobox 4]",
+                    "DUX4L4 [double homeobox 4 like 4 (pseudogene)]",
+                    "DUX4L40 [double homeobox 4 like 40 (pseudogene)]",
+                    "DUX4L32 [double homeobox 4 like 32 (pseudogene)]",
+                    "DUX4L6 [double homeobox 4 like 6 (pseudogene)]"
+                ],
+                "locus": [
+                    "protein-coding gene || gene with protein product",
+                    "pseudogene || pseudogene",
+                    "pseudogene || pseudogene",
+                    "pseudogene || pseudogene",
+                    "pseudogene || pseudogene"
+                ],
+                "all_resolutions": [
+                    "dux4",
+                    "dux4l4",
+                    "dux4l40",
+                    "dux4l32",
+                    "dux4l6"
+                ],
+                "all_score": [
+                    1.0000001192092896,
+                    0.9232940077781677,
+                    0.8669935464859009,
+                    0.8570185899734497,
+                    0.8551883697509766
+                ]
+            },
+            {
+                "begin": 191,
+                "end": 197,
+                "ner_chunk": "DUX4L20",
+                "ner_label": "GENE",
+                "ner_confidence": "0.9412",
+                "concept_code": "HGNC:50801",
+                "resolution": "dux4l20",
+                "score": 0.9999997615814209,
+                "all_codes": [
+                    "HGNC:50801",
+                    "HGNC:51788",
+                    "HGNC:51778",
+                    "HGNC:50802",
+                    "HGNC:31354"
+                ],
+                "concept_name_detailed": [
+                    "DUX4L20 [double homeobox 4 like 20 (pseudogene)]",
+                    "DUX4L50 [double homeobox 4 like 50 (pseudogene)]",
+                    "DUX4L40 [double homeobox 4 like 40 (pseudogene)]",
+                    "DUX4L21 [double homeobox 4 like 21 (pseudogene)]",
+                    "DUX4L10 [double homeobox 4 like 10 (pseudogene)]"
+                ],
+                "locus": [
+                    "pseudogene || pseudogene",
+                    "pseudogene || pseudogene",
+                    "pseudogene || pseudogene",
+                    "pseudogene || pseudogene",
+                    "pseudogene || pseudogene"
+                ],
+                "all_resolutions": [
+                    "dux4l20",
+                    "dux4l50",
+                    "dux4l40",
+                    "dux4l21",
+                    "dux4l10"
+                ],
+                "all_score": [
+                    0.9999997615814209,
+                    0.895313024520874,
+                    0.8925592303276062,
+                    0.8840012550354004,
+                    0.8810112476348877
+                ]
+            },
+            {
+                "begin": 200,
+                "end": 205,
+                "ner_chunk": "FBXO48",
+                "ner_label": "GENE",
+                "ner_confidence": "0.9676",
+                "concept_code": "HGNC:33857",
+                "resolution": "fbxo48",
+                "score": 1.0000004768371582,
+                "all_codes": [
+                    "HGNC:33857",
+                    "HGNC:29816",
+                    "HGNC:24847",
+                    "HGNC:27020",
+                    "HGNC:31969"
+                ],
+                "concept_name_detailed": [
+                    "FBXO48 [F-box protein 48]",
+                    "FBXO40 [F-box protein 40]",
+                    "FBXO44 [F-box protein 44]",
+                    "FBXO36 [F-box protein 36]",
+                    "FBXO47 [F-box protein 47]"
+                ],
+                "locus": [
+                    "protein-coding gene || gene with protein product",
+                    "protein-coding gene || gene with protein product",
+                    "protein-coding gene || gene with protein product",
+                    "protein-coding gene || gene with protein product",
+                    "protein-coding gene || gene with protein product"
+                ],
+                "all_resolutions": [
+                    "fbxo48",
+                    "fbxo40",
+                    "fbxo44",
+                    "fbxo36",
+                    "fbxo47"
+                ],
+                "all_score": [
+                    1.0000004768371582,
+                    0.8699185848236084,
+                    0.8525800108909607,
+                    0.8402078151702881,
+                    0.8378820419311523
+                ]
+            },
+            {
+                "begin": 208,
+                "end": 212,
+                "ner_chunk": "MYOD1",
+                "ner_label": "GENE",
+                "ner_confidence": "0.9847",
+                "concept_code": "HGNC:7611",
+                "resolution": "myod1",
+                "score": 0.9999996423721313,
+                "all_codes": [
+                    "HGNC:7611",
+                    "HGNC:7598",
+                    "HGNC:7595",
+                    "HGNC:7599",
+                    "HGNC:13752"
+                ],
+                "concept_name_detailed": [
+                    "MYOD1 [myogenic differentiation 1]",
+                    "MYO1D [myosin ID]",
+                    "MYO1A [myosin IA]",
+                    "MYO1E [myosin IE]",
+                    "MYOZ1 [myozenin 1]"
+                ],
+                "locus": [
+                    "protein-coding gene || gene with protein product",
+                    "protein-coding gene || gene with protein product",
+                    "protein-coding gene || gene with protein product",
+                    "protein-coding gene || gene with protein product",
+                    "protein-coding gene || gene with protein product"
+                ],
+                "all_resolutions": [
+                    "myod1",
+                    "myo1d",
+                    "myo1a",
+                    "myo1e",
+                    "myoz1"
+                ],
+                "all_score": [
+                    0.9999996423721313,
+                    0.8814316987991333,
+                    0.8536235094070435,
+                    0.8487421870231628,
+                    0.8310863971710205
+                ]
+            },
+            {
+                "begin": 219,
+                "end": 222,
+                "ner_chunk": "PAX7",
+                "ner_label": "GENE",
+                "ner_confidence": "0.8536",
+                "concept_code": "HGNC:8621",
+                "resolution": "pax7",
+                "score": 0.9999997019767761,
+                "all_codes": [
+                    "HGNC:8621",
+                    "HGNC:8860",
+                    "HGNC:8622",
+                    "HGNC:8616",
+                    "HGNC:8619"
+                ],
+                "concept_name_detailed": [
+                    "PAX7 [paired box 7]",
+                    "PEX7 [peroxisomal biogenesis factor 7]",
+                    "PAX8 [paired box 8]",
+                    "PAX2 [paired box 2]",
+                    "PAX5 [paired box 5]"
+                ],
+                "locus": [
+                    "protein-coding gene || gene with protein product",
+                    "protein-coding gene || gene with protein product",
+                    "protein-coding gene || gene with protein product",
+                    "protein-coding gene || gene with protein product",
+                    "protein-coding gene || gene with protein product"
+                ],
+                "all_resolutions": [
+                    "pax7",
+                    "pex7",
+                    "pax8",
+                    "pax2",
+                    "pax5"
+                ],
+                "all_score": [
+                    0.9999997019767761,
+                    0.8129062652587891,
+                    0.8030733466148376,
+                    0.8027161359786987,
+                    0.8005862832069397
+                ]
+            }
+        ]
+    ]
+}
