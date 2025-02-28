@@ -1,5 +1,5 @@
 {
     "predictions": [
-        "Record date : <DATE>, <DOCTOR>, M.D. is <PROFESSION>,  Name: <PATIENT>. Age: <AGE>. Phone: (<AGE>) <AGE>5-5632. MR. # <MEDICALRECORD> Date: <DATE> PCP: <DOCTOR>. Record date: <DATE>. <HOSPITAL> <STREET>. This <AGE>-yr-old male, presented with chest heaviness that started during a <PROFESSION>. His past medical history was unremarkable. <PATIENT> denied prior cardiac symptoms and suffered no chest trauma during the game. His father had suffered an acute myocardial infarction at age <AGE>. Elvis <PATIENT> was a nonsmoker, did not drink alcohol, and denied recreational drug use. <PATIENT> swallowed a tablet of aspirin before coming to the emergency room. His blood pressure was 160/90 mm Hg, and his heart rate was 80 bpm. Physical examination revealed no stigmata of Marfan syndrome. The rest of his physical examination was normal. DD: <DATE> . DV: <DATE>, Cocke <LOCATION> <STREET>. PHONE : <PHONE> "
+        "Zusammenfassung : <PATIENT> wird am Morgen des <DATE> ins <HOSPITAL> ei... \nZusammenfassung : <PATIENT> wird am Morgen des <DATE> ins <HOSPITAL> eingeliefert. Herr <NAME> <NAME> ist <AGE> Jahre alt und hat zu viel Wasser in den Beinen.Persönliche Daten :ID-Nummer: <ID> Platte <PLATE> Kontonummer: <ACCOUNT> SSN : <SSN>Lizenznummer: <DLN> Adresse : <STREET> <ZIP> "
     ]
 }
