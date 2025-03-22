@@ -186,6 +186,8 @@
 
 [41.Flattener.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/41.Flattener.ipynb)
 
+[48.PRR_ROR_EBGM_for_Signal_Processing_of_Drug_Events.ipynb](https://colab.research.google.com/github/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/48.PRR_ROR_EBGM_for_Signal_Processing_of_Drug_Events.ipynb)
+
 ### World Language Models
 
 [14.German_Healthcare_Models.ipynb](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/14.German_Healthcare_Models.ipynb)
