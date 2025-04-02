@@ -1,0 +1,6 @@
+{
+    "model": "/opt/ml/model",
+    "prompt": "What should I do if I have a fever and body aches?",
+    "max_tokens": 2048,
+    "temperature": 0.7
+}
