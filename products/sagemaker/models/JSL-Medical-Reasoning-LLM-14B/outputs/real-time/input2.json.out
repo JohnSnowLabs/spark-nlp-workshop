@@ -1,0 +1,22 @@
+{
+    "id": "cmpl-a6d9952b95dc4c0dbea4cf9deeb46560",
+    "object": "text_completion",
+    "created": 1743488720,
+    "model": "/opt/ml/model",
+    "choices": [
+        {
+            "index": 0,
+            "text": " If you have a fever and body aches, here are some steps to take:\n\n1. **Rest**: Get plenty of rest to help your body fight off the illness.\n\n2. **Stay Hydrated**: Drink plenty of fluids like water, clear broths, or fruit juices to maintain your hydration levels.\n\n3. **Take Medications**: Over-the-counter medications such as acetaminophen (Tylenol) or ibuprofen (Advil) can help reduce fever and alleviate body aches. Make sure to follow the recommended dosages and consult a healthcare provider if you have any underlying health conditions or are taking other medications.\n\n4. **Use Fever-Reducing Measures**: Cool compresses or a lukewarm bath can help lower a high fever.\n\n5. **Monitor Your Symptoms**: Keep an eye on any changes in your condition. If your symptoms worsen, persist for more than a few days, or if you experience additional concerning symptoms (such as difficulty breathing, persistent vomiting, severe headache, or rash), seek medical care promptly.\n\n6. **Practice Good Hygiene**: Wash your hands frequently and cover your mouth and nose when coughing or sneezing to avoid spreading any potential infections to others.\n\nIf you have any underlying medical conditions, are pregnant, or have concerns about your symptoms, it's important to consult your healthcare provider for personalized advice and treatment. They can determine whether your symptoms require medical attention or if they are likely to resolve on their own with home care. Additionally, if you are unsure about the cause of your symptoms, especially during current public health situations, reaching out to a healthcare provider can provide clarity and necessary guidance. **Please note**: This information is not a substitute for professional medical advice. If you have any medical concerns, it's always best to consult a healthcare professional.",
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "prompt_logprobs": null
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 14,
+        "total_tokens": 382,
+        "completion_tokens": 368,
+        "prompt_tokens_details": null
+    }
+}
