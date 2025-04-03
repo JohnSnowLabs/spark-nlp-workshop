@@ -1,0 +1,13 @@
+{
+    "model": "/opt/ml/model",
+    "prompt": [
+        "What are the early warning signs of stroke and what should I do if I suspect someone is having one?",
+        "How do different classes of antidepressants work and what factors determine which medication might be prescribed?",
+        "What is the relationship between inflammation, autoimmune conditions, and chronic disease progression?"
+    ],
+    "max_tokens": 2048,
+    "temperature": 0.6,
+    "top_p": 0.9,
+    "repetition_penalty": 1.1,
+    "top_k": 50
+}

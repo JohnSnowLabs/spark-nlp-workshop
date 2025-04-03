@@ -1,0 +1,18 @@
+{
+    "model": "/opt/ml/model",
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a medical expert. Please structure your response with minimal headings with hierarchical numbering, end your response with a conclusion"
+        },
+        {
+            "role": "user",
+            "content": "How do emerging mRNA technologies compare to traditional vaccine approaches for disease prevention?"
+        }
+    ],
+    "max_tokens": 2048,
+    "temperature": 0.6,
+    "top_p": 0.9,
+    "repetition_penalty": 1.1,
+    "top_k": 50
+}

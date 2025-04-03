@@ -1,0 +1,22 @@
+{
+    "id": "cmpl-5762750656bb4f70aa1a129a2e84ff13",
+    "object": "text_completion",
+    "created": 1743666236,
+    "model": "/opt/ml/model",
+    "choices": [
+        {
+            "index": 0,
+            "text": " (Age 55+)\nAdults aged 55 and older with a family history of colorectal cancer should undergo regular screening to detect the disease early, when it is most treatable. The following screening tests are commonly recommended:\n1. **Colonoscopy**: This is considered the gold standard for colorectal cancer screening. It involves inserting a flexible tube with a camera into the rectum to visually examine the entire colon for polyps or cancerous growths. Colonoscopy can also remove precancerous polyps during the procedure.\n   - Recommended frequency: Every 5-10 years if previous results were normal.\n\n2. **Fecal Immunochemical Test (FIT)**: This test checks stool samples for tiny amounts of blood that could indicate bleeding from a tumor in the colon or rectum.\n   - Recommended frequency: Annually.\n\n3. **Stool DNA Test (Cologuard)**: This test looks for genetic mutations associated with colon cancer as well as hidden blood in stool samples.\n   - Recommended frequency: Every 3 years.\n\n4. **Flexible Sigmoidoscopy**: Similar to colonoscopy but only examines the lower part of the colon. It may be less effective than colonoscopy because it doesn't look at the entire colon.\n   - Recommended frequency: Every 5-10 years if previous results were normal.\n\n5. **CT Colonography (Virtual Colonoscopy)**: Uses CT scans to create images of the colon and rectum. It's less invasive than traditional colonoscopy but still requires bowel preparation.\n   - Recommended frequency: Every 5 years if previous results were normal.\n\n**Additional Considerations for Those with a Family History:**\n- If you have a first-degree relative (parent, sibling, child) diagnosed with colorectal cancer, especially before age 60, your doctor might recommend starting screening earlier (possibly at age 40) and more frequently.\n- If there's a history of familial adenomatous polyposis (FAP) or hereditary nonpolyposis colorectal cancer (HNPCC), which are inherited conditions that significantly increase the risk of developing colorectal cancer, more intensive screening and possibly prophylactic surgery may be recommended.\n\nIt's essential to discuss your specific risk factors and medical history with your healthcare provider to determine the best screening plan tailored to your needs. Regular follow-up appointments will help monitor any changes in your health status and adjust your screening schedule accordingly.",
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "prompt_logprobs": null
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 19,
+        "total_tokens": 513,
+        "completion_tokens": 494,
+        "prompt_tokens_details": null
+    }
+}
