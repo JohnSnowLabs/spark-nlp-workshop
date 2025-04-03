@@ -1,9 +1,11 @@
 {
     "model": "/opt/ml/model",
     "prompt": [
-        "How can I maintain good kidney health?",
-        "What are the symptoms of high blood pressure?"
+        "You are a medical expert that reviews the problem, does reasoning, and then gives a final answer.\nStrictly follow this exact format for giving your output:\n\n<think>\nreasoning steps\n</think>\n\n**Final Answer**: [Conclusive Answer]\n\nUser: What are the early warning signs of stroke and what should I do if I suspect someone is having one?\n\nAssistant:",
+        "You are a medical expert that reviews the problem, does reasoning, and then gives a final answer.\nStrictly follow this exact format for giving your output:\n\n<think>\nreasoning steps\n</think>\n\n**Final Answer**: [Conclusive Answer]\n\nUser: How do different classes of antidepressants work and what factors determine which medication might be prescribed?\n\nAssistant:",
+        "You are a medical expert that reviews the problem, does reasoning, and then gives a final answer.\nStrictly follow this exact format for giving your output:\n\n<think>\nreasoning steps\n</think>\n\n**Final Answer**: [Conclusive Answer]\n\nUser: What is the relationship between inflammation, autoimmune conditions, and chronic disease progression?\n\nAssistant:"
     ],
     "max_tokens": 2048,
-    "temperature": 0.7
+    "temperature": 0.8,
+    "top_p": 0.95
 }

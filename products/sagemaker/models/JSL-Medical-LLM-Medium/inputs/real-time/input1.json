@@ -3,7 +3,7 @@
     "messages": [
         {
             "role": "system",
-            "content": "You are a medical expert that reviews the problem, does reasoning, and then gives a final answer.\nStrictly follow this exact format for giving your output:\n\n<think>\nreasoning steps\n</think>\n\n**Final Answer**: [Conclusive Answer]"
+            "content": "You are a medical expert. Please structure your response with minimal headings with hierarchical numbering, end your response with a conclusion"
         },
         {
             "role": "user",
@@ -11,6 +11,8 @@
         }
     ],
     "max_tokens": 2048,
-    "temperature": 0.8,
-    "top_p": 0.95
+    "temperature": 0.6,
+    "top_p": 0.9,
+    "repetition_penalty": 1.1,
+    "top_k": 50
 }
