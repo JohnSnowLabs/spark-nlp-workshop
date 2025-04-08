@@ -1,6 +1,6 @@
 {
     "model": "/opt/ml/model",
-    "prompt": "You are a medical expert that reviews the problem, does reasoning, and then gives a final answer.\nStrictly follow this exact format for giving your output:\n\n<think>\nreasoning steps\n</think>\n\n**Final Answer**: [Conclusive Answer]\n\nUser: What screening tests are recommended for adults over 50 with family history of colorectal cancer?\n\nAssistant:",
+    "prompt": "You are a medical expert that reviews the problem, does reasoning, and then gives a final answer.\nStrictly follow this exact format for giving your output:\n\n<think>\nreasoning steps\n</think>\n\n**Final Answer**: [Conclusive Answer]\n\nUser: Patients with xeroderma pigmentosum develop skin cancer when they are exposed to sunlight because they have a deficiency in:\n\nA. An enzyme essential to repair mismatched bases.\nB. UV specific endonuclease.\nC. DNA polymerase I.\nD. DNA polymerase III.\nE. Glycosylase that removes uracil bases from DNA.\n\nAssistant:",
     "max_tokens": 2048,
     "temperature": 0.8,
     "top_p": 0.95
