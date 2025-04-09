@@ -1,0 +1,22 @@
+{
+    "id": "cmpl-8c7af17bb51b4a08ab3342930d729fb9",
+    "object": "text_completion",
+    "created": 1744100580,
+    "model": "/opt/ml/model",
+    "choices": [
+        {
+            "index": 0,
+            "text": " The answer is E. Nitrofurantoin\n\nIn a pregnant woman, burning upon urination with no fever or other symptoms is most likely a urinary tract infection (UTI). Nitrofurantoin is the safest antibiotic to use in pregnancy, especially during the second and third trimesters. Ampicillin, Ceftriaxone, Ciprofloxacin, and Doxycycline are either contraindicated or should be avoided in pregnancy due to potential risks to the fetus. It is important to treat UTI promptly in pregnancy to prevent complications such as pyelonephritis and preterm labor.",
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "prompt_logprobs": null
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 200,
+        "total_tokens": 319,
+        "completion_tokens": 119,
+        "prompt_tokens_details": null
+    }
+}
