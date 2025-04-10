@@ -1,0 +1,22 @@
+{
+    "id": "cmpl-ee089581bff54bb29e9f217bc73cf78c",
+    "object": "text_completion",
+    "created": 1744112904,
+    "model": "/opt/ml/model",
+    "choices": [
+        {
+            "index": 0,
+            "text": " The best treatment for this patient is E: Nitrofurantoin. Nitrofurantoin is the first-line treatment for uncomplicated urinary tract infections in pregnant women. It is safe to use during pregnancy and is effective against the most common bacteria that cause urinary tract infections, including Escherichia coli. Nitrofurantoin is also less likely to cause resistance compared to other antibiotics, which is important to preserve antibiotic effectiveness for future use.",
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "prompt_logprobs": null
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 187,
+        "total_tokens": 279,
+        "completion_tokens": 92,
+        "prompt_tokens_details": null
+    }
+}
