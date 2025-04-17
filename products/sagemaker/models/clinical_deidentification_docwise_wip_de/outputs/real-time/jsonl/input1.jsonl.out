@@ -1,2 +1,1 @@
-{"predictions": "Dr. <NAME> Weihmann - <USERNAME>, <HOSPITAL>, <STREET>, <CITY>"}
-{"predictions": "Er arbeitete bis <DATE> - <PROFESSION> bei <ORGANIZATION> in <STATE>, verbrannte sich an beiden Beinen - entwickelte Geschwüre. Der Patient konsultierte Dr. <NAME> im <NAME>."}
+{"predictions": "Zusammenfassung : <PATIENT> wird am Morgen des <DATE> ins <HOSPITAL> ei... \nZusammenfassung : <PATIENT> wird am Morgen des <DATE> ins <HOSPITAL> eingeliefert. Herr <NAME> <NAME> ist <AGE> Jahre alt und hat zu viel Wasser in den Beinen.Persönliche Daten :ID-Nummer: <ID> Platte <PLATE> Kontonummer: <ACCOUNT> SSN : <SSN>Lizenznummer: <DLN> Adresse : <STREET> <ZIP> "}
