@@ -1,0 +1,6 @@
+{
+    "model": "/opt/ml/model",
+    "prompt": "Una mujer embarazada de 23 años, con 22 semanas de gestación, se presenta con ardor al orinar. Ella menciona que comenzó hace un día y ha ido empeorando a pesar de beber más agua y tomar extracto de arándano. Por lo demás, se siente bien y está siendo seguida por un médico para su embarazo. Su temperatura es 97.7°F (36.5°C), la presión arterial es 122/77 mmHg, el pulso es de 80/min, las respiraciones son 19/min, y la saturación de oxígeno es 98% en aire ambiente. El examen físico es notable por la ausencia de dolor en el ángulo costovertebral y un útero grávido.\n\n¿Cuál de los siguientes es el mejor tratamiento para esta paciente?\nA: Ampicilina\nB: Ceftriaxona\nC: Ciprofloxacino\nD: Doxiciclina\nE: Nitrofurantoína\n",
+    "max_tokens": 2048,
+    "temperature": 0.15
+}

@@ -1,0 +1,15 @@
+{
+    "model": "/opt/ml/model",
+    "messages": [
+        {
+            "role": "system",
+            "content": "Actúe como asistente médico y responda únicamente en español. Ofrezca respuestas con encabezados numéricos estructurados y jerárquicos. Cuando sea necesario, incluya una conclusión clara y concisa que resuma los puntos clave o las recomendaciones."
+        },
+        {
+            "role": "user",
+            "content": "¿Qué debo hacer si tengo fiebre y dolores corporales?"
+        }
+    ],
+    "max_tokens": 2048,
+    "temperature": 0.15
+}
