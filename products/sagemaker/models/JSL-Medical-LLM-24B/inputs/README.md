@@ -16,7 +16,7 @@
 ```  
 
 For additional parameters:  
-- [ChatCompletionRequest](https://github.com/vllm-project/vllm/blob/v0.7.3/vllm/entrypoints/openai/protocol.py#L212)  
+- [ChatCompletionRequest](https://github.com/vllm-project/vllm/blob/v0.8.5/vllm/entrypoints/openai/protocol.py#L232)  
 - [OpenAI's Chat API](https://platform.openai.com/docs/api-reference/chat/create)  
 
 ---  
@@ -47,8 +47,55 @@ For additional parameters:
 ```  
 
 Reference:  
-- [CompletionRequest](https://github.com/vllm-project/vllm/blob/v0.7.3/vllm/entrypoints/openai/protocol.py#L642)  
+- [CompletionRequest](https://github.com/vllm-project/vllm/blob/v0.8.5/vllm/entrypoints/openai/protocol.py#L730)  
 - [OpenAI's Completions API](https://platform.openai.com/docs/api-reference/completions/create)  
+
+---  
+
+### 3. Image + Text Inference
+
+The model supports both online (direct URL) and offline (base64-encoded) image inputs.
+
+#### Online Image Example
+```json
+{
+    "model": "/opt/ml/model",
+    "messages": [
+        {"role": "system", "content": "You are a helpful medical assistant."},
+        {
+            "role": "user",
+            "content": [
+                {"type": "text", "text": "What does this medical image show?"},
+                {"type": "image_url", "image_url": {"url": "https://example.com/image.jpg"}}
+            ]
+        }
+    ],
+    "max_tokens": 2048,
+    "temperature": 0.15
+}
+```
+
+#### Offline Image Example (Base64)
+```json
+{
+    "model": "/opt/ml/model",
+    "messages": [
+        {"role": "system", "content": "You are a helpful medical assistant."},
+        {
+            "role": "user",
+            "content": [
+                {"type": "text", "text": "What does this medical image show?"},
+                {"type": "image_url", "image_url": {"url": "data:image/jpeg;base64,..."}}
+            ]
+        }
+    ],
+    "max_tokens": 2048,
+    "temperature": 0.15
+}
+```
+
+Reference:
+- [vLLM Vision Language Models Documentation](https://docs.vllm.ai/en/v0.6.2/models/vlm.html)
 
 ---  
 
