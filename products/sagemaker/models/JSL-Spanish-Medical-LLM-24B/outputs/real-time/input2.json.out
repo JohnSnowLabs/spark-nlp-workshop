@@ -1,0 +1,22 @@
+{
+    "id": "cmpl-9c07a03315c84006bf0422ea038e2b2f",
+    "object": "text_completion",
+    "created": 1745937418,
+    "model": "/opt/ml/model",
+    "choices": [
+        {
+            "index": 0,
+            "text": "F: Trimethoprim-sulfametoxazol\n\nLa respuesta correcta es E: Nitrofurantoína.\n\nLa paciente presenta síntomas de infección del tracto urinario (ITU), que es común en mujeres embarazadas debido a cambios hormonales y anatómicos que facilitan la colonización bacteriana. La nitrofurantoína es el tratamiento de primera línea para las ITU no complicadas en mujeres embarazadas debido a su seguridad y eficacia. Es importante evitar medicamentos como el ciprofloxacino y la doxiciclina debido a sus efectos teratogénicos. Aunque la ampicilina y la ceftriaxona son opciones seguras durante el embarazo, no son el tratamiento de primera línea para ITU no complicadas. El trimethoprim-sulfametoxazol debe evitarse en el primer trimestre debido al riesgo de defectos congénitos.",
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "prompt_logprobs": null
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 223,
+        "total_tokens": 418,
+        "completion_tokens": 195,
+        "prompt_tokens_details": null
+    }
+}
