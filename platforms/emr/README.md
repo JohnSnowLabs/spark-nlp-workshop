@@ -12,6 +12,7 @@ This configuration is already ready-to-use for **EMR Notebooks**.
 ![alt text](image-1.png)
 
 #### 2- Click `create cluster` button, then select required applications:
+Please select Amazon EMR 7.x release version to use spark-nlp-jsl. In lower EMR versions, ONNX base models do not work due to system requirements.
 
 ![alt text](image.png)
 
