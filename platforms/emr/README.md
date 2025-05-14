@@ -12,8 +12,8 @@ This configuration is already ready-to-use for **EMR Notebooks**.
 ![alt text](image-1.png)
 
 #### 2- Click `create cluster` button, then select required applications:
-Please select Amazon EMR 7.x release version to use spark-nlp-jsl. In lower EMR versions, ONNX base models do not work due to system requirements.
-
+Please select Amazon EMR 7.x release version to use spark-nlp. In lower EMR versions, ONNX base models do not work due to system requirements.
+Discussion: https://github.com/JohnSnowLabs/spark-nlp/issues/14193
 ![alt text](image.png)
 
 
@@ -45,9 +45,18 @@ The script we'll use for this setup is `emr_bootstrap.sh` which is contained in 
 You need to put your credentials into `emr_bootstrap.sh` file <br/>
 
 #### 7. We will define spark parameters under Software settings tab:
+Please investigate official documentation for more information about EMR Spark configuration
+https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-spark-configure.html
+
 
 ```
 [
+  {
+    "Classification": "spark",
+    "Properties": {
+      "maximizeResourceAllocation": "true"
+    }
+  },
   {
     "Classification": "spark-env",
     "Configurations": [
@@ -79,9 +88,7 @@ You need to put your credentials into `emr_bootstrap.sh` file <br/>
     "Classification": "spark-defaults",
     "Properties": {
       "spark.driver.maxResultSize": "0",
-      "spark.driver.memory": "64G",
       "spark.dynamicAllocation.enabled": "true",
-      "spark.executor.memory": "64G",
       "spark.executorEnv.SPARK_NLP_LICENSE": "XYXYXYXYXY",
       "spark.jsl.settings.aws.credentials.access_key_id": "XYXYXYXYXY",
       "spark.jsl.settings.aws.credentials.secret_access_key": "XYXYXYXYXY",
@@ -93,13 +100,17 @@ You need to put your credentials into `emr_bootstrap.sh` file <br/>
       "spark.serializer": "org.apache.spark.serializer.KryoSerializer",
       "spark.yarn.appMasterEnv.SPARK_NLP_LICENSE": "XYXYXYXYXY",
       "spark.yarn.preserve.staging.files": "true",
+      "spark.jsl.settings.storage.cluster_tmp_dir": "hdfs:///tmp",
       "spark.yarn.stagingDir": "hdfs:///tmp"
     }
   }
 ]
 ```
 **__Important__**:
-Make sure that you replace all the secret information(marked here as XYXYXYXYXY) with the appropriate values that you received with your license.<br/> 
+Make sure that you replace all the secret information(marked here as XYXYXYXYXY) with the appropriate values that you received with your license.<br/>
+
+**Automatic Resource Allocation**
+We don't configure driver or executor memory manually because we're utilizing the maximizeResourceAllocation feature.
 
 If you are having issues with the license, please contact JSL team at support@johnsnowlabs.com
 
@@ -109,15 +120,15 @@ Under **Tags** section, please add a `KEY: VALUE` pair with `for-use-with-amazon
 ![6](https://github.com/JohnSnowLabs/spark-nlp-workshop/assets/72014272/0f03d691-1681-4c94-a6f0-7a62ec4605f2)
 
 
-#### 7- Security
+#### 8 - Security
 After selecting a `EC2 key pair` - to connect the master node with `SSH` and select the IAM roles, we can click on the orange `Create Cluster` button and a Cluster will be created.
 
-#### 8-
+#### 9 -
 Make sure that license.johnsnowlabs.com and licensecheck.johnsnowlabs.com are on whitelist domains. If they are not, please whitelist these domains.
 
-#### 9- Start Notebooks Server
+#### 10 - Start Notebooks Server
 
 To open the Notebooks, you can create Workspaces from EMR Studio and attach the Cluster that you just created.
 
-#### 9- Any Doubt?
+#### 11 - Any Doubt?
 Write us to support@johnsnowlabs.com
