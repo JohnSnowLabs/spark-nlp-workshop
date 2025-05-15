@@ -1,52 +1,89 @@
-## Airgapped Deployment of Spark-NLP for Healthcare on AWS EMR
+## Air-Gapped Deployment of Spark NLP for Healthcare on AWS EMR
 
 ### Overview
 
-This page explains how to set up **Spark NLP** and **Spark NLP for Healthcare** on **AWS EMR** using the AWS Console, specifically for **air-gapped environments**.
+This guide explains how to set up **Spark NLP** and **Spark NLP for Healthcare** on **AWS EMR**, using the AWS Console — specifically for **air-gapped environments**.
 
 The configuration is preconfigured and ready to use with **EMR Notebooks**.
 
-### Steps
-#### 1- Go to EMR service
+---
 
-![alt text](image-1.png)
+### Deployment Steps
 
-#### 2- Click `create cluster` button, then select required applications:
-Please select Amazon EMR 7.x release version to use spark-nlp. In lower EMR versions, ONNX base models do not work due to system requirements.
-Discussion: https://github.com/JohnSnowLabs/spark-nlp/issues/14193
-![alt text](image.png)
+#### 1 - Open the EMR Service Console
+
+Navigate to the **EMR** service from the AWS Management Console.
+
+![EMR Console](image-1.png)
+
+---
+
+#### 2 - Create a Cluster and Select Required Applications
+
+Click the **`Create cluster`** button, then select the necessary applications for your Spark NLP workload.
+
+> ✅ **Note:** Please select **Amazon EMR 7.x** (or higher) as the release version.  
+> ONNX-based models are not compatible with earlier EMR versions due to system requirements.  
+> [Related Discussion](https://github.com/JohnSnowLabs/spark-nlp/issues/14193)
+
+![Select EMR Version and Applications](image.png)
+
+---
+
+#### 3 - Choose EC2 Instance Types for Master and Core (Worker) Nodes
+
+Select appropriate instance types based on your workload and resource needs.
+
+![Select EC2 Instances](image-2.png)
+
+---
+
+#### 4 - Set the Number of Worker Nodes
+
+Adjust the number of worker nodes (core instances) according to your cluster size requirements.
+
+![Number of Workers](image-3.png)
+
+---
+
+#### 5 - Configure VPC and Security Groups
+
+Choose the appropriate **VPC** and **Security Groups**.  
+Using the default settings or allowing AWS to create default configurations is recommended for most use cases.
+
+![VPC and Security Group Settings](image-4.png)
 
 
-#### 3-  Select EC2 instances for master and worker nodes:
+#### 6- Attach Internet Gateway Temporarily
 
-![alt text](image-2.png)
+Identify the **Route Table** associated with your current **VPC**, and add the **Internet Gateway** to it.
 
-#### 4 - Specify the number of workers:
+![alt text](image-6.png)
 
-![alt text](image-3.png)
+> **Note:** This Internet Gateway is only required during the initial cluster deployment.  
+> Once the cluster is up and running, make sure to **detach and delete** the Internet Gateway to convert the cluster into an **air-gapped** environment.
 
-#### 5- Specify the VPC and Security Groups (Firewall)
-It is recommended to use default configuration or have AWS create default configurations.
+#### 7 - Add Bootstrap Action and Configure Cluster Logs
 
-![alt text](image-4.png)
+We will install the required John Snow Labs Spark libraries using a **bootstrap action**.
 
+Scroll to the bottom of the cluster creation page and expand the **Bootstrap Actions** section.  
+Click the **`Add`** button and provide the path to the `jsl_emr_bootstrap.sh` script stored in an **S3 bucket** within your VPC.
 
-#### 6- Add bootstrap action:
-We will have Johnsnowlabs Spark libraries installed via bootstrap action.
+---
 
-Go to the bottom of the page, and expand the `Bootstrap Actions` tab. Press on `Add` button. You need to provide a path to a script on S3.
+![Bootstrap Action Setup](image-5.png)
 
-![5](https://github.com/JohnSnowLabs/spark-nlp-workshop/assets/72014272/05c3931c-16f7-47ad-b135-2612e85b3de4)
+Additionally, choose an **S3 bucket within your VPC** to store **cluster log files**.  
+These logs are critical for troubleshooting and debugging any issues during cluster operation.
 
+---
 
-The script we'll use for this setup is `emr_bootstrap.sh` which is contained in this folder.
+#### 8 - Configure Spark Parameters in the Software Settings Tab
 
+Define the necessary Spark configuration parameters under the **Software Settings** tab.
 
-You need to put your credentials into `emr_bootstrap.sh` file <br/>
-
-#### 7. We will define spark parameters under Software settings tab:
-Please investigate official documentation for more information about EMR Spark configuration
-https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-spark-configure.html
+> 📘 For more details on available Spark parameters and configurations in EMR, refer to the [official AWS documentation](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-spark-configure.html).
 
 
 ```
@@ -123,16 +160,33 @@ Under **Tags** section, please add a `KEY: VALUE` pair with `for-use-with-amazon
 
 ![6](https://github.com/JohnSnowLabs/spark-nlp-workshop/assets/72014272/0f03d691-1681-4c94-a6f0-7a62ec4605f2)
 
-
-#### 8 - Security
+#### 9 - Security
 After selecting a `EC2 key pair` - to connect the master node with `SSH` and select the IAM roles, we can click on the orange `Create Cluster` button and a Cluster will be created.
 
-#### 9 -
-Make sure that you should use airgapped license type 
+#### 10 - Upload Models to an S3 Bucket Within the VPC
 
-#### 10 - Start Notebooks Server
+Download the desired Spark NLP models from the [Model Hub](https://nlp.johnsnowlabs.com/models).  
+You can automate this process using the following helper notebook:
 
-To open the Notebooks, you can create Workspaces from EMR Studio and attach the Cluster that you just created.
+📎 [Model Download Helpers – Spark NLP Workshop](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/34.Model_Download_Helpers.ipynb)
 
-#### 11 - Any Doubt?
-Write us to support@johnsnowlabs.com
+Once downloaded, upload the models to an **S3 bucket located within your VPC** so they can be accessed in your air-gapped environment.
+
+![Model Upload](image-7.png)
+
+#### 11 - License Type
+
+Ensure that you are using the **air-gapped license type**, which is specifically designed for offline environments.
+
+---
+
+#### 12 - Start the Notebooks Server
+
+To launch the notebooks, create a **Workspace** in **EMR Studio** and attach the cluster you just created.
+
+---
+
+#### 13 - Need Help?
+
+If you have any questions or run into issues, feel free to contact us at **support@johnsnowlabs.com**.
+
