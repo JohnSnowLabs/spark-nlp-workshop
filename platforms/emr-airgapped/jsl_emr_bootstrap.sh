@@ -6,16 +6,13 @@ export HADOOP_CONF_DIR=/etc/hadoop/conf
 export SPARK_JARS_DIR=/usr/lib/spark/jars
 export SPARK_HOME=/usr/lib/spark' >> $HOME/.bashrc && source $HOME/.bashrc
 
-
-sudo python3 -m pip install 'urllib3<2.0'
-
 # Installing Spark-NLP wheel
 sudo pip3 install -q --upgrade -q  spark-nlp=={PUBLIC_VERSION}
 
 # Installing Spark NLP Healthcare wheel
 sudo pip3 install -q spark-nlp-jsl==$JSL_VERSION  --extra-index-url https://pypi.johnsnowlabs.com/$SECRET
 
-# Installing more libraries
+# Installing more libraries if needed
 sudo pip3 install numpy
 sudo pip3 install pandas
 

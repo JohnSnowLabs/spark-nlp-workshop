@@ -170,13 +170,13 @@ You can automate this process using the following helper notebook:
 
 📎 [Model Download Helpers – Spark NLP Workshop](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/34.Model_Download_Helpers.ipynb)
 
-Once downloaded, upload the models to an **S3 bucket located within your VPC** so they can be accessed in your air-gapped environment.
+Once downloaded, upload the unzipped models to an **S3 bucket located within your VPC** so they can be accessed in your air-gapped environment.
 
 ![Model Upload](image-7.png)
 
 #### 11 - License Type
 
-Ensure that you are using the **air-gapped license type**, which is specifically designed for offline environments.
+Ensure that you are using the **airgap license type**, which is specifically designed for offline environments.
 
 ---
 
