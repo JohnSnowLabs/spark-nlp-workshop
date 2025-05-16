@@ -39,7 +39,7 @@ Provide input in JSON Lines format, where each line is a JSON object representin
 {"text": "Text document 2"}
 ```
 
-### Important Parameters
+### Important Parameter
 
 - **masking_policy**: `str`
 
@@ -63,13 +63,6 @@ Provide input in JSON Lines format, where each line is a JSON object representin
 
       -> 'PZ: [`***************`], CODICE FISCALE: [`**************`], INDIRIZZO: [`**************`], CITTÀ : [`****`]'
 
-- **sep**: `str`
-
-    Separator used to join subparts within each prediction.
-
-    By default, the separator is set to a single space (" "), but users can specify any other separator as needed. Necessary because the model outputs predictions as separate subparts, and the chosen separator is used to join them into coherent text.
-
-    The separator must be one of the following characters: space (' '), newline ('\n'), comma (','), tab ('\t'), or colon (':').
     
 You can specify these parameters in the input as follows:
 
@@ -81,6 +74,5 @@ You can specify these parameters in the input as follows:
         ...
     ],
     "masking_policy": "masked",
-    "sep": " ",
 }
 ```
