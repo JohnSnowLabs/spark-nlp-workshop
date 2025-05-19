@@ -85,7 +85,7 @@ You can use the [`jsl_emr_bootstrap_from_s3.sh`](./jsl_emr_bootstrap_from_s3.sh)
 📓 To learn how to prepare and upload the required libraries for use in an air-gapped setup, refer to the following notebook:  
 ➡️ [`Download_Libraries_For_Airgapped_Environment.ipynb`](./Download_Libraries_For_Airgapped_Environment.ipynb)
 
-#### 7 - Add Bootstrap Action and Configure Cluster Logs
+#### 8 - Add Bootstrap Action and Configure Cluster Logs
 
 We will install the required John Snow Labs Spark libraries using a **bootstrap action**.
 
@@ -101,7 +101,7 @@ These logs are critical for troubleshooting and debugging any issues during clus
 
 ---
 
-#### 8 - Configure Spark Parameters in the Software Settings Tab
+#### 9 - Configure Spark Parameters in the Software Settings Tab
 
 Define the necessary Spark configuration parameters under the **Software Settings** tab.
 
@@ -181,10 +181,10 @@ Under **Tags** section, please add a `KEY: VALUE` pair with `for-use-with-amazon
 
 ![6](https://github.com/JohnSnowLabs/spark-nlp-workshop/assets/72014272/0f03d691-1681-4c94-a6f0-7a62ec4605f2)
 
-#### 9 - Security
+#### 10 - Security
 After selecting a `EC2 key pair` - to connect the master node with `SSH` and select the IAM roles, we can click on the orange `Create Cluster` button and a Cluster will be created.
 
-#### 10 - Upload Models to an S3 Bucket Within the VPC
+#### 11 - Upload Models to an S3 Bucket Within the VPC
 
 Download the desired Spark NLP models from the [Model Hub](https://nlp.johnsnowlabs.com/models).  
 You can automate this process using the following helper notebooks:
@@ -196,19 +196,19 @@ Once downloaded, upload the unzipped models to an **S3 bucket located within you
 
 ![Model Upload](image-7.png)
 
-#### 11 - License Type
+#### 12 - License Type
 
 Ensure that you are using the **airgap license type**, which is specifically designed for offline environments.
 
 ---
 
-#### 12 - Start the Notebooks Server
+#### 13 - Start the Notebooks Server
 
 To launch the notebooks, create a **Workspace** in **EMR Studio** and attach the cluster you just created.
 
 ---
 
-#### 13 - Need Help?
+#### 14 - Need Help?
 
 If you have any questions or run into issues, feel free to contact us at **support@johnsnowlabs.com**.
 
