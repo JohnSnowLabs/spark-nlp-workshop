@@ -48,8 +48,10 @@ Adjust the number of worker nodes (core instances) according to your cluster siz
 
 #### 5 - Configure VPC and Security Groups
 
-Choose the appropriate **VPC** and **Security Groups**.  
-Using the default settings or allowing AWS to create default configurations is recommended for most use cases.
+Choose the appropriate **VPC** and **Security Groups** suitable for **air-gapped environments**.  
+Ensure that the selected VPC has **no direct internet access**. If an **Internet Gateway** is temporarily required during setup, 
+make sure to **remove it after the cluster is created**.  
+Also verify that the configuration complies with your organization's **network isolation and security policies**.
 
 ![VPC and Security Group Settings](image-4.png)
 
@@ -57,18 +59,38 @@ Using the default settings or allowing AWS to create default configurations is r
 #### 6- Attach Internet Gateway Temporarily
 
 Identify the **Route Table** associated with your current **VPC**, and add the **Internet Gateway** to it.
+You can use [`jsl_emr_bootstrap.sh`](./jsl_emr_bootstrap.sh) script to install the required libraries and dependencies.
 
 ![alt text](image-6.png)
 
 > **Note:** This Internet Gateway is only required during the initial cluster deployment.  
 > Once the cluster is up and running, make sure to **detach and delete** the Internet Gateway to convert the cluster into an **air-gapped** environment.
 
-#### 7 - Add Bootstrap Action and Configure Cluster Logs
+#### 7 - Deploy Without an Internet Gateway (Fully Airgapped)
+
+If your environment requires a **fully air-gapped setup**, you can skip the Internet Gateway attachment step entirely.
+
+Instead, ensure the following:
+
+- All required resources (bootstrap scripts, custom JARs, Python dependencies) are preloaded into an **S3 bucket** or bundled within **Amazon Machine Images (AMIs)** accessible from within the VPC.
+- Use **VPC Endpoints** to enable internal-only access to AWS services if necessary.
+- Ensure that the **IAM roles** associated with your EMR cluster have sufficient permissions to access these resources.
+- Verify that your **security groups** and **network ACLs** allow communication between the EMR cluster and its required internal resources.
+
+![jars](jars.png)  
+![python_libs](python_libs.png)
+
+You can use the [`jsl_emr_bootstrap_from_s3.sh`](./jsl_emr_bootstrap_from_s3.sh) script to install all required libraries and dependencies directly from your internal **S3 bucket**.
+
+📓 To learn how to prepare and upload the required libraries for use in an air-gapped setup, refer to the following notebook:  
+➡️ [`Download_Libraries_For_Airgapped_Environment.ipynb`](./Download_Libraries_For_Airgapped_Environment.ipynb)
+
+#### 8 - Add Bootstrap Action and Configure Cluster Logs
 
 We will install the required John Snow Labs Spark libraries using a **bootstrap action**.
 
 Scroll to the bottom of the cluster creation page and expand the **Bootstrap Actions** section.  
-Click the **`Add`** button and provide the path to the `jsl_emr_bootstrap.sh` script stored in an **S3 bucket** within your VPC.
+Click the **`Add`** button and provide the path to the [`jsl_emr_bootstrap.sh`](./jsl_emr_bootstrap.sh) or [`jsl_emr_bootstrap_from_s3.sh`](./jsl_emr_bootstrap_from_s3.sh) script stored in an **S3 bucket** accessible within your VPC.
 
 ---
 
@@ -79,12 +101,11 @@ These logs are critical for troubleshooting and debugging any issues during clus
 
 ---
 
-#### 8 - Configure Spark Parameters in the Software Settings Tab
+#### 9 - Configure Spark Parameters in the Software Settings Tab
 
 Define the necessary Spark configuration parameters under the **Software Settings** tab.
 
 > 📘 For more details on available Spark parameters and configurations in EMR, refer to the [official AWS documentation](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-spark-configure.html).
-
 
 ```
 [
@@ -160,33 +181,34 @@ Under **Tags** section, please add a `KEY: VALUE` pair with `for-use-with-amazon
 
 ![6](https://github.com/JohnSnowLabs/spark-nlp-workshop/assets/72014272/0f03d691-1681-4c94-a6f0-7a62ec4605f2)
 
-#### 9 - Security
+#### 10 - Security
 After selecting a `EC2 key pair` - to connect the master node with `SSH` and select the IAM roles, we can click on the orange `Create Cluster` button and a Cluster will be created.
 
-#### 10 - Upload Models to an S3 Bucket Within the VPC
+#### 11 - Upload Models to an S3 Bucket Within the VPC
 
 Download the desired Spark NLP models from the [Model Hub](https://nlp.johnsnowlabs.com/models).  
-You can automate this process using the following helper notebook:
+You can automate this process using the following helper notebooks:
 
+📎 [Airgapped Model Downloader Notebook](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/platforms/airgap/Airgaped.ipynb)  
 📎 [Model Download Helpers – Spark NLP Workshop](https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/34.Model_Download_Helpers.ipynb)
 
 Once downloaded, upload the unzipped models to an **S3 bucket located within your VPC** so they can be accessed in your air-gapped environment.
 
 ![Model Upload](image-7.png)
 
-#### 11 - License Type
+#### 12 - License Type
 
 Ensure that you are using the **airgap license type**, which is specifically designed for offline environments.
 
 ---
 
-#### 12 - Start the Notebooks Server
+#### 13 - Start the Notebooks Server
 
 To launch the notebooks, create a **Workspace** in **EMR Studio** and attach the cluster you just created.
 
 ---
 
-#### 13 - Need Help?
+#### 14 - Need Help?
 
 If you have any questions or run into issues, feel free to contact us at **support@johnsnowlabs.com**.
 
