@@ -1,0 +1,21 @@
+
+
+
+0/ Make sure APIs dataproc.. are enabled and you have all permissions
+
+1/ Create a bucket and upload:
+	- jars (spark nlp assembly and jsl)
+	- wheels (spark nlp & jsl) 
+	- .sh init script 
+	- .py pipeline code
+	
+2/ Starting the cluster
+
+gcloud dataproc clusters create sparknlp-healthcare   --region=us-central1   --zone=us-central1-a  --image-version=2.0-debian10  --initialization-actions=gs://spark-healthcare-nlp/init_sparknlp_healthcare.sh
+
+
+3/ Submiting the spark healthcare nlp job
+
+gcloud dataproc jobs submit pyspark gs://spark-healthcare-nlp/spark_healthcare_nlp_classical.py   --cluster=sparknlp-healthcare   --region=us-central1   --jars=gs://spark-healthcare-nlp/jars/spark-nlp-jsl-6.0.0.jar,gs://spark-healthcare-nlp/jars/spark-nlp-assembly-6.0.0.jar  --properties="spark.driver.extraJavaOptions=-Djsl.settings.license=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NTM5MTk5OTksImlhdCI6MTczODI4MTYwMCwidW5pcXVlX2lkIjoiZjhhNDIzZjItZGZlZS0xMWVmLTkzMWUtYTYxZTFiNjk0OGNkIiwic2NvcGUiOlsibGVnYWw6aW5mZXJlbmNlIiwibGVnYWw6dHJhaW5pbmciLCJmaW5hbmNlOmluZmVyZW5jZSIsImZpbmFuY2U6dHJhaW5pbmciLCJvY3I6aW5mZXJlbmNlIiwib2NyOnRyYWluaW5nIiwiaGVhbHRoY2FyZTppbmZlcmVuY2UiLCJoZWFsdGhjYXJlOnRyYWluaW5nIl0sInBsYXRmb3JtIjp7Im5hbWUiOiJQQVlHIiwibWF4X3BhcmFsbGVsX2pvYnMiOi0xfX0.rXcwxeCp7K7EkksDnn7q6Ke9NO56RIDpGce__JLXFsBKGlBD6u02ho1EmMXNp93JDYmCk5p4foMWtf2DqypFkQSERsmIW80Acpubj7wk2owMQE0le8W0TGnf7QSYftfIwbBaD7d0HeFax5tZokjG_H0fu1tcHey53yAF6tYYLGyKH5RkASSmckWMdUdTH2ynQ_4CrGs9DVIkkaWnMi5bTfJyO1M-KVh2C_kn2-VKibevoqqprg6oTSlOUdy3x0I2By76yShtZMn-TFr1NurjP5Oz9nGLQlMqbDrp28UVWiCKkjbirJujS4EkvvgNuM43Prx0mWbX8xV5SILfRVTcIQ,spark.executor.extraJavaOptions=-Djsl.settings.license=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NTM5MTk5OTksImlhdCI6MTczODI4MTYwMCwidW5pcXVlX2lkIjoiZjhhNDIzZjItZGZlZS0xMWVmLTkzMWUtYTYxZTFiNjk0OGNkIiwic2NvcGUiOlsibGVnYWw6aW5mZXJlbmNlIiwibGVnYWw6dHJhaW5pbmciLCJmaW5hbmNlOmluZmVyZW5jZSIsImZpbmFuY2U6dHJhaW5pbmciLCJvY3I6aW5mZXJlbmNlIiwib2NyOnRyYWluaW5nIiwiaGVhbHRoY2FyZTppbmZlcmVuY2UiLCJoZWFsdGhjYXJlOnRyYWluaW5nIl0sInBsYXRmb3JtIjp7Im5hbWUiOiJQQVlHIiwibWF4X3BhcmFsbGVsX2pvYnMiOi0xfX0.rXcwxeCp7K7EkksDnn7q6Ke9NO56RIDpGce__JLXFsBKGlBD6u02ho1EmMXNp93JDYmCk5p4foMWtf2DqypFkQSERsmIW80Acpubj7wk2owMQE0le8W0TGnf7QSYftfIwbBaD7d0HeFax5tZokjG_H0fu1tcHey53yAF6tYYLGyKH5RkASSmckWMdUdTH2ynQ_4CrGs9DVIkkaWnMi5bTfJyO1M-KVh2C_kn2-VKibevoqqprg6oTSlOUdy3x0I2By76yShtZMn-TFr1NurjP5Oz9nGLQlMqbDrp28UVWiCKkjbirJujS4EkvvgNuM43Prx0mWbX8xV5SILfRVTcIQ,spark.extraListeners=com.johnsnowlabs.license.LicenseLifeCycleManager"
+
+            
