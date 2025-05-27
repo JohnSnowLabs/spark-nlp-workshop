@@ -4,27 +4,6 @@ A detailed, step-by-step guide (with screenshots) to set up and run Spark NLP fo
 
 ---
 
-## Table of Contents
-
-1. [Prerequisites](#prerequisites)
-2. [Step 1: Open the Dataproc Console](#step-1-open-the-dataproc-console)
-3. [Step 2: Go to the Dataproc Clusters Section](#step-2-go-to-the-dataproc-clusters-section)
-4. [Step 3: Open Cloud Shell](#step-3-open-cloud-shell)
-5. [Step 4: Create a GCS Bucket](#step-4-create-a-gcs-bucket)
-6. [Step 5: Create Folders in GCS Bucket](#step-5-create-folders-in-gcs-bucket)
-7. [Step 6: Upload JARs](#step-6-upload-jars)
-8. [Step 7: Upload Model/Data Folders](#step-7-upload-modeldata-folders)
-9. [Step 8: Upload Python Wheels](#step-8-upload-python-wheels)
-10. [Step 9: Upload Pipeline Code and Init Script](#step-9-upload-pipeline-code-and-init-script)
-11. [Step 10: Start the Dataproc Cluster](#step-10-start-the-dataproc-cluster)
-12. [Step 11: Verify Cluster Creation](#step-11-verify-cluster-creation)
-13. [Step 12: Submit Your Spark NLP Job](#step-12-submit-your-spark-nlp-job)
-14. [Step 13: Track Job Progress](#step-13-track-job-progress)
-15. [Step 14: View Results and Job Completion](#step-14-view-results-and-job-completion)
-16. [Step 15: Job Succeeded - Check Outputs](#step-15-job-succeeded---check-outputs)
-17. [References](#references)
-
----
 
 ## Prerequisites
 
@@ -42,81 +21,48 @@ A detailed, step-by-step guide (with screenshots) to set up and run Spark NLP fo
 
 ---
 
-## Step 1: Open the Dataproc Console
+## Step 1: Create a new GCS 
 
-Search for `dataproc` in the Google Cloud Console to find the Dataproc service.
+Create a bew bucket from Cloud Storage Service (e.g., `spark-healthcare-nlp`).
 
-![Open Dataproc Console](step1.png)
-
----
-
-## Step 2: Go to the Dataproc Clusters Section
-
-Click on **Clusters** in the Dataproc menu.
-
-![Go to Clusters Section](step2.png)
+![Creation of GCS](step1.png)
 
 ---
 
-## Step 3: Open Cloud Shell
+## Step 2: Uploading resources to the GCS
 
-You’ll use Cloud Shell for CLI commands throughout the process.
+Organize your bucket by creating subfolders for jars, whls, and models, then upload the corresponding resources.
 
-![Open Cloud Shell](step3.png)
 
----
+![GCS resources](step2.png)
+![GCS resources](step3.png)
+![GCS resources](step4.png)
+![GCS resources](step5.png)
 
-## Step 4: Create a GCS Bucket
+Upload also the init script as well as the py pipeline code to the root of the bucket.
 
-Go to Cloud Storage and create a new bucket (e.g., `spark-healthcare-nlp`).
+The bucket should looks like showing in the following figure:
 
-![Create GCS Bucket](step4.png)
-
----
-
-## Step 5: Create Folders in GCS Bucket
-
-Organize your bucket by creating subfolders for `jars`, `whls`, and `models`.
-
-![Create Folders](step5.png)
+![GCS resources](step6.png)
 
 ---
 
-## Step 6: Upload JARs
+## Step 3: Dataproc service
 
-Upload the Spark NLP assembly and JSL JAR files into the `jars` folder.
+Search for dataproc in the Google Cloud Console to find the Dataproc service.
 
-![Upload JARs](step6.png)
 
----
-
-## Step 7: Upload Model/Data Folders
-
-Upload any models or data you need (for example, pre-trained models).
-
-![Upload Model/Data Folders](step7.png)
+![Dataproc service](step7.png)
 
 ---
 
-## Step 8: Upload Python Wheels
+## Step 4: Start the Dataproc Cluster
 
-Upload the required Python wheel (`.whl`) files into the `whls` folder.
+Click on the Cloud Shell (top-right) to start a shell session:
 
-![Upload Wheels](step8.png)
+![Cloud shell](step8.png)
 
----
-
-## Step 9: Upload Pipeline Code and Init Script
-
-Upload your pipeline Python file and initialization shell script to the bucket root.
-
-![Upload Pipeline Code and Init Script](step9.png)
-
----
-
-## Step 10: Start the Dataproc Cluster
-
-Run the following command in Cloud Shell to start your cluster, using the init script:
+Then  start your cluster, using the init script:
 
 ```bash
 gcloud dataproc clusters create sparknlp-healthcare \
@@ -126,18 +72,28 @@ gcloud dataproc clusters create sparknlp-healthcare \
   --initialization-actions=gs://spark-healthcare-nlp/init_sparknlp_healthcare.sh
 ```
 
-![starting the dataproc cluster](step10.png)
+As shown in the screenshot below:
 
-## Step 11: Verify Cluster Creation
+![Starting the dataproc cluster](step9.png)
 
-Once you run the cluster creation command, you should see your cluster in a **Running** state in the Dataproc Clusters list.  
-The Cloud Shell terminal will confirm cluster creation is done.
+Make sure it's starting:
 
-![Step 11 - Verify Cluster Creation](step11.png)
+![Checking dataproc cluster starting](step10.png)
+
 
 ---
 
-## Step 12: Submit Your Spark NLP Job
+
+## Step 5: Verify Cluster Creation
+
+Once you run the cluster creation command, you should see your cluster in a Running state in the Dataproc Clusters list.
+The Cloud Shell terminal will confirm cluster creation is done.
+
+![Verify cluster creation](step11.png)
+
+---
+
+## Step 6: Submit Your Spark NLP Job
 
 Submit your pipeline to the running Dataproc cluster using the following command in Cloud Shell:
 
