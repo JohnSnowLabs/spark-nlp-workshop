@@ -1,4 +1,4 @@
-## Instructions for running Spark-NLP Healthcare in Dataproc
+## Instructions for running Healthcare in Dataproc
 
 + **Access Dataproc in GCP**
 + **Go to Clusters** -> CREATE CLUSTER
@@ -13,7 +13,7 @@
 ![image](https://user-images.githubusercontent.com/64752006/184685069-2d2df8ed-cc6e-46c5-a0fd-9e8860018832.png)
 
 
-+ **Go to Cluster you created**
++ **Go to the Cluster you created**
 
 ![image](https://user-images.githubusercontent.com/64752006/184688220-9a47ef34-1fa5-47e5-ad21-bf3d2b091d12.png)
 
