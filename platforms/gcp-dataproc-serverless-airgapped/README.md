@@ -72,34 +72,34 @@ spark.executor.extraJavaOptions=-Djsl.settings.license=<YOUR_LICENSE>,\
 ```
 Please make sure to replace <YOUR_LICENSE> with your valide JSL license.		
 
-![Step 12 - Submit Your Spark NLP Batch](step6.png)
+![Step 4 - Submit Your Spark NLP Batch](step6.png)
 
 ---
 
-## Step 13: Track Batch Progress
+## Step 5: Track Batch Progress
 
 Monitor the Batch execution in the Dataproc Serverless Barches tab and in Cloud Shell logs.  
 You can see the batch’s status (e.g., Running) and logs being printed in real-time.
 
-![Step 13 - Track Batch Progress](step7.png)
+![Step 5 - Track Batch Progress](step7.png)
 
 ---
 
-## Step 14: View Results and Batch Completion
+## Step 6: View Results and Batch Completion
 
 As the pipeline runs, logs and output will be displayed in the terminal.  
 Once the Batch finishes, you’ll see confirmation of successful completion and model results.
 
-![Step 14 - View Results and Batch Completion](step7.2.png)
+![Step 6 - View Results and Batch Completion](step7.2.png)
 
 ---
 
-## Step 15: Batch Succeeded - Check Outputs
+## Step 7: Batch Succeeded - Check Outputs
 
 When the batch is finished, the status in the Batch list changes to **Succeeded**.  
 Check the logs and outputs to validate your Spark NLP Healthcare job ran correctly.
 
-![Step 15 - Job Succeeded - Check Outputs](step7.3.png)
+![Step 7 - Job Succeeded - Check Outputs](step7.3.png)
 
 ---
 
