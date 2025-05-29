@@ -1,6 +1,6 @@
-# Deploy Spark NLP for Healthcare on GCP Dataproc (Serverless way)
+# Deploy Spark Healthcare NLP on GCP Dataproc (Serverless way)
 
-A detailed, step-by-step guide (with screenshots) to set up and run Spark NLP for Healthcare using Google Cloud Dataproc (Serverless way).
+A detailed, step-by-step guide (with screenshots) to set up and run Healthcare NLP using Google Cloud Dataproc (Serverless way).
 
 ---
 
@@ -97,7 +97,7 @@ Once the Batch finishes, you’ll see confirmation of successful completion and 
 ## Step 7: Batch Succeeded - Check Outputs
 
 When the batch is finished, the status in the Batch list changes to **Succeeded**.  
-Check the logs and outputs to validate your Spark NLP Healthcare job ran correctly.
+Check the logs and outputs to validate your Healthcare NLP job ran correctly.
 
 ![Step 7 - Job Succeeded - Check Outputs](step7.3.png)
 
