@@ -64,7 +64,7 @@ Click on the Cloud Shell (top-right) to start a shell session:
 Then submit your pipeline in serverless mode using the following command in Cloud Shell:
 
 ```bash
-gcloud dataproc batches submit pyspark gs://spark-nlp-demo/spark_healthcare_nlp_serverless.py   --project=docusign-251217   --region=us-central1   --batch=jsl-batch   --jars=gs://spark-nlp-demo/spark-nlp-assembly-6.0.0.jar,gs://spark-nlp-demo/spark-nlp-jsl-6.0.0.jar   --py-files=gs://spark-nlp-demo/python/spark_nlp-6.0.0-py2.py3-none-any.whl,gs://spark-nlp-demo/python/spark_nlp_jsl-6.0.0-py3-none-any.whl   --properties="spark.serializer=org.apache.spark.serializer.KryoSerializer,\
+gcloud dataproc batches submit pyspark gs://spark-healthcare-nlp-serverless/spark_healthcare_nlp_serverless.py   --project=docusign-251217   --region=us-central1   --batch=jsl-batch   --jars=gs://spark-healthcare-nlp-serverless/jars/spark-nlp-assembly-6.0.0.jar,gs://spark-healthcare-nlp-serverless/jars/spark-nlp-jsl-6.0.0.jar   --py-files=gs://spark-healthcare-nlp-serverless/whls/spark_nlp-6.0.0-py2.py3-none-any.whl,gs://spark-healthcare-nlp-serverless/whls/spark_nlp_jsl-6.0.0-py3-none-any.whl   --properties="spark.serializer=org.apache.spark.serializer.KryoSerializer,\
 spark.kryoserializer.buffer.max=2000M,\
 spark.driver.extraJavaOptions=-Djsl.settings.license=<YOUR_LICENSE>,\
 spark.executor.extraJavaOptions=-Djsl.settings.license=<YOUR_LICENSE>,\
