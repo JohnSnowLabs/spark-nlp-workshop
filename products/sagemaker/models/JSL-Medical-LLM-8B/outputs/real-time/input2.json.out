@@ -1,0 +1,23 @@
+{
+  "id": "cmpl-1aaf9d19a04d44339ea7eb702c717340",
+  "object": "text_completion",
+  "created": 1752142564,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "text": " # Management of Fever and Body Aches\n\n## Immediate Actions\n\n1. **Rest**: Get plenty of rest to help your body recover\n2. **Hydration**: Drink plenty of fluids (water, electrolyte solutions) to stay hydrated\n3. **Comfort measures**:\n   - Wear light clothing\n   - Use a cool, comfortable room temperature\n   - Take warm baths or showers if comfortable\n\n## Medication Options\n\n1. **Over-the-counter medications**:\n   - Acetaminophen (Tylenol) for fever and pain relief\n   - Ibuprofen (Advil, Motrin) for inflammation and pain relief\n   - Aspirin (Bayer) for fever and pain relief (not recommended for children or teenagers)\n2. **Prescription medications**: Your doctor may prescribe stronger medications if needed\n\n## When to Seek Medical Attention\n\n- If symptoms persist for more than 3-5 days\n- If you have difficulty breathing\n- If you have severe headache\n- If you have persistent vomiting\n- If you have a rash\n- If you have a history of chronic illness\n- If you are pregnant or have a compromised immune system\n\n## Prevention of Complications\n\n- Practice good hygiene\n- Wash hands frequently\n- Avoid close contact with sick people\n- Stay home from work/school until symptoms improve\n\n## When to Call Emergency Services\n\n- If you have severe chest pain\n- If you have sudden severe headache\n- If you have confusion or difficulty thinking clearly\n- If you have seizures\n- If you have persistent vomiting that prevents you from keeping fluids down\n- If you have severe abdominal pain\n\nRemember that fever and body aches can be symptoms of various conditions, ranging from the common cold to more serious illnesses. If you're unsure about your symptoms or they worsen, consult a healthcare professional for proper evaluation and treatment.",
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "prompt_logprobs": null
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "total_tokens": 436,
+    "completion_tokens": 383,
+    "prompt_tokens_details": null
+  },
+  "kv_transfer_params": null
+}
