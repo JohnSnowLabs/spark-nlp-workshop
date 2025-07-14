@@ -1,22 +1,23 @@
 {
-    "id": "cmpl-ee089581bff54bb29e9f217bc73cf78c",
-    "object": "text_completion",
-    "created": 1744112904,
-    "model": "/opt/ml/model",
-    "choices": [
-        {
-            "index": 0,
-            "text": " The best treatment for this patient is E: Nitrofurantoin. Nitrofurantoin is the first-line treatment for uncomplicated urinary tract infections in pregnant women. It is safe to use during pregnancy and is effective against the most common bacteria that cause urinary tract infections, including Escherichia coli. Nitrofurantoin is also less likely to cause resistance compared to other antibiotics, which is important to preserve antibiotic effectiveness for future use.",
-            "logprobs": null,
-            "finish_reason": "stop",
-            "stop_reason": null,
-            "prompt_logprobs": null
-        }
-    ],
-    "usage": {
-        "prompt_tokens": 187,
-        "total_tokens": 279,
-        "completion_tokens": 92,
-        "prompt_tokens_details": null
+  "id": "cmpl-bc8f39954c20451eaed800ee67a12403",
+  "object": "text_completion",
+  "created": 1752230783,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "text": " # Managing Fever and Body Aches\n\nIf you have a fever and body aches, it's important to take appropriate steps to manage your symptoms and determine if medical attention is needed. Here's a structured approach:\n\n## Initial Self-Care\n\n- **Rest**: Allow your body time to recover by getting plenty of sleep and avoiding strenuous activities\n- **Hydration**: Drink plenty of fluids to prevent dehydration\n- **Cooling measures**: Use cool compresses or take lukewarm baths to help reduce fever\n- **Over-the-counter medications**: Consider acetaminophen (Tylenol) or ibuprofen (Advil, Motrin) for fever and pain relief, following package instructions\n\n## When to Seek Medical Attention\n\n- **High fever**: If your temperature reaches 103\u00b0F (39.4\u00b0C) or higher\n- **Persistent symptoms**: If symptoms last more than 3-4 days or worsen over time\n- **Severe symptoms**: Difficulty breathing, chest pain, severe headache, confusion, or severe dehydration\n- **Underlying conditions**: If you have a chronic illness, weakened immune system, or are pregnant\n- **Vulnerable populations**: If you are very young, elderly, or have other health conditions\n\n## Additional Considerations\n\n- **Monitor your temperature**: Use a thermometer regularly to track your fever\n- **Avoid alcohol and caffeine**: These can worsen symptoms and dehydration\n- **Practice good hygiene**: Wash hands frequently to prevent spreading illness to others\n\nIf your symptoms are severe or concerning, contact your healthcare provider for advice. In some cases, particularly with high fever or severe symptoms, it's important to seek medical attention promptly.",
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "prompt_logprobs": null
     }
+  ],
+  "usage": {
+    "prompt_tokens": 53,
+    "total_tokens": 397,
+    "completion_tokens": 344,
+    "prompt_tokens_details": null
+  },
+  "kv_transfer_params": null
 }
