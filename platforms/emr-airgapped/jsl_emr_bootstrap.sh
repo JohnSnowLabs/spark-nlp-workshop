@@ -8,8 +8,8 @@ export SPARK_HOME=/usr/lib/spark' >> $HOME/.bashrc && source $HOME/.bashrc
 
 # Define version variables
 # You can find these variables in your license dictionary
-PUBLIC_VERSION="X.Y.Z"      # Replace with the desired public Spark NLP version (e.g., 6.0.0)
-JSL_VERSION="A.B.C"         # Replace with your licensed Spark NLP for Healthcare version (e.g., 6.0.0)
+PUBLIC_VERSION="X.Y.Z"      # Replace with the desired public Spark NLP version (e.g., 6.0.3)
+JSL_VERSION="A.B.C"         # Replace with your licensed Spark NLP for Healthcare version (e.g., 6.0.3)
 SECRET="your_secret_key"    # Replace with your license key or secret token
 
 # Download Spark NLP public jar
