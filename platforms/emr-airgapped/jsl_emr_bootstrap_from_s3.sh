@@ -9,10 +9,11 @@ export SPARK_HOME=/usr/lib/spark' >> $HOME/.bashrc && source $HOME/.bashrc
 
 # Need to pre-download all necessary resources(jars and python dependencies) into an S3 bucket
 
-PUBLIC_VERSION="X.Y.Z"      # Replace with the desired public Spark NLP version (e.g., 6.0.0)
-JSL_VERSION="A.B.C"         # Replace with your licensed Spark NLP for Healthcare version (e.g., 6.0.0)
+PUBLIC_VERSION="X.Y.Z"      # Replace with the desired public Spark NLP version (e.g., 6.0.3)
+JSL_VERSION="A.B.C"         # Replace with your licensed Spark NLP for Healthcare version (e.g., 6.0.3)
 
 # JARs
+# Note: Replace "aws-bundle-s3" with your actual S3 bucket name
 # Download and install Spark NLP assembly jar
 aws s3 cp s3://aws-bundle-s3/jars/spark-nlp-assembly-${PUBLIC_VERSION}.jar /tmp/
 sudo mv /tmp/spark-nlp-assembly-${PUBLIC_VERSION}.jar /usr/lib/spark/jars/
