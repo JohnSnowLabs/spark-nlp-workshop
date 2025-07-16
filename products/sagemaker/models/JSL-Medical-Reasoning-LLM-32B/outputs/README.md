@@ -32,6 +32,7 @@ The chat completion response contains the model’s reply to a series of input m
   - **`index`** (integer): The index of the choice, starting at 0.
   - **`message`** (object): The generated message, containing:
     - **`role`** (string): The role of the sender, e.g., `"assistant"`.
+    - **`reasoning_content`** (string): The model's step-by-step reasoning process (only present for reasoning models).
     - **`content`** (string): The text content of the response.
     - **`tool_calls`** (array): A list of tool calls, empty if none are present.
   - **`logprobs`** (null or array): Log probabilities of the generated tokens, `null` unless requested.
@@ -45,6 +46,8 @@ The chat completion response contains the model’s reply to a series of input m
   - **`prompt_tokens_details`** (object or null): Detailed breakdown of prompt tokens, `null` if not provided.
 - **`prompt_logprobs`** (array or null):  
   Log probabilities for prompt tokens at the root level, set to `null` unless enabled.
+- **`kv_transfer_params`** (object or null):  
+  Key-value transfer parameters, set to `null` if not applicable.
 
 **Example:**
 
@@ -59,6 +62,7 @@ The chat completion response contains the model’s reply to a series of input m
       "index": 0,
       "message": {
         "role": "assistant",
+        "reasoning_content": "\nOkay, let's tackle this question. The patient is a 23-year-old pregnant woman...",
         "content": "The patient presents with symptoms of a ...",
         "tool_calls": []
       },
@@ -73,7 +77,8 @@ The chat completion response contains the model’s reply to a series of input m
     "total_tokens": 562,
     "prompt_tokens_details": null
   },
-  "prompt_logprobs": null
+  "prompt_logprobs": null,
+  "kv_transfer_params": null
 }
 ```
 
@@ -108,6 +113,8 @@ The text completion response contains the model’s generated text based on a si
   - **`completion_tokens`** (integer): Number of tokens in the generated text.
   - **`total_tokens`** (integer): Sum of prompt and completion tokens.
   - **`prompt_tokens_details`** (object or null): Detailed breakdown of prompt tokens, `null` if not provided.
+- **`kv_transfer_params`** (object or null):  
+  Key-value transfer parameters, set to `null` if not applicable.
 
 **Example (Single Prompt):**
 
@@ -132,7 +139,8 @@ The text completion response contains the model’s generated text based on a si
     "completion_tokens": 368,
     "total_tokens": 382,
     "prompt_tokens_details": null
-  }
+  },
+  "kv_transfer_params": null
 }
 ```
 
@@ -167,7 +175,8 @@ The text completion response contains the model’s generated text based on a si
     "completion_tokens": 50,
     "total_tokens": 70,
     "prompt_tokens_details": null
-  }
+  },
+  "kv_transfer_params": null
 }
 ```
 
@@ -180,7 +189,7 @@ In streaming mode (`"stream": true`), the API delivers the response as a series 
 #### 1. Chat Completion (Streaming)
 
 **Description:**  
-Each chunk contains a portion of the assistant’s message. The full response is reconstructed by concatenating the `content` fields from the `delta` objects in the order received.
+Each chunk contains a portion of the assistant's message. For reasoning models, the `reasoning_content` is streamed first, followed by the `content`. The full response is reconstructed by concatenating the respective fields from the `delta` objects in the order received.
 
 **Fields (per chunk):**
 
@@ -197,6 +206,7 @@ Each chunk contains a portion of the assistant’s message. The full response is
   - **`index`** (integer): The index of the choice, typically 0.
   - **`delta`** (object): The incremental update, containing:
     - **`role`** (string): The role (e.g., `"assistant"`), included only in the first chunk.
+    - **`reasoning_content`** (string): The reasoning content to append (only present for reasoning models).
     - **`content`** (string): The text to append to the message (may be empty in the first or last chunk).
   - **`logprobs`** (null or array): Log probabilities of the generated tokens, `null` unless requested.
   - **`finish_reason`** (string or null): Reason generation stopped (e.g., `"stop"` or `"length"`), `null` until the final chunk.
@@ -205,15 +215,35 @@ Each chunk contains a portion of the assistant’s message. The full response is
 **Example:**
 
 ```plaintext
-data: {"id":"chatcmpl-5a398898be0b4014b7eb9fb15798a006","object":"chat.completion.chunk","created":1743433744,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"role":"assistant","content":""},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
-data: {"id":"chatcmpl-5a398898be0b4014b7eb9fb15798a006","object":"chat.completion.chunk","created":1743433744,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":"If"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
-data: {"id":"chatcmpl-5a398898be0b4014b7eb9fb15798a006","object":"chat.completion.chunk","created":1743433744,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":" you"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
-data: {"id":"chatcmpl-5a398898be0b4014b7eb9fb15798a006","object":"chat.completion.chunk","created":1743433744,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":" have"},"logprobs":null,"finish_reason":"length","stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"role":"assistant","content":""},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning_content":"\n"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning_content":"Okay"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning_content":","},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning_content":" let"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning_content":" me"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning_content":" try"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning_content":" to"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning_content":" figure"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning_content":" this"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning_content":" out"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning_content":"."},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning_content":".\n"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":"\n\n"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":"The"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":" best"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":" treatment"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":" for"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":" this"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":" pregnant"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":" woman"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":"..."},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":""},"logprobs":null,"finish_reason":"stop","stop_reason":null}]}
 data: [DONE]
 ```
 
 **Reconstructed Message:**  
-"If you have"
+- **Reasoning Content:** "Okay, let me try to figure this out..."
+- **Content:** "The best treatment for this pregnant woman..."
 
 ---
 
