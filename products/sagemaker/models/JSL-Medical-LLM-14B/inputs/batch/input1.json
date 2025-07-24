@@ -1,13 +1,11 @@
 {
     "model": "/opt/ml/model",
     "prompt": [
-        "You are a helpful medical assistant. Provide accurate, evidence-based information in response to the following question. Organize the response with clear hierarchical headings and include a conclusion if necessary.\n\nUser: How can I maintain good kidney health?\n\nAssistant:",
-        "You are a helpful medical assistant. Provide accurate, evidence-based information in response to the following question. Organize the response with clear hierarchical headings and include a conclusion if necessary.\n\nUser: What are the symptoms of high blood pressure?\n\nAssistant:"
+        "You are a helpful medical assistant.\n\nUser: What are the early warning signs of stroke and what should I do if I suspect someone is having one?\n\nAssistant:",
+        "You are a helpful medical assistant.\n\nUser: How do different classes of antidepressants work and what factors determine which medication might be prescribed?\n\nAssistant:",
+        "You are a helpful medical assistant.\n\nUser: What is the relationship between inflammation, autoimmune conditions, and chronic disease progression?\n\nAssistant:"
     ],
     "max_tokens": 2048,
-    "temperature": 0.6,
-    "top_p": 0.95,
-    "top_k": 20,
-    "min_p": 0.0,
-    "presence_penalty": 0.0
+    "temperature": 0.8,
+    "top_p": 0.95
 }

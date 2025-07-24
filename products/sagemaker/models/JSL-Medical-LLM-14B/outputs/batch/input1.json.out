@@ -1,12 +1,12 @@
 {
-    "id": "cmpl-14fa3dd232fc4ddb9b5d5be62369e1c0",
+    "id": "cmpl-f8243f5640c848a6acd27a1360ea6004",
     "object": "text_completion",
-    "created": 1752226332,
+    "created": 1744113677,
     "model": "/opt/ml/model",
     "choices": [
         {
             "index": 0,
-            "text": " # Maintaining Good Kidney Health\n\n## General Lifestyle Recommendations\n\n### Hydration\n- Drink adequate water daily (8-10 glasses for most adults)\n- Monitor urine color (pale yellow is ideal)\n- Limit sugary drinks and excessive caffeine\n\n### Diet\n- Follow a balanced diet rich in fruits, vegetables, whole grains, and lean proteins\n- Limit sodium intake to less than 2,300 mg daily\n- Reduce processed foods and red meat consumption\n- Control protein intake, especially if you have kidney disease\n\n### Physical Activity\n- Engage in regular exercise (at least 150 minutes of moderate activity weekly)\n- Maintain a healthy weight\n- Avoid smoking and excessive alcohol consumption\n\n## Medical Management\n\n### Regular Checkups\n- Get routine kidney function tests (especially if you have risk factors)\n- Monitor blood pressure regularly\n- Follow treatment plans for diabetes, hypertension, and other conditions\n\n### Medication Management\n- Use medications as prescribed, especially for blood pressure and diabetes\n- Inform healthcare providers about all medications and supplements\n- Avoid over-the-counter pain medications like NSAIDs when possible\n\n## Specific Risk Factor Management\n\n### For People with Diabetes\n- Control blood sugar levels through medication, diet, and exercise\n- Monitor HbA1c levels regularly\n\n### For People with Hypertension\n- Maintain blood pressure below 130/80 mmHg\n- Follow recommended medication regimens\n\n### For People with a Family History\n- Get regular screening tests\n- Discuss genetic risks with healthcare providers\n\n## Warning Signs to Watch For\n- Changes in urination frequency or appearance\n- Swelling in legs or ankles\n- Fatigue or difficulty concentrating\n- Persistent nausea or vomiting\n- Unexplained weight loss\n\n## Conclusion\nMaintaining kidney health involves a combination of healthy lifestyle choices, regular medical monitoring, and proper management of underlying conditions. Early detection and intervention are crucial for preventing kidney disease progression.",
+            "text": " Early warning signs of stroke include facial drooping, arm weakness, and speech difficulty. If you suspect someone is having a stroke, you should call 911 immediately. The sooner they receive medical attention, the better their chances of recovery. It's important to remember that every minute counts in a stroke situation.",
             "logprobs": null,
             "finish_reason": "stop",
             "stop_reason": null,
@@ -14,7 +14,15 @@
         },
         {
             "index": 1,
-            "text": " # Symptoms of High Blood Pressure\n\nHigh blood pressure (hypertension) is often called the \"silent killer\" because it frequently has no symptoms until it causes serious complications. However, some people may experience:\n\n## Common Symptoms (when blood pressure is severely elevated)\n- Severe headaches\n- Nosebleeds\n- Shortness of breath\n- Chest pain\n- Visual changes\n- Fatigue\n- Dizziness\n- Confusion\n- Tinnitus (ringing in the ears)\n\n## Important Notes\n- Most people with high blood pressure don't experience any symptoms\n- These symptoms typically appear when blood pressure reaches dangerously high levels (stage 2 or 3 hypertension)\n- Regular blood pressure monitoring is essential, as you may not know you have high blood pressure without measurement\n- If you experience sudden, severe symptoms, seek medical attention immediately\n\n## Silent Nature of High Blood Pressure\nThis condition often progresses without noticeable symptoms, which is why regular blood pressure checks are recommended for adults, especially those with risk factors like family history, obesity, or kidney disease.",
+            "text": " Antidepressants are commonly used to treat major depressive disorder and other mental health conditions. There are several classes of antidepressants, including Selective Serotonin Reuptake Inhibitors (SSRIs), Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs), Tricyclic Antidepressants (TCAs), and Monoamine Oxidase Inhibitors (MAOIs). \n\nSSRIs, such as fluoxetine and sertraline, work by blocking the reuptake of serotonin, a neurotransmitter that plays a role in mood regulation. SNRIs, like venlafaxine and duloxetine, block the reuptake of both serotonin and norepinephrine. TCAs, such as amitriptyline and imipramine, block the reuptake of serotonin, norepinephrine, and dopamine. MAOIs, such as phenelzine and tranylcypromine, work by inhibiting the enzyme monoamine oxidase, which breaks down serotonin, norepinephrine, and dopamine.\n\nThe choice of antidepressant medication is typically based on several factors, including the specific symptoms and severity of the depression, the patient's medical history and any co-occurring conditions, potential side effects of the medication, and the patient's personal preferences and lifestyle.\n\nIt's important to work closely with a healthcare provider to determine the best treatment plan for each individual patient.",
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "prompt_logprobs": null
+        },
+        {
+            "index": 2,
+            "text": " Inflammation is a natural response of the body to injury or infection, and it plays a crucial role in the immune system's defense mechanisms. However, when inflammation becomes chronic, it can contribute to the development and progression of various diseases, including autoimmune conditions.\n\nAutoimmune diseases occur when the immune system mistakenly attacks healthy tissues and organs, leading to chronic inflammation and tissue damage. This can result in a wide range of symptoms and complications, depending on the specific autoimmune disease and the organs affected.\n\nChronic inflammation can also contribute to the development and progression of other chronic diseases, such as cardiovascular disease, diabetes, and cancer. Prolonged inflammation can damage tissues and organs, leading to dysfunction and disease.\n\nIn summary, inflammation, autoimmune conditions, and chronic disease progression are closely linked. Chronic inflammation can contribute to the development and progression of autoimmune diseases and other chronic diseases, while autoimmune diseases can also cause chronic inflammation and tissue damage. Understanding these relationships can help healthcare providers diagnose and treat these conditions more effectively.",
             "logprobs": null,
             "finish_reason": "stop",
             "stop_reason": null,
@@ -22,10 +30,9 @@
         }
     ],
     "usage": {
-        "prompt_tokens": 95,
-        "total_tokens": 711,
-        "completion_tokens": 616,
+        "prompt_tokens": 87,
+        "total_tokens": 650,
+        "completion_tokens": 563,
         "prompt_tokens_details": null
-    },
-    "kv_transfer_params": null
+    }
 }
