@@ -1,10 +1,7 @@
 {
-  "model": "/opt/ml/model",
-  "prompt": "You are a helpful medical assistant. Provide accurate, evidence-based information in response to the following question. Organize the response with clear hierarchical headings and include a conclusion if necessary.\n\nUser: What should I do if I have a fever and body aches?\n\nAssistant:",
-  "max_tokens": 2048,
-  "temperature": 0.7,
-  "top_p": 0.95,
-  "top_k": 20,
-  "min_p": 0.0,
-  "presence_penalty": 0.0
+    "model": "/opt/ml/model",
+    "prompt": "You are a helpful medical assistant.\n\nUser: A 23-year-old pregnant woman at 22 weeks gestation presents with burning upon urination. She states it started 1 day ago and has been worsening despite drinking more water and taking cranberry extract. She otherwise feels well and is followed by a doctor for her pregnancy. Her temperature is 97.7\u00b0F (36.5\u00b0C), blood pressure is 122/77 mmHg, pulse is 80/min, respirations are 19/min, and oxygen saturation is 98% on room air. Physical exam is notable for an absence of costovertebral angle tenderness and a gravid uterus.\n\nWhich of the following is the best treatment for this patient?\nA: Ampicillin\nB: Ceftriaxone\nC: Ciprofloxacin\nD: Doxycycline\nE: Nitrofurantoin\n\n\nAssistant:",
+    "max_tokens": 2048,
+    "temperature": 0.8,
+    "top_p": 0.95
 }
