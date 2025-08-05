@@ -1,0 +1,158 @@
+{
+    "predictions": [
+        [
+            {
+                "begin": 114,
+                "end": 138,
+                "ner_chunk": "laparoscopic appendectomy",
+                "ner_label": "Procedure",
+                "ner_confidence": "0.80225",
+                "concept_code": "0DBJ8ZZ",
+                "resolution": "excision of appendix, endo",
+                "score": 0.7560662627220154,
+                "all_codes": [
+                    "0DBJ8ZZ",
+                    "0DTJ8ZZ",
+                    "0DBJ0ZZ",
+                    "0DTJ0ZZ",
+                    "0DBJ4ZX"
+                ],
+                "concept_name_detailed": [
+                    "excision of appendix, endo [excision of appendix, endo]",
+                    "resection of appendix, endo [resection of appendix, endo]",
+                    "excision of appendix, open approach [excision of appendix, open approach]",
+                    "resection of appendix, open approach [resection of appendix, open approach]",
+                    "excision of appendix, perc endo approach, diagn [excision of appendix, perc endo approach, diagn]"
+                ],
+                "all_resolutions": [
+                    "excision of appendix, endo",
+                    "resection of appendix, endo",
+                    "excision of appendix, open approach",
+                    "resection of appendix, open approach",
+                    "excision of appendix, perc endo approach, diagn"
+                ],
+                "all_score": [
+                    0.7560662627220154,
+                    0.7540384531021118,
+                    0.7539170980453491,
+                    0.7508572340011597,
+                    0.741325855255127
+                ]
+            },
+            {
+                "begin": 153,
+                "end": 163,
+                "ner_chunk": "jejunectomy",
+                "ner_label": "Procedure",
+                "ner_confidence": "0.9984",
+                "concept_code": "0DBA8ZZ",
+                "resolution": "excision of jejunum, endo",
+                "score": 0.8475918769836426,
+                "all_codes": [
+                    "0DBA8ZZ",
+                    "0DTA8ZZ",
+                    "0DBA0ZZ",
+                    "0DTA0ZZ",
+                    "0DBA3ZZ"
+                ],
+                "concept_name_detailed": [
+                    "excision of jejunum, endo [excision of jejunum, endo]",
+                    "resection of jejunum, endo [resection of jejunum, endo]",
+                    "excision of jejunum, open approach [excision of jejunum, open approach]",
+                    "resection of jejunum, open approach [resection of jejunum, open approach]",
+                    "excision of jejunum, percutaneous approach [excision of jejunum, percutaneous approach]"
+                ],
+                "all_resolutions": [
+                    "excision of jejunum, endo",
+                    "resection of jejunum, endo",
+                    "excision of jejunum, open approach",
+                    "resection of jejunum, open approach",
+                    "excision of jejunum, percutaneous approach"
+                ],
+                "all_score": [
+                    0.8475918769836426,
+                    0.8455489277839661,
+                    0.8215798139572144,
+                    0.8211894035339355,
+                    0.8103318214416504
+                ]
+            },
+            {
+                "begin": 176,
+                "end": 186,
+                "ner_chunk": "pyeloplasty",
+                "ner_label": "Procedure",
+                "ner_confidence": "0.9992",
+                "concept_code": "0TV70ZZ",
+                "resolution": "restriction of left ureter, open approach",
+                "score": 0.7416528463363647,
+                "all_codes": [
+                    "0TV70ZZ",
+                    "0T14477",
+                    "0T13477",
+                    "0TQ43ZZ",
+                    "0T14476"
+                ],
+                "concept_name_detailed": [
+                    "restriction of left ureter, open approach [restriction of left ureter, open approach]",
+                    "bypass left kidney pelvis to left ureter with autologous tissue substitute, percutaneous endoscopic approach [bypass left kidney pelvis to left ureter with autologous tissue substitute, percutaneous endoscopic approach]",
+                    "bypass right kidney pelvis to left ureter with autologous tissue substitute, percutaneous endoscopic approach [bypass right kidney pelvis to left ureter with autologous tissue substitute, percutaneous endoscopic approach]",
+                    "repair left kidney pelvis, percutaneous approach [repair left kidney pelvis, percutaneous approach]",
+                    "bypass left kidney pelvis to right ureter with autologous tissue substitute, percutaneous endoscopic approach [bypass left kidney pelvis to right ureter with autologous tissue substitute, percutaneous endoscopic approach]"
+                ],
+                "all_resolutions": [
+                    "restriction of left ureter, open approach",
+                    "bypass left kidney pelvis to left ureter with autologous tissue substitute, percutaneous endoscopic approach",
+                    "bypass right kidney pelvis to left ureter with autologous tissue substitute, percutaneous endoscopic approach",
+                    "repair left kidney pelvis, percutaneous approach",
+                    "bypass left kidney pelvis to right ureter with autologous tissue substitute, percutaneous endoscopic approach"
+                ],
+                "all_score": [
+                    0.7416528463363647,
+                    0.7383493185043335,
+                    0.7379072904586792,
+                    0.7371262311935425,
+                    0.736879825592041
+                ]
+            },
+            {
+                "begin": 215,
+                "end": 229,
+                "ner_chunk": "mediastinoscopy",
+                "ner_label": "Procedure",
+                "ner_confidence": "0.9703",
+                "concept_code": "0WJC4ZZ",
+                "resolution": "inspection of mediastinum, percutaneous endoscopic approach",
+                "score": 0.8112302422523499,
+                "all_codes": [
+                    "0WJC4ZZ",
+                    "0WBC4ZX",
+                    "0WJC0ZZ",
+                    "0WJC3ZZ",
+                    "0WBC4ZZ"
+                ],
+                "concept_name_detailed": [
+                    "inspection of mediastinum, percutaneous endoscopic approach [inspection of mediastinum, percutaneous endoscopic approach]",
+                    "excision of mediastinum, percutaneous endoscopic approach, diagnostic [excision of mediastinum, percutaneous endoscopic approach, diagnostic]",
+                    "inspection of mediastinum, open approach [inspection of mediastinum, open approach]",
+                    "inspection of mediastinum, percutaneous approach [inspection of mediastinum, percutaneous approach]",
+                    "excision of mediastinum, percutaneous endoscopic approach [excision of mediastinum, percutaneous endoscopic approach]"
+                ],
+                "all_resolutions": [
+                    "inspection of mediastinum, percutaneous endoscopic approach",
+                    "excision of mediastinum, percutaneous endoscopic approach, diagnostic",
+                    "inspection of mediastinum, open approach",
+                    "inspection of mediastinum, percutaneous approach",
+                    "excision of mediastinum, percutaneous endoscopic approach"
+                ],
+                "all_score": [
+                    0.8112302422523499,
+                    0.7847805619239807,
+                    0.7827132940292358,
+                    0.7778140902519226,
+                    0.7676526308059692
+                ]
+            }
+        ]
+    ]
+}
