@@ -15,7 +15,7 @@ In non-streaming mode, the API returns a single JSON object containing the full 
 #### 1. Chat Completion
 
 **Description:**  
-The chat completion response contains the model’s reply to a series of input messages (e.g., from "system" and "user" roles), as shown in the user’s example payload.
+The chat completion response contains the model's reply to a series of input messages (e.g., from "system" and "user" roles), as shown in the user's example payload.
 
 **Fields:**
 
@@ -32,12 +32,20 @@ The chat completion response contains the model’s reply to a series of input m
   - **`index`** (integer): The index of the choice, starting at 0.
   - **`message`** (object): The generated message, containing:
     - **`role`** (string): The role of the sender, e.g., `"assistant"`.
-    - **`reasoning_content`** (string): The model's step-by-step reasoning process (only present for reasoning models).
     - **`content`** (string): The text content of the response.
+    - **`refusal`** (null or string): Content refusal reason, `null` if no refusal.
+    - **`annotations`** (null or array): Content annotations, `null` if none present.
+    - **`audio`** (null or object): Audio content, `null` if not applicable.
+    - **`function_call`** (null or object): Function call information, `null` if none.
     - **`tool_calls`** (array): A list of tool calls, empty if none are present.
+    - **`reasoning_content`** (string): The model's step-by-step reasoning process (only present for reasoning models).
   - **`logprobs`** (null or array): Log probabilities of the generated tokens, `null` unless requested.
   - **`finish_reason`** (string): Reason generation stopped, e.g., `"stop"` (natural end) or `"length"` (token limit reached).
   - **`stop_reason`** (string or null): The stop sequence matched, if any; otherwise, `null`.
+- **`service_tier`** (null or string):  
+  Service tier information, set to `null` if not applicable.
+- **`system_fingerprint`** (null or string):  
+  System fingerprint identifier, set to `null` if not provided.
 - **`usage`** (object):  
   Token usage statistics, including:
   - **`prompt_tokens`** (integer): Number of tokens in the input messages.
@@ -53,28 +61,34 @@ The chat completion response contains the model’s reply to a series of input m
 
 ```json
 {
-  "id": "chatcmpl-1d202501a96e4580b6352ba7064e6bb8",
+  "id": "chatcmpl-30c3dbfa9f8b4208bff3f8db99e04a31",
   "object": "chat.completion",
-  "created": 1743488701,
+  "created": 1754927010,
   "model": "/opt/ml/model",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "reasoning_content": "\nOkay, let's tackle this question. The patient is a 23-year-old pregnant woman...",
-        "content": "The patient presents with symptoms of a ...",
-        "tool_calls": []
+        "content": "\n\n# Clinical Case: Treatment of Dysuria in a Pregnant Woman\n\n## Patient Presentation\nA 23-year-old woman at 22 weeks gestation presents with a 1-day history of worsening dysuria...",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning_content": "\nOkay, let's try to figure out the best treatment for this pregnant woman with burning on urination..."
       },
       "logprobs": null,
       "finish_reason": "stop",
-      "stop_reason": null,
+      "stop_reason": null
     }
   ],
+  "service_tier": null,
+  "system_fingerprint": null,
   "usage": {
-    "prompt_tokens": 206,
-    "completion_tokens": 356,
-    "total_tokens": 562,
+    "prompt_tokens": 234,
+    "completion_tokens": 1613,
+    "total_tokens": 1847,
     "prompt_tokens_details": null
   },
   "prompt_logprobs": null,
@@ -87,7 +101,7 @@ The chat completion response contains the model’s reply to a series of input m
 #### 2. Text Completion
 
 **Description:**  
-The text completion response contains the model’s generated text based on a single prompt or an array of prompts, as shown in the user’s single and multiple prompt examples.
+The text completion response contains the model's generated text based on a single prompt or an array of prompts, as shown in the user's single and multiple prompt examples.
 
 **Fields:**
 
@@ -107,6 +121,10 @@ The text completion response contains the model’s generated text based on a si
   - **`finish_reason`** (string): Reason generation stopped, e.g., `"stop"` or `"length"`.
   - **`stop_reason`** (string or null): The stop sequence matched, if any; otherwise, `null`.
   - **`prompt_logprobs`** (null or array): Log probabilities for prompt tokens, set to `null` unless requested.
+- **`service_tier`** (null or string):  
+  Service tier information, set to `null` if not applicable.
+- **`system_fingerprint`** (null or string):  
+  System fingerprint identifier, set to `null` if not provided.
 - **`usage`** (object):  
   Token usage statistics, including:
   - **`prompt_tokens`** (integer): Number of tokens in the input prompt(s).
@@ -120,9 +138,9 @@ The text completion response contains the model’s generated text based on a si
 
 ```json
 {
-  "id": "cmpl-a6d9952b95dc4c0dbea4cf9deeb46560",
+  "id": "cmpl-3096cd4c4cf84cff96f125742222e467",
   "object": "text_completion",
-  "created": 1743488720,
+  "created": 1754927062,
   "model": "/opt/ml/model",
   "choices": [
     {
@@ -134,10 +152,12 @@ The text completion response contains the model’s generated text based on a si
       "prompt_logprobs": null
     }
   ],
+  "service_tier": null,
+  "system_fingerprint": null,
   "usage": {
-    "prompt_tokens": 14,
-    "completion_tokens": 368,
-    "total_tokens": 382,
+    "prompt_tokens": 53,
+    "completion_tokens": 1230,
+    "total_tokens": 1283,
     "prompt_tokens_details": null
   },
   "kv_transfer_params": null
@@ -170,6 +190,8 @@ The text completion response contains the model’s generated text based on a si
       "prompt_logprobs": null
     }
   ],
+  "service_tier": null,
+  "system_fingerprint": null,
   "usage": {
     "prompt_tokens": 20,
     "completion_tokens": 50,
@@ -204,13 +226,15 @@ Each chunk contains a portion of the assistant's message. For reasoning models, 
 - **`choices`** (array):  
   A list of choices (typically one). Each choice includes:
   - **`index`** (integer): The index of the choice, typically 0.
-  - **`delta`** (object): The incremental update, containing:
-    - **`role`** (string): The role (e.g., `"assistant"`), included only in the first chunk.
-    - **`reasoning_content`** (string): The reasoning content to append (only present for reasoning models).
-    - **`content`** (string): The text to append to the message (may be empty in the first or last chunk).
+  - **`delta`** (object): The incremental update. Fields include:
+    - **`role`** (string): The role (e.g., `"assistant"`). Present only in the first chunk.
+    - **`reasoning_content`** (string): The reasoning content to append. Present only for reasoning models and typically streamed before `content`.
+    - **`content`** (string): The text to append to the message. May be an empty string in early chunks.
+    - Note: Per chunk, either or both of `reasoning_content` and `content` may appear.
   - **`logprobs`** (null or array): Log probabilities of the generated tokens, `null` unless requested.
-  - **`finish_reason`** (string or null): Reason generation stopped (e.g., `"stop"` or `"length"`), `null` until the final chunk.
-  - **`stop_reason`** (string or null): The stop sequence matched, if any; otherwise, `null`.
+  - **`finish_reason`** (string or null): Present on each chunk; `null` until the final chunk, then set to values like `"stop"` or `"length"`.
+  - **`stop_reason`** (string or null, optional): May be omitted. If present, indicates the matched stop sequence; otherwise `null`.
+  - Note: Streaming chunks do not include top-level fields like `service_tier`, `system_fingerprint`, or usage accounting.
 
 **Example:**
 
@@ -265,12 +289,13 @@ Each chunk contains a portion of the generated text. The full response is recons
 - **`choices`** (array):  
   A list of choices (typically one). Each choice includes:
   - **`index`** (integer): The index of the choice, typically 0.
-  - **`text`** (string): The text to append to the completion.
+  - **`text`** (string): The text to append to the completion. Emitted incrementally across chunks.
   - **`logprobs`** (null or array): Log probabilities of the generated tokens, `null` unless requested.
-  - **`finish_reason`** (string or null): Reason generation stopped (e.g., `"stop"` or `"length"`), `null` until the final chunk.
-  - **`stop_reason`** (string or null): The stop sequence matched, if any; otherwise, `null`.
+  - **`finish_reason`** (string or null): Present on each chunk; `null` until the final chunk, then set to values like `"stop"` or `"length"`.
+  - **`stop_reason`** (string or null, optional): May be omitted. If present, indicates the matched stop sequence; otherwise `null`.
 - **`usage`** (object or null):  
-  Token usage statistics, typically `null` in streaming chunks.
+  Token usage statistics. In streaming chunks this is typically `null`.
+- Note: Streaming chunks do not include top-level fields like `service_tier` or `system_fingerprint`.
 
 **Example:**
 
