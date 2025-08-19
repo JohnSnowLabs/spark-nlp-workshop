@@ -201,7 +201,7 @@
                 "ner_confidence": "0.99665",
                 "concept_code": "0",
                 "resolution": "atrial fibrillation",
-                "score": 1.0,
+                "score": 0.9999999403953552,
                 "all_codes": [
                     "0",
                     "0",
@@ -224,9 +224,9 @@
                     "electrocardiographic atrial fibrillation"
                 ],
                 "all_score": [
-                    1.0,
-                    0.9103990793228149,
-                    0.8994640111923218,
+                    0.9999999403953552,
+                    0.9103989601135254,
+                    0.899463951587677,
                     0.8872871994972229,
                     0.8852158188819885
                 ]
