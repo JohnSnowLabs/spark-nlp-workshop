@@ -5,7 +5,7 @@
                 "begin": 39,
                 "end": 54,
                 "ner_chunk": "tumor suppressor",
-                "ner_label": "ONCOLOGICAL",
+                "ner_label": "Oncological",
                 "ner_confidence": "0.76909995",
                 "concept_code": "8001/1",
                 "resolution": "tumor cells",
@@ -27,17 +27,17 @@
                 "all_score": [
                     0.7199416756629944,
                     0.7053937911987305,
-                    0.6986450552940369,
+                    0.6986449956893921,
                     0.6981863379478455,
-                    0.6867452263832092
+                    0.6867451667785645
                 ]
             },
             {
                 "begin": 59,
                 "end": 82,
                 "ner_chunk": "hepatocellular carcinoma",
-                "ner_label": "ONCOLOGICAL",
-                "ner_confidence": "0.86475",
+                "ner_label": "Cancer_dx",
+                "ner_confidence": null,
                 "concept_code": "8170/3",
                 "resolution": "hepatocellular carcinoma",
                 "score": 1.0000004768371582,
@@ -58,17 +58,17 @@
                 "all_score": [
                     1.0000004768371582,
                     0.9132293462753296,
-                    0.902867317199707,
-                    0.8793963193893433,
-                    0.8304915428161621
+                    0.9028671979904175,
+                    0.8793962597846985,
+                    0.8304914832115173
                 ]
             },
             {
                 "begin": 88,
                 "end": 99,
                 "ner_chunk": "ovary cancer",
-                "ner_label": "CANCER_DX",
-                "ner_confidence": "0.91394997",
+                "ner_label": "Cancer_dx",
+                "ner_confidence": null,
                 "concept_code": "8010/3-C56.9",
                 "resolution": "carcinoma, of ovary",
                 "score": 0.8408499360084534,
@@ -98,7 +98,7 @@
                 "begin": 145,
                 "end": 177,
                 "ner_chunk": "tumors endometrial adenocarcinoma",
-                "ner_label": "ONCOLOGICAL",
+                "ner_label": "Oncological",
                 "ner_confidence": "0.8207",
                 "concept_code": "8140/3-C54.1",
                 "resolution": "adenocarcinoma, of endometrium",
