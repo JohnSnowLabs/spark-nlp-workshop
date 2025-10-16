@@ -1,3 +1,3 @@
 ## Input Format
 
-Supported Dicom input format.
+Supported PDF input format. PDF can be digital and scanned or mixed.
