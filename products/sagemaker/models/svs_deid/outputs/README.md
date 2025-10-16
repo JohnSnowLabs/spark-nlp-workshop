@@ -1,0 +1,1 @@
+Output svs files which have PHI in the metadata tags deleted and rectangles drawn over PHI pixels.
