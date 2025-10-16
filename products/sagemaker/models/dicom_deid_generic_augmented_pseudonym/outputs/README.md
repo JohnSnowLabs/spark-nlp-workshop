@@ -1,2 +1,2 @@
 ## Output Format
-Supported Dicom Output format.
+Supported Dicom input format.
