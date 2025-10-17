@@ -1,0 +1,45 @@
+services:
+  app:
+    image: jsl-llms-workshop:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+      secrets:
+        - catoken
+      args:
+        # Separate the filepath with space
+        # Both encryption and obfuscation
+        BO: "/app/src/constants.py /app/src/utils.py /app/src/jsl_llm.py /app/src/api.py"
+        # Obfuscation only
+        OO: "/app/main.py /app/__init__.py /app/src/__init__.py"
+        # Encryption only
+        EO:
+        AWS_REGION: ${AWS_REGION}
+        CODEARTIFACT_DOMAIN_OWNER: ${CODEARTIFACT_DOMAIN_OWNER}
+        CODEARTIFACT_REPOSITORY: ${CODEARTIFACT_REPOSITORY}
+        CODEARTIFACT_TOKEN: ${CODEARTIFACT_TOKEN}
+    container_name: jsl-llms-workshop
+    environment:
+      - LOGGING_MODE=INFO
+      - CONTAINER_PORT=5001
+    ports:
+      - "5001:5000"
+    healthcheck:
+      test: python3 -c 'import requests; requests.get("http://localhost:5000/status").json()'
+      interval: 60s
+      timeout: 5s
+      retries: 5
+      start_period: 60s
+    volumes:
+      - ./license.json:/app/secret/license.json
+#      - ./app:/app  # Do not mount if you are doing encryption/obfuscation
+    networks:
+      - net
+
+secrets:
+  catoken:
+    environment: CODEARTIFACT_AUTH_TOKEN
+
+networks:
+  net:
+    driver: bridge
