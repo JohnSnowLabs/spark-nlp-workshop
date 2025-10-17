@@ -1,0 +1,158 @@
+{
+    "predictions": [
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, chronic obstructive pulmonary disease, gastritis, and transient ischemic attack. He initially presented to Braintree with ST elevation and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of the left main coronary artery stenosis, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine.",
+            "ner_chunk": "tobacco",
+            "begin": 52,
+            "end": 58,
+            "ner_label": "Smoking",
+            "ner_confidence": "0.9935",
+            "snomed_code": "57264008",
+            "snomed_resolution": "tobacco",
+            "snomed_confidence": "0.9899"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, chronic obstructive pulmonary disease, gastritis, and transient ischemic attack. He initially presented to Braintree with ST elevation and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of the left main coronary artery stenosis, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine.",
+            "ner_chunk": "hypertension",
+            "begin": 65,
+            "end": 76,
+            "ner_label": "Hypertension",
+            "ner_confidence": "0.9999",
+            "snomed_code": "161501007",
+            "snomed_resolution": "h/o: hypertension",
+            "snomed_confidence": "0.2622"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, chronic obstructive pulmonary disease, gastritis, and transient ischemic attack. He initially presented to Braintree with ST elevation and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of the left main coronary artery stenosis, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine.",
+            "ner_chunk": "chronic renal insufficiency",
+            "begin": 79,
+            "end": 105,
+            "ner_label": "Kidney_Disease",
+            "ner_confidence": "0.91976666",
+            "snomed_code": "73901000119107",
+            "snomed_resolution": "history of renal insufficiency",
+            "snomed_confidence": "0.2726"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, chronic obstructive pulmonary disease, gastritis, and transient ischemic attack. He initially presented to Braintree with ST elevation and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of the left main coronary artery stenosis, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine.",
+            "ner_chunk": "chronic obstructive pulmonary disease",
+            "begin": 108,
+            "end": 144,
+            "ner_label": "Disease_Syndrome_Disorder",
+            "ner_confidence": "0.5127",
+            "snomed_code": "394702007",
+            "snomed_resolution": "chronic obstructive pulmonary disease follow-up",
+            "snomed_confidence": "0.2271"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, chronic obstructive pulmonary disease, gastritis, and transient ischemic attack. He initially presented to Braintree with ST elevation and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of the left main coronary artery stenosis, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine.",
+            "ner_chunk": "gastritis",
+            "begin": 147,
+            "end": 155,
+            "ner_label": "Disease_Syndrome_Disorder",
+            "ner_confidence": "0.9959",
+            "snomed_code": "413241009",
+            "snomed_resolution": "suspicion of gastritis",
+            "snomed_confidence": "0.4956"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, chronic obstructive pulmonary disease, gastritis, and transient ischemic attack. He initially presented to Braintree with ST elevation and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of the left main coronary artery stenosis, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine.",
+            "ner_chunk": "transient ischemic attack",
+            "begin": 162,
+            "end": 186,
+            "ner_label": "Cerebrovascular_Disease",
+            "ner_confidence": "0.5781",
+            "snomed_code": "473129008",
+            "snomed_resolution": "suspected transient ischemic attack",
+            "snomed_confidence": "0.7540"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, chronic obstructive pulmonary disease, gastritis, and transient ischemic attack. He initially presented to Braintree with ST elevation and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of the left main coronary artery stenosis, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine.",
+            "ner_chunk": "ST elevation",
+            "begin": 230,
+            "end": 241,
+            "ner_label": "snomed_term",
+            "ner_confidence": "0.64225",
+            "snomed_code": "164931005",
+            "snomed_resolution": "st elevation",
+            "snomed_confidence": "0.9991"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, chronic obstructive pulmonary disease, gastritis, and transient ischemic attack. He initially presented to Braintree with ST elevation and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of the left main coronary artery stenosis, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine.",
+            "ner_chunk": "cardiac catheterization",
+            "begin": 302,
+            "end": 324,
+            "ner_label": "Procedure",
+            "ner_confidence": "0.7781",
+            "snomed_code": "41976001",
+            "snomed_resolution": "cardiac catheterization",
+            "snomed_confidence": "0.9747"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, chronic obstructive pulmonary disease, gastritis, and transient ischemic attack. He initially presented to Braintree with ST elevation and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of the left main coronary artery stenosis, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine.",
+            "ner_chunk": "the left main coronary artery stenosis",
+            "begin": 337,
+            "end": 374,
+            "ner_label": "PROBLEM",
+            "ner_confidence": "0.84225005",
+            "snomed_code": "1255621004",
+            "snomed_resolution": "distal left coronary artery main stem stenosis",
+            "snomed_confidence": "0.1880"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, chronic obstructive pulmonary disease, gastritis, and transient ischemic attack. He initially presented to Braintree with ST elevation and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of the left main coronary artery stenosis, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine.",
+            "ner_chunk": "hypotension",
+            "begin": 402,
+            "end": 412,
+            "ner_label": "VS_Finding",
+            "ner_confidence": "0.9877",
+            "snomed_code": "241727003",
+            "snomed_resolution": "induced hypotension",
+            "snomed_confidence": "0.8483"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, chronic obstructive pulmonary disease, gastritis, and transient ischemic attack. He initially presented to Braintree with ST elevation and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of the left main coronary artery stenosis, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine.",
+            "ner_chunk": "bradycardia",
+            "begin": 418,
+            "end": 428,
+            "ner_label": "VS_Finding",
+            "ner_confidence": "0.9955",
+            "snomed_code": "1217429005",
+            "snomed_resolution": "asymptomatic bradycardia",
+            "snomed_confidence": "0.3969"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, chronic obstructive pulmonary disease, gastritis, and transient ischemic attack. He initially presented to Braintree with ST elevation and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of the left main coronary artery stenosis, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine.",
+            "ner_chunk": "atropine",
+            "begin": 443,
+            "end": 450,
+            "ner_label": "Drug_Ingredient",
+            "ner_confidence": "0.9979",
+            "snomed_code": "73949004",
+            "snomed_resolution": "atropine",
+            "snomed_confidence": "0.9910"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, chronic obstructive pulmonary disease, gastritis, and transient ischemic attack. He initially presented to Braintree with ST elevation and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of the left main coronary artery stenosis, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine.",
+            "ner_chunk": "IV fluids",
+            "begin": 453,
+            "end": 461,
+            "ner_label": "TREATMENT",
+            "ner_confidence": "0.98885",
+            "snomed_code": "118431008",
+            "snomed_resolution": "iv fluid",
+            "snomed_confidence": "0.9087"
+        },
+        {
+            "document": "This is an 82-year-old male with a history of prior tobacco use, hypertension, chronic renal insufficiency, chronic obstructive pulmonary disease, gastritis, and transient ischemic attack. He initially presented to Braintree with ST elevation and was transferred to St. Margaret\u2019s Center. He underwent cardiac catheterization because of the left main coronary artery stenosis, which was complicated by hypotension and bradycardia. He required atropine, IV fluids, and dopamine.",
+            "ner_chunk": "dopamine",
+            "begin": 468,
+            "end": 475,
+            "ner_label": "Drug_Ingredient",
+            "ner_confidence": "0.9924",
+            "snomed_code": "59187003",
+            "snomed_resolution": "dopamine",
+            "snomed_confidence": "0.9816"
+        }
+    ]
+}
