@@ -120,6 +120,8 @@ http://13.48.22.115:5001/docs
 
 This page provides an interactive Swagger UI for testing the available LLM APIs, including endpoints for model status, deployment, and available models. Happy experimenting!
 
+<img width="1889" height="966" alt="JSL LLM APIs - Swagger UI" src="https://github.com/user-attachments/assets/dee8f61a-af7f-436e-b138-56d9b1daa75f" />
+
 ## Need Help?
 
 If you encounter any issues with setup, licensing, or running the container, please contact the John Snow Labs support team:
