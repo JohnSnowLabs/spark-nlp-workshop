@@ -1,0 +1,9 @@
+{
+    "model": "/opt/ml/model",
+    "prompt": [
+        "How can I maintain good kidney health?",
+        "What are the symptoms of high blood pressure?"
+    ],
+    "max_tokens": 2048,
+    "temperature": 0.15
+}

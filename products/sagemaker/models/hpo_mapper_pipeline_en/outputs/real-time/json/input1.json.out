@@ -1,0 +1,33 @@
+{
+    "predictions": [
+        [
+            {
+                "ner_chunk": "apnea",
+                "begin": 16,
+                "end": 20,
+                "ner_label": "HPO",
+                "assertion": "possible",
+                "assertion_confidence": "0.5552",
+                "code": "HP:0002104"
+            },
+            {
+                "ner_chunk": "hyperbilirubinemia",
+                "begin": 91,
+                "end": 108,
+                "ner_label": "HPO",
+                "assertion": "present",
+                "assertion_confidence": "0.8931",
+                "code": "HP:0002904"
+            },
+            {
+                "ner_chunk": "sepsis",
+                "begin": 167,
+                "end": 172,
+                "ner_label": "HPO",
+                "assertion": "present",
+                "assertion_confidence": "0.9881",
+                "code": "HP:0100806"
+            }
+        ]
+    ]
+}

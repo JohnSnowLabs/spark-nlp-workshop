@@ -1,0 +1,25 @@
+{
+    "id": "cmpl-8cc6026aef214eb8b9421e144459f536",
+    "object": "text_completion",
+    "created": 1757321267,
+    "model": "/opt/ml/model",
+    "choices": [
+        {
+            "index": 0,
+            "text": " If you're experiencing a fever and body aches, it's important to monitor your symptoms and take appropriate measures to manage them. Here are some general steps you can follow:\n\n1. Stay hydrated: Drink plenty of fluids like water, clear broths, or electrolyte drinks to prevent dehydration.\n\n2. Rest: Get plenty of rest to help your body fight off the infection or illness causing your symptoms.\n\n3. Take over-the-counter medications: You may consider taking over-the-counter pain relievers such as acetaminophen (Tylenol) or ibuprofen (Advil, Motrin) to relieve fever and body aches. Follow the dosage instructions on the label.\n\n4. Use a cool compress: Applying a cool compress to your forehead or neck can help reduce the fever.\n\n5. Monitor your temperature: Use a thermometer to check your temperature regularly. If your temperature exceeds 103\u00b0F (39.4\u00b0C), consult a healthcare professional for further guidance.\n\n6. Wear loose clothing: Dress in light, loose-fitting clothes to allow for better circulation and comfort.\n\n7. Avoid high-heat activities: Avoid taking hot baths or showers, as they can raise your body temperature.\n\n8. Keep the room cool: Maintain a comfortable room temperature with the use of fans or air conditioning to help alleviate discomfort.\n\nIf your fever persists or worsens, or if you experience other severe symptoms such as difficulty breathing, chest pain, persistent vomiting, or confusion, seek medical attention immediately. It's always best to consult with a healthcare professional who can provide personalized advice based on your specific situation.",
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": 151643,
+            "prompt_logprobs": null
+        }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+        "prompt_tokens": 14,
+        "total_tokens": 338,
+        "completion_tokens": 324,
+        "prompt_tokens_details": null
+    },
+    "kv_transfer_params": null
+}

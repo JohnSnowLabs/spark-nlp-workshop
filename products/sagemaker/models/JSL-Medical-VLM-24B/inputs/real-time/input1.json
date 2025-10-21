@@ -1,0 +1,15 @@
+{
+    "model": "/opt/ml/model",
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful medical assistant. Provide accurate, evidence-based information in response to the following question. Organize the response with clear hierarchical headings and include a conclusion if necessary."
+        },
+        {
+            "role": "user",
+            "content": "What should I do if I have a fever and body aches?"
+        }
+    ],
+    "max_tokens": 2048,
+    "temperature": 0.15
+}

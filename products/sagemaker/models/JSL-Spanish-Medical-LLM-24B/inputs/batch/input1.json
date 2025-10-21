@@ -1,0 +1,9 @@
+{
+    "model": "/opt/ml/model",
+    "prompt": [
+        "¿Cómo puedo mantener una buena salud renal?",
+        "¿Cuáles son los síntomas de la hipertensión?"
+    ],
+    "max_tokens": 2048,
+    "temperature": 0.15
+}

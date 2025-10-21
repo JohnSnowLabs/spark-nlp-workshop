@@ -1,0 +1,14 @@
+{
+    "model": "/opt/ml/model",
+    "messages": [
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "image_url",
+                    "url": "https://raw.githubusercontent.com/JohnSnowLabs/visual-nlp-workshop/7f5eec01dd96897dccb064d1e42a4ef2e90083a0/jupyter/data/funsd/83823750.png"
+                }
+            ]
+        }
+    ]
+}

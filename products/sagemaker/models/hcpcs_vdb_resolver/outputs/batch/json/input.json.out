@@ -5,7 +5,7 @@
                 "begin": 306,
                 "end": 312,
                 "ner_chunk": "Aspirin",
-                "ner_label": "TREATMENT",
+                "ner_label": "PROCEDURE",
                 "ner_confidence": "0.9998",
                 "concept_code": "M1055",
                 "resolution": "aspirin or another antiplatelet therapy used",
@@ -43,7 +43,7 @@
                 "begin": 334,
                 "end": 342,
                 "ner_chunk": "Humulin N",
-                "ner_label": "TREATMENT",
+                "ner_label": "PROCEDURE",
                 "ner_confidence": "0.98345",
                 "concept_code": "J8499",
                 "resolution": "prescription drug, oral, non chemotherapeutic, nos",
@@ -71,9 +71,9 @@
                 ],
                 "all_score": [
                     0.6201732158660889,
-                    0.616439700126648,
-                    0.6162758469581604,
-                    0.6145606637001038,
+                    0.6164397597312927,
+                    0.6162759065628052,
+                    0.6145607233047485,
                     0.6015212535858154
                 ]
             },
@@ -81,7 +81,7 @@
                 "begin": 345,
                 "end": 351,
                 "ner_chunk": "insulin",
-                "ner_label": "TREATMENT",
+                "ner_label": "PROCEDURE",
                 "ner_confidence": "0.9881",
                 "concept_code": "S5550",
                 "resolution": "insulin, rapid onset, 5 units",
@@ -119,7 +119,7 @@
                 "begin": 370,
                 "end": 388,
                 "ner_chunk": "Hydrochlorothiazide",
-                "ner_label": "TREATMENT",
+                "ner_label": "PROCEDURE",
                 "ner_confidence": "0.9999",
                 "concept_code": "J1205",
                 "resolution": "injection, chlorothiazide sodium, per 500 mg",
@@ -157,7 +157,7 @@
                 "begin": 402,
                 "end": 414,
                 "ner_chunk": "Nitroglycerin",
-                "ner_label": "TREATMENT",
+                "ner_label": "PROCEDURE",
                 "ner_confidence": "0.9999",
                 "concept_code": "J8499",
                 "resolution": "prescription drug, oral, non chemotherapeutic, nos",
@@ -197,7 +197,7 @@
                 "begin": 76,
                 "end": 86,
                 "ner_chunk": "amoxicillin",
-                "ner_label": "TREATMENT",
+                "ner_label": "PROCEDURE",
                 "ner_confidence": "0.997",
                 "concept_code": "G9315",
                 "resolution": "documentation amoxicillin, with or without clavulanate, prescribed as a first line antibiotic at the time of diagnosis",
@@ -226,7 +226,7 @@
                 "all_score": [
                     0.7181192636489868,
                     0.7145591974258423,
-                    0.7046383023262024,
+                    0.7046382427215576,
                     0.6988637447357178,
                     0.6849462985992432
                 ]
@@ -235,46 +235,8 @@
                 "begin": 135,
                 "end": 143,
                 "ner_chunk": "metformin",
-                "ner_label": "TREATMENT",
+                "ner_label": "PROCEDURE",
                 "ner_confidence": "0.9998",
-                "concept_code": "G6053",
-                "resolution": "methadone",
-                "score": 0.7130447626113892,
-                "all_codes": [
-                    "G6053",
-                    "G6054",
-                    "S0109",
-                    "J7527",
-                    "J8610"
-                ],
-                "domain_id": [
-                    "Measurement",
-                    "Measurement",
-                    "Drug",
-                    "Drug",
-                    "Drug"
-                ],
-                "all_resolutions": [
-                    "methadone",
-                    "methsuximide",
-                    "methadone, oral, 5 mg",
-                    "everolimus, oral, 0.25 mg",
-                    "methotrexate; oral, 2.5 mg"
-                ],
-                "all_score": [
-                    0.7130447626113892,
-                    0.6653262972831726,
-                    0.6618200540542603,
-                    0.658454418182373,
-                    0.6545082926750183
-                ]
-            },
-            {
-                "begin": 463,
-                "end": 471,
-                "ner_chunk": "metformin",
-                "ner_label": "TREATMENT",
-                "ner_confidence": "0.9992",
                 "concept_code": "G6053",
                 "resolution": "methadone",
                 "score": 0.7130447626113892,
@@ -311,7 +273,7 @@
                 "begin": 147,
                 "end": 155,
                 "ner_chunk": "glipizide",
-                "ner_label": "TREATMENT",
+                "ner_label": "PROCEDURE",
                 "ner_confidence": "0.9999",
                 "concept_code": "C9293",
                 "resolution": "injection, glucarpidase, 10 units",
@@ -349,46 +311,8 @@
                 "begin": 163,
                 "end": 175,
                 "ner_chunk": "dapagliflozin",
-                "ner_label": "TREATMENT",
+                "ner_label": "PROCEDURE",
                 "ner_confidence": "1.0",
-                "concept_code": "Q5108",
-                "resolution": "injection, pegfilgrastim-jmdb, biosimilar, (fulphila), 0.5 mg",
-                "score": 0.651500940322876,
-                "all_codes": [
-                    "Q5108",
-                    "Q5101",
-                    "J2505",
-                    "J7513",
-                    "Q5111"
-                ],
-                "domain_id": [
-                    "Drug",
-                    "Drug",
-                    "Drug",
-                    "Drug",
-                    "Drug"
-                ],
-                "all_resolutions": [
-                    "injection, pegfilgrastim-jmdb, biosimilar, (fulphila), 0.5 mg",
-                    "injection, filgrastim-sndz, biosimilar, (zarxio), 1 microgram",
-                    "injection, pegfilgrastim, 6 mg",
-                    "daclizumab, parenteral, 25 mg",
-                    "injection, pegfilgrastim-cbqv, biosimilar, (udenyca), 0.5 mg"
-                ],
-                "all_score": [
-                    0.651500940322876,
-                    0.6475228667259216,
-                    0.6457095146179199,
-                    0.6447568535804749,
-                    0.6370607018470764
-                ]
-            },
-            {
-                "begin": 245,
-                "end": 257,
-                "ner_chunk": "dapagliflozin",
-                "ner_label": "TREATMENT",
-                "ner_confidence": "0.9999",
                 "concept_code": "Q5108",
                 "resolution": "injection, pegfilgrastim-jmdb, biosimilar, (fulphila), 0.5 mg",
                 "score": 0.651500940322876,
@@ -425,7 +349,7 @@
                 "begin": 190,
                 "end": 201,
                 "ner_chunk": "atorvastatin",
-                "ner_label": "TREATMENT",
+                "ner_label": "PROCEDURE",
                 "ner_confidence": "0.9999",
                 "concept_code": "G9796",
                 "resolution": "patient is currently on a statin therapy",
@@ -463,7 +387,7 @@
                 "begin": 207,
                 "end": 217,
                 "ner_chunk": "gemfibrozil",
-                "ner_label": "TREATMENT",
+                "ner_label": "PROCEDURE",
                 "ner_confidence": "1.0",
                 "concept_code": "Q5108",
                 "resolution": "injection, pegfilgrastim-jmdb, biosimilar, (fulphila), 0.5 mg",
@@ -498,10 +422,48 @@
                 ]
             },
             {
+                "begin": 245,
+                "end": 257,
+                "ner_chunk": "dapagliflozin",
+                "ner_label": "PROCEDURE",
+                "ner_confidence": "0.9999",
+                "concept_code": "Q5108",
+                "resolution": "injection, pegfilgrastim-jmdb, biosimilar, (fulphila), 0.5 mg",
+                "score": 0.651500940322876,
+                "all_codes": [
+                    "Q5108",
+                    "Q5101",
+                    "J2505",
+                    "J7513",
+                    "Q5111"
+                ],
+                "domain_id": [
+                    "Drug",
+                    "Drug",
+                    "Drug",
+                    "Drug",
+                    "Drug"
+                ],
+                "all_resolutions": [
+                    "injection, pegfilgrastim-jmdb, biosimilar, (fulphila), 0.5 mg",
+                    "injection, filgrastim-sndz, biosimilar, (zarxio), 1 microgram",
+                    "injection, pegfilgrastim, 6 mg",
+                    "daclizumab, parenteral, 25 mg",
+                    "injection, pegfilgrastim-cbqv, biosimilar, (udenyca), 0.5 mg"
+                ],
+                "all_score": [
+                    0.651500940322876,
+                    0.6475228667259216,
+                    0.6457095146179199,
+                    0.6447568535804749,
+                    0.6370607018470764
+                ]
+            },
+            {
                 "begin": 391,
                 "end": 406,
                 "ner_chunk": "insulin glargine",
-                "ner_label": "TREATMENT",
+                "ner_label": "PROCEDURE",
                 "ner_confidence": "0.98969996",
                 "concept_code": "S5550",
                 "resolution": "insulin, rapid onset, 5 units",
@@ -539,7 +501,7 @@
                 "begin": 431,
                 "end": 444,
                 "ner_chunk": "insulin lispro",
-                "ner_label": "TREATMENT",
+                "ner_label": "PROCEDURE",
                 "ner_confidence": "0.97045004",
                 "concept_code": "S5551",
                 "resolution": "insulin, most rapid onset (lispro or aspart); 5 units",
@@ -571,6 +533,44 @@
                     0.7266725897789001,
                     0.7155628800392151,
                     0.7118715047836304
+                ]
+            },
+            {
+                "begin": 463,
+                "end": 471,
+                "ner_chunk": "metformin",
+                "ner_label": "PROCEDURE",
+                "ner_confidence": "0.9992",
+                "concept_code": "G6053",
+                "resolution": "methadone",
+                "score": 0.7130447626113892,
+                "all_codes": [
+                    "G6053",
+                    "G6054",
+                    "S0109",
+                    "J7527",
+                    "J8610"
+                ],
+                "domain_id": [
+                    "Measurement",
+                    "Measurement",
+                    "Drug",
+                    "Drug",
+                    "Drug"
+                ],
+                "all_resolutions": [
+                    "methadone",
+                    "methsuximide",
+                    "methadone, oral, 5 mg",
+                    "everolimus, oral, 0.25 mg",
+                    "methotrexate; oral, 2.5 mg"
+                ],
+                "all_score": [
+                    0.7130447626113892,
+                    0.6653262972831726,
+                    0.6618200540542603,
+                    0.658454418182373,
+                    0.6545082926750183
                 ]
             }
         ]

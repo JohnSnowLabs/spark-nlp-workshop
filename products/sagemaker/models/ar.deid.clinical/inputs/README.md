@@ -1,43 +1,45 @@
-## Input Format
+### Input Format
 
-To use the pipeline model, you need to provide input in one of the following supported formats:
+To use the model, you need to provide input in one of the following supported formats:
 
-### Format 1: Array of Text Documents
+#### JSON Format
 
-Use an array containing multiple text documents. Each element represents a separate text document.
+Provide input as JSON. We support two variations within this format:
 
-```json
-{
-    "text": [
-        "Text document 1",
-        "Text document 2",
-        ...
-    ]
-}
-```
+1. **Array of Text Documents**: 
+   Use an array containing multiple text documents. Each element represents a separate text document.
 
-### Format 2: Single Text Document
+   ```json
+   {
+       "text": [
+           "Text document 1",
+           "Text document 2",
+           ...
+       ]
+   }
 
-Provide a single text document as a string.
+    ```
 
-```json
-{
-    "text": "Single text document"
-}
-```
+2. **Single Text Document**:
+   Provide a single text document as a string.
 
-### Format 3: JSON Lines (JSONL):
 
-Provide input in JSON Lines format, where each line is a JSON object representing a text document along with any optional parameters.
+   ```json
+    {
+        "text": "Single text document"
+    }
+   ```
+
+#### JSON Lines (JSONL) Format
+
+Provide input in JSON Lines format, where each line is a JSON object representing a text document.
 
 ```
 {"text": "Text document 1"}
 {"text": "Text document 2"}
 ```
 
-
-
-### Important Parameters
+### Important Parameter
 
 - **masking_policy**: `str`
 
@@ -50,15 +52,6 @@ Provide input in JSON Lines format, where each line is a JSON object representin
     - **masked_fixed_length_chars**: Masks entities with a fixed length of asterisks (\*).
 
     - **masked_with_chars**: Masks entities with asterisks (\*).
-
-
-- **sep**: `str`
-
-    Separator used to join subparts within each prediction.
-
-    By default, the separator is set to a single space (" "), but users can specify any other separator as needed. Necessary because the model outputs predictions as separate subparts, and the chosen separator is used to join them into coherent text.
-
-    The separator must be one of the following characters: space (' '), newline ('\n'), comma (','), tab ('\t'), or colon (':').
     
 You can specify these parameters in the input as follows:
 
@@ -69,7 +62,6 @@ You can specify these parameters in the input as follows:
         "Text document 2",
         ...
     ],
-    "masking_policy": "masked",
-    "sep": " ",
+    "masking_policy": "masked"
 }
 ```
