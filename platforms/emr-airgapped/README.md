@@ -122,8 +122,9 @@ Define the necessary Spark configuration parameters under the **Software Setting
         "Classification": "export",
         "Properties": {
           "JSL_EMR": "1",
-          "PYSPARK_PYTHON": "/usr/bin/python3",
-          "SPARK_NLP_LICENSE": "XYXYXYXYXY"
+          "PYSPARK_DRIVER_PYTHON": "/usr/bin/python3.11",
+          "PYSPARK_PYTHON": "/usr/bin/python3.11",
+          "SPARK_NLP_LICENSE": ""
         }
       }
     ],
@@ -136,34 +137,68 @@ Define the necessary Spark configuration parameters under the **Software Setting
         "Classification": "export",
         "Properties": {
           "JSL_EMR": "1",
-          "SPARK_NLP_LICENSE": "XYXYXYXYXY"
+          "SPARK_NLP_LICENSE": ""
         }
       }
     ],
     "Properties": {}
   },
   {
+    "Classification": "livy-env",
+    "Configurations": [
+      {
+        "Classification": "export",
+        "Properties": {
+          "PYSPARK_DRIVER_PYTHON": "/usr/bin/python3.11",
+          "PYSPARK_PYTHON": "/usr/bin/python3.11"
+        }
+      }
+    ],
+    "Properties": {}
+  },
+  {
+    "Classification": "livy-conf",
+    "Properties": {
+      "livy.server.session.conf.spark.executorEnv.PYSPARK_PYTHON": "/usr/bin/python3.11",
+      "livy.server.session.conf.spark.pyspark.driver.python": "/usr/bin/python3.11",
+      "livy.server.session.conf.spark.pyspark.python": "/usr/bin/python3.11",
+      "livy.server.session.conf.spark.pyspark.virtualenv.enabled": "false",
+      "livy.server.session.conf.spark.yarn.appMasterEnv.PYSPARK_PYTHON": "/usr/bin/python3.11"
+    }
+  },
+  {
     "Classification": "spark-defaults",
     "Properties": {
       "spark.driver.maxResultSize": "0",
       "spark.dynamicAllocation.enabled": "true",
-      "spark.executorEnv.SPARK_NLP_LICENSE": "XYXYXYXYXY",
-      "spark.jsl.settings.aws.credentials.access_key_id": "XYXYXYXYXY",
-      "spark.jsl.settings.aws.credentials.secret_access_key": "XYXYXYXYXY",
+      "spark.executorEnv.SPARK_NLP_LICENSE": "",
+      "spark.jsl.settings.aws.credentials.access_key_id": "",
+      "spark.jsl.settings.aws.credentials.secret_access_key": "",
       "spark.jsl.settings.aws.region": "us-east-1",
-      "spark.jsl.settings.pretrained.credentials.access_key_id": "XYXYXYXYXY",
-      "spark.jsl.settings.pretrained.credentials.secret_access_key": "XYXYXYXYXY",
+      "spark.jsl.settings.pretrained.credentials.access_key_id": "",
+      "spark.jsl.settings.pretrained.credentials.secret_access_key": "",
+      "spark.jsl.settings.storage.cluster_tmp_dir": "hdfs:///tmp",
       "spark.kryoserializer.buffer.max": "2000M",
+      "spark.pyspark.driver.python": "/usr/bin/python3.11",
+      "spark.pyspark.python": "/usr/bin/python3.11",
       "spark.rpc.message.maxSize": "1024",
       "spark.serializer": "org.apache.spark.serializer.KryoSerializer",
-      "spark.yarn.appMasterEnv.SPARK_NLP_LICENSE": "XYXYXYXYXY",
+      "spark.yarn.appMasterEnv.SPARK_NLP_LICENSE": "",
       "spark.yarn.preserve.staging.files": "true",
-      "spark.jsl.settings.storage.cluster_tmp_dir": "hdfs:///tmp",
       "spark.yarn.stagingDir": "hdfs:///tmp"
     }
   }
 ]
 ```
+
+**For python 3.11**
+To use python 3.11, you should specify the given block of config in your notebook's first shell.
+```
+%%configure -f
+{ "conf": { "spark.yarn.appMasterEnv.PYSPARK_PYTHON": "/usr/bin/python3.11",
+            "spark.executorEnv.PYSPARK_PYTHON": "/usr/bin/python3.11" } }
+```
+
 **__Important__**  
 Make sure to replace all placeholder values (marked as `XYXYXYXYXY`) with the actual credentials provided with your license.  
 If your EMR cluster is truly **air-gapped**, you do **not** need to specify `access_key_id` or `secret_access_key` in the configuration — since the `pretrained()` function cannot be used to download models in an offline environment.
