@@ -1,0 +1,44 @@
+{
+    "status":
+    {
+        "method": "GET",
+        "route": "http://localhost:__PORT__/status",
+        "description": "Checks status of server and deployment"
+    },
+    "info":
+    {
+        "method": "GET",
+        "route": "http://localhost:__PORT__/info",
+        "description": "Gets list of available JSL LLMs"
+    },
+    "deploy":
+    {
+        "method": "POST",
+        "route": "http://localhost:__PORT__/deploy",
+        "payload":
+        {
+            "llm_name": "jsl_meds_q4_v1",
+            "force": true,
+            "device": "auto"
+        },
+        "description": "Deploys a llm model specified in the payload"
+    },
+    "generate":
+    {
+        "method": "POST",
+        "route": "http://localhost:__PORT__/generate",
+        "payload":
+        {
+            "text": "### Template:\n{\n\"Drugs\": []\n}\n### Text:\nShe is consuming lipitor and metformin daily.",
+            "max_new_tokens": 512,
+            "temperature": 0.4
+        },
+        "description": "Generates or does inference on text using currently deployed LLM"
+    },
+    "offload":
+    {
+        "method": "POST",
+        "route": "http://localhost:__PORT__/offload",
+        "description": "Offloads deployed LLM from memory/GPU"
+    }
+}
