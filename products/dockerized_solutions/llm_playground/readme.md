@@ -13,10 +13,10 @@ Clone the private repository (if you haven’t already):
 git clone https://github.com/JohnSnowLabs/spark-nlp-workshop.git
 ```
 
-Navigate to the `products/llm_playground` directory:
+Navigate to the `products/dockerized_solutions/llm_playground` directory:
 
 ```bash
-cd spark-nlp-workshop/products/llm_playground
+cd spark-nlp-workshop/products/dockerized_solutions/llm_playground
 ```
 
 ## 2. GPU Environment Setup
@@ -45,19 +45,19 @@ You should see details about your GPU model and driver version.
 
 ## 3. Install Python Dependencies
 
-Once your GPU environment is ready, install all Python dependencies required for the workshop. Make sure youre inside the correct directory `products/llm_playground`
+Once your GPU environment is ready, install all Python dependencies required for the workshop. Make sure youre inside the correct directory `products/dockerized_solutions/llm_playground`
 
 ```
-cd spark-nlp-workshop/products/llm_playground
+cd spark-nlp-workshop/products/dockerized_solutions/llm_playground
 pip install -r requirements.txt
 ```
 
 ## 4. Add License File
 
-Place a valid `license.json` file inside the `products/llm_playground` directory. This is the same `license.json` file that you got from JohnSnowLabs to use HealthCare NLP products. If you don't have it, you can download this license file from https://my.johnsnowlabs.com or contact us at info@johnsnowlabs.com.
+Place a valid `license.json` file inside the `products/dockerized_solutions/llm_playground` directory. This is the same `license.json` file that you got from JohnSnowLabs to use HealthCare NLP products. If you don't have it, you can download this license file from https://my.johnsnowlabs.com or contact us at info@johnsnowlabs.com.
 
 ```
-products/llm_playground/
+products/dockerized_solutions/llm_playground/
 │
 ├── Dockerfile  
 ├── docker-compose.yaml                    
@@ -71,7 +71,7 @@ products/llm_playground/
 
 ## 5. Run the LLM Docker Container
 
-Once the GPU environment is ready, run the LLM Workshop container from the project root (`products/llm_playground`):
+Once the GPU environment is ready, run the LLM Workshop container from the project root (`products/dockerized_solutions/llm_playground`):
 
 ```bash
 docker run --name jsl-llms-workshop                 \
