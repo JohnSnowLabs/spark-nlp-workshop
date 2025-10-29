@@ -1,0 +1,21 @@
+aioboto3==15.1.0
+aiobotocore==2.24.0
+aiofiles==24.1.0
+auto-gptq==0.7.1
+optimum==1.21.4
+vllm==0.2.5
+pyjwt==2.9.0
+fastapi==0.116.1
+accelerate==0.33.0
+bitsandbytes==0.43.3
+ctranslate2==4.6.0
+numpy==1.26.4
+pandas>=2.2.2
+torch==2.4.0
+transformers==4.43.4
+GPUtil==1.4.0
+einops
+packaging==21.3
+loguru
+license-validator==1.8.2
+--extra-index-url https://pypi.johnsnowlabs.com/1.8.2-1866669b3fdedb58b9b7f411cc3577b18fbe67a2
