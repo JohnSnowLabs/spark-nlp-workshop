@@ -113,6 +113,37 @@ Please make sure to replace <YOUR_LICENSE> with your valide JSL license.
 
 ---
 
+## Step 6.1: (Alternative) Submit Your Spark NLP Job using Secret Manager
+
+Alternatively to the above step, you can also store the licence in Google Cloud Secret Manager.
+
+Submit your pipeline to the running Dataproc cluster using the following command in Cloud Shell:
+
+```bash
+# Create secret
+gcloud secrets create jsl_license --replication-policy="automatic" --project=docusign-251217
+
+# Add licence to secret
+echo -n "<YOUR_LICENSE>" | gcloud secrets versions add jsl_license --data-file=- --project=docusign-251217
+
+# Add permissions
+gcloud secrets add-iam-policy-binding jsl_license --member="serviceAccount:<SERVICE ACCOUNT EMAIL>" --role="roles/secretmanager.secretAccessor" --project=docusign-251217
+
+# Then you can use the secret to submit the job
+gcloud dataproc jobs submit pyspark gs://spark-healthcare-nlp/spark_healthcare_nlp_classical.py \
+  --cluster=sparknlp-healthcare \
+  --region=us-central1 \
+  --jars=gs://spark-healthcare-nlp/jars/spark-nlp-jsl-6.0.0.jar,gs://spark-healthcare-nlp/jars/spark-nlp-assembly-6.0.0.jar \
+  --properties="\
+spark.driver.extraJavaOptions=-Djsl.settings.license=$(gcloud secrets versions access latest --secret=jsl_license --project=docusign-251217),\
+spark.executor.extraJavaOptions=-Djsl.settings.license=$(gcloud secrets versions access latest --secret=jsl_license --project=docusign-251217),\
+spark.extraListeners=com.johnsnowlabs.license.LicenseLifeCycleManager"
+```
+
+Please make sure to replace <YOUR_LICENSE> with your valide JSL license.
+
+---
+
 ## Step 13: Track Job Progress
 
 Monitor the job execution in the Dataproc Jobs tab and in Cloud Shell logs.  
