@@ -76,6 +76,35 @@ Please make sure to replace <YOUR_LICENSE> with your valide JSL license.
 
 ---
 
+## Step 4.1: (Alternative) Submit Your Spark NLP Batch on serverless mode using Secret Manager
+
+Alternatively to the above step, you can also store the licence in Google Cloud Secret Manager.
+
+Click on the Cloud Shell (top-right) to start a shell session:
+
+![Starting a cloud shell session](step5.png)
+
+Then add the licence to Secret Manager and submit your pipeline in serverless mode using the following 
+command in Cloud Shell:
+
+```bash
+# Create secret
+gcloud secrets create jsl_license --replication-policy="automatic" --project=docusign-251217
+
+# Add licence to secret
+echo -n "<YOUR_LICENSE>" | gcloud secrets versions add jsl_license --data-file=- --project=docusign-251217
+
+# Add permissions
+gcloud secrets add-iam-policy-binding jsl_license --member="serviceAccount:<SERVICE ACCOUNT EMAIL>" --role="roles/secretmanager.secretAccessor" --project=docusign-251217
+
+# Then you can use the secret to submit the job
+gcloud dataproc batches submit pyspark gs://spark-healthcare-nlp-serverless/spark_healthcare_nlp_serverless.py   --project=docusign-251217   --region=us-central1   --batch=jsl-batch   --version=1.1 --jars=gs://spark-healthcare-nlp-serverless/jars/spark-nlp-assembly-6.0.0.jar,gs://spark-healthcare-nlp-serverless/jars/spark-nlp-jsl-6.0.0.jar   --py-files=gs://spark-healthcare-nlp-serverless/whls/spark_nlp-6.0.0-py2.py3-none-any.whl,gs://spark-healthcare-nlp-serverless/whls/spark_nlp_jsl-6.0.0-py3-none-any.whl --properties="spark.serializer=org.apache.spark.serializer.KryoSerializer, spark.kryoserializer.buffer.max=2000M, spark.driver.extraJavaOptions=-Djsl.settings.license=$(gcloud secrets versions access latest --secret=jsl_license --project=docusign-251217), spark.executor.extraJavaOptions=-Djsl.settings.license=$(gcloud secrets versions access latest --secret=jsl_license --project=docusign-251217)"
+```
+
+Please make sure to replace <YOUR_LICENSE> with your valide JSL license.
+
+---
+
 ## Step 5: Track Batch Progress
 
 Monitor the Batch execution in the Dataproc Serverless Barches tab and in Cloud Shell logs.  
