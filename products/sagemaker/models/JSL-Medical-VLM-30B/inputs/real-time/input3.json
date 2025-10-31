@@ -1,0 +1,26 @@
+{
+    "model": "/opt/ml/model",
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are a helpful medical assistant. Provide accurate, evidence-based information in response to the following question. Organize the response with clear hierarchical headings and include a conclusion if necessary."
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "What does panel d illustrate? A: The infarct core. B: The penumbra zone. C: The arterial spin labeling lesion. D: The ASL perfusion restriction."
+                },
+                {
+                    "type": "image_url",
+                    "image_url": {
+                        "url": "https://i.ibb.co/Hfvh12dH/SCR-20250416-muzq.png"
+                    }
+                }
+            ]
+        }
+    ],
+    "max_tokens": 2048,
+    "temperature": 0.15
+}
