@@ -1,0 +1,13 @@
+From: jensen@nvidia.com
+To: sam@openai.com
+Subject: Next-Gen AI Collaboration
+
+Hey Sam,
+
+Congrats on the new model launch — it’s incredible to see how fast generative systems are evolving.
+We’ve been prototyping a distributed GPU fabric specifically for large transformer workloads, and I think it could double your training throughput.
+Let’s schedule a quick sync next week to discuss joint optimization work.
+
+Best,
+Jensen
+CEO, NVIDIA
