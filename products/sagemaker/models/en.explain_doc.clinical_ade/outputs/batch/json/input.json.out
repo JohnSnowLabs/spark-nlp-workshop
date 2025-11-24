@@ -189,7 +189,7 @@
                 "ner_chunk2_begin": "31",
                 "ner_chunk2_end": "40",
                 "ner_label2": "DRUG",
-                "relations": "1",
+                "relation": "1",
                 "relation_confidence": "1.0"
             },
             {
@@ -201,7 +201,7 @@
                 "ner_chunk2_begin": "52",
                 "ner_chunk2_end": "61",
                 "ner_label2": "ADE",
-                "relations": "1",
+                "relation": "1",
                 "relation_confidence": "0.99999774"
             }
         ],

@@ -40,7 +40,7 @@
                 "ner_chunk2_begin": "52",
                 "ner_chunk2_end": "65",
                 "ner_label2": "ADE",
-                "relations": "1",
+                "relation": "1",
                 "relation_confidence": "1.0"
             }
         ],
