@@ -450,7 +450,7 @@
                 "ner_chunk2_begin": "64",
                 "ner_chunk2_end": "70",
                 "ner_label2": "Mental_Health",
-                "relations": "Age-Mental_Health",
+                "relation": "Age-Mental_Health",
                 "relation_confidence": "1.0"
             },
             {
@@ -462,7 +462,7 @@
                 "ner_chunk2_begin": "76",
                 "ner_chunk2_end": "85",
                 "ner_label2": "Mental_Health",
-                "relations": "Age-Mental_Health",
+                "relation": "Age-Mental_Health",
                 "relation_confidence": "1.0"
             },
             {
@@ -474,7 +474,7 @@
                 "ner_chunk2_begin": "64",
                 "ner_chunk2_end": "70",
                 "ner_label2": "Mental_Health",
-                "relations": "Gender-Mental_Health",
+                "relation": "Gender-Mental_Health",
                 "relation_confidence": "1.0"
             },
             {
@@ -486,7 +486,7 @@
                 "ner_chunk2_begin": "76",
                 "ner_chunk2_end": "85",
                 "ner_label2": "Mental_Health",
-                "relations": "Gender-Mental_Health",
+                "relation": "Gender-Mental_Health",
                 "relation_confidence": "1.0"
             },
             {
@@ -498,7 +498,7 @@
                 "ner_chunk2_begin": "145",
                 "ner_chunk2_end": "172",
                 "ner_label2": "Mental_Health",
-                "relations": "Gender-Mental_Health",
+                "relation": "Gender-Mental_Health",
                 "relation_confidence": "1.0"
             },
             {
@@ -510,7 +510,7 @@
                 "ner_chunk2_begin": "175",
                 "ner_chunk2_end": "199",
                 "ner_label2": "Mental_Health",
-                "relations": "Gender-Mental_Health",
+                "relation": "Gender-Mental_Health",
                 "relation_confidence": "1.0"
             },
             {
@@ -522,7 +522,7 @@
                 "ner_chunk2_begin": "145",
                 "ner_chunk2_end": "172",
                 "ner_label2": "Mental_Health",
-                "relations": "Disease_Syndrome_Disorder-Mental_Health",
+                "relation": "Disease_Syndrome_Disorder-Mental_Health",
                 "relation_confidence": "1.0"
             },
             {
@@ -534,7 +534,7 @@
                 "ner_chunk2_begin": "175",
                 "ner_chunk2_end": "199",
                 "ner_label2": "Mental_Health",
-                "relations": "Disease_Syndrome_Disorder-Mental_Health",
+                "relation": "Disease_Syndrome_Disorder-Mental_Health",
                 "relation_confidence": "1.0"
             },
             {
@@ -546,7 +546,7 @@
                 "ner_chunk2_begin": "255",
                 "ner_chunk2_end": "262",
                 "ner_label2": "Violence_Or_Abuse",
-                "relations": "Childhood_Event-Violence_Or_Abuse",
+                "relation": "Childhood_Event-Violence_Or_Abuse",
                 "relation_confidence": "1.0"
             },
             {
@@ -558,7 +558,7 @@
                 "ner_chunk2_begin": "268",
                 "ner_chunk2_end": "272",
                 "ner_label2": "Violence_Or_Abuse",
-                "relations": "Childhood_Event-Violence_Or_Abuse",
+                "relation": "Childhood_Event-Violence_Or_Abuse",
                 "relation_confidence": "1.0"
             },
             {
@@ -570,7 +570,7 @@
                 "ner_chunk2_begin": "281",
                 "ner_chunk2_end": "283",
                 "ner_label2": "Gender",
-                "relations": "Childhood_Event-Gender",
+                "relation": "Childhood_Event-Gender",
                 "relation_confidence": "1.0"
             },
             {
@@ -582,7 +582,7 @@
                 "ner_chunk2_begin": "281",
                 "ner_chunk2_end": "283",
                 "ner_label2": "Gender",
-                "relations": "Violence_Or_Abuse-Gender",
+                "relation": "Violence_Or_Abuse-Gender",
                 "relation_confidence": "1.0"
             },
             {
@@ -594,7 +594,7 @@
                 "ner_chunk2_begin": "281",
                 "ner_chunk2_end": "283",
                 "ner_label2": "Gender",
-                "relations": "Violence_Or_Abuse-Gender",
+                "relation": "Violence_Or_Abuse-Gender",
                 "relation_confidence": "1.0"
             },
             {
@@ -606,7 +606,7 @@
                 "ner_chunk2_begin": "338",
                 "ner_chunk2_end": "344",
                 "ner_label2": "Smoking",
-                "relations": "Gender-Smoking",
+                "relation": "Gender-Smoking",
                 "relation_confidence": "1.0"
             },
             {
@@ -618,7 +618,7 @@
                 "ner_chunk2_begin": "347",
                 "ner_chunk2_end": "353",
                 "ner_label2": "Alcohol",
-                "relations": "Gender-Alcohol",
+                "relation": "Gender-Alcohol",
                 "relation_confidence": "1.0"
             },
             {
@@ -630,7 +630,7 @@
                 "ner_chunk2_begin": "382",
                 "ner_chunk2_end": "388",
                 "ner_label2": "Substance_Use",
-                "relations": "Gender-Substance_Use",
+                "relation": "Gender-Substance_Use",
                 "relation_confidence": "1.0"
             },
             {
@@ -642,7 +642,7 @@
                 "ner_chunk2_begin": "394",
                 "ner_chunk2_end": "402",
                 "ner_label2": "Substance_Use",
-                "relations": "Gender-Substance_Use",
+                "relation": "Gender-Substance_Use",
                 "relation_confidence": "1.0"
             },
             {
@@ -654,7 +654,7 @@
                 "ner_chunk2_begin": "382",
                 "ner_chunk2_end": "388",
                 "ner_label2": "Substance_Use",
-                "relations": "Smoking-Substance_Use",
+                "relation": "Smoking-Substance_Use",
                 "relation_confidence": "1.0"
             },
             {
@@ -666,7 +666,7 @@
                 "ner_chunk2_begin": "394",
                 "ner_chunk2_end": "402",
                 "ner_label2": "Substance_Use",
-                "relations": "Smoking-Substance_Use",
+                "relation": "Smoking-Substance_Use",
                 "relation_confidence": "1.0"
             },
             {
@@ -678,7 +678,7 @@
                 "ner_chunk2_begin": "382",
                 "ner_chunk2_end": "388",
                 "ner_label2": "Substance_Use",
-                "relations": "Alcohol-Substance_Use",
+                "relation": "Alcohol-Substance_Use",
                 "relation_confidence": "1.0"
             },
             {
@@ -690,7 +690,7 @@
                 "ner_chunk2_begin": "394",
                 "ner_chunk2_end": "402",
                 "ner_label2": "Substance_Use",
-                "relations": "Alcohol-Substance_Use",
+                "relation": "Alcohol-Substance_Use",
                 "relation_confidence": "1.0"
             },
             {
@@ -702,7 +702,7 @@
                 "ner_chunk2_begin": "409",
                 "ner_chunk2_end": "415",
                 "ner_label2": "Mental_Health",
-                "relations": "Gender-Mental_Health",
+                "relation": "Gender-Mental_Health",
                 "relation_confidence": "1.0"
             },
             {
@@ -714,7 +714,7 @@
                 "ner_chunk2_begin": "446",
                 "ner_chunk2_end": "457",
                 "ner_label2": "Symptom",
-                "relations": "Mental_Health-Symptom",
+                "relation": "Mental_Health-Symptom",
                 "relation_confidence": "1.0"
             },
             {
@@ -726,7 +726,7 @@
                 "ner_chunk2_begin": "460",
                 "ner_chunk2_end": "471",
                 "ner_label2": "Symptom",
-                "relations": "Mental_Health-Symptom",
+                "relation": "Mental_Health-Symptom",
                 "relation_confidence": "1.0"
             },
             {
@@ -738,7 +738,7 @@
                 "ner_chunk2_begin": "474",
                 "ner_chunk2_end": "487",
                 "ner_label2": "Symptom",
-                "relations": "Mental_Health-Symptom",
+                "relation": "Mental_Health-Symptom",
                 "relation_confidence": "1.0"
             },
             {
@@ -750,7 +750,7 @@
                 "ner_chunk2_begin": "494",
                 "ner_chunk2_end": "524",
                 "ner_label2": "Symptom",
-                "relations": "Mental_Health-Symptom",
+                "relation": "Mental_Health-Symptom",
                 "relation_confidence": "1.0"
             },
             {
@@ -762,7 +762,7 @@
                 "ner_chunk2_begin": "541",
                 "ner_chunk2_end": "557",
                 "ner_label2": "Mental_Health",
-                "relations": "Gender-Mental_Health",
+                "relation": "Gender-Mental_Health",
                 "relation_confidence": "1.0"
             },
             {
@@ -774,7 +774,7 @@
                 "ner_chunk2_begin": "643",
                 "ner_chunk2_end": "648",
                 "ner_label2": "Drug_Strength",
-                "relations": "Drug-Drug_Strength",
+                "relation": "Drug-Drug_Strength",
                 "relation_confidence": "1.0"
             },
             {
@@ -786,7 +786,7 @@
                 "ner_chunk2_begin": "650",
                 "ner_chunk2_end": "654",
                 "ner_label2": "Frequency",
-                "relations": "Drug-Frequency",
+                "relation": "Drug-Frequency",
                 "relation_confidence": "1.0"
             },
             {
@@ -798,7 +798,7 @@
                 "ner_chunk2_begin": "657",
                 "ner_chunk2_end": "667",
                 "ner_label2": "Drug",
-                "relations": "Drug-Drug",
+                "relation": "Drug-Drug",
                 "relation_confidence": "1.0"
             },
             {
@@ -810,7 +810,7 @@
                 "ner_chunk2_begin": "669",
                 "ner_chunk2_end": "673",
                 "ner_label2": "Drug_Strength",
-                "relations": "Drug-Drug_Strength",
+                "relation": "Drug-Drug_Strength",
                 "relation_confidence": "1.0"
             },
             {
@@ -822,7 +822,7 @@
                 "ner_chunk2_begin": "675",
                 "ner_chunk2_end": "685",
                 "ner_label2": "Frequency",
-                "relations": "Drug-Frequency",
+                "relation": "Drug-Frequency",
                 "relation_confidence": "1.0"
             },
             {
@@ -834,7 +834,7 @@
                 "ner_chunk2_begin": "692",
                 "ner_chunk2_end": "701",
                 "ner_label2": "Drug",
-                "relations": "Drug-Drug",
+                "relation": "Drug-Drug",
                 "relation_confidence": "1.0"
             },
             {
@@ -846,7 +846,7 @@
                 "ner_chunk2_begin": "703",
                 "ner_chunk2_end": "707",
                 "ner_label2": "Drug_Strength",
-                "relations": "Drug-Drug_Strength",
+                "relation": "Drug-Drug_Strength",
                 "relation_confidence": "1.0"
             },
             {
@@ -858,7 +858,7 @@
                 "ner_chunk2_begin": "657",
                 "ner_chunk2_end": "667",
                 "ner_label2": "Drug",
-                "relations": "Drug_Strength-Drug",
+                "relation": "Drug_Strength-Drug",
                 "relation_confidence": "1.0"
             },
             {
@@ -870,7 +870,7 @@
                 "ner_chunk2_begin": "692",
                 "ner_chunk2_end": "701",
                 "ner_label2": "Drug",
-                "relations": "Drug_Strength-Drug",
+                "relation": "Drug_Strength-Drug",
                 "relation_confidence": "1.0"
             },
             {
@@ -882,7 +882,7 @@
                 "ner_chunk2_begin": "657",
                 "ner_chunk2_end": "667",
                 "ner_label2": "Drug",
-                "relations": "Frequency-Drug",
+                "relation": "Frequency-Drug",
                 "relation_confidence": "1.0"
             },
             {
@@ -894,7 +894,7 @@
                 "ner_chunk2_begin": "692",
                 "ner_chunk2_end": "701",
                 "ner_label2": "Drug",
-                "relations": "Frequency-Drug",
+                "relation": "Frequency-Drug",
                 "relation_confidence": "1.0"
             },
             {
@@ -906,7 +906,7 @@
                 "ner_chunk2_begin": "669",
                 "ner_chunk2_end": "673",
                 "ner_label2": "Drug_Strength",
-                "relations": "Drug-Drug_Strength",
+                "relation": "Drug-Drug_Strength",
                 "relation_confidence": "1.0"
             },
             {
@@ -918,7 +918,7 @@
                 "ner_chunk2_begin": "675",
                 "ner_chunk2_end": "685",
                 "ner_label2": "Frequency",
-                "relations": "Drug-Frequency",
+                "relation": "Drug-Frequency",
                 "relation_confidence": "1.0"
             },
             {
@@ -930,7 +930,7 @@
                 "ner_chunk2_begin": "692",
                 "ner_chunk2_end": "701",
                 "ner_label2": "Drug",
-                "relations": "Drug-Drug",
+                "relation": "Drug-Drug",
                 "relation_confidence": "1.0"
             },
             {
@@ -942,7 +942,7 @@
                 "ner_chunk2_begin": "703",
                 "ner_chunk2_end": "707",
                 "ner_label2": "Drug_Strength",
-                "relations": "Drug-Drug_Strength",
+                "relation": "Drug-Drug_Strength",
                 "relation_confidence": "1.0"
             },
             {
@@ -954,7 +954,7 @@
                 "ner_chunk2_begin": "709",
                 "ner_chunk2_end": "713",
                 "ner_label2": "Frequency",
-                "relations": "Drug-Frequency",
+                "relation": "Drug-Frequency",
                 "relation_confidence": "1.0"
             },
             {
@@ -966,7 +966,7 @@
                 "ner_chunk2_begin": "692",
                 "ner_chunk2_end": "701",
                 "ner_label2": "Drug",
-                "relations": "Drug_Strength-Drug",
+                "relation": "Drug_Strength-Drug",
                 "relation_confidence": "1.0"
             },
             {
@@ -978,7 +978,7 @@
                 "ner_chunk2_begin": "692",
                 "ner_chunk2_end": "701",
                 "ner_label2": "Drug",
-                "relations": "Frequency-Drug",
+                "relation": "Frequency-Drug",
                 "relation_confidence": "1.0"
             },
             {
@@ -990,7 +990,7 @@
                 "ner_chunk2_begin": "703",
                 "ner_chunk2_end": "707",
                 "ner_label2": "Drug_Strength",
-                "relations": "Drug-Drug_Strength",
+                "relation": "Drug-Drug_Strength",
                 "relation_confidence": "1.0"
             },
             {
@@ -1002,7 +1002,7 @@
                 "ner_chunk2_begin": "709",
                 "ner_chunk2_end": "713",
                 "ner_label2": "Frequency",
-                "relations": "Drug-Frequency",
+                "relation": "Drug-Frequency",
                 "relation_confidence": "1.0"
             }
         ]
