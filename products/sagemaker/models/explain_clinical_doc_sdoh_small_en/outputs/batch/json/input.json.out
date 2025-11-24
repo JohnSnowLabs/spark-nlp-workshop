@@ -250,7 +250,7 @@
                 "ner_chunk2_begin": "34",
                 "ner_chunk2_end": "49",
                 "ner_label2": "Insurance_Status",
-                "relations": "Employment-Insurance_Status",
+                "relation": "Employment-Insurance_Status",
                 "relation_confidence": "1.0"
             }
         ]
@@ -614,7 +614,7 @@
                 "ner_chunk2_begin": "53",
                 "ner_chunk2_end": "68",
                 "ner_label2": "Insurance_Status",
-                "relations": "Employment-Insurance_Status",
+                "relation": "Employment-Insurance_Status",
                 "relation_confidence": "1.0"
             }
         ]
