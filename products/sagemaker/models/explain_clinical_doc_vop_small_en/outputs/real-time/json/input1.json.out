@@ -271,7 +271,7 @@
                 "ner_chunk2_begin": "146",
                 "ner_chunk2_end": "149",
                 "ner_label2": "TestResult",
-                "relations": "Test-TestResult",
+                "relation": "Test-TestResult",
                 "relation_confidence": "1.0"
             },
             {
@@ -283,7 +283,7 @@
                 "ner_chunk2_begin": "228",
                 "ner_chunk2_end": "233",
                 "ner_label2": "Dosage",
-                "relations": "Drug-Dosage",
+                "relation": "Drug-Dosage",
                 "relation_confidence": "1.0"
             },
             {
@@ -295,7 +295,7 @@
                 "ner_chunk2_begin": "235",
                 "ner_chunk2_end": "245",
                 "ner_label2": "Frequency",
-                "relations": "Drug-Frequency",
+                "relation": "Drug-Frequency",
                 "relation_confidence": "1.0"
             },
             {
@@ -307,7 +307,7 @@
                 "ner_chunk2_begin": "262",
                 "ner_chunk2_end": "265",
                 "ner_label2": "Dosage",
-                "relations": "Drug-Dosage",
+                "relation": "Drug-Dosage",
                 "relation_confidence": "1.0"
             },
             {
@@ -319,7 +319,7 @@
                 "ner_chunk2_begin": "252",
                 "ner_chunk2_end": "260",
                 "ner_label2": "Drug",
-                "relations": "Dosage-Drug",
+                "relation": "Dosage-Drug",
                 "relation_confidence": "1.0"
             },
             {
@@ -331,7 +331,7 @@
                 "ner_chunk2_begin": "262",
                 "ner_chunk2_end": "265",
                 "ner_label2": "Dosage",
-                "relations": "Drug-Dosage",
+                "relation": "Drug-Dosage",
                 "relation_confidence": "1.0"
             },
             {
@@ -343,7 +343,7 @@
                 "ner_chunk2_begin": "425",
                 "ner_chunk2_end": "434",
                 "ner_label2": "Drug",
-                "relations": "DateTime-Drug",
+                "relation": "DateTime-Drug",
                 "relation_confidence": "1.0"
             },
             {
@@ -355,7 +355,7 @@
                 "ner_chunk2_begin": "425",
                 "ner_chunk2_end": "434",
                 "ner_label2": "Drug",
-                "relations": "Frequency-Drug",
+                "relation": "Frequency-Drug",
                 "relation_confidence": "1.0"
             },
             {
@@ -367,7 +367,7 @@
                 "ner_chunk2_begin": "436",
                 "ner_chunk2_end": "440",
                 "ner_label2": "Dosage",
-                "relations": "Drug-Dosage",
+                "relation": "Drug-Dosage",
                 "relation_confidence": "1.0"
             }
         ]

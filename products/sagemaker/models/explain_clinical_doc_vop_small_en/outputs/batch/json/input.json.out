@@ -87,7 +87,7 @@
                 "ner_chunk2_begin": "11",
                 "ner_chunk2_end": "13",
                 "ner_label2": "Symptom",
-                "relations": "BodyPart-Symptom",
+                "relation": "BodyPart-Symptom",
                 "relation_confidence": "1.0"
             },
             {
@@ -99,7 +99,7 @@
                 "ner_chunk2_begin": "53",
                 "ner_chunk2_end": "55",
                 "ner_label2": "Symptom",
-                "relations": "BodyPart-Symptom",
+                "relation": "BodyPart-Symptom",
                 "relation_confidence": "1.0"
             },
             {
@@ -111,7 +111,7 @@
                 "ner_chunk2_begin": "85",
                 "ner_chunk2_end": "89",
                 "ner_label2": "Symptom",
-                "relations": "BodyPart-Symptom",
+                "relation": "BodyPart-Symptom",
                 "relation_confidence": "1.0"
             },
             {
@@ -123,7 +123,7 @@
                 "ner_chunk2_begin": "41",
                 "ner_chunk2_end": "44",
                 "ner_label2": "BodyPart",
-                "relations": "Symptom-BodyPart",
+                "relation": "Symptom-BodyPart",
                 "relation_confidence": "1.0"
             },
             {
@@ -135,7 +135,7 @@
                 "ner_chunk2_begin": "53",
                 "ner_chunk2_end": "55",
                 "ner_label2": "Symptom",
-                "relations": "BodyPart-Symptom",
+                "relation": "BodyPart-Symptom",
                 "relation_confidence": "1.0"
             },
             {
@@ -147,7 +147,7 @@
                 "ner_chunk2_begin": "85",
                 "ner_chunk2_end": "89",
                 "ner_label2": "Symptom",
-                "relations": "BodyPart-Symptom",
+                "relation": "BodyPart-Symptom",
                 "relation_confidence": "1.0"
             }
         ]
@@ -306,7 +306,7 @@
                 "ner_chunk2_begin": "92",
                 "ner_chunk2_end": "96",
                 "ner_label2": "BodyPart",
-                "relations": "Symptom-BodyPart",
+                "relation": "Symptom-BodyPart",
                 "relation_confidence": "1.0"
             },
             {
@@ -318,7 +318,7 @@
                 "ner_chunk2_begin": "125",
                 "ner_chunk2_end": "130",
                 "ner_label2": "BodyPart",
-                "relations": "Symptom-BodyPart",
+                "relation": "Symptom-BodyPart",
                 "relation_confidence": "1.0"
             },
             {
@@ -330,7 +330,7 @@
                 "ner_chunk2_begin": "98",
                 "ner_chunk2_end": "105",
                 "ner_label2": "Symptom",
-                "relations": "BodyPart-Symptom",
+                "relation": "BodyPart-Symptom",
                 "relation_confidence": "1.0"
             },
             {
@@ -342,7 +342,7 @@
                 "ner_chunk2_begin": "125",
                 "ner_chunk2_end": "130",
                 "ner_label2": "BodyPart",
-                "relations": "Symptom-BodyPart",
+                "relation": "Symptom-BodyPart",
                 "relation_confidence": "1.0"
             },
             {
@@ -354,7 +354,7 @@
                 "ner_chunk2_begin": "176",
                 "ner_chunk2_end": "180",
                 "ner_label2": "BodyPart",
-                "relations": "Symptom-BodyPart",
+                "relation": "Symptom-BodyPart",
                 "relation_confidence": "1.0"
             },
             {
@@ -366,7 +366,7 @@
                 "ner_chunk2_begin": "170",
                 "ner_chunk2_end": "174",
                 "ner_label2": "Symptom",
-                "relations": "BodyPart-Symptom",
+                "relation": "BodyPart-Symptom",
                 "relation_confidence": "1.0"
             },
             {
@@ -378,7 +378,7 @@
                 "ner_chunk2_begin": "176",
                 "ner_chunk2_end": "180",
                 "ner_label2": "BodyPart",
-                "relations": "Symptom-BodyPart",
+                "relation": "Symptom-BodyPart",
                 "relation_confidence": "1.0"
             },
             {
@@ -390,7 +390,7 @@
                 "ner_chunk2_begin": "286",
                 "ner_chunk2_end": "288",
                 "ner_label2": "DateTime",
-                "relations": "Symptom-DateTime",
+                "relation": "Symptom-DateTime",
                 "relation_confidence": "1.0"
             },
             {
@@ -402,7 +402,7 @@
                 "ner_chunk2_begin": "286",
                 "ner_chunk2_end": "288",
                 "ner_label2": "DateTime",
-                "relations": "Symptom-DateTime",
+                "relation": "Symptom-DateTime",
                 "relation_confidence": "1.0"
             }
         ]
