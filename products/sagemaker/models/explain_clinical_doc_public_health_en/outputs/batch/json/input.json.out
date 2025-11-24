@@ -87,7 +87,7 @@
                 "ner_chunk2_begin": "77",
                 "ner_chunk2_end": "84",
                 "ner_label2": "Disease_Syndrome_Disorder",
-                "relations": "Drug-Disease_Syndrome_Disorder",
+                "relation": "Drug-Disease_Syndrome_Disorder",
                 "relation_confidence": "1.0"
             },
             {
@@ -99,7 +99,7 @@
                 "ner_chunk2_begin": "87",
                 "ner_chunk2_end": "92",
                 "ner_label2": "Disease_Syndrome_Disorder",
-                "relations": "Drug-Disease_Syndrome_Disorder",
+                "relation": "Drug-Disease_Syndrome_Disorder",
                 "relation_confidence": "1.0"
             },
             {
@@ -111,7 +111,7 @@
                 "ner_chunk2_begin": "144",
                 "ner_chunk2_end": "146",
                 "ner_label2": "Disease_Syndrome_Disorder",
-                "relations": "Drug-Disease_Syndrome_Disorder",
+                "relation": "Drug-Disease_Syndrome_Disorder",
                 "relation_confidence": "1.0"
             }
         ]
@@ -332,7 +332,7 @@
                 "ner_chunk2_begin": "358",
                 "ner_chunk2_end": "367",
                 "ner_label2": "Drug",
-                "relations": "Disease_Syndrome_Disorder-Drug",
+                "relation": "Disease_Syndrome_Disorder-Drug",
                 "relation_confidence": "1.0"
             },
             {
@@ -344,7 +344,7 @@
                 "ner_chunk2_begin": "358",
                 "ner_chunk2_end": "367",
                 "ner_label2": "Drug",
-                "relations": "Mental_Health-Drug",
+                "relation": "Mental_Health-Drug",
                 "relation_confidence": "1.0"
             },
             {
@@ -356,7 +356,7 @@
                 "ner_chunk2_begin": "159",
                 "ner_chunk2_end": "165",
                 "ner_label2": "Drug",
-                "relations": "Disease_Syndrome_Disorder-Drug",
+                "relation": "Disease_Syndrome_Disorder-Drug",
                 "relation_confidence": "1.0"
             },
             {
@@ -368,7 +368,7 @@
                 "ner_chunk2_begin": "358",
                 "ner_chunk2_end": "367",
                 "ner_label2": "Drug",
-                "relations": "Psychological_Condition-Drug",
+                "relation": "Psychological_Condition-Drug",
                 "relation_confidence": "1.0"
             },
             {
@@ -380,7 +380,7 @@
                 "ner_chunk2_begin": "358",
                 "ner_chunk2_end": "367",
                 "ner_label2": "Drug",
-                "relations": "Mental_Health-Drug",
+                "relation": "Mental_Health-Drug",
                 "relation_confidence": "1.0"
             },
             {
@@ -392,7 +392,7 @@
                 "ner_chunk2_begin": "453",
                 "ner_chunk2_end": "469",
                 "ner_label2": "Mental_Health",
-                "relations": "Drug-Mental_Health",
+                "relation": "Drug-Mental_Health",
                 "relation_confidence": "1.0"
             }
         ]

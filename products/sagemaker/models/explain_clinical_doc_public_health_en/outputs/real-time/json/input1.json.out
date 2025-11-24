@@ -297,7 +297,7 @@
                 "ner_chunk2_begin": "170",
                 "ner_chunk2_end": "175",
                 "ner_label2": "Substance_Quantity",
-                "relations": "Smoking-Substance_Quantity",
+                "relation": "Smoking-Substance_Quantity",
                 "relation_confidence": "1.0"
             },
             {
@@ -309,7 +309,7 @@
                 "ner_chunk2_begin": "170",
                 "ner_chunk2_end": "175",
                 "ner_label2": "Substance_Quantity",
-                "relations": "Smoking-Substance_Quantity",
+                "relation": "Smoking-Substance_Quantity",
                 "relation_confidence": "1.0"
             },
             {
@@ -321,7 +321,7 @@
                 "ner_chunk2_begin": "385",
                 "ner_chunk2_end": "390",
                 "ner_label2": "BMI",
-                "relations": "Obesity-BMI",
+                "relation": "Obesity-BMI",
                 "relation_confidence": "1.0"
             },
             {
@@ -333,7 +333,7 @@
                 "ner_chunk2_begin": "1256",
                 "ner_chunk2_end": "1267",
                 "ner_label2": "Disease_Syndrome_Disorder",
-                "relations": "Drug-Disease_Syndrome_Disorder",
+                "relation": "Drug-Disease_Syndrome_Disorder",
                 "relation_confidence": "1.0"
             },
             {
@@ -345,7 +345,7 @@
                 "ner_chunk2_begin": "1256",
                 "ner_chunk2_end": "1267",
                 "ner_label2": "Disease_Syndrome_Disorder",
-                "relations": "Drug-Disease_Syndrome_Disorder",
+                "relation": "Drug-Disease_Syndrome_Disorder",
                 "relation_confidence": "1.0"
             }
         ]
