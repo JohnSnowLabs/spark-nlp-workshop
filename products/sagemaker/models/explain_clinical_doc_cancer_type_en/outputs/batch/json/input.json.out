@@ -253,7 +253,7 @@
                 "ner_chunk2_begin": "104",
                 "ner_chunk2_end": "107",
                 "ner_label2": "Tumor_Finding",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.9437938"
             },
             {
@@ -265,7 +265,7 @@
                 "ner_chunk2_begin": "104",
                 "ner_chunk2_end": "107",
                 "ner_label2": "Tumor_Finding",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.9618621"
             },
             {
@@ -277,7 +277,7 @@
                 "ner_chunk2_begin": "104",
                 "ner_chunk2_end": "107",
                 "ner_label2": "Tumor_Finding",
-                "relations": "is_location_of",
+                "relation": "is_location_of",
                 "relation_confidence": "0.921906"
             },
             {
@@ -289,7 +289,7 @@
                 "ner_chunk2_begin": "165",
                 "ner_chunk2_end": "188",
                 "ner_label2": "Pathology_Result",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "0.6371816"
             },
             {
@@ -301,7 +301,7 @@
                 "ner_chunk2_begin": "205",
                 "ner_chunk2_end": "218",
                 "ner_label2": "Cancer_Dx",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "0.52542114"
             },
             {
@@ -313,7 +313,7 @@
                 "ner_chunk2_begin": "290",
                 "ner_chunk2_end": "304",
                 "ner_label2": "Site_Other_Body_Part",
-                "relations": "is_location_of",
+                "relation": "is_location_of",
                 "relation_confidence": "0.8339403"
             },
             {
@@ -325,7 +325,7 @@
                 "ner_chunk2_begin": "307",
                 "ner_chunk2_end": "314",
                 "ner_label2": "Site_Other_Body_Part",
-                "relations": "is_location_of",
+                "relation": "is_location_of",
                 "relation_confidence": "0.63462126"
             },
             {
@@ -337,7 +337,7 @@
                 "ner_chunk2_begin": "317",
                 "ner_chunk2_end": "323",
                 "ner_label2": "Site_Other_Body_Part",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.76050395"
             },
             {
@@ -349,7 +349,7 @@
                 "ner_chunk2_begin": "290",
                 "ner_chunk2_end": "304",
                 "ner_label2": "Site_Other_Body_Part",
-                "relations": "is_location_of",
+                "relation": "is_location_of",
                 "relation_confidence": "0.9026299"
             },
             {
@@ -361,7 +361,7 @@
                 "ner_chunk2_begin": "307",
                 "ner_chunk2_end": "314",
                 "ner_label2": "Site_Other_Body_Part",
-                "relations": "is_location_of",
+                "relation": "is_location_of",
                 "relation_confidence": "0.6649267"
             },
             {
@@ -373,7 +373,7 @@
                 "ner_chunk2_begin": "317",
                 "ner_chunk2_end": "323",
                 "ner_label2": "Site_Other_Body_Part",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.80328876"
             }
         ]
@@ -530,7 +530,7 @@
                 "ner_chunk2_begin": "102",
                 "ner_chunk2_end": "123",
                 "ner_label2": "Cancer_Dx",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.94332063"
             },
             {
@@ -542,7 +542,7 @@
                 "ner_chunk2_begin": "102",
                 "ner_chunk2_end": "123",
                 "ner_label2": "Cancer_Dx",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.96549326"
             },
             {
@@ -554,7 +554,7 @@
                 "ner_chunk2_begin": "48",
                 "ner_chunk2_end": "54",
                 "ner_label2": "Tumor_Finding",
-                "relations": "is_location_of",
+                "relation": "is_location_of",
                 "relation_confidence": "0.93497586"
             },
             {
@@ -566,7 +566,7 @@
                 "ner_chunk2_begin": "86",
                 "ner_chunk2_end": "95",
                 "ner_label2": "Site_Lung",
-                "relations": "is_location_of",
+                "relation": "is_location_of",
                 "relation_confidence": "0.9341804"
             },
             {
@@ -578,7 +578,7 @@
                 "ner_chunk2_begin": "139",
                 "ner_chunk2_end": "147",
                 "ner_label2": "Site_Lung",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.98256713"
             }
         ]
