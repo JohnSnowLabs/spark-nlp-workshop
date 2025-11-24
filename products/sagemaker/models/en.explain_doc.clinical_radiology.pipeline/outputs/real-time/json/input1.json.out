@@ -109,7 +109,7 @@
                 "ner_chunk2_begin": "29",
                 "ner_chunk2_end": "45",
                 "ner_label2": "ImagingFindings",
-                "relations": "is_related",
+                "relation": "is_related",
                 "relation_confidence": "1.0"
             },
             {
@@ -121,7 +121,7 @@
                 "ner_chunk2_begin": "54",
                 "ner_chunk2_end": "64",
                 "ner_label2": "BodyPart",
-                "relations": "is_related",
+                "relation": "is_related",
                 "relation_confidence": "0.99999547"
             },
             {
@@ -133,7 +133,7 @@
                 "ner_chunk2_begin": "54",
                 "ner_chunk2_end": "64",
                 "ner_label2": "BodyPart",
-                "relations": "is_related",
+                "relation": "is_related",
                 "relation_confidence": "0.94614494"
             },
             {
@@ -145,7 +145,7 @@
                 "ner_chunk2_begin": "77",
                 "ner_chunk2_end": "82",
                 "ner_label2": "Measurements",
-                "relations": "is_related",
+                "relation": "is_related",
                 "relation_confidence": "0.9952284"
             },
             {
@@ -157,7 +157,7 @@
                 "ner_chunk2_begin": "115",
                 "ner_chunk2_end": "126",
                 "ner_label2": "ImagingFindings",
-                "relations": "not_related",
+                "relation": "not_related",
                 "relation_confidence": "0.9999999"
             }
         ]
