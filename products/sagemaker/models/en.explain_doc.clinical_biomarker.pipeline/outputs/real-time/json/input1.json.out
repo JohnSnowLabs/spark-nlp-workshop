@@ -138,7 +138,7 @@
                 "ner_chunk2_begin": "97",
                 "ner_chunk2_end": "99",
                 "ner_label2": "Biomarker",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "0.9932805"
             },
             {
@@ -150,7 +150,7 @@
                 "ner_chunk2_begin": "105",
                 "ner_chunk2_end": "108",
                 "ner_label2": "Biomarker",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "0.9988914"
             },
             {
@@ -162,7 +162,7 @@
                 "ner_chunk2_begin": "172",
                 "ner_chunk2_end": "185",
                 "ner_label2": "Biomarker_Result",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "0.90050846"
             },
             {
@@ -174,7 +174,7 @@
                 "ner_chunk2_begin": "201",
                 "ner_chunk2_end": "210",
                 "ner_label2": "Biomarker_Result",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.7407979"
             },
             {
@@ -186,7 +186,7 @@
                 "ner_chunk2_begin": "218",
                 "ner_chunk2_end": "228",
                 "ner_label2": "Biomarker_Result",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.9778502"
             },
             {
@@ -198,7 +198,7 @@
                 "ner_chunk2_begin": "241",
                 "ner_chunk2_end": "250",
                 "ner_label2": "Biomarker_Result",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.9993332"
             },
             {
@@ -210,7 +210,7 @@
                 "ner_chunk2_begin": "190",
                 "ner_chunk2_end": "198",
                 "ner_label2": "Biomarker",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "0.9950375"
             },
             {
@@ -222,7 +222,7 @@
                 "ner_chunk2_begin": "213",
                 "ner_chunk2_end": "215",
                 "ner_label2": "Biomarker",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.81141526"
             },
             {
@@ -234,7 +234,7 @@
                 "ner_chunk2_begin": "235",
                 "ner_chunk2_end": "238",
                 "ner_label2": "Biomarker",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.9064728"
             },
             {
@@ -246,7 +246,7 @@
                 "ner_chunk2_begin": "201",
                 "ner_chunk2_end": "210",
                 "ner_label2": "Biomarker_Result",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "0.9818734"
             },
             {
@@ -258,7 +258,7 @@
                 "ner_chunk2_begin": "218",
                 "ner_chunk2_end": "228",
                 "ner_label2": "Biomarker_Result",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "0.54173946"
             },
             {
@@ -270,7 +270,7 @@
                 "ner_chunk2_begin": "241",
                 "ner_chunk2_end": "250",
                 "ner_label2": "Biomarker_Result",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.952869"
             },
             {
@@ -282,7 +282,7 @@
                 "ner_chunk2_begin": "213",
                 "ner_chunk2_end": "215",
                 "ner_label2": "Biomarker",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.9998766"
             },
             {
@@ -294,7 +294,7 @@
                 "ner_chunk2_begin": "235",
                 "ner_chunk2_end": "238",
                 "ner_label2": "Biomarker",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.9999279"
             },
             {
@@ -306,7 +306,7 @@
                 "ner_chunk2_begin": "218",
                 "ner_chunk2_end": "228",
                 "ner_label2": "Biomarker_Result",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "0.9881728"
             },
             {
@@ -318,7 +318,7 @@
                 "ner_chunk2_begin": "241",
                 "ner_chunk2_end": "250",
                 "ner_label2": "Biomarker_Result",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.98150694"
             },
             {
@@ -330,7 +330,7 @@
                 "ner_chunk2_begin": "235",
                 "ner_chunk2_end": "238",
                 "ner_label2": "Biomarker",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.99992144"
             },
             {
@@ -342,7 +342,7 @@
                 "ner_chunk2_begin": "241",
                 "ner_chunk2_end": "250",
                 "ner_label2": "Biomarker_Result",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "0.9957568"
             },
             {
@@ -354,7 +354,7 @@
                 "ner_chunk2_begin": "311",
                 "ner_chunk2_end": "315",
                 "ner_label2": "Biomarker",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "0.8663684"
             },
             {
@@ -366,7 +366,7 @@
                 "ner_chunk2_begin": "318",
                 "ner_chunk2_end": "320",
                 "ner_label2": "Biomarker",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "0.8959994"
             },
             {
@@ -378,7 +378,7 @@
                 "ner_chunk2_begin": "349",
                 "ner_chunk2_end": "353",
                 "ner_label2": "Biomarker",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.9821239"
             },
             {
@@ -390,7 +390,7 @@
                 "ner_chunk2_begin": "388",
                 "ner_chunk2_end": "390",
                 "ner_label2": "Biomarker",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.99950695"
             },
             {
@@ -402,7 +402,7 @@
                 "ner_chunk2_begin": "327",
                 "ner_chunk2_end": "334",
                 "ner_label2": "Biomarker_Result",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.9834041"
             },
             {
@@ -414,7 +414,7 @@
                 "ner_chunk2_begin": "359",
                 "ner_chunk2_end": "382",
                 "ner_label2": "Biomarker_Result",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.999496"
             },
             {
@@ -426,7 +426,7 @@
                 "ner_chunk2_begin": "327",
                 "ner_chunk2_end": "334",
                 "ner_label2": "Biomarker_Result",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.9339211"
             },
             {
@@ -438,7 +438,7 @@
                 "ner_chunk2_begin": "359",
                 "ner_chunk2_end": "382",
                 "ner_label2": "Biomarker_Result",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.9994236"
             },
             {
@@ -450,7 +450,7 @@
                 "ner_chunk2_begin": "349",
                 "ner_chunk2_end": "353",
                 "ner_label2": "Biomarker",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "0.99416393"
             },
             {
@@ -462,7 +462,7 @@
                 "ner_chunk2_begin": "388",
                 "ner_chunk2_end": "390",
                 "ner_label2": "Biomarker",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.85932535"
             },
             {
@@ -474,7 +474,7 @@
                 "ner_chunk2_begin": "359",
                 "ner_chunk2_end": "382",
                 "ner_label2": "Biomarker_Result",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.9996277"
             },
             {
@@ -486,7 +486,7 @@
                 "ner_chunk2_begin": "388",
                 "ner_chunk2_end": "390",
                 "ner_label2": "Biomarker",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "0.98843086"
             }
         ],
