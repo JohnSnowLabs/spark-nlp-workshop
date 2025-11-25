@@ -402,7 +402,7 @@
                 "ner_chunk2_begin": "373",
                 "ner_chunk2_end": "380",
                 "ner_label2": "Dosage",
-                "relations": "Chemotherapy-Dosage",
+                "relation": "Chemotherapy-Dosage",
                 "relation_confidence": "1.0"
             },
             {
@@ -414,7 +414,7 @@
                 "ner_chunk2_begin": "385",
                 "ner_chunk2_end": "389",
                 "ner_label2": "Cycle_Day",
-                "relations": "Chemotherapy-Cycle_Day",
+                "relation": "Chemotherapy-Cycle_Day",
                 "relation_confidence": "1.0"
             },
             {
@@ -426,7 +426,7 @@
                 "ner_chunk2_begin": "416",
                 "ner_chunk2_end": "424",
                 "ner_label2": "Dosage",
-                "relations": "Chemotherapy-Dosage",
+                "relation": "Chemotherapy-Dosage",
                 "relation_confidence": "1.0"
             },
             {
@@ -438,7 +438,7 @@
                 "ner_chunk2_begin": "429",
                 "ner_chunk2_end": "436",
                 "ner_label2": "Cycle_Day",
-                "relations": "Chemotherapy-Cycle_Day",
+                "relation": "Chemotherapy-Cycle_Day",
                 "relation_confidence": "1.0"
             },
             {
@@ -450,7 +450,7 @@
                 "ner_chunk2_begin": "406",
                 "ner_chunk2_end": "414",
                 "ner_label2": "Chemotherapy",
-                "relations": "Dosage-Chemotherapy",
+                "relation": "Dosage-Chemotherapy",
                 "relation_confidence": "1.0"
             },
             {
@@ -462,7 +462,7 @@
                 "ner_chunk2_begin": "406",
                 "ner_chunk2_end": "414",
                 "ner_label2": "Chemotherapy",
-                "relations": "Cycle_Day-Chemotherapy",
+                "relation": "Cycle_Day-Chemotherapy",
                 "relation_confidence": "1.0"
             },
             {
@@ -474,7 +474,7 @@
                 "ner_chunk2_begin": "416",
                 "ner_chunk2_end": "424",
                 "ner_label2": "Dosage",
-                "relations": "Chemotherapy-Dosage",
+                "relation": "Chemotherapy-Dosage",
                 "relation_confidence": "1.0"
             },
             {
@@ -486,7 +486,7 @@
                 "ner_chunk2_begin": "429",
                 "ner_chunk2_end": "436",
                 "ner_label2": "Cycle_Day",
-                "relations": "Chemotherapy-Cycle_Day",
+                "relation": "Chemotherapy-Cycle_Day",
                 "relation_confidence": "1.0"
             },
             {
@@ -498,7 +498,7 @@
                 "ner_chunk2_begin": "146",
                 "ner_chunk2_end": "149",
                 "ner_label2": "Tumor_Finding",
-                "relations": "is_size_of",
+                "relation": "is_size_of",
                 "relation_confidence": "0.96841204"
             },
             {
@@ -510,7 +510,7 @@
                 "ner_chunk2_begin": "146",
                 "ner_chunk2_end": "149",
                 "ner_label2": "Tumor_Finding",
-                "relations": "is_location_of",
+                "relation": "is_location_of",
                 "relation_confidence": "0.929259"
             },
             {
@@ -522,7 +522,7 @@
                 "ner_chunk2_begin": "589",
                 "ner_chunk2_end": "592",
                 "ner_label2": "Cancer_Dx",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.7123487"
             },
             {
@@ -534,7 +534,7 @@
                 "ner_chunk2_begin": "589",
                 "ner_chunk2_end": "592",
                 "ner_label2": "Cancer_Dx",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "0.7382082"
             },
             {
@@ -546,7 +546,7 @@
                 "ner_chunk2_begin": "600",
                 "ner_chunk2_end": "609",
                 "ner_label2": "Site_Lymph_Node",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.9569611"
             },
             {
@@ -558,7 +558,7 @@
                 "ner_chunk2_begin": "684",
                 "ner_chunk2_end": "690",
                 "ner_label2": "Biomarker",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "0.9118767"
             },
             {
@@ -570,7 +570,7 @@
                 "ner_chunk2_begin": "693",
                 "ner_chunk2_end": "697",
                 "ner_label2": "Biomarker",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "0.9033633"
             },
             {
@@ -582,7 +582,7 @@
                 "ner_chunk2_begin": "700",
                 "ner_chunk2_end": "713",
                 "ner_label2": "Biomarker",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "0.88598865"
             },
             {
@@ -594,7 +594,7 @@
                 "ner_chunk2_begin": "720",
                 "ner_chunk2_end": "732",
                 "ner_label2": "Biomarker",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "0.7201675"
             },
             {
@@ -606,7 +606,7 @@
                 "ner_chunk2_begin": "756",
                 "ner_chunk2_end": "761",
                 "ner_label2": "Tumor_Finding",
-                "relations": "is_location_of",
+                "relation": "is_location_of",
                 "relation_confidence": "0.9324136"
             },
             {
@@ -618,7 +618,7 @@
                 "ner_chunk2_begin": "839",
                 "ner_chunk2_end": "853",
                 "ner_label2": "Tumor_Finding",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.9877203"
             },
             {
@@ -630,7 +630,7 @@
                 "ner_chunk2_begin": "775",
                 "ner_chunk2_end": "784",
                 "ner_label2": "Site_Lung",
-                "relations": "is_location_of",
+                "relation": "is_location_of",
                 "relation_confidence": "0.9326239"
             },
             {
@@ -642,7 +642,7 @@
                 "ner_chunk2_begin": "839",
                 "ner_chunk2_end": "853",
                 "ner_label2": "Tumor_Finding",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.9699064"
             }
         ]

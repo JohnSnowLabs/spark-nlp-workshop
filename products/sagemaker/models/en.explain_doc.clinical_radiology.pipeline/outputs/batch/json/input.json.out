@@ -161,7 +161,7 @@
                 "ner_chunk2_begin": "119",
                 "ner_chunk2_end": "123",
                 "ner_label2": "ImagingFindings",
-                "relations": "not_related",
+                "relation": "not_related",
                 "relation_confidence": "0.947544"
             },
             {
@@ -173,7 +173,7 @@
                 "ner_chunk2_begin": "251",
                 "ner_chunk2_end": "264",
                 "ner_label2": "BodyPart",
-                "relations": "is_related",
+                "relation": "is_related",
                 "relation_confidence": "0.99999964"
             }
         ]
@@ -318,7 +318,7 @@
                 "ner_chunk2_begin": "17",
                 "ner_chunk2_end": "26",
                 "ner_label2": "Imaging_Test",
-                "relations": "is_related",
+                "relation": "is_related",
                 "relation_confidence": "1.0"
             },
             {
@@ -330,7 +330,7 @@
                 "ner_chunk2_begin": "78",
                 "ner_chunk2_end": "87",
                 "ner_label2": "ImagingFindings",
-                "relations": "is_related",
+                "relation": "is_related",
                 "relation_confidence": "0.99999714"
             },
             {
@@ -342,7 +342,7 @@
                 "ner_chunk2_begin": "78",
                 "ner_chunk2_end": "87",
                 "ner_label2": "ImagingFindings",
-                "relations": "is_related",
+                "relation": "is_related",
                 "relation_confidence": "0.99956936"
             },
             {
@@ -354,7 +354,7 @@
                 "ner_chunk2_begin": "113",
                 "ner_chunk2_end": "130",
                 "ner_label2": "Measurements",
-                "relations": "is_related",
+                "relation": "is_related",
                 "relation_confidence": "1.0"
             },
             {
@@ -366,7 +366,7 @@
                 "ner_chunk2_begin": "257",
                 "ner_chunk2_end": "271",
                 "ner_label2": "BodyPart",
-                "relations": "is_related",
+                "relation": "is_related",
                 "relation_confidence": "0.9976392"
             },
             {
@@ -378,7 +378,7 @@
                 "ner_chunk2_begin": "257",
                 "ner_chunk2_end": "271",
                 "ner_label2": "BodyPart",
-                "relations": "is_related",
+                "relation": "is_related",
                 "relation_confidence": "0.9999993"
             }
         ]

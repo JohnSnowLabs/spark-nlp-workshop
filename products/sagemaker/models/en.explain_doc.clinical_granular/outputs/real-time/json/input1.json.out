@@ -169,7 +169,7 @@
                 "ner_chunk2_begin": "113",
                 "ner_chunk2_end": "126",
                 "ner_label2": "Test",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "1.0"
             },
             {
@@ -181,7 +181,7 @@
                 "ner_chunk2_begin": "149",
                 "ner_chunk2_end": "158",
                 "ner_label2": "Date",
-                "relations": "is_date_of",
+                "relation": "is_date_of",
                 "relation_confidence": "1.0"
             },
             {
@@ -193,7 +193,7 @@
                 "ner_chunk2_begin": "149",
                 "ner_chunk2_end": "158",
                 "ner_label2": "Date",
-                "relations": "is_date_of",
+                "relation": "is_date_of",
                 "relation_confidence": "1.0"
             },
             {
@@ -205,7 +205,7 @@
                 "ner_chunk2_begin": "220",
                 "ner_chunk2_end": "225",
                 "ner_label2": "Test_Result",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "0.9999862"
             },
             {
@@ -217,7 +217,7 @@
                 "ner_chunk2_begin": "258",
                 "ner_chunk2_end": "280",
                 "ner_label2": "Heart_Disease",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "1.0"
             },
             {
@@ -229,7 +229,7 @@
                 "ner_chunk2_begin": "227",
                 "ner_chunk2_end": "251",
                 "ner_label2": "Test",
-                "relations": "is_result_of",
+                "relation": "is_result_of",
                 "relation_confidence": "1.0"
             },
             {
@@ -241,7 +241,7 @@
                 "ner_chunk2_begin": "258",
                 "ner_chunk2_end": "280",
                 "ner_label2": "Heart_Disease",
-                "relations": "is_finding_of",
+                "relation": "is_finding_of",
                 "relation_confidence": "0.99999976"
             }
         ]

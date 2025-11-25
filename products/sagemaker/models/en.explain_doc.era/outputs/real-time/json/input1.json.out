@@ -239,7 +239,7 @@
                 "ner_chunk2_begin": "19",
                 "ner_chunk2_end": "43",
                 "ner_label2": "CLINICAL_DEPT",
-                "relations": "AFTER",
+                "relation": "AFTER",
                 "relation_confidence": "0.9621104"
             },
             {
@@ -251,7 +251,7 @@
                 "ner_chunk2_begin": "45",
                 "ner_chunk2_end": "54",
                 "ner_label2": "DATE",
-                "relations": "OVERLAP",
+                "relation": "OVERLAP",
                 "relation_confidence": "0.99970835"
             },
             {
@@ -263,7 +263,7 @@
                 "ner_chunk2_begin": "74",
                 "ner_chunk2_end": "102",
                 "ner_label2": "PROBLEM",
-                "relations": "BEFORE",
+                "relation": "BEFORE",
                 "relation_confidence": "0.99985516"
             },
             {
@@ -275,7 +275,7 @@
                 "ner_chunk2_begin": "45",
                 "ner_chunk2_end": "54",
                 "ner_label2": "DATE",
-                "relations": "OVERLAP",
+                "relation": "OVERLAP",
                 "relation_confidence": "0.85771245"
             },
             {
@@ -287,7 +287,7 @@
                 "ner_chunk2_begin": "74",
                 "ner_chunk2_end": "102",
                 "ner_label2": "PROBLEM",
-                "relations": "BEFORE",
+                "relation": "BEFORE",
                 "relation_confidence": "0.90553373"
             },
             {
@@ -299,7 +299,7 @@
                 "ner_chunk2_begin": "74",
                 "ner_chunk2_end": "102",
                 "ner_label2": "PROBLEM",
-                "relations": "OVERLAP",
+                "relation": "OVERLAP",
                 "relation_confidence": "0.91259193"
             },
             {
@@ -311,7 +311,7 @@
                 "ner_chunk2_begin": "126",
                 "ner_chunk2_end": "129",
                 "ner_label2": "PROBLEM",
-                "relations": "BEFORE",
+                "relation": "BEFORE",
                 "relation_confidence": "0.9999995"
             },
             {
@@ -323,7 +323,7 @@
                 "ner_chunk2_begin": "135",
                 "ner_chunk2_end": "146",
                 "ner_label2": "PROBLEM",
-                "relations": "BEFORE",
+                "relation": "BEFORE",
                 "relation_confidence": "1.0"
             },
             {
@@ -335,7 +335,7 @@
                 "ner_chunk2_begin": "135",
                 "ner_chunk2_end": "146",
                 "ner_label2": "PROBLEM",
-                "relations": "OVERLAP",
+                "relation": "OVERLAP",
                 "relation_confidence": "1.0"
             },
             {
@@ -347,7 +347,7 @@
                 "ner_chunk2_begin": "203",
                 "ner_chunk2_end": "212",
                 "ner_label2": "OCCURRENCE",
-                "relations": "OVERLAP",
+                "relation": "OVERLAP",
                 "relation_confidence": "0.58700085"
             },
             {
@@ -359,7 +359,7 @@
                 "ner_chunk2_begin": "217",
                 "ner_chunk2_end": "226",
                 "ner_label2": "DATE",
-                "relations": "OVERLAP",
+                "relation": "OVERLAP",
                 "relation_confidence": "0.9934176"
             },
             {
@@ -371,7 +371,7 @@
                 "ner_chunk2_begin": "243",
                 "ner_chunk2_end": "258",
                 "ner_label2": "TREATMENT",
-                "relations": "OVERLAP",
+                "relation": "OVERLAP",
                 "relation_confidence": "0.81412697"
             },
             {
@@ -383,7 +383,7 @@
                 "ner_chunk2_begin": "273",
                 "ner_chunk2_end": "286",
                 "ner_label2": "TREATMENT",
-                "relations": "OVERLAP",
+                "relation": "OVERLAP",
                 "relation_confidence": "0.99916553"
             },
             {
@@ -395,7 +395,7 @@
                 "ner_chunk2_begin": "293",
                 "ner_chunk2_end": "301",
                 "ner_label2": "TREATMENT",
-                "relations": "OVERLAP",
+                "relation": "OVERLAP",
                 "relation_confidence": "0.9987596"
             },
             {
@@ -407,7 +407,7 @@
                 "ner_chunk2_begin": "311",
                 "ner_chunk2_end": "325",
                 "ner_label2": "FREQUENCY",
-                "relations": "OVERLAP",
+                "relation": "OVERLAP",
                 "relation_confidence": "0.99342334"
             },
             {
@@ -419,7 +419,7 @@
                 "ner_chunk2_begin": "217",
                 "ner_chunk2_end": "226",
                 "ner_label2": "DATE",
-                "relations": "OVERLAP",
+                "relation": "OVERLAP",
                 "relation_confidence": "1.0"
             },
             {
@@ -431,7 +431,7 @@
                 "ner_chunk2_begin": "243",
                 "ner_chunk2_end": "258",
                 "ner_label2": "TREATMENT",
-                "relations": "BEFORE",
+                "relation": "BEFORE",
                 "relation_confidence": "0.50815845"
             },
             {
@@ -443,7 +443,7 @@
                 "ner_chunk2_begin": "273",
                 "ner_chunk2_end": "286",
                 "ner_label2": "TREATMENT",
-                "relations": "AFTER",
+                "relation": "AFTER",
                 "relation_confidence": "0.9454373"
             },
             {
@@ -455,7 +455,7 @@
                 "ner_chunk2_begin": "293",
                 "ner_chunk2_end": "301",
                 "ner_label2": "TREATMENT",
-                "relations": "AFTER",
+                "relation": "AFTER",
                 "relation_confidence": "0.99802953"
             },
             {
@@ -467,7 +467,7 @@
                 "ner_chunk2_begin": "311",
                 "ner_chunk2_end": "325",
                 "ner_label2": "FREQUENCY",
-                "relations": "OVERLAP",
+                "relation": "OVERLAP",
                 "relation_confidence": "0.6045001"
             },
             {
@@ -479,7 +479,7 @@
                 "ner_chunk2_begin": "243",
                 "ner_chunk2_end": "258",
                 "ner_label2": "TREATMENT",
-                "relations": "OVERLAP",
+                "relation": "OVERLAP",
                 "relation_confidence": "0.9542913"
             },
             {
@@ -491,7 +491,7 @@
                 "ner_chunk2_begin": "273",
                 "ner_chunk2_end": "286",
                 "ner_label2": "TREATMENT",
-                "relations": "OVERLAP",
+                "relation": "OVERLAP",
                 "relation_confidence": "0.99488455"
             },
             {
@@ -503,7 +503,7 @@
                 "ner_chunk2_begin": "293",
                 "ner_chunk2_end": "301",
                 "ner_label2": "TREATMENT",
-                "relations": "AFTER",
+                "relation": "AFTER",
                 "relation_confidence": "0.6547407"
             },
             {
@@ -515,7 +515,7 @@
                 "ner_chunk2_begin": "311",
                 "ner_chunk2_end": "325",
                 "ner_label2": "FREQUENCY",
-                "relations": "OVERLAP",
+                "relation": "OVERLAP",
                 "relation_confidence": "0.9954657"
             },
             {
@@ -527,7 +527,7 @@
                 "ner_chunk2_begin": "273",
                 "ner_chunk2_end": "286",
                 "ner_label2": "TREATMENT",
-                "relations": "OVERLAP",
+                "relation": "OVERLAP",
                 "relation_confidence": "1.0"
             },
             {
@@ -539,7 +539,7 @@
                 "ner_chunk2_begin": "293",
                 "ner_chunk2_end": "301",
                 "ner_label2": "TREATMENT",
-                "relations": "OVERLAP",
+                "relation": "OVERLAP",
                 "relation_confidence": "0.99999654"
             },
             {
@@ -551,7 +551,7 @@
                 "ner_chunk2_begin": "311",
                 "ner_chunk2_end": "325",
                 "ner_label2": "FREQUENCY",
-                "relations": "OVERLAP",
+                "relation": "OVERLAP",
                 "relation_confidence": "0.9479991"
             },
             {
@@ -563,7 +563,7 @@
                 "ner_chunk2_begin": "293",
                 "ner_chunk2_end": "301",
                 "ner_label2": "TREATMENT",
-                "relations": "OVERLAP",
+                "relation": "OVERLAP",
                 "relation_confidence": "1.0"
             },
             {
@@ -575,7 +575,7 @@
                 "ner_chunk2_begin": "311",
                 "ner_chunk2_end": "325",
                 "ner_label2": "FREQUENCY",
-                "relations": "OVERLAP",
+                "relation": "OVERLAP",
                 "relation_confidence": "1.0"
             },
             {
@@ -587,7 +587,7 @@
                 "ner_chunk2_begin": "311",
                 "ner_chunk2_end": "325",
                 "ner_label2": "FREQUENCY",
-                "relations": "OVERLAP",
+                "relation": "OVERLAP",
                 "relation_confidence": "1.0"
             }
         ]

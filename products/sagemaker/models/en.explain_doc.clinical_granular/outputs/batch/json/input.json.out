@@ -421,7 +421,7 @@
                 "ner_chunk2_begin": "376",
                 "ner_chunk2_end": "394",
                 "ner_label2": "Symptom",
-                "relations": "is_date_of",
+                "relation": "is_date_of",
                 "relation_confidence": "1.0"
             },
             {
@@ -433,7 +433,7 @@
                 "ner_chunk2_begin": "417",
                 "ner_chunk2_end": "423",
                 "ner_label2": "Drug_BrandName",
-                "relations": "is_date_of",
+                "relation": "is_date_of",
                 "relation_confidence": "0.99803644"
             },
             {
@@ -445,7 +445,7 @@
                 "ner_chunk2_begin": "647",
                 "ner_chunk2_end": "666",
                 "ner_label2": "RelativeDate",
-                "relations": "O",
+                "relation": "O",
                 "relation_confidence": "1.0"
             },
             {
@@ -457,7 +457,7 @@
                 "ner_chunk2_begin": "647",
                 "ner_chunk2_end": "666",
                 "ner_label2": "RelativeDate",
-                "relations": "is_date_of",
+                "relation": "is_date_of",
                 "relation_confidence": "1.0"
             }
         ]
@@ -738,7 +738,7 @@
                 "ner_chunk2_begin": "213",
                 "ner_chunk2_end": "222",
                 "ner_label2": "Symptom",
-                "relations": "is_date_of",
+                "relation": "is_date_of",
                 "relation_confidence": "1.0"
             },
             {
@@ -750,7 +750,7 @@
                 "ner_chunk2_begin": "232",
                 "ner_chunk2_end": "240",
                 "ner_label2": "RelativeDate",
-                "relations": "is_date_of",
+                "relation": "is_date_of",
                 "relation_confidence": "1.0"
             },
             {
@@ -762,7 +762,7 @@
                 "ner_chunk2_begin": "314",
                 "ner_chunk2_end": "326",
                 "ner_label2": "Strength",
-                "relations": "Drug_Ingredient-Strength",
+                "relation": "Drug_Ingredient-Strength",
                 "relation_confidence": "1.0"
             },
             {
@@ -774,7 +774,7 @@
                 "ner_chunk2_begin": "328",
                 "ner_chunk2_end": "331",
                 "ner_label2": "Frequency",
-                "relations": "Drug_Ingredient-Frequency",
+                "relation": "Drug_Ingredient-Frequency",
                 "relation_confidence": "1.0"
             },
             {
@@ -786,7 +786,7 @@
                 "ner_chunk2_begin": "342",
                 "ner_chunk2_end": "349",
                 "ner_label2": "Dosage",
-                "relations": "Drug_Ingredient-Dosage",
+                "relation": "Drug_Ingredient-Dosage",
                 "relation_confidence": "1.0"
             },
             {
@@ -798,7 +798,7 @@
                 "ner_chunk2_begin": "334",
                 "ner_chunk2_end": "340",
                 "ner_label2": "Drug_Ingredient",
-                "relations": "Strength-Drug_Ingredient",
+                "relation": "Strength-Drug_Ingredient",
                 "relation_confidence": "1.0"
             },
             {
@@ -810,7 +810,7 @@
                 "ner_chunk2_begin": "334",
                 "ner_chunk2_end": "340",
                 "ner_label2": "Drug_Ingredient",
-                "relations": "Frequency-Drug_Ingredient",
+                "relation": "Frequency-Drug_Ingredient",
                 "relation_confidence": "1.0"
             },
             {
@@ -822,7 +822,7 @@
                 "ner_chunk2_begin": "342",
                 "ner_chunk2_end": "349",
                 "ner_label2": "Dosage",
-                "relations": "Drug_Ingredient-Dosage",
+                "relation": "Drug_Ingredient-Dosage",
                 "relation_confidence": "1.0"
             },
             {
@@ -834,7 +834,7 @@
                 "ner_chunk2_begin": "351",
                 "ner_chunk2_end": "356",
                 "ner_label2": "Frequency",
-                "relations": "Drug_Ingredient-Frequency",
+                "relation": "Drug_Ingredient-Frequency",
                 "relation_confidence": "1.0"
             },
             {
@@ -846,7 +846,7 @@
                 "ner_chunk2_begin": "364",
                 "ner_chunk2_end": "368",
                 "ner_label2": "Strength",
-                "relations": "Drug_Ingredient-Strength",
+                "relation": "Drug_Ingredient-Strength",
                 "relation_confidence": "1.0"
             },
             {
@@ -858,7 +858,7 @@
                 "ner_chunk2_begin": "370",
                 "ner_chunk2_end": "373",
                 "ner_label2": "Frequency",
-                "relations": "Drug_Ingredient-Frequency",
+                "relation": "Drug_Ingredient-Frequency",
                 "relation_confidence": "1.0"
             },
             {
@@ -870,7 +870,7 @@
                 "ner_chunk2_begin": "390",
                 "ner_chunk2_end": "394",
                 "ner_label2": "Strength",
-                "relations": "Drug_Ingredient-Strength",
+                "relation": "Drug_Ingredient-Strength",
                 "relation_confidence": "1.0"
             },
             {
@@ -882,7 +882,7 @@
                 "ner_chunk2_begin": "396",
                 "ner_chunk2_end": "407",
                 "ner_label2": "Route",
-                "relations": "Drug_Ingredient-Route",
+                "relation": "Drug_Ingredient-Route",
                 "relation_confidence": "1.0"
             },
             {
@@ -894,7 +894,7 @@
                 "ner_chunk2_begin": "409",
                 "ner_chunk2_end": "411",
                 "ner_label2": "Frequency",
-                "relations": "Drug_Ingredient-Frequency",
+                "relation": "Drug_Ingredient-Frequency",
                 "relation_confidence": "1.0"
             }
         ]
