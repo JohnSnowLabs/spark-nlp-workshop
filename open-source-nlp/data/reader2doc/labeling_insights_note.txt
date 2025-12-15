@@ -1,0 +1,2 @@
+Today I realized that most of our predictive errors come not from the model, but from inconsistent data labeling.
+Before tuning hyperparameters, we should probably tune our definitions.
