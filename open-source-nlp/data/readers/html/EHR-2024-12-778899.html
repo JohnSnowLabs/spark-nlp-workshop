@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Patient Summary Dashboard - KIM, DAVID</title>
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .patient-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #fffbeb;
+            border-bottom: 3px solid #fcd34d;
+        }
+        
+        .info-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-left: 4px solid #f59e0b;
+        }
+        
+        .info-card h3 {
+            color: #2d3748;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        
+        .info-card p {
+            font-size: 18px;
+            font-weight: 600;
+            color: #4a5568;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #2d3748;
+            font-size: 24px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        
+        .diagnosis-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+        
+        .diagnosis-item {
+            background: #fffbeb;
+            border-left: 4px solid #f59e0b;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        .diagnosis-item.chronic {
+            background: #fef3c7;
+            border-left-color: #d97706;
+        }
+        
+        .diagnosis-item h4 {
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+        
+        .diagnosis-item p {
+            font-size: 14px;
+            color: #718096;
+            margin-bottom: 4px;
+        }
+        
+        .alert {
+            background: #fef5e7;
+            border-left: 4px solid #f39c12;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .alert.warning {
+            background: #fff3cd;
+            border-left-color: #ff6b6b;
+        }
+        
+        .alert h4 {
+            color: #d68910;
+            margin-bottom: 8px;
+        }
+        
+        .alert.warning h4 {
+            color: #c92a2a;
+        }
+        
+        .alert p {
+            color: #7c5d10;
+            font-size: 14px;
+        }
+        
+        .alert.warning p {
+            color: #862e19;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 40px;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #cbd5e0;
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 30px;
+            padding-left: 20px;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -34px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #f59e0b;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px #f59e0b;
+        }
+        
+        .timeline-item.critical::before {
+            background: #dc2626;
+            box-shadow: 0 0 0 2px #dc2626;
+        }
+        
+        .timeline-date {
+            font-weight: 600;
+            color: #f59e0b;
+            margin-bottom: 5px;
+        }
+        
+        .timeline-content {
+            background: #f7fafc;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .timeline-content h4 {
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+        
+        .timeline-content p {
+            font-size: 14px;
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 6px;
+        }
+        
+        .lab-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        
+        .lab-table th {
+            background: #d97706;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .lab-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .lab-table tr:hover {
+            background: #fffbeb;
+        }
+        
+        .lab-table td strong {
+            font-weight: 700;
+            color: #2d3748;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .status-normal {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+        
+        .status-abnormal {
+            background: #fed7d7;
+            color: #742a2a;
+        }
+        
+        .status-elevated {
+            background: #feebc8;
+            color: #7c2d12;
+        }
+        
+        .followup-list {
+            background: #f7fafc;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .followup-list ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .followup-list li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            color: #4a5568;
+        }
+        
+        .followup-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #48bb78;
+            font-weight: bold;
+        }
+        
+        .appointment-card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-left: 4px solid #f59e0b;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        
+        .appointment-card h4 {
+            color: #2d3748;
+            margin-bottom: 5px;
+        }
+        
+        .appointment-card p {
+            font-size: 14px;
+            color: #718096;
+        }
+        
+        .footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>PATIENT MEDICAL SUMMARY</h1>
+<p>Metropolitan Cancer Center | Hepatobiliary &amp; Pancreatic Oncology Department</p>
+<p>Generated: December 15, 2024 | Report ID: EHR-2024-12-778899</p>
+</div>
+<div class="patient-info">
+<div class="info-card">
+<h3>Patient Name</h3>
+<p>KIM, DAVID</p>
+</div>
+<div class="info-card">
+<h3>Medical Record Number</h3>
+<p>MRN-2024-778899</p>
+</div>
+<div class="info-card">
+<h3>Date of Birth</h3>
+<p>05/20/1956 (68 years)</p>
+</div>
+<div class="info-card">
+<h3>Sex</h3>
+<p>Male</p>
+</div>
+<div class="info-card">
+<h3>Primary Physician</h3>
+<p>Dr. James Park, MD</p>
+</div>
+<div class="info-card">
+<h3>Last Visit</h3>
+<p>12/15/2024</p>
+</div>
+</div>
+<div class="content">
+<!-- Active Diagnoses -->
+<div class="section">
+<h2>🔴 Active &amp; Chronic Diagnoses</h2>
+<div class="diagnosis-list">
+<div class="diagnosis-item">
+<nav><a href="#pancreatic-ductal-adenocarcinoma">Pancreatic Ductal Adenocarcinoma (Active)</a></nav>
+<p><strong>Stage:</strong> IIA (T3N0M0) - Borderline Resectable</p>
+<p><strong>Location:</strong> Head of pancreas</p>
+<p><strong>Size:</strong> 3.2 cm mass</p>
+<p><strong>Vascular Involvement:</strong> &lt;180° contact with superior mesenteric artery (SMA)</p>
+<p><strong>Diagnosed:</strong> August 2024</p>
+<p><strong>Status:</strong> Post-neoadjuvant FOLFIRINOX, awaiting Whipple procedure</p>
+<p><strong>Resectability:</strong> Converted from borderline to resectable after neoadjuvant therapy</p>
+</div>
+<div class="diagnosis-item chronic">
+<nav><a href="#type-2-diabetes-mellitus">Type 2 Diabetes Mellitus (New-Onset)</a></nav>
+<p><strong>Diagnosed:</strong> July 2024 (concurrent with pancreatic cancer)</p>
+<p><strong>HbA1c:</strong> 7.8% at diagnosis</p>
+<p><strong>Etiology:</strong> Likely pancreatic cancer-related (pancreatic exocrine insufficiency)</p>
+<p><strong>Status:</strong> Controlled on metformin and insulin</p>
+</div>
+<div class="diagnosis-item chronic">
+<nav><a href="#coronary-artery-disease">Coronary Artery Disease</a></nav>
+<p><strong>Diagnosed:</strong> 2018</p>
+<p><strong>History:</strong> Prior PCI with stent to LAD (2018)</p>
+<p><strong>Status:</strong> Stable on dual antiplatelet therapy</p>
+</div>
+<div class="diagnosis-item chronic">
+<nav><a href="#essential-hypertension">Essential Hypertension</a></nav>
+<p><strong>Diagnosed:</strong> 2012</p>
+<p><strong>Status:</strong> Well-controlled on lisinopril</p>
+</div>
+</div>
+<div class="alert warning">
+<h4>⚠️ Borderline Resectable Disease Successfully Downstaged</h4>
+<p><strong>Initial Assessment:</strong> 3.2 cm pancreatic head mass with &lt;180° SMA contact (borderline resectable). <strong>Post-Neoadjuvant Imaging:</strong> Tumor decreased to 2.4 cm, improved SMA contact, now surgically resectable. Excellent response to FOLFIRINOX chemotherapy. Whipple procedure (pancreaticoduodenectomy) scheduled.</p>
+</div>
+<div class="alert">
+<h4>🧬 Molecular Testing: KRAS G12D Mutation</h4>
+<p><strong>Mutation:</strong> KRAS G12D (most common KRAS mutation in pancreatic cancer, present in ~40% of cases). Currently no FDA-approved targeted therapy for KRAS G12D (unlike KRAS G12C). Wild-type for other actionable mutations. Standard chemotherapy remains the treatment of choice.</p>
+</div>
+</div>
+<!-- Treatment Timeline -->
+<div class="section">
+<h2>📅 Treatment Timeline</h2>
+<div class="timeline">
+<div class="timeline-item">
+<div class="timeline-date">June 2024</div>
+<div class="timeline-content">
+<h4>Initial Symptoms</h4>
+<p><strong>Symptoms:</strong> Painless jaundice (yellowing of eyes and skin), dark urine, pale stools, unintentional weight loss (15 lbs over 2 months)</p>
+<p><strong>Action:</strong> Presented to primary care physician</p>
+</div>
+</div>
+<div class="timeline-item" id="pancreatic-ductal-adenocarcinoma">
+<div class="timeline-date">July 8, 2024</div>
+<div class="timeline-content">
+<h4>Initial Workup</h4>
+<p><strong>Physical Exam:</strong> Jaundice, palpable gallbladder (Courvoisier sign)</p>
+<p><strong>Labs:</strong> Total bilirubin 8.5 mg/dL (markedly elevated), alkaline phosphatase 450 U/L, CA 19-9 450 U/mL</p>
+<p><strong>CT Abdomen:</strong> 3.2 cm mass in pancreatic head, dilated common bile duct (12 mm), dilated pancreatic duct</p>
+<p><strong>Outcome:</strong> Urgent referral to gastroenterology for ERCP</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">July 12, 2024</div>
+<div class="timeline-content">
+<h4>ERCP with Biliary Stent Placement</h4>
+<p><strong>Procedure:</strong> Endoscopic retrograde cholangiopancreatography (ERCP)</p>
+<p><strong>Findings:</strong> Distal common bile duct stricture, dilated proximal biliary tree</p>
+<p><strong>Intervention:</strong> Plastic biliary stent placed to relieve obstruction</p>
+<p><strong>Outcome:</strong> Jaundice improved, bilirubin decreasing</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">July 20, 2024</div>
+<div class="timeline-content">
+<h4>EUS-Guided Biopsy</h4>
+<p><strong>Procedure:</strong> Endoscopic ultrasound (EUS) with fine needle aspiration (FNA) of pancreatic mass</p>
+<p><strong>Pathology:</strong> Adenocarcinoma, consistent with pancreatic ductal adenocarcinoma</p>
+<p><strong>Outcome:</strong> Diagnosis confirmed - Pancreatic cancer</p>
+</div>
+</div>
+<div class="timeline-item" id="type-2-diabetes-mellitus">
+<div class="timeline-date">July 25, 2024</div>
+<div class="timeline-content">
+<h4>New-Onset Diabetes Diagnosed</h4>
+<p><strong>Symptoms:</strong> Polyuria, polydipsia, fatigue</p>
+<p><strong>Labs:</strong> Fasting glucose 245 mg/dL, HbA1c 7.8%</p>
+<p><strong>Etiology:</strong> Likely pancreatic cancer-related (destruction of islet cells, pancreatic exocrine insufficiency)</p>
+<p><strong>Treatment:</strong> Metformin 1000 mg BID, insulin glargine 10 units at bedtime initiated</p>
+<p><strong>Outcome:</strong> Diabetes management initiated</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">August 5, 2024</div>
+<div class="timeline-content">
+<h4>Staging CT and Surgical Consultation</h4>
+<p><strong>CT Chest/Abdomen/Pelvis:</strong> 3.2 cm pancreatic head mass with &lt;180° contact with SMA. No distant metastases. No lymphadenopathy.</p>
+<p><strong>Stage:</strong> T3N0M0 (Stage IIA)</p>
+<p><strong>Resectability:</strong> Borderline resectable (due to SMA involvement)</p>
+<p><strong>Surgical Assessment:</strong> Not optimal surgical candidate initially. Neoadjuvant chemotherapy recommended to downstage tumor.</p>
+<p><strong>Outcome:</strong> Referral to medical oncology for neoadjuvant therapy</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">August 15, 2024</div>
+<div class="timeline-content">
+<h4>Molecular Testing Results</h4>
+<p><strong>NGS Panel:</strong> KRAS G12D mutation detected</p>
+<p><strong>Other Mutations:</strong> Wild-type for BRAF, NRAS, EGFR, ALK, ROS1</p>
+<p><strong>MSI Status:</strong> Microsatellite stable (MSS)</p>
+<p><strong>Significance:</strong> No actionable mutations for targeted therapy. Standard chemotherapy indicated.</p>
+<p><strong>Outcome:</strong> Proceed with FOLFIRINOX chemotherapy</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">August 20, 2024</div>
+<div class="timeline-content">
+<h4>Neoadjuvant FOLFIRINOX Cycle 1</h4>
+<p><strong>Regimen:</strong> FOLFIRINOX (5-FU, Leucovorin, Irinotecan, Oxaliplatin) every 14 days</p>
+<p><strong>Doses:</strong> Oxaliplatin 85 mg/m², Irinotecan 180 mg/m², Leucovorin 400 mg/m², 5-FU 400 mg/m² bolus + 2400 mg/m² continuous infusion over 46 hours</p>
+<p><strong>Premedications:</strong> Dexamethasone, ondansetron, aprepitant</p>
+<p><strong>Tolerability:</strong> Moderate nausea, diarrhea (grade 2), fatigue</p>
+<p><strong>Outcome:</strong> Neoadjuvant therapy initiated</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">September 3, 2024</div>
+<div class="timeline-content">
+<h4>FOLFIRINOX Cycle 2</h4>
+<p><strong>Details:</strong> Second cycle administered per protocol</p>
+<p><strong>Side Effects:</strong> Cumulative fatigue, peripheral neuropathy (grade 1), diarrhea</p>
+<p><strong>CA 19-9:</strong> 280 U/mL (decreased from 450)</p>
+<p><strong>Outcome:</strong> Good biochemical response</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">September 17, 2024</div>
+<div class="timeline-content">
+<h4>FOLFIRINOX Cycle 3</h4>
+<p><strong>Details:</strong> Third cycle administered per protocol</p>
+<p><strong>Side Effects:</strong> Worsening neuropathy (grade 2), fatigue, mucositis (grade 1)</p>
+<p><strong>CA 19-9:</strong> 180 U/mL (continued decline)</p>
+<p><strong>Outcome:</strong> Excellent biochemical response</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">October 1, 2024</div>
+<div class="timeline-content">
+<h4>FOLFIRINOX Cycle 4 (Final Neoadjuvant Cycle)</h4>
+<p><strong>Details:</strong> Fourth and final cycle of neoadjuvant FOLFIRINOX</p>
+<p><strong>Side Effects:</strong> Persistent neuropathy (grade 2), fatigue</p>
+<p><strong>CA 19-9:</strong> 120 U/mL (near-normal, &lt;150)</p>
+<p><strong>Outcome:</strong> Completed 4 cycles neoadjuvant chemotherapy</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">October 25, 2024</div>
+<div class="timeline-content">
+<h4>Restaging CT - Excellent Response</h4>
+<p><strong>CT Pancreas Protocol:</strong> Tumor decreased to 2.4 cm (from 3.2 cm). Improved SMA contact (now &lt;90°). No new lesions. No lymphadenopathy.</p>
+<p><strong>Assessment:</strong> Excellent response to neoadjuvant FOLFIRINOX. Tumor now resectable.</p>
+<p><strong>CA 19-9:</strong> 95 U/mL (normalized)</p>
+<p><strong>Outcome:</strong> Patient now surgical candidate - Whipple procedure planned</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">November 10, 2024</div>
+<div class="timeline-content">
+<h4>Pre-Operative Cardiology Clearance</h4>
+<p><strong>Indication:</strong> History of CAD with prior PCI, need cardiac clearance for major surgery</p>
+<p><strong>Stress Test:</strong> Negative for ischemia</p>
+<p><strong>Echocardiogram:</strong> LVEF 55% (normal), no wall motion abnormalities</p>
+<p><strong>Outcome:</strong> Cleared for Whipple procedure</p>
+</div>
+</div>
+<div class="timeline-item critical" id="coronary-artery-disease">
+<div class="timeline-date">December 5, 2024</div>
+<div class="timeline-content">
+<h4>Whipple Procedure (Pancreaticoduodenectomy)</h4>
+<p><strong>Procedure:</strong> Classic Whipple - resection of pancreatic head, duodenum, proximal jejunum, gallbladder, distal common bile duct</p>
+<p><strong>Reconstruction:</strong> Pancreaticojejunostomy, hepaticojejunostomy, gastrojejunostomy</p>
+<p><strong>Intraoperative Findings:</strong> No gross residual tumor, no peritoneal disease, no liver metastases</p>
+<p><strong>Estimated Blood Loss:</strong> 400 mL</p>
+<p><strong>Duration:</strong> 6 hours 45 minutes</p>
+<p><strong>Outcome:</strong> Successful R0 resection (negative margins). Final pathology pending.</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">December 15, 2024</div>
+<div class="timeline-content">
+<h4>Current Visit - Post-Operative Day 10</h4>
+<p><strong>Status:</strong> Patient recovering well from Whipple procedure. Tolerating diet, bowel function returning.</p>
+<p><strong>Complications:</strong> None (no pancreatic leak, no delayed gastric emptying)</p>
+<p><strong>Drain Output:</strong> Minimal, amylase levels normal</p>
+<p><strong>Final Pathology:</strong> Pending (expected within 1 week)</p>
+<p><strong>Plan:</strong> Discharge in 2-3 days. Adjuvant chemotherapy (gemcitabine) to start 4-6 weeks post-op.</p>
+<p><strong>Outcome:</strong> Excellent post-operative recovery</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Recent Labs -->
+<div class="section">
+<h2>🔬 Most Recent Laboratory Results (12/15/2024)</h2>
+<table class="lab-table">
+<thead>
+<tr>
+<th>Test</th>
+<th>Result</th>
+<th>Units</th>
+<th>Reference Range</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CA 19-9 (Tumor Marker)</td>
+<td><strong>85</strong></td>
+<td>U/mL</td>
+<td>0-37</td>
+<td><span class="status-badge status-elevated">Mildly elevated (improved)</span></td>
+</tr>
+<tr>
+<td>Total Bilirubin</td>
+<td><strong>1.2</strong></td>
+<td>mg/dL</td>
+<td>0.3-1.2</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Alkaline Phosphatase</td>
+<td><strong>125</strong></td>
+<td>U/L</td>
+<td>40-130</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Hemoglobin</td>
+<td><strong>10.5</strong></td>
+<td>g/dL</td>
+<td>13.5-17.5</td>
+<td><span class="status-badge status-abnormal">Mild anemia (post-op)</span></td>
+</tr>
+<tr>
+<td>WBC</td>
+<td><strong>8.2</strong></td>
+<td>K/uL</td>
+<td>4.5-11.0</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Platelet</td>
+<td><strong>285</strong></td>
+<td>K/uL</td>
+<td>150-400</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Creatinine</td>
+<td><strong>1.1</strong></td>
+<td>mg/dL</td>
+<td>0.7-1.3</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Glucose (Fasting)</td>
+<td><strong>145</strong></td>
+<td>mg/dL</td>
+<td>70-100</td>
+<td><span class="status-badge status-elevated">Elevated (diabetes)</span></td>
+</tr>
+<tr>
+<td>HbA1c</td>
+<td><strong>7.2</strong></td>
+<td>%</td>
+<td>&lt;4.0-5.6</td>
+<td><span class="status-badge status-elevated">Elevated (improved)</span></td>
+</tr>
+<tr>
+<td>Amylase (Drain Fluid)</td>
+<td><strong>85</strong></td>
+<td>U/L</td>
+<td>&lt;200 (no leak)</td>
+<td><span class="status-badge status-normal">Normal (no pancreatic leak)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Current Medications -->
+<div class="section" id="essential-hypertension">
+<h2>💊 Current Medications</h2>
+<table class="lab-table">
+<thead>
+<tr>
+<th>Medication</th>
+<th>Dose</th>
+<th>Frequency</th>
+<th>Indication</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pancrelipase (Creon)</td>
+<td>36,000 units PO</td>
+<td>With meals and snacks</td>
+<td>Pancreatic exocrine insufficiency (post-Whipple)</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Insulin Glargine (Lantus)</td>
+<td>20 units SC</td>
+<td>At bedtime</td>
+<td>Type 2 diabetes (pancreatic cancer-related)</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Insulin Lispro (Humalog)</td>
+<td>Variable SC</td>
+<td>Before meals (sliding scale)</td>
+<td>Type 2 diabetes</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Metformin</td>
+<td>1000 mg PO</td>
+<td>Twice daily</td>
+<td>Type 2 diabetes</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Aspirin</td>
+<td>81 mg PO</td>
+<td>Daily</td>
+<td>Coronary artery disease (post-PCI)</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Clopidogrel (Plavix)</td>
+<td>75 mg PO</td>
+<td>Daily</td>
+<td>Coronary artery disease (post-PCI)</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Atorvastatin (Lipitor)</td>
+<td>40 mg PO</td>
+<td>At bedtime</td>
+<td>Hyperlipidemia, CAD</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Lisinopril</td>
+<td>20 mg PO</td>
+<td>Daily</td>
+<td>Hypertension</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Ondansetron (Zofran)</td>
+<td>8 mg PO</td>
+<td>As needed</td>
+<td>Nausea (post-operative)</td>
+<td><span class="status-badge status-normal">PRN</span></td>
+</tr>
+<tr>
+<td>Oxycodone</td>
+<td>5 mg PO</td>
+<td>Every 4-6 hours as needed</td>
+<td>Post-operative pain</td>
+<td><span class="status-badge status-normal">PRN</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Follow-up Plan -->
+<div class="section">
+<h2>📋 Follow-up Plan</h2>
+<h3 style="color: #2d3748; margin-top: 20px; margin-bottom: 15px;">Post-Operative Care &amp; Surveillance</h3>
+<div class="followup-list">
+<ul>
+<li>Discharge in 2-3 days (post-op day 12-13)</li>
+<li>Surgical follow-up 2 weeks post-discharge</li>
+<li>Final pathology review (expected within 1 week) - will determine adjuvant therapy plan</li>
+<li>Adjuvant gemcitabine chemotherapy to start 4-6 weeks post-op (6 months duration)</li>
+<li>CA 19-9 monitoring every 3 months for first 2 years, then every 6 months</li>
+<li>CT chest/abdomen/pelvis every 3-6 months for first 2 years, then annually</li>
+<li>Pancreatic enzyme replacement (Creon) with all meals - lifelong</li>
+<li>Diabetes management - endocrinology follow-up every 3 months</li>
+<li>Nutritional counseling - dietitian follow-up (post-Whipple diet modifications)</li>
+<li>Monitor for late complications (delayed gastric emptying, dumping syndrome, malabsorption)</li>
+</ul>
+</div>
+<h3 style="color: #2d3748; margin-top: 25px; margin-bottom: 15px;">Next Scheduled Appointments</h3>
+<div class="appointment-card">
+<h4>Surgical Oncology - January 5, 2025</h4>
+<p><strong>Provider:</strong> Dr. James Park, MD</p>
+<p><strong>Purpose:</strong> 2-week post-discharge follow-up, wound check, final pathology review, discuss adjuvant therapy</p>
+</div>
+<div class="appointment-card">
+<h4>Medical Oncology - January 15, 2025</h4>
+<p><strong>Provider:</strong> Dr. Lisa Chen, MD</p>
+<p><strong>Purpose:</strong> Adjuvant chemotherapy planning (gemcitabine), review pathology, discuss treatment duration</p>
+</div>
+<div class="appointment-card">
+<h4>Endocrinology - January 20, 2025</h4>
+<p><strong>Provider:</strong> Dr. Michael Lee, MD</p>
+<p><strong>Purpose:</strong> Diabetes management optimization, adjust insulin regimen post-Whipple</p>
+</div>
+<div class="appointment-card">
+<h4>Nutrition Services - December 28, 2024</h4>
+<p><strong>Provider:</strong> Ms. Sarah Johnson, RD</p>
+<p><strong>Purpose:</strong> Post-Whipple dietary counseling, pancreatic enzyme dosing, weight monitoring</p>
+</div>
+<div class="appointment-card">
+<h4>Cardiology - February 2025</h4>
+<p><strong>Provider:</strong> Dr. Robert Kim, MD</p>
+<p><strong>Purpose:</strong> CAD management, stress test, continue dual antiplatelet therapy</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>Metropolitan Cancer Center | Department of Hepatobiliary &amp; Pancreatic Oncology</p>
+<p>This document contains protected health information (PHI) and is confidential.</p>
+<p>Generated: 12/15/2024 21:15 | Report ID: EHR-2024-12-778899</p>
+</div>
+</div>
+</body>
+</html>

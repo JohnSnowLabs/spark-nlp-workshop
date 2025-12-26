@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Patient Summary Dashboard - PATTERSON, ANDREW</title>
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #38a169 0%, #2f855a 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .patient-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #f0fff4;
+            border-bottom: 3px solid #9ae6b4;
+        }
+        
+        .info-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-left: 4px solid #48bb78;
+        }
+        
+        .info-card h3 {
+            color: #2d3748;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        
+        .info-card p {
+            font-size: 18px;
+            font-weight: 600;
+            color: #4a5568;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #2d3748;
+            font-size: 24px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        
+        .diagnosis-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+        
+        .diagnosis-item {
+            background: #f0fff4;
+            border-left: 4px solid #48bb78;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        .diagnosis-item.chronic {
+            background: #fffaf0;
+            border-left-color: #ed8936;
+        }
+        
+        .diagnosis-item h4 {
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+        
+        .diagnosis-item p {
+            font-size: 14px;
+            color: #718096;
+            margin-bottom: 4px;
+        }
+        
+        .alert {
+            background: #e6fffa;
+            border-left: 4px solid #319795;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .alert h4 {
+            color: #234e52;
+            margin-bottom: 8px;
+        }
+        
+        .alert p {
+            color: #2c7a7b;
+            font-size: 14px;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 40px;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #cbd5e0;
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 30px;
+            padding-left: 20px;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -34px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #48bb78;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px #48bb78;
+        }
+        
+        .timeline-item.critical::before {
+            background: #f56565;
+            box-shadow: 0 0 0 2px #f56565;
+        }
+        
+        .timeline-date {
+            font-weight: 600;
+            color: #48bb78;
+            margin-bottom: 5px;
+        }
+        
+        .timeline-content {
+            background: #f7fafc;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .timeline-content h4 {
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+        
+        .timeline-content p {
+            font-size: 14px;
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 6px;
+        }
+        
+        .lab-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        
+        .lab-table th {
+            background: #2f855a;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .lab-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .lab-table tr:hover {
+            background: #f0fff4;
+        }
+        
+        .lab-table td strong {
+            font-weight: 700;
+            color: #2d3748;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .status-normal {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+        
+        .status-abnormal {
+            background: #fed7d7;
+            color: #742a2a;
+        }
+        
+        .status-elevated {
+            background: #feebc8;
+            color: #7c2d12;
+        }
+        
+        .followup-list {
+            background: #f7fafc;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .followup-list ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .followup-list li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            color: #4a5568;
+        }
+        
+        .followup-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #48bb78;
+            font-weight: bold;
+        }
+        
+        .appointment-card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-left: 4px solid #48bb78;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        
+        .appointment-card h4 {
+            color: #2d3748;
+            margin-bottom: 5px;
+        }
+        
+        .appointment-card p {
+            font-size: 14px;
+            color: #718096;
+        }
+        
+        .footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>PATIENT MEDICAL SUMMARY</h1>
+<p>Metropolitan Cancer Center | Gastrointestinal Oncology Department</p>
+<p>Generated: November 15, 2024 | Report ID: EHR-2024-11-654987</p>
+</div>
+<div class="patient-info">
+<div class="info-card">
+<h3>Patient Name</h3>
+<p>PATTERSON, ANDREW</p>
+</div>
+<div class="info-card">
+<h3>Medical Record Number</h3>
+<p>MRN-2024-654987</p>
+</div>
+<div class="info-card">
+<h3>Date of Birth</h3>
+<p>05/12/1966 (58 years)</p>
+</div>
+<div class="info-card">
+<h3>Sex</h3>
+<p>Male</p>
+</div>
+<div class="info-card">
+<h3>Primary Physician</h3>
+<p>Dr. Thomas Anderson, MD</p>
+</div>
+<div class="info-card">
+<h3>Last Visit</h3>
+<p>11/15/2024</p>
+</div>
+</div>
+<div class="content">
+<!-- Active Diagnoses -->
+<div class="section" id="type-2-diabetes-mellitus">
+<h2>🔴 Active &amp; Chronic Diagnoses</h2>
+<div class="diagnosis-list">
+<div class="diagnosis-item">
+<nav><a href="#sigmoid-colon-adenocarcinoma">Sigmoid Colon Adenocarcinoma (Active)</a></nav>
+<p><strong>Location:</strong> Sigmoid colon</p>
+<p><strong>Stage:</strong> T3N0M0 (Stage IIA)</p>
+<p><strong>Grade:</strong> Moderately differentiated</p>
+<p><strong>Diagnosed:</strong> March 2024</p>
+<p><strong>Status:</strong> Treatment planning - Surgical resection ± adjuvant chemotherapy</p>
+</div>
+<div class="diagnosis-item chronic">
+<nav><a href="#iron-deficiency-anemia">Iron-Deficiency Anemia (Active)</a></nav>
+<p><strong>Diagnosed:</strong> January 2024</p>
+<p><strong>Hemoglobin:</strong> 9.8 g/dL (low)</p>
+<p><strong>Ferritin:</strong> 12 ng/mL (low)</p>
+<p><strong>Status:</strong> Secondary to chronic GI blood loss, iron supplementation started</p>
+</div>
+<div class="diagnosis-item chronic">
+<nav><a href="#essential-hypertension">Essential Hypertension (Chronic)</a></nav>
+<p><strong>Diagnosed:</strong> 2015</p>
+<p><strong>Status:</strong> Well-controlled on medication</p>
+</div>
+<div class="diagnosis-item chronic">
+<nav><a href="#type-2-diabetes-mellitus">Type 2 Diabetes Mellitus (Chronic)</a></nav>
+<p><strong>Diagnosed:</strong> 2018</p>
+<p><strong>HbA1c:</strong> 7.2% (fair control)</p>
+<p><strong>Status:</strong> Managed with metformin and lifestyle modifications</p>
+</div>
+</div>
+<div class="alert">
+<h4>⚠️ Molecular Testing Complete</h4>
+<p>MMR proficient (pMMR) / Microsatellite Stable (MSS). KRAS/NRAS/BRAF wild-type. Patient would benefit from adjuvant chemotherapy if high-risk features present on final pathology (T4, LVI, &lt;12 nodes examined).</p>
+</div>
+</div>
+<!-- Treatment Timeline -->
+<div class="section">
+<h2>📅 Treatment Timeline</h2>
+<div class="timeline">
+<div class="timeline-item">
+<div class="timeline-date">January 10, 2024</div>
+<div class="timeline-content">
+<h4>Primary Care Visit - Fatigue and Weakness</h4>
+<p><strong>Chief Complaint:</strong> Progressive fatigue, weakness, and decreased exercise tolerance over 6 months</p>
+<p><strong>Labs Ordered:</strong> CBC, CMP, iron studies</p>
+<p><strong>Outcome:</strong> Awaiting lab results</p>
+</div>
+</div>
+<div class="timeline-item" id="iron-deficiency-anemia">
+<div class="timeline-date">January 18, 2024</div>
+<div class="timeline-content">
+<h4>Lab Results - Iron-Deficiency Anemia</h4>
+<p><strong>Hemoglobin:</strong> 9.8 g/dL (low)</p>
+<p><strong>MCV:</strong> 72 fL (microcytic)</p>
+<p><strong>Ferritin:</strong> 12 ng/mL (low)</p>
+<p><strong>Assessment:</strong> Iron-deficiency anemia, likely GI blood loss</p>
+<p><strong>Outcome:</strong> Colonoscopy ordered, iron supplementation started</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">February 5, 2024</div>
+<div class="timeline-content">
+<h4>Colonoscopy</h4>
+<p><strong>Findings:</strong> 3.5 cm semi-circumferential mass in sigmoid colon, partially obstructing. No other polyps.</p>
+<p><strong>Biopsy:</strong> Multiple biopsies obtained from mass</p>
+<p><strong>Complications:</strong> None</p>
+<p><strong>Outcome:</strong> Awaiting pathology</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">February 12, 2024</div>
+<div class="timeline-content">
+<h4>Pathology Results</h4>
+<p><strong>Diagnosis:</strong> Adenocarcinoma, moderately differentiated</p>
+<p><strong>Grade:</strong> Grade 2</p>
+<p><strong>Outcome:</strong> Diagnosis confirmed - Colon cancer. Urgent referral to surgical oncology</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">February 22, 2024</div>
+<div class="timeline-content">
+<h4>Staging CT Chest/Abdomen/Pelvis</h4>
+<p><strong>Findings:</strong> Sigmoid colon wall thickening (3.5 cm). No lymphadenopathy. No liver metastases. No lung metastases.</p>
+<p><strong>Clinical Stage:</strong> cT3N0M0 (Stage IIA)</p>
+<p><strong>Outcome:</strong> No evidence of metastatic disease</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">March 1, 2024</div>
+<div class="timeline-content">
+<h4>CEA Tumor Marker</h4>
+<p><strong>CEA:</strong> 18.5 ng/mL (elevated, normal &lt;3.0)</p>
+<p><strong>Significance:</strong> Useful for post-treatment surveillance</p>
+<p><strong>Outcome:</strong> Baseline established</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">March 10, 2024</div>
+<div class="timeline-content">
+<h4>Surgical Oncology Consultation</h4>
+<p><strong>Plan:</strong> Laparoscopic sigmoid colectomy with primary anastomosis</p>
+<p><strong>Goal:</strong> R0 resection with adequate lymph node harvest (≥12 nodes)</p>
+<p><strong>Discussion:</strong> Adjuvant chemotherapy decision based on final pathology (high-risk features: T4, LVI, inadequate nodes)</p>
+<p><strong>Outcome:</strong> Surgery scheduled for April 2024</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">March 20, 2024</div>
+<div class="timeline-content">
+<h4>Molecular Testing Ordered</h4>
+<p><strong>Tests:</strong> MMR/MSI testing, KRAS/NRAS/BRAF mutation analysis</p>
+<p><strong>Purpose:</strong> Guide adjuvant therapy decisions and assess for Lynch syndrome</p>
+<p><strong>Outcome:</strong> Results pending</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">April 8, 2024</div>
+<div class="timeline-content">
+<h4>Laparoscopic Sigmoid Colectomy (Planned)</h4>
+<p><strong>Procedure:</strong> Laparoscopic sigmoid colectomy with primary anastomosis</p>
+<p><strong>Surgeon:</strong> Dr. Thomas Anderson, MD</p>
+<p><strong>Expected Pathology:</strong> Final T/N staging, lymph node count, margin status, LVI assessment</p>
+<p><strong>Status:</strong> Surgery scheduled</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">April 25, 2024</div>
+<div class="timeline-content">
+<h4>Molecular Testing Results</h4>
+<p><strong>MMR Status:</strong> Proficient (pMMR)</p>
+<p><strong>MSI Status:</strong> Microsatellite Stable (MSS)</p>
+<p><strong>KRAS:</strong> Wild-type</p>
+<p><strong>NRAS:</strong> Wild-type</p>
+<p><strong>BRAF:</strong> Wild-type</p>
+<p><strong>Interpretation:</strong> No Lynch syndrome. Would benefit from chemotherapy if high-risk Stage II or Stage III.</p>
+<p><strong>Outcome:</strong> Eligible for anti-EGFR therapy if metastatic disease develops</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">May 2024 (Planned)</div>
+<div class="timeline-content">
+<h4>Medical Oncology Consultation (Planned)</h4>
+<p><strong>Purpose:</strong> Review final pathology, discuss adjuvant chemotherapy</p>
+<p><strong>Regimen (if indicated):</strong> FOLFOX or CAPOX x 6 months</p>
+<p><strong>Status:</strong> Pending final pathology</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">November 15, 2024</div>
+<div class="timeline-content">
+<h4>Current Visit - Pre-Operative Assessment</h4>
+<p><strong>Details:</strong> Final pre-operative evaluation. Patient anxious but understands treatment plan.</p>
+<p><strong>Anemia Status:</strong> Improved with iron supplementation. Hemoglobin 11.2 g/dL.</p>
+<p><strong>Outcome:</strong> Cleared for surgery, final consent obtained</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Recent Labs -->
+<div class="section">
+<h2>🔬 Most Recent Laboratory Results (11/15/2024)</h2>
+<table class="lab-table">
+<thead>
+<tr>
+<th>Test</th>
+<th>Result</th>
+<th>Units</th>
+<th>Reference Range</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CEA (Carcinoembryonic Antigen)</td>
+<td><strong>18.5</strong></td>
+<td>ng/mL</td>
+<td>0-3.0</td>
+<td><span class="status-badge status-elevated">Elevated</span></td>
+</tr>
+<tr>
+<td>Hemoglobin</td>
+<td><strong>11.2</strong></td>
+<td>g/dL</td>
+<td>13.5-17.5</td>
+<td><span class="status-badge status-abnormal">Mild anemia (improved)</span></td>
+</tr>
+<tr>
+<td>MCV</td>
+<td><strong>78</strong></td>
+<td>fL</td>
+<td>80-100</td>
+<td><span class="status-badge status-abnormal">Microcytic</span></td>
+</tr>
+<tr>
+<td>Ferritin</td>
+<td><strong>45</strong></td>
+<td>ng/mL</td>
+<td>30-400</td>
+<td><span class="status-badge status-normal">Normal (improved)</span></td>
+</tr>
+<tr>
+<td>WBC</td>
+<td><strong>7.8</strong></td>
+<td>K/uL</td>
+<td>4.5-11.0</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Platelet</td>
+<td><strong>285</strong></td>
+<td>K/uL</td>
+<td>150-400</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Creatinine</td>
+<td><strong>1.0</strong></td>
+<td>mg/dL</td>
+<td>0.7-1.3</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>ALT</td>
+<td><strong>35</strong></td>
+<td>U/L</td>
+<td>7-56</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>HbA1c</td>
+<td><strong>7.2</strong></td>
+<td>%</td>
+<td>&lt;7.0</td>
+<td><span class="status-badge status-elevated">Fair control</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Current Medications -->
+<div class="section">
+<h2>💊 Current Medications</h2>
+<table class="lab-table">
+<thead>
+<tr>
+<th>Medication</th>
+<th>Dose</th>
+<th>Frequency</th>
+<th>Indication</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ferrous sulfate</td>
+<td>325 mg PO</td>
+<td>Twice daily</td>
+<td>Iron-deficiency anemia</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Metformin</td>
+<td>1000 mg PO</td>
+<td>Twice daily</td>
+<td>Type 2 diabetes mellitus</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Lisinopril</td>
+<td>20 mg PO</td>
+<td>Daily</td>
+<td>Hypertension</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Atorvastatin (Lipitor)</td>
+<td>40 mg PO</td>
+<td>Daily</td>
+<td>Hyperlipidemia</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Aspirin</td>
+<td>81 mg PO</td>
+<td>Daily</td>
+<td>Cardiovascular prophylaxis</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Vitamin D3</td>
+<td>2000 IU PO</td>
+<td>Daily</td>
+<td>Bone health</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Multivitamin</td>
+<td>1 tablet PO</td>
+<td>Daily</td>
+<td>Nutritional support</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Follow-up Plan -->
+<div class="section">
+<h2>📋 Follow-up Plan</h2>
+<h3 style="color: #2d3748; margin-top: 20px; margin-bottom: 15px;">Post-Surgical Surveillance</h3>
+<div class="followup-list">
+<ul>
+<li>CEA every 3-6 months for first 2 years</li>
+<li>Then CEA every 6 months for years 3-5</li>
+<li>CT chest/abdomen/pelvis annually for 3-5 years</li>
+<li>Colonoscopy at 1 year post-surgery, then per guidelines</li>
+<li>Monitor for symptoms of recurrence (abdominal pain, change in bowel habits, weight loss)</li>
+<li>Genetic counseling if family history suggests Lynch syndrome</li>
+</ul>
+</div>
+<h3 style="color: #2d3748; margin-top: 25px; margin-bottom: 15px;">Next Scheduled Appointments</h3>
+<div class="appointment-card">
+<h4>Surgical Oncology - April 8, 2024</h4>
+<p><strong>Provider:</strong> Dr. Thomas Anderson, MD</p>
+<p><strong>Purpose:</strong> Laparoscopic sigmoid colectomy</p>
+</div>
+<div class="appointment-card">
+<h4>Medical Oncology - May 2024</h4>
+<p><strong>Provider:</strong> Dr. Rachel Kim, MD</p>
+<p><strong>Purpose:</strong> Review pathology, discuss adjuvant chemotherapy</p>
+</div>
+<div class="appointment-card">
+<h4>Primary Care - June 2024</h4>
+<p><strong>Provider:</strong> Dr. Michael Johnson, MD</p>
+<p><strong>Purpose:</strong> Post-operative follow-up, diabetes/hypertension management</p>
+</div>
+<div class="appointment-card">
+<h4>Gastroenterology - April 2025</h4>
+<p><strong>Provider:</strong> Dr. Sarah Lee, MD</p>
+<p><strong>Purpose:</strong> Surveillance colonoscopy (1 year post-resection)</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>Metropolitan Cancer Center | Department of Gastrointestinal Oncology</p>
+<p>This document contains protected health information (PHI) and is confidential.</p>
+<p>Generated: 11/15/2024 18:30 | Report ID: EHR-2024-11-654987</p>
+</div>
+</div>
+</body>
+</html>

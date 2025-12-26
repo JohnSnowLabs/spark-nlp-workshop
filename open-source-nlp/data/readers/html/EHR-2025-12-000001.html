@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Patient Summary Dashboard - PATIENT, DONALD</title>
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .patient-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #f7fafc;
+            border-bottom: 3px solid #e2e8f0;
+        }
+        
+        .info-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-left: 4px solid #4299e1;
+        }
+        
+        .info-card h3 {
+            color: #2d3748;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        
+        .info-card p {
+            font-size: 18px;
+            font-weight: 600;
+            color: #4a5568;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #2d3748;
+            font-size: 24px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        
+        .diagnosis-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+        
+        .diagnosis-item {
+            background: #fff5f5;
+            border-left: 4px solid #f56565;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        .diagnosis-item.resolved {
+            background: #f0fff4;
+            border-left-color: #48bb78;
+        }
+        
+        .diagnosis-item h4 {
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+        
+        .diagnosis-item p {
+            font-size: 14px;
+            color: #718096;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 40px;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #cbd5e0;
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 30px;
+            padding-left: 20px;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -34px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #4299e1;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px #4299e1;
+        }
+        
+        .timeline-item.critical::before {
+            background: #f56565;
+            box-shadow: 0 0 0 2px #f56565;
+        }
+        
+        .timeline-date {
+            font-weight: 600;
+            color: #4299e1;
+            margin-bottom: 5px;
+        }
+        
+        .timeline-content {
+            background: #f7fafc;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .lab-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        
+        .lab-table th {
+            background: #4a5568;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .lab-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .lab-table tr:hover {
+            background: #f7fafc;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .status-active {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+        
+        .status-completed {
+            background: #bee3f8;
+            color: #2c5282;
+        }
+        
+        .status-critical {
+            background: #fed7d7;
+            color: #742a2a;
+        }
+        
+        .alert {
+            background: #fef5e7;
+            border-left: 4px solid #f39c12;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .alert h4 {
+            color: #d68910;
+            margin-bottom: 8px;
+        }
+        
+        .footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>PATIENT MEDICAL SUMMARY</h1>
+<p>Regional New Natalieborough Hospital | Electronic Health Record</p>
+<p>Generated: October 22, 2016 | Report ID: EHR-2016-10-789012</p>
+</div>
+<div class="patient-info">
+<div class="info-card">
+<h3>Patient Name</h3>
+<p>PATIENT, DONALD</p>
+</div>
+<div class="info-card">
+<h3>Medical Record Number</h3>
+<p>123456789</p>
+</div>
+<div class="info-card">
+<h3>Date of Birth</h3>
+<p>XX/XX/1955 (61 years)</p>
+</div>
+<div class="info-card">
+<h3>Sex</h3>
+<p>Male</p>
+</div>
+<div class="info-card">
+<h3>Primary Physician</h3>
+<p>Dr. David Nicholas, MD</p>
+</div>
+<div class="info-card">
+<h3>Last Visit</h3>
+<p>10/22/2016</p>
+</div>
+</div>
+<div class="content">
+<!-- Active Diagnoses -->
+<div class="section">
+<h2>🔴 Active &amp; Resolved Diagnoses</h2>
+<div class="diagnosis-list">
+<div class="diagnosis-item">
+<nav><a href="#prostatic-adenocarcinoma">Prostatic Adenocarcinoma (Active)</a></nav>
+<p><strong>Stage:</strong> cT2a N0 M0</p>
+<p><strong>Grade:</strong> Gleason 3+4=7 (Grade Group 2)</p>
+<p><strong>Diagnosed:</strong> July 2015</p>
+<p><strong>Status:</strong> Post-treatment surveillance, PSA 0.32 ng/mL</p>
+</div>
+<div class="diagnosis-item resolved">
+<nav><a href="#rectal-adenocarcinoma">Rectal Adenocarcinoma (Resolved)</a></nav>
+<p><strong>Stage:</strong> pT2 N1a M0 (Stage IIIA)</p>
+<p><strong>Treatment:</strong> Neoadjuvant chemoRT + APR (1987)</p>
+<p><strong>Status:</strong> NED x29 years, colostomy present</p>
+</div>
+<div class="diagnosis-item resolved">
+<nav><a href="#appendiceal-adenocarcinoma">Appendiceal Adenocarcinoma (Resolved)</a></nav>
+<p><strong>Histology:</strong> Mucinous adenocarcinoma</p>
+<p><strong>Treatment:</strong> Appendectomy + Xeloda (2005-2006)</p>
+<p><strong>Status:</strong> NED x10 years</p>
+</div>
+<div class="diagnosis-item">
+<nav><a href="#lynch-syndrome">Lynch Syndrome (HNPCC)</a></nav>
+<p><strong>Mutation:</strong> MSH2 c.942+3A&gt;T (Pathogenic)</p>
+<p><strong>Inheritance:</strong> Autosomal dominant</p>
+<p><strong>Status:</strong> Active surveillance protocol</p>
+</div>
+</div>
+</div>
+<!-- Alert Box -->
+<div class="alert">
+<h4>⚠️ Lynch Syndrome Surveillance Required</h4>
+<p>Patient requires enhanced cancer surveillance due to hereditary MSH2 mutation. 
+                   Annual colonoscopy, urinalysis with cytology, and dermatologic exams recommended. 
+                   First-degree relatives should be offered genetic counseling and testing.</p>
+</div>
+<!-- Treatment Timeline -->
+<div class="section">
+<h2>📅 Treatment Timeline</h2>
+<div class="timeline">
+<div class="timeline-item critical" id="appendiceal-adenocarcinoma">
+<div class="timeline-date">August 15, 1987</div>
+<div class="timeline-content">
+<h4>Abdominoperineal Resection (APR)</h4>
+<p>Left-sided rectal adenocarcinoma. Neoadjuvant 5FU/mitomycin + 3000 cGy radiation.</p>
+<p><strong>Pathology:</strong> pT2N1a (2/18 nodes positive), Stage IIIA</p>
+<p><strong>Surgeon:</strong> Dr. William Thompson, MD</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">June 15, 2005</div>
+<div class="timeline-content">
+<h4>Laparoscopic Appendectomy</h4>
+<p>Appendiceal adenocarcinoma with mucinous features discovered.</p>
+<p>Patient declined right hemicolectomy, opted for close surveillance.</p>
+</div>
+</div>
+<div class="timeline-item" id="lynch-syndrome">
+<div class="timeline-date">January 2006</div>
+<div class="timeline-content">
+<h4>Adjuvant Chemotherapy - Capecitabine</h4>
+<p>6 cycles completed. Tolerated well with Grade 1-2 hand-foot syndrome.</p>
+<p><strong>Outcome:</strong> No evidence of disease (NED)</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">July 26, 2015</div>
+<div class="timeline-content">
+<h4>Transperineal Prostate Biopsy</h4>
+<p>6 cores obtained. Positive for adenocarcinoma in 1/6 cores (right mid gland).</p>
+<p><strong>Pathology:</strong> Gleason 3+4=7 (Grade Group 2), 45% core involvement</p>
+<p><strong>PSA at diagnosis:</strong> 14.76 ng/mL</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">September 20, 2015</div>
+<div class="timeline-content">
+<h4>Androgen Deprivation Therapy (ADT) Initiated</h4>
+<p>Leuprolide acetate (Lupron Depot) 22.5 mg IM every 3 months x 6 months</p>
+<p><strong>Goal:</strong> Testosterone suppression prior to radiation therapy</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">November 2, 2015 - January 15, 2016</div>
+<div class="timeline-content">
+<h4>External Beam Radiation Therapy (VMAT)</h4>
+<p><strong>Dose:</strong> 7920 cGy in 42 fractions (conventional fractionation)</p>
+<p><strong>Technique:</strong> Volumetric Modulated Arc Therapy</p>
+<p><strong>IGRT:</strong> Daily fiducial-based image guidance</p>
+<p><strong>Acute Toxicity:</strong> Grade 2 GU (frequency/urgency), Grade 1 GI</p>
+<p><strong>Outcome:</strong> Excellent PSA response (14.76 → 0.8 ng/mL)</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">April 22, 2016</div>
+<div class="timeline-content">
+<h4>3-Month Post-RT Follow-up</h4>
+<p><strong>PSA:</strong> 0.45 ng/mL (excellent response)</p>
+<p><strong>Symptoms:</strong> Resolved GU toxicity, doing well</p>
+<p><strong>Testosterone:</strong> 12 ng/dL (still suppressed, recovery expected)</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">October 22, 2016</div>
+<div class="timeline-content">
+<h4>9-Month Post-RT Follow-up (Current Visit)</h4>
+<p><strong>PSA:</strong> 0.32 ng/mL (continued excellent response)</p>
+<p><strong>Symptoms:</strong> None, excellent quality of life</p>
+<p><strong>Testosterone:</strong> 125 ng/dL (recovery ongoing)</p>
+<p><strong>Plan:</strong> Continue surveillance q3-4 months</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Recent Labs -->
+<div class="section">
+<h2>🔬 Most Recent Laboratory Results (10/22/2016)</h2>
+<table class="lab-table">
+<thead>
+<tr>
+<th>Test</th>
+<th>Result</th>
+<th>Units</th>
+<th>Reference Range</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PSA</td>
+<td><strong>0.32</strong></td>
+<td>ng/mL</td>
+<td>0-4.0</td>
+<td><span class="status-badge status-active">Excellent</span></td>
+</tr>
+<tr>
+<td>Testosterone</td>
+<td><strong>125</strong></td>
+<td>ng/dL</td>
+<td>300-1000</td>
+<td><span class="status-badge status-completed">Recovering</span></td>
+</tr>
+<tr>
+<td>Hemoglobin</td>
+<td><strong>14.3</strong></td>
+<td>g/dL</td>
+<td>13.5-17.5</td>
+<td><span class="status-badge status-active">Normal</span></td>
+</tr>
+<tr>
+<td>WBC</td>
+<td><strong>7.2</strong></td>
+<td>K/uL</td>
+<td>4.5-11.0</td>
+<td><span class="status-badge status-active">Normal</span></td>
+</tr>
+<tr>
+<td>Creatinine</td>
+<td><strong>0.9</strong></td>
+<td>mg/dL</td>
+<td>0.7-1.3</td>
+<td><span class="status-badge status-active">Normal</span></td>
+</tr>
+<tr>
+<td>ALT</td>
+<td><strong>22</strong></td>
+<td>U/L</td>
+<td>7-56</td>
+<td><span class="status-badge status-active">Normal</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Current Medications -->
+<div class="section">
+<h2>💊 Current Medications</h2>
+<table class="lab-table">
+<thead>
+<tr>
+<th>Medication</th>
+<th>Dose</th>
+<th>Frequency</th>
+<th>Indication</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Atorvastatin (Lipitor)</td>
+<td>10 mg PO</td>
+<td>Daily</td>
+<td>Hyperlipidemia</td>
+<td><span class="status-badge status-active">Active</span></td>
+</tr>
+<tr>
+<td>Aspirin</td>
+<td>81 mg PO</td>
+<td>Daily</td>
+<td>Cardiovascular prophylaxis</td>
+<td><span class="status-badge status-active">Active</span></td>
+</tr>
+<tr>
+<td>Vitamin D3</td>
+<td>2000 IU PO</td>
+<td>Daily</td>
+<td>Bone health</td>
+<td><span class="status-badge status-active">Active</span></td>
+</tr>
+<tr>
+<td>Calcium carbonate</td>
+<td>500 mg PO</td>
+<td>BID</td>
+<td>Bone health (post-ADT)</td>
+<td><span class="status-badge status-active">Active</span></td>
+</tr>
+<tr>
+<td>Multivitamin</td>
+<td>1 tab PO</td>
+<td>Daily</td>
+<td>Nutritional support</td>
+<td><span class="status-badge status-active">Active</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Follow-up Plan -->
+<div class="section">
+<h2>📋 Follow-up Plan</h2>
+<div class="timeline-content">
+<h4>Prostate Cancer Surveillance</h4>
+<ul style="margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+<li>PSA every 3-4 months for 2 years, then every 6 months for years 3-5</li>
+<li>Monitor testosterone recovery (expect full recovery 12-18 months post-ADT)</li>
+<li>Assess for late GU/GI toxicity at each visit</li>
+<li>DEXA scan for bone density (ADT effect) - schedule for January 2017</li>
+</ul>
+<h4 style="margin-top: 20px;">Lynch Syndrome Surveillance (High Priority)</h4>
+<ul style="margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+<li>Annual colonoscopy (status post APR, surveillance of remaining colon)</li>
+<li>Annual urinalysis with cytology (bladder cancer risk)</li>
+<li>Consider annual renal ultrasound or CT urography</li>
+<li>Upper endoscopy every 3-5 years (gastric cancer risk)</li>
+<li>Annual dermatologic examination (sebaceous tumors)</li>
+<li>Maintain high clinical suspicion for new primary malignancies</li>
+</ul>
+<h4 style="margin-top: 20px;">Next Scheduled Appointments</h4>
+<ul style="margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+<li><strong>Radiation Oncology:</strong> January 20, 2017 (Dr. Nicholas)</li>
+<li><strong>Genetics:</strong> December 15, 2016 (Lynch surveillance planning)</li>
+<li><strong>Primary Care:</strong> November 30, 2016 (routine annual physical)</li>
+<li><strong>Gastroenterology:</strong> February 2017 (colonoscopy)</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>Regional New Natalieborough Hospital | Department of Oncology</p>
+<p>This document contains protected health information (PHI) and is confidential.</p>
+<p>Generated: 10/22/2016 14:35 | Report ID: EHR-2016-10-789012</p>
+</div>
+</div>
+</body>
+</html>

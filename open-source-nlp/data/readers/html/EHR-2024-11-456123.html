@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Patient Summary Dashboard - DAVIDSON, JAMES</title>
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .patient-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #f7fafc;
+            border-bottom: 3px solid #e2e8f0;
+        }
+        
+        .info-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-left: 4px solid #4299e1;
+        }
+        
+        .info-card h3 {
+            color: #2d3748;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        
+        .info-card p {
+            font-size: 18px;
+            font-weight: 600;
+            color: #4a5568;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #2d3748;
+            font-size: 24px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        
+        .diagnosis-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+        
+        .diagnosis-item {
+            background: #fff5f5;
+            border-left: 4px solid #f56565;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        .diagnosis-item.chronic {
+            background: #fffaf0;
+            border-left-color: #ed8936;
+        }
+        
+        .diagnosis-item h4 {
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+        
+        .diagnosis-item p {
+            font-size: 14px;
+            color: #718096;
+            margin-bottom: 4px;
+        }
+        
+        .alert {
+            background: #e6fffa;
+            border-left: 4px solid #319795;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .alert h4 {
+            color: #234e52;
+            margin-bottom: 8px;
+        }
+        
+        .alert p {
+            color: #2c7a7b;
+            font-size: 14px;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 40px;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #cbd5e0;
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 30px;
+            padding-left: 20px;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -34px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #4299e1;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px #4299e1;
+        }
+        
+        .timeline-item.critical::before {
+            background: #f56565;
+            box-shadow: 0 0 0 2px #f56565;
+        }
+        
+        .timeline-date {
+            font-weight: 600;
+            color: #4299e1;
+            margin-bottom: 5px;
+        }
+        
+        .timeline-content {
+            background: #f7fafc;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .timeline-content h4 {
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+        
+        .timeline-content p {
+            font-size: 14px;
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 6px;
+        }
+        
+        .lab-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        
+        .lab-table th {
+            background: #4a5568;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .lab-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .lab-table tr:hover {
+            background: #f7fafc;
+        }
+        
+        .lab-table td strong {
+            font-weight: 700;
+            color: #2d3748;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .status-normal {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+        
+        .status-abnormal {
+            background: #fed7d7;
+            color: #742a2a;
+        }
+        
+        .status-elevated {
+            background: #feebc8;
+            color: #7c2d12;
+        }
+        
+        .followup-list {
+            background: #f7fafc;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .followup-list ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .followup-list li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            color: #4a5568;
+        }
+        
+        .followup-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #48bb78;
+            font-weight: bold;
+        }
+        
+        .appointment-card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-left: 4px solid #4299e1;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        
+        .appointment-card h4 {
+            color: #2d3748;
+            margin-bottom: 5px;
+        }
+        
+        .appointment-card p {
+            font-size: 14px;
+            color: #718096;
+        }
+        
+        .footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>PATIENT MEDICAL SUMMARY</h1>
+<p>Metropolitan Cancer Center | Electronic Health Record</p>
+<p>Generated: November 15, 2024 | Report ID: EHR-2024-11-456123</p>
+</div>
+<div class="patient-info">
+<div class="info-card">
+<h3>Patient Name</h3>
+<p>DAVIDSON, JAMES</p>
+</div>
+<div class="info-card">
+<h3>Medical Record Number</h3>
+<p>MRN-2024-456123</p>
+</div>
+<div class="info-card">
+<h3>Date of Birth</h3>
+<p>04/10/1962 (62 years)</p>
+</div>
+<div class="info-card">
+<h3>Sex</h3>
+<p>Male</p>
+</div>
+<div class="info-card">
+<h3>Primary Physician</h3>
+<p>Dr. Michael Chen, MD</p>
+</div>
+<div class="info-card">
+<h3>Last Visit</h3>
+<p>11/15/2024</p>
+</div>
+</div>
+<div class="content">
+<!-- Active Diagnoses -->
+<div class="section" id="essential-hypertension">
+<h2>🔴 Active &amp; Chronic Diagnoses</h2>
+<div class="diagnosis-list">
+<div class="diagnosis-item">
+<nav><a href="#non-small-cell-lung-carcinoma">Non-Small Cell Lung Carcinoma (Active)</a></nav>
+<p><strong>Histology:</strong> Adenocarcinoma</p>
+<p><strong>Location:</strong> Left upper lobe, apicoposterior segment</p>
+<p><strong>Stage:</strong> T2bN0M0 (Stage II)</p>
+<p><strong>Tumor Size:</strong> 3.1 cm</p>
+<p><strong>Diagnosed:</strong> March 2024</p>
+<p><strong>Status:</strong> Treatment planning - Surgery + adjuvant chemotherapy</p>
+</div>
+<div class="diagnosis-item chronic">
+<nav><a href="#chronic-obstructive-pulmonary-disease">Chronic Obstructive Pulmonary Disease (Chronic)</a></nav>
+<p><strong>Diagnosed:</strong> 2018</p>
+<p><strong>Status:</strong> Mild-moderate, managed with bronchodilators</p>
+<p><strong>FEV1:</strong> 2.10 L (65% predicted)</p>
+</div>
+<div class="diagnosis-item chronic">
+<nav><a href="#former-tobacco-use-disorder">Former Tobacco Use Disorder (Resolved)</a></nav>
+<p><strong>Pack-years:</strong> 15 pack-years</p>
+<p><strong>Quit Date:</strong> 2006 (18 years smoke-free)</p>
+<p><strong>Status:</strong> Former smoker, excellent cessation</p>
+</div>
+<div class="diagnosis-item chronic">
+<nav><a href="#essential-hypertension">Essential Hypertension (Chronic)</a></nav>
+<p><strong>Diagnosed:</strong> 2015</p>
+<p><strong>Status:</strong> Well-controlled on medication</p>
+</div>
+</div>
+<div class="alert">
+<h4>⚠️ Molecular Testing Pending</h4>
+<p>EGFR, ALK, ROS1, KRAS, and PD-L1 testing in progress. Results will guide adjuvant therapy decisions and inform future treatment options if recurrence occurs. KRAS G12C mutation detected (see molecular report).</p>
+</div>
+</div>
+<!-- Treatment Timeline -->
+<div class="section">
+<h2>📅 Treatment Timeline</h2>
+<div class="timeline">
+<div class="timeline-item">
+<div class="timeline-date">May 15, 2021</div>
+<div class="timeline-content">
+<h4>Routine Primary Care Visit</h4>
+<p><strong>Details:</strong> Annual physical examination. Patient reported mild dyspnea with exertion, attributed to deconditioning and smoking history.</p>
+<p><strong>Outcome:</strong> Encouraged smoking cessation maintenance, routine follow-up</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">August 20, 2022</div>
+<div class="timeline-content">
+<h4>Follow-up for Persistent Cough</h4>
+<p><strong>Details:</strong> Patient presented with persistent non-productive cough x 3 months. No hemoptysis. Chest X-ray ordered.</p>
+<p><strong>Chest X-ray:</strong> Possible left upper lobe opacity, recommend CT for further evaluation</p>
+<p><strong>Outcome:</strong> Patient declined CT at that time, opted for watchful waiting</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">January 18, 2024</div>
+<div class="timeline-content">
+<h4>Return Visit - Worsening Symptoms</h4>
+<p><strong>Details:</strong> Progressive dyspnea, persistent cough, unintentional weight loss (3-4 kg over 6 months). Patient now agreeable to imaging.</p>
+<p><strong>Outcome:</strong> Chest CT ordered urgently</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">January 25, 2024</div>
+<div class="timeline-content">
+<h4>Chest CT with Contrast</h4>
+<p><strong>Findings:</strong> 3.1 cm spiculated mass in left upper lobe, apicoposterior segment. No mediastinal lymphadenopathy. No pleural effusion.</p>
+<p><strong>Impression:</strong> Highly suspicious for primary lung malignancy</p>
+<p><strong>Outcome:</strong> Urgent referral to thoracic surgery and oncology</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">February 5, 2024</div>
+<div class="timeline-content">
+<h4>PET/CT Scan</h4>
+<p><strong>Details:</strong> FDG-avid left upper lobe mass with SUV max 9.2. No mediastinal or hilar nodal uptake. No distant metastases.</p>
+<p><strong>Outcome:</strong> Clinical stage T2bN0M0 (Stage II)</p>
+</div>
+</div>
+<div class="timeline-item critical" id="non-small-cell-lung-carcinoma">
+<div class="timeline-date">February 15, 2024</div>
+<div class="timeline-content">
+<h4>CT-Guided Core Needle Biopsy</h4>
+<p><strong>Procedure:</strong> CT-guided transthoracic core needle biopsy of left upper lobe mass</p>
+<p><strong>Pathology:</strong> Adenocarcinoma consistent with primary lung origin</p>
+<p><strong>Complications:</strong> Small pneumothorax (15%), managed conservatively</p>
+<p><strong>Outcome:</strong> Diagnosis confirmed - Non-small cell lung carcinoma</p>
+</div>
+</div>
+<div class="timeline-item" id="chronic-obstructive-pulmonary-disease">
+<div class="timeline-date">March 1, 2024</div>
+<div class="timeline-content">
+<h4>Pulmonary Function Testing</h4>
+<p><strong>Results:</strong> FEV1 2.10 L (65% predicted), FVC 3.20 L (72% predicted). Mild-moderate obstructive pattern.</p>
+<p><strong>Assessment:</strong> Adequate pulmonary reserve for lobectomy</p>
+<p><strong>Outcome:</strong> Cleared for surgical resection</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">March 15, 2024</div>
+<div class="timeline-content">
+<h4>Multidisciplinary Tumor Board</h4>
+<p><strong>Participants:</strong> Thoracic surgery, medical oncology, radiation oncology, pathology</p>
+<p><strong>Recommendation:</strong> Left upper lobectomy with mediastinal lymph node dissection, followed by adjuvant platinum-based chemotherapy</p>
+<p><strong>Alternative discussed:</strong> Definitive chemoradiation if patient declines surgery</p>
+<p><strong>Outcome:</strong> Patient elected for surgical approach</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">April 8, 2024</div>
+<div class="timeline-content">
+<h4>Left Upper Lobectomy (Planned)</h4>
+<p><strong>Procedure:</strong> Video-assisted thoracoscopic surgery (VATS) left upper lobectomy with mediastinal lymph node dissection</p>
+<p><strong>Surgeon:</strong> Dr. Robert Williams, MD</p>
+<p><strong>Expected Pathology:</strong> Final staging, lymph node assessment</p>
+<p><strong>Status:</strong> Surgery scheduled</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">May 2024 (Planned)</div>
+<div class="timeline-content">
+<h4>Adjuvant Chemotherapy (Planned)</h4>
+<p><strong>Regimen:</strong> Cisplatin 75 mg/m² + Pemetrexed 500 mg/m² every 21 days x 4 cycles</p>
+<p><strong>Duration:</strong> Approximately 12 weeks</p>
+<p><strong>Goal:</strong> Reduce risk of recurrence</p>
+<p><strong>Status:</strong> Pending final pathology and recovery from surgery</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">November 15, 2024</div>
+<div class="timeline-content">
+<h4>Current Visit - Pre-Operative Assessment</h4>
+<p><strong>Details:</strong> Final pre-operative evaluation. Patient in good spirits, understands risks and benefits of surgery.</p>
+<p><strong>Labs:</strong> CBC, CMP within normal limits. CEA 4.3 ng/mL (mildly elevated).</p>
+<p><strong>Outcome:</strong> Cleared for surgery, final consent obtained</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Recent Labs -->
+<div class="section">
+<h2>🔬 Most Recent Laboratory Results (11/15/2024)</h2>
+<table class="lab-table">
+<thead>
+<tr>
+<th>Test</th>
+<th>Result</th>
+<th>Units</th>
+<th>Reference Range</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CEA (Carcinoembryonic Antigen)</td>
+<td><strong>4.3</strong></td>
+<td>ng/mL</td>
+<td>0-3.0</td>
+<td><span class="status-badge status-elevated">Mildly Elevated</span></td>
+</tr>
+<tr>
+<td>Hemoglobin</td>
+<td><strong>12.9</strong></td>
+<td>g/dL</td>
+<td>13.5-17.5</td>
+<td><span class="status-badge status-abnormal">Mild anemia</span></td>
+</tr>
+<tr>
+<td>WBC</td>
+<td><strong>7.5</strong></td>
+<td>K/uL</td>
+<td>4.5-11.0</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Platelet</td>
+<td><strong>268</strong></td>
+<td>K/uL</td>
+<td>150-400</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Creatinine</td>
+<td><strong>0.9</strong></td>
+<td>mg/dL</td>
+<td>0.7-1.3</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>ALT</td>
+<td><strong>32</strong></td>
+<td>U/L</td>
+<td>7-56</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Albumin</td>
+<td><strong>3.8</strong></td>
+<td>g/dL</td>
+<td>3.5-5.0</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>FEV1 (Pulmonary Function)</td>
+<td><strong>2.10</strong></td>
+<td>L</td>
+<td>65% predicted</td>
+<td><span class="status-badge status-abnormal">Mild-moderate obstruction</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Current Medications -->
+<div class="section">
+<h2>💊 Current Medications</h2>
+<table class="lab-table">
+<thead>
+<tr>
+<th>Medication</th>
+<th>Dose</th>
+<th>Frequency</th>
+<th>Indication</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Albuterol inhaler</td>
+<td>90 mcg/puff</td>
+<td>2 puffs every 4-6 hours PRN</td>
+<td>COPD, bronchospasm</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Tiotropium (Spiriva)</td>
+<td>18 mcg inhaled</td>
+<td>Once daily</td>
+<td>COPD maintenance</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Lisinopril</td>
+<td>10 mg PO</td>
+<td>Daily</td>
+<td>Hypertension</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Aspirin</td>
+<td>81 mg PO</td>
+<td>Daily</td>
+<td>Cardiovascular prophylaxis</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Vitamin D3</td>
+<td>2000 IU PO</td>
+<td>Daily</td>
+<td>Bone health</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Multivitamin</td>
+<td>1 tablet PO</td>
+<td>Daily</td>
+<td>Nutritional support</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Follow-up Plan -->
+<div class="section">
+<h2>📋 Follow-up Plan</h2>
+<h3 style="color: #2d3748; margin-top: 20px; margin-bottom: 15px;">Post-Surgical Surveillance</h3>
+<div class="followup-list">
+<ul>
+<li>Chest CT every 6 months for first 2 years</li>
+<li>Then chest CT annually for years 3-5</li>
+<li>CEA monitoring every 3-6 months</li>
+<li>Monitor for symptoms of recurrence (cough, dyspnea, hemoptysis, weight loss)</li>
+<li>Pulmonary function testing annually</li>
+<li>Smoking cessation support and counseling</li>
+</ul>
+</div>
+<h3 style="color: #2d3748; margin-top: 25px; margin-bottom: 15px;">Next Scheduled Appointments</h3>
+<div class="appointment-card">
+<h4>Thoracic Surgery - April 8, 2024</h4>
+<p><strong>Provider:</strong> Dr. Robert Williams, MD</p>
+<p><strong>Purpose:</strong> Left upper lobectomy (VATS)</p>
+</div>
+<div class="appointment-card">
+<h4>Medical Oncology - May 2024</h4>
+<p><strong>Provider:</strong> Dr. Michael Chen, MD</p>
+<p><strong>Purpose:</strong> Initiate adjuvant chemotherapy (Cisplatin + Pemetrexed)</p>
+</div>
+<div class="appointment-card">
+<h4>Pulmonology - June 2024</h4>
+<p><strong>Provider:</strong> Dr. Lisa Martinez, MD</p>
+<p><strong>Purpose:</strong> Post-operative pulmonary function assessment</p>
+</div>
+<div class="appointment-card">
+<h4>Primary Care - December 2024</h4>
+<p><strong>Provider:</strong> Dr. Sarah Johnson, MD</p>
+<p><strong>Purpose:</strong> General health maintenance, comorbidity management</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>Metropolitan Cancer Center | Department of Thoracic Oncology</p>
+<p>This document contains protected health information (PHI) and is confidential.</p>
+<p>Generated: 11/15/2024 16:20 | Report ID: EHR-2024-11-456123</p>
+</div>
+</div>
+</body>
+</html>

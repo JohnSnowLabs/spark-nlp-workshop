@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Patient Summary Dashboard - WRIGHT, THOMAS</title>
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #b45309 0%, #d97706 100%);
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #b45309 0%, #d97706 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .patient-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #fef3c7;
+            border-bottom: 3px solid #fbbf24;
+        }
+        
+        .info-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-left: 4px solid #d97706;
+        }
+        
+        .info-card h3 {
+            color: #2d3748;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        
+        .info-card p {
+            font-size: 18px;
+            font-weight: 600;
+            color: #4a5568;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #2d3748;
+            font-size: 24px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        
+        .diagnosis-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+        
+        .diagnosis-item {
+            background: #fef3c7;
+            border-left: 4px solid #d97706;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        .diagnosis-item.chronic {
+            background: #dbeafe;
+            border-left-color: #3b82f6;
+        }
+        
+        .diagnosis-item h4 {
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+        
+        .diagnosis-item p {
+            font-size: 14px;
+            color: #718096;
+            margin-bottom: 4px;
+        }
+        
+        .alert {
+            background: #fef5e7;
+            border-left: 4px solid #f39c12;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .alert.success {
+            background: #d1fae5;
+            border-left-color: #10b981;
+        }
+        
+        .alert h4 {
+            color: #d68910;
+            margin-bottom: 8px;
+        }
+        
+        .alert.success h4 {
+            color: #047857;
+        }
+        
+        .alert p {
+            color: #7c5d10;
+            font-size: 14px;
+        }
+        
+        .alert.success p {
+            color: #065f46;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 40px;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #cbd5e0;
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 30px;
+            padding-left: 20px;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -34px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #d97706;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px #d97706;
+        }
+        
+        .timeline-item.critical::before {
+            background: #dc2626;
+            box-shadow: 0 0 0 2px #dc2626;
+        }
+        
+        .timeline-item.success::before {
+            background: #10b981;
+            box-shadow: 0 0 0 2px #10b981;
+        }
+        
+        .timeline-date {
+            font-weight: 600;
+            color: #d97706;
+            margin-bottom: 5px;
+        }
+        
+        .timeline-content {
+            background: #f7fafc;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .timeline-content h4 {
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+        
+        .timeline-content p {
+            font-size: 14px;
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 6px;
+        }
+        
+        .lab-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        
+        .lab-table th {
+            background: #d97706;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .lab-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .lab-table tr:hover {
+            background: #fef3c7;
+        }
+        
+        .lab-table td strong {
+            font-weight: 700;
+            color: #2d3748;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .status-normal {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+        
+        .status-abnormal {
+            background: #fed7d7;
+            color: #742a2a;
+        }
+        
+        .status-elevated {
+            background: #feebc8;
+            color: #7c2d12;
+        }
+        
+        .followup-list {
+            background: #f7fafc;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .followup-list ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .followup-list li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            color: #4a5568;
+        }
+        
+        .followup-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #48bb78;
+            font-weight: bold;
+        }
+        
+        .appointment-card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-left: 4px solid #d97706;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        
+        .appointment-card h4 {
+            color: #2d3748;
+            margin-bottom: 5px;
+        }
+        
+        .appointment-card p {
+            font-size: 14px;
+            color: #718096;
+        }
+        
+        .footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>PATIENT MEDICAL SUMMARY</h1>
+<p>Metropolitan Cancer Center | Genitourinary Oncology Department</p>
+<p>Generated: December 15, 2024 | Report ID: EHR-2024-12-556677</p>
+</div>
+<div class="patient-info">
+<div class="info-card">
+<h3>Patient Name</h3>
+<p>WRIGHT, THOMAS</p>
+</div>
+<div class="info-card">
+<h3>Medical Record Number</h3>
+<p>MRN-2024-556677</p>
+</div>
+<div class="info-card">
+<h3>Date of Birth</h3>
+<p>07/22/1957 (67 years)</p>
+</div>
+<div class="info-card">
+<h3>Sex</h3>
+<p>Male</p>
+</div>
+<div class="info-card">
+<h3>Primary Physician</h3>
+<p>Dr. Michael Chen, MD</p>
+</div>
+<div class="info-card">
+<h3>Last Visit</h3>
+<p>12/15/2024</p>
+</div>
+</div>
+<div class="content">
+<!-- Active Diagnoses -->
+<div class="section">
+<h2>🔴 Active &amp; Chronic Diagnoses</h2>
+<div class="diagnosis-list">
+<div class="diagnosis-item">
+<nav><a href="#muscle-invasive-bladder-cancer">Muscle-Invasive Bladder Cancer (Active - Post-Treatment)</a></nav>
+<p><strong>Histology:</strong> High-grade urothelial carcinoma</p>
+<p><strong>Clinical Stage:</strong> cT2bN0M0 (Stage II)</p>
+<p><strong>Pathologic Stage:</strong> ypT0N0M0 (complete pathologic response after neoadjuvant chemo)</p>
+<p><strong>Tumor Size:</strong> 4.5 cm mass at diagnosis (completely eradicated)</p>
+<p><strong>Diagnosed:</strong> March 2024</p>
+<p><strong>Treatment:</strong> Neoadjuvant cisplatin-gemcitabine (4 cycles) → radical cystectomy with ileal conduit</p>
+<p><strong>Status:</strong> No evidence of disease (NED), 5 months post-surgery</p>
+</div>
+<div class="diagnosis-item">
+<nav><a href="#ileal-conduit-urinary-diversion">Ileal Conduit Urinary Diversion (Post-Cystectomy)</a></nav>
+<p><strong>Procedure:</strong> Ileal conduit created during radical cystectomy (August 2024)</p>
+<p><strong>Stoma Location:</strong> Right lower quadrant</p>
+<p><strong>Function:</strong> Excellent, no complications</p>
+<p><strong>Status:</strong> Patient managing stoma care independently</p>
+</div>
+<div class="diagnosis-item chronic">
+<h4>Tobacco Use Disorder (Former Smoker)</h4>
+<p><strong>History:</strong> 40 pack-year smoking history (1 pack/day x 40 years)</p>
+<p><strong>Quit Date:</strong> March 2024 (at cancer diagnosis)</p>
+<p><strong>Status:</strong> Abstinent for 9 months, using nicotine replacement</p>
+</div>
+<div class="diagnosis-item chronic">
+<nav><a href="#chronic-obstructive-pulmonary-disease">Chronic Obstructive Pulmonary Disease (COPD)</a></nav>
+<p><strong>Etiology:</strong> Tobacco-related</p>
+<p><strong>Severity:</strong> Moderate (GOLD Stage 2)</p>
+<p><strong>Status:</strong> Stable on inhaler therapy</p>
+</div>
+<div class="diagnosis-item chronic">
+<nav><a href="#essential-hypertension">Essential Hypertension</a></nav>
+<p><strong>Diagnosed:</strong> 2010</p>
+<p><strong>Status:</strong> Well-controlled on lisinopril</p>
+</div>
+</div>
+<div class="alert success">
+<h4>✅ Complete Pathologic Response (ypT0N0M0) - Excellent Outcome</h4>
+<p><strong>Treatment:</strong> Neoadjuvant cisplatin-gemcitabine (4 cycles) → Radical cystectomy with pelvic lymph node dissection. <strong>Response:</strong> Complete pathologic response (ypT0N0M0). No residual tumor found in bladder specimen. All 18 lymph nodes negative. This represents pathologic downstaging from clinical Stage II (cT2bN0M0) to pathologic Stage 0 (ypT0N0M0), associated with excellent long-term prognosis.</p>
+</div>
+<div class="alert">
+<h4>🧬 Molecular Testing: PD-L1 Positive (CPS 25%)</h4>
+<p><strong>PD-L1 Expression:</strong> Combined Positive Score (CPS) 25% (high expression). <strong>Clinical Significance:</strong> If recurrence occurs, patient would be eligible for immunotherapy (pembrolizumab, atezolizumab, nivolumab). PD-L1 positivity associated with better response to checkpoint inhibitors. <strong>Current Status:</strong> No evidence of disease, immunotherapy not currently indicated.</p>
+</div>
+</div>
+<!-- Treatment Timeline -->
+<div class="section">
+<h2>📅 Treatment Timeline</h2>
+<div class="timeline">
+<div class="timeline-item">
+<div class="timeline-date">January 2024</div>
+<div class="timeline-content">
+<h4>Initial Symptoms</h4>
+<p><strong>Symptoms:</strong> Gross hematuria (blood in urine), no pain, for 2 weeks</p>
+<p><strong>Risk Factors:</strong> 40 pack-year smoking history</p>
+<p><strong>Action:</strong> Presented to primary care physician, urgent urology referral</p>
+</div>
+</div>
+<div class="timeline-item" id="muscle-invasive-bladder-cancer">
+<div class="timeline-date">February 15, 2024</div>
+<div class="timeline-content">
+<h4>Cystoscopy and TURBT</h4>
+<p><strong>Cystoscopy:</strong> Large (4.5 cm) papillary mass on left lateral bladder wall</p>
+<p><strong>TURBT:</strong> Transurethral resection of bladder tumor performed</p>
+<p><strong>Pathology:</strong> High-grade urothelial carcinoma, muscle invasion present (T2)</p>
+<p><strong>Outcome:</strong> Diagnosis of muscle-invasive bladder cancer</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">March 1, 2024</div>
+<div class="timeline-content">
+<h4>Staging Workup - Clinical Stage II</h4>
+<p><strong>CT Chest/Abdomen/Pelvis:</strong> Bladder wall thickening, no lymphadenopathy, no distant metastases</p>
+<p><strong>MRI Pelvis:</strong> 4.5 cm mass invading deep muscle layer (T2b), no extravesical extension</p>
+<p><strong>Clinical Stage:</strong> cT2bN0M0 (Stage II - muscle-invasive, non-metastatic)</p>
+<p><strong>Outcome:</strong> Candidate for neoadjuvant chemotherapy followed by radical cystectomy</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">March 10, 2024</div>
+<div class="timeline-content">
+<h4>Molecular Testing and Smoking Cessation</h4>
+<p><strong>PD-L1 Testing:</strong> CPS 25% (high expression)</p>
+<p><strong>Smoking Cessation:</strong> Patient quit smoking, started nicotine patch and varenicline (Chantix)</p>
+<p><strong>Outcome:</strong> Prepared for neoadjuvant chemotherapy</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">March 20, 2024</div>
+<div class="timeline-content">
+<h4>Neoadjuvant Chemotherapy - Cycle 1 (Cisplatin-Gemcitabine)</h4>
+<p><strong>Regimen:</strong> Cisplatin 70 mg/m² IV Day 1 + Gemcitabine 1000 mg/m² IV Days 1,8 (21-day cycles)</p>
+<p><strong>Premedications:</strong> Aggressive IV hydration, mannitol, antiemetics</p>
+<p><strong>Tolerability:</strong> Nausea (grade 2), fatigue</p>
+<p><strong>Outcome:</strong> Neoadjuvant therapy initiated</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">April 10, 2024</div>
+<div class="timeline-content">
+<h4>Cisplatin-Gemcitabine Cycle 2</h4>
+<p><strong>Details:</strong> Second cycle administered per protocol</p>
+<p><strong>Side Effects:</strong> Cumulative fatigue, mild neuropathy (grade 1), nausea</p>
+<p><strong>Creatinine:</strong> 1.2 mg/dL (stable renal function)</p>
+<p><strong>Outcome:</strong> Tolerating chemotherapy adequately</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">May 1, 2024</div>
+<div class="timeline-content">
+<h4>Cisplatin-Gemcitabine Cycle 3</h4>
+<p><strong>Details:</strong> Third cycle administered per protocol</p>
+<p><strong>Side Effects:</strong> Worsening fatigue (grade 2), tinnitus (grade 1), neuropathy (grade 1)</p>
+<p><strong>Outcome:</strong> Manageable toxicity</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">May 22, 2024</div>
+<div class="timeline-content">
+<h4>Cisplatin-Gemcitabine Cycle 4 (Final)</h4>
+<p><strong>Details:</strong> Fourth and final cycle of neoadjuvant chemotherapy</p>
+<p><strong>Side Effects:</strong> Persistent fatigue, mild hearing loss, neuropathy</p>
+<p><strong>Outcome:</strong> Completed 4 cycles neoadjuvant chemotherapy</p>
+</div>
+</div>
+<div class="timeline-item success">
+<div class="timeline-date">June 20, 2024</div>
+<div class="timeline-content">
+<h4>Restaging - Excellent Clinical Response</h4>
+<p><strong>CT Chest/Abdomen/Pelvis:</strong> Marked decrease in bladder wall thickening, no lymphadenopathy, no metastases</p>
+<p><strong>Cystoscopy:</strong> Minimal residual tumor, significant response to chemotherapy</p>
+<p><strong>Assessment:</strong> Excellent clinical response to neoadjuvant therapy</p>
+<p><strong>Outcome:</strong> Proceed with radical cystectomy</p>
+</div>
+</div>
+<div class="timeline-item" id="chronic-obstructive-pulmonary-disease">
+<div class="timeline-date">July 15, 2024</div>
+<div class="timeline-content">
+<h4>Pre-Operative Preparation</h4>
+<p><strong>Stoma Education:</strong> Met with enterostomal therapy nurse, learned stoma care</p>
+<p><strong>Pulmonary Clearance:</strong> Pulmonary function tests (moderate COPD, cleared for surgery)</p>
+<p><strong>Cardiac Clearance:</strong> Stress test negative, cleared for major surgery</p>
+<p><strong>Outcome:</strong> Ready for radical cystectomy</p>
+</div>
+</div>
+<div class="timeline-item critical" id="ileal-conduit-urinary-diversion">
+<div class="timeline-date">August 5, 2024</div>
+<div class="timeline-content">
+<h4>Radical Cystectomy with Ileal Conduit</h4>
+<p><strong>Procedure:</strong> Radical cystectomy (removal of bladder, prostate, seminal vesicles) + bilateral pelvic lymph node dissection + ileal conduit urinary diversion</p>
+<p><strong>Approach:</strong> Open surgery (not robotic due to tumor size)</p>
+<p><strong>Lymph Nodes:</strong> 18 lymph nodes removed</p>
+<p><strong>Duration:</strong> 7 hours 30 minutes</p>
+<p><strong>Estimated Blood Loss:</strong> 600 mL</p>
+<p><strong>Outcome:</strong> Surgery completed successfully</p>
+</div>
+</div>
+<div class="timeline-item success">
+<div class="timeline-date">August 15, 2024</div>
+<div class="timeline-content">
+<h4>Final Pathology - Complete Pathologic Response (ypT0N0M0)</h4>
+<p><strong>Bladder Specimen:</strong> No residual tumor identified (complete pathologic response)</p>
+<p><strong>Lymph Nodes:</strong> 0/18 lymph nodes positive</p>
+<p><strong>Margins:</strong> All negative</p>
+<p><strong>Pathologic Stage:</strong> ypT0N0M0 (complete response to neoadjuvant chemotherapy)</p>
+<p><strong>Outcome:</strong> Excellent prognosis - complete pathologic response</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">August 5-15, 2024</div>
+<div class="timeline-content">
+<h4>Post-Operative Hospitalization</h4>
+<p><strong>Course:</strong> Uneventful recovery, bowel function returned Day 5</p>
+<p><strong>Stoma Function:</strong> Ileal conduit producing urine appropriately</p>
+<p><strong>Complications:</strong> None (no leak, no infection, no ileus)</p>
+<p><strong>Stoma Care Training:</strong> Patient and wife trained on ostomy care</p>
+<p><strong>Outcome:</strong> Discharged home Day 10</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">September 15, 2024</div>
+<div class="timeline-content">
+<h4>6-Week Post-Operative Visit</h4>
+<p><strong>Status:</strong> Recovering well, managing stoma independently</p>
+<p><strong>Complications:</strong> None</p>
+<p><strong>CT Chest/Abdomen/Pelvis:</strong> No evidence of recurrence</p>
+<p><strong>Outcome:</strong> Excellent recovery, no adjuvant therapy needed (ypT0N0M0)</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">December 15, 2024</div>
+<div class="timeline-content">
+<h4>Current Visit - 4-Month Post-Operative</h4>
+<p><strong>Status:</strong> Patient doing very well. Excellent quality of life. Managing stoma without issues.</p>
+<p><strong>Physical Exam:</strong> Well-healed incision, healthy stoma, no masses</p>
+<p><strong>Cystoscopy of Urethra:</strong> No recurrence in retained urethra</p>
+<p><strong>Imaging:</strong> CT scheduled for 6-month surveillance</p>
+<p><strong>Outcome:</strong> No evidence of disease, continue surveillance</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Recent Labs -->
+<div class="section">
+<h2>🔬 Most Recent Laboratory Results (12/15/2024)</h2>
+<table class="lab-table">
+<thead>
+<tr>
+<th>Test</th>
+<th>Result</th>
+<th>Units</th>
+<th>Reference Range</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hemoglobin</td>
+<td><strong>13.8</strong></td>
+<td>g/dL</td>
+<td>13.5-17.5</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>WBC</td>
+<td><strong>7.2</strong></td>
+<td>K/uL</td>
+<td>4.5-11.0</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Platelet</td>
+<td><strong>245</strong></td>
+<td>K/uL</td>
+<td>150-400</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Creatinine</td>
+<td><strong>1.1</strong></td>
+<td>mg/dL</td>
+<td>0.7-1.3</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>eGFR</td>
+<td><strong>72</strong></td>
+<td>mL/min/1.73m²</td>
+<td>&gt;60</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>BUN</td>
+<td><strong>18</strong></td>
+<td>mg/dL</td>
+<td>7-20</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Sodium</td>
+<td><strong>140</strong></td>
+<td>mEq/L</td>
+<td>136-145</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Potassium</td>
+<td><strong>4.2</strong></td>
+<td>mEq/L</td>
+<td>3.5-5.0</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>ALT</td>
+<td><strong>28</strong></td>
+<td>U/L</td>
+<td>7-56</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Alkaline Phosphatase</td>
+<td><strong>85</strong></td>
+<td>U/L</td>
+<td>40-130</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Current Medications -->
+<div class="section" id="essential-hypertension">
+<h2>💊 Current Medications</h2>
+<table class="lab-table">
+<thead>
+<tr>
+<th>Medication</th>
+<th>Dose</th>
+<th>Frequency</th>
+<th>Indication</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lisinopril</td>
+<td>20 mg PO</td>
+<td>Daily</td>
+<td>Essential hypertension</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Tiotropium (Spiriva)</td>
+<td>18 mcg inhaled</td>
+<td>Daily</td>
+<td>COPD maintenance therapy</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Albuterol inhaler</td>
+<td>2 puffs</td>
+<td>As needed</td>
+<td>COPD rescue therapy</td>
+<td><span class="status-badge status-normal">PRN</span></td>
+</tr>
+<tr>
+<td>Nicotine patch</td>
+<td>14 mg transdermal</td>
+<td>Daily</td>
+<td>Smoking cessation (tapering)</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Vitamin B12</td>
+<td>1000 mcg PO</td>
+<td>Daily</td>
+<td>Ileal conduit (B12 absorption)</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Multivitamin</td>
+<td>1 tablet PO</td>
+<td>Daily</td>
+<td>General health</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+</tbody>
+</table>
+<p style="margin-top: 15px; color: #4a5568; font-size: 14px;"><strong>Note:</strong> No cancer-directed therapy currently needed. Patient achieved complete pathologic response (ypT0N0M0) and requires surveillance only.</p>
+</div>
+<!-- Follow-up Plan -->
+<div class="section">
+<h2>📋 Follow-up Plan</h2>
+<h3 style="color: #2d3748; margin-top: 20px; margin-bottom: 15px;">Bladder Cancer Surveillance (Post-Cystectomy)</h3>
+<div class="followup-list">
+<ul>
+<li>Clinical evaluation every 3 months for first 2 years, then every 6 months for years 3-5</li>
+<li>CT chest/abdomen/pelvis every 6 months for 2 years, then annually for years 3-5</li>
+<li>Urethral wash cytology every 6 months (monitor for urethral recurrence)</li>
+<li>Cystoscopy of retained urethra every 6 months for 2 years</li>
+<li>Renal function monitoring (creatinine, eGFR) every 3-6 months</li>
+<li>Vitamin B12 level annually (ileal conduit can impair absorption)</li>
+<li>Stoma and skin care assessment at each visit</li>
+<li>If recurrence: consider immunotherapy (pembrolizumab, atezolizumab) given PD-L1 positivity</li>
+<li>Annual chest X-ray (monitor for lung cancer given smoking history)</li>
+<li>Continue smoking abstinence, pulmonary follow-up for COPD</li>
+</ul>
+</div>
+<h3 style="color: #2d3748; margin-top: 25px; margin-bottom: 15px;">Next Scheduled Appointments</h3>
+<div class="appointment-card">
+<h4>Urology - February 2025</h4>
+<p><strong>Provider:</strong> Dr. Michael Chen, MD</p>
+<p><strong>Purpose:</strong> 6-month post-operative visit, physical exam, stoma assessment, urethral wash cytology</p>
+</div>
+<div class="appointment-card">
+<h4>Radiology - February 2025</h4>
+<p><strong>Provider:</strong> Imaging Center</p>
+<p><strong>Purpose:</strong> 6-month surveillance CT chest/abdomen/pelvis</p>
+</div>
+<div class="appointment-card">
+<h4>Urology Procedure - March 2025</h4>
+<p><strong>Provider:</strong> Dr. Michael Chen, MD</p>
+<p><strong>Purpose:</strong> Cystoscopy of retained urethra (6-month surveillance)</p>
+</div>
+<div class="appointment-card">
+<h4>Pulmonology - April 2025</h4>
+<p><strong>Provider:</strong> Dr. Sarah Johnson, MD</p>
+<p><strong>Purpose:</strong> COPD management, pulmonary function tests, chest X-ray</p>
+</div>
+<div class="appointment-card">
+<h4>Ostomy Nurse - As Needed</h4>
+<p><strong>Provider:</strong> Enterostomal Therapy Nurse</p>
+<p><strong>Purpose:</strong> Stoma care support, troubleshooting, supplies</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>Metropolitan Cancer Center | Department of Genitourinary Oncology</p>
+<p>This document contains protected health information (PHI) and is confidential.</p>
+<p>Generated: 12/15/2024 22:45 | Report ID: EHR-2024-12-556677</p>
+</div>
+</div>
+</body>
+</html>

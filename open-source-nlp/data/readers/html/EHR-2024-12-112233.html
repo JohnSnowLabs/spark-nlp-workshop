@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Patient Summary Dashboard - TAYLOR, JENNIFER</title>
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .patient-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #dbeafe;
+            border-bottom: 3px solid #60a5fa;
+        }
+        
+        .info-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-left: 4px solid #1e40af;
+        }
+        
+        .info-card h3 {
+            color: #2d3748;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        
+        .info-card p {
+            font-size: 18px;
+            font-weight: 600;
+            color: #4a5568;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #2d3748;
+            font-size: 24px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        
+        .diagnosis-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+        
+        .diagnosis-item {
+            background: #dbeafe;
+            border-left: 4px solid #1e40af;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        .diagnosis-item.resolved {
+            background: #d1fae5;
+            border-left-color: #10b981;
+        }
+        
+        .diagnosis-item h4 {
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+        
+        .diagnosis-item p {
+            font-size: 14px;
+            color: #718096;
+            margin-bottom: 4px;
+        }
+        
+        .alert {
+            background: #fef5e7;
+            border-left: 4px solid #f39c12;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .alert.success {
+            background: #d1fae5;
+            border-left-color: #10b981;
+        }
+        
+        .alert h4 {
+            color: #d68910;
+            margin-bottom: 8px;
+        }
+        
+        .alert.success h4 {
+            color: #047857;
+        }
+        
+        .alert p {
+            color: #7c5d10;
+            font-size: 14px;
+        }
+        
+        .alert.success p {
+            color: #065f46;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 40px;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #cbd5e0;
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 30px;
+            padding-left: 20px;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -34px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #1e40af;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px #1e40af;
+        }
+        
+        .timeline-item.critical::before {
+            background: #dc2626;
+            box-shadow: 0 0 0 2px #dc2626;
+        }
+        
+        .timeline-item.success::before {
+            background: #10b981;
+            box-shadow: 0 0 0 2px #10b981;
+        }
+        
+        .timeline-date {
+            font-weight: 600;
+            color: #1e40af;
+            margin-bottom: 5px;
+        }
+        
+        .timeline-content {
+            background: #f7fafc;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .timeline-content h4 {
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+        
+        .timeline-content p {
+            font-size: 14px;
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 6px;
+        }
+        
+        .lab-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        
+        .lab-table th {
+            background: #1e40af;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .lab-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .lab-table tr:hover {
+            background: #dbeafe;
+        }
+        
+        .lab-table td strong {
+            font-weight: 700;
+            color: #2d3748;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .status-normal {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+        
+        .status-abnormal {
+            background: #fed7d7;
+            color: #742a2a;
+        }
+        
+        .status-elevated {
+            background: #feebc8;
+            color: #7c2d12;
+        }
+        
+        .followup-list {
+            background: #f7fafc;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .followup-list ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .followup-list li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            color: #4a5568;
+        }
+        
+        .followup-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #48bb78;
+            font-weight: bold;
+        }
+        
+        .appointment-card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-left: 4px solid #1e40af;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        
+        .appointment-card h4 {
+            color: #2d3748;
+            margin-bottom: 5px;
+        }
+        
+        .appointment-card p {
+            font-size: 14px;
+            color: #718096;
+        }
+        
+        .footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>PATIENT MEDICAL SUMMARY</h1>
+<p>Metropolitan Cancer Center | Melanoma &amp; Skin Cancer Oncology Department</p>
+<p>Generated: December 15, 2024 | Report ID: EHR-2024-12-112233</p>
+</div>
+<div class="patient-info">
+<div class="info-card">
+<h3>Patient Name</h3>
+<p>TAYLOR, JENNIFER</p>
+</div>
+<div class="info-card">
+<h3>Medical Record Number</h3>
+<p>MRN-2024-112233</p>
+</div>
+<div class="info-card">
+<h3>Date of Birth</h3>
+<p>09/12/1972 (52 years)</p>
+</div>
+<div class="info-card">
+<h3>Sex</h3>
+<p>Female</p>
+</div>
+<div class="info-card">
+<h3>Primary Physician</h3>
+<p>Dr. Amanda Rodriguez, MD</p>
+</div>
+<div class="info-card">
+<h3>Last Visit</h3>
+<p>12/15/2024</p>
+</div>
+</div>
+<div class="content">
+<!-- Active Diagnoses -->
+<div class="section">
+<h2>🔴 Active &amp; Resolved Diagnoses</h2>
+<div class="diagnosis-list">
+<div class="diagnosis-item">
+<nav><a href="#metastatic-melanoma">Metastatic Melanoma (Active - Stage IV)</a></nav>
+<p><strong>Stage:</strong> IV (T3bN3M1c)</p>
+<p><strong>Primary Site:</strong> Left upper back (excised 3 years ago)</p>
+<p><strong>Original Pathology:</strong> 2.8 mm Breslow depth, ulcerated, 4 mitoses/mm²</p>
+<p><strong>Metastases:</strong> Lung (multiple nodules), liver (2 lesions), brain (3 small lesions)</p>
+<p><strong>Diagnosed:</strong> May 2024 (metastatic disease)</p>
+<p><strong>Status:</strong> On immunotherapy (Nivolumab monotherapy), partial response</p>
+<p><strong>Current Disease:</strong> Significant tumor shrinkage, brain mets stable post-SRS</p>
+</div>
+<div class="diagnosis-item resolved">
+<nav><a href="#primary-cutaneous-melanoma">Primary Cutaneous Melanoma (Resolved)</a></nav>
+<p><strong>Location:</strong> Left upper back</p>
+<p><strong>Diagnosed:</strong> September 2021</p>
+<p><strong>Treatment:</strong> Wide local excision with 2 cm margins + sentinel lymph node biopsy (negative)</p>
+<p><strong>Stage at Diagnosis:</strong> IIB (T3bN0M0)</p>
+<p><strong>Status:</strong> Primary site resected, no evidence of local recurrence</p>
+</div>
+<div class="diagnosis-item resolved">
+<nav><a href="#immune-related-colitis">Immune-Related Colitis (Resolved)</a></nav>
+<p><strong>Onset:</strong> August 2024 (during combination immunotherapy)</p>
+<p><strong>Grade:</strong> Grade 2 (moderate)</p>
+<p><strong>Treatment:</strong> Prednisone taper, immunotherapy held temporarily</p>
+<p><strong>Status:</strong> Completely resolved, no ongoing symptoms</p>
+</div>
+<div class="diagnosis-item resolved">
+<nav><a href="#immune-related-thyroiditis">Immune-Related Thyroiditis (Resolved/Managed)</a></nav>
+<p><strong>Onset:</strong> September 2024 (during immunotherapy)</p>
+<p><strong>Presentation:</strong> Hypothyroidism (TSH 45 mIU/L)</p>
+<p><strong>Treatment:</strong> Levothyroxine replacement</p>
+<p><strong>Status:</strong> Well-controlled on thyroid replacement</p>
+</div>
+</div>
+<div class="alert success">
+<h4>✅ Excellent Response to Immunotherapy</h4>
+<p><strong>Treatment:</strong> Nivolumab + Ipilimumab (4 cycles) → Nivolumab monotherapy (ongoing). <strong>Response:</strong> Partial response with significant tumor shrinkage. Lung nodules decreased by 65%, liver lesions decreased by 70%, brain metastases stable post-stereotactic radiosurgery. Tolerating Nivolumab monotherapy well with no active immune-related adverse events.</p>
+</div>
+<div class="alert">
+<h4>🧬 Molecular Testing: BRAF V600E Mutation Positive</h4>
+<p><strong>Mutation:</strong> BRAF V600E (present in ~50% of melanomas). <strong>Treatment Options:</strong> BRAF/MEK inhibitor combination therapy (dabrafenib + trametinib) available as alternative if immunotherapy fails. <strong>Current Strategy:</strong> Continuing immunotherapy given excellent response. BRAF inhibitors reserved as second-line option. <strong>PD-L1 Expression:</strong> 60% (high, favorable for immunotherapy response).</p>
+</div>
+</div>
+<!-- Treatment Timeline -->
+<div class="section">
+<h2>📅 Treatment Timeline</h2>
+<div class="timeline">
+<div class="timeline-item" id="primary-cutaneous-melanoma">
+<div class="timeline-date">September 2021</div>
+<div class="timeline-content">
+<h4>Original Melanoma Diagnosis</h4>
+<p><strong>Presentation:</strong> Patient noticed changing mole on left upper back</p>
+<p><strong>Biopsy:</strong> Melanoma, 2.8 mm Breslow depth, ulcerated, 4 mitoses/mm²</p>
+<p><strong>Stage:</strong> IIB (T3bN0M0)</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">October 2021</div>
+<div class="timeline-content">
+<h4>Wide Local Excision + Sentinel Lymph Node Biopsy</h4>
+<p><strong>Procedure:</strong> Wide local excision with 2 cm margins, sentinel lymph node biopsy</p>
+<p><strong>Pathology:</strong> Margins negative, sentinel lymph nodes negative (0/2)</p>
+<p><strong>Final Stage:</strong> IIB (pT3bN0M0)</p>
+<p><strong>Outcome:</strong> No evidence of disease (NED)</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">November 2021 - April 2024</div>
+<div class="timeline-content">
+<h4>Surveillance Period (30 Months)</h4>
+<p><strong>Follow-up:</strong> Clinical exams every 3-6 months, annual CT scans</p>
+<p><strong>Status:</strong> No evidence of recurrence</p>
+<p><strong>Surveillance Imaging:</strong> CT chest/abdomen/pelvis (Oct 2022, Oct 2023) - negative</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">May 2024</div>
+<div class="timeline-content">
+<h4>Routine Surveillance CT - Metastatic Disease Detected</h4>
+<p><strong>CT Chest/Abdomen/Pelvis:</strong> Multiple new lung nodules (largest 1.8 cm), 2 liver lesions (1.2 cm and 0.9 cm)</p>
+<p><strong>Assessment:</strong> Concerning for metastatic melanoma</p>
+<p><strong>Outcome:</strong> Urgent referral to medical oncology</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">May 20, 2024</div>
+<div class="timeline-content">
+<h4>Brain MRI - Brain Metastases Identified</h4>
+<p><strong>MRI Brain with Contrast:</strong> 3 small brain metastases (8 mm, 6 mm, 5 mm) in right frontal lobe, left parietal lobe, right cerebellum</p>
+<p><strong>Symptoms:</strong> Asymptomatic, no neurologic deficits</p>
+<p><strong>Stage:</strong> IV (M1c - brain metastases present)</p>
+<p><strong>Outcome:</strong> Referral to radiation oncology for stereotactic radiosurgery</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">May 25, 2024</div>
+<div class="timeline-content">
+<h4>Liver Biopsy - Metastatic Melanoma Confirmed</h4>
+<p><strong>Procedure:</strong> CT-guided biopsy of liver lesion</p>
+<p><strong>Pathology:</strong> Metastatic melanoma, consistent with known primary</p>
+<p><strong>Molecular Testing:</strong> BRAF V600E mutation detected, PD-L1 expression 60%</p>
+<p><strong>Outcome:</strong> Diagnosis of Stage IV melanoma confirmed</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">June 5, 2024</div>
+<div class="timeline-content">
+<h4>Stereotactic Radiosurgery (SRS) to Brain Metastases</h4>
+<p><strong>Procedure:</strong> Gamma Knife radiosurgery to all 3 brain lesions</p>
+<p><strong>Doses:</strong> 20 Gy to each lesion (single fraction)</p>
+<p><strong>Tolerability:</strong> Excellent, no acute complications</p>
+<p><strong>Outcome:</strong> Brain metastases treated, proceed with systemic therapy</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">June 15, 2024</div>
+<div class="timeline-content">
+<h4>Combination Immunotherapy Initiated (Nivolumab + Ipilimumab)</h4>
+<p><strong>Regimen:</strong> Nivolumab 1 mg/kg + Ipilimumab 3 mg/kg IV every 3 weeks (4 cycles planned)</p>
+<p><strong>Rationale:</strong> BRAF V600E positive, but immunotherapy preferred first-line for durable response</p>
+<p><strong>Premedications:</strong> Acetaminophen, diphenhydramine</p>
+<p><strong>Tolerability:</strong> Mild fatigue, no acute infusion reactions</p>
+<p><strong>Outcome:</strong> Combination immunotherapy started</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">July 6, 2024</div>
+<div class="timeline-content">
+<h4>Cycle 2 - Nivolumab + Ipilimumab</h4>
+<p><strong>Details:</strong> Second cycle administered per protocol</p>
+<p><strong>Side Effects:</strong> Fatigue (grade 1), mild rash (grade 1)</p>
+<p><strong>LDH:</strong> 280 U/L (decreased from 450 at baseline)</p>
+<p><strong>Outcome:</strong> Tolerating well</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">July 27, 2024</div>
+<div class="timeline-content">
+<h4>Cycle 3 - Nivolumab + Ipilimumab</h4>
+<p><strong>Details:</strong> Third cycle administered per protocol</p>
+<p><strong>Side Effects:</strong> Worsening fatigue (grade 2), diarrhea (grade 1)</p>
+<p><strong>Outcome:</strong> Manageable side effects</p>
+</div>
+</div>
+<div class="timeline-item critical" id="immune-related-thyroiditis">
+<div class="timeline-date">August 10, 2024</div>
+<div class="timeline-content">
+<h4>Immune-Related Colitis (Grade 2)</h4>
+<p><strong>Symptoms:</strong> Increased diarrhea (6-8 stools/day), abdominal cramping, no blood</p>
+<p><strong>Workup:</strong> Stool studies negative for infection, colonoscopy showing colitis</p>
+<p><strong>Management:</strong> Immunotherapy held, prednisone 1 mg/kg started</p>
+<p><strong>Outcome:</strong> Symptoms improved within 1 week</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">August 31, 2024</div>
+<div class="timeline-content">
+<h4>Cycle 4 (Final) - Nivolumab + Ipilimumab</h4>
+<p><strong>Details:</strong> Fourth and final cycle of combination therapy (after colitis resolved)</p>
+<p><strong>Prednisone:</strong> Tapered to 20 mg daily</p>
+<p><strong>Side Effects:</strong> Minimal, colitis resolved</p>
+<p><strong>Outcome:</strong> Completed 4 cycles combination immunotherapy</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">September 15, 2024</div>
+<div class="timeline-content">
+<h4>Immune-Related Hypothyroidism Diagnosed</h4>
+<p><strong>Symptoms:</strong> Fatigue, cold intolerance</p>
+<p><strong>Labs:</strong> TSH 45 mIU/L (markedly elevated), Free T4 0.4 ng/dL (low)</p>
+<p><strong>Diagnosis:</strong> Immune-related thyroiditis → hypothyroidism</p>
+<p><strong>Treatment:</strong> Levothyroxine 100 mcg daily initiated</p>
+<p><strong>Outcome:</strong> Thyroid replacement started</p>
+</div>
+</div>
+<div class="timeline-item success">
+<div class="timeline-date">September 25, 2024</div>
+<div class="timeline-content">
+<h4>Restaging Scans - Partial Response</h4>
+<p><strong>CT Chest/Abdomen:</strong> Lung nodules decreased by 65% (largest now 0.6 cm). Liver lesions decreased by 70% (largest now 0.4 cm).</p>
+<p><strong>Brain MRI:</strong> All 3 brain metastases stable/decreased post-SRS, no new lesions</p>
+<p><strong>LDH:</strong> 195 U/L (normalized)</p>
+<p><strong>Assessment:</strong> Partial response (RECIST criteria)</p>
+<p><strong>Outcome:</strong> Excellent response to immunotherapy</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">October 10, 2024</div>
+<div class="timeline-content">
+<h4>Transition to Nivolumab Monotherapy</h4>
+<p><strong>Regimen:</strong> Nivolumab 480 mg IV every 4 weeks (maintenance)</p>
+<p><strong>Rationale:</strong> Completed 4 cycles combination therapy, transition to less toxic maintenance regimen</p>
+<p><strong>Tolerability:</strong> Excellent, no new immune-related adverse events</p>
+<p><strong>Outcome:</strong> Maintenance immunotherapy initiated</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">November 7, 2024</div>
+<div class="timeline-content">
+<h4>Nivolumab Maintenance - Cycle 2</h4>
+<p><strong>Details:</strong> Second cycle of Nivolumab monotherapy</p>
+<p><strong>Side Effects:</strong> Minimal fatigue, no active immune-related AEs</p>
+<p><strong>Thyroid:</strong> Well-controlled on levothyroxine (TSH 2.1 mIU/L)</p>
+<p><strong>Outcome:</strong> Tolerating maintenance therapy well</p>
+</div>
+</div>
+<div class="timeline-item success">
+<div class="timeline-date">December 15, 2024</div>
+<div class="timeline-content">
+<h4>Current Visit - Continued Excellent Response</h4>
+<p><strong>Status:</strong> Patient doing very well. Minimal side effects. Energy level good.</p>
+<p><strong>Physical Exam:</strong> No palpable lymphadenopathy, no hepatomegaly, neurologically intact</p>
+<p><strong>LDH:</strong> 185 U/L (normal)</p>
+<p><strong>Plan:</strong> Continue Nivolumab monotherapy, restaging scans in 3 months</p>
+<p><strong>Outcome:</strong> Ongoing partial response, excellent quality of life</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Recent Labs -->
+<div class="section">
+<h2>🔬 Most Recent Laboratory Results (12/15/2024)</h2>
+<table class="lab-table">
+<thead>
+<tr>
+<th>Test</th>
+<th>Result</th>
+<th>Units</th>
+<th>Reference Range</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LDH (Lactate Dehydrogenase)</td>
+<td><strong>185</strong></td>
+<td>U/L</td>
+<td>140-280</td>
+<td><span class="status-badge status-normal">Normal (normalized)</span></td>
+</tr>
+<tr>
+<td>Hemoglobin</td>
+<td><strong>13.5</strong></td>
+<td>g/dL</td>
+<td>12.0-16.0</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>WBC</td>
+<td><strong>6.2</strong></td>
+<td>K/uL</td>
+<td>4.5-11.0</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>ANC (Absolute Neutrophil Count)</td>
+<td><strong>3.8</strong></td>
+<td>K/uL</td>
+<td>1.5-8.0</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Platelet</td>
+<td><strong>225</strong></td>
+<td>K/uL</td>
+<td>150-400</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Creatinine</td>
+<td><strong>0.8</strong></td>
+<td>mg/dL</td>
+<td>0.6-1.2</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>ALT</td>
+<td><strong>32</strong></td>
+<td>U/L</td>
+<td>7-56</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>AST</td>
+<td><strong>28</strong></td>
+<td>U/L</td>
+<td>10-40</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>TSH</td>
+<td><strong>2.1</strong></td>
+<td>mIU/L</td>
+<td>0.4-4.0</td>
+<td><span class="status-badge status-normal">Normal (on replacement)</span></td>
+</tr>
+<tr>
+<td>Free T4</td>
+<td><strong>1.2</strong></td>
+<td>ng/dL</td>
+<td>0.8-1.8</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Current Medications -->
+<div class="section">
+<h2>💊 Current Medications</h2>
+<table class="lab-table">
+<thead>
+<tr>
+<th>Medication</th>
+<th>Dose</th>
+<th>Frequency</th>
+<th>Indication</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nivolumab (Opdivo)</td>
+<td>480 mg IV</td>
+<td>Every 4 weeks</td>
+<td>Metastatic melanoma (Stage IV) - maintenance therapy</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Levothyroxine (Synthroid)</td>
+<td>100 mcg PO</td>
+<td>Daily</td>
+<td>Immune-related hypothyroidism</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Ondansetron (Zofran)</td>
+<td>8 mg PO</td>
+<td>As needed</td>
+<td>Nausea (immunotherapy-related)</td>
+<td><span class="status-badge status-normal">PRN</span></td>
+</tr>
+<tr>
+<td>Loperamide (Imodium)</td>
+<td>2 mg PO</td>
+<td>As needed</td>
+<td>Diarrhea (if recurs)</td>
+<td><span class="status-badge status-normal">PRN</span></td>
+</tr>
+</tbody>
+</table>
+<p style="margin-top: 15px; color: #4a5568; font-size: 14px;"><strong>Note:</strong> Prednisone successfully tapered and discontinued (completed taper October 2024). No active immune-related adverse events requiring systemic immunosuppression.</p>
+</div>
+<!-- Follow-up Plan -->
+<div class="section">
+<h2>📋 Follow-up Plan</h2>
+<h3 style="color: #2d3748; margin-top: 20px; margin-bottom: 15px;">Metastatic Melanoma Surveillance &amp; Treatment</h3>
+<div class="followup-list">
+<ul>
+<li>Continue Nivolumab 480 mg IV every 4 weeks (indefinitely or until progression)</li>
+<li>Clinical evaluation with each infusion (every 4 weeks)</li>
+<li>LDH with each visit</li>
+<li>Restaging CT chest/abdomen/pelvis every 3 months</li>
+<li>Brain MRI every 3 months (monitor brain metastases post-SRS)</li>
+<li>Monitor for immune-related adverse events (thyroid, liver, lung, colon)</li>
+<li>TSH monitoring every 3 months (on thyroid replacement)</li>
+<li>If progression: consider BRAF/MEK inhibitor therapy (dabrafenib + trametinib)</li>
+<li>Annual dermatology full-body skin exams (monitor for new primary melanomas)</li>
+<li>Neurocognitive assessment every 6 months (brain metastases surveillance)</li>
+</ul>
+</div>
+<h3 style="color: #2d3748; margin-top: 25px; margin-bottom: 15px;">Next Scheduled Appointments</h3>
+<div class="appointment-card">
+<h4>Medical Oncology - January 12, 2025</h4>
+<p><strong>Provider:</strong> Dr. Amanda Rodriguez, MD</p>
+<p><strong>Purpose:</strong> Nivolumab infusion, clinical evaluation, LDH</p>
+</div>
+<div class="appointment-card">
+<h4>Radiology - March 2025</h4>
+<p><strong>Provider:</strong> Imaging Center</p>
+<p><strong>Purpose:</strong> Restaging CT chest/abdomen/pelvis, brain MRI with contrast</p>
+</div>
+<div class="appointment-card">
+<h4>Endocrinology - February 2025</h4>
+<p><strong>Provider:</strong> Dr. Susan Lee, MD</p>
+<p><strong>Purpose:</strong> Thyroid management, TSH monitoring, adjust levothyroxine if needed</p>
+</div>
+<div class="appointment-card">
+<h4>Dermatology - April 2025</h4>
+<p><strong>Provider:</strong> Dr. Robert Chen, MD</p>
+<p><strong>Purpose:</strong> Annual full-body skin exam, monitor for new primary melanomas</p>
+</div>
+<div class="appointment-card">
+<h4>Neurology - June 2025</h4>
+<p><strong>Provider:</strong> Dr. Emily Park, MD</p>
+<p><strong>Purpose:</strong> Neurocognitive assessment, brain metastases surveillance</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>Metropolitan Cancer Center | Department of Melanoma &amp; Skin Cancer Oncology</p>
+<p>This document contains protected health information (PHI) and is confidential.</p>
+<p>Generated: 12/15/2024 21:45 | Report ID: EHR-2024-12-112233</p>
+</div>
+</div>
+</body>
+</html>
