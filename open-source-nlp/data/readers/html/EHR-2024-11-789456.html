@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Patient Summary Dashboard - DOE, JOHN</title>
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .patient-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #f7fafc;
+            border-bottom: 3px solid #e2e8f0;
+        }
+        
+        .info-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-left: 4px solid #4299e1;
+        }
+        
+        .info-card h3 {
+            color: #2d3748;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        
+        .info-card p {
+            font-size: 18px;
+            font-weight: 600;
+            color: #4a5568;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #2d3748;
+            font-size: 24px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        
+        .diagnosis-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+        
+        .diagnosis-item {
+            background: #fff5f5;
+            border-left: 4px solid #f56565;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        .diagnosis-item.chronic {
+            background: #fffaf0;
+            border-left-color: #ed8936;
+        }
+        
+        .diagnosis-item h4 {
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+        
+        .diagnosis-item p {
+            font-size: 14px;
+            color: #718096;
+            margin-bottom: 4px;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 40px;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #cbd5e0;
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 30px;
+            padding-left: 20px;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -34px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #4299e1;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px #4299e1;
+        }
+        
+        .timeline-item.critical::before {
+            background: #f56565;
+            box-shadow: 0 0 0 2px #f56565;
+        }
+        
+        .timeline-date {
+            font-weight: 600;
+            color: #4299e1;
+            margin-bottom: 5px;
+        }
+        
+        .timeline-content {
+            background: #f7fafc;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .timeline-content h4 {
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+        
+        .timeline-content p {
+            font-size: 14px;
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 6px;
+        }
+        
+        .lab-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        
+        .lab-table th {
+            background: #4a5568;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .lab-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .lab-table tr:hover {
+            background: #f7fafc;
+        }
+        
+        .lab-table td strong {
+            font-weight: 700;
+            color: #2d3748;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .status-normal {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+        
+        .status-abnormal {
+            background: #fed7d7;
+            color: #742a2a;
+        }
+        
+        .status-expected {
+            background: #bee3f8;
+            color: #2c5282;
+        }
+        
+        .followup-list {
+            background: #f7fafc;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .followup-list ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .followup-list li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            color: #4a5568;
+        }
+        
+        .followup-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #48bb78;
+            font-weight: bold;
+        }
+        
+        .appointment-card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-left: 4px solid #4299e1;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        
+        .appointment-card h4 {
+            color: #2d3748;
+            margin-bottom: 5px;
+        }
+        
+        .appointment-card p {
+            font-size: 14px;
+            color: #718096;
+        }
+        
+        .footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>PATIENT MEDICAL SUMMARY</h1>
+<p>Metropolitan Cancer Center | Electronic Health Record</p>
+<p>Generated: November 15, 2024 | Report ID: EHR-2024-11-789456</p>
+</div>
+<div class="patient-info">
+<div class="info-card">
+<h3>Patient Name</h3>
+<p>DOE, JOHN</p>
+</div>
+<div class="info-card">
+<h3>Medical Record Number</h3>
+<p>MRN-2024-789456</p>
+</div>
+<div class="info-card">
+<h3>Date of Birth</h3>
+<p>03/15/1965 (59 years)</p>
+</div>
+<div class="info-card">
+<h3>Sex</h3>
+<p>Male</p>
+</div>
+<div class="info-card">
+<h3>Primary Physician</h3>
+<p>Dr. Sarah Mitchell, MD</p>
+</div>
+<div class="info-card">
+<h3>Last Visit</h3>
+<p>11/15/2024</p>
+</div>
+</div>
+<div class="content">
+<!-- Active Diagnoses -->
+<div class="section" id="hyperlipidemia">
+<h2>🔴 Active &amp; Chronic Diagnoses</h2>
+<div class="diagnosis-list">
+<div class="diagnosis-item">
+<nav><a href="#prostatic-adenocarcinoma">Prostatic Adenocarcinoma (Active)</a></nav>
+<p><strong>Stage:</strong> cT2b N0 M0 (Stage II)</p>
+<p><strong>Grade:</strong> Gleason 4+3=7 (Grade Group 3)</p>
+<p><strong>Diagnosed:</strong> February 2024</p>
+<p><strong>Risk Category:</strong> Unfavorable intermediate-risk</p>
+<p><strong>Status:</strong> Active treatment - EBRT + ADT ongoing</p>
+<p><strong>PSA at diagnosis:</strong> 13.5 ng/mL</p>
+</div>
+<div class="diagnosis-item chronic">
+<nav><a href="#essential-hypertension">Essential Hypertension (Chronic)</a></nav>
+<p><strong>Diagnosed:</strong> 2018</p>
+<p><strong>Status:</strong> Well-controlled on medication</p>
+</div>
+<div class="diagnosis-item chronic">
+<nav><a href="#hyperlipidemia">Hyperlipidemia (Chronic)</a></nav>
+<p><strong>Diagnosed:</strong> 2019</p>
+<p><strong>Status:</strong> Well-controlled on statin therapy</p>
+</div>
+<div class="diagnosis-item chronic">
+<nav><a href="#benign-prostatic-hyperplasia">Benign Prostatic Hyperplasia (Chronic)</a></nav>
+<p><strong>Diagnosed:</strong> 2020</p>
+<p><strong>Status:</strong> Managed medically, symptoms improved</p>
+</div>
+</div>
+</div>
+<!-- Treatment Timeline -->
+<div class="section">
+<h2>📅 Treatment Timeline</h2>
+<div class="timeline">
+<div class="timeline-item">
+<div class="timeline-date">January 15, 2024</div>
+<div class="timeline-content">
+<h4>Initial Consultation</h4>
+<p><strong>Details:</strong> Patient presented with elevated PSA (13.5 ng/mL) and abnormal DRE. Family history negative for prostate cancer.</p>
+<p><strong>Outcome:</strong> Referred for prostate MRI and biopsy</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">January 28, 2024</div>
+<div class="timeline-content">
+<h4>Multiparametric Prostate MRI</h4>
+<p><strong>Details:</strong> PI-RADS 4 lesion identified in right mid-gland, measuring 1.3 cm. No extracapsular extension or seminal vesicle invasion.</p>
+<p><strong>Outcome:</strong> Recommended MRI-fusion biopsy</p>
+</div>
+</div>
+<div class="timeline-item critical" id="benign-prostatic-hyperplasia">
+<div class="timeline-date">February 1, 2024</div>
+<div class="timeline-content">
+<h4>MRI-Fusion Prostate Biopsy</h4>
+<p><strong>Details:</strong> 12-core systematic biopsy + 2 targeted cores. Positive for adenocarcinoma in 4/14 cores (28%). Right mid-gland involvement.</p>
+<p><strong>Pathology:</strong> Gleason 4+3=7 (Grade Group 3), 45% core involvement</p>
+<p><strong>Outcome:</strong> Diagnosis confirmed - Prostatic adenocarcinoma</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">February 15, 2024</div>
+<div class="timeline-content">
+<h4>Staging Workup Completed</h4>
+<p><strong>Details:</strong> Bone scan: negative for metastases. CT abdomen/pelvis: no lymphadenopathy. Clinical stage: cT2b N0 M0.</p>
+<p><strong>Outcome:</strong> Unfavorable intermediate-risk prostate cancer confirmed</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">March 1, 2024</div>
+<div class="timeline-content">
+<h4>Treatment Planning Consultation</h4>
+<p><strong>Details:</strong> Discussed treatment options: radical prostatectomy vs. radiation therapy + ADT. Patient elected for radiation therapy.</p>
+<p><strong>Outcome:</strong> Plan: EBRT 78 Gy in 39 fractions + 6 months ADT</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">March 15, 2024</div>
+<div class="timeline-content">
+<h4>Androgen Deprivation Therapy Initiated</h4>
+<p><strong>Details:</strong> Leuprolide acetate (Lupron Depot) 22.5 mg IM injection. Baseline testosterone: 425 ng/dL.</p>
+<p><strong>Outcome:</strong> Goal: testosterone suppression &lt;50 ng/dL prior to radiation</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">April 10, 2024</div>
+<div class="timeline-content">
+<h4>CT Simulation for Radiation Planning</h4>
+<p><strong>Details:</strong> Fiducial markers placed. Full bladder protocol. CT images acquired for treatment planning.</p>
+<p><strong>Outcome:</strong> Radiation plan approved: IMRT/VMAT technique</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">April 22, 2024</div>
+<div class="timeline-content">
+<h4>External Beam Radiation Therapy Started</h4>
+<p><strong>Details:</strong> 78 Gy in 39 fractions (2.0 Gy per fraction). Daily IGRT with fiducial-based image guidance.</p>
+<p><strong>Outcome:</strong> Treatment ongoing, tolerating well</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">May 20, 2024</div>
+<div class="timeline-content">
+<h4>Mid-Treatment Assessment</h4>
+<p><strong>Details:</strong> Completed 20/39 fractions. Mild urinary frequency (Grade 1). No rectal symptoms.</p>
+<p><strong>Outcome:</strong> Continue treatment as planned</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">June 28, 2024</div>
+<div class="timeline-content">
+<h4>Radiation Therapy Completed</h4>
+<p><strong>Details:</strong> All 39 fractions delivered. Total dose: 78 Gy. Acute toxicity: Grade 2 urinary frequency/urgency, Grade 1 rectal discomfort.</p>
+<p><strong>Outcome:</strong> Excellent treatment completion. PSA expected to nadir over 18-24 months</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">September 15, 2024</div>
+<div class="timeline-content">
+<h4>Second Lupron Injection</h4>
+<p><strong>Details:</strong> Leuprolide 22.5 mg IM (3-month follow-up). Testosterone: 18 ng/dL (adequately suppressed).</p>
+<p><strong>Outcome:</strong> Total ADT duration: 6 months (2 more injections planned)</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">November 15, 2024</div>
+<div class="timeline-content">
+<h4>Current Visit - Post-RT Follow-up</h4>
+<p><strong>Details:</strong> PSA: 8.2 ng/mL (expected decline from 13.5). Urinary symptoms resolved. Quality of life good.</p>
+<p><strong>Outcome:</strong> Continue ADT, PSA monitoring every 3 months</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Recent Labs -->
+<div class="section">
+<h2>🔬 Most Recent Laboratory Results (11/15/2024)</h2>
+<table class="lab-table">
+<thead>
+<tr>
+<th>Test</th>
+<th>Result</th>
+<th>Units</th>
+<th>Reference Range</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PSA</td>
+<td><strong>8.2</strong></td>
+<td>ng/mL</td>
+<td>0-4.0</td>
+<td><span class="status-badge status-expected">Declining (expected)</span></td>
+</tr>
+<tr>
+<td>Testosterone</td>
+<td><strong>18</strong></td>
+<td>ng/dL</td>
+<td>300-1000</td>
+<td><span class="status-badge status-expected">Suppressed (goal)</span></td>
+</tr>
+<tr>
+<td>Hemoglobin</td>
+<td><strong>12.9</strong></td>
+<td>g/dL</td>
+<td>13.5-17.5</td>
+<td><span class="status-badge status-abnormal">Mild anemia</span></td>
+</tr>
+<tr>
+<td>WBC</td>
+<td><strong>6.8</strong></td>
+<td>K/uL</td>
+<td>4.5-11.0</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Platelet</td>
+<td><strong>245</strong></td>
+<td>K/uL</td>
+<td>150-400</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Creatinine</td>
+<td><strong>1.2</strong></td>
+<td>mg/dL</td>
+<td>0.7-1.3</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>ALT</td>
+<td><strong>28</strong></td>
+<td>U/L</td>
+<td>7-56</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Alkaline Phosphatase</td>
+<td><strong>72</strong></td>
+<td>U/L</td>
+<td>40-150</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Current Medications -->
+<div class="section">
+<h2>💊 Current Medications</h2>
+<table class="lab-table">
+<thead>
+<tr>
+<th>Medication</th>
+<th>Dose</th>
+<th>Frequency</th>
+<th>Indication</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Leuprolide acetate (Lupron Depot)</td>
+<td>22.5 mg IM</td>
+<td>Every 3 months</td>
+<td>Androgen deprivation therapy</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Tamsulosin (Flomax)</td>
+<td>0.4 mg PO</td>
+<td>Daily at bedtime</td>
+<td>Urinary symptoms (BPH/post-RT)</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Lisinopril</td>
+<td>10 mg PO</td>
+<td>Daily</td>
+<td>Hypertension</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Atorvastatin (Lipitor)</td>
+<td>20 mg PO</td>
+<td>Daily</td>
+<td>Hyperlipidemia</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Aspirin</td>
+<td>81 mg PO</td>
+<td>Daily</td>
+<td>Cardiovascular prophylaxis</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Vitamin D3</td>
+<td>2000 IU PO</td>
+<td>Daily</td>
+<td>Bone health (ADT)</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Calcium carbonate</td>
+<td>500 mg PO</td>
+<td>Twice daily</td>
+<td>Bone health (ADT)</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Follow-up Plan -->
+<div class="section">
+<h2>📋 Follow-up Plan</h2>
+<h3 style="color: #2d3748; margin-top: 20px; margin-bottom: 15px;">Prostate Cancer Surveillance</h3>
+<div class="followup-list">
+<ul>
+<li>PSA every 3 months for first 2 years</li>
+<li>Then PSA every 6 months for years 3-5</li>
+<li>Then PSA annually after 5 years</li>
+<li>Monitor for biochemical recurrence (PSA nadir + 2 ng/mL)</li>
+<li>Assess for late GU/GI toxicity at each visit</li>
+<li>DEXA scan for bone density (ADT effect) - schedule for January 2025</li>
+</ul>
+</div>
+<h3 style="color: #2d3748; margin-top: 25px; margin-bottom: 15px;">Next Scheduled Appointments</h3>
+<div class="appointment-card">
+<h4>Radiation Oncology - February 15, 2025</h4>
+<p><strong>Provider:</strong> Dr. Sarah Mitchell, MD</p>
+<p><strong>Purpose:</strong> PSA check, toxicity assessment</p>
+</div>
+<div class="appointment-card">
+<h4>Medical Oncology - December 15, 2024</h4>
+<p><strong>Provider:</strong> Dr. James Rodriguez, MD</p>
+<p><strong>Purpose:</strong> Third Lupron injection</p>
+</div>
+<div class="appointment-card">
+<h4>Primary Care - January 20, 2025</h4>
+<p><strong>Provider:</strong> Dr. Emily Chen, MD</p>
+<p><strong>Purpose:</strong> Annual physical, comorbidity management</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>Metropolitan Cancer Center | Department of Radiation Oncology</p>
+<p>This document contains protected health information (PHI) and is confidential.</p>
+<p>Generated: 11/15/2024 14:35 | Report ID: EHR-2024-11-789456</p>
+</div>
+</div>
+</body>
+</html>

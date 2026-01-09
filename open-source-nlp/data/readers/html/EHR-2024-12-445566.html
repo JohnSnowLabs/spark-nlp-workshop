@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Patient Summary Dashboard - RODRIGUEZ, MARIA</title>
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #9f7aea 0%, #805ad5 100%);
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #9f7aea 0%, #805ad5 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .patient-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #faf5ff;
+            border-bottom: 3px solid #d6bcfa;
+        }
+        
+        .info-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-left: 4px solid #9f7aea;
+        }
+        
+        .info-card h3 {
+            color: #2d3748;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        
+        .info-card p {
+            font-size: 18px;
+            font-weight: 600;
+            color: #4a5568;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #2d3748;
+            font-size: 24px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        
+        .diagnosis-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+        
+        .diagnosis-item {
+            background: #faf5ff;
+            border-left: 4px solid #9f7aea;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        .diagnosis-item.chronic {
+            background: #fffaf0;
+            border-left-color: #ed8936;
+        }
+        
+        .diagnosis-item h4 {
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+        
+        .diagnosis-item p {
+            font-size: 14px;
+            color: #718096;
+            margin-bottom: 4px;
+        }
+        
+        .alert {
+            background: #fef5e7;
+            border-left: 4px solid #f39c12;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .alert.genetic {
+            background: #fce4ec;
+            border-left-color: #e91e63;
+        }
+        
+        .alert h4 {
+            color: #d68910;
+            margin-bottom: 8px;
+        }
+        
+        .alert.genetic h4 {
+            color: #c2185b;
+        }
+        
+        .alert p {
+            color: #7c5d10;
+            font-size: 14px;
+        }
+        
+        .alert.genetic p {
+            color: #880e4f;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 40px;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #cbd5e0;
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 30px;
+            padding-left: 20px;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -34px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #9f7aea;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px #9f7aea;
+        }
+        
+        .timeline-item.critical::before {
+            background: #f56565;
+            box-shadow: 0 0 0 2px #f56565;
+        }
+        
+        .timeline-date {
+            font-weight: 600;
+            color: #9f7aea;
+            margin-bottom: 5px;
+        }
+        
+        .timeline-content {
+            background: #f7fafc;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .timeline-content h4 {
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+        
+        .timeline-content p {
+            font-size: 14px;
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 6px;
+        }
+        
+        .lab-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        
+        .lab-table th {
+            background: #805ad5;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .lab-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .lab-table tr:hover {
+            background: #faf5ff;
+        }
+        
+        .lab-table td strong {
+            font-weight: 700;
+            color: #2d3748;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .status-normal {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+        
+        .status-abnormal {
+            background: #fed7d7;
+            color: #742a2a;
+        }
+        
+        .status-elevated {
+            background: #feebc8;
+            color: #7c2d12;
+        }
+        
+        .followup-list {
+            background: #f7fafc;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .followup-list ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .followup-list li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            color: #4a5568;
+        }
+        
+        .followup-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #48bb78;
+            font-weight: bold;
+        }
+        
+        .appointment-card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-left: 4px solid #9f7aea;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        
+        .appointment-card h4 {
+            color: #2d3748;
+            margin-bottom: 5px;
+        }
+        
+        .appointment-card p {
+            font-size: 14px;
+            color: #718096;
+        }
+        
+        .footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>PATIENT MEDICAL SUMMARY</h1>
+<p>Metropolitan Cancer Center | Gynecologic Oncology Department</p>
+<p>Generated: December 15, 2024 | Report ID: EHR-2024-12-445566</p>
+</div>
+<div class="patient-info">
+<div class="info-card">
+<h3>Patient Name</h3>
+<p>RODRIGUEZ, MARIA</p>
+</div>
+<div class="info-card">
+<h3>Medical Record Number</h3>
+<p>MRN-2024-445566</p>
+</div>
+<div class="info-card">
+<h3>Date of Birth</h3>
+<p>08/15/1962 (62 years)</p>
+</div>
+<div class="info-card">
+<h3>Sex</h3>
+<p>Female</p>
+</div>
+<div class="info-card">
+<h3>Primary Physician</h3>
+<p>Dr. Sarah Williams, MD</p>
+</div>
+<div class="info-card">
+<h3>Last Visit</h3>
+<p>12/15/2024</p>
+</div>
+</div>
+<div class="content">
+<!-- Active Diagnoses -->
+<div class="section">
+<h2>🔴 Active &amp; Chronic Diagnoses</h2>
+<div class="diagnosis-list">
+<div class="diagnosis-item">
+<nav><a href="#high-grade-serous-ovarian-carcinoma">High-Grade Serous Ovarian Carcinoma (Active)</a></nav>
+<p><strong>Stage:</strong> IIIC (T3cN1M0)</p>
+<p><strong>Histology:</strong> High-grade serous carcinoma</p>
+<p><strong>Primary Site:</strong> Right ovary</p>
+<p><strong>Spread:</strong> Omental caking, peritoneal carcinomatosis, pelvic/para-aortic lymph nodes</p>
+<p><strong>Diagnosed:</strong> March 2023</p>
+<p><strong>Status:</strong> On maintenance Olaparib therapy, complete response</p>
+<p><strong>Residual Disease:</strong> No evidence of disease (NED) after interval debulking</p>
+</div>
+<div class="diagnosis-item chronic">
+<nav><a href="#hypothyroidism">Hypothyroidism (Chronic)</a></nav>
+<p><strong>Diagnosed:</strong> 2010</p>
+<p><strong>TSH:</strong> Well-controlled on levothyroxine</p>
+<p><strong>Status:</strong> Stable</p>
+</div>
+<div class="diagnosis-item chronic">
+<nav><a href="#osteoporosis">Osteoporosis</a></nav>
+<p><strong>Diagnosed:</strong> 2018</p>
+<p><strong>T-Score:</strong> -2.8 (lumbar spine)</p>
+<p><strong>Treatment:</strong> Calcium, vitamin D, alendronate</p>
+<p><strong>Status:</strong> Stable on therapy</p>
+</div>
+</div>
+<div class="alert genetic">
+<h4>🧬 BRCA1 Germline Mutation Positive</h4>
+<p><strong>Mutation:</strong> BRCA1 c.5266dupC (pathogenic variant). This germline mutation significantly increases lifetime risk of breast and ovarian cancer. Patient is eligible for PARP inhibitor maintenance therapy (Olaparib). Family members should be offered genetic counseling and testing.</p>
+</div>
+<div class="alert">
+<h4>⚠️ Strong Family History of Cancer</h4>
+<p><strong>Sister:</strong> Breast cancer at age 45 (BRCA1 positive). <strong>Mother:</strong> Ovarian cancer at age 58 (deceased). <strong>Maternal Aunt:</strong> Breast cancer at age 52. Genetic counseling provided to patient and family members.</p>
+</div>
+</div>
+<!-- Treatment Timeline -->
+<div class="section">
+<h2>📅 Treatment Timeline</h2>
+<div class="timeline">
+<div class="timeline-item">
+<div class="timeline-date">January 2023</div>
+<div class="timeline-content">
+<h4>Initial Symptoms</h4>
+<p><strong>Symptoms:</strong> Progressive abdominal bloating, early satiety, pelvic discomfort for 3 months</p>
+<p><strong>Action:</strong> Presented to primary care physician</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">February 10, 2023</div>
+<div class="timeline-content">
+<h4>Initial Workup</h4>
+<p><strong>Physical Exam:</strong> Abdominal distension, palpable pelvic mass, shifting dullness (ascites)</p>
+<p><strong>CA-125:</strong> 850 U/mL (markedly elevated, normal &lt;35)</p>
+<p><strong>CT Abdomen/Pelvis:</strong> Large complex pelvic mass (8 cm), omental caking, moderate ascites, peritoneal nodules</p>
+<p><strong>Outcome:</strong> Urgent referral to gynecologic oncology</p>
+</div>
+</div>
+<div class="timeline-item critical" id="high-grade-serous-ovarian-carcinoma">
+<div class="timeline-date">March 5, 2023</div>
+<div class="timeline-content">
+<h4>Diagnostic Laparoscopy with Biopsy</h4>
+<p><strong>Procedure:</strong> Diagnostic laparoscopy, peritoneal biopsies, omental biopsy</p>
+<p><strong>Findings:</strong> Extensive peritoneal carcinomatosis, omental caking, moderate ascites (1200 mL drained)</p>
+<p><strong>Pathology:</strong> High-grade serous carcinoma consistent with ovarian primary</p>
+<p><strong>Stage:</strong> Clinical Stage IIIC</p>
+<p><strong>Outcome:</strong> Diagnosis confirmed - Advanced ovarian cancer</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">March 15, 2023</div>
+<div class="timeline-content">
+<h4>BRCA Testing Ordered</h4>
+<p><strong>Test:</strong> Germline BRCA1/BRCA2 genetic testing</p>
+<p><strong>Rationale:</strong> High-grade serous ovarian cancer, family history (mother with ovarian cancer, sister with breast cancer)</p>
+<p><strong>Outcome:</strong> Results pending</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">March 25, 2023</div>
+<div class="timeline-content">
+<h4>BRCA1 Mutation Confirmed</h4>
+<p><strong>Result:</strong> BRCA1 c.5266dupC pathogenic variant (germline mutation)</p>
+<p><strong>Significance:</strong> Eligible for PARP inhibitor maintenance therapy. Increased risk of breast cancer (risk-reducing mastectomy discussed).</p>
+<p><strong>Family Counseling:</strong> Sister, daughter, and nieces referred for genetic counseling</p>
+<p><strong>Outcome:</strong> Treatment plan includes PARP inhibitor maintenance</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">April 3, 2023</div>
+<div class="timeline-content">
+<h4>Neoadjuvant Chemotherapy Cycle 1</h4>
+<p><strong>Regimen:</strong> Carboplatin AUC 5 + Paclitaxel 175 mg/m² IV every 21 days</p>
+<p><strong>Rationale:</strong> Extensive disease burden, not optimal surgical candidate initially</p>
+<p><strong>Premedications:</strong> Dexamethasone, diphenhydramine, H2 blocker (paclitaxel hypersensitivity prophylaxis)</p>
+<p><strong>Tolerability:</strong> Well-tolerated, mild nausea</p>
+<p><strong>Outcome:</strong> Neoadjuvant therapy initiated</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">April 24, 2023</div>
+<div class="timeline-content">
+<h4>Neoadjuvant Chemotherapy Cycle 2</h4>
+<p><strong>Details:</strong> Second cycle administered per protocol</p>
+<p><strong>Side Effects:</strong> Fatigue, peripheral neuropathy (grade 1), alopecia</p>
+<p><strong>CA-125:</strong> 420 U/mL (decreased from 850)</p>
+<p><strong>Outcome:</strong> Good biochemical response</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">May 15, 2023</div>
+<div class="timeline-content">
+<h4>Neoadjuvant Chemotherapy Cycle 3</h4>
+<p><strong>Details:</strong> Third cycle administered per protocol</p>
+<p><strong>Side Effects:</strong> Cumulative fatigue, worsening neuropathy (grade 2)</p>
+<p><strong>CA-125:</strong> 180 U/mL (continued decline)</p>
+<p><strong>Physical Exam:</strong> Decreased abdominal distension, pelvic mass smaller</p>
+<p><strong>Outcome:</strong> Excellent clinical and biochemical response</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">June 10, 2023</div>
+<div class="timeline-content">
+<h4>Restaging CT</h4>
+<p><strong>Findings:</strong> Significant interval decrease in disease burden. Pelvic mass decreased to 4 cm. Omental disease improved. Minimal ascites.</p>
+<p><strong>Assessment:</strong> Excellent response to neoadjuvant chemotherapy</p>
+<p><strong>Outcome:</strong> Patient now surgical candidate - interval debulking surgery planned</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">July 8, 2023</div>
+<div class="timeline-content">
+<h4>Interval Debulking Surgery</h4>
+<p><strong>Procedure:</strong> Total abdominal hysterectomy, bilateral salpingo-oophorectomy, omentectomy, pelvic/para-aortic lymphadenectomy, peritoneal biopsies</p>
+<p><strong>Findings:</strong> Residual disease in pelvis, omentum, peritoneum (significantly decreased from initial laparoscopy)</p>
+<p><strong>Cytoreduction:</strong> Optimal (R0 resection, no visible residual disease)</p>
+<p><strong>Final Pathology:</strong> High-grade serous carcinoma, extensive treatment effect, pT3cN1M0 (Stage IIIC)</p>
+<p><strong>Lymph Nodes:</strong> 3/18 pelvic nodes positive, 1/12 para-aortic nodes positive</p>
+<p><strong>Outcome:</strong> Successful optimal cytoreduction</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">August 15, 2023</div>
+<div class="timeline-content">
+<h4>Adjuvant Chemotherapy Cycle 4</h4>
+<p><strong>Details:</strong> Resumed carboplatin/paclitaxel (cycle 4 of planned 6 total cycles)</p>
+<p><strong>CA-125:</strong> 45 U/mL (near-normal)</p>
+<p><strong>Outcome:</strong> Tolerating well post-operatively</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">September 5, 2023</div>
+<div class="timeline-content">
+<h4>Adjuvant Chemotherapy Cycle 5</h4>
+<p><strong>Details:</strong> Fifth cycle administered per protocol</p>
+<p><strong>Side Effects:</strong> Persistent neuropathy (grade 2), fatigue</p>
+<p><strong>CA-125:</strong> 22 U/mL (normal)</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">September 26, 2023</div>
+<div class="timeline-content">
+<h4>Adjuvant Chemotherapy Cycle 6 (Final)</h4>
+<p><strong>Details:</strong> Sixth and final cycle of carboplatin/paclitaxel</p>
+<p><strong>CA-125:</strong> 18 U/mL (normal)</p>
+<p><strong>Status:</strong> Completed 6 cycles total (3 neoadjuvant + 3 adjuvant)</p>
+<p><strong>Outcome:</strong> Chemotherapy completed successfully</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">October 15, 2023</div>
+<div class="timeline-content">
+<h4>Maintenance Olaparib Initiated</h4>
+<p><strong>Medication:</strong> Olaparib (Lynparza) 300 mg PO twice daily</p>
+<p><strong>Indication:</strong> BRCA1 mutation-positive ovarian cancer, maintenance therapy after platinum-based chemotherapy</p>
+<p><strong>Duration:</strong> Continue for 2 years or until progression</p>
+<p><strong>Monitoring:</strong> CBC monthly (risk of myelosuppression), CA-125 every 3 months</p>
+<p><strong>Outcome:</strong> PARP inhibitor maintenance therapy started</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">January 2024</div>
+<div class="timeline-content">
+<h4>3-Month Follow-up on Olaparib</h4>
+<p><strong>Tolerability:</strong> Mild nausea (manageable), fatigue (grade 1)</p>
+<p><strong>CA-125:</strong> 15 U/mL (normal, stable)</p>
+<p><strong>CBC:</strong> Mild anemia (Hgb 10.8), no dose modification needed</p>
+<p><strong>Physical Exam:</strong> No evidence of recurrence</p>
+<p><strong>Outcome:</strong> Continue Olaparib, excellent response maintained</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">April 2024</div>
+<div class="timeline-content">
+<h4>6-Month Surveillance CT</h4>
+<p><strong>CT Chest/Abdomen/Pelvis:</strong> No evidence of recurrent disease. Post-surgical changes only.</p>
+<p><strong>CA-125:</strong> 12 U/mL (normal)</p>
+<p><strong>Outcome:</strong> Complete response maintained</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">December 15, 2024</div>
+<div class="timeline-content">
+<h4>Current Visit - 14-Month Post-Surgery</h4>
+<p><strong>Status:</strong> Patient doing very well. No symptoms. Tolerating Olaparib with minimal side effects.</p>
+<p><strong>Physical Exam:</strong> No palpable masses, no ascites, no lymphadenopathy</p>
+<p><strong>CA-125:</strong> 10 U/mL (normal, stable)</p>
+<p><strong>CBC:</strong> Mild anemia stable (Hgb 11.2)</p>
+<p><strong>Outcome:</strong> Continue Olaparib maintenance, follow-up in 3 months</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Recent Labs -->
+<div class="section">
+<h2>🔬 Most Recent Laboratory Results (12/15/2024)</h2>
+<table class="lab-table">
+<thead>
+<tr>
+<th>Test</th>
+<th>Result</th>
+<th>Units</th>
+<th>Reference Range</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CA-125 (Tumor Marker)</td>
+<td><strong>10</strong></td>
+<td>U/mL</td>
+<td>0-35</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Hemoglobin</td>
+<td><strong>11.2</strong></td>
+<td>g/dL</td>
+<td>12.0-16.0</td>
+<td><span class="status-badge status-abnormal">Mild anemia</span></td>
+</tr>
+<tr>
+<td>WBC</td>
+<td><strong>5.8</strong></td>
+<td>K/uL</td>
+<td>4.5-11.0</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>ANC (Absolute Neutrophil Count)</td>
+<td><strong>3.5</strong></td>
+<td>K/uL</td>
+<td>1.5-8.0</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Platelet</td>
+<td><strong>195</strong></td>
+<td>K/uL</td>
+<td>150-400</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Creatinine</td>
+<td><strong>0.9</strong></td>
+<td>mg/dL</td>
+<td>0.6-1.2</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>ALT</td>
+<td><strong>28</strong></td>
+<td>U/L</td>
+<td>7-56</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>TSH</td>
+<td><strong>2.4</strong></td>
+<td>mIU/L</td>
+<td>0.4-4.0</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Current Medications -->
+<div class="section" id="osteoporosis">
+<h2>💊 Current Medications</h2>
+<table class="lab-table">
+<thead>
+<tr>
+<th>Medication</th>
+<th>Dose</th>
+<th>Frequency</th>
+<th>Indication</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Olaparib (Lynparza)</td>
+<td>300 mg PO</td>
+<td>Twice daily</td>
+<td>BRCA1+ ovarian cancer maintenance therapy</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Ondansetron (Zofran)</td>
+<td>8 mg PO</td>
+<td>As needed</td>
+<td>Nausea (Olaparib-related)</td>
+<td><span class="status-badge status-normal">PRN</span></td>
+</tr>
+<tr>
+<td>Levothyroxine (Synthroid)</td>
+<td>100 mcg PO</td>
+<td>Daily</td>
+<td>Hypothyroidism</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Alendronate (Fosamax)</td>
+<td>70 mg PO</td>
+<td>Weekly</td>
+<td>Osteoporosis</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Calcium carbonate + Vitamin D3</td>
+<td>600 mg/400 IU</td>
+<td>Twice daily</td>
+<td>Bone health</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Ferrous sulfate</td>
+<td>325 mg PO</td>
+<td>Daily</td>
+<td>Mild anemia (Olaparib-related)</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Gabapentin</td>
+<td>300 mg PO</td>
+<td>Three times daily</td>
+<td>Chemotherapy-induced peripheral neuropathy</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Follow-up Plan -->
+<div class="section">
+<h2>📋 Follow-up Plan</h2>
+<h3 style="color: #2d3748; margin-top: 20px; margin-bottom: 15px;">Ovarian Cancer Surveillance</h3>
+<div class="followup-list">
+<ul>
+<li>Clinical evaluation every 3 months for first 2 years</li>
+<li>Then every 4 months for year 3</li>
+<li>Then every 6 months for years 4-5</li>
+<li>CA-125 with each visit</li>
+<li>CT chest/abdomen/pelvis every 6 months for first 2 years, then annually</li>
+<li>Continue Olaparib maintenance for 2 years total (until October 2025)</li>
+<li>CBC monthly while on Olaparib (monitor for myelosuppression)</li>
+<li>Monitor for symptoms of recurrence (abdominal pain, bloating, ascites)</li>
+<li>Annual breast MRI screening (BRCA1 mutation carrier)</li>
+<li>Discuss risk-reducing bilateral mastectomy (not yet performed)</li>
+</ul>
+</div>
+<h3 style="color: #2d3748; margin-top: 25px; margin-bottom: 15px;">Next Scheduled Appointments</h3>
+<div class="appointment-card">
+<h4>Gynecologic Oncology - March 15, 2025</h4>
+<p><strong>Provider:</strong> Dr. Sarah Williams, MD</p>
+<p><strong>Purpose:</strong> 3-month surveillance visit, physical exam, CA-125, CBC</p>
+</div>
+<div class="appointment-card">
+<h4>Radiology - June 2025</h4>
+<p><strong>Provider:</strong> Imaging Center</p>
+<p><strong>Purpose:</strong> Surveillance CT chest/abdomen/pelvis</p>
+</div>
+<div class="appointment-card">
+<h4>Breast Imaging - April 2025</h4>
+<p><strong>Provider:</strong> Breast Imaging Center</p>
+<p><strong>Purpose:</strong> Annual breast MRI screening (BRCA1 carrier)</p>
+</div>
+<div class="appointment-card">
+<h4>Genetic Counseling - February 2025</h4>
+<p><strong>Provider:</strong> Ms. Emily Chen, MS, CGC</p>
+<p><strong>Purpose:</strong> Follow-up genetic counseling, discuss risk-reducing mastectomy, family cascade testing</p>
+</div>
+<div class="appointment-card">
+<h4>Endocrinology - May 2025</h4>
+<p><strong>Provider:</strong> Dr. Robert Lee, MD</p>
+<p><strong>Purpose:</strong> Hypothyroidism management, DEXA scan for osteoporosis</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>Metropolitan Cancer Center | Department of Gynecologic Oncology</p>
+<p>This document contains protected health information (PHI) and is confidential.</p>
+<p>Generated: 12/15/2024 20:45 | Report ID: EHR-2024-12-445566</p>
+</div>
+</div>
+</body>
+</html>

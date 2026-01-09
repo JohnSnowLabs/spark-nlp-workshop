@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Patient Summary Dashboard - HARRIS, WILLIAM</title>
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #991b1b 0%, #b91c1c 100%);
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #991b1b 0%, #b91c1c 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .patient-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #fee2e2;
+            border-bottom: 3px solid #fca5a5;
+        }
+        
+        .info-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-left: 4px solid #b91c1c;
+        }
+        
+        .info-card h3 {
+            color: #2d3748;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        
+        .info-card p {
+            font-size: 18px;
+            font-weight: 600;
+            color: #4a5568;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #2d3748;
+            font-size: 24px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        
+        .diagnosis-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+        
+        .diagnosis-item {
+            background: #fee2e2;
+            border-left: 4px solid #b91c1c;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        .diagnosis-item.chronic {
+            background: #fef3c7;
+            border-left-color: #d97706;
+        }
+        
+        .diagnosis-item h4 {
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+        
+        .diagnosis-item p {
+            font-size: 14px;
+            color: #718096;
+            margin-bottom: 4px;
+        }
+        
+        .alert {
+            background: #fef5e7;
+            border-left: 4px solid #f39c12;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .alert.success {
+            background: #d1fae5;
+            border-left-color: #10b981;
+        }
+        
+        .alert h4 {
+            color: #d68910;
+            margin-bottom: 8px;
+        }
+        
+        .alert.success h4 {
+            color: #047857;
+        }
+        
+        .alert p {
+            color: #7c5d10;
+            font-size: 14px;
+        }
+        
+        .alert.success p {
+            color: #065f46;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 40px;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #cbd5e0;
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 30px;
+            padding-left: 20px;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -34px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #b91c1c;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px #b91c1c;
+        }
+        
+        .timeline-item.critical::before {
+            background: #dc2626;
+            box-shadow: 0 0 0 2px #dc2626;
+        }
+        
+        .timeline-item.success::before {
+            background: #10b981;
+            box-shadow: 0 0 0 2px #10b981;
+        }
+        
+        .timeline-date {
+            font-weight: 600;
+            color: #b91c1c;
+            margin-bottom: 5px;
+        }
+        
+        .timeline-content {
+            background: #f7fafc;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .timeline-content h4 {
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+        
+        .timeline-content p {
+            font-size: 14px;
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 6px;
+        }
+        
+        .lab-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        
+        .lab-table th {
+            background: #b91c1c;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .lab-table td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .lab-table tr:hover {
+            background: #fee2e2;
+        }
+        
+        .lab-table td strong {
+            font-weight: 700;
+            color: #2d3748;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .status-normal {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+        
+        .status-abnormal {
+            background: #fed7d7;
+            color: #742a2a;
+        }
+        
+        .status-elevated {
+            background: #feebc8;
+            color: #7c2d12;
+        }
+        
+        .followup-list {
+            background: #f7fafc;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .followup-list ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .followup-list li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            color: #4a5568;
+        }
+        
+        .followup-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #48bb78;
+            font-weight: bold;
+        }
+        
+        .appointment-card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-left: 4px solid #b91c1c;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        
+        .appointment-card h4 {
+            color: #2d3748;
+            margin-bottom: 5px;
+        }
+        
+        .appointment-card p {
+            font-size: 14px;
+            color: #718096;
+        }
+        
+        .footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>PATIENT MEDICAL SUMMARY</h1>
+<p>Metropolitan Cancer Center | Hematology-Oncology Department (Plasma Cell Disorders)</p>
+<p>Generated: December 15, 2024 | Report ID: EHR-2024-12-334455</p>
+</div>
+<div class="patient-info">
+<div class="info-card">
+<h3>Patient Name</h3>
+<p>HARRIS, WILLIAM</p>
+</div>
+<div class="info-card">
+<h3>Medical Record Number</h3>
+<p>MRN-2024-334455</p>
+</div>
+<div class="info-card">
+<h3>Date of Birth</h3>
+<p>03/10/1953 (71 years)</p>
+</div>
+<div class="info-card">
+<h3>Sex</h3>
+<p>Male</p>
+</div>
+<div class="info-card">
+<h3>Primary Physician</h3>
+<p>Dr. Thomas Anderson, MD</p>
+</div>
+<div class="info-card">
+<h3>Last Visit</h3>
+<p>12/15/2024</p>
+</div>
+</div>
+<div class="content">
+<!-- Active Diagnoses -->
+<div class="section">
+<h2>🔴 Active &amp; Chronic Diagnoses</h2>
+<div class="diagnosis-list">
+<div class="diagnosis-item">
+<nav><a href="#multiple-myeloma---igg-kappa">Multiple Myeloma - IgG Kappa (Active)</a></nav>
+<p><strong>Type:</strong> IgG kappa light chain</p>
+<p><strong>Stage:</strong> ISS Stage II, R-ISS Stage II</p>
+<p><strong>M-Protein:</strong> IgG 4.2 g/dL at diagnosis (now 0.8 g/dL)</p>
+<p><strong>CRAB Criteria:</strong> Anemia (Hgb 9.2), bone lesions (lytic lesions in spine/ribs)</p>
+<p><strong>Cytogenetics:</strong> del(13q) by FISH (standard risk)</p>
+<p><strong>Diagnosed:</strong> February 2024</p>
+<p><strong>Status:</strong> Post-autologous stem cell transplant, on lenalidomide maintenance, very good partial response (VGPR)</p>
+</div>
+<div class="diagnosis-item chronic">
+<nav><a href="#chronic-kidney-disease-stage-2">Chronic Kidney Disease Stage 2</a></nav>
+<p><strong>Etiology:</strong> Myeloma-related (light chain deposition)</p>
+<p><strong>Baseline Creatinine:</strong> 1.4 mg/dL (eGFR 52 mL/min)</p>
+<p><strong>Status:</strong> Stable, no progression</p>
+</div>
+<div class="diagnosis-item chronic">
+<nav><a href="#chemotherapy-induced-peripheral-neuropathy">Chemotherapy-Induced Peripheral Neuropathy</a></nav>
+<p><strong>Etiology:</strong> Bortezomib (Velcade) - proteasome inhibitor</p>
+<p><strong>Grade:</strong> Grade 2 (moderate)</p>
+<p><strong>Symptoms:</strong> Numbness/tingling in hands and feet</p>
+<p><strong>Status:</strong> Stable on gabapentin</p>
+</div>
+<div class="diagnosis-item chronic">
+<nav><a href="#vertebral-compression-fracture">Vertebral Compression Fracture (L2)</a></nav>
+<p><strong>Etiology:</strong> Myeloma-related lytic bone lesion</p>
+<p><strong>Treatment:</strong> Kyphoplasty performed (March 2024)</p>
+<p><strong>Status:</strong> Resolved, no ongoing pain</p>
+</div>
+</div>
+<div class="alert success">
+<h4>✅ Excellent Response to Treatment - VGPR Achieved</h4>
+<p><strong>Treatment:</strong> VRd induction (4 cycles) → Autologous stem cell transplant → Lenalidomide maintenance. <strong>Response:</strong> Very Good Partial Response (VGPR). M-protein decreased from 4.2 g/dL to 0.8 g/dL (81% reduction). Bone marrow plasma cells decreased from 45% to 3%. Patient tolerating lenalidomide maintenance well with excellent quality of life.</p>
+</div>
+<div class="alert">
+<h4>🧬 Cytogenetics: del(13q) - Standard Risk</h4>
+<p><strong>FISH Results:</strong> Deletion 13q detected (present in ~50% of myeloma cases). <strong>Risk Stratification:</strong> Standard risk (not high-risk). No del(17p), t(4;14), t(14;16), or 1q gain detected. <strong>Prognosis:</strong> Favorable for autologous stem cell transplant. Expected median progression-free survival 4-5 years with current therapy.</p>
+</div>
+</div>
+<!-- Treatment Timeline -->
+<div class="section">
+<h2>📅 Treatment Timeline</h2>
+<div class="timeline">
+<div class="timeline-item">
+<div class="timeline-date">December 2023</div>
+<div class="timeline-content">
+<h4>Initial Symptoms</h4>
+<p><strong>Symptoms:</strong> Progressive back pain (mid-back), fatigue, weakness for 3 months</p>
+<p><strong>Action:</strong> Presented to primary care physician</p>
+</div>
+</div>
+<div class="timeline-item" id="vertebral-compression-fracture">
+<div class="timeline-date">January 15, 2024</div>
+<div class="timeline-content">
+<h4>Initial Workup</h4>
+<p><strong>Labs:</strong> Anemia (Hgb 9.2 g/dL), elevated total protein (10.5 g/dL), elevated creatinine (1.6 mg/dL)</p>
+<p><strong>X-ray Spine:</strong> Compression fracture at L2, multiple lytic lesions</p>
+<p><strong>SPEP/UPEP:</strong> M-spike present (4.2 g/dL)</p>
+<p><strong>Outcome:</strong> Urgent referral to hematology-oncology</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">February 5, 2024</div>
+<div class="timeline-content">
+<h4>Bone Marrow Biopsy - Myeloma Diagnosed</h4>
+<p><strong>Procedure:</strong> Bilateral posterior iliac crest bone marrow aspiration and biopsy</p>
+<p><strong>Pathology:</strong> 45% plasma cells (markedly elevated, normal &lt;5%)</p>
+<p><strong>Immunophenotyping:</strong> Clonal plasma cells, kappa light chain restricted</p>
+<p><strong>FISH:</strong> del(13q) detected, no high-risk cytogenetics</p>
+<p><strong>Outcome:</strong> Diagnosis confirmed - Multiple myeloma (IgG kappa)</p>
+</div>
+</div>
+<div class="timeline-item" id="chronic-kidney-disease-stage-2">
+<div class="timeline-date">February 10, 2024</div>
+<div class="timeline-content">
+<h4>Staging Workup</h4>
+<p><strong>Skeletal Survey:</strong> Multiple lytic lesions in spine, ribs, pelvis. L2 compression fracture.</p>
+<p><strong>PET/CT:</strong> Multiple FDG-avid lytic bone lesions, no extramedullary disease</p>
+<p><strong>ISS Stage:</strong> II (Beta-2 microglobulin 4.2 mg/L, albumin 3.5 g/dL)</p>
+<p><strong>R-ISS Stage:</strong> II (ISS II + standard-risk cytogenetics + normal LDH)</p>
+<p><strong>Outcome:</strong> Stage II myeloma, candidate for autologous stem cell transplant</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">March 1, 2024</div>
+<div class="timeline-content">
+<h4>Kyphoplasty for L2 Compression Fracture</h4>
+<p><strong>Procedure:</strong> Percutaneous vertebroplasty/kyphoplasty at L2</p>
+<p><strong>Indication:</strong> Painful compression fracture from myeloma lytic lesion</p>
+<p><strong>Outcome:</strong> Significant pain relief, improved mobility</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">March 10, 2024</div>
+<div class="timeline-content">
+<h4>VRd Induction Therapy - Cycle 1</h4>
+<p><strong>Regimen:</strong> VRd (Bortezomib/Revlimid/Dexamethasone) - 28-day cycles</p>
+<p><strong>Doses:</strong> Bortezomib 1.3 mg/m² SC days 1,4,8,11; Lenalidomide 25 mg PO days 1-21; Dexamethasone 40 mg PO days 1,8,15,22</p>
+<p><strong>Supportive Care:</strong> Acyclovir (viral prophylaxis), aspirin (VTE prophylaxis)</p>
+<p><strong>Tolerability:</strong> Mild nausea, fatigue</p>
+<p><strong>Outcome:</strong> Induction therapy initiated</p>
+</div>
+</div>
+<div class="timeline-item" id="chemotherapy-induced-peripheral-neuropathy">
+<div class="timeline-date">April 7, 2024</div>
+<div class="timeline-content">
+<h4>VRd Cycle 2</h4>
+<p><strong>Details:</strong> Second cycle administered per protocol</p>
+<p><strong>Side Effects:</strong> Peripheral neuropathy (grade 1), fatigue</p>
+<p><strong>M-Protein:</strong> 2.8 g/dL (decreased from 4.2)</p>
+<p><strong>Outcome:</strong> Good response</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">May 5, 2024</div>
+<div class="timeline-content">
+<h4>VRd Cycle 3</h4>
+<p><strong>Details:</strong> Third cycle administered per protocol</p>
+<p><strong>Side Effects:</strong> Worsening neuropathy (grade 2), constipation</p>
+<p><strong>M-Protein:</strong> 1.6 g/dL (continued decline)</p>
+<p><strong>Outcome:</strong> Excellent biochemical response</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">June 2, 2024</div>
+<div class="timeline-content">
+<h4>VRd Cycle 4 (Final Induction Cycle)</h4>
+<p><strong>Details:</strong> Fourth and final cycle of VRd induction</p>
+<p><strong>Side Effects:</strong> Persistent neuropathy (grade 2), manageable</p>
+<p><strong>M-Protein:</strong> 1.2 g/dL (71% reduction from baseline)</p>
+<p><strong>Outcome:</strong> Completed induction therapy, proceed to stem cell collection</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">June 25, 2024</div>
+<div class="timeline-content">
+<h4>Stem Cell Mobilization and Collection</h4>
+<p><strong>Mobilization:</strong> G-CSF (filgrastim) 10 mcg/kg SC daily x 5 days + plerixafor</p>
+<p><strong>Apheresis:</strong> Peripheral blood stem cell collection over 2 days</p>
+<p><strong>CD34+ Cells Collected:</strong> 6.2 x 10^6 cells/kg (excellent yield, target &gt;2.0)</p>
+<p><strong>Outcome:</strong> Adequate stem cells collected, ready for transplant</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">July 15, 2024</div>
+<div class="timeline-content">
+<h4>Autologous Stem Cell Transplant (Day 0)</h4>
+<p><strong>Conditioning:</strong> High-dose melphalan 200 mg/m² (Day -2)</p>
+<p><strong>Stem Cell Infusion:</strong> Autologous peripheral blood stem cells reinfused (Day 0)</p>
+<p><strong>Supportive Care:</strong> Prophylactic antibiotics, antivirals, antifungals</p>
+<p><strong>Outcome:</strong> Stem cell transplant completed successfully</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">July 15-25, 2024</div>
+<div class="timeline-content">
+<h4>Transplant Hospitalization</h4>
+<p><strong>Course:</strong> Expected pancytopenia, mucositis (grade 2), diarrhea</p>
+<p><strong>Nadir:</strong> ANC &lt;0.1 K/uL on Day +7</p>
+<p><strong>Supportive Care:</strong> G-CSF, transfusions (RBC, platelets), IV fluids, pain management</p>
+<p><strong>Complications:</strong> None (no infection, no VOD)</p>
+<p><strong>Outcome:</strong> Tolerated transplant well</p>
+</div>
+</div>
+<div class="timeline-item success">
+<div class="timeline-date">July 25, 2024</div>
+<div class="timeline-content">
+<h4>Engraftment Achieved (Day +10)</h4>
+<p><strong>Neutrophil Engraftment:</strong> ANC &gt;0.5 K/uL on Day +10</p>
+<p><strong>Platelet Engraftment:</strong> Platelets &gt;20 K/uL (transfusion-independent) on Day +12</p>
+<p><strong>Outcome:</strong> Successful engraftment, discharged home Day +11</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">September 1, 2024</div>
+<div class="timeline-content">
+<h4>Day +100 Post-Transplant Assessment</h4>
+<p><strong>M-Protein:</strong> 0.8 g/dL (81% reduction from baseline)</p>
+<p><strong>Bone Marrow Biopsy:</strong> 3% plasma cells (down from 45%)</p>
+<p><strong>Response:</strong> Very Good Partial Response (VGPR)</p>
+<p><strong>Outcome:</strong> Excellent response to transplant</p>
+</div>
+</div>
+<div class="timeline-item critical">
+<div class="timeline-date">October 1, 2024</div>
+<div class="timeline-content">
+<h4>Lenalidomide Maintenance Therapy Initiated</h4>
+<p><strong>Regimen:</strong> Lenalidomide (Revlimid) 10 mg PO daily (days 1-21 of 28-day cycle)</p>
+<p><strong>Duration:</strong> Continue for 2-3 years or until progression</p>
+<p><strong>Monitoring:</strong> CBC weekly x 4 weeks, then monthly; SPEP/UPEP every 3 months</p>
+<p><strong>Outcome:</strong> Maintenance therapy started</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-date">December 15, 2024</div>
+<div class="timeline-content">
+<h4>Current Visit - 5-Month Post-Transplant</h4>
+<p><strong>Status:</strong> Patient doing very well. Energy level excellent. No pain. Tolerating lenalidomide well.</p>
+<p><strong>Physical Exam:</strong> No bone tenderness, no hepatosplenomegaly</p>
+<p><strong>M-Protein:</strong> 0.7 g/dL (stable VGPR)</p>
+<p><strong>CBC:</strong> Hgb 12.5 g/dL (improved), WBC/platelets normal</p>
+<p><strong>Outcome:</strong> Continue lenalidomide maintenance, follow-up in 3 months</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Recent Labs -->
+<div class="section">
+<h2>🔬 Most Recent Laboratory Results (12/15/2024)</h2>
+<table class="lab-table">
+<thead>
+<tr>
+<th>Test</th>
+<th>Result</th>
+<th>Units</th>
+<th>Reference Range</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>M-Protein (IgG)</td>
+<td><strong>0.7</strong></td>
+<td>g/dL</td>
+<td>&lt;0.1 (normal)</td>
+<td><span class="status-badge status-elevated">Elevated (VGPR)</span></td>
+</tr>
+<tr>
+<td>Kappa Light Chains (Serum)</td>
+<td><strong>85</strong></td>
+<td>mg/L</td>
+<td>3.3-19.4</td>
+<td><span class="status-badge status-elevated">Elevated (improved)</span></td>
+</tr>
+<tr>
+<td>Kappa/Lambda Ratio</td>
+<td><strong>4.2</strong></td>
+<td>ratio</td>
+<td>0.26-1.65</td>
+<td><span class="status-badge status-elevated">Elevated (improved)</span></td>
+</tr>
+<tr>
+<td>Hemoglobin</td>
+<td><strong>12.5</strong></td>
+<td>g/dL</td>
+<td>13.5-17.5</td>
+<td><span class="status-badge status-normal">Near-normal (improved)</span></td>
+</tr>
+<tr>
+<td>WBC</td>
+<td><strong>5.8</strong></td>
+<td>K/uL</td>
+<td>4.5-11.0</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>ANC (Absolute Neutrophil Count)</td>
+<td><strong>3.5</strong></td>
+<td>K/uL</td>
+<td>1.5-8.0</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Platelet</td>
+<td><strong>185</strong></td>
+<td>K/uL</td>
+<td>150-400</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Creatinine</td>
+<td><strong>1.4</strong></td>
+<td>mg/dL</td>
+<td>0.7-1.3</td>
+<td><span class="status-badge status-elevated">Mildly elevated (stable)</span></td>
+</tr>
+<tr>
+<td>Calcium</td>
+<td><strong>9.5</strong></td>
+<td>mg/dL</td>
+<td>8.5-10.5</td>
+<td><span class="status-badge status-normal">Normal</span></td>
+</tr>
+<tr>
+<td>Beta-2 Microglobulin</td>
+<td><strong>3.2</strong></td>
+<td>mg/L</td>
+<td>&lt;2.5</td>
+<td><span class="status-badge status-elevated">Mildly elevated (improved)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Current Medications -->
+<div class="section">
+<h2>💊 Current Medications</h2>
+<table class="lab-table">
+<thead>
+<tr>
+<th>Medication</th>
+<th>Dose</th>
+<th>Frequency</th>
+<th>Indication</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lenalidomide (Revlimid)</td>
+<td>10 mg PO</td>
+<td>Daily (days 1-21 of 28-day cycle)</td>
+<td>Multiple myeloma maintenance therapy</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Acyclovir</td>
+<td>400 mg PO</td>
+<td>Twice daily</td>
+<td>Viral prophylaxis (while on lenalidomide)</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Aspirin</td>
+<td>81 mg PO</td>
+<td>Daily</td>
+<td>VTE prophylaxis (lenalidomide-related risk)</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Gabapentin</td>
+<td>300 mg PO</td>
+<td>Three times daily</td>
+<td>Chemotherapy-induced peripheral neuropathy</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Calcium carbonate + Vitamin D3</td>
+<td>600 mg/400 IU</td>
+<td>Twice daily</td>
+<td>Bone health (myeloma bone disease)</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Zoledronic acid (Zometa)</td>
+<td>4 mg IV</td>
+<td>Monthly</td>
+<td>Myeloma bone disease, prevent skeletal-related events</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+<tr>
+<td>Docusate sodium (Colace)</td>
+<td>100 mg PO</td>
+<td>Twice daily</td>
+<td>Constipation prophylaxis</td>
+<td><span class="status-badge status-normal">Active</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Follow-up Plan -->
+<div class="section">
+<h2>📋 Follow-up Plan</h2>
+<h3 style="color: #2d3748; margin-top: 20px; margin-bottom: 15px;">Multiple Myeloma Surveillance &amp; Maintenance</h3>
+<div class="followup-list">
+<ul>
+<li>Continue lenalidomide 10 mg daily (days 1-21 of 28-day cycle) for 2-3 years or until progression</li>
+<li>Clinical evaluation every month (with each lenalidomide refill)</li>
+<li>CBC monthly (monitor for cytopenias)</li>
+<li>SPEP/UPEP every 3 months (monitor M-protein)</li>
+<li>Serum free light chains every 3 months</li>
+<li>Bone marrow biopsy every 6-12 months (assess minimal residual disease)</li>
+<li>Skeletal survey or PET/CT annually (monitor bone lesions)</li>
+<li>Zoledronic acid 4 mg IV monthly (bone protection, continue for 2 years)</li>
+<li>Monitor for lenalidomide side effects (cytopenias, VTE, secondary malignancies)</li>
+<li>If progression: consider second-line therapy (daratumumab, carfilzomib, pomalidomide-based regimens)</li>
+</ul>
+</div>
+<h3 style="color: #2d3748; margin-top: 25px; margin-bottom: 15px;">Next Scheduled Appointments</h3>
+<div class="appointment-card">
+<h4>Hematology-Oncology - January 15, 2025</h4>
+<p><strong>Provider:</strong> Dr. Thomas Anderson, MD</p>
+<p><strong>Purpose:</strong> Monthly follow-up, physical exam, CBC, lenalidomide refill</p>
+</div>
+<div class="appointment-card">
+<h4>Infusion Center - January 20, 2025</h4>
+<p><strong>Provider:</strong> Infusion Nursing</p>
+<p><strong>Purpose:</strong> Zoledronic acid 4 mg IV infusion (monthly bone protection)</p>
+</div>
+<div class="appointment-card">
+<h4>Laboratory - March 2025</h4>
+<p><strong>Provider:</strong> Lab Services</p>
+<p><strong>Purpose:</strong> SPEP/UPEP, serum free light chains, comprehensive metabolic panel</p>
+</div>
+<div class="appointment-card">
+<h4>Bone Marrow Biopsy - June 2025</h4>
+<p><strong>Provider:</strong> Dr. Thomas Anderson, MD</p>
+<p><strong>Purpose:</strong> 1-year post-transplant bone marrow biopsy, assess minimal residual disease (MRD)</p>
+</div>
+<div class="appointment-card">
+<h4>Radiology - July 2025</h4>
+<p><strong>Provider:</strong> Imaging Center</p>
+<p><strong>Purpose:</strong> Annual PET/CT or skeletal survey to assess bone lesions</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>Metropolitan Cancer Center | Department of Hematology-Oncology (Plasma Cell Disorders)</p>
+<p>This document contains protected health information (PHI) and is confidential.</p>
+<p>Generated: 12/15/2024 22:15 | Report ID: EHR-2024-12-334455</p>
+</div>
+</div>
+</body>
+</html>
