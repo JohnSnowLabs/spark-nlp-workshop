@@ -1,0 +1,49 @@
+# © John Snow Labs 2025
+# Docker Compose for JSL Deidentification MCP Server
+
+services:
+  deid-mcp:
+    # Force x86_64 for TensorFlow native libraries (uses Rosetta 2 on Apple Silicon)
+    platform: linux/amd64
+    build:
+      context: .
+      args:
+        # JSL secret for package installation (from .env or environment)
+        JSL_SECRET: ${JSL_SECRET}
+    container_name: jsl-deid-mcp-server
+    ports:
+      - "8000:8000"
+    secrets:
+      - source: spark_jsl
+        target: spark_jsl.json
+    volumes:
+      # Persist pretrained model cache
+      - cache_pretrained:/data/cache_pretrained
+      # Persist JSL home (licenses, jars, wheels)
+      - jsl_home:/root/.johnsnowlabs
+    environment:
+      # Override defaults if needed
+      - SPARK_DRIVER_MEMORY=8G
+      - SERVER_PORT=8000
+      # Use standard clinical_deidentification pipeline (has masked output in metadata)
+      - PIPELINE_NAME=clinical_deidentification
+    # Memory reservation for Spark
+    deploy:
+      resources:
+        limits:
+          memory: 12G
+        reservations:
+          memory: 8G
+    restart: unless-stopped
+
+# Docker secrets - mount spark_jsl.json to /run/secrets/spark_jsl.json
+secrets:
+  spark_jsl:
+    file: ./spark_jsl.json
+
+# Named volumes for cache persistence
+volumes:
+  cache_pretrained:
+    name: jsl-deid-cache-pretrained
+  jsl_home:
+    name: jsl-deid-jsl-home
