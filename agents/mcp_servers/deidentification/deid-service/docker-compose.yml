@@ -1,0 +1,55 @@
+# © John Snow Labs 2025
+# Docker Compose for JSL Deidentification REST API Service
+
+services:
+  deid-service:
+    # Force x86_64 for TensorFlow native libraries (uses Rosetta 2 on Apple Silicon)
+    platform: linux/amd64
+    build:
+      context: .
+      args:
+        # JSL secret for package installation (from .env or environment)
+        JSL_SECRET: ${JSL_SECRET}
+    container_name: jsl-deid-service
+    ports:
+      - "9000:9000"
+    secrets:
+      - source: spark_jsl
+        target: spark_jsl.json
+    volumes:
+      # Persist pretrained model cache
+      - cache_pretrained:/data/cache_pretrained
+      # Persist JSL home (licenses, jars, wheels)
+      - jsl_home:/root/.johnsnowlabs
+    environment:
+      # Override defaults if needed
+      - SPARK_DRIVER_MEMORY=8G
+      - SERVER_PORT=9000
+      - PIPELINE_NAME=clinical_deidentification
+    # Memory reservation for Spark
+    deploy:
+      resources:
+        limits:
+          memory: 12G
+        reservations:
+          memory: 8G
+    # Health check: monitors Spark session and pipeline status
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/health"]
+      interval: 60s
+      timeout: 10s
+      retries: 3
+      start_period: 600s  # Allow 10 minutes for initial pipeline load
+    restart: unless-stopped
+
+# Docker secrets - mount spark_jsl.json to /run/secrets/spark_jsl.json
+secrets:
+  spark_jsl:
+    file: ./spark_jsl.json
+
+# Named volumes for cache persistence
+volumes:
+  cache_pretrained:
+    name: jsl-deid-service-cache
+  jsl_home:
+    name: jsl-deid-service-jsl-home
