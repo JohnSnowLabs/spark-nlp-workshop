@@ -1,0 +1,5 @@
+Model,Dataset,Epochs,Time (hrs)
+CNN,CIFAR-10,50,3.2
+ResNet-50,ImageNet,90,14.5
+BERT,WikiText,3,10.8
+GPT-3,OpenWebText,1,480.0
