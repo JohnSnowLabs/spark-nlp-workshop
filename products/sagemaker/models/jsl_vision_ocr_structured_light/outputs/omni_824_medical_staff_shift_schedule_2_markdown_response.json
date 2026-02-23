@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-9642be94db32540d",
+  "object": "chat.completion",
+  "created": 1769091252,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Staff Shift Schedule\n\nWoodbury Medical Center - Week of July 11, 2025\n\n| Employee                      | ID     | Department  | Fri 11           | Sat 12           | Sun 13           | Mon 14           | Tue 15           | Wed 16           | Thu 17           |\n|-------------------------------|--------|-------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|\n| Ora Murphy                    | HJNOZ5 | Surgery     | Afternoon 15:00-23:00 |                  | Afternoon 15:00-23:00 |                  |                  | Leave Vacation   |                  |\n| Ms. Antoinette Armstrong-Schuppe | CCE0NJ | Cardiology  |                  |                  | Afternoon 15:00-23:00 | Morning 07:00-15:00 | Leave Training   |                  | Morning 07:00-15:00 |\n| Clinton Funk                  | YP49JZ | Pediatrics  |                  |                  | Afternoon 15:00-23:00 |                  |                  |                  | Leave Sick Leave |\n| Shawna Mayert                 | EZR13T | Oncology    |                  |                  |                  | Leave Vacation   |                  |                  | Afternoon 15:00-23:00 |\n| Keith Hudson DDS                | SCHADG | General Ward|                  |                  | Leave Sick Leave | Night 23:00-07:00 |                  |                  | Leave Personal   |\n| Mary Homenick Sr.             | RDDNOM | Cardiology  | Afternoon 15:00-23:00 | Morning 07:00-15:00 |                  |                  | Leave Training   | Afternoon 15:00-23:00 |                  |\n| James Koeppe                  | 59LN SK | Neurology   | Afternoon 15:00-23:00 | Afternoon 15:00-23:00 |                  |                  | Night 23:00-07:00 | Leave Personal   |                  |\n| Roger Hauck                   | SBE83Z | Emergency   |                  |                  |                  | Afternoon 15:00-23:00 |                  |                  | Afternoon 15:00-23:00 |\n| Dr. Daisy Zemlak              | 2XXEH1 | Oncology    | Morning 07:00-15:00 |                  |                  |                  | Afternoon 15:00-23:00 |                  | Morning 07:00-15:00 |\n| Rachel McGlynn                | VNTPVM | ICU         | Leave Training   |                  | Afternoon 15:00-23:00 |                  | Morning 07:00-15:00 | Leave Vacation   | Morning 07:00-15:00 |\n| Pam Streich                   | IJPWVA | Emergency   |                  | Leave Personal   |                  |                  | Leave Sick Leave |                  |                  |",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 2479,
+    "total_tokens": 3216,
+    "completion_tokens": 737,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

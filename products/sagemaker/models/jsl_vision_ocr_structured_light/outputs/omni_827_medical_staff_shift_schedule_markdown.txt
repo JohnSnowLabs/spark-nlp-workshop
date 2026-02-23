@@ -1,0 +1,23 @@
+# Staff Shift Schedule
+
+West Marshallstad Medical Center -  
+Week of February 11, 2026
+
+| Employee           | ID     | Department  | Wed 11         | Thu 12         | Fri 13         | Sat 14         | Sun 15         | Mon 16         | Tue 17         |
+|--------------------|--------|-------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|
+| Dr. Todd Frami     | RDTBMO | General Ward| Morning 07:00-15:00 | Morning 07:00-15:00 | Leave Sick Leave | Leave Training |                |                |                |
+| Mrs. Mindy Lebsack | Q4FZ2T | Cardiology  |                |                |                | Morning 07:00-15:00 | Leave Vacation | Afternoon 15:00-23:00 |                |
+| Nathaniel Kessler  | R2VYRS | Pediatrics  | Leave Training | Morning 07:00-15:00 |                | Leave Personal |                | Night 23:00-07:00 |                |
+| Darlene Huel       | TI16VZ | ICU         | Leave Personal | Afternoon 15:00-23:00 |                | Morning 07:00-15:00 | Leave Personal |                |                |
+| Rosie Sanford      | 889QT8 | Oncology    | Afternoon 15:00-23:00 | Morning 07:00-15:00 | Morning 07:00-15:00 |                |                | Morning 07:00-15:00 | Afternoon 15:00-23:00 |
+| Clifton Schuppe    | TW0CAW | Oncology    | Leave Personal |                | Leave Training |                | Leave Training |                | Leave Sick Leave |
+| Dr. Inez Heaney I  | 8Q0R6W | Radiology   |                |                |                |                | Leave Training |                |                |
+| Claude Cartwright  | GMYUYE | Radiology   |                |                |                |                | Night 23:00-07:00 | Morning 07:00-15:00 |                |
+| Elvira Feil-Koss DVM | OODH2T | Emergency   | Leave Vacation |                | Leave Sick Leave | Leave Vacation |                |                |                |
+| Myra Murray        | JSFR3B | Cardiology  |                |                |                | Morning 07:00-15:00 | Afternoon 15:00-23:00 | Night 23:00-07:00 |                |
+| Dana Williamson    | 32UJ9T | Neurology   | Afternoon 15:00-23:00 |                |                | Leave Personal |                | Afternoon 15:00-23:00 |                |
+| Billie Wilkinson   | VROCD5 | Emergency   | Morning 07:00-15:00 |                | Leave Personal |                |                | Afternoon 15:00-23:00 | Leave Personal |
+| Bert Guskowski III | ILNY00 | Neurology   | Afternoon 15:00-23:00 | Morning 07:00-15:00 | Afternoon 15:00-23:00 |                |                | Leave Vacation |                |
+| Pamela West        | NMTFWF | Surgery     | Afternoon 15:00-23:00 | Morning 07:00-15:00 |                |                |                |                | Morning 07:00-15:00 |
+| Hannah Auer V      | TOYJ35 | Cardiology  |                |                | Afternoon 15:00-23:00 | Afternoon 15:00-23:00 | Leave Training | Leave Training | Morning 07:00-15:00 |
+| Jennifer Rodriguez | 3KQN0U | Radiology   | Night 23:00-07:00 | Night 23:00-07:00 |                |                |                | Morning 07:00-1

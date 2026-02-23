@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-b7e747daf95d5f55",
+  "object": "chat.completion",
+  "created": 1769091250,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"sex\": \"M\",\n  \"class\": \"3\",\n  \"height\": \"6-0\",\n  \"weight\": \"205\",\n  \"address\": {\n    \"city\": \"Paradise\",\n    \"state\": \"Calif\",\n    \"street\": \"5798 Olive St\",\n    \"zip_code\": \"95969\"\n  },\n  \"eye_color\": \"BLU\",\n  \"last_name\": \"THOMAS\",\n  \"first_name\": \"DAVID\",\n  \"hair_color\": \"GREY\",\n  \"issue_date\": \"08/04/1965\",\n  \"date_of_birth\": \"08/20/1892\",\n  \"expiration_date\": \"08/20/1962\",\n  \"driver_license_number\": \"W106438\"\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 701,
+    "total_tokens": 888,
+    "completion_tokens": 187,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

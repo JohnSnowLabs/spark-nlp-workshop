@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-810d86eb51c217cd",
+  "object": "chat.completion",
+  "created": 1769146319,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "<logo>Deli Hospital</logo>\n\n**Delhi Hospital**\nA NABH Accredited Multispeciality Hospital  \nDelhi-Rohatkal Road, Bahadurgarh-124507(HR)  \nPh.: 01276-230607\n\nComputerised Lab, X-Ray, Ultrasound, E.C.G.  \nCOMPLETE RANGE OF BIOCHEMISTRY, MICROBIOLOGY, HAEMATOLOGY, SEROLOGY, CYTOLOGY, HISTOPATHOLOGY  \nDelhi-Rohatkal Road BAHADURGARH-124507 (HARYANA)\n\nTiming : 8.00 A.M. To 7.00 P.M.  \nSunday : 9.00 A.M. To 3.00 P.M.\n\nDate: REDACTED  \nDr. RAHUL  \nSr No. 59  \nAge 40 Yrs.  \nSex F  \n\n| **LIVER FUNCTION TEST** | | | |\n|-------------------------|---|---|---|\n| TOTAL BILIRUBIN         | 1.2 mg/dl | 0.3 - 1.2 |\n| CONJUGATED (D. Bilirubin)| 0.5 mg/dl | 0.00 - 0.2 |\n| UNCONJUGATED (I.D.Bilirubin)| 0.7 mg/dl | 0.3 - 1.0 |\n| TOTAL PROTEINS          | 7.7 gm/dl | 6.4 - 8.3 |\n| ALBUMIN                 | 4.0 gm/dl | 3.5 - 5.2 |\n| GLOBULIN                | 3.7 gm/dl | 2.3 - 3.5 |\n| A/G RATIO               | 1.081     | 0.8 - 2.0 |\n| S.G.O.T (AST)           | 28.0 U/L  | 0.00 - 50.0 |\n| S.G.P.T (ALT)           | 19.0 U/L  | 0.00 - 50.0 |\n| ALKALINE PHOSPHATASE    | 63.0 U/L  | 53.0 - 128.0 |\n| G.G.T.P                 | 11.0 U/L  | 0.0 - 55.0 |\n\n<watermark>CONSULTANT PATHOLOGIST</watermark>\n\nDr. Rahul Chandra Bhalla Kanawade  \nConsultant Physician  \nMBBS, DNB  \nF.I.C.G. No. DNB-67743\n\n* CLINICAL CORRELATION IS ESSENTIAL FOR FINAL DIAGNOSIS.  \n* MORE THAN 12 HOURS OVERNIGHT FASTING CONDITION IS REQUIRED FOR E.S.R., BLOOD TRIGLYCERIDES, LIPID PROFILE, T3, T4 TSH IRON & HORMONES.  \n* HEMOLYZED SERUM MAY FALSELY ELEVATE POSTPRANDIAL SERUM CA, CALCIUM, POTASSIUM, SODIUM, CHLORIDE, URIC ACID, LIPID SERUM MAY FALSELY ELEVATE ALKALINE PHOSPHATASE SGOT, SGPT, LDH AND PHOSPHATASE.  \n* THIS REPORT IS FOR THE PERUSAL OF DOCTORS ONLY NOT FOR MEDICOLEGAL CASES.  \n* WE USE DISPOSABLE SYRINGES AND NEEDLES ONLY.  \n\n24 HOURS EMERGENCY SERVICES AVAILABLE  \n\n<page_number>1</page_number>",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1981,
+    "total_tokens": 2785,
+    "completion_tokens": 804,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

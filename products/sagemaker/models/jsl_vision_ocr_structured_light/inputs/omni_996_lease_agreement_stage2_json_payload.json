@@ -1,0 +1,146 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"required\": [\n    \"date\",\n    \"lessor\",\n    \"lessee\",\n    \"premises\",\n    \"lease\",\n    \"rent\"\n  ],\n  \"properties\": {\n    \"date\": {\n      \"type\": \"string\",\n      \"format\": \"date\",\n      \"description\": \"Date of the lease, formatted as YYYY-MM-DD\"\n    },\n    \"rent\": {\n      \"type\": \"object\",\n      \"required\": [\n        \"monthlyAmount\",\n        \"securityDeposit\"\n      ],\n      \"properties\": {\n        \"monthlyAmount\": {\n          \"type\": \"number\"\n        },\n        \"securityDeposit\": {\n          \"type\": \"number\"\n        }\n      }\n    },\n    \"lease\": {\n      \"type\": \"object\",\n      \"required\": [\n        \"years\",\n        \"months\",\n        \"startDate\",\n        \"endDate\"\n      ],\n      \"properties\": {\n        \"years\": {\n          \"type\": \"number\"\n        },\n        \"months\": {\n          \"type\": \"number\"\n        },\n        \"endDate\": {\n          \"type\": \"string\",\n          \"format\": \"date\",\n          \"description\": \"End date of the lease, formatted as YYYY-MM-DD\"\n        },\n        \"startDate\": {\n          \"type\": \"string\",\n          \"format\": \"date\",\n          \"description\": \"Start date of the lease, formatted as YYYY-MM-DD\"\n        }\n      }\n    },\n    \"lessee\": {\n      \"type\": \"object\",\n      \"required\": [\n        \"name\",\n        \"streetAddress\",\n        \"state\"\n      ],\n      \"properties\": {\n        \"name\": {\n          \"type\": \"string\"\n        },\n        \"state\": {\n          \"type\": \"string\"\n        },\n        \"streetAddress\": {\n          \"type\": \"string\"\n        }\n      }\n    },\n    \"lessor\": {\n      \"type\": \"object\",\n      \"required\": [\n        \"name\",\n        \"streetAddress\",\n        \"state\"\n      ],\n      \"properties\": {\n        \"name\": {\n          \"type\": \"string\"\n        },\n        \"state\": {\n          \"type\": \"string\"\n        },\n        \"streetAddress\": {\n          \"type\": \"string\"\n        }\n      }\n    },\n    \"premises\": {\n      \"type\": \"object\",\n      \"required\": [\n        \"squareFeet\",\n        \"spaceType\",\n        \"streetAddress\"\n      ],\n      \"properties\": {\n        \"spaceType\": {\n          \"enum\": [\n            \"Office Space\",\n            \"Retail Space\",\n            \"Warehouse\",\n            \"Industrial Space\"\n          ],\n          \"type\": \"string\"\n        },\n        \"squareFeet\": {\n          \"type\": \"string\"\n        },\n        \"streetAddress\": {\n          \"type\": \"string\"\n        }\n      }\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "# CALIFORNIA COMMERCIAL LEASE AGREEMENT\n\nThis Lease Agreement made the **2025-12-27**, by and between **Eric Zemlak-Crist PhD** [name of lessor], of **54372 St Mary's Road** [street address], State of **California**, hereinafter referred to as \"Lessor\", and **Weissnat - Hermiston** [name of lessee], of **399 Adrien Mews** [street address], State of **California**, hereinafter referred to as \"Lessee\", collectively referred to herein as the \"Parties\", agree as follows:\n\n## 1. DESCRIPTION OF LEASED PREMISES:\n\nThe Lessor agrees to lease to the Lessee the following described **9464** square feet (SF) of **Office Space** located at **49145 Pearline Forest** [street address], State of California.\n\n## 2. TERM OF LEASE:\n\nThe term of this Lease shall be for a period of **5** year(s) **8** month(s) commencing on the **27** day of **December 2025**, and expiring at Midnight on the **26** day of **August 2031**. (\"Initial Term\")\n\n## 3. BASE RENT:\n\nThe net monthly payment shall be **9313** dollars ($9313) per month. A security deposit of **9622** dollars ($9622) is required, payable monthly with the first payment due upon the commencement of the Lease and each monthly installment payable thereafter on the 1st day of each month.\n\n## 4. Options to Renew (Check one):\n\n\u2611 Lessee may not renew the Lease.  \n\u2611 The Lessee may have the right to renew the Lease with a total of ____ renewal period(s) with each term being ____ year(s) ____ month(s) which may be exercised by giving written notice to Lessor no less than 60 days prior to the expiration of the Lease or renewal period.\n\n---\n\nPrepared using zipForm\u00ae software\n\n<page_number>Page 5 of 8</page_number>"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "required": [
+          "date",
+          "lessor",
+          "lessee",
+          "premises",
+          "lease",
+          "rent"
+        ],
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date",
+            "description": "Date of the lease, formatted as YYYY-MM-DD"
+          },
+          "rent": {
+            "type": "object",
+            "required": [
+              "monthlyAmount",
+              "securityDeposit"
+            ],
+            "properties": {
+              "monthlyAmount": {
+                "type": "number"
+              },
+              "securityDeposit": {
+                "type": "number"
+              }
+            }
+          },
+          "lease": {
+            "type": "object",
+            "required": [
+              "years",
+              "months",
+              "startDate",
+              "endDate"
+            ],
+            "properties": {
+              "years": {
+                "type": "number"
+              },
+              "months": {
+                "type": "number"
+              },
+              "endDate": {
+                "type": "string",
+                "format": "date",
+                "description": "End date of the lease, formatted as YYYY-MM-DD"
+              },
+              "startDate": {
+                "type": "string",
+                "format": "date",
+                "description": "Start date of the lease, formatted as YYYY-MM-DD"
+              }
+            }
+          },
+          "lessee": {
+            "type": "object",
+            "required": [
+              "name",
+              "streetAddress",
+              "state"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "state": {
+                "type": "string"
+              },
+              "streetAddress": {
+                "type": "string"
+              }
+            }
+          },
+          "lessor": {
+            "type": "object",
+            "required": [
+              "name",
+              "streetAddress",
+              "state"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "state": {
+                "type": "string"
+              },
+              "streetAddress": {
+                "type": "string"
+              }
+            }
+          },
+          "premises": {
+            "type": "object",
+            "required": [
+              "squareFeet",
+              "spaceType",
+              "streetAddress"
+            ],
+            "properties": {
+              "spaceType": {
+                "enum": [
+                  "Office Space",
+                  "Retail Space",
+                  "Warehouse",
+                  "Industrial Space"
+                ],
+                "type": "string"
+              },
+              "squareFeet": {
+                "type": "string"
+              },
+              "streetAddress": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

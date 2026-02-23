@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-80a7909f72570e32",
+  "object": "chat.completion",
+  "created": 1769091348,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# Medical Equipment Inspection Checklist\n\n**Equipment ID:** AML.KZLSG  \n**Model:** Breitenberg Group 8rVc  \n**Department:** Operating Room  \n**Inspection Date:** 2025-02-12  \n**Inspector:** Freda Heathcote  \n\n## Physical Condition\n\n| Checkpoint                | Pass \u2610 | Fail \u2611 | N/A | Notes |\n|---------------------------|--------|--------|-----|-------|\n| Equipment housing intact  | \u2611      |        |     |       |\n| Display screen clear      |        | \u2611      |     |       |\n| Control buttons functional| \u2611      |        |     |       |\n| Power cord undamaged      | \u2611      |        |     |       |\n| Mounting brackets secure  | \u2611      |        |     |       |\n| Wheels/casters condition  | \u2611      |        |     |       |\n| Labels and markings legible| \u2611     |        |     |       |\n| Accessories complete      | \u2611      |        |     |       |\n\n## Electrical Safety\n\n| Checkpoint                | Pass \u2610 | Fail \u2611 | N/A | Notes                          |\n|---------------------------|--------|--------|-----|--------------------------------|\n| Ground connection         |        | \u2611      |     | Housing damage compromises safety |\n| Insulation resistance     | \u2611      |        |     |                                |\n| Leakage current           | \u2611      |        |     |                                |\n| Power supply stable       | \u2611      |        |     |                                |\n| Battery backup functional | \u2611      |        |     |                                |\n| Circuit breaker operation | \u2611      |        |     |                                |\n| Surge protection          |        |        | \u2611   |                                |\n| Cable connections secure  | \u2611      |        |     |                                |\n\n## Performance Tests\n\n| Checkpoint                | Pass \u2610 | Fail \u2611 | N/A | Notes                          |\n|---------------------------|--------|--------|-----|--------------------------------|\n| Self-test passed          |        |        | \u2611   | Not required for this equipment type |\n| Calibration check         | \u2611      |        |     |                                |\n| Alarm systems             | \u2611      |        |     |                                |\n| Backup systems            | \u2611      |        |     |                                |\n| Output accuracy           |        | \u2611      |     | Critical error in self-diagnostic |\n| Response time             | \u2611      |        |     |                                |\n| Data storage/retrieval    | \u2611      |        |     |                                |\n| Network connectivity      |        |        | \u2611   | Not required for this equipment type |\n| Sensor accuracy           | \u2611      |        |     |                                |\n\n## Overall Status\n\n**Inspection Result:** \u274c  \n**Next Inspection Due:** 2025-05-10",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1967,
+    "total_tokens": 2572,
+    "completion_tokens": 605,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

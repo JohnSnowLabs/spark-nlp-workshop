@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-a5e446286f2668fb",
+  "object": "chat.completion",
+  "created": 1769091354,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"checkpoints\": [\n    {\n      \"items\": [\n        {\n          \"status\": \"fail\",\n          \"checkpoint\": \"Equipment housing intact\"\n        },\n        {\n          \"status\": \"fail\",\n          \"checkpoint\": \"Display screen clear\"\n        },\n        {\n          \"status\": \"pass\",\n          \"checkpoint\": \"Control buttons functional\"\n        },\n        {\n          \"status\": \"pass\",\n          \"checkpoint\": \"Power cord undamaged\"\n        },\n        {\n          \"status\": \"pass\",\n          \"checkpoint\": \"Mounting brackets secure\"\n        },\n        {\n          \"status\": \"pass\",\n          \"checkpoint\": \"Wheels/casters condition\"\n        },\n        {\n          \"status\": \"pass\",\n          \"checkpoint\": \"Labels and markings legible\"\n        },\n        {\n          \"status\": \"pass\",\n          \"checkpoint\": \"Accessories complete\"\n        }\n      ],\n      \"category\": \"Physical Condition\"\n    },\n    {\n      \"items\": [\n        {\n          \"status\": \"fail\",\n          \"checkpoint\": \"Ground connection\"\n        },\n        {\n          \"status\": \"pass\",\n          \"checkpoint\": \"Insulation resistance\"\n        },\n        {\n          \"status\": \"pass\",\n          \"checkpoint\": \"Leakage current\"\n        },\n        {\n          \"status\": \"pass\",\n          \"checkpoint\": \"Power supply stable\"\n        },\n        {\n          \"status\": \"pass\",\n          \"checkpoint\": \"Battery backup functional\"\n        },\n        {\n          \"status\": \"pass\",\n          \"checkpoint\": \"Circuit breaker operation\"\n        },\n        {\n          \"status\": \"na\",\n          \"checkpoint\": \"Surge protection\"\n        },\n        {\n          \"status\": \"pass\",\n          \"checkpoint\": \"Cable connections secure\"\n        }\n      ],\n      \"category\": \"Electrical Safety\"\n    },\n    {\n      \"items\": [\n        {\n          \"status\": \"na\",\n          \"checkpoint\": \"Self-test passed\"\n        },\n        {\n          \"status\": \"pass\",\n          \"checkpoint\": \"Calibration check\"\n        },\n        {\n          \"status\": \"pass\",\n          \"checkpoint\": \"Alarm systems\"\n        },\n        {\n          \"status\": \"pass\",\n          \"checkpoint\": \"Backup systems\"\n        },\n        {\n          \"status\": \"fail\",\n          \"checkpoint\": \"Output accuracy\"\n        },\n        {\n          \"status\": \"pass\",\n          \"checkpoint\": \"Response time\"\n        },\n        {\n          \"status\": \"pass\",\n          \"checkpoint\": \"Data storage/retrieval\"\n        },\n        {\n          \"status\": \"na\",\n          \"checkpoint\": \"Network connectivity\"\n        },\n        {\n          \"status\": \"pass\",\n          \"checkpoint\": \"Sensor accuracy\"\n        }\n      ],\n      \"category\": \"Performance Tests\"\n    }\n  ],\n  \"equipmentInfo\": {\n    \"model\": \"Breitenberg Group 8rVc\",\n    \"inspector\": \"Freda Heathcote\",\n    \"equipmentId\": \"AML.KZLSG\",\n    \"inspectionDate\": \"2025-02-12\"\n  },\n  \"overallStatus\": {\n    \"passedInspection\": false,\n    \"nextInspectionDue\": \"2025-05-10\"\n  }\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1049,
+    "total_tokens": 1721,
+    "completion_tokens": 672,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

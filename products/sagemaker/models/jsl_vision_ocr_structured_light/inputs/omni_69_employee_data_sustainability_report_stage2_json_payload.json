@@ -1,0 +1,95 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"title\": \"TerminationRates2020\",\n  \"required\": [\n    \"byAge\",\n    \"byGender\"\n  ],\n  \"properties\": {\n    \"byAge\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"required\": [\n          \"group\",\n          \"terminationRate\",\n          \"terminations\",\n          \"averageHeadcount\"\n        ],\n        \"properties\": {\n          \"group\": {\n            \"type\": \"string\",\n            \"description\": \"Age group label\"\n          },\n          \"terminations\": {\n            \"type\": \"number\",\n            \"description\": \"Number of terminations in this group\"\n          },\n          \"terminationRate\": {\n            \"type\": \"number\",\n            \"description\": \"Decimal representation of termination rate (e.g. 0.29 for 29%)\"\n          },\n          \"averageHeadcount\": {\n            \"type\": \"number\",\n            \"description\": \"Average headcount for this group\"\n          }\n        }\n      },\n      \"description\": \"2020 termination rates broken down by age group\"\n    },\n    \"byGender\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"required\": [\n          \"group\",\n          \"terminationRate\",\n          \"terminations\",\n          \"averageHeadcount\"\n        ],\n        \"properties\": {\n          \"group\": {\n            \"type\": \"string\",\n            \"description\": \"Gender group label\"\n          },\n          \"terminations\": {\n            \"type\": \"number\",\n            \"description\": \"Number of terminations in this group\"\n          },\n          \"terminationRate\": {\n            \"type\": \"number\",\n            \"description\": \"Decimal representation of termination rate (e.g. 0.29 for 29%)\"\n          },\n          \"averageHeadcount\": {\n            \"type\": \"number\",\n            \"description\": \"Average headcount for this group\"\n          }\n        }\n      },\n      \"description\": \"2020 termination rates broken down by gender\"\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "# Employee Data\n\n<watermark>OFFICIAL COPY</watermark>\n\n## 2020 External Hire Rate by Age\n\n|  | External Hire Rate | External Hires | Average Headcount |\n|---|---|---|---|\n| All Ages | 19.80% | 4,917 | 24,812 |\n| <20 | 147.4% | 221 | 150 |\n| 20-29 | 52.7% | 2,357 | 4,475 |\n| 30-39 | 18.0% | 1,513 | 8,405 |\n| 40-49 | 10.2% | 634 | 6,214 |\n| 50-59 | 4.2% | 171 | 4,072 |\n| 60+ | 1.5% | 20 | 1,300 |\n| Unallocated | 0.5% | 1 | 197 |\n\n## 2020 External Hire Rate by Gender\n\n|  | External Hire Rate | External Hires | Average Headcount |\n|---|---|---|---|\n| All Genders | 19.80% | 4,917 | 24,812 |\n| Male | 20.80% | 3,960 | 19,030 |\n| Female | 16.60% | 957 | 5,782 |\n\n## 2020 External Hire Rate by Regions\n\n|  | External Hire Rate | External Hires | Average Headcount |\n|---|---|---|---|\n| All Regions | 19.80% | 4,917 | 24,812 |\n| Asia | 11.9% | 369 | 3,089 |\n| EMEA | 9.4% | 655 | 6,950 |\n| North America | 13.8% | 678 | 4,896 |\n| South America | 32.5% | 3,215 | 9,878 |\n\n## 2020 Termination Rate by Age\n\n|  | Termination Rate | Terminations | Average Headcount |\n|---|---|---|---|\n| All Ages | 29.00% | 7,196 | 24,812 |\n| <20 | 126.70% | 190 | 150 |\n| 20-29 | 54.40% | 2,434 | 4,475 |\n| 30-39 | 27.40% | 2,299 | 8,405 |\n| 40-49 | 21.50% | 1,337 | 6,214 |\n| 50-59 | 15.30% | 623 | 4,072 |\n| 60+ | 22.80% | 296 | 1,300 |\n| Miscellaneous | 8.70% | 17 | 197 |\n\n## 2020 Termination Rate by Gender\n\n|  | Termination Rate | Terminations | Average Headcount |\n|---|---|---|---|\n| All Genders | 29.00% | 7,196 | 24,812 |\n| Male | 30.10% | 5,729 | 19,030 |\n| Female | 25.40% | 1,467 | 5,782 |\n\n## 2020 Termination Rate by Region\n\n|  | Termination Rate | Terminations | Average Headcount |\n|---|---|---|---|\n| All Regions | 29.00% | 7,196 | 24,812 |\n| Asia | 14.20% | 438 | 3,089 |\n| EMEA | 13.70% | 955 | 6,950 |\n| North America | 17.10% | 838 | 4,896 |\n| South America | 50"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "title": "TerminationRates2020",
+        "required": [
+          "byAge",
+          "byGender"
+        ],
+        "properties": {
+          "byAge": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "group",
+                "terminationRate",
+                "terminations",
+                "averageHeadcount"
+              ],
+              "properties": {
+                "group": {
+                  "type": "string",
+                  "description": "Age group label"
+                },
+                "terminations": {
+                  "type": "number",
+                  "description": "Number of terminations in this group"
+                },
+                "terminationRate": {
+                  "type": "number",
+                  "description": "Decimal representation of termination rate (e.g. 0.29 for 29%)"
+                },
+                "averageHeadcount": {
+                  "type": "number",
+                  "description": "Average headcount for this group"
+                }
+              }
+            },
+            "description": "2020 termination rates broken down by age group"
+          },
+          "byGender": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "group",
+                "terminationRate",
+                "terminations",
+                "averageHeadcount"
+              ],
+              "properties": {
+                "group": {
+                  "type": "string",
+                  "description": "Gender group label"
+                },
+                "terminations": {
+                  "type": "number",
+                  "description": "Number of terminations in this group"
+                },
+                "terminationRate": {
+                  "type": "number",
+                  "description": "Decimal representation of termination rate (e.g. 0.29 for 29%)"
+                },
+                "averageHeadcount": {
+                  "type": "number",
+                  "description": "Average headcount for this group"
+                }
+              }
+            },
+            "description": "2020 termination rates broken down by gender"
+          }
+        }
+      }
+    }
+  }
+}

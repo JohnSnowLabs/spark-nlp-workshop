@@ -1,0 +1,52 @@
+# Medical Equipment Inspection Checklist
+
+**Equipment ID:** OCTAMI2I  
+**Model:** O'Hara LLC mNYv  
+**Department:** Operating Room  
+**Inspection Date:** 2025-02-13  
+**Inspector:** Marcos Buckridge  
+
+## Physical Condition
+
+| Checkpoint                  | Functional | Needs Service | Defective | Not Applicable | Notes                                      |
+|-----------------------------|------------|---------------|-----------|----------------|--------------------------------------------|
+| Equipment housing intact    | ☑          |               |           |                | Backup system needs verification. Last checked on 2/12/2025 |
+| Display screen clear        | ☑          |               |           |                | Critical error in self-diagnostic          |
+| Control buttons functional  | ☑          |               |           |                |                                            |
+| Power cord undamaged        |            |               |           |                |                                            |
+| Mounting brackets secure    |            |               | ☑         |                | Battery backup needs testing               |
+| Wheels/casters condition    | ☑          |               |           |                |                                            |
+| Labels and markings legible | ☑          |               |           |                |                                            |
+| Accessories complete        |            |               |           |                |                                            |
+
+## Electrical Safety
+
+| Checkpoint               | Functional | Needs Service | Defective | Not Applicable | Notes                          |
+|--------------------------|------------|---------------|-----------|----------------|--------------------------------|
+| Ground connection        | ☑          |               |           |                |                                |
+| Insulation resistance    |            |               |           |                |                                |
+| Leakage current          | ☑          |               |           |                |                                |
+| Power supply stable      |            |               |           |                |                                |
+| Battery backup functional| ☑          |               |           |                |                                |
+| Circuit breaker operation| ☑          |               |           |                |                                |
+| Surge protection         | ☑          |               |           |                |                                |
+| Cable connections secure |            |               | ☑         |                | Critical error in self-diagnostic |
+
+## Performance Tests
+
+| Checkpoint               | Functional | Needs Service | Defective | Not Applicable | Notes                                      |
+|--------------------------|------------|---------------|-----------|----------------|--------------------------------------------|
+| Self-test passed         | ☑          |               |           |                |                                            |
+| Calibration check        | ☑          |               |           |                |                                            |
+| Alarm systems            | ☑          |               |           |                |                                            |
+| Backup systems           | ☑          |               |           |                |                                            |
+| Output accuracy          |            |               | ☑         |                | Battery backup needs testing. Reference ID: EBT9QX |
+| Response time            | ☑          |               |           |                |                                            |
+| Data storage/retrieval   |            | ☑             |           |                |                                            |
+| Network connectivity     | ☑          |               |           |                |                                            |
+| Sensor accuracy          | ☑          |               |           |                |                                            |
+
+## Overall Status
+
+**Inspection Result:** ☑  
+**Next Inspection Due:** 2025-05-26

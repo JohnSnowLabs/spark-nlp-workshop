@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-a6c9c420cba3d364",
+  "object": "chat.completion",
+  "created": 1769091323,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# US 8,498,772 B2\n## Page 3\n\n### (61)\n- Int. C: 2017.01\n- G28T 15/04: 2017.01\n- G28T 7/18: 2017.01\n\n### (62)\n#### References Cited\n- 5,322,198 A: 10/1914: Crona\n- 5,328,818 A: 12/1914: Gutowski et al.\n- 5,476,421 A: 2/1915: Lubowitz\n- 5,512,111 A: 4/1915: Kunze-Hane et al.\n- 5,654,776 A: 4/1915: Gleichner\n- 5,691,411 A: 5/1915: Kohler\n- 5,708,719 A: 7/1915: Gibson et al.\n- 5,728,053 A: 8/1915: Niklaus-Jones et al.\n- 5,789,902 A: 8/1915: Zieman et al.\n- 5,915,031 A: 10/1915: Farrell\n- 6,032,421 A: 12/1915: Davis\n- 6,080,856 A: 1/1916: Johnston\n- 6,230,806 A: 1/1916: Rutherford et al.\n- 6,271,457 A: 1/1916: How et al.\n- 6,367,248 A: 2/1916: Lynch\n- 6,499,921 A: 2/1916: Willms et al.\n- 6,582,732 A: 4/1916: Klock et al.\n- 6,727,818 A: 5/1916: McCullough\n- 6,778,457 A: 5/1916: Effertz et al.\n- 6,888,874 A: 7/1916: Doyle et al.\n- 6,938,298 A: 8/1916: Turner\n- 7,043,378 A: 10/1916: Bogan\n\n### U.S. PATENT DOCUMENTS\n- 1,060,254 A: 1/1910: Nikolaus et al.\n- 1,106,064 A: 2/1910: Green\n- 1,138,704 A: 4/1910: Kassulke\n- 1,258,855 A: 4/1910: Sporer\n- 1,392,321 A: 5/1910: Morissette\n- 1,474,729 A: 7/1910: Crist\n- 1,550,280 A: 9/1910: Breidenberg et al.\n- 1,637,737 A: 10/1910: Goldner et al.\n- 1,705,578 A: 12/1910: Heathcote et al.\n- 1,818,981 A: 1/1911: Borer et al.\n- 1,847,329 A: 1/1911: Berge et al.\n- 1,860,225 A: 2/1911: Graham et al.\n- 2,007,333 A: 4/1911: Romaguera et al.\n- 2,092,728 A: 4/1911: Guskowski\n- 2,234,025 A: ",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "length",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 3503,
+    "total_tokens": 4527,
+    "completion_tokens": 1024,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-bebade0915ecb997",
+  "object": "chat.completion",
+  "created": 1769091204,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# MAJOR EQUIPMENT NEEDS TO CARRY OUT BUILDING FUNCTION\n\n| ITEM                                | NO | UNIT COST* | EXTENDED COST* |\n|-------------------------------------|----|------------|----------------|\n| Atomic Absorption Spectrometer      | 1  | $ 17.0     | $ 17.0         |\n| Animal Cage Racks                   | 36 | 1.5        | 54.0           |\n| CO2 Incubator                       | 2  | 2.6        | 5.2            |\n| Coulter Counter                     | 1  | 5.0        | 5.0            |\n| Ultra Cold Freezers                 | 1  | 3.0        | 3.0            |\n| Autoclaves                          | 3  | 13.0       | 39.0           |\n| Fermentators (Pilot Plant)          | 1  | 8.0        | 8.0            |\n| Electromagnetic Whole Body Fat Counter | 1  | 50.0       | 50.0           |\n| UV/VIS Spectrophotometer for Kinetics | 1  | 19.0       | 19.0           |\n| Liquid Scintillation Counter        | 1  | 27.0       | 27.0           |\n| Ultra Centrifuge with Heads         | 1  | 27.8       | 27.8           |\n| Spectrofluorometer                  | 1  | 7.5        | 7.5            |\n| Amino Acid Analyzer                 | 1  | 45.0       | 45.0           |\n| Cold Boxes (4' x 6' x 7')           | 1  | 4.0        | 4.0            |\n| High Pressure Liquid Chromatograph  | 1  | 20.0       | 20.0           |\n| Gas Chromatograph                   | 1  | 22.0       | 22.0           |\n\n**SUBTOTAL:** $353.5\n\n**2 year inflation @ 15% per year:** 114.0\n\n**TOTAL:** $467.5\n\n*In Thousands\n\n---\n\n<page_number>21</page_number>",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 3503,
+    "total_tokens": 4014,
+    "completion_tokens": 511,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

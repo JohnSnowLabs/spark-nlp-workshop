@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-b4f09d0348b41d37",
+  "object": "chat.completion",
+  "created": 1769001596,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "<logo>\n# Delhi Hospital\nA NABH Accredited Multispeciality Hospital  \nDelhi-Rohatkal Road, Bahadurgarh-124507(HR)  \nPh: 01276-230607\n</logo>\n\n**Timings:** 8.00 A.M. To 7.00 P.M.  \nSunday: 9.00 A.M. To 3.00 P.M.  \n\n**COMPLETE RANGE OF BIOCHEMISTRY, MICROBIOLOGY, HAEMATOLOGY, SEROLOGY, CYTOLOGY, HISTOPATHOLOGY**  \nDelhi-Rohatkal Road  \nBAHADURGARH-124507 (HARYANA)\n\n| Date | Dr. RAHUL | Sr. No. 59 | Age 40 Yrs. | Sex F |\n|------|-----------|------------|-------------|------|\n\n## LIVER FUNCTION TEST\n\n<table>\n  <tr>\n    <th>TEST</th>\n    <th>VALUE</th>\n    <th>UNIT</th>\n    <th>RANGE</th>\n  </tr>\n  <tr>\n    <td>TOTAL BILIRUBIN</td>\n    <td>1.2</td>\n    <td>mg/dl</td>\n    <td>0.3 - 1.2</td>\n  </tr>\n  <tr>\n    <td>CONJUGATED (D. Bilirubin)</td>\n    <td>0.5</td>\n    <td>mg/dl</td>\n    <td>0.00 - 0.2</td>\n  </tr>\n  <tr>\n    <td>UNCONJUGATED (I.D. Bilirubin)</td>\n    <td>0.7</td>\n    <td>mg/dl</td>\n    <td>0.3 - 1.0</td>\n  </tr>\n  <tr>\n    <td>TOTAL PROTEINS</td>\n    <td>7.7</td>\n    <td>gm/dl</td>\n    <td>6.4 - 8.3</td>\n  </tr>\n  <tr>\n    <td>ALBUMIN</td>\n    <td>4.0</td>\n    <td>gm/dl</td>\n    <td>3.5 - 5.2</td>\n  </tr>\n  <tr>\n    <td>GLOBULIN</td>\n    <td>3.7</td>\n    <td>gm/dl</td>\n    <td>2.3 - 3.5</td>\n  </tr>\n  <tr>\n    <td>A/G RATIO</td>\n    <td>1.081</td>\n    <td></td>\n    <td>0.8 - 2.0</td>\n  </tr>\n  <tr>\n    <td>S.G.O.T (AST)</td>\n    <td>28.0</td>\n    <td>U/L</td>\n    <td>0.00 - 50.0</td>\n  </tr>\n  <tr>\n    <td>S.G.P.T (ALT)</td>\n    <td>19.0</td>\n    <td>U/L</td>\n    <td>0.00 - 50.0</td>\n  </tr>\n  <tr>\n    <td>ALKALINE PHOSPHATASE</td>\n    <td>63.0</td>\n    <td>U/L</td>\n    <td>53.0 - 128.0</td>\n  </tr>\n  <tr>\n    <td>G G T P</td>\n    <td>11.0</td>\n    <td>U/L</td>\n    <td>0.0 - 55.0</td>\n  </tr>\n</table>\n\n<watermark>\nDr. Rahul Chandra Bhana Kanawade  \nConsultant Physician  \nMBBS, DNB  \nReg. No. DNB-87743\n</watermark>\n\n<watermark>\nCONSULTANT PATHOLOGIST\n</watermark>\n\n- CLINICAL CORRELATION IS ESSENTIAL FOR FINAL DIAGNOSIS.\n- MORE THAN 12 HOURS OVERNIGHT FASTING CONDITION IS REQUIRED FOR E.S.R., BLOOD TRIGLYCERIDES, LIPID PROFILE, T3, T4 TSH, IRON & HORMONES.\n- HEMOLYZED SERUM MAY FALSELY ELEVATE POSTASPIRIN, IRON, S.G.O.T., S.G.P.T., LDH AND PHOSPHATASE.\n- LIPIDIC SERUM MAY FALSELY ELEVATE ALKALINE PHOSPHATASE S.G.O.T., CALCIUM, TOTAL PROTEINS AND CREATININE AND MAY FALSELY LOWER TOTAL BILIRUBIN.\n- THIS REPORT IS FOR THE PERSUAL OF DOCTORS ONLY NOT FOR MEDICOLEGAL CASES.\n- WE USE DISPOSABLE SYRINGES AND NEEDLES ONLY.\n\n<watermark>\n24 HOURS EMERGENCY SERVICES AVAILABLE\n</watermark>",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1962,
+    "total_tokens": 3115,
+    "completion_tokens": 1153,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

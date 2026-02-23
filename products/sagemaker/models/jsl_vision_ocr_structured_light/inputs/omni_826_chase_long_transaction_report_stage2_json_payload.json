@@ -1,0 +1,105 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"required\": [\n    \"accountNumber\",\n    \"period\",\n    \"transactions\",\n    \"totalWithdrawals\",\n    \"totalDeposits\",\n    \"total\"\n  ],\n  \"properties\": {\n    \"total\": {\n      \"type\": \"number\",\n      \"description\": \"Net total (deposits minus withdrawals) for the period\"\n    },\n    \"period\": {\n      \"type\": \"object\",\n      \"required\": [\n        \"start\",\n        \"end\"\n      ],\n      \"properties\": {\n        \"end\": {\n          \"type\": \"string\",\n          \"description\": \"End date of the statement period exactly as it appears\"\n        },\n        \"start\": {\n          \"type\": \"string\",\n          \"description\": \"Start date of the statement period exactly as it appears\"\n        }\n      },\n      \"description\": \"Date range for the account statement period\"\n    },\n    \"transactions\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"required\": [\n          \"date\",\n          \"description\",\n          \"deposit\",\n          \"withdrawal\",\n          \"total\"\n        ],\n        \"properties\": {\n          \"date\": {\n            \"type\": \"string\",\n            \"description\": \"Date of the transaction exactly as it appears\"\n          },\n          \"total\": {\n            \"type\": \"number\",\n            \"description\": \"Net balance after applying the deposit and withdrawal\"\n          },\n          \"deposit\": {\n            \"type\": \"number\",\n            \"description\": \"Amount deposited into the account\"\n          },\n          \"withdrawal\": {\n            \"type\": \"number\",\n            \"description\": \"Amount withdrawn from the account\"\n          },\n          \"description\": {\n            \"type\": \"string\",\n            \"description\": \"Description for the transaction\"\n          }\n        }\n      }\n    },\n    \"accountNumber\": {\n      \"type\": \"string\",\n      \"description\": \"Unique identifier for the account\"\n    },\n    \"totalDeposits\": {\n      \"type\": \"number\",\n      \"description\": \"Total amount of deposits during the period\"\n    },\n    \"totalWithdrawals\": {\n      \"type\": \"number\",\n      \"description\": \"Total amount of withdrawals during the period\"\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "<logo>CHASE</logo>\n\n<watermark>DocuSign Envelope ID: 78134dcd-7ad1-4db3-bc24-b98bbbcdd1730</watermark>\n\nNovember 1, 2022 through January 31, 2023  \nAccount Number: 03734819292233\n\n---\n\n**Transaction Report**\n\n| DATE       | DESCRIPTION                                                                                                                               | DEPOSIT   | WITHDRAWAL | TOTAL     |\n|------------|-------------------------------------------------------------------------------------------------------------------------------------------|-----------|------------|-----------|\n| 01/14/2025 | Zelle Transfer To Pablo Fernandez Jpm99C3H2A91                                                                                           |           | $ 247.00   | $ -247.00 |\n| 01/14/2025 | Orig CO Name: Universal Freight Services Orig ID: 2389475612 CO Entry Descr: Invoice Payment Sec: CCD Trace#: 021000031293847 Eed: Ind ID: 025Lqwrflqr2A Ind Name: Horizon Freight Transport Payment for Invoice #UN1202312 Trn: 5031293847Tc | 281.00    |            | 281.00    |\n| 01/14/2025 | Bank Transfer - Emergency Fund Transfer To Savings Account TRNSFER*EFT_3952                                                               |           | 351.00     | -351.00   |\n| 01/14/2025 | Zelle Payment To Pedro Herrera 18897354682                                                                                               |           | 267.00     | -267.00   |\n| 01/15/2025 | Overdraft Fee - Bank of America Account OVERDRAFT*FEE 8472                                                                                |           | 233.00     | -233.00   |\n| 01/15/2025 | Orig CO Name: Best Bay Logistics Inc Orig ID: 1204895317 CO Entry Descr: Bill.Com Sec: CCD Trace#: 021000026734821 Eed: Ind ID: 025Brfpwlr9M Ind Name: Horizon Freight Transport Payment for Invoice #StI53655 Trn: 5227348213Tc | 601.00    |            | 601.00    |\n| 01/15/2025 | Orig CO Name: Cargo Transport Services Orig ID: 2389475612 CO Entry Descr: ACH Payment Sec: CCD Trace#: 021000025739112 Eed: Ind ID: CTS23984712 Ind Name: Horizon Freight Transport Invoice #CTS239871 Trn: 4191128356T | 38.00     |            | 38.00     |\n| 01/16/2025 | Orig CO Name: TriumphPay CR Orig ID: 3851263982 CO Entry Descr: TriumphPay Sec: CCD Trace#: 111987573456789 Eed: Ind ID: C94567891 Ind Name: Horizon Freight Transport Payment for Contracted Loads Trn: 4056783456T | 927.00    |            | 927.00    |\n| 01/16/2025 | Orig CO Name: Velocity Freight LLC Orig ID: 2839475612 CO Entry Descr: 261.00 ACH Payment Sec: CCD Trace#: 021000028736914 Eed: Ind ID: VF28934761 Ind Name: Horizon Freight Transport Payment for Load Settlement #4734 Trn: 5178937614Tc | 261.00    |            | 261.00    |\n| 01/16/2025 | Stripe Business Payout - Shopify Sales STRI"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "required": [
+          "accountNumber",
+          "period",
+          "transactions",
+          "totalWithdrawals",
+          "totalDeposits",
+          "total"
+        ],
+        "properties": {
+          "total": {
+            "type": "number",
+            "description": "Net total (deposits minus withdrawals) for the period"
+          },
+          "period": {
+            "type": "object",
+            "required": [
+              "start",
+              "end"
+            ],
+            "properties": {
+              "end": {
+                "type": "string",
+                "description": "End date of the statement period exactly as it appears"
+              },
+              "start": {
+                "type": "string",
+                "description": "Start date of the statement period exactly as it appears"
+              }
+            },
+            "description": "Date range for the account statement period"
+          },
+          "transactions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "date",
+                "description",
+                "deposit",
+                "withdrawal",
+                "total"
+              ],
+              "properties": {
+                "date": {
+                  "type": "string",
+                  "description": "Date of the transaction exactly as it appears"
+                },
+                "total": {
+                  "type": "number",
+                  "description": "Net balance after applying the deposit and withdrawal"
+                },
+                "deposit": {
+                  "type": "number",
+                  "description": "Amount deposited into the account"
+                },
+                "withdrawal": {
+                  "type": "number",
+                  "description": "Amount withdrawn from the account"
+                },
+                "description": {
+                  "type": "string",
+                  "description": "Description for the transaction"
+                }
+              }
+            }
+          },
+          "accountNumber": {
+            "type": "string",
+            "description": "Unique identifier for the account"
+          },
+          "totalDeposits": {
+            "type": "number",
+            "description": "Total amount of deposits during the period"
+          },
+          "totalWithdrawals": {
+            "type": "number",
+            "description": "Total amount of withdrawals during the period"
+          }
+        }
+      }
+    }
+  }
+}

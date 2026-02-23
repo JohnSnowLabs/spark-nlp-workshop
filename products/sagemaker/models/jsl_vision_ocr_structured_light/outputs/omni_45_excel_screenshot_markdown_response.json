@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-852ea597d7d64dc9",
+  "object": "chat.completion",
+  "created": 1769091151,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "| TEAM-NAME | CITY | PTS | PTS_QTR1 | PTS_QTR2 | PTS_QTR3 | PTS_QTR4 | AST | REB | TOV | FG_PCT | FT_PCT | FG3_PCT | WINS | LOSSES |  |  |  |  |\n|-----------|------|-----|----------|----------|----------|----------|-----|-----|-----|--------|--------|---------|------|--------|----|----|----|----|\n| Lakers    | Los Angeles | 84  | 22       | 22       | 13       | 27       | 17  | 40  | 15  | 42     | 52     | 30      | 5    | 25     |  |  |  |  |\n| Clippers  | LA   | 94  | 32       | 28       | 25       | 9        | 22  | 45  | 16  | 45     | 73     | 39      | 17   | 13     |  |  |  |  |\n\n| PLAYER_NAME | MIN | PTS | REB | AST | FG | FG_PCT | FG3 | FG3_PCT | FT | FT_PCT | STL | TO | BLK | OREB | DREB | PF | START_POSITION | TEAM_CITY |\n|-------------|-----|-----|-----|-----|----|--------|-----|---------|----|--------|-----|----|-----|------|------|----|----------------|-----------|\n| Lakers      |     |     |     |     |    |        |     |         |    |        |     |    |     |      |      |    |                |           |\n| D'Angelo Russell | 28  | 16  | 7   | 1   | 7-13 | 54%    | 2-5 | 40%     | 0-2 | 0%     | 2   | 4  | 1   | 2    | 5    | 2  | N/A            | Los Angeles |\n| Kobe Bryant    | 26  | 12  | 3   | 3   | 4-10 | 40%    | 3-5 | 60%     | 1-4 | 25%    | 2   | 3  | 0   | 0    | 3    | 0  | F              | Los Angeles |\n| Jordan Clarkson | 31  | 11  | 3   | 3   | 4-9  | 44%    | 0-3 | 0%      | 3-4 | 75%    | 1   | 4  | 0   | 0    | 3    | 3  | G              | Los Angeles |\n| Julius Randle   | 27  | 11  | 8   | 2   | 3-11 | 27%    | 1-3 | 33%     | 4-6 | 67%    | 3   | 3  | 0   | 2    | 6    | 2  | N/A            | Los Angeles |\n| Roy Hibbert     | 27  | 8   | 3   | 1   | 4-10 | 40%    | 0-0 | 0%      | 0-0 | 0%     | 0   | 0  | 0   | 0    | 3    | 1  | C              | Los Angeles |\n| Brandon Bass    | 21  | 7   | 3   | 1   | 3-5  | 60%    | 0-0 | 0%      | 1-2 | 50%    | 1   | 0  | 1   | 0    | 3    | 1  | N/A            | Los Angeles |\n| Lou Williams    | 26  | 7   | 1   | 2   | 1-5  | 20%    | 1-3 | 33%     | 4-7 | 57%    | 0   | 0  | 0   | 0    | 1    | 1  | G              | Los Angeles |\n| Marcelo Huertas | 12  | 6   | 2   | 2",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "length",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 3503,
+    "total_tokens": 4527,
+    "completion_tokens": 1024,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

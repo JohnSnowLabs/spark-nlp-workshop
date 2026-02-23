@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-b579ea21d37e7f5f",
+  "object": "chat.completion",
+  "created": 1769091180,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"iron\": 2,\n  \"sodium\": 50,\n  \"calcium\": 6,\n  \"protein\": 4,\n  \"calories\": 180,\n  \"total_fat\": 3.5,\n  \"vitamin_a\": 0,\n  \"vitamin_c\": 0,\n  \"cholesterol\": 0,\n  \"total_carbonhydrate\": 30,\n  \"servings_per_container\": 1\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1360,
+    "total_tokens": 1463,
+    "completion_tokens": 103,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

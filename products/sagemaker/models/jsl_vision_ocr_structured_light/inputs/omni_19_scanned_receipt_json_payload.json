@@ -1,0 +1,93 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"items\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"quantity\": {\n            \"type\": \"number\"\n          },\n          \"unit_price\": {\n            \"type\": \"number\"\n          },\n          \"description\": {\n            \"type\": \"string\",\n            \"description\": \"don't include #product id\"\n          },\n          \"total_price\": {\n            \"type\": \"number\"\n          }\n        }\n      }\n    },\n    \"totals\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"total\": {\n          \"type\": \"number\"\n        },\n        \"total_items\": {\n          \"type\": \"number\"\n        }\n      }\n    },\n    \"store_info\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"tel\": {\n          \"type\": \"string\",\n          \"description\": \"\"\n        },\n        \"name\": {\n          \"type\": \"string\",\n          \"description\": \"\"\n        }\n      }\n    },\n    \"cashier_info\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"date\": {\n          \"type\": \"string\"\n        },\n        \"name\": {\n          \"type\": \"string\"\n        },\n        \"time\": {\n          \"type\": \"string\"\n        },\n        \"cashier_number\": {\n          \"type\": \"string\"\n        }\n      }\n    },\n    \"customer_name\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "<logo>SUPER SEVEN CASH & CARRY SDN BHD</logo>  \n<page_number>1</page_number>  \n<watermark>OFFICIAL COPY</watermark>  \n\n(P590150-A)  \nPASARAYA BORONG SUPER SEVEN  \nNC. 1 Jalan Euro 1  \nOff Jalan Batu Tiga  \nSungai Buloh Seksyen U3 Shah Alam, 40150  \nhttp://www.super7.com.my  \nTEL : 03-78590861  \nFAX : 03-78590864  \n\nGST ID : 000639090688  \n\nTAX INVOICE  \n\nCustomer : [77853745]  \nMrs. ONG GUAT CHYE  \n\nTAX INVOICE NO : 179509 COUNTER : 004  \nOPERATOR : [NUR ATIQAH BINTI MUH-CASHIER]  \n01-03-2018 09:23:06 AM  \n\n| Item Code | Description | Price (RM) | Quantity | Total (RM) |  \n|-----------|-------------|------------|----------|------------|  \n| 40212 | TENDERLION @43.37 | 43.37 | 1 | 43.37 |  \n| 40240 | D31 TENDERLOIN @49.42 | 49.42 | 1 | 49.42 |  \n| 40240 | D31 TENDERLOIN @43.90 | 43.90 | 1 | 43.90 |  \n| 40240 | D31 TENDERLOIN @49.66 | 49.66 | 1 | 49.66 |  \n| 9556276020392 | AYAMAS CHICKEN FRANKFURTER 340G @4.30 | 4.30 | 8 | 34.40 |  \n| 8888010995552 | BUTTERCUP LUXURY SPREAD 500G @9.90 | 9.90 | 1 | 9.90 |  \n| 8888010995552 | BUTTERCUP LUXURY SPREAD 500G @9.90 | 9.90 | 1 | 9.90 |  \n| 9554100149455 | QY CINCAU 2KG @3.90 | 3.90 | 1 | 3.90 |  \n| 9557240160502 | CRAB NUGGET 500G MUSHROOM @8.20 | 8.20 | 20 | 164.00 |  \n\nQUANTITY : 35 Units  \n\nTotal Sales (Incl. GST @6%) RM408.45  \nRounding Adjustment RM0.00  \nNet Total RM408.45 \u2611  \nPayment Method MASTER CARD  \n\nGST Summary  \n| Sales Amt (RM) | Tax Amt (RM) |  \n|----------------|--------------|  \n| 186.35 | 0.00 |  \n| 209.53 | 12.57 |  \n\nPLEASE VERIFY YOUR RECEIPT BEFORE LEAVING THE COUNTER.  \nGOODS SOLD ARE NOT RETURNABLE.  \n\n<page_number>2</page_number>  \nTHANK YOU"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "quantity": {
+                  "type": "number"
+                },
+                "unit_price": {
+                  "type": "number"
+                },
+                "description": {
+                  "type": "string",
+                  "description": "don't include #product id"
+                },
+                "total_price": {
+                  "type": "number"
+                }
+              }
+            }
+          },
+          "totals": {
+            "type": "object",
+            "properties": {
+              "total": {
+                "type": "number"
+              },
+              "total_items": {
+                "type": "number"
+              }
+            }
+          },
+          "store_info": {
+            "type": "object",
+            "properties": {
+              "tel": {
+                "type": "string",
+                "description": ""
+              },
+              "name": {
+                "type": "string",
+                "description": ""
+              }
+            }
+          },
+          "cashier_info": {
+            "type": "object",
+            "properties": {
+              "date": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "time": {
+                "type": "string"
+              },
+              "cashier_number": {
+                "type": "string"
+              }
+            }
+          },
+          "customer_name": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

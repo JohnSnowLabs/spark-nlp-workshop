@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-8f410eb178c9e217",
+  "object": "chat.completion",
+  "created": 1769091259,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"title\": \"Staff Shift Schedule\",\n  \"facility\": \"Woodbury Medical Center\",\n  \"employees\": [\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Vacation\"\n        }\n      ],\n      \"department\": \"Surgery\",\n      \"employeeId\": \"HJNOZ5\",\n      \"employeeName\": \"Ora Murphy\"\n    },\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"hours\": \"07:00-15:00\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Training\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"hours\": \"07:00-15:00\"\n        }\n      ],\n      \"department\": \"Cardiology\",\n      \"employeeId\": \"CCE0NJ\",\n      \"employeeName\": \"Ms. Antoinette Armstrong-Schuppe\"\n    },\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Sick Leave\"\n        }\n      ],\n      \"department\": \"Pediatrics\",\n      \"employeeId\": \"YP49JZ\",\n      \"employeeName\": \"Clinton Funk\"\n    },\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Vacation\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        }\n      ],\n      \"department\": \"Oncology\",\n      \"employeeId\": \"EZR13T\",\n      \"employeeName\": \"Shawna Mayert\"\n    },\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Sick Leave\"\n        },\n        {\n          \"type\": \"Night\",\n          \"hours\": \"23:00-07:00\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Personal\"\n        }\n      ],\n      \"department\": \"General Ward\",\n      \"employeeId\": \"SCHADG\",\n      \"employeeName\": \"Keith Hudson DDS\"\n    },\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"hours\": \"07:00-15:00\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Training\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        }\n      ],\n      \"department\": \"Cardiology\",\n      \"employeeId\": \"RDDNOM\",\n      \"employeeName\": \"Mary Homenick Sr.\"\n    },\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        },\n        {\n          \"type\": \"Night\",\n          \"hours\": \"23:00-07:00\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Personal\"\n        }\n      ],\n      \"department\": \"Neurology\",\n      \"employeeId\": \"59LN SK\",\n      \"employeeName\": \"James Koeppe\"\n    },\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        }\n      ],\n      \"department\": \"Emergency\",\n      \"employeeId\": \"SBE83Z\",\n      \"employeeName\": \"Roger Hauck\"\n    },\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Morning\",\n          \"hours\": \"07:00-15:00\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "length",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1143,
+    "total_tokens": 2167,
+    "completion_tokens": 1024,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

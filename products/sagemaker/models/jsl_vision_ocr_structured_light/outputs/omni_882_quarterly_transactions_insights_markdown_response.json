@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-b71a097924208376",
+  "object": "chat.completion",
+  "created": 1769091415,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# Quarterly Transaction Insights\n\n## Commercial Industrial\n- Avg: $22.5M\n- Median: $26.5M\n\n## Multifamily Housing\n- Avg: $16.8M\n- Median: $13.5M\n\n## Educational Buildings\n- Avg: $5.0M\n- Median: $5.0M\n\n## State & Federal Construction\n- Avg: $11.5M\n- Median: $11.5M\n\n| City         | Year | Transactions (Total) | Permits Filed | Commercial Industrial | Multifamily Housing | Educational Buildings | State & Federal Construction |\n|--------------|------|----------------------|---------------|-----------------------|---------------------|-----------------------|-----------------------------|\n| Chicago      | 2017 | $104M                | 136           | $40.5M                | $7.7M               | $9.9M                 | $46.0M                      |\n| San Francisco| 2017 | $250M                | 309           | $93.5M                | $80.6M              | $14.5M                | $61.3M                      |\n| Indianapolis | 2017 | $135M                | 128           | $18.3M                | $30.9M              | $50.2M                | $35.6M                      |\n| Austin       | 2017 | $184M                | 455           | $34.8M                | $44.7M              | $63.1M                | $41.4M                      |\n| Los Angeles  | 2017 | $196M                | 181           | $74.1M                | $39.8M              | $25.5M                | $56.6M                      |\n\n<logo>LoopNet</logo>\nLoopnet Investment Opportunities\nPage 27",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 2735,
+    "total_tokens": 3182,
+    "completion_tokens": 447,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-af9b8eb3a5560a24",
+  "object": "chat.completion",
+  "created": 1769091240,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"byAge\": [\n    {\n      \"group\": \"All Ages\",\n      \"terminations\": 7196,\n      \"terminationRate\": 0.29,\n      \"averageHeadcount\": 24812\n    },\n    {\n      \"group\": \"<20\",\n      \"terminations\": 190,\n      \"terminationRate\": 1.267,\n      \"averageHeadcount\": 150\n    },\n    {\n      \"group\": \"20-29\",\n      \"terminations\": 2434,\n      \"terminationRate\": 0.544,\n      \"averageHeadcount\": 4475\n    },\n    {\n      \"group\": \"30-39\",\n      \"terminations\": 2299,\n      \"terminationRate\": 0.274,\n      \"averageHeadcount\": 8405\n    },\n    {\n      \"group\": \"40-49\",\n      \"terminations\": 1337,\n      \"terminationRate\": 0.215,\n      \"averageHeadcount\": 6214\n    },\n    {\n      \"group\": \"50-59\",\n      \"terminations\": 623,\n      \"terminationRate\": 0.153,\n      \"averageHeadcount\": 4072\n    },\n    {\n      \"group\": \"60+\",\n      \"terminations\": 296,\n      \"terminationRate\": 0.228,\n      \"averageHeadcount\": 1300\n    },\n    {\n      \"group\": \"Miscellaneous\",\n      \"terminations\": 17,\n      \"terminationRate\": 0.087,\n      \"averageHeadcount\": 197\n    }\n  ],\n  \"byGender\": [\n    {\n      \"group\": \"All Genders\",\n      \"terminations\": 7196,\n      \"terminationRate\": 0.29,\n      \"averageHeadcount\": 24812\n    },\n    {\n      \"group\": \"Male\",\n      \"terminations\": 5729,\n      \"terminationRate\": 0.301,\n      \"averageHeadcount\": 19030\n    },\n    {\n      \"group\": \"Female\",\n      \"terminations\": 1467,\n      \"terminationRate\": 0.254,\n      \"averageHeadcount\": 5782\n    }\n  ]\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1521,
+    "total_tokens": 2063,
+    "completion_tokens": 542,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

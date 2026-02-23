@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-9294908c44e33ba0",
+  "object": "chat.completion",
+  "created": 1769001580,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "<logo>Fortis</logo> <logo>Agilus Diagnostics</logo>\n\n# DIAGNOSTIC REPORT\n\nPATIENT NAME: JAYALAKSHMI  \nCODE/NAME & ADDRESS: C00027845  \nFORTIS - NAGARBHAVI - IPD  \nFORTIS HOSPITAL - NAGARBHAVI 23, 80 FEET ROAD,  \nGURUKRUPA LAYOUT,  \nBANGALORE - 560072  \n\nREF. DOCTOR: DR. DAYANANDA K  \nACCESSION NO: 0093YD004559  \nPATIENT ID: PH:13813531  \nCLIENT PATIENT ID: UID:13813531  \nADHA NO:  \n\nCLINICAL INFORMATION:  \nUID:13813531 REQNO:21260478  \nTPD:LI-LEVEL-1-EMERGENCY-WING-2  \nTPD:LI-LEVEL-1-EMERGENCY-WING-2  \n\nTest Report Status: Final  \n\n| Test Report Status | Results | Biological Reference Interval | Units |\n|--------------------|---------|-------------------------------|-------|\n| CBC PLATELETS & DIFF. BLOOD | HAEMATOLOGY | | |\n| WHITE BLOOD CELL (WBC) COUNT | 5.40 | 4.0 - 10.0 | thou/µL |\n| RED BLOOD CELL (RBC) COUNT | 4.21 | 3.8 - 4.8 | mil/µL |\n| HEMOGLOBIN (HB) | 11.7 Low | 12.0 - 15.0 | g/dL |\n| HEMATOCRIT (PCV) | 36.4 | 36 - 46 | % |\n| MEAN CORPUSCULAR VOLUME (MCV) | 87.0 | 83 - 101 | fL |\n| MEAN CORPUSCULAR HEMOGLOBIN (MCH) | 27.9 | 27.0 - 32.0 | pg |\n| MEAN CORPUSCULAR HEMOGLOBIN CONCENTRATION (MCHC) | 32.2 | 31.5 - 34.5 | g/dL |\n| MENTZER INDEX | 20.7 | | |\n| MEAN PLATELET VOLUME (MPV) | 10.0 | 6.8 - 10.9 | fL |\n| RED CELL DISTRIBUTION WIDTH (RDW) | 15.3 High | 11.6 - 14.0 | % |\n| NEUTROPHILS | 58 | 40 - 80 | % |\n| ABSOLUTE NEUTROPHIL COUNT | 3.13 | 2.0 - 7.0 | thou/µL |\n| LYMPHOCYTES | 29 | 20 - 40 | % |\n| ABSOLUTE LYMPHOCYTE COUNT | 1.57 | 1.0 - 3.0 | thou/µL |\n\nDr. Sarvjet Kaur  \nSr. Consultant  \n\nPERFORMED AT:  \nAgilus Diagnostics Ltd  \n23,80 Feet Road, Gurukrupa Layout, Opp. Mall,  \nBangalore, 560072  \nKarnataka, India  \nTel: 080-23014100, Fax:  \nCIN: U74899WB1995PC045956  \n\n<page_number>1 of 7</page_number>",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 3498,
+    "total_tokens": 4332,
+    "completion_tokens": 834,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

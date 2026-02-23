@@ -1,0 +1,52 @@
+# Medical Equipment Inspection Checklist
+
+**Equipment ID:** AML.KZLSG  
+**Model:** Breitenberg Group 8rVc  
+**Department:** Operating Room  
+**Inspection Date:** 2025-02-12  
+**Inspector:** Freda Heathcote  
+
+## Physical Condition
+
+| Checkpoint                | Pass ☐ | Fail ☑ | N/A | Notes |
+|---------------------------|--------|--------|-----|-------|
+| Equipment housing intact  | ☑      |        |     |       |
+| Display screen clear      |        | ☑      |     |       |
+| Control buttons functional| ☑      |        |     |       |
+| Power cord undamaged      | ☑      |        |     |       |
+| Mounting brackets secure  | ☑      |        |     |       |
+| Wheels/casters condition  | ☑      |        |     |       |
+| Labels and markings legible| ☑     |        |     |       |
+| Accessories complete      | ☑      |        |     |       |
+
+## Electrical Safety
+
+| Checkpoint                | Pass ☐ | Fail ☑ | N/A | Notes                          |
+|---------------------------|--------|--------|-----|--------------------------------|
+| Ground connection         |        | ☑      |     | Housing damage compromises safety |
+| Insulation resistance     | ☑      |        |     |                                |
+| Leakage current           | ☑      |        |     |                                |
+| Power supply stable       | ☑      |        |     |                                |
+| Battery backup functional | ☑      |        |     |                                |
+| Circuit breaker operation | ☑      |        |     |                                |
+| Surge protection          |        |        | ☑   |                                |
+| Cable connections secure  | ☑      |        |     |                                |
+
+## Performance Tests
+
+| Checkpoint                | Pass ☐ | Fail ☑ | N/A | Notes                          |
+|---------------------------|--------|--------|-----|--------------------------------|
+| Self-test passed          |        |        | ☑   | Not required for this equipment type |
+| Calibration check         | ☑      |        |     |                                |
+| Alarm systems             | ☑      |        |     |                                |
+| Backup systems            | ☑      |        |     |                                |
+| Output accuracy           |        | ☑      |     | Critical error in self-diagnostic |
+| Response time             | ☑      |        |     |                                |
+| Data storage/retrieval    | ☑      |        |     |                                |
+| Network connectivity      |        |        | ☑   | Not required for this equipment type |
+| Sensor accuracy           | ☑      |        |     |                                |
+
+## Overall Status
+
+**Inspection Result:** ❌  
+**Next Inspection Due:** 2025-05-10

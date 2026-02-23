@@ -1,0 +1,91 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"required\": [\n    \"title\",\n    \"weekStartDate\",\n    \"facility\",\n    \"employees\"\n  ],\n  \"properties\": {\n    \"title\": {\n      \"type\": \"string\"\n    },\n    \"facility\": {\n      \"type\": \"string\"\n    },\n    \"employees\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"required\": [\n          \"employeeName\",\n          \"employeeId\",\n          \"department\",\n          \"shifts\"\n        ],\n        \"properties\": {\n          \"shifts\": {\n            \"type\": \"array\",\n            \"items\": {\n              \"type\": \"object\",\n              \"required\": [\n                \"type\"\n              ],\n              \"properties\": {\n                \"type\": {\n                  \"enum\": [\n                    \"Morning\",\n                    \"Afternoon\",\n                    \"Night\",\n                    \"Leave\",\n                    \"empty\"\n                  ],\n                  \"type\": \"string\"\n                },\n                \"hours\": {\n                  \"type\": \"string\",\n                  \"description\": \"Shift hours, ex. 07:00-15:00. Only required for Morning, Afternoon, and Night.\"\n                }\n              }\n            }\n          },\n          \"department\": {\n            \"type\": \"string\"\n          },\n          \"employeeId\": {\n            \"type\": \"string\"\n          },\n          \"employeeName\": {\n            \"type\": \"string\"\n          }\n        }\n      }\n    },\n    \"weekStartDate\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "# Staff Shift Schedule\n\nKellicburgh Medical Center -  \nWeek of June 1, 2025\n\n| Employee                  | ID      | Department  | Sun 1         | Mon 2         | Tue 3         | Wed 4         | Thu 5         | Fri 6         | Sat 7         |\n|---------------------------|---------|-------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|\n| Julie Miller              | HHPXAZ  | Emergency   | Night 23:00-07:00 |               |               | Leave Sick Leave |               | Afternoon 15:00-23:00 | Afternoon 15:00-23:00 |\n| Doreen Blanda             | TVDZ9A  | Radiology   | Leave Training | Morning 07:00-15:00 |               |               |               | Afternoon 15:00-23:00 | Morning 07:00-15:00 |\n| Erin Robel                | 70S1PH  | ICU         |               |               |               | Leave Vacation |               |               |               |\n| Mr. Marlon Crona          | PBB151  | Surgery     | Leave Personal |               | Morning 07:00-15:00 |               |               | Afternoon 15:00-23:00 | Morning 07:00-15:00 |\n| Inez Murazik              | 4YZ9XI  | Pediatrics  |               | Night 23:00-07:00 | Leave Training |               |               |               | Leave Personal |\n| Olga Glover               | IUPTZX  | Radiology   |               | Leave Training |               |               | Leave Vacation | Afternoon 15:00-23:00 |               |\n| Dr. Terence Kassulke      | 7Q71BQ  | Neurology   | Night 23:00-07:00 | Night 23:00-07:00 | Afternoon 15:00-23:00 | Leave Training |               |               | Morning 07:00-15:00 |\n| Mable Johnston            | CG6EC9  | General Ward| Night 23:00-07:00 | Morning 07:00-15:00 |               |               | Leave Vacation |               | Leave Vacation |\n| Cindy Wiza                | CN0ZHH  | Oncology    | Afternoon 15:00-23:00 |               |               | Morning 07:00-15:00 |               | Leave Personal | Night 23:00-07:00 |\n| Annie Cruickshank         | L6HWD2  | ICU         |               |               |               | Morning 07:00-15:00 | Afternoon 15:00-23:00 |               |               |\n| Josefina Parisian-Keebler | WMHTXI  | Radiology   | Afternoon 15:00-23:00 |               | Night 23:00-07:00 |               |               | Leave Sick Leave |               |\n| Laurence Funk I           | LPVEMY  | Surgery     | Leave Sick Leave |               |               |               | Night 23:00-07:00 | Leave Personal | Morning 07:00-15:00 |\n| Dr. Joshua Jakubowski     | A5VMR8  | Emergency   | Afternoon 15:00-23:00 |               | Morning 07:00-15:00 | Morning 07:00-15:00 | Night 23:00-07:00 |               | Leave Training |\n| Mr. Caleb Schulist        | UNWKMT  | General Ward| Morning 07:00-15:00 | Morning 07:00-15:00 | Morning 07:00-15:00 |               | Afternoon 15:00-23:00 | Leave Vacation | Afternoon 15:00-23:00 |\n| Kelly Raynor              | 9GRIX7  | ICU         |               |               | Afternoon 15:00-23:00 |               |               |              "
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "required": [
+          "title",
+          "weekStartDate",
+          "facility",
+          "employees"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "facility": {
+            "type": "string"
+          },
+          "employees": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "employeeName",
+                "employeeId",
+                "department",
+                "shifts"
+              ],
+              "properties": {
+                "shifts": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "type"
+                    ],
+                    "properties": {
+                      "type": {
+                        "enum": [
+                          "Morning",
+                          "Afternoon",
+                          "Night",
+                          "Leave",
+                          "empty"
+                        ],
+                        "type": "string"
+                      },
+                      "hours": {
+                        "type": "string",
+                        "description": "Shift hours, ex. 07:00-15:00. Only required for Morning, Afternoon, and Night."
+                      }
+                    }
+                  }
+                },
+                "department": {
+                  "type": "string"
+                },
+                "employeeId": {
+                  "type": "string"
+                },
+                "employeeName": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "weekStartDate": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

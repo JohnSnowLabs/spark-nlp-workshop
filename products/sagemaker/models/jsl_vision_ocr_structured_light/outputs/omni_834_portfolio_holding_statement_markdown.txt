@@ -1,0 +1,48 @@
+# Allianz
+## Statement of Portfolio Holdings
+
+### Period Overview
+| Beginning of Period Value | Current Period | YTD Period |
+|---------------------------|----------------|------------|
+| $601,717.00               | $919,167.00    |
+| Additional Deposits       | $59,523.80     | $83,644.00 |
+| Interest Earnings         | $13,473.10     | $55,930.15 |
+| Portfolio Rebalancing     | $0.00          | $71,144.08 |
+| Management Fees           | -$39,164.37    | -$49,704.90 |
+| END OF PERIOD             | $635,549.53    | $1,080,180.33 |
+
+*Net Change in Portfolio is the difference between the ending account value and beginning account value after activity.*
+
+### Daily Balances
+| Date       | Amount       | Date       | Amount       |
+|------------|--------------|------------|--------------|
+| 2023-12-30 | $635,821.00  | 2023-12-15 | $634,016.00  |
+| 2023-12-29 | $632,971.00  | 2023-12-14 | $633,488.00  |
+| 2023-12-28 | $633,390.00  | 2023-12-13 | $633,522.00  |
+| 2023-12-27 | $633,695.00  | 2023-12-12 | $633,185.00  |
+| 2023-12-26 | $633,347.00  | 2023-12-09 | $633,613.00  |
+| 2023-12-23 | $633,640.00  | 2023-12-08 | $633,392.00  |
+| 2023-12-22 | $634,019.00  | 2023-12-07 | $632,250.00  |
+| 2023-12-21 | $633,989.00  | 2023-12-06 | $632,961.00  |
+| 2023-12-20 | $633,899.00  | 2023-12-05 | $628,398.00  |
+| 2023-12-19 | $634,107.00  | 2023-12-02 | $628,668.00  |
+| 2023-12-16 | $634,278.00  | 2023-12-01 | $628,241.00  |
+
+### Your Account Information
+#### BENEFICIARY DESIGNATIONS
+Main designated recipient of account proceeds:  
+Backup beneficiary if the primary is unavailable:  
+☐ Individual ☑ Trust ☐ Estate ☐ Charity ☐ None
+
+### Your Representative is Here to Help
+Your Financial Consultant: Julia Grimes  
+ID: 7N1N1xQv  
+14121 State Avenue Champlinfurt Oregon, 45922-8619
+
+Contact Information  
+Business: 397-753-7819
+
+### Account as of 04-01-2024 - 06-30-2024
+| E.T.F. | Security Identifier | EOD Price | One Day Change | Category | Price Change (YTD) | Avg. Daily Volume |
+|--------|---------------------|-----------|----------------|----------|--------------------|-------------------|
+| Vanguard Dividend Appreciation ETF | VIG | 195

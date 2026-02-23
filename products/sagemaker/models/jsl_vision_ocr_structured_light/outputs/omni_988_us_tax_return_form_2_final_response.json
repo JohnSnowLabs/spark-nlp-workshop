@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-8bbc087141812a92",
+  "object": "chat.completion",
+  "created": 1769091472,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"income\": {\n    \"line1\": {\n      \"a\": 25176.00,\n      \"b\": 0.00,\n      \"h\": 9289.00,\n      \"z\": 42190.00\n    },\n    \"line3\": {\n      \"a\": 0.00,\n      \"b\": 0.00\n    },\n    \"line4\": {\n      \"a\": 9289.00\n    },\n    \"line5\": {\n      \"a\": 0.00\n    },\n    \"line6\": {\n      \"a\": 0.00,\n      \"b\": 0.00,\n      \"c\": false\n    },\n    \"line7\": 0.00,\n    \"line8\": 0.00,\n    \"line9\": 0.00,\n    \"line10\": 0.00,\n    \"line11\": 0.00,\n    \"line12\": 0.00,\n    \"line13\": 0.00,\n    \"line14\": 0.00,\n    \"line15\": 0.00\n  },\n  \"address\": {\n    \"city\": \"Fort Karolannberg\",\n    \"state\": \"CO\",\n    \"zipCode\": \"81390\",\n    \"address1\": \"2655 Graham Motorway\",\n    \"address2\": \"Suite 281\"\n  },\n  \"taxPeriod\": {\n    \"taxDateStart\": \"1/01\"\n  },\n  \"dependents\": [\n    {\n      \"ssn\": \"403-19-2117\",\n      \"lastName\": \"Dach-Grant\",\n      \"firstName\": \"Elise\",\n      \"otherCredit\": false,\n      \"relationship\": \"children\",\n      \"childTaxCredit\": false\n    }\n  ],\n  \"ageBlindness\": {\n    \"blind\": false,\n    \"spouseBlind\": false,\n    \"bornBeforeJanuary\": true,\n    \"spouseBornBeforeJanuary\": false\n  },\n  \"filingStatus\": {\n    \"HOH\": false,\n    \"MFJ\": false,\n    \"MFS\": false,\n    \"QSS\": false,\n    \"single\": false,\n    \"nonResident\": false\n  },\n  \"personalInfo\": {\n    \"ssn\": \"901-83-9103\",\n    \"firstName\": \"Jaida\"\n  },\n  \"digitalAssets\": false,\n  \"standardDeductions\": {\n    \"spouseItemizes\": false,\n    \"youAreDependent\": false,\n    \"spouseIsDependent\": true\n  }\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 3240,
+    "total_tokens": 3841,
+    "completion_tokens": 601,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

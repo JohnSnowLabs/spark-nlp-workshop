@@ -1,0 +1,75 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"total\": {\n      \"type\": \"number\",\n      \"description\": \"In thousands\"\n    },\n    \"subtotal\": {\n      \"type\": \"number\",\n      \"description\": \"In thousands\"\n    },\n    \"inflation\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"rate\": {\n          \"type\": \"number\"\n        },\n        \"amount\": {\n          \"type\": \"number\",\n          \"description\": \"In percentage\"\n        },\n        \"duration\": {\n          \"type\": \"number\",\n          \"description\": \"In years\"\n        }\n      }\n    },\n    \"major_equipment_needs\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"no\": {\n            \"type\": \"number\"\n          },\n          \"item\": {\n            \"type\": \"string\"\n          },\n          \"unit_cost\": {\n            \"type\": \"number\",\n            \"description\": \"In thousands\"\n          },\n          \"extended_cost\": {\n            \"type\": \"number\",\n            \"description\": \"In thousands\"\n          }\n        },\n        \"description\": \"\"\n      }\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "APPENDIX E\n\nMAJOR EQUIPMENT NEEDS  \nTO CARRY OUT BUILDING FUNCTION\n\n<table>\n  <tr>\n    <th>ITEM</th>\n    <th>NO</th>\n    <th>UNIT COST*</th>\n    <th>EXTENDED COST*</th>\n  </tr>\n  <tr>\n    <td>Atomic Absorption Spectrometer</td>\n    <td>1</td>\n    <td>$ 17.0</td>\n    <td>$ 17.0</td>\n  </tr>\n  <tr>\n    <td>Animal Cage Racks</td>\n    <td>36</td>\n    <td>1.5</td>\n    <td>54.0</td>\n  </tr>\n  <tr>\n    <td>CO\u2082 Incubator</td>\n    <td>2</td>\n    <td>2.6</td>\n    <td>5.2</td>\n  </tr>\n  <tr>\n    <td>Coulter Counter</td>\n    <td>1</td>\n    <td>5.0</td>\n    <td>5.0</td>\n  </tr>\n  <tr>\n    <td>Ultra Cold Freezers</td>\n    <td>1</td>\n    <td>3.0</td>\n    <td>3.0</td>\n  </tr>\n  <tr>\n    <td>Autoclaves</td>\n    <td>3</td>\n    <td>13.0</td>\n    <td>39.0</td>\n  </tr>\n  <tr>\n    <td>Fermentators (Pilot Plant)</td>\n    <td>1</td>\n    <td>8.0</td>\n    <td>8.0</td>\n  </tr>\n  <tr>\n    <td>Electromagnetic Whole Body Fat Counter</td>\n    <td>1</td>\n    <td>50.0</td>\n    <td>50.0</td>\n  </tr>\n  <tr>\n    <td>UV/VIS Spectrophotometer for Kinetics</td>\n    <td>1</td>\n    <td>19.0</td>\n    <td>19.0</td>\n  </tr>\n  <tr>\n    <td>Liquid Scintillation Counter</td>\n    <td>1</td>\n    <td>27.0</td>\n    <td>27.0</td>\n  </tr>\n  <tr>\n    <td>Ultra Centrifuge with Heads</td>\n    <td>1</td>\n    <td>27.8</td>\n    <td>27.8</td>\n  </tr>\n  <tr>\n    <td>Spectrofluorometer</td>\n    <td>1</td>\n    <td>7.5</td>\n    <td>7.5</td>\n  </tr>\n  <tr>\n    <td>Amino Acid Analyzer</td>\n    <td>1</td>\n    <td>45.0</td>\n    <td>45.0</td>\n  </tr>\n  <tr>\n    <td>Cold Boxes (4' x 6' x 7')</td>\n    <td>1</td>\n    <td>4.0</td>\n    <td>4.0</td>\n  </tr>\n  <tr>\n    <td>High Pressure Liquid Chromatograph</td>\n    <td>1</td>\n    <td>20.0</td>\n    <td>20.0</td>\n  </tr>\n  <tr>\n    <td>Gas Chromatograph</td>\n    <td>1</td>\n    <td>22.0</td>\n    <td>22.0</td>\n  </tr>\n  <tr>\n    <td>SUBTOTAL:</td>\n    <td></td>\n    <td></td>\n    <td>$353.5</td>\n  </tr>\n  <tr>\n    <td>2 year inflation @ 15% per year</td>\n    <td></td>\n    <td></td>\n    <td>114.0</td>\n  </tr>\n  <tr>\n    <td>TOTAL . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "total": {
+            "type": "number",
+            "description": "In thousands"
+          },
+          "subtotal": {
+            "type": "number",
+            "description": "In thousands"
+          },
+          "inflation": {
+            "type": "object",
+            "properties": {
+              "rate": {
+                "type": "number"
+              },
+              "amount": {
+                "type": "number",
+                "description": "In percentage"
+              },
+              "duration": {
+                "type": "number",
+                "description": "In years"
+              }
+            }
+          },
+          "major_equipment_needs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "no": {
+                  "type": "number"
+                },
+                "item": {
+                  "type": "string"
+                },
+                "unit_cost": {
+                  "type": "number",
+                  "description": "In thousands"
+                },
+                "extended_cost": {
+                  "type": "number",
+                  "description": "In thousands"
+                }
+              },
+              "description": ""
+            }
+          }
+        }
+      }
+    }
+  }
+}

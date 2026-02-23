@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-aedcc67602953033",
+  "object": "chat.completion",
+  "created": 1769091208,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"total\": 467.5,\n  \"subtotal\": 353.5,\n  \"inflation\": {\n    \"rate\": 15,\n    \"amount\": 114.0,\n    \"duration\": 2\n  },\n  \"major_equipment_needs\": [\n    {\n      \"no\": 1,\n      \"item\": \"Atomic Absorption Spectrometer\",\n      \"unit_cost\": 17.0,\n      \"extended_cost\": 17.0\n    },\n    {\n      \"no\": 36,\n      \"item\": \"Animal Cage Racks\",\n      \"unit_cost\": 1.5,\n      \"extended_cost\": 54.0\n    },\n    {\n      \"no\": 2,\n      \"item\": \"CO2 Incubator\",\n      \"unit_cost\": 2.6,\n      \"extended_cost\": 5.2\n    },\n    {\n      \"no\": 1,\n      \"item\": \"Coulter Counter\",\n      \"unit_cost\": 5.0,\n      \"extended_cost\": 5.0\n    },\n    {\n      \"no\": 1,\n      \"item\": \"Ultra Cold Freezers\",\n      \"unit_cost\": 3.0,\n      \"extended_cost\": 3.0\n    },\n    {\n      \"no\": 3,\n      \"item\": \"Autoclaves\",\n      \"unit_cost\": 13.0,\n      \"extended_cost\": 39.0\n    },\n    {\n      \"no\": 1,\n      \"item\": \"Fermentators (Pilot Plant)\",\n      \"unit_cost\": 8.0,\n      \"extended_cost\": 8.0\n    },\n    {\n      \"no\": 1,\n      \"item\": \"Electromagnetic Whole Body Fat Counter\",\n      \"unit_cost\": 50.0,\n      \"extended_cost\": 50.0\n    },\n    {\n      \"no\": 1,\n      \"item\": \"UV/VIS Spectrophotometer for Kinetics\",\n      \"unit_cost\": 19.0,\n      \"extended_cost\": 19.0\n    },\n    {\n      \"no\": 1,\n      \"item\": \"Liquid Scintillation Counter\",\n      \"unit_cost\": 27.0,\n      \"extended_cost\": 27.0\n    },\n    {\n      \"no\": 1,\n      \"item\": \"Ultra Centrifuge with Heads\",\n      \"unit_cost\": 27.8,\n      \"extended_cost\": 27.8\n    },\n    {\n      \"no\": 1,\n      \"item\": \"Spectrofluorometer\",\n      \"unit_cost\": 7.5,\n      \"extended_cost\": 7.5\n    },\n    {\n      \"no\": 1,\n      \"item\": \"Amino Acid Analyzer\",\n      \"unit_cost\": 45.0,\n      \"extended_cost\": 45.0\n    },\n    {\n      \"no\": 1,\n      \"item\": \"Cold Boxes (4' x 6' x 7')\",\n      \"unit_cost\": 4.0,\n      \"extended_cost\": 4.0\n    },\n    {\n      \"no\": 1,\n      \"item\": \"High Pressure Liquid Chromatograph\",\n      \"unit_cost\": 20.0,\n      \"extended_cost\": 20.0\n    },\n    {\n      \"no\": 1,\n      \"item\": \"Gas Chromatograph\",\n      \"unit_cost\": 22.0,\n      \"extended_cost\": 22.0\n    }\n  ]\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 822,
+    "total_tokens": 1598,
+    "completion_tokens": 776,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

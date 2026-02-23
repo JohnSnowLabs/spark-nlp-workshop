@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-a747b5cc929d1622",
+  "object": "chat.completion",
+  "created": 1769091141,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "<logo>FOOD LOVER'S MARKET</logo>\n\nShowgate Centre  \nCurie Ave, Hospital park, Bloemfontein  \nTel: 071 849 8137  \n\nTAX INVOICE  \n\nCELEERY STICKS CUT 300G 14.99*  \nCOMESSA 1/1LLA WHT WRAPS 8S 46.99  \nF/L RECYCLED C/BAG 24L 1.50  \nLOAF BANANA 14.99  \nPINEAPPLE QUEEN 2 @ 21.99 43.98  \nCOMBO PROMO -3.98*  \nSUPER M FL/MILK C/SODA 300ML 17.99  \nSUPER M FL/MILK S/BERRY 300ML 15.99  \nTOMATOES LONG LIFE 2KG 59.99*  \n\nTOTAL 213.44  \nCard 213.44  \nCHANGE 0.00  \n\nDescription NET VAT TOTAL  \n*Non Vat 114.98 0.00 114.98  \nVAT 85.60 12.86 98.46  \nVAT TOTALS 200.58 12.86 213.44  \n\nVAT NO. 4110287044  \n\nCashier: Felicia  \nC1011 #5174 11:51 3/04/2024 $91045 R008  \n\nThank you for your patronage  \nCustomer Care: care@fnv.co.za  \nCustomer Care: 0860 007 728  \n\n<watermark>OFFICIAL COPY</watermark>",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 2479,
+    "total_tokens": 2900,
+    "completion_tokens": 421,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

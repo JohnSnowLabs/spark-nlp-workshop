@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-9c446e1b815da342",
+  "object": "chat.completion",
+  "created": 1769091181,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Sample No. 1194-90  \nDate: 3/14/90  \nType of Cigarette 100 mm Filter  \nBatch Size 47.5 lbs.  \n90-B-1  \n\nOriginal Request Made By J.H. Bell on 2/15/90  \nPurpose of Sample Cigarette Modification B-451  \nSample Specifications Written By C.W. Lassiter  \n\n| BLEND      | CASING | RECASING | FINAL FLAVOR | MENTHOL |\n|------------|--------|----------|--------------|---------|\n| Attached   | None   | Attached | None         | None    |\n\nCigarettes  \nMaker: MK 8  \nLength: 99.0 mm  \nFilter Length: 27 mm  \nCircumference: 24.8 mm  \nWeight: 78.0g/100  \nPaper: 81-01-07  \nTip. Paper: 25-04-07  \nTip. Paper Por.: 430  \nGlue Roller: G  \nAir Dilution: 13.0 %  \n\nFilters  \nKind: 3.3/35,000  \nOG Lt.:  \nRod Length: 108 mm  \nPressure Drop: 400 mm  \nCircumference: 24.45 mm  \nWeight: 75.3g/100  \nPlast.: 7% Kent  \nPlug Wrap: 84-52-28  \nPlug Wrap Por.: 655 c  \nComb. Wrap:  \nComb. Wrap Por.:  \n\nWrapping  \nLabels: White  \nClosures: Blue  \nTear Tape: White  \nCartons: White  \nMarkings: Sample No. on each Carton  \n\nResponsibility  \nTobacco Blend: Lassiter/Douglas  \nFilter Production: MFG.  \nMaking & Packing: James  \nShipping: James  \nSample Requisition (Form 02:20:06):  \n\nRequirements  \nLaboratory: 1 Tray  \nOther:  \n\nLaboratory Analysis: Mainstream Smoke Analysis  \n\nSpecial Requirements  \n\nDirector, Product Development",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 3503,
+    "total_tokens": 3965,
+    "completion_tokens": 462,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

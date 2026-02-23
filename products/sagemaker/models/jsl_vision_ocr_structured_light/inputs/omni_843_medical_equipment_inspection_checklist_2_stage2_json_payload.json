@@ -1,0 +1,108 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"required\": [\n    \"equipmentInfo\",\n    \"checkpoints\",\n    \"overallStatus\"\n  ],\n  \"properties\": {\n    \"checkpoints\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"required\": [\n          \"category\",\n          \"items\"\n        ],\n        \"properties\": {\n          \"items\": {\n            \"type\": \"array\",\n            \"items\": {\n              \"type\": \"object\",\n              \"required\": [\n                \"checkpoint\",\n                \"status\"\n              ],\n              \"properties\": {\n                \"status\": {\n                  \"enum\": [\n                    \"functional\",\n                    \"needsService\",\n                    \"defective\",\n                    \"pass\",\n                    \"fail\",\n                    \"na\"\n                  ],\n                  \"type\": \"string\"\n                },\n                \"checkpoint\": {\n                  \"type\": \"string\"\n                }\n              }\n            }\n          },\n          \"category\": {\n            \"type\": \"string\"\n          }\n        }\n      }\n    },\n    \"equipmentInfo\": {\n      \"type\": \"object\",\n      \"required\": [\n        \"equipmentId\",\n        \"model\",\n        \"inspectionDate\"\n      ],\n      \"properties\": {\n        \"model\": {\n          \"type\": \"string\"\n        },\n        \"equipmentId\": {\n          \"type\": \"string\"\n        },\n        \"inspectionDate\": {\n          \"type\": \"string\"\n        }\n      }\n    },\n    \"overallStatus\": {\n      \"type\": \"object\",\n      \"required\": [\n        \"passedInspection\",\n        \"nextInspectionDue\"\n      ],\n      \"properties\": {\n        \"passedInspection\": {\n          \"type\": \"boolean\"\n        },\n        \"nextInspectionDue\": {\n          \"type\": \"string\"\n        }\n      }\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "# Medical Equipment Inspection Checklist\n\nEquipment ID: 0CTAMI2I  \nModel: O'Hara LLC mNYv  \nDepartment: Operating Room  \nInspection Date: 2025-02-13  \nInspector: Marcos Buckridge  \n\n## Physical Condition\n\n| Checkpoint               | Functional | Needs Service | Defective | Not Applicable | Notes                                      |\n|--------------------------|------------|---------------|-----------|----------------|--------------------------------------------|\n| Equipment housing intact |            | \u2611             |           |                | Backup system needs verification. Last checked on 2/12/2025 |\n| Display screen clear     |            |               | \u2611         |                | Critical error in self-diagnostic          |\n| Control buttons functional | \u2611        |               |           |                |                                            |\n| Power cord undamaged     |            |               |           | -              |                                            |\n| Mounting brackets secure |            | \u2611             |           |                | Battery backup needs testing               |\n| Wheels/casters condition | \u2611          |               |           |                |                                            |\n| Labels and markings legible | \u2611      |               |           |                |                                            |\n| Accessories complete     |            |               |           | -              |                                            |\n\n## Electrical Safety\n\n| Checkpoint               | Functional | Needs Service | Defective | Not Applicable | Notes                                      |\n|--------------------------|------------|---------------|-----------|----------------|--------------------------------------------|\n| Ground connection        | \u2611          |               |           |                |                                            |\n| Insulation resistance    |            |               |           | -              |                                            |\n| Leakage current          | \u2611          |               |           |                |                                            |\n| Power supply stable      |            |               |           | -              |                                            |\n| Battery backup functional | \u2611         |               |           |                |                                            |\n| Circuit breaker operation |            | \u2611             |           |                |                                            |\n| Surge protection         | \u2611          |               |           |                |                                            |\n| Cable connections secure |            |               | \u2611         |                | Critical error in self-diagnostic          |\n\n## Performance Tests\n\n| Checkpoint               | Functional | Needs Service | Defective | Not Applicable | Notes                                      |\n|--------------------------|------------|---------------|-----------|----------------|--------------------------------------------|\n| Self-test passed         | \u2611          |               |           |                |                                            |\n| Calibration check        | \u2611          |               |           |                |                                            |\n| Alarm systems            | \u2611          |               |           |                |                                            |\n| Backup systems           | \u2611          |               |           |                |                                            |\n| Output accuracy          |            | \u2611             |           |                | Battery backup needs testing. Reference ID: EBT9QX |\n| Response time            | \u2611          |               |           |                |                                            |\n| Data storage/retrieval   |            | \u2611             |           |                |                                            |\n| Network connectivity     | \u2611          |               |           |                |                                            |\n| Sensor accuracy          | \u2611          |               |           |                |                                            |\n\n## Overall Status\n\nInspection Result: \u2611  \nNext Inspection Due: 2025-05-26  \n\n<page_number>1</page_number>"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "required": [
+          "equipmentInfo",
+          "checkpoints",
+          "overallStatus"
+        ],
+        "properties": {
+          "checkpoints": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "category",
+                "items"
+              ],
+              "properties": {
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "checkpoint",
+                      "status"
+                    ],
+                    "properties": {
+                      "status": {
+                        "enum": [
+                          "functional",
+                          "needsService",
+                          "defective",
+                          "pass",
+                          "fail",
+                          "na"
+                        ],
+                        "type": "string"
+                      },
+                      "checkpoint": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "category": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "equipmentInfo": {
+            "type": "object",
+            "required": [
+              "equipmentId",
+              "model",
+              "inspectionDate"
+            ],
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "equipmentId": {
+                "type": "string"
+              },
+              "inspectionDate": {
+                "type": "string"
+              }
+            }
+          },
+          "overallStatus": {
+            "type": "object",
+            "required": [
+              "passedInspection",
+              "nextInspectionDue"
+            ],
+            "properties": {
+              "passedInspection": {
+                "type": "boolean"
+              },
+              "nextInspectionDue": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

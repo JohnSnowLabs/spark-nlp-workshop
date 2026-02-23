@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-885cdbbbed17932c",
+  "object": "chat.completion",
+  "created": 1769091365,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# CALIFORNIA COMMERCIAL LEASE AGREEMENT\n\nThis Lease Agreement made the 2025-09-22, by and between **felipe Jones** [name of lessor], of 2782 Viscaria Close [street address], State of **California**, hereinafter referred to as \"Lessor\", and **Kassulke - O'Conner** [name of lessee], of 47632 Cassin Expressway [street address], State of **California**, hereinafter referred to as \"Lessee\", collectively referred to herein as the \"Parties\", agree as follows:\n\n## 1. DESCRIPTION OF LEASED PREMISES:\nThe Lessor agrees to lease to the Lessee the following described 4947 square feet (SF) of Warehouse located at 99096 W 8th Street [street address], State of California.\n\n## 2. TERM OF LEASE:\nThe term of this Lease shall be for a period of 4 year(s) 4 month(s) commencing on the 22 day of March 2025, day of March 2025, and expiring at Midnight on the 22 day of July 2029, day of July 2029. (\"Initial Term\")\n\n## 3. BASE RENT:\nThe net monthly payment shall be 3449 dollars ($3449) per month. A security deposit of 8475 dollars ($8475) is required, payable monthly with the first payment due upon the commencement of the Lease and each monthly installment payable thereafter on the 1st day of each month.\n\n## 4. Options to Renew (Check one):\n\u2610 Lessee may not renew the Lease.\n\u2611 The Lessee may have the right to renew the Lease with a total of ______ renewal period(s) with each term being year(s) month(s) which may be exercised by giving written notice to Lessor no less than 60 days prior to the expiration of the Lease or renewal period.\n\nPrepared using zipForm\u00ae software\n\nPage 5 of 8",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 2735,
+    "total_tokens": 3189,
+    "completion_tokens": 454,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

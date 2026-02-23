@@ -1,0 +1,85 @@
+# New Patient Form
+
+**FIRST NAME:** Sophia  
+**LAST NAME:** Doe  
+
+**MARITAL STATUS:** ☐ Single ☐ Married ☐ Divorced ☐ Separated ☑ Widowed  
+
+**ADDRESS:** 2237A Dove Rd  
+
+**CITY:** Waimanalo  
+**STATE:** HI  
+**ZIP:** 96795  
+
+**PHONE:** (758) 473-1776  
+**DOB:** 04/27/1973  
+
+**SPOUSE NAME:**  
+**SPOUSE PHONE:**  
+
+Is the requested medication ☑ NEW or a ☐ CONTINUATION of THERAPY? If so, start date: ___________  
+
+Have you been hospitalized in the past year? ☑ Yes ☐ No  
+
+---
+
+## Review of Symptoms
+
+- Allergies ☐
+- Black Outs ☐
+- Blurred Vision ☑
+- Chest Pain ☑
+- Coughing ☑
+- Dental Problems ☑
+- Double Vision ☐
+- Excessive Bruising ☐
+- Excessive Thirst ☐
+- Fatigue ☑
+- Headaches ☑
+- Irregular Heart Rate ☐
+- Muscle Pain ☑
+- Shortness Of Breath ☑
+- Tuberculosis Exposure ☑
+- Calf Pain ☐
+- Chills ☑
+- Coughing Up Blood ☑
+- Difficulty Emptying Bowel Or Bladder ☐
+- Enlarged Glands ☑
+- Excessive Stress ☐
+- Eye Pain ☑
+- Fever ☑
+- Hearing Loss ☑
+- Joint Swelling ☑
+- Seizures ☑
+- Stomach Trouble Or Ulcers ☑
+- Weight Gain Or Loss Greater Than 10 Lbs ☐  
+
+---
+
+## Previous Health History
+
+**PRIMARY CARE PHYSICIAN:** Dr. Emily Miller  
+**LAST SEEN DATE:** December 5, 1992  
+
+Have you received chiropractic care? ☑ Yes ☐ No  
+Have you received acupuncture care? ☑ Yes ☐ No  
+
+**PRESCRIPTION DRUGS:**  
+☑ Antidepressants  
+☑ Birth Control Pills  
+☑ Diet Pills  
+☐ Muscle Relaxers  
+☐ Pain Pills  
+Other: zolpidem  
+
+☑ Anti Inflammatory  
+☐ Blood Pressure Medication  
+☐ Blood Sugar Medication  
+☐ Insulin  
+☐ Sleeping Pills  
+
+**OVER-THE-COUNTER DRUGS:** afrin, icy hot  
+
+**ACCIDENTS OR INJURIES:** broken collarbone  
+
+**VITAMINS OR SUPPLEMENTS:** vitamin b5

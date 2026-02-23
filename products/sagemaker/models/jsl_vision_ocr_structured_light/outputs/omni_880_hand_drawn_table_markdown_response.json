@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-a601047611d1e821",
+  "object": "chat.completion",
+  "created": 1769091403,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Number and Percent of Students with Positive Clinical Findings by Sex (1972)\n\nPhysical Examinations were given to a total of 105 males and 100 females\n\n| Physical Finding | Male Number | Male Percent | Female Number | Female Percent |\n|------------------|-------------|--------------|---------------|----------------|\n| LIPS             |             |              |               |                |\n| Pallor of mucosa | 0           | 0            | 2             | 2.00           |\n| GUMS             |             |              |               |                |\n| Marginal redness or swelling | 3 | 2.86 | 2 | 2.00 |\n| FACE AND NECK    |             |              |               |                |\n| Thyroid enlarged: GO | 2 | 1.90 | 8 | 8.00 |\n|                  |             |              |               |                |\n|                  | 7 | 6.67 | 7 | 7.00 |\n|                  |             |              |               |                |\n|                  | 1 | 0.95 | 4 | 4.00 |\n| TONGUE           |             |              |               |                |\n| Filiform papillary atrophy | 7 | 6.67 | 3 | 3.00 |\n| Fungiform papillary hyperdrophy | 1 | 0.95 | 0 | 0 |\n| Fissures         | 0 | 0 | 1 | 1.00 |\n| Geographic       | 1 | 0.95 | 0 | 0 |\n| TEETH            |             |              |               |                |\n| Cavities in four or more teeth | 5 | 4.76 | 3 | 3.00 |\n| SKIN             |             |              |               |                |\n| Follicular hyperkeratosis | 0 | 0 | 2 | 2.00 |",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 3503,
+    "total_tokens": 3937,
+    "completion_tokens": 434,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

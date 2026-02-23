@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-8c8dba967dbe7d27",
+  "object": "chat.completion",
+  "created": 1769091334,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"latestPatent\": {\n    \"date\": \"10/1916\",\n    \"name\": \"Bogan\"\n  },\n  \"patentNumber\": 8498772\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1217,
+    "total_tokens": 1265,
+    "completion_tokens": 48,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

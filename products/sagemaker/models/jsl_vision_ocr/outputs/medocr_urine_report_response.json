@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-b11468d36fea8f2e",
+  "object": "chat.completion",
+  "created": 1769146313,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# SRIVEN HOSPITAL\n## MULTI SPECIALITY\n\nPatient Name: MR-K-SURESH  \nAddress: APSEB Colony, Nagarjuna Sagar Road, Hasthinapuram, Hyderabad - 500 079  \nDate of sample collection: REDACTED  \nID: 201022  \n\n### COMPLETE URINE EXAMINATION REPORT\n\n| DESCRIPTION             | RESULT       | REFERENCE INTERVAL               |\n|-------------------------|--------------|----------------------------------|\n| Colour                  | Dark Yellow  | Straw Colour / Pale Yellow/Dark Yellow |\n| Appearance              | Turbid       | Clear/Slightly Hazy/Hazy/Turbid  |\n| **Chemical Examination**|              |                                  |\n| Glucose                 | NEGATIVE     | NEGATIVE / POSITIVE              |\n| Bilirubin (Bile)        | NEGATIVE     | NEGATIVE / POSITIVE              |\n| Urobilinogen            | NEGATIVE     | NEGATIVE / POSITIVE              |\n| Ketone Bodies           | NEGATIVE     | NEGATIVE / POSITIVE              |\n| Specific gravity        | 1.029        | 1.005 \u2013 1.030                    |\n| Blood                   | NEGATIVE     | NEGATIVE / POSITIVE              |\n| Reaction (pH)           | 7.9          | 5.0 - 8.0                        |\n| Protein                 | NEGATIVE     | NEGATIVE / POSITIVE              |\n| Nitrates                | NEGATIVE     | NEGATIVE / POSITIVE              |\n| Leukocyte Esterase      | NEGATIVE     | NEGATIVE / POSITIVE              |\n| **MICROSCOPIC EXAMINATION** |         |                                  |\n| PUS (WBC) cells         | Plenty       | 0 \u2013 5 /HPF                       |\n| Red blood Cells         | 02-04        | 0 \u2013 2 / HPF                      |\n| U. Epithelial Cells     | 15-20        | 0 \u2013 5 /HPF                       |\n\n<logo>Sriven Hospital</logo>\n\nDr. V. VIJAYA SREE MD  \nPathologist Reg No. 43489  \n\nPh: 8106999108, 9652611108, Email : srivenhospital79@gmail.com  \n\n<watermark>Lab Inccharge</watermark>  \n<page_number>1</page_number>",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1981,
+    "total_tokens": 2504,
+    "completion_tokens": 523,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

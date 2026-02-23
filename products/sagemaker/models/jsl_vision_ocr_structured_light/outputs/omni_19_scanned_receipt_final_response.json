@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-95bd44a3e60eadb5",
+  "object": "chat.completion",
+  "created": 1769091121,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    {\n      \"quantity\": 1,\n      \"unit_price\": 43.37,\n      \"description\": \"TENDERLION\",\n      \"total_price\": 43.37\n    },\n    {\n      \"quantity\": 1,\n      \"unit_price\": 49.42,\n      \"description\": \"D31 TENDERLOIN\",\n      \"total_price\": 49.42\n    },\n    {\n      \"quantity\": 1,\n      \"unit_price\": 43.90,\n      \"description\": \"D31 TENDERLOIN\",\n      \"total_price\": 43.90\n    },\n    {\n      \"quantity\": 1,\n      \"unit_price\": 49.66,\n      \"description\": \"D31 TENDERLOIN\",\n      \"total_price\": 49.66\n    },\n    {\n      \"quantity\": 8,\n      \"unit_price\": 4.30,\n      \"description\": \"AYAMAS CHICKEN FRANKFURTER 340G\",\n      \"total_price\": 34.40\n    },\n    {\n      \"quantity\": 1,\n      \"unit_price\": 9.90,\n      \"description\": \"BUTTERCUP LUXURY SPREAD 500G\",\n      \"total_price\": 9.90\n    },\n    {\n      \"quantity\": 1,\n      \"unit_price\": 9.90,\n      \"description\": \"BUTTERCUP LUXURY SPREAD 500G\",\n      \"total_price\": 9.90\n    },\n    {\n      \"quantity\": 1,\n      \"unit_price\": 3.90,\n      \"description\": \"QY CINCAU 2KG\",\n      \"total_price\": 3.90\n    },\n    {\n      \"quantity\": 20,\n      \"unit_price\": 8.20,\n      \"description\": \"CRAB NUGGET 500G MUSHROOM\",\n      \"total_price\": 164.00\n    }\n  ],\n  \"totals\": {\n    \"total\": 408.45,\n    \"total_items\": 35\n  },\n  \"store_info\": {\n    \"tel\": \"03-78590861\",\n    \"name\": \"SUPER SEVEN CASH & CARRY SDN BHD\"\n  },\n  \"cashier_info\": {\n    \"date\": \"01-03-2018\",\n    \"name\": \"NUR ATIQAH BINTI MUH-CASHIER\",\n    \"time\": \"09:23:06 AM\",\n    \"cashier_number\": \"004\"\n  },\n  \"customer_name\": \"Mrs. ONG GUAT CHYE\"\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1220,
+    "total_tokens": 1842,
+    "completion_tokens": 622,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

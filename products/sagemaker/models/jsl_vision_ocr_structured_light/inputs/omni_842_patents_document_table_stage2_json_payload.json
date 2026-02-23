@@ -1,0 +1,46 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"latestPatent\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"date\": {\n          \"type\": \"string\",\n          \"description\": \"Month and year of the patent (ex: 2/1975)\"\n        },\n        \"name\": {\n          \"type\": \"string\",\n          \"description\": \"Name associated with the referenced patent\"\n        }\n      },\n      \"description\": \"Most recent patent from the references cited.\"\n    },\n    \"patentNumber\": {\n      \"type\": \"number\",\n      \"description\": \"Current patent number\"\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "US 8,498,772 B2  \nPage 3  \n\n<page_number>3</page_number>  \n\n(61)\u2003Int. C\u2003\u2003\u2003\u2003\u2003\u20032017.01  \n\u2003\u2003\u2003G28T 15/04\u2003\u20032017.01  \n\u2003\u2003\u2003G28T 7/18  \n\n(62)\u2003References Cited  \n\nU.S. PATENT DOCUMENTS  \n\n<table>\n  <tr>\n    <td>1,060,254 A</td>\n    <td>1/1910</td>\n    <td>Nikolaus et al.</td>\n  </tr>\n  <tr>\n    <td>1,106,064 A</td>\n    <td>2/1910</td>\n    <td>Green</td>\n  </tr>\n  <tr>\n    <td>1,138,704 A</td>\n    <td>4/1910</td>\n    <td>Kassulke</td>\n  </tr>\n  <tr>\n    <td>1,258,855 A</td>\n    <td>4/1910</td>\n    <td>Sporer</td>\n  </tr>\n  <tr>\n    <td>1,392,321 A</td>\n    <td>5/1910</td>\n    <td>Morissette</td>\n  </tr>\n  <tr>\n    <td>1,474,729 A</td>\n    <td>7/1910</td>\n    <td>Crist</td>\n  </tr>\n  <tr>\n    <td>1,550,280 A</td>\n    <td>9/1910</td>\n    <td>Breitenberg et al.</td>\n  </tr>\n  <tr>\n    <td>1,637,737 A</td>\n    <td>10/1910</td>\n    <td>Goldner et al.</td>\n  </tr>\n  <tr>\n    <td>1,705,578 A</td>\n    <td>12/1910</td>\n    <td>Heathcote et al.</td>\n  </tr>\n  <tr>\n    <td>1,818,981 A</td>\n    <td>1/1911</td>\n    <td>Borer et al.</td>\n  </tr>\n  <tr>\n    <td>1,847,329 A</td>\n    <td>1/1911</td>\n    <td>Berge et al.</td>\n  </tr>\n  <tr>\n    <td>1,860,225 A</td>\n    <td>2/1911</td>\n    <td>Graham et al.</td>\n  </tr>\n  <tr>\n    <td>2,007,333 A</td>\n    <td>4/1911</td>\n    <td>Romaguera et al.</td>\n  </tr>\n  <tr>\n    <td>2,092,728 A</td>\n    <td>4/1911</td>\n    <td>Gusikowski</td>\n  </tr>\n  <tr>\n    <td>2,234,025 A</td>\n    <td>6/1911</td>\n    <td>Rohan</td>\n  </tr>\n  <tr>\n    <td>2,265,057 A</td>\n    <td>6/1911</td>\n    <td>Muller et al.</td>\n  </tr>\n  <tr>\n    <td>2,344,305 A</td>\n    <td>7/1911</td>\n    <td>Leuschke et al.</td>\n  </tr>\n  <tr>\n    <td>2,413,559 A</td>\n    <td>8/1911</td>\n    <td>Abshire</td>\n  </tr>\n  <tr>\n    <td>2,550,956 A</td>\n    <td>8/1911</"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "latestPatent": {
+            "type": "object",
+            "properties": {
+              "date": {
+                "type": "string",
+                "description": "Month and year of the patent (ex: 2/1975)"
+              },
+              "name": {
+                "type": "string",
+                "description": "Name associated with the referenced patent"
+              }
+            },
+            "description": "Most recent patent from the references cited."
+          },
+          "patentNumber": {
+            "type": "number",
+            "description": "Current patent number"
+          }
+        }
+      }
+    }
+  }
+}

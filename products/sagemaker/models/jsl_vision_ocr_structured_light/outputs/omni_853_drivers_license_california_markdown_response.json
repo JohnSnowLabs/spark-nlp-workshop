@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-8edacf2c0b3d35be",
+  "object": "chat.completion",
+  "created": 1769091360,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# California USA\n## DRIVER LICENSE\n\n- DL: 11234568\n- EXP: 08/31/2014\n- LN: CARDHOLDER\n- FN: IMA\n- ADDRESS: 2570 24TH STREET ANYTOWN, CA 95818\n- DOB: 08/31/1977\n- RSTR: NONE\n- VETERAN: \u2611\n- SEX: F\n- HGT: 5'-05\"\n- WGT: 125 lb\n- HAIR: BRN\n- EYES: BRN\n- ISS: 08/31/2009\n- DD: 00/00/0000NNNANANF/DY/Y\n\nCLASS C  \nEND NONE\n\n<logo>Coca-Cola</logo>  \n<watermark>OFFICIAL COPY</watermark>  \n<page_number>1</page_number>",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1967,
+    "total_tokens": 2184,
+    "completion_tokens": 217,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

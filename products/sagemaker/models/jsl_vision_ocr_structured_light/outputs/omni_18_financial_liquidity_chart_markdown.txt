@@ -1,0 +1,36 @@
+# Liquidity
+
+## Average Quarterly Liquidity Coverage Ratio ("LCR")
+
+- 3Q23: 155%
+- 4Q23: 167%
+- 1Q24: 164%
+- 2Q24: 155%
+- 3Q24: 163%
+
+_Liquidity coverage ratio_
+
+## Total Liquidity Reserves ($M)
+
+- 4Q19: $90,557
+- 3Q23: $118,352
+- 4Q23: $120,652
+- 1Q24: $127,481
+- 2Q24: $122,914
+- 3Q24: $131,622
+
+↑ 7% Q/Q  
+↑ 11% Y/Y
+
+- FHLB eligible loans
+- Investment securities
+- Cash and cash equivalents
+
+## Third Quarter 2024 Highlights
+
+- Average quarterly Liquidity Coverage Ratio of 163%
+- Total liquidity reserves of $131.6 billion as of September 30, 2024
+  - $49.3 billion in cash and cash equivalents
+
+Note: The Q3'24 LCR is preliminary and therefore subject to change.  
+(1) Amount above represents unencumbered liquidity reserves. Securities pledged and eligible to secure FHLB borrowing capacity are presented within investment securities above.

@@ -1,0 +1,146 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"required\": [\n    \"checks\",\n    \"metadata\"\n  ],\n  \"properties\": {\n    \"checks\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"required\": [\n          \"bankInfo\",\n          \"personalInfo\",\n          \"checkInfo\"\n        ],\n        \"properties\": {\n          \"bankInfo\": {\n            \"type\": \"object\",\n            \"required\": [\n              \"bank\"\n            ],\n            \"properties\": {\n              \"bank\": {\n                \"enum\": [\n                  \"CHASE\",\n                  \"BANK_OF_AMERICA\",\n                  \"WELLS_FARGO\",\n                  \"CITIBANK\",\n                  \"US_BANK\"\n                ],\n                \"type\": \"enum\"\n              }\n            }\n          },\n          \"checkInfo\": {\n            \"type\": \"object\",\n            \"required\": [\n              \"date\",\n              \"payee\",\n              \"amount\",\n              \"amountInWords\",\n              \"micr\",\n              \"memo\"\n            ],\n            \"properties\": {\n              \"date\": {\n                \"type\": \"string\",\n                \"description\": \"Date of the check, formatted as YYYY-MM-DD\"\n              },\n              \"memo\": {\n                \"type\": \"string\"\n              },\n              \"micr\": {\n                \"type\": \"object\",\n                \"required\": [\n                  \"checkNumber\",\n                  \"accountNumber\",\n                  \"routingNumber\"\n                ],\n                \"properties\": {\n                  \"checkNumber\": {\n                    \"type\": \"number\",\n                    \"description\": \"Check number, usually 4 digits\"\n                  },\n                  \"accountNumber\": {\n                    \"type\": \"number\",\n                    \"description\": \"Account number, usually 8 - 12 digits\"\n                  },\n                  \"routingNumber\": {\n                    \"type\": \"number\",\n                    \"description\": \"Routing number, usually 9 digits\"\n                  }\n                }\n              },\n              \"payee\": {\n                \"type\": \"string\"\n              },\n              \"amount\": {\n                \"type\": \"number\"\n              },\n              \"amountInWords\": {\n                \"type\": \"string\",\n                \"description\": \"Amount in words, excluding the word 'dollars'\"\n              }\n            }\n          },\n          \"personalInfo\": {\n            \"type\": \"object\",\n            \"required\": [\n              \"firstName\",\n              \"lastName\",\n              \"address\",\n              \"city\",\n              \"state\",\n              \"zip\"\n            ],\n            \"properties\": {\n              \"zip\": {\n                \"type\": \"string\"\n              },\n              \"city\": {\n                \"type\": \"string\"\n              },\n              \"state\": {\n                \"type\": \"string\"\n              },\n              \"address\": {\n                \"type\": \"string\"\n              },\n              \"lastName\": {\n                \"type\": \"string\"\n              },\n              \"firstName\": {\n                \"type\": \"string\"\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "<logo>WELLS FARGO</logo>\n\nLolita Deckow  \n97864 N Broadway Street  \nCollierville, Montana 64043-8959  \n\nPAY TO THE ORDER OF  \nRyan Group  \n\n2025-02-03  \n\n$2,763.23  \n\nTWO THOUSAND SEVEN HUNDRED SIXTY THREE and 23/100  \nDOLLARS  \n\nMEMO  Contract payment  \n\n:766800726:  2564397564  *1869*"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "required": [
+          "checks",
+          "metadata"
+        ],
+        "properties": {
+          "checks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "bankInfo",
+                "personalInfo",
+                "checkInfo"
+              ],
+              "properties": {
+                "bankInfo": {
+                  "type": "object",
+                  "required": [
+                    "bank"
+                  ],
+                  "properties": {
+                    "bank": {
+                      "enum": [
+                        "CHASE",
+                        "BANK_OF_AMERICA",
+                        "WELLS_FARGO",
+                        "CITIBANK",
+                        "US_BANK"
+                      ],
+                      "type": "enum"
+                    }
+                  }
+                },
+                "checkInfo": {
+                  "type": "object",
+                  "required": [
+                    "date",
+                    "payee",
+                    "amount",
+                    "amountInWords",
+                    "micr",
+                    "memo"
+                  ],
+                  "properties": {
+                    "date": {
+                      "type": "string",
+                      "description": "Date of the check, formatted as YYYY-MM-DD"
+                    },
+                    "memo": {
+                      "type": "string"
+                    },
+                    "micr": {
+                      "type": "object",
+                      "required": [
+                        "checkNumber",
+                        "accountNumber",
+                        "routingNumber"
+                      ],
+                      "properties": {
+                        "checkNumber": {
+                          "type": "number",
+                          "description": "Check number, usually 4 digits"
+                        },
+                        "accountNumber": {
+                          "type": "number",
+                          "description": "Account number, usually 8 - 12 digits"
+                        },
+                        "routingNumber": {
+                          "type": "number",
+                          "description": "Routing number, usually 9 digits"
+                        }
+                      }
+                    },
+                    "payee": {
+                      "type": "string"
+                    },
+                    "amount": {
+                      "type": "number"
+                    },
+                    "amountInWords": {
+                      "type": "string",
+                      "description": "Amount in words, excluding the word 'dollars'"
+                    }
+                  }
+                },
+                "personalInfo": {
+                  "type": "object",
+                  "required": [
+                    "firstName",
+                    "lastName",
+                    "address",
+                    "city",
+                    "state",
+                    "zip"
+                  ],
+                  "properties": {
+                    "zip": {
+                      "type": "string"
+                    },
+                    "city": {
+                      "type": "string"
+                    },
+                    "state": {
+                      "type": "string"
+                    },
+                    "address": {
+                      "type": "string"
+                    },
+                    "lastName": {
+                      "type": "string"
+                    },
+                    "firstName": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

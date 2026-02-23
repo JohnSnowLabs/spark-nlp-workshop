@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-820271f3d8bcc43b",
+  "object": "chat.completion",
+  "created": 1769091230,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# Employee Data\n\n## 2020 External Hire Rate by Age\n\n| Age Group | External Hire Rate | External Hires | Average Headcount |\n|-----------|--------------------|----------------|-------------------|\n| All Ages  | 19.80%             | 4,917          | 24,812            |\n| <20       | 147.4%             | 221            | 150               |\n| 20-29     | 52.7%              | 2,357          | 4,475             |\n| 30-39     | 18.0%              | 1,513          | 8,405             |\n| 40-49     | 10.2%              | 634            | 6,214             |\n| 50-59     | 4.2%               | 171            | 4,072             |\n| 60+       | 1.5%               | 20             | 1,300             |\n| Unallocated | 0.5%             | 1              | 197               |\n\n## 2020 External Hire Rate by Gender\n\n| Gender    | External Hire Rate | External Hires | Average Headcount |\n|-----------|--------------------|----------------|-------------------|\n| All Genders | 19.80%           | 4,917          | 24,812            |\n| Male      | 20.80%             | 3,960          | 19,030            |\n| Female    | 16.60%             | 957            | 5,782             |\n\n## 2020 External Hire Rate by Regions\n\n| Region        | External Hire Rate | External Hires | Average Headcount |\n|---------------|--------------------|----------------|-------------------|\n| All Regions   | 19.80%             | 4,917          | 24,812            |\n| Asia          | 11.9%              | 369            | 3,089             |\n| EMEA          | 9.4%               | 655            | 6,950             |\n| North America | 13.8%              | 678            | 4,896             |\n| South America | 32.5%              | 3,215          | 9,878             |\n\n## 2020 Termination Rate by Age\n\n| Age Group | Termination Rate | Terminations | Average Headcount |\n|-----------|------------------|--------------|-------------------|\n| All Ages  | 29.00%           | 7,196        | 24,812            |\n| <20       | 126.70%          | 190          | 150               |\n| 20-29     | 54.40%           | 2,434        | 4,475             |\n| 30-39     | 27.40%           | 2,299        | 8,405             |\n| 40-49     | 21.50%           | 1,337        | 6,214             |\n| 50-59     | 15.30%           | 623          | 4,072             |\n| 60+       | 22.80%           | 296          | 1,300             |\n| Miscellaneous | 8.70%          | 17           | 197               |\n\n## 2020 Termination Rate by Gender\n\n| Gender    | Termination Rate | Terminations | Average Headcount |\n|-----------|------------------|--------------|-------------------|\n| All Genders | 29.00%         | 7,196        | 24,812            |\n| Male      | 30.10%           | 5,729        | 19,030            |\n| Female    | 25.40%           | 1,467        | 5,782             |\n\n## 2020 Termination Rate by Region\n\n| Region        | Termination Rate | Terminations | Average Headcount |\n|---------------|------------------|--------------|-------------------",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "length",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 2479,
+    "total_tokens": 3503,
+    "completion_tokens": 1024,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

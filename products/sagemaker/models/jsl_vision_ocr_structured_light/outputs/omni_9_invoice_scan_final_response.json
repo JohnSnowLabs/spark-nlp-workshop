@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-81e3e6c8f39b3ef0",
+  "object": "chat.completion",
+  "created": 1769091526,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    {\n      \"quantity\": 2,\n      \"unit_price\": 6.50,\n      \"description\": \"taucu kisar\",\n      \"total_price\": 13.00\n    },\n    {\n      \"quantity\": 2,\n      \"unit_price\": 4.20,\n      \"description\": \"Teh wangi ros 180g\",\n      \"total_price\": 8.40\n    },\n    {\n      \"quantity\": 1,\n      \"unit_price\": 4.80,\n      \"description\": \"ASAM JAWA 1KG\",\n      \"total_price\": 4.80\n    }\n  ],\n  \"totals\": {\n    \"total\": 27.00,\n    \"total_items\": 5\n  },\n  \"store_info\": {\n    \"tel\": \"03-7846 1113\",\n    \"name\": \"SEMBYAN TEGAS SDN BHD\"\n  },\n  \"cashier_info\": {\n    \"date\": \"06-03-2018\",\n    \"name\": \"CASHIER 4\",\n    \"time\": \"07:24:06\"\n  },\n  \"customer_name\": \"Pax(s): 5\"\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 896,
+    "total_tokens": 1179,
+    "completion_tokens": 283,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

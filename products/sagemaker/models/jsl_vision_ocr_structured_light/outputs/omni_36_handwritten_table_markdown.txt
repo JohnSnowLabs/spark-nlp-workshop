@@ -1,0 +1,140 @@
+# RULES:
+- You must include all information on the page. Do not exclude headers, footers, charts, infographics, or subtext.
+- Return tables in an HTML format.
+- Logos should be wrapped in brackets. Ex: <logo>Coca-Cola</logo>
+- Watermarks should be wrapped in brackets. Ex: <watermark>OFFICIAL COPY</watermark>
+- Page numbers should be wrapped in brackets. Ex: <page_number>14</page_number> or <page_number>9/22</page_number>
+- Prefer using ☐ and ☑ for check boxes.
+
+---
+
+**City**  
+Town of  
+Borough  
+(Name of Municipality)  
+**New Haven**  
+
+**Democratic**  
+(Party)  
+
+**September 12, 2023**  
+(Date of Primary)  
+
+**NAME(S) OF CANDIDATE(S)**  
+(Note: Provide sufficient space)  
+**Thomas A. Goldenberg**  
+**324 Nicoll Street**  
+
+**OFFICE(S) SOUGHT**  
+**Mayor**  
+
+**TERM**  
+**1/1/24-12/31/25**  
+
+---
+
+**THIS PETITION MUST BE FILED WITH**  
+**200 Orange Street #201, New Haven, 06510**  
+(Address of said Registrar)  
+**Shannel Evans**  
+(Name of Registrar of Voters)  
+**, not later than 4:00 p.m. on August 9, 2023.**  
+
+---
+
+**B.** We, the undersigned, being enrolled members of the above party in the above municipality, do hereby petition that there be printed on the voting machine ballot labels to be used in the primary of said party in said municipality to be held on the date above specified the names of the above individuals as candidates for nomination to the offices specified:  
+
+<table>
+  <tr>
+    <th>SIGNATURE OF ENROLLED ELECTOR</th>
+    <th>PRINTED NAME OF ELECTOR</th>
+    <th>BIRTH DATE</th>
+    <th>STREET ADDRESS</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Richard A. Lee</td>
+    <td>2/24/1944</td>
+    <td>70 Lyon St</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Rebecca Smith</td>
+    <td>6/13/20</td>
+    <td>78 Lyon St</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>John Stachniak</td>
+    <td>10/13/69</td>
+    <td>74 Stachnewicz</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>James Balor</td>
+    <td>07/09/88</td>
+    <td>49 Lyon</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <

@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-930c27dc43dad41e",
+  "object": "chat.completion",
+  "created": 1769091299,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"title\": \"Staff Shift Schedule\",\n  \"facility\": \"West Marshallstad Medical Center\",\n  \"employees\": [\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Morning\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Sick Leave\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Training\"\n        },\n        {\n          \"type\": \"empty\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"empty\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"empty\",\n          \"notes\": \"\"\n        }\n      ],\n      \"department\": \"General Ward\",\n      \"employeeId\": \"RDTBMO\",\n      \"employeeName\": \"Dr. Todd Frami\"\n    },\n    {\n      \"shifts\": [\n        {\n          \"type\": \"empty\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"empty\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"empty\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Vacation\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"empty\",\n          \"notes\": \"\"\n        }\n      ],\n      \"department\": \"Cardiology\",\n      \"employeeId\": \"Q4FZ2T\",\n      \"employeeName\": \"Mrs. Mindy Lebsack\"\n    },\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Training\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"empty\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Personal\"\n        },\n        {\n          \"type\": \"empty\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Night\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"empty\",\n          \"notes\": \"\"\n        }\n      ],\n      \"department\": \"Pediatrics\",\n      \"employeeId\": \"R2VYRS\",\n      \"employeeName\": \"Nathaniel Kessler\"\n    },\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Personal\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"empty\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Personal\"\n        },\n        {\n          \"type\": \"empty\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"empty\",\n          \"notes\": \"\"\n        }\n      ],\n      \"department\": \"ICU\",\n      \"employeeId\": \"TI16VZ\",\n      \"employeeName\": \"Darlene Huel\"\n    },\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Afternoon\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"empty\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"empty\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"notes\": \"\"\n        }\n      ],\n      \"department\": \"Oncology\",\n      \"employeeId\": \"889QT8\",\n      \"employeeName\": \"Rosie Sanford\"\n    },\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Personal\"\n        },\n        {\n          \"type\": \"empty\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Training\"\n        },\n        {\n          \"type\": \"empty\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Training\"\n        },\n        {\n          \"type\": \"empty\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Sick Leave\"\n        }\n      ],\n      \"department\": \"Oncology\",\n      \"employeeId\": \"TW0CAW\",\n      \"employeeName\": \"Clifton Schuppe\"\n    },\n    {\n      \"shifts\": [\n        {\n          \"type\": \"empty\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"empty",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "length",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1384,
+    "total_tokens": 2408,
+    "completion_tokens": 1024,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

@@ -1,0 +1,75 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"total\": {\n      \"type\": \"number\",\n      \"description\": \"In thousands\"\n    },\n    \"subtotal\": {\n      \"type\": \"number\",\n      \"description\": \"In thousands\"\n    },\n    \"inflation\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"rate\": {\n          \"type\": \"number\"\n        },\n        \"amount\": {\n          \"type\": \"number\",\n          \"description\": \"In percentage\"\n        },\n        \"duration\": {\n          \"type\": \"number\",\n          \"description\": \"In years\"\n        }\n      }\n    },\n    \"major_equipment_needs\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"no\": {\n            \"type\": \"number\"\n          },\n          \"item\": {\n            \"type\": \"string\"\n          },\n          \"unit_cost\": {\n            \"type\": \"number\",\n            \"description\": \"In thousands\"\n          },\n          \"extended_cost\": {\n            \"type\": \"number\",\n            \"description\": \"In thousands\"\n          }\n        },\n        \"description\": \"\"\n      }\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "# MAJOR EQUIPMENT NEEDS TO CARRY OUT BUILDING FUNCTION\n\n| ITEM                                | NO | UNIT COST* | EXTENDED COST* |\n|-------------------------------------|----|------------|----------------|\n| Atomic Absorption Spectrometer      | 1  | $ 17.0     | $ 17.0         |\n| Animal Cage Racks                   | 36 | 1.5        | 54.0           |\n| CO2 Incubator                       | 2  | 2.6        | 5.2            |\n| Coulter Counter                     | 1  | 5.0        | 5.0            |\n| Ultra Cold Freezers                 | 1  | 3.0        | 3.0            |\n| Autoclaves                          | 3  | 13.0       | 39.0           |\n| Fermentators (Pilot Plant)          | 1  | 8.0        | 8.0            |\n| Electromagnetic Whole Body Fat Counter | 1  | 50.0       | 50.0           |\n| UV/VIS Spectrophotometer for Kinetics | 1  | 19.0       | 19.0           |\n| Liquid Scintillation Counter        | 1  | 27.0       | 27.0           |\n| Ultra Centrifuge with Heads         | 1  | 27.8       | 27.8           |\n| Spectrofluorometer                  | 1  | 7.5        | 7.5            |\n| Amino Acid Analyzer                 | 1  | 45.0       | 45.0           |\n| Cold Boxes (4' x 6' x 7')           | 1  | 4.0        | 4.0            |\n| High Pressure Liquid Chromatograph  | 1  | 20.0       | 20.0           |\n| Gas Chromatograph                   | 1  | 22.0       | 22.0           |\n\n**SUBTOTAL:** $353.5\n\n**2 year inflation @ 15% per year:** 114.0\n\n**TOTAL:** $467.5\n\n*In Thousands\n\n---\n\n<page_number>21</page_number>"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "total": {
+            "type": "number",
+            "description": "In thousands"
+          },
+          "subtotal": {
+            "type": "number",
+            "description": "In thousands"
+          },
+          "inflation": {
+            "type": "object",
+            "properties": {
+              "rate": {
+                "type": "number"
+              },
+              "amount": {
+                "type": "number",
+                "description": "In percentage"
+              },
+              "duration": {
+                "type": "number",
+                "description": "In years"
+              }
+            }
+          },
+          "major_equipment_needs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "no": {
+                  "type": "number"
+                },
+                "item": {
+                  "type": "string"
+                },
+                "unit_cost": {
+                  "type": "number",
+                  "description": "In thousands"
+                },
+                "extended_cost": {
+                  "type": "number",
+                  "description": "In thousands"
+                }
+              },
+              "description": ""
+            }
+          }
+        }
+      }
+    }
+  }
+}

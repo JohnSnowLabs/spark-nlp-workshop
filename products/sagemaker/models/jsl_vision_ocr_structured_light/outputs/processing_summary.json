@@ -1,0 +1,317 @@
+[
+  {
+    "image": "inputs/omni_10_fiscal_invoice.png",
+    "schema": "inputs/omni_10_fiscal_invoice_schema.json",
+    "base_name": "omni_10_fiscal_invoice",
+    "markdown_duration_ms": 4961.758852005005,
+    "json_duration_ms": 7872.158050537109,
+    "total_duration_ms": 12833.916902542114,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_17_payment_check.png",
+    "schema": "inputs/omni_17_payment_check_schema.json",
+    "base_name": "omni_17_payment_check",
+    "markdown_duration_ms": 1630.8913230895996,
+    "json_duration_ms": 2234.748601913452,
+    "total_duration_ms": 3865.6399250030518,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_18_financial_liquidity_chart.png",
+    "schema": "inputs/omni_18_financial_liquidity_chart_schema.json",
+    "base_name": "omni_18_financial_liquidity_chart",
+    "markdown_duration_ms": 3028.2723903656006,
+    "json_duration_ms": 3199.100971221924,
+    "total_duration_ms": 6227.373361587524,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_19_scanned_receipt.png",
+    "schema": "inputs/omni_19_scanned_receipt_schema.json",
+    "base_name": "omni_19_scanned_receipt",
+    "markdown_duration_ms": 7430.649995803833,
+    "json_duration_ms": 5741.9753074646,
+    "total_duration_ms": 13172.625303268433,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_36_handwritten_table.png",
+    "schema": "inputs/omni_36_handwritten_table_schema.json",
+    "base_name": "omni_36_handwritten_table",
+    "markdown_duration_ms": 9405.369520187378,
+    "json_duration_ms": 3433.706283569336,
+    "total_duration_ms": 12839.075803756714,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_39_photo_receipt.png",
+    "schema": "inputs/omni_39_photo_receipt_schema.json",
+    "base_name": "omni_39_photo_receipt",
+    "markdown_duration_ms": 4868.878602981567,
+    "json_duration_ms": 5027.964115142822,
+    "total_duration_ms": 9896.84271812439,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_45_excel_screenshot.png",
+    "schema": "inputs/omni_45_excel_screenshot_schema.json",
+    "base_name": "omni_45_excel_screenshot",
+    "markdown_duration_ms": 10639.552354812622,
+    "json_duration_ms": 9365.552425384521,
+    "total_duration_ms": 20005.104780197144,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_47_nutrients_food_package_photo.png",
+    "schema": "inputs/omni_47_nutrients_food_package_photo_schema.json",
+    "base_name": "omni_47_nutrients_food_package_photo",
+    "markdown_duration_ms": 9057.916402816772,
+    "json_duration_ms": 1245.3367710113525,
+    "total_duration_ms": 10303.253173828125,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_48_cigarette_specification_noisy_scan.png",
+    "schema": "inputs/omni_48_cigarette_specification_noisy_scan_schema.json",
+    "base_name": "omni_48_cigarette_specification_noisy_scan",
+    "markdown_duration_ms": 5638.840436935425,
+    "json_duration_ms": 3068.6419010162354,
+    "total_duration_ms": 8707.48233795166,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_51_car_specs_website_screenshot.png",
+    "schema": "inputs/omni_51_car_specs_website_screenshot_schema.json",
+    "base_name": "omni_51_car_specs_website_screenshot",
+    "markdown_duration_ms": 6964.76936340332,
+    "json_duration_ms": 6440.761566162109,
+    "total_duration_ms": 13405.53092956543,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_5_lab_order.png",
+    "schema": "inputs/omni_5_lab_order_schema.json",
+    "base_name": "omni_5_lab_order",
+    "markdown_duration_ms": 4603.337049484253,
+    "json_duration_ms": 6760.813474655151,
+    "total_duration_ms": 11364.150524139404,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_61_nutrients_food_package_photo_2.png",
+    "schema": "inputs/omni_61_nutrients_food_package_photo_2_schema.json",
+    "base_name": "omni_61_nutrients_food_package_photo_2",
+    "markdown_duration_ms": 5798.365354537964,
+    "json_duration_ms": 1017.5998210906982,
+    "total_duration_ms": 6815.965175628662,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_67_demographic_data_chart_metrics.png",
+    "schema": "inputs/omni_67_demographic_data_chart_metrics_schema.json",
+    "base_name": "omni_67_demographic_data_chart_metrics",
+    "markdown_duration_ms": 6596.929311752319,
+    "json_duration_ms": 1608.8440418243408,
+    "total_duration_ms": 8205.77335357666,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_69_employee_data_sustainability_report.png",
+    "schema": "inputs/omni_69_employee_data_sustainability_report_schema.json",
+    "base_name": "omni_69_employee_data_sustainability_report",
+    "markdown_duration_ms": 10108.453750610352,
+    "json_duration_ms": 5116.588830947876,
+    "total_duration_ms": 15225.042581558228,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_7_drivers_license.png",
+    "schema": "inputs/omni_7_drivers_license_schema.json",
+    "base_name": "omni_7_drivers_license",
+    "markdown_duration_ms": 3912.8737449645996,
+    "json_duration_ms": 1851.9153594970703,
+    "total_duration_ms": 5764.78910446167,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_824_medical_staff_shift_schedule_2.png",
+    "schema": "inputs/omni_824_medical_staff_shift_schedule_2_schema.json",
+    "base_name": "omni_824_medical_staff_shift_schedule_2",
+    "markdown_duration_ms": 7611.477613449097,
+    "json_duration_ms": 9225.46911239624,
+    "total_duration_ms": 16836.946725845337,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_826_chase_long_transaction_report.png",
+    "schema": "inputs/omni_826_chase_long_transaction_report_schema.json",
+    "base_name": "omni_826_chase_long_transaction_report",
+    "markdown_duration_ms": 10202.892541885376,
+    "json_duration_ms": 9318.032503128052,
+    "total_duration_ms": 19520.925045013428,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_827_medical_staff_shift_schedule.png",
+    "schema": "inputs/omni_827_medical_staff_shift_schedule_schema.json",
+    "base_name": "omni_827_medical_staff_shift_schedule",
+    "markdown_duration_ms": 10283.182621002197,
+    "json_duration_ms": 9242.455244064331,
+    "total_duration_ms": 19525.63786506653,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_834_portfolio_holding_statement.png",
+    "schema": "inputs/omni_834_portfolio_holding_statement_schema.json",
+    "base_name": "omni_834_portfolio_holding_statement",
+    "markdown_duration_ms": 10635.043144226074,
+    "json_duration_ms": 3337.780714035034,
+    "total_duration_ms": 13972.823858261108,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_842_patents_document_table.png",
+    "schema": "inputs/omni_842_patents_document_table_schema.json",
+    "base_name": "omni_842_patents_document_table",
+    "markdown_duration_ms": 10650.625944137573,
+    "json_duration_ms": 756.0954093933105,
+    "total_duration_ms": 11406.721353530884,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_843_medical_equipment_inspection_checklist_2.png",
+    "schema": "inputs/omni_843_medical_equipment_inspection_checklist_2_schema.json",
+    "base_name": "omni_843_medical_equipment_inspection_checklist_2",
+    "markdown_duration_ms": 6868.186712265015,
+    "json_duration_ms": 6101.526975631714,
+    "total_duration_ms": 12969.713687896729,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_845_medical_equipment_inspection_checklist.png",
+    "schema": "inputs/omni_845_medical_equipment_inspection_checklist_schema.json",
+    "base_name": "omni_845_medical_equipment_inspection_checklist",
+    "markdown_duration_ms": 6206.672191619873,
+    "json_duration_ms": 6077.67128944397,
+    "total_duration_ms": 12284.343481063843,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_853_drivers_license_california.png",
+    "schema": "inputs/omni_853_drivers_license_california_schema.json",
+    "base_name": "omni_853_drivers_license_california",
+    "markdown_duration_ms": 2772.4030017852783,
+    "json_duration_ms": 1738.0483150482178,
+    "total_duration_ms": 4510.451316833496,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_876_lease_agreement_form.png",
+    "schema": "inputs/omni_876_lease_agreement_form_schema.json",
+    "base_name": "omni_876_lease_agreement_form",
+    "markdown_duration_ms": 5288.753271102905,
+    "json_duration_ms": 2328.8798332214355,
+    "total_duration_ms": 7617.633104324341,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_877_new_patient_form.png",
+    "schema": "inputs/omni_877_new_patient_form_schema.json",
+    "base_name": "omni_877_new_patient_form",
+    "markdown_duration_ms": 5748.728036880493,
+    "json_duration_ms": 4243.943929672241,
+    "total_duration_ms": 9992.671966552734,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_879_staff_schedule.png",
+    "schema": "inputs/omni_879_staff_schedule_schema.json",
+    "base_name": "omni_879_staff_schedule",
+    "markdown_duration_ms": 10349.766492843628,
+    "json_duration_ms": 9228.825569152832,
+    "total_duration_ms": 19578.59206199646,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_880_hand_drawn_table.png",
+    "schema": "inputs/omni_880_hand_drawn_table_schema.json",
+    "base_name": "omni_880_hand_drawn_table",
+    "markdown_duration_ms": 5473.785877227783,
+    "json_duration_ms": 7013.029098510742,
+    "total_duration_ms": 12486.814975738525,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_882_quarterly_transactions_insights.png",
+    "schema": "inputs/omni_882_quarterly_transactions_insights_schema.json",
+    "base_name": "omni_882_quarterly_transactions_insights",
+    "markdown_duration_ms": 5202.117919921875,
+    "json_duration_ms": 8028.1662940979,
+    "total_duration_ms": 13230.284214019775,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_883_nutritional_table.png",
+    "schema": "inputs/omni_883_nutritional_table_schema.json",
+    "base_name": "omni_883_nutritional_table",
+    "markdown_duration_ms": 10111.719846725464,
+    "json_duration_ms": 9279.128074645996,
+    "total_duration_ms": 19390.84792137146,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_887_portfolio_account_overview.png",
+    "schema": "inputs/omni_887_portfolio_account_overview_schema.json",
+    "base_name": "omni_887_portfolio_account_overview",
+    "markdown_duration_ms": 6629.611253738403,
+    "json_duration_ms": 6147.063970565796,
+    "total_duration_ms": 12776.6752243042,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_988_us_tax_return_form_2.png",
+    "schema": "inputs/omni_988_us_tax_return_form_2_schema.json",
+    "base_name": "omni_988_us_tax_return_form_2",
+    "markdown_duration_ms": 10664.035320281982,
+    "json_duration_ms": 6119.965553283691,
+    "total_duration_ms": 16784.000873565674,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_990_us_tax_return_form.png",
+    "schema": "inputs/omni_990_us_tax_return_form_schema.json",
+    "base_name": "omni_990_us_tax_return_form",
+    "markdown_duration_ms": 10661.820888519287,
+    "json_duration_ms": 4553.507566452026,
+    "total_duration_ms": 15215.328454971313,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_996_lease_agreement.png",
+    "schema": "inputs/omni_996_lease_agreement_schema.json",
+    "base_name": "omni_996_lease_agreement",
+    "markdown_duration_ms": 5313.446044921875,
+    "json_duration_ms": 2169.3038940429688,
+    "total_duration_ms": 7482.749938964844,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_998_petition_signature.png",
+    "schema": "inputs/omni_998_petition_signature_schema.json",
+    "base_name": "omni_998_petition_signature",
+    "markdown_duration_ms": 9144.719362258911,
+    "json_duration_ms": 8574.313163757324,
+    "total_duration_ms": 17719.032526016235,
+    "status": "success"
+  },
+  {
+    "image": "inputs/omni_9_invoice_scan.png",
+    "schema": "inputs/omni_9_invoice_scan_schema.json",
+    "base_name": "omni_9_invoice_scan",
+    "markdown_duration_ms": 6262.747049331665,
+    "json_duration_ms": 2719.7632789611816,
+    "total_duration_ms": 8982.510328292847,
+    "status": "success"
+  }
+]

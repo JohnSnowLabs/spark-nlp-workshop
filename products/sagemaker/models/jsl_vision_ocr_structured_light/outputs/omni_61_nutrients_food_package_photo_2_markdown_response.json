@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-b5c604fe9add7a6c",
+  "object": "chat.completion",
+  "created": 1769091215,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "HOW ABOUT SOME CRUSHED DATES, SWEET STUFF?\n\nNutrition Facts\nServing Size 2 tsp (6g)\nServings Per Container About 57\n\nAmount Per Serving\nCalories 20 Calories from Fat 0\n\nTotal Fat 0g\n  Saturated Fat 0g 0%\n  Trans Fat 0g\nCholesterol 0mg\nSodium 0mg\nTotal Carb. 5g\n  Dietary Fiber 0g\n  Sugars 5g\nProtein 0g\n\nVitamin A 0% \u2022 Vitamin C 0%\nCalcium 1% \u2022 Iron 0%\nPotassium 1% \u2022 Magnesium 1%\n\n*Percent Daily Values are based on a 2,000 calorie diet.\n\nINGREDIENTS: ORGANIC DRIED, GROUND DATES.\nDISTRIBUTED BY: DATE LADY, INC.\nSPRINGFIELD, MO 65803 USA\nProduct of Tunisia.\nCertified Organic by MOSA\n\n<logo> [logo image] </logo>\n\n<watermark> [watermark image] </watermark>\n\n<page_number>1</page_number>\n\nWHO'S THE DATE LADY?\nSHE'S THE DATE AFICIONADO, AND SHE KEEPS HER INGREDIENTS PURE AND SIMPLE. YOU CAN COUNT ON EVERY PRODUCT SHE BRINGS TO YOUR TABLE TO TASTE GREAT AND INCLUDE ONLY MINIMAL, HIGH-QUALITY INGREDIENTS.\n\nWHAT'CHA GONNA DO WITH DATE SUGAR?\nDITCH THE CANE SUGAR, AND PUT IT IN YOUR COOKIES. SCATTER YOUR SCONES WITH IT. SPRINKLE IT ON YOUR OATMEAL WITH TOASTED NUTS AND DRIED CRANBERRIES - GOOD MORNING! ENJOY THE NOVELTY OF IT. DRIED DATES, CRUSHED JUST FOR YOU.\n\n<watermark> DATE SUGAR METER: WHEN YOU CAN NO LONGER SEE DATE SUGAR, YOU'LL KNOW YOU'VE HAD ENOUGH. </watermark>\n\nDELICIOUS RECIPES AND FUN SERVING IDEAS\nILOVEDATELADY.COM\n\n<logo> [logo image] </logo>",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 3503,
+    "total_tokens": 3981,
+    "completion_tokens": 478,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

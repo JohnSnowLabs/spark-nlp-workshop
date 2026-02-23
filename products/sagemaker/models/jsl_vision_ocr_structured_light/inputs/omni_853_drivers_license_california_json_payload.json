@@ -1,0 +1,90 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"sex\": {\n      \"type\": \"string\"\n    },\n    \"class\": {\n      \"type\": \"string\"\n    },\n    \"height\": {\n      \"type\": \"string\"\n    },\n    \"weight\": {\n      \"type\": \"string\"\n    },\n    \"address\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"city\": {\n          \"type\": \"string\"\n        },\n        \"state\": {\n          \"type\": \"string\"\n        },\n        \"street\": {\n          \"type\": \"string\",\n          \"description\": \"\"\n        },\n        \"zip_code\": {\n          \"type\": \"string\"\n        }\n      },\n      \"description\": \"All letters uppercase\"\n    },\n    \"eye_color\": {\n      \"type\": \"string\",\n      \"description\": \"All letters uppercase\"\n    },\n    \"last_name\": {\n      \"type\": \"string\",\n      \"description\": \"All letters uppercase\"\n    },\n    \"first_name\": {\n      \"type\": \"string\",\n      \"description\": \"All letters uppercase\"\n    },\n    \"hair_color\": {\n      \"type\": \"string\",\n      \"description\": \"All letters uppercase\"\n    },\n    \"issue_date\": {\n      \"type\": \"string\",\n      \"description\": \"formatted as MM/DD/YYYY\"\n    },\n    \"date_of_birth\": {\n      \"type\": \"string\",\n      \"description\": \"formatted as MM/DD/YYYY\"\n    },\n    \"expiration_date\": {\n      \"type\": \"string\",\n      \"description\": \"formatted as MM/DD/YYYY\"\n    },\n    \"driver_license_number\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "# California USA\n## DRIVER LICENSE\n\n- DL: 11234568\n- EXP: 08/31/2014\n- LN: CARDHOLDER\n- FN: IMA\n- ADDRESS: 2570 24TH STREET ANYTOWN, CA 95818\n- DOB: 08/31/1977\n- RSTR: NONE\n- VETERAN: \u2611\n- SEX: F\n- HGT: 5'-05\"\n- WGT: 125 lb\n- HAIR: BRN\n- EYES: BRN\n- ISS: 08/31/2009\n- DD: 00/00/0000NNNANANF/DY/Y\n\nCLASS C  \nEND NONE\n\n<logo>Coca-Cola</logo>  \n<watermark>OFFICIAL COPY</watermark>  \n<page_number>1</page_number>"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "sex": {
+            "type": "string"
+          },
+          "class": {
+            "type": "string"
+          },
+          "height": {
+            "type": "string"
+          },
+          "weight": {
+            "type": "string"
+          },
+          "address": {
+            "type": "object",
+            "properties": {
+              "city": {
+                "type": "string"
+              },
+              "state": {
+                "type": "string"
+              },
+              "street": {
+                "type": "string",
+                "description": ""
+              },
+              "zip_code": {
+                "type": "string"
+              }
+            },
+            "description": "All letters uppercase"
+          },
+          "eye_color": {
+            "type": "string",
+            "description": "All letters uppercase"
+          },
+          "last_name": {
+            "type": "string",
+            "description": "All letters uppercase"
+          },
+          "first_name": {
+            "type": "string",
+            "description": "All letters uppercase"
+          },
+          "hair_color": {
+            "type": "string",
+            "description": "All letters uppercase"
+          },
+          "issue_date": {
+            "type": "string",
+            "description": "formatted as MM/DD/YYYY"
+          },
+          "date_of_birth": {
+            "type": "string",
+            "description": "formatted as MM/DD/YYYY"
+          },
+          "expiration_date": {
+            "type": "string",
+            "description": "formatted as MM/DD/YYYY"
+          },
+          "driver_license_number": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

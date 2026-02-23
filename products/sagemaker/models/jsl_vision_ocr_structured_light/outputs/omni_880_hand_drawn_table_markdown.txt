@@ -1,0 +1,25 @@
+Number and Percent of Students with Positive Clinical Findings by Sex (1972)
+
+Physical Examinations were given to a total of 105 males and 100 females
+
+| Physical Finding | Male Number | Male Percent | Female Number | Female Percent |
+|------------------|-------------|--------------|---------------|----------------|
+| LIPS             |             |              |               |                |
+| Pallor of mucosa | 0           | 0            | 2             | 2.00           |
+| GUMS             |             |              |               |                |
+| Marginal redness or swelling | 3 | 2.86 | 2 | 2.00 |
+| FACE AND NECK    |             |              |               |                |
+| Thyroid enlarged: GO | 2 | 1.90 | 8 | 8.00 |
+|                  |             |              |               |                |
+|                  | 7 | 6.67 | 7 | 7.00 |
+|                  |             |              |               |                |
+|                  | 1 | 0.95 | 4 | 4.00 |
+| TONGUE           |             |              |               |                |
+| Filiform papillary atrophy | 7 | 6.67 | 3 | 3.00 |
+| Fungiform papillary hyperdrophy | 1 | 0.95 | 0 | 0 |
+| Fissures         | 0 | 0 | 1 | 1.00 |
+| Geographic       | 1 | 0.95 | 0 | 0 |
+| TEETH            |             |              |               |                |
+| Cavities in four or more teeth | 5 | 4.76 | 3 | 3.00 |
+| SKIN             |             |              |               |                |
+| Follicular hyperkeratosis | 0 | 0 | 2 | 2.00 |

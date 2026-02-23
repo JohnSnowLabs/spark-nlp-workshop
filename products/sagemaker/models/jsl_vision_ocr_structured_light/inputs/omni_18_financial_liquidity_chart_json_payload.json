@@ -1,0 +1,75 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"title\": \"LiquidityAndCoverage\",\n  \"required\": [\n    \"liquidityCoverageRatios\",\n    \"totalLiquidityReserves\"\n  ],\n  \"properties\": {\n    \"totalLiquidityReserves\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"required\": [\n          \"period\",\n          \"liquidityReservesMillions\"\n        ],\n        \"properties\": {\n          \"period\": {\n            \"type\": \"string\",\n            \"description\": \"Reporting period (e.g., '4Q19', '3Q23')\"\n          },\n          \"liquidityReservesMillions\": {\n            \"type\": \"number\",\n            \"description\": \"Total liquidity reserves in millions of USD for the period\"\n          }\n        }\n      },\n      \"description\": \"Total liquidity reserves in millions of USD for each reporting period\"\n    },\n    \"liquidityCoverageRatios\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"required\": [\n          \"period\",\n          \"lcrPercent\"\n        ],\n        \"properties\": {\n          \"period\": {\n            \"type\": \"string\",\n            \"description\": \"Reporting period (e.g., '3Q23', '4Q23')\"\n          },\n          \"lcrPercent\": {\n            \"type\": \"number\",\n            \"description\": \"Decimal representation of the LCR percentage (e.g., 1.55 for 155%)\"\n          }\n        }\n      },\n      \"description\": \"Average quarterly LCR (Liquidity Coverage Ratio) over time\"\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "# Liquidity\n\n## Average Quarterly Liquidity Coverage Ratio (\"LCR\")\n\n- 3Q23: 155%\n- 4Q23: 167%\n- 1Q24: 164%\n- 2Q24: 155%\n- 3Q24: 163%\n\n_Liquidity coverage ratio_\n\n## Total Liquidity Reserves ($M)\n\n- 4Q19: $90,557\n- 3Q23: $118,352\n- 4Q23: $120,652\n- 1Q24: $127,481\n- 2Q24: $122,914\n- 3Q24: $131,622\n\n\u2191 7% Q/Q  \n\u2191 11% Y/Y\n\n- FHLB eligible loans\n- Investment securities\n- Cash and cash equivalents\n\n## Third Quarter 2024 Highlights\n\n- Average quarterly Liquidity Coverage Ratio of 163%\n- Total liquidity reserves of $131.6 billion as of September 30, 2024\n  - $49.3 billion in cash and cash equivalents\n\nNote: The Q3'24 LCR is preliminary and therefore subject to change.  \n(1) Amount above represents unencumbered liquidity reserves. Securities pledged and eligible to secure FHLB borrowing capacity are presented within investment securities above."
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "title": "LiquidityAndCoverage",
+        "required": [
+          "liquidityCoverageRatios",
+          "totalLiquidityReserves"
+        ],
+        "properties": {
+          "totalLiquidityReserves": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "period",
+                "liquidityReservesMillions"
+              ],
+              "properties": {
+                "period": {
+                  "type": "string",
+                  "description": "Reporting period (e.g., '4Q19', '3Q23')"
+                },
+                "liquidityReservesMillions": {
+                  "type": "number",
+                  "description": "Total liquidity reserves in millions of USD for the period"
+                }
+              }
+            },
+            "description": "Total liquidity reserves in millions of USD for each reporting period"
+          },
+          "liquidityCoverageRatios": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "period",
+                "lcrPercent"
+              ],
+              "properties": {
+                "period": {
+                  "type": "string",
+                  "description": "Reporting period (e.g., '3Q23', '4Q23')"
+                },
+                "lcrPercent": {
+                  "type": "number",
+                  "description": "Decimal representation of the LCR percentage (e.g., 1.55 for 155%)"
+                }
+              }
+            },
+            "description": "Average quarterly LCR (Liquidity Coverage Ratio) over time"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"required\": [\n    \"transactions\"\n  ],\n  \"properties\": {\n    \"transactions\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"required\": [\n          \"period\",\n          \"value\",\n          \"category\"\n        ],\n        \"properties\": {\n          \"value\": {\n            \"type\": \"number\",\n            \"description\": \"The value of the transaction in millions.\"\n          },\n          \"period\": {\n            \"type\": \"string\",\n            \"pattern\": \"^Q[1-4]-\\\\d{4}$\",\n            \"description\": \"The period in the format Q[1-4]-YYYY (e.g., Q1-2017).\"\n          },\n          \"category\": {\n            \"type\": \"string\",\n            \"description\": \"The category of the transaction (e.g., Multifamily Housing).\"\n          }\n        },\n        \"additionalProperties\": false\n      },\n      \"description\": \"Quarterly real estate transcations by property class.\"\n    },\n    \"transactionsByCity\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"required\": [\n          \"year\",\n          \"value\",\n          \"city\"\n        ],\n        \"properties\": {\n          \"city\": {\n            \"type\": \"string\",\n            \"description\": \"City name\"\n          },\n          \"year\": {\n            \"type\": \"string\",\n            \"description\": \"The year in YYYY format (e.g. 2017).\"\n          },\n          \"value\": {\n            \"type\": \"number\",\n            \"description\": \"Total value transactions in millions.\"\n          }\n        },\n        \"additionalProperties\": false\n      },\n      \"description\": \"Total Real estate transcations by city.\"\n    }\n  },\n  \"additionalProperties\": false\n}"
+    },
+    {
+      "role": "user",
+      "content": "# Quarterly Transaction Insights\n\n## Sector Overview\n\n- **Commercial Industrial**  \n  Avg: $22.5M  \n  Median: $26.5M\n\n- **Multifamily Housing**  \n  Avg: $16.8M  \n  Median: $13.5M\n\n- **Educational Buildings**  \n  Avg: $5.0M  \n  Median: $5.0M\n\n- **State & Federal Construction**  \n  Avg: $11.5M  \n  Median: $11.5M\n\n## Transactions by Quarter (2017)\n\n<chart>\nBar chart showing transaction amounts ($M) by quarter for four sectors:\n- **Commercial Industrial (gray bars)**: Q1-2017: 30, Q2-2017: 23, Q3-2017: 6, Q4-2017: 31\n- **Multifamily Housing (orange bars)**: Q1-2017: 15, Q2-2017: 10, Q3-2017: 12, Q4-2017: 30\n- **Educational Buildings (blue bars)**: Q1-2017: 3, Q2-2017: 7, Q3-2017: 3, Q4-2017: 7\n- **State & Federal Construction (green bars)**: Q1-2017: 4, Q2-2017: 15, Q3-2017: 8, Q4-2017: 19\n</chart>\n\nLegend:  \n\ud83d\udfe3 Transactions by Quarter\n\n## City-Level Transaction Data (2017)\n\n<table>\n  <tr>\n    <th>City</th>\n    <th>Year</th>\n    <th>Transactions (Total)</th>\n    <th>Permits Filed</th>\n    <th>Commercial Industrial</th>\n    <th>Multifamily Housing</th>\n    <th>Educational Buildings</th>\n    <th>State & Federal Construction</th>\n  </tr>\n  <tr>\n    <td>Chicago</td>\n    <td>2017</td>\n    <td>$104M</td>\n    <td>136</td>\n    <td>$40.5M</td>\n    <td>$7.7M</td>\n    <td>$9.9M</td>\n    <td>$46.0M</td>\n  </tr>\n  <tr>\n    <td>San Francisco</td>\n    <td>2017</td>\n    <td>$250M</td>\n    <td>309</td>\n    <td>$93.5M</td>\n    <td>$80.6M</td>\n    <td>$14.5M</td>\n    <td>$61.3M</td>\n  </tr>\n  <tr>\n    <td>Indianapolis</td>\n    <td>2017</td>\n    <td>$135M</td>\n    <td>128</td>\n    <td>$18.3M</td>\n    <td>$30.9M</td>\n    <td>$50.2M</td>\n    <td>$35.6M</td>\n  </tr>\n  <tr>\n    <td>Austin</td>\n    <td>2017</td>\n    <td>$184M</td>\n    <td>455</td>\n    <td>$34.8M</td>\n    <td>$44.7M</td>\n    <td>$63.1M</td>\n    <td>$41.4M</td>\n  </tr>\n  <tr>\n    <td>Los Angeles</td>\n    <td>2017</td>\n    <td>$196M</td>\n    <td>181</td>\n    <td>$74.1M</td>\n    <td>$39.8M</td>\n    <td>$25.5M</td>\n    <td>$56.6M</td>\n  </tr>\n</table>\n\n<logo>LoopNet\u2122</logo>  \nLoopnet Investment Opportunities  \n<page_number>Page 27</page_number>"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "required": [
+          "transactions"
+        ],
+        "properties": {
+          "transactions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "period",
+                "value",
+                "category"
+              ],
+              "properties": {
+                "value": {
+                  "type": "number",
+                  "description": "The value of the transaction in millions."
+                },
+                "period": {
+                  "type": "string",
+                  "pattern": "^Q[1-4]-\\d{4}$",
+                  "description": "The period in the format Q[1-4]-YYYY (e.g., Q1-2017)."
+                },
+                "category": {
+                  "type": "string",
+                  "description": "The category of the transaction (e.g., Multifamily Housing)."
+                }
+              },
+              "additionalProperties": false
+            },
+            "description": "Quarterly real estate transcations by property class."
+          },
+          "transactionsByCity": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "year",
+                "value",
+                "city"
+              ],
+              "properties": {
+                "city": {
+                  "type": "string",
+                  "description": "City name"
+                },
+                "year": {
+                  "type": "string",
+                  "description": "The year in YYYY format (e.g. 2017)."
+                },
+                "value": {
+                  "type": "number",
+                  "description": "Total value transactions in millions."
+                }
+              },
+              "additionalProperties": false
+            },
+            "description": "Total Real estate transcations by city."
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

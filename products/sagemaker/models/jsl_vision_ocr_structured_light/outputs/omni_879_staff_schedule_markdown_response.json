@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-b6acf9599ef0952e",
+  "object": "chat.completion",
+  "created": 1769091383,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# Staff Shift Schedule\n\nKellicburgh Medical Center -  \nWeek of June 1, 2025\n\n| Employee                  | ID      | Department  | Sun 1         | Mon 2         | Tue 3         | Wed 4         | Thu 5         | Fri 6         | Sat 7         |\n|---------------------------|---------|-------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|\n| Julie Miller              | HHPXAZ  | Emergency   | Night 23:00-07:00 |               |               | Leave Sick Leave |               | Afternoon 15:00-23:00 | Afternoon 15:00-23:00 |\n| Doreen Blanda             | TVDZ9A  | Radiology   | Leave Training | Morning 07:00-15:00 |               |               |               | Afternoon 15:00-23:00 | Morning 07:00-15:00 |\n| Erin Robel                | 70S1PH  | ICU         |               |               |               | Leave Vacation |               |               |               |\n| Mr. Marlon Crona          | PBB151  | Surgery     | Leave Personal |               | Morning 07:00-15:00 |               |               | Afternoon 15:00-23:00 | Morning 07:00-15:00 |\n| Inez Murazik              | 4YZ9XI  | Pediatrics  |               | Night 23:00-07:00 | Leave Training |               |               |               | Leave Personal |\n| Olga Glover               | IUPTZX  | Radiology   |               | Leave Training |               |               | Leave Vacation | Afternoon 15:00-23:00 |               |\n| Dr. Terence Kassulke      | 7Q71BQ  | Neurology   | Night 23:00-07:00 | Night 23:00-07:00 | Afternoon 15:00-23:00 | Leave Training |               |               | Morning 07:00-15:00 |\n| Mable Johnston            | CG6EC9  | General Ward| Night 23:00-07:00 | Morning 07:00-15:00 |               |               | Leave Vacation |               | Leave Vacation |\n| Cindy Wiza                | CN0ZHH  | Oncology    | Afternoon 15:00-23:00 |               |               | Morning 07:00-15:00 |               | Leave Personal | Night 23:00-07:00 |\n| Annie Cruickshank         | L6HWD2  | ICU         |               |               |               | Morning 07:00-15:00 | Afternoon 15:00-23:00 |               |               |\n| Josefina Parisian-Keebler | WMHTXI  | Radiology   | Afternoon 15:00-23:00 |               | Night 23:00-07:00 |               |               | Leave Sick Leave |               |\n| Laurence Funk I           | LPVEMY  | Surgery     | Leave Sick Leave |               |               |               | Night 23:00-07:00 | Leave Personal | Morning 07:00-15:00 |\n| Dr. Joshua Jakubowski     | A5VMR8  | Emergency   | Afternoon 15:00-23:00 |               | Morning 07:00-15:00 | Morning 07:00-15:00 | Night 23:00-07:00 |               | Leave Training |\n| Mr. Caleb Schulist        | UNWKMT  | General Ward| Morning 07:00-15:00 | Morning 07:00-15:00 | Morning 07:00-15:00 |               | Afternoon 15:00-23:00 | Leave Vacation | Afternoon 15:00-23:00 |\n| Kelly Raynor              | 9GRIX7  | ICU         |               |               | Afternoon 15:00-23:00 |               |               |              ",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "length",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 2735,
+    "total_tokens": 3759,
+    "completion_tokens": 1024,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

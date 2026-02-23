@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-9b2df01612cb7b2f",
+  "object": "chat.completion",
+  "created": 1769091105,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"checks\": [\n    {\n      \"bankInfo\": {\n        \"bank\": \"CHASE\"\n      },\n      \"checkInfo\": {\n        \"date\": \"2025-02-03\",\n        \"memo\": \"contract payment\",\n        \"micr\": {\n          \"checkNumber\": 766800721,\n          \"accountNumber\": 2564397564,\n          \"routingNumber\": 1869\n        },\n        \"payee\": \"Ryan Group\",\n        \"amount\": 2763.23,\n        \"amountInWords\": \"Two Thousand Seven Hundred Sixty Three and 23/100\"\n      },\n      \"personalInfo\": {\n        \"zip\": \"64043-8959\",\n        \"city\": \"Collierville\",\n        \"state\": \"Montana\",\n        \"address\": \"97864 N Broadway Street\",\n        \"lastName\": \"Deckow\",\n        \"firstName\": \"Lolita\"\n      }\n    }\n  ]\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 775,
+    "total_tokens": 1005,
+    "completion_tokens": 230,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

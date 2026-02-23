@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-ac6ed6159a71a8aa",
+  "object": "chat.completion",
+  "created": 1769091335,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# Medical Equipment Inspection Checklist\n\n**Equipment ID:** OCTAMI2I  \n**Model:** O'Hara LLC mNYv  \n**Department:** Operating Room  \n**Inspection Date:** 2025-02-13  \n**Inspector:** Marcos Buckridge  \n\n## Physical Condition\n\n| Checkpoint                  | Functional | Needs Service | Defective | Not Applicable | Notes                                      |\n|-----------------------------|------------|---------------|-----------|----------------|--------------------------------------------|\n| Equipment housing intact    | \u2611          |               |           |                | Backup system needs verification. Last checked on 2/12/2025 |\n| Display screen clear        | \u2611          |               |           |                | Critical error in self-diagnostic          |\n| Control buttons functional  | \u2611          |               |           |                |                                            |\n| Power cord undamaged        |            |               |           |                |                                            |\n| Mounting brackets secure    |            |               | \u2611         |                | Battery backup needs testing               |\n| Wheels/casters condition    | \u2611          |               |           |                |                                            |\n| Labels and markings legible | \u2611          |               |           |                |                                            |\n| Accessories complete        |            |               |           |                |                                            |\n\n## Electrical Safety\n\n| Checkpoint               | Functional | Needs Service | Defective | Not Applicable | Notes                          |\n|--------------------------|------------|---------------|-----------|----------------|--------------------------------|\n| Ground connection        | \u2611          |               |           |                |                                |\n| Insulation resistance    |            |               |           |                |                                |\n| Leakage current          | \u2611          |               |           |                |                                |\n| Power supply stable      |            |               |           |                |                                |\n| Battery backup functional| \u2611          |               |           |                |                                |\n| Circuit breaker operation| \u2611          |               |           |                |                                |\n| Surge protection         | \u2611          |               |           |                |                                |\n| Cable connections secure |            |               | \u2611         |                | Critical error in self-diagnostic |\n\n## Performance Tests\n\n| Checkpoint               | Functional | Needs Service | Defective | Not Applicable | Notes                                      |\n|--------------------------|------------|---------------|-----------|----------------|--------------------------------------------|\n| Self-test passed         | \u2611          |               |           |                |                                            |\n| Calibration check        | \u2611          |               |           |                |                                            |\n| Alarm systems            | \u2611          |               |           |                |                                            |\n| Backup systems           | \u2611          |               |           |                |                                            |\n| Output accuracy          |            |               | \u2611         |                | Battery backup needs testing. Reference ID: EBT9QX |\n| Response time            | \u2611          |               |           |                |                                            |\n| Data storage/retrieval   |            | \u2611             |           |                |                                            |\n| Network connectivity     | \u2611          |               |           |                |                                            |\n| Sensor accuracy          | \u2611          |               |           |                |                                            |\n\n## Overall Status\n\n**Inspection Result:** \u2611  \n**Next Inspection Due:** 2025-05-26",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1967,
+    "total_tokens": 2646,
+    "completion_tokens": 679,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}
