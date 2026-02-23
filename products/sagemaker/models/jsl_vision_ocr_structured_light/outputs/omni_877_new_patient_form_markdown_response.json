@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-88224b0ce029163f",
+  "object": "chat.completion",
+  "created": 1769091372,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# New Patient Form\n\n**FIRST NAME:** Sophia  \n**LAST NAME:** Doe  \n\n**MARITAL STATUS:** \u2610 Single \u2610 Married \u2610 Divorced \u2610 Separated \u2611 Widowed  \n\n**ADDRESS:** 2237A Dove Rd  \n\n**CITY:** Waimanalo  \n**STATE:** HI  \n**ZIP:** 96795  \n\n**PHONE:** (758) 473-1776  \n**DOB:** 04/27/1973  \n\n**SPOUSE NAME:**  \n**SPOUSE PHONE:**  \n\nIs the requested medication \u2611 NEW or a \u2610 CONTINUATION of THERAPY? If so, start date: ___________  \n\nHave you been hospitalized in the past year? \u2611 Yes \u2610 No  \n\n---\n\n## Review of Symptoms\n\n- Allergies \u2610\n- Black Outs \u2610\n- Blurred Vision \u2611\n- Chest Pain \u2611\n- Coughing \u2611\n- Dental Problems \u2611\n- Double Vision \u2610\n- Excessive Bruising \u2610\n- Excessive Thirst \u2610\n- Fatigue \u2611\n- Headaches \u2611\n- Irregular Heart Rate \u2610\n- Muscle Pain \u2611\n- Shortness Of Breath \u2611\n- Tuberculosis Exposure \u2611\n- Calf Pain \u2610\n- Chills \u2611\n- Coughing Up Blood \u2611\n- Difficulty Emptying Bowel Or Bladder \u2610\n- Enlarged Glands \u2611\n- Excessive Stress \u2610\n- Eye Pain \u2611\n- Fever \u2611\n- Hearing Loss \u2611\n- Joint Swelling \u2611\n- Seizures \u2611\n- Stomach Trouble Or Ulcers \u2611\n- Weight Gain Or Loss Greater Than 10 Lbs \u2610  \n\n---\n\n## Previous Health History\n\n**PRIMARY CARE PHYSICIAN:** Dr. Emily Miller  \n**LAST SEEN DATE:** December 5, 1992  \n\nHave you received chiropractic care? \u2611 Yes \u2610 No  \nHave you received acupuncture care? \u2611 Yes \u2610 No  \n\n**PRESCRIPTION DRUGS:**  \n\u2611 Antidepressants  \n\u2611 Birth Control Pills  \n\u2611 Diet Pills  \n\u2610 Muscle Relaxers  \n\u2610 Pain Pills  \nOther: zolpidem  \n\n\u2611 Anti Inflammatory  \n\u2610 Blood Pressure Medication  \n\u2610 Blood Sugar Medication  \n\u2610 Insulin  \n\u2610 Sleeping Pills  \n\n**OVER-THE-COUNTER DRUGS:** afrin, icy hot  \n\n**ACCIDENTS OR INJURIES:** broken collarbone  \n\n**VITAMINS OR SUPPLEMENTS:** vitamin b5",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1967,
+    "total_tokens": 2521,
+    "completion_tokens": 554,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

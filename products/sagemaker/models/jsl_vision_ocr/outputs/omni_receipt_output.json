@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-b7dac5bac558cbb7",
+  "object": "chat.completion",
+  "created": 1769001613,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "<logo>Super Seven Cash & Carry SDN BHD</logo>  \n(P590150-A)  \nPASARAYA BORONG SUPER SEVEN  \nNC. 1 Jalan Euro 1  \nOff Jalan Batu Tiga  \nSungai Buloh Sekyen U3 Shah Alam, 40150  \nhttp://www.super7.com.my  \nTEL : 03-78590861  \nFAX : 03-78590864  \n\nGST ID : 000639090688  \n\nTAX INVOICE  \n\nCustomer : [77853745]  \nMrs. ONG GUAT CHYE  \n\nTAX INVOICE NO : 179509 COUNTER : 004  \nOPERATOR : [NUR ATIQAH BINTI MUH-CASHIER]  \n01-03-2018 09:23:06 AM  \n\n| Item Code | Description | Quantity | Price (RM) | Total (RM) |  \n|-----------|-------------|----------|------------|------------|  \n| 40212 | TENDERLOIN @43.37 | 1 | 43.37 | 43.37 |  \n| 40240 | D31 TENDERLOIN @49.42 | 1 | 49.42 | 49.42 |  \n| 40240 | D31 TENDERLOIN @43.90 | 1 | 43.90 | 43.90 |  \n| 40240 | D31 TENDERLOIN @49.66 | 1 | 49.66 | 49.66 |  \n| 9556276020392 | AYAMAS CHICKEN FRANKFURTER 340G @4.30 | 8 | 34.40 | 34.40 |  \n| 8888010995552 | BUTTERCUP LUXURY SPREAD 500G @9.90 | 1 | 9.90 | 9.90 |  \n| 8888010995552 | BUTTERCUP LUXURY SPREAD 500G @9.90 | 1 | 9.90 | 9.90 |  \n| 9554100149455 | QY CINCAU 2KG @3.90 | 1 | 3.90 | 3.90 |  \n| 9557240160502 | CRAB NUGGET 500G MUSHROOM @8.20 | 20 | 164.00 | 164.00 |  \n\nQUANTITY : 35 Units  \n\nTotal Sales (Incl. GST @6%) RM408.45  \nRounding Adjustment RM0.00  \nNet Total RM408.45 ☑  \n\nPayment Method MASTER CARD  \n\nGST Summary  \nSales Amt (RM) Tax Amt (RM)  \nZR (0%) 186.35 0.00  \nSR (6%) 209.53 12.57 ☑  \n\nPLEASE VERIFY YOUR RECEIPT BEFORE LEAVING THE COUNTER.  \nGOODS SOLD ARE NOT RETURNABLE.  \n\n<watermark>OFFICIAL COPY</watermark>  \n<page_number>1</page_number>  \nTHANK YOU",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 3498,
+    "total_tokens": 4323,
+    "completion_tokens": 825,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

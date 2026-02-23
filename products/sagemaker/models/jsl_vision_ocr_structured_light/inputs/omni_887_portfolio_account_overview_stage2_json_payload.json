@@ -1,0 +1,114 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"required\": [\n    \"equipmentInfo\",\n    \"checkpoints\",\n    \"overallStatus\"\n  ],\n  \"properties\": {\n    \"checkpoints\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"required\": [\n          \"category\",\n          \"items\"\n        ],\n        \"properties\": {\n          \"items\": {\n            \"type\": \"array\",\n            \"items\": {\n              \"type\": \"object\",\n              \"required\": [\n                \"checkpoint\",\n                \"status\"\n              ],\n              \"properties\": {\n                \"status\": {\n                  \"enum\": [\n                    \"functional\",\n                    \"needsService\",\n                    \"defective\",\n                    \"pass\",\n                    \"fail\",\n                    \"na\"\n                  ],\n                  \"type\": \"string\"\n                },\n                \"checkpoint\": {\n                  \"type\": \"string\"\n                }\n              }\n            }\n          },\n          \"category\": {\n            \"type\": \"string\"\n          }\n        }\n      }\n    },\n    \"equipmentInfo\": {\n      \"type\": \"object\",\n      \"required\": [\n        \"equipmentId\",\n        \"model\",\n        \"inspectionDate\"\n      ],\n      \"properties\": {\n        \"model\": {\n          \"type\": \"string\"\n        },\n        \"inspector\": {\n          \"type\": \"string\"\n        },\n        \"department\": {\n          \"type\": \"string\"\n        },\n        \"equipmentId\": {\n          \"type\": \"string\"\n        },\n        \"inspectionDate\": {\n          \"type\": \"string\"\n        }\n      }\n    },\n    \"overallStatus\": {\n      \"type\": \"object\",\n      \"required\": [\n        \"passedInspection\",\n        \"nextInspectionDue\"\n      ],\n      \"properties\": {\n        \"passedInspection\": {\n          \"type\": \"boolean\"\n        },\n        \"nextInspectionDue\": {\n          \"type\": \"string\"\n        }\n      }\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "# Medical Equipment Inspection Checklist\n\nEquipment ID: SD4MSZN6  \nModel: Lowe, Hyatt and Bruen 5HOp  \nDepartment: ICU  \nInspection Date: 2025-02-12  \nInspector: Joanna Daniel  \n\n## Physical Condition\n\n<table>\n  <tr>\n    <th>Checkpoint</th>\n    <th>Pass</th>\n    <th>Fail</th>\n    <th>N/A</th>\n    <th>Notes</th>\n  </tr>\n  <tr>\n    <td>Equipment housing intact</td>\n    <td></td>\n    <td>\u2612</td>\n    <td></td>\n    <td>Control panel unresponsive. Reference ID: QXQR1D</td>\n  </tr>\n  <tr>\n    <td>Display screen clear</td>\n    <td>\u2611</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Control buttons functional</td>\n    <td></td>\n    <td></td>\n    <td>-</td>\n    <td>Optional component not present</td>\n  </tr>\n  <tr>\n    <td>Power cord undamaged</td>\n    <td>\u2611</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Mounting brackets secure</td>\n    <td>\u2611</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Wheels/casters condition</td>\n    <td></td>\n    <td></td>\n    <td>-</td>\n    <td>Not applicable for this configuration</td>\n  </tr>\n  <tr>\n    <td>Labels and markings legible</td>\n    <td>\u2611</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Accessories complete</td>\n    <td>\u2611</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n</table>\n\n## Electrical Safety\n\n<table>\n  <tr>\n    <th>Checkpoint</th>\n    <th>Pass</th>\n    <th>Fail</th>\n    <th>N/A</th>\n    <th>Notes</th>\n  </tr>\n  <tr>\n    <td>Ground connection</td>\n    <td>\u2611</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Insulation resistance</td>\n    <td>\u2611</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Leakage current</td>\n    <td>\u2611</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Power supply stable</td>\n    <td>\u2611</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Battery backup functional</td>\n    <td></td>\n    <td>\u2612</td>\n    <td></td>\n    <td>Multiple system failures detected. Last checked on 2/12/2025</td>\n  </tr>\n  <tr>\n    <td>Circuit breaker operation</td>\n    <td>\u2611</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Surge protection</td>\n    <td>\u2611</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Cable connections secure</td>\n    <td>\u2611</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n</table>\n\n## Performance Tests\n\n<table>\n  <tr>\n    <th>Checkpoint</th>\n    <th>Pass</th>\n    <th>Fail</th>\n    <th>N/A</th>\n    <th>Notes</th>\n  </tr>\n  <tr>\n    <td>Self-test passed</td>\n    <td>\u2611</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "required": [
+          "equipmentInfo",
+          "checkpoints",
+          "overallStatus"
+        ],
+        "properties": {
+          "checkpoints": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "category",
+                "items"
+              ],
+              "properties": {
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "checkpoint",
+                      "status"
+                    ],
+                    "properties": {
+                      "status": {
+                        "enum": [
+                          "functional",
+                          "needsService",
+                          "defective",
+                          "pass",
+                          "fail",
+                          "na"
+                        ],
+                        "type": "string"
+                      },
+                      "checkpoint": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "category": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "equipmentInfo": {
+            "type": "object",
+            "required": [
+              "equipmentId",
+              "model",
+              "inspectionDate"
+            ],
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "inspector": {
+                "type": "string"
+              },
+              "department": {
+                "type": "string"
+              },
+              "equipmentId": {
+                "type": "string"
+              },
+              "inspectionDate": {
+                "type": "string"
+              }
+            }
+          },
+          "overallStatus": {
+            "type": "object",
+            "required": [
+              "passedInspection",
+              "nextInspectionDue"
+            ],
+            "properties": {
+              "passedInspection": {
+                "type": "boolean"
+              },
+              "nextInspectionDue": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

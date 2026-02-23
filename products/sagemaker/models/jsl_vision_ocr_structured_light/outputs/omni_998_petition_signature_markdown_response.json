@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-b0cfe1759432b3ef",
+  "object": "chat.completion",
+  "created": 1769091502,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# DEMOCRATIC DESIGNATING PETITION\n## COUNTY OF Northamptonshire, STATE OF New York\n\nI, the undersigned, do hereby state that I am a duly enrolled voter of the Democratic Party and entitled to vote at the next primary election of such party, to be held on 2025-10-01, that my place of residence is truly stated opposite my signature hereto, and I do hereby designate the following named person (or persons) as a candidate for nomination of such party for public office or for election to a party position of such party.\n\n| NAME OF CANDIDATE | PUBLIC OFFICE OR PARTY POSITION | PLACE OF RESIDENCE |\n|-------------------|---------------------------------|--------------------|\n| Joy Witting       | New York State Senator - 6th District | 728 Batz Trace, Nicolaland, NY 42667 |\n\n| SIGNATURE OF ENROLLED ELECTOR | PRINTED NAME OF ELECTOR | DATE | RESIDENCE | TOWN OR CITY |\n|-------------------------------|-------------------------|------|-----------|--------------|\n| Lester Grant                  | Lester Grant            | 2025-02-18 | 186 Homenick Plaza | Mesa |\n| Gregg Aven Feeney             | Gregg Aven Feeney       | 2025-02-17 | 239 Wisoky Parkways | South Stefanie |\n| Fabiola Gerlich               | Fabiola Gerlich         | 2025-02-18 | 74310 Talia Road | Littelfurt |\n| Kristopher Langworth          | Kristopher Langworth    | 2025-02-18 | 485 Lula Cove | White Plains |\n| Rosario Stracke               | Rosario Stracke         | 2025-02-18 | 3741 Meadow Way | South Sokadbury |\n| George O'Hara                 | George O'Hara           | 2025-02-18 | 172 Klining Pass | Lardiesled |\n| Guy Quigley                   | Guy Quigley             | 2025-02-17 | 589 O'Hara Brook | Port Ruth |\n| Cody O'Connell                | Cody O'Connell          | 2025-02-18 | 94852 Willow Drive | Grand Rapids |\n| Reyna Kedling                 | Reyna Kedling           | 2025-02-18 | 310 N Walnut Street | Lake Rainaville |\n| Virgil Linke                  | Virgil Linke            | 2025-02-18 | 67893 Baidge Street | Lake Annabel |\n| Kenny Schinner                | Kenny Schinner          | 2025-02-18 | 7537 Kathleen Parks | Port Louveniastead |\n| Cora Cole                     | Cora Cole               | 2025-02-18 | 51977 Katherine Highway | Raworth |\n| Susanah Oszarski              | Susanah Oszarski        | 2025-02-18 | 69875 W 10th Street | North Larnicford |\n| Ito Strich                    | Ito Strich              | 2025-02-18 | 3044 Dale Curve | Lake Otlin |\n\n## STATEMENT OF WITNESS\nI, (print name) **Krystal Savayn**, state: I am a duly qualified voter of the State of New York and am an enrolled voter of the Democratic Party. I now reside at **50714 Blind Lane, 13430**.\n\nEach of the individuals whose names are subscribed to this petition sheet containing 14 signatures, subscribed the same in my presence on the dates above indicated and identified himself or herself to be the individual who signed this sheet.\n\nDate: **2025-02-18** Signature of Witness **Krystal Savayn**",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 2735,
+    "total_tokens": 3634,
+    "completion_tokens": 899,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

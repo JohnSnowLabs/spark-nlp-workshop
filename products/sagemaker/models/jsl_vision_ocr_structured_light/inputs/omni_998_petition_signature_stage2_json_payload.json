@@ -1,0 +1,121 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"required\": [\n    \"header\",\n    \"candidate\",\n    \"signatures\",\n    \"witness\"\n  ],\n  \"properties\": {\n    \"header\": {\n      \"type\": \"object\",\n      \"required\": [\n        \"title\",\n        \"county\",\n        \"state\",\n        \"electionDate\"\n      ],\n      \"properties\": {\n        \"state\": {\n          \"type\": \"string\"\n        },\n        \"title\": {\n          \"type\": \"string\"\n        },\n        \"county\": {\n          \"type\": \"string\"\n        },\n        \"electionDate\": {\n          \"type\": \"string\"\n        }\n      }\n    },\n    \"witness\": {\n      \"type\": \"object\",\n      \"required\": [\n        \"name\",\n        \"residence\",\n        \"date\"\n      ],\n      \"properties\": {\n        \"date\": {\n          \"type\": \"string\"\n        },\n        \"name\": {\n          \"type\": \"string\"\n        },\n        \"residence\": {\n          \"type\": \"string\"\n        }\n      }\n    },\n    \"candidate\": {\n      \"type\": \"object\",\n      \"required\": [\n        \"name\",\n        \"position\",\n        \"residence\"\n      ],\n      \"properties\": {\n        \"name\": {\n          \"type\": \"string\"\n        },\n        \"position\": {\n          \"type\": \"string\"\n        },\n        \"residence\": {\n          \"type\": \"string\"\n        }\n      }\n    },\n    \"signatures\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"required\": [\n          \"date\",\n          \"printName\",\n          \"residence\",\n          \"town\"\n        ],\n        \"properties\": {\n          \"date\": {\n            \"type\": \"string\"\n          },\n          \"town\": {\n            \"type\": \"string\"\n          },\n          \"printName\": {\n            \"type\": \"string\"\n          },\n          \"residence\": {\n            \"type\": \"string\"\n          }\n        }\n      }\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "# DEMOCRATIC DESIGNATING PETITION\n\n**COUNTY OF Northamptonshire, STATE OF New York**\n\nI, the undersigned, do hereby state that I am a duly enrolled voter of the Democratic Party and entitled to vote at the next primary election of such party, to be held on 2025-10-01, that my place of residence is truly stated opposite my signature hereto, and I do hereby designate the following named person (or persons) as a candidate for nomination of such party for public office or for election to a party position of such party.\n\n<table>\n  <tr>\n    <th>NAME OF CANDIDATE</th>\n    <th>PUBLIC OFFICE OR PARTY POSITION</th>\n    <th>PLACE OF RESIDENCE</th>\n  </tr>\n  <tr>\n    <td>Joy Witting</td>\n    <td>New York State Senator - 6th District</td>\n    <td>728 Batz Trace, Nicoland, NY 42667</td>\n  </tr>\n</table>\n\n<table>\n  <tr>\n    <th>SIGNATURE OF ENROLLED ELECTOR</th>\n    <th>PRINTED NAME OF ELECTOR</th>\n    <th>DATE</th>\n    <th>RESIDENCE</th>\n    <th>TOWN OR CITY</th>\n  </tr>\n  <tr>\n    <td>Lester Grant</td>\n    <td>Lester Grant</td>\n    <td>2025-02-18</td>\n    <td>186 Homenick Plaza</td>\n    <td>Mesa</td>\n  </tr>\n  <tr>\n    <td>Gregg Aver-Feeney</td>\n    <td>Gregg Aver-Feeney</td>\n    <td>2025-02-17</td>\n    <td>239 Wisoky Parkways</td>\n    <td>South Stefanie</td>\n  </tr>\n  <tr>\n    <td>Fabiola Gerlach</td>\n    <td>Fabiola Gerlach</td>\n    <td>2025-02-18</td>\n    <td>74310 Talia Rest</td>\n    <td>Littlefurt</td>\n  </tr>\n  <tr>\n    <td>Kristopher Langworth</td>\n    <td>Kristopher Langworth</td>\n    <td>2025-02-18</td>\n    <td>485 Lula Cove</td>\n    <td>White Plains</td>\n  </tr>\n  <tr>\n    <td>Rosario Stracke</td>\n    <td>Rosario Stracke</td>\n    <td>2025-02-18</td>\n    <td>3141 Meadow Way</td>\n    <td>South Sokedabury</td>\n  </tr>\n  <tr>\n    <td>George O'Hara</td>\n    <td>George O'Hara</td>\n    <td>2025-02-18</td>\n    <td>172 Kling Pass</td>\n    <td>Coraliestad</td>\n  </tr>\n  <tr>\n    <td>Guy Quigley</td>\n    <td>Guy Quigley</td>\n    <td>2025-02-17</td>\n    <td>589 O'Hara Brook</td>\n    <td>Port Ruth</td>\n  </tr>\n  <tr>\n    <td>Coby Obuneva</td>\n    <td>Coby Obuneva</td>\n    <td>2025-02-18</td>\n    <td>94852 Willow Drive</td>\n    <td>Grand Rapids</td>\n  </tr>\n  <tr>\n    <td>Reyna Keeling</td>\n    <td>Reyna Keeling</td>\n    <td>2025-02-18</td>\n    <td>310 N Walnut Street</td>\n    <td>Lake Reinaville</td>\n  </tr>\n  <tr>\n    <td>Virgil Lemke</td>\n    <td>Virgil Lemke</td>\n    <td>2025-02-18</td>\n    <td>67243 Bridge Street</td>\n    <td>Lake Annabel</td>\n  </tr>\n  <tr>\n    <td>Kenny Schinner</td>\n    <td>K"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "required": [
+          "header",
+          "candidate",
+          "signatures",
+          "witness"
+        ],
+        "properties": {
+          "header": {
+            "type": "object",
+            "required": [
+              "title",
+              "county",
+              "state",
+              "electionDate"
+            ],
+            "properties": {
+              "state": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "county": {
+                "type": "string"
+              },
+              "electionDate": {
+                "type": "string"
+              }
+            }
+          },
+          "witness": {
+            "type": "object",
+            "required": [
+              "name",
+              "residence",
+              "date"
+            ],
+            "properties": {
+              "date": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "residence": {
+                "type": "string"
+              }
+            }
+          },
+          "candidate": {
+            "type": "object",
+            "required": [
+              "name",
+              "position",
+              "residence"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "position": {
+                "type": "string"
+              },
+              "residence": {
+                "type": "string"
+              }
+            }
+          },
+          "signatures": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "date",
+                "printName",
+                "residence",
+                "town"
+              ],
+              "properties": {
+                "date": {
+                  "type": "string"
+                },
+                "town": {
+                  "type": "string"
+                },
+                "printName": {
+                  "type": "string"
+                },
+                "residence": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-86e6d44e04ccb18d",
+  "object": "chat.completion",
+  "created": 1769091128,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# RULES:\n- You must include all information on the page. Do not exclude headers, footers, charts, infographics, or subtext.\n- Return tables in an HTML format.\n- Logos should be wrapped in brackets. Ex: <logo>Coca-Cola</logo>\n- Watermarks should be wrapped in brackets. Ex: <watermark>OFFICIAL COPY</watermark>\n- Page numbers should be wrapped in brackets. Ex: <page_number>14</page_number> or <page_number>9/22</page_number>\n- Prefer using \u2610 and \u2611 for check boxes.\n\n---\n\n**City**  \nTown of  \nBorough  \n(Name of Municipality)  \n**New Haven**  \n\n**Democratic**  \n(Party)  \n\n**September 12, 2023**  \n(Date of Primary)  \n\n**NAME(S) OF CANDIDATE(S)**  \n(Note: Provide sufficient space)  \n**Thomas A. Goldenberg**  \n**324 Nicoll Street**  \n\n**OFFICE(S) SOUGHT**  \n**Mayor**  \n\n**TERM**  \n**1/1/24-12/31/25**  \n\n---\n\n**THIS PETITION MUST BE FILED WITH**  \n**200 Orange Street #201, New Haven, 06510**  \n(Address of said Registrar)  \n**Shannel Evans**  \n(Name of Registrar of Voters)  \n**, not later than 4:00 p.m. on August 9, 2023.**  \n\n---\n\n**B.** We, the undersigned, being enrolled members of the above party in the above municipality, do hereby petition that there be printed on the voting machine ballot labels to be used in the primary of said party in said municipality to be held on the date above specified the names of the above individuals as candidates for nomination to the offices specified:  \n\n<table>\n  <tr>\n    <th>SIGNATURE OF ENROLLED ELECTOR</th>\n    <th>PRINTED NAME OF ELECTOR</th>\n    <th>BIRTH DATE</th>\n    <th>STREET ADDRESS</th>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>Richard A. Lee</td>\n    <td>2/24/1944</td>\n    <td>70 Lyon St</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>Rebecca Smith</td>\n    <td>6/13/20</td>\n    <td>78 Lyon St</td>\n  </tr>\n  <tr>\n    <td>3</td>\n    <td>John Stachniak</td>\n    <td>10/13/69</td>\n    <td>74 Stachnewicz</td>\n  </tr>\n  <tr>\n    <td>4</td>\n    <td>James Balor</td>\n    <td>07/09/88</td>\n    <td>49 Lyon</td>\n  </tr>\n  <tr>\n    <td>5</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>6</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>7</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>10</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>11</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>12</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>13</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>14</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>15</td>\n    <",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "length",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 3503,
+    "total_tokens": 4527,
+    "completion_tokens": 1024,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

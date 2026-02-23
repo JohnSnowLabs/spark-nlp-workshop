@@ -1,0 +1,90 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"sex\": {\n      \"type\": \"string\"\n    },\n    \"class\": {\n      \"type\": \"string\"\n    },\n    \"height\": {\n      \"type\": \"string\"\n    },\n    \"weight\": {\n      \"type\": \"string\"\n    },\n    \"address\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"city\": {\n          \"type\": \"string\"\n        },\n        \"state\": {\n          \"type\": \"string\"\n        },\n        \"street\": {\n          \"type\": \"string\",\n          \"description\": \"\"\n        },\n        \"zip_code\": {\n          \"type\": \"string\"\n        }\n      },\n      \"description\": \"All letters uppercase\"\n    },\n    \"eye_color\": {\n      \"type\": \"string\",\n      \"description\": \"All letters uppercase\"\n    },\n    \"last_name\": {\n      \"type\": \"string\",\n      \"description\": \"All letters uppercase\"\n    },\n    \"first_name\": {\n      \"type\": \"string\",\n      \"description\": \"All letters uppercase\"\n    },\n    \"hair_color\": {\n      \"type\": \"string\",\n      \"description\": \"All letters uppercase\"\n    },\n    \"issue_date\": {\n      \"type\": \"string\",\n      \"description\": \"formatted as MM/DD/YYYY\"\n    },\n    \"date_of_birth\": {\n      \"type\": \"string\",\n      \"description\": \"formatted as MM/DD/YYYY\"\n    },\n    \"expiration_date\": {\n      \"type\": \"string\",\n      \"description\": \"formatted as MM/DD/YYYY\"\n    },\n    \"driver_license_number\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "<watermark>OFFICIAL COPY</watermark>\n\nEXPIRES ON BIRTHDAY  \n1970  \n\nCALIFORNIA LICENSE  \n\nISSUED IN ACCORDANCE WITH  \nTHE CALIFORNIA VEHICLE CODE  \n<signature>Ronald J. Thanner</signature>  \nDRIVERS LICENSE ADMINISTRATOR  \n\nDRIVER  \nW106438  \nDavid Franklin Thomas  \n5798 Olive St  \nParadise, Calif 95969  \n\n<logo>California Department of Motor Vehicles</logo>  \n\n<table>\n  <tr>\n    <th>SEX</th>\n    <th>COLOR HAIR</th>\n    <th>COLOR EYES</th>\n    <th>HEIGHT</th>\n    <th>WEIGHT</th>\n    <th>MARRIED</th>\n  </tr>\n  <tr>\n    <td>M</td>\n    <td>Gry</td>\n    <td>Blu</td>\n    <td>6-0</td>\n    <td>205</td>\n    <td>Yes</td>\n  </tr>\n  <tr>\n    <th>DATE OF BIRTH</th>\n    <th>AGE</th>\n    <th>PREVIOUS LICENSE</th>\n  </tr>\n  <tr>\n    <td>Aug 20, 1892</td>\n    <td>72</td>\n    <td>Calif</td>\n  </tr>\n  <tr>\n    <th>MUST WEAR CORRECTIVE LENSES</th>\n    <th>SEE OVER FOR ANY OTHER CONDITIONS</th>\n  </tr>\n  <tr>\n    <td>\u2611d</td>\n    <td>\u2610</td>\n  </tr>\n  <tr>\n    <th>OTHER ADDRESS</th>\n  </tr>\n  <tr>\n    <td>X <signature>D. F. Thomas</signature></td>\n  </tr>\n</table>\n\nCLASS 3. MAY DRIVE 2 AXLE VEHICLE, EXCEPT BUS DESIGNED FOR MORE THAN 15 PASSENGERS. MAY TOW VEHICLE LESS THAN 6,000 LBS. GROSS.  \nOffice Paradise  \nDate 8-4-65  \n\nMUST BE CARRIED WHEN OPERATING A MOTOR VEHICLE AND WHEN APPLYING FOR RENEWAL  \n\n<page_number>1</page_number>"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "sex": {
+            "type": "string"
+          },
+          "class": {
+            "type": "string"
+          },
+          "height": {
+            "type": "string"
+          },
+          "weight": {
+            "type": "string"
+          },
+          "address": {
+            "type": "object",
+            "properties": {
+              "city": {
+                "type": "string"
+              },
+              "state": {
+                "type": "string"
+              },
+              "street": {
+                "type": "string",
+                "description": ""
+              },
+              "zip_code": {
+                "type": "string"
+              }
+            },
+            "description": "All letters uppercase"
+          },
+          "eye_color": {
+            "type": "string",
+            "description": "All letters uppercase"
+          },
+          "last_name": {
+            "type": "string",
+            "description": "All letters uppercase"
+          },
+          "first_name": {
+            "type": "string",
+            "description": "All letters uppercase"
+          },
+          "hair_color": {
+            "type": "string",
+            "description": "All letters uppercase"
+          },
+          "issue_date": {
+            "type": "string",
+            "description": "formatted as MM/DD/YYYY"
+          },
+          "date_of_birth": {
+            "type": "string",
+            "description": "formatted as MM/DD/YYYY"
+          },
+          "expiration_date": {
+            "type": "string",
+            "description": "formatted as MM/DD/YYYY"
+          },
+          "driver_license_number": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

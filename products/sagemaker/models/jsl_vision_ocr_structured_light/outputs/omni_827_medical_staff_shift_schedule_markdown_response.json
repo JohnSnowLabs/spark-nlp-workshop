@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-bfa0799f0aa59e34",
+  "object": "chat.completion",
+  "created": 1769091289,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# Staff Shift Schedule\n\nWest Marshallstad Medical Center -  \nWeek of February 11, 2026\n\n| Employee           | ID     | Department  | Wed 11         | Thu 12         | Fri 13         | Sat 14         | Sun 15         | Mon 16         | Tue 17         |\n|--------------------|--------|-------------|----------------|----------------|----------------|----------------|----------------|----------------|----------------|\n| Dr. Todd Frami     | RDTBMO | General Ward| Morning 07:00-15:00 | Morning 07:00-15:00 | Leave Sick Leave | Leave Training |                |                |                |\n| Mrs. Mindy Lebsack | Q4FZ2T | Cardiology  |                |                |                | Morning 07:00-15:00 | Leave Vacation | Afternoon 15:00-23:00 |                |\n| Nathaniel Kessler  | R2VYRS | Pediatrics  | Leave Training | Morning 07:00-15:00 |                | Leave Personal |                | Night 23:00-07:00 |                |\n| Darlene Huel       | TI16VZ | ICU         | Leave Personal | Afternoon 15:00-23:00 |                | Morning 07:00-15:00 | Leave Personal |                |                |\n| Rosie Sanford      | 889QT8 | Oncology    | Afternoon 15:00-23:00 | Morning 07:00-15:00 | Morning 07:00-15:00 |                |                | Morning 07:00-15:00 | Afternoon 15:00-23:00 |\n| Clifton Schuppe    | TW0CAW | Oncology    | Leave Personal |                | Leave Training |                | Leave Training |                | Leave Sick Leave |\n| Dr. Inez Heaney I  | 8Q0R6W | Radiology   |                |                |                |                | Leave Training |                |                |\n| Claude Cartwright  | GMYUYE | Radiology   |                |                |                |                | Night 23:00-07:00 | Morning 07:00-15:00 |                |\n| Elvira Feil-Koss DVM | OODH2T | Emergency   | Leave Vacation |                | Leave Sick Leave | Leave Vacation |                |                |                |\n| Myra Murray        | JSFR3B | Cardiology  |                |                |                | Morning 07:00-15:00 | Afternoon 15:00-23:00 | Night 23:00-07:00 |                |\n| Dana Williamson    | 32UJ9T | Neurology   | Afternoon 15:00-23:00 |                |                | Leave Personal |                | Afternoon 15:00-23:00 |                |\n| Billie Wilkinson   | VROCD5 | Emergency   | Morning 07:00-15:00 |                | Leave Personal |                |                | Afternoon 15:00-23:00 | Leave Personal |\n| Bert Guskowski III | ILNY00 | Neurology   | Afternoon 15:00-23:00 | Morning 07:00-15:00 | Afternoon 15:00-23:00 |                |                | Leave Vacation |                |\n| Pamela West        | NMTFWF | Surgery     | Afternoon 15:00-23:00 | Morning 07:00-15:00 |                |                |                |                | Morning 07:00-15:00 |\n| Hannah Auer V      | TOYJ35 | Cardiology  |                |                | Afternoon 15:00-23:00 | Afternoon 15:00-23:00 | Leave Training | Leave Training | Morning 07:00-15:00 |\n| Jennifer Rodriguez | 3KQN0U | Radiology   | Night 23:00-07:00 | Night 23:00-07:00 |                |                |                | Morning 07:00-1",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "length",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 2735,
+    "total_tokens": 3759,
+    "completion_tokens": 1024,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

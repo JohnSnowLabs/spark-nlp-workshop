@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-80b2676dc1e5bdec",
+  "object": "chat.completion",
+  "created": 1769091197,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"vehicles\": [\n    {\n      \"info\": {\n        \"name\": \"Acura NSX Coupe\",\n        \"year\": 2020,\n        \"additional_details\": \"\"\n      },\n      \"facts\": {\n        \"mileage\": \"21 MPG City / 22 MPG Highway\",\n        \"drivetrain\": \"All Wheel\",\n        \"horsepower\": \"573 @ 6500\",\n        \"engine_type\": \"Twin Turbo Gas/Electric V-6\",\n        \"transmission\": \"Auto-Shift Manual w/OD\",\n        \"seating_capacity\": 2\n      },\n      \"pricing\": {\n        \"MSRP\": 157500,\n        \"invoice\": 146251,\n        \"destination\": 1995\n      },\n      \"warranty\": {\n        \"basic\": \"4 Years/50,000 Miles\",\n        \"drivetrain\": \"6 Years/70,000 Miles\",\n        \"roadside_assistance\": \"4 Years/50,000 Miles\"\n      }\n    },\n    {\n      \"info\": {\n        \"name\": \"Toyota GR Supra 3.0 Premium Auto (Nat'l)\",\n        \"year\": 2021,\n        \"additional_details\": \"\"\n      },\n      \"facts\": {\n        \"mileage\": \"22 MPG City / 30 MPG Highway\",\n        \"drivetrain\": \"Rear Wheel Drive\",\n        \"horsepower\": \"382 @ 5800\",\n        \"engine_type\": \"Intercooled Turbo Premium Unleaded I-6\",\n        \"transmission\": \"Automatic w/OD\",\n        \"seating_capacity\": 2\n      },\n      \"pricing\": {\n        \"MSRP\": 54490,\n        \"invoice\": 49586,\n        \"destination\": 995\n      },\n      \"warranty\": {\n        \"basic\": \"3 Years/36,000 Miles\",\n        \"drivetrain\": \"5 Years/60,000 Miles\",\n        \"roadside_assistance\": \"2 Years/Unlimited Miles\"\n      }\n    },\n    {\n      \"info\": {\n        \"name\": \"Nissan 370Z Coupe Sport Touring Auto\",\n        \"year\": 2020,\n        \"additional_details\": \"\"\n      },\n      \"facts\": {\n        \"mileage\": \"19 MPG City / 26 MPG Highway\",\n        \"drivetrain\": \"Rear Wheel Drive\",\n        \"horsepower\": \"332 @ 7000\",\n        \"engine_type\": \"Premium Unleaded V-6\",\n        \"transmission\": \"Automatic w/OD\",\n        \"seating_capacity\": 2\n      },\n      \"pricing\": {\n        \"MSRP\": 39490,\n        \"invoice\": 37685,\n        \"destination\": 925\n      },\n      \"warranty\": {\n        \"basic\": \"3 Years/36,000 Miles\",\n        \"drivetrain\": \"5 Years/60,000 Miles\",\n        \"roadside_assistance\": \"3 Years/36,000 Miles\"\n      }\n    }\n  ]\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1120,
+    "total_tokens": 1823,
+    "completion_tokens": 703,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

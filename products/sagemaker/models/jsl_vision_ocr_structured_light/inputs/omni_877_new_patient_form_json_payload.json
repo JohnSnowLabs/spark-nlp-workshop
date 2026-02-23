@@ -1,0 +1,225 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"required\": [\n    \"firstName\",\n    \"lastName\",\n    \"address\"\n  ],\n  \"properties\": {\n    \"dob\": {\n      \"type\": \"string\",\n      \"description\": \"Patient's date of birth as it appears\"\n    },\n    \"zip\": {\n      \"type\": \"string\",\n      \"description\": \"Patient's ZIP code as it appears\"\n    },\n    \"phone\": {\n      \"type\": \"string\",\n      \"description\": \"Patient's phone number as it appears\"\n    },\n    \"state\": {\n      \"type\": \"string\",\n      \"description\": \"Patient's state as it appears\"\n    },\n    \"address\": {\n      \"type\": \"string\",\n      \"description\": \"Street address of the patient as it appears, only including number and street\"\n    },\n    \"lastName\": {\n      \"type\": \"string\",\n      \"description\": \"Patient's last name\"\n    },\n    \"firstName\": {\n      \"type\": \"string\",\n      \"description\": \"Patient's first name\"\n    },\n    \"spouseName\": {\n      \"type\": \"string\",\n      \"description\": \"Spouse's name\"\n    },\n    \"isNewTherapy\": {\n      \"type\": \"boolean\",\n      \"description\": \"Indicates if requested medicine is new, must return true or false\"\n    },\n    \"maritalStatus\": {\n      \"emum\": [\n        \"Single\",\n        \"Married\",\n        \"Divorced\",\n        \"Separated\",\n        \"Widowed\"\n      ],\n      \"type\": \"string\",\n      \"description\": \"Patient's marital status\"\n    },\n    \"isHospitalized\": {\n      \"type\": \"boolean\",\n      \"description\": \"Indicates if patient has been hospitalized in the past year, must return true or false\"\n    },\n    \"reviewOfSymptoms\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"fever\": {\n          \"type\": \"boolean\",\n          \"description\": \"Indicates if patient has experienced a fever, must return true or false\"\n        },\n        \"chills\": {\n          \"type\": \"boolean\",\n          \"description\": \"Indicates if patient has experienced chills, must return true or false\"\n        },\n        \"coughing\": {\n          \"type\": \"boolean\",\n          \"description\": \"Indicates if patient has experienced persistent coughing, must return true or false\"\n        },\n        \"seizures\": {\n          \"type\": \"boolean\",\n          \"description\": \"Indicates if patient has experienced seizures, must return true or false\"\n        },\n        \"allergies\": {\n          \"type\": \"boolean\",\n          \"description\": \"Indicates if patient has allergies, must return true or false\"\n        },\n        \"chestPain\": {\n          \"type\": \"boolean\",\n          \"description\": \"Indicates if patient has experienced chest pain, must return true or false\"\n        },\n        \"blurredVision\": {\n          \"type\": \"boolean\",\n          \"description\": \"Indicates if patient has experienced blurred vision, must return true or false\"\n        },\n        \"dentalProblems\": {\n          \"type\": \"boolean\",\n          \"description\": \"Indicates if patient has experienced dental problems, must return true or false\"\n        },\n        \"enlargedGlands\": {\n          \"type\": \"boolean\",\n          \"description\": \"Indicates if patient has experienced enlarged glands, must return true or false\"\n        },\n        \"excessiveStress\": {\n          \"type\": \"boolean\",\n          \"description\": \"Indicates if patient has experienced excessive stress, must return true or false\"\n        },\n        \"excessiveBruising\": {\n          \"type\": \"boolean\",\n          \"description\": \"Indicates if patient has experienced excessive bruising, must return true or false\"\n        },\n        \"shortnessOfBreath\": {\n          \"type\": \"boolean\",\n          \"description\": \"Indicates if patient has experienced shortness of breath, must return true or false\"\n        },\n        \"irregularHeartRate\": {\n          \"type\": \"boolean\",\n          \"description\": \"Indicates if patient has experienced an irregular heart rate, must return true or false\"\n        },\n        \"tuberculosisExposure\": {\n          \"type\": \"boolean\",\n          \"description\": \"Indicates if patient has been exposed to tuberculosis, must return true or false\"\n        },\n        \"stomachTroubleOrUlcers\": {\n          \"type\": \"boolean\",\n          \"description\": \"Indicates if patient has experienced stomach trouble or ulcers, must return true or false\"\n        }\n      },\n      \"description\": \"Indicates if specific symptoms are present or not\"\n    },\n    \"previousHealthHistory\": {\n      \"type\": \"object\",\n      \"required\": [\n        \"primaryCarePhysician\"\n      ],\n      \"properties\": {\n        \"lastSeenDate\": {\n          \"type\": \"string\",\n          \"description\": \"Date last seen by physician\"\n        },\n        \"prescriptionDrugs\": {\n          \"type\": \"object\",\n          \"properties\": {\n            \"other\": {\n              \"type\": \"array\",\n              \"items\": {\n                \"type\": \"string\"\n              },\n              \"description\": \"List of other prescription drugs that patient uses, must return null if not provided\"\n            },\n            \"dietPills\": {\n              \"type\": \"boolean\",\n              \"description\": \"Indicates if patient uses diet pills, must return true or false\"\n            },\n            \"painPills\": {\n              \"type\": \"boolean\",\n              \"description\": \"Indicates if patient uses pain pills, must return true or false\"\n            },\n            \"muscleRelaxers\": {\n              \"type\": \"boolean\",\n              \"description\": \"Indicates if patient uses muscle relaxers, must return true or false\"\n            },\n            \"antidepressants\": {\n              \"type\": \"boolean\",\n              \"description\": \"Indicates if patient uses antidepressants, must return true or false\"\n            },\n            \"birthControlPills\": {\n              \"type\": \"boolean\",\n              \"description\": \"Indicates if patient uses birth control, must return true or false\"\n            },\n            \"bloodSugarMedication\": {\n              \"type\": \"boolean\",\n              \"description\": \"Indicates if patient uses blood sugar medication, must return true or false\"\n            }\n          },\n          \"description\": \"Details of prescription drugs currently taken\"\n        },\n        \"accidentsOrInjuries\": {\n          \"type\": \"array\",\n          \"items\": {\n            \"type\": \"string\"\n          },\n          \"description\": \"List of accidents or injuries that patient has experienced, must return null if not provided\"\n        },\n        \"overTheCounterDrugs\": {\n          \"type\": \"array\",\n          \"items\": {\n            \"type\": \"string\"\n          },\n          \"description\": \"List of over-the-counter drugs that patient uses, must return null if not provided\"\n        },\n        \"primaryCarePhysician\": {\n          \"type\": \"string\",\n          \"description\": \"Name of primary care physician\"\n        },\n        \"vitaminsOrSupplements\": {\n          \"type\": \"array\",\n          \"items\": {\n            \"type\": \"string\"\n          },\n          \"description\": \"List of vitamins or supplements that patient takes, must return null if not provided\"\n        }\n      },\n      \"description\": \"Details of patient's previous health history\"\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "# New Patient Form\n\n**FIRST NAME:** Sophia  \n**LAST NAME:** Doe  \n\n**MARITAL STATUS:** \u2610 Single \u2610 Married \u2610 Divorced \u2610 Separated \u2611 Widowed  \n\n**ADDRESS:** 2237A Dove Rd  \n\n**CITY:** Waimanalo  \n**STATE:** HI  \n**ZIP:** 96795  \n\n**PHONE:** (758) 473-1776  \n**DOB:** 04/27/1973  \n\n**SPOUSE NAME:**  \n**SPOUSE PHONE:**  \n\nIs the requested medication \u2611 NEW or a \u2610 CONTINUATION of THERAPY? If so, start date: ___________  \n\nHave you been hospitalized in the past year? \u2611 Yes \u2610 No  \n\n---\n\n## Review of Symptoms\n\n- Allergies \u2610\n- Black Outs \u2610\n- Blurred Vision \u2611\n- Chest Pain \u2611\n- Coughing \u2611\n- Dental Problems \u2611\n- Double Vision \u2610\n- Excessive Bruising \u2610\n- Excessive Thirst \u2610\n- Fatigue \u2611\n- Headaches \u2611\n- Irregular Heart Rate \u2610\n- Muscle Pain \u2611\n- Shortness Of Breath \u2611\n- Tuberculosis Exposure \u2611\n- Calf Pain \u2610\n- Chills \u2611\n- Coughing Up Blood \u2611\n- Difficulty Emptying Bowel Or Bladder \u2610\n- Enlarged Glands \u2611\n- Excessive Stress \u2610\n- Eye Pain \u2611\n- Fever \u2611\n- Hearing Loss \u2611\n- Joint Swelling \u2611\n- Seizures \u2611\n- Stomach Trouble Or Ulcers \u2611\n- Weight Gain Or Loss Greater Than 10 Lbs \u2610  \n\n---\n\n## Previous Health History\n\n**PRIMARY CARE PHYSICIAN:** Dr. Emily Miller  \n**LAST SEEN DATE:** December 5, 1992  \n\nHave you received chiropractic care? \u2611 Yes \u2610 No  \nHave you received acupuncture care? \u2611 Yes \u2610 No  \n\n**PRESCRIPTION DRUGS:**  \n\u2611 Antidepressants  \n\u2611 Birth Control Pills  \n\u2611 Diet Pills  \n\u2610 Muscle Relaxers  \n\u2610 Pain Pills  \nOther: zolpidem  \n\n\u2611 Anti Inflammatory  \n\u2610 Blood Pressure Medication  \n\u2610 Blood Sugar Medication  \n\u2610 Insulin  \n\u2610 Sleeping Pills  \n\n**OVER-THE-COUNTER DRUGS:** afrin, icy hot  \n\n**ACCIDENTS OR INJURIES:** broken collarbone  \n\n**VITAMINS OR SUPPLEMENTS:** vitamin b5"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "required": [
+          "firstName",
+          "lastName",
+          "address"
+        ],
+        "properties": {
+          "dob": {
+            "type": "string",
+            "description": "Patient's date of birth as it appears"
+          },
+          "zip": {
+            "type": "string",
+            "description": "Patient's ZIP code as it appears"
+          },
+          "phone": {
+            "type": "string",
+            "description": "Patient's phone number as it appears"
+          },
+          "state": {
+            "type": "string",
+            "description": "Patient's state as it appears"
+          },
+          "address": {
+            "type": "string",
+            "description": "Street address of the patient as it appears, only including number and street"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "Patient's last name"
+          },
+          "firstName": {
+            "type": "string",
+            "description": "Patient's first name"
+          },
+          "spouseName": {
+            "type": "string",
+            "description": "Spouse's name"
+          },
+          "isNewTherapy": {
+            "type": "boolean",
+            "description": "Indicates if requested medicine is new, must return true or false"
+          },
+          "maritalStatus": {
+            "emum": [
+              "Single",
+              "Married",
+              "Divorced",
+              "Separated",
+              "Widowed"
+            ],
+            "type": "string",
+            "description": "Patient's marital status"
+          },
+          "isHospitalized": {
+            "type": "boolean",
+            "description": "Indicates if patient has been hospitalized in the past year, must return true or false"
+          },
+          "reviewOfSymptoms": {
+            "type": "object",
+            "properties": {
+              "fever": {
+                "type": "boolean",
+                "description": "Indicates if patient has experienced a fever, must return true or false"
+              },
+              "chills": {
+                "type": "boolean",
+                "description": "Indicates if patient has experienced chills, must return true or false"
+              },
+              "coughing": {
+                "type": "boolean",
+                "description": "Indicates if patient has experienced persistent coughing, must return true or false"
+              },
+              "seizures": {
+                "type": "boolean",
+                "description": "Indicates if patient has experienced seizures, must return true or false"
+              },
+              "allergies": {
+                "type": "boolean",
+                "description": "Indicates if patient has allergies, must return true or false"
+              },
+              "chestPain": {
+                "type": "boolean",
+                "description": "Indicates if patient has experienced chest pain, must return true or false"
+              },
+              "blurredVision": {
+                "type": "boolean",
+                "description": "Indicates if patient has experienced blurred vision, must return true or false"
+              },
+              "dentalProblems": {
+                "type": "boolean",
+                "description": "Indicates if patient has experienced dental problems, must return true or false"
+              },
+              "enlargedGlands": {
+                "type": "boolean",
+                "description": "Indicates if patient has experienced enlarged glands, must return true or false"
+              },
+              "excessiveStress": {
+                "type": "boolean",
+                "description": "Indicates if patient has experienced excessive stress, must return true or false"
+              },
+              "excessiveBruising": {
+                "type": "boolean",
+                "description": "Indicates if patient has experienced excessive bruising, must return true or false"
+              },
+              "shortnessOfBreath": {
+                "type": "boolean",
+                "description": "Indicates if patient has experienced shortness of breath, must return true or false"
+              },
+              "irregularHeartRate": {
+                "type": "boolean",
+                "description": "Indicates if patient has experienced an irregular heart rate, must return true or false"
+              },
+              "tuberculosisExposure": {
+                "type": "boolean",
+                "description": "Indicates if patient has been exposed to tuberculosis, must return true or false"
+              },
+              "stomachTroubleOrUlcers": {
+                "type": "boolean",
+                "description": "Indicates if patient has experienced stomach trouble or ulcers, must return true or false"
+              }
+            },
+            "description": "Indicates if specific symptoms are present or not"
+          },
+          "previousHealthHistory": {
+            "type": "object",
+            "required": [
+              "primaryCarePhysician"
+            ],
+            "properties": {
+              "lastSeenDate": {
+                "type": "string",
+                "description": "Date last seen by physician"
+              },
+              "prescriptionDrugs": {
+                "type": "object",
+                "properties": {
+                  "other": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "description": "List of other prescription drugs that patient uses, must return null if not provided"
+                  },
+                  "dietPills": {
+                    "type": "boolean",
+                    "description": "Indicates if patient uses diet pills, must return true or false"
+                  },
+                  "painPills": {
+                    "type": "boolean",
+                    "description": "Indicates if patient uses pain pills, must return true or false"
+                  },
+                  "muscleRelaxers": {
+                    "type": "boolean",
+                    "description": "Indicates if patient uses muscle relaxers, must return true or false"
+                  },
+                  "antidepressants": {
+                    "type": "boolean",
+                    "description": "Indicates if patient uses antidepressants, must return true or false"
+                  },
+                  "birthControlPills": {
+                    "type": "boolean",
+                    "description": "Indicates if patient uses birth control, must return true or false"
+                  },
+                  "bloodSugarMedication": {
+                    "type": "boolean",
+                    "description": "Indicates if patient uses blood sugar medication, must return true or false"
+                  }
+                },
+                "description": "Details of prescription drugs currently taken"
+              },
+              "accidentsOrInjuries": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "List of accidents or injuries that patient has experienced, must return null if not provided"
+              },
+              "overTheCounterDrugs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "List of over-the-counter drugs that patient uses, must return null if not provided"
+              },
+              "primaryCarePhysician": {
+                "type": "string",
+                "description": "Name of primary care physician"
+              },
+              "vitaminsOrSupplements": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "List of vitamins or supplements that patient takes, must return null if not provided"
+              }
+            },
+            "description": "Details of patient's previous health history"
+          }
+        }
+      }
+    }
+  }
+}

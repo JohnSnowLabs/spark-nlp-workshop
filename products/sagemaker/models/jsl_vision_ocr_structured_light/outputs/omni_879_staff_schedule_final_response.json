@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-940bd9b332ccc208",
+  "object": "chat.completion",
+  "created": 1769091393,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"title\": \"Staff Shift Schedule\",\n  \"facility\": \"Kellicburgh Medical Center\",\n  \"employees\": [\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Night\",\n          \"hours\": \"23:00-07:00\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"hours\": \"Sick Leave\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        }\n      ],\n      \"department\": \"Emergency\",\n      \"employeeId\": \"HHPXAZ\",\n      \"employeeName\": \"Julie Miller\"\n    },\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Leave\",\n          \"hours\": \"Training\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"hours\": \"07:00-15:00\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"hours\": \"07:00-15:00\"\n        }\n      ],\n      \"department\": \"Radiology\",\n      \"employeeId\": \"TVDZ9A\",\n      \"employeeName\": \"Doreen Blanda\"\n    },\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Leave\",\n          \"hours\": \"Vacation\"\n        }\n      ],\n      \"department\": \"ICU\",\n      \"employeeId\": \"70S1PH\",\n      \"employeeName\": \"Erin Robel\"\n    },\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Leave\",\n          \"hours\": \"Personal\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"hours\": \"07:00-15:00\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"hours\": \"07:00-15:00\"\n        }\n      ],\n      \"department\": \"Surgery\",\n      \"employeeId\": \"PBB151\",\n      \"employeeName\": \"Mr. Marlon Crona\"\n    },\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Night\",\n          \"hours\": \"23:00-07:00\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"hours\": \"Training\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"hours\": \"Personal\"\n        }\n      ],\n      \"department\": \"Pediatrics\",\n      \"employeeId\": \"4YZ9XI\",\n      \"employeeName\": \"Inez Murazik\"\n    },\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Leave\",\n          \"hours\": \"Training\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"hours\": \"Vacation\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        }\n      ],\n      \"department\": \"Radiology\",\n      \"employeeId\": \"IUPTZX\",\n      \"employeeName\": \"Olga Glover\"\n    },\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Night\",\n          \"hours\": \"23:00-07:00\"\n        },\n        {\n          \"type\": \"Night\",\n          \"hours\": \"23:00-07:00\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"hours\": \"Training\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"hours\": \"07:00-15:00\"\n        }\n      ],\n      \"department\": \"Neurology\",\n      \"employeeId\": \"7Q71BQ\",\n      \"employeeName\": \"Dr. Terence Kassulke\"\n    },\n    {\n      \"shifts\": [\n        {\n          \"type\": \"Night\",\n          \"hours\": \"23:00-07:00\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"hours\": \"07:00-15:00\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"hours\": \"Vacation\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"hours\": \"Vacation\"\n       ",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "length",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1402,
+    "total_tokens": 2426,
+    "completion_tokens": 1024,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

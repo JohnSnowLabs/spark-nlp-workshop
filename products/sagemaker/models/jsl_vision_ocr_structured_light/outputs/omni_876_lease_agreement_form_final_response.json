@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-b5e53f04f2d90b27",
+  "object": "chat.completion",
+  "created": 1769091370,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"date\": \"2025-09-22\",\n  \"rent\": {\n    \"monthlyAmount\": 3449,\n    \"securityDeposit\": 8475\n  },\n  \"lease\": {\n    \"years\": 4,\n    \"months\": 4,\n    \"endDate\": \"2029-07-22\",\n    \"startDate\": \"2025-03-22\"\n  },\n  \"lessee\": {\n    \"name\": \"Kassulke - O'Conner\",\n    \"state\": \"California\",\n    \"streetAddress\": \"47632 Cassin Expressway\"\n  },\n  \"lessor\": {\n    \"name\": \"felipe Jones\",\n    \"state\": \"California\",\n    \"streetAddress\": \"2782 Viscaria Close\"\n  },\n  \"premises\": {\n    \"spaceType\": \"Warehouse\",\n    \"squareFeet\": \"4947\",\n    \"streetAddress\": \"99096 W 8th Street\"\n  }\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1099,
+    "total_tokens": 1331,
+    "completion_tokens": 232,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-b86d95f2739ba507",
+  "object": "chat.completion",
+  "created": 1769091341,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"checkpoints\": [\n    {\n      \"items\": [\n        {\n          \"status\": \"functional\",\n          \"checkpoint\": \"Equipment housing intact\"\n        },\n        {\n          \"status\": \"functional\",\n          \"checkpoint\": \"Display screen clear\"\n        },\n        {\n          \"status\": \"functional\",\n          \"checkpoint\": \"Control buttons functional\"\n        },\n        {\n          \"status\": \"needsService\",\n          \"checkpoint\": \"Power cord undamaged\"\n        },\n        {\n          \"status\": \"defective\",\n          \"checkpoint\": \"Mounting brackets secure\"\n        },\n        {\n          \"status\": \"functional\",\n          \"checkpoint\": \"Wheels/casters condition\"\n        },\n        {\n          \"status\": \"functional\",\n          \"checkpoint\": \"Labels and markings legible\"\n        },\n        {\n          \"status\": \"needsService\",\n          \"checkpoint\": \"Accessories complete\"\n        }\n      ],\n      \"category\": \"Physical Condition\"\n    },\n    {\n      \"items\": [\n        {\n          \"status\": \"functional\",\n          \"checkpoint\": \"Ground connection\"\n        },\n        {\n          \"status\": \"needsService\",\n          \"checkpoint\": \"Insulation resistance\"\n        },\n        {\n          \"status\": \"functional\",\n          \"checkpoint\": \"Leakage current\"\n        },\n        {\n          \"status\": \"needsService\",\n          \"checkpoint\": \"Power supply stable\"\n        },\n        {\n          \"status\": \"functional\",\n          \"checkpoint\": \"Battery backup functional\"\n        },\n        {\n          \"status\": \"functional\",\n          \"checkpoint\": \"Circuit breaker operation\"\n        },\n        {\n          \"status\": \"functional\",\n          \"checkpoint\": \"Surge protection\"\n        },\n        {\n          \"status\": \"defective\",\n          \"checkpoint\": \"Cable connections secure\"\n        }\n      ],\n      \"category\": \"Electrical Safety\"\n    },\n    {\n      \"items\": [\n        {\n          \"status\": \"functional\",\n          \"checkpoint\": \"Self-test passed\"\n        },\n        {\n          \"status\": \"functional\",\n          \"checkpoint\": \"Calibration check\"\n        },\n        {\n          \"status\": \"functional\",\n          \"checkpoint\": \"Alarm systems\"\n        },\n        {\n          \"status\": \"functional\",\n          \"checkpoint\": \"Backup systems\"\n        },\n        {\n          \"status\": \"defective\",\n          \"checkpoint\": \"Output accuracy\"\n        },\n        {\n          \"status\": \"functional\",\n          \"checkpoint\": \"Response time\"\n        },\n        {\n          \"status\": \"needsService\",\n          \"checkpoint\": \"Data storage/retrieval\"\n        },\n        {\n          \"status\": \"functional\",\n          \"checkpoint\": \"Network connectivity\"\n        },\n        {\n          \"status\": \"functional\",\n          \"checkpoint\": \"Sensor accuracy\"\n        }\n      ],\n      \"category\": \"Performance Tests\"\n    }\n  ],\n  \"equipmentInfo\": {\n    \"model\": \"O'Hara LLC mNYv\",\n    \"equipmentId\": \"OCTAMI2I\",\n    \"inspectionDate\": \"2025-02-13\"\n  },\n  \"overallStatus\": {\n    \"passedInspection\": true,\n    \"nextInspectionDue\": \"2025-05-26\"\n  }\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1108,
+    "total_tokens": 1774,
+    "completion_tokens": 666,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

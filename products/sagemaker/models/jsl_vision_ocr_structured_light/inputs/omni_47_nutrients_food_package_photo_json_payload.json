@@ -1,0 +1,72 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"iron\": {\n      \"type\": \"number\",\n      \"description\": \"Iron (in percentage)\"\n    },\n    \"sodium\": {\n      \"type\": \"number\",\n      \"description\": \"In mg\"\n    },\n    \"calcium\": {\n      \"type\": \"number\",\n      \"description\": \"Calcium (in percentage)\"\n    },\n    \"protein\": {\n      \"type\": \"number\",\n      \"description\": \"In gram\"\n    },\n    \"calories\": {\n      \"type\": \"number\",\n      \"description\": \"\"\n    },\n    \"total_fat\": {\n      \"type\": \"number\",\n      \"description\": \"In gram\"\n    },\n    \"vitamin_a\": {\n      \"type\": \"number\",\n      \"description\": \"Vitamin A (in percentage)\"\n    },\n    \"vitamin_c\": {\n      \"type\": \"number\",\n      \"description\": \"Vitamin C (in percentage)\"\n    },\n    \"cholesterol\": {\n      \"type\": \"number\",\n      \"description\": \"In mg\"\n    },\n    \"total_carbonhydrate\": {\n      \"type\": \"number\",\n      \"description\": \"In gram\"\n    },\n    \"servings_per_container\": {\n      \"type\": \"number\",\n      \"description\": \"\"\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "# Nutrition Facts / Datos de Nutrici\u00f3n\n\n**Serving Size:** 1 Pita Rellena (1 pita)  \n**Servings Per Container:** 1\n\n**Amount Per Serving**  \nCalories 180  \nCalories from Fat 35\n\n**% Daily Value***  \nTotal Fat 3.5g 5%  \nSaturated Fat 0.5g 3%  \nTrans Fat 0g  \nCholesterol 0mg 0%  \nSodium 50mg 2%  \nTotal Carbohydrate 30g 12%  \nDietary Fiber 1g less than 1%  \nSugars 3g  \nProtein 4g  \nVitamin A 0%  \nVitamin C 0%  \nCalcium 6%  \nIron 2%\n\n*Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs:  \nCalories 2,000 2,500  \nTotal Fat 65g 80g  \nSat. Fat 20g 25g  \nCholest. 300mg 300mg  \nSodium 2,000mg 2,000mg  \nTotal Carb 300g 375g  \nDietary Fiber 25g 30g  \nCalories per gram: Fat 9 \u2022 Carbohydrate 4 \u2022 Protein 4\n\n---\n\n# INGREDIENTS: GOAT'S MILK (CALDO DE CABRA), MILK, SUGAR, CORN SYRUP AND SODIUM BICARBONATE, OATFLOUR (WHEAT FLOUR, SALT AND SODIUM BICARBONATE LEAVENING AGENT), CORN STARCH, MAYONNAISE (OIL, EGGS, VINEGAR, SUGAR, SALT, GARLIC POWDER, SPICES, CITRIC ACID, PRESERVATIVES (SODIUM BENZOATE AND SODIUM PROPIONATE), TURMERIC (COLOR), TURMERIC (COLOR), SPICES), RED PEPPER POWDER, ONION POWDER, GARLIC POWDER, SALT, SPICES, CITRIC ACID, PRESERVATIVES (SODIUM BENZOATE AND SODIUM PROPIONATE), SUGAR, SPICES, SODIUM BISULFITE AS AN ANTIOXIDANT.\n\nINGREDIENTS: CALLEA DE LECH\u00c9 DE CABRA (MAYONNAISE (OIL, EGGS, VINEGAR, SUGAR, SALT, GARLIC POWDER, SPICES, CITRIC ACID, PRESERVATIVES (SODIUM BENZOATE AND SODIUM PROPIONATE), TURMERIC (COLOR), TURMERIC (COLOR), SPICES), RED PEPPER POWDER, ONION POWDER, GARLIC POWDER, SALT, SPICES, CITRIC ACID, PRESERVATIVES (SODIUM BENZOATE AND SODIUM PROPIONATE), SUGAR, SPICES, SODIUM BISULFITE AS AN ANTIOXIDANT.\n\nPRODUCED IN A FACILITY THAT ALSO PROCESSES WHEAT, EGGS, MILK, SOY, PEANUTS, NUTS, AND TREE NUTS.\n\nINGREDIENTS: CALLEA DE LECH\u00c9 DE CABRA (MAYONNAISE (OIL, EGGS, VINEGAR, SUGAR, SALT, GARLIC POWDER, SPICES, CITRIC ACID, PRESERVATIVES (SODIUM BENZOATE AND SODIUM PROPIONATE), TURMERIC (COLOR), TURMERIC (COLOR), SPICES), RED PEPPER POWDER, ONION POWDER, GARLIC POWDER, SALT, SPICES, CITRIC ACID, PRESERVATIVES (SODIUM BENZOATE AND SODIUM PROPIONATE), SUGAR, SPICES, SODIUM BISULFITE AS AN ANTIOXIDANT).\n\nPRODUCED IN A FACILITY THAT ALSO PROCESSES WHEAT, EGGS, MILK, SOY, PEANUTS, NUTS, AND TREE NUTS.\n\nINGREDIENTS: CALLEA DE LECH\u00c9 DE CABRA (MAYONNAISE (OIL, EGGS, VINEGAR, SUGAR, SALT, GARLIC POWDER, SPICES, CITRIC ACID, PRESERVATIVES (SODIUM BENZOATE AND SOD"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "iron": {
+            "type": "number",
+            "description": "Iron (in percentage)"
+          },
+          "sodium": {
+            "type": "number",
+            "description": "In mg"
+          },
+          "calcium": {
+            "type": "number",
+            "description": "Calcium (in percentage)"
+          },
+          "protein": {
+            "type": "number",
+            "description": "In gram"
+          },
+          "calories": {
+            "type": "number",
+            "description": ""
+          },
+          "total_fat": {
+            "type": "number",
+            "description": "In gram"
+          },
+          "vitamin_a": {
+            "type": "number",
+            "description": "Vitamin A (in percentage)"
+          },
+          "vitamin_c": {
+            "type": "number",
+            "description": "Vitamin C (in percentage)"
+          },
+          "cholesterol": {
+            "type": "number",
+            "description": "In mg"
+          },
+          "total_carbonhydrate": {
+            "type": "number",
+            "description": "In gram"
+          },
+          "servings_per_container": {
+            "type": "number",
+            "description": ""
+          }
+        }
+      }
+    }
+  }
+}

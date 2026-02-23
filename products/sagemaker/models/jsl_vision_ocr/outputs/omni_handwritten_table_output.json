@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-9ff1f0da848ead80",
+  "object": "chat.completion",
+  "created": 1769001623,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "City Town of New Haven Borough (Name of Municipality)  \nDemocratic (Party) September 12, 2023 (Date of Primary)  \nNAME(S) OF CANDIDATE(S) Thomas A. Goldenberg (Note: Provide sufficient space)  \nADDRESS 324 Nicoll Street  \nOFFICE(S) SOUGHT Mayor  \nTERM 1/1/24-12/31/25  \n\nTHIS PETITION MUST BE FILED WITH 200 Orange Street #201, New Haven, 06510 (Address of said Registrar), not later than 4:00 p.m. on August 9, 2023.  \nChannel Evans (Name of Registrar of Voters)  \n\nB. We, the undersigned, being enrolled members of the above party in the above municipality, do hereby petition that there be printed on the voting machine ballot labels to be used in the primary of said party in said municipality to be held on the date above specified the names of the above individuals as candidates for nomination to the offices specified:  \n\n<table>\n  <tr>\n    <th>SIGNATURE OF ENROLLED ELECTOR</th>\n    <th>PRINTED NAME OF ELECTOR</th>\n    <th>BIRTH DATE</th>\n    <th>STREET ADDRESS</th>\n  </tr>\n  <tr>\n    <td>☐</td>\n    <td>Richard A. Lee</td>\n    <td>2/24/1944</td>\n    <td>70 Lyon St</td>\n  </tr>\n  <tr>\n    <td>☐</td>\n    <td>Rebecca Smith</td>\n    <td>6/13/2000</td>\n    <td>78 Lyon St</td>\n  </tr>\n  <tr>\n    <td>☐</td>\n    <td>John Stachniak</td>\n    <td>10/13/69</td>\n    <td>74 Stachnewicz</td>\n  </tr>\n  <tr>\n    <td>☐</td>\n    <td>James Butler</td>\n    <td>07/01/1988</td>\n    <td>49 Lyon</td>\n  </tr>\n</table>  \n\n<page_number>1<page_number>",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 3498,
+    "total_tokens": 4011,
+    "completion_tokens": 513,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

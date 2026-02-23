@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-a8f5682cd9274a89",
+  "object": "chat.completion",
+  "created": 1769091107,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# Liquidity\n\n## Average Quarterly Liquidity Coverage Ratio (\"LCR\")\n\n- 3Q23: 155%\n- 4Q23: 167%\n- 1Q24: 164%\n- 2Q24: 155%\n- 3Q24: 163%\n\n_Liquidity coverage ratio_\n\n## Total Liquidity Reserves ($M)\n\n- 4Q19: $90,557\n- 3Q23: $118,352\n- 4Q23: $120,652\n- 1Q24: $127,481\n- 2Q24: $122,914\n- 3Q24: $131,622\n\n\u2191 7% Q/Q  \n\u2191 11% Y/Y\n\n- FHLB eligible loans\n- Investment securities\n- Cash and cash equivalents\n\n## Third Quarter 2024 Highlights\n\n- Average quarterly Liquidity Coverage Ratio of 163%\n- Total liquidity reserves of $131.6 billion as of September 30, 2024\n  - $49.3 billion in cash and cash equivalents\n\nNote: The Q3'24 LCR is preliminary and therefore subject to change.  \n(1) Amount above represents unencumbered liquidity reserves. Securities pledged and eligible to secure FHLB borrowing capacity are presented within investment securities above.",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 3503,
+    "total_tokens": 3832,
+    "completion_tokens": 329,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

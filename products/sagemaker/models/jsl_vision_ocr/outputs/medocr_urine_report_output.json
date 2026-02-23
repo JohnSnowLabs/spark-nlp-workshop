@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-ac09a027a7d614bf",
+  "object": "chat.completion",
+  "created": 1769001590,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "<logo>Sriven Hospital Multi Specialty</logo>\n\n# Sriven Hospital Multi Specialty\n\n**Address:**  \nAPSEB Colony, Nagarjuna Sagar Road, Hastingnagarum, Hyderabad - 500 079\n\n**Patient Name:** ☐ ☐ ☐ ☐  \n**Date of Sample Collection:** ☐ ☐ ☐ ☐ ☐ ☐ ☐ ☐  \n**ID:** 201022\n\n---\n\n## COMPLETE URINE EXAMINATION REPORT\n\n| DESCRIPTION             | RESULT       | REFERENCE INTERVAL               |\n|-------------------------|--------------|----------------------------------|\n| **Colour**              | Dark Yellow  | Straw Colour / Pale Yellow/Dark Yellow |\n| **Appearance**          | Turbid       | Clear/Slightly Hazy/Hazy/Turbid  |\n| **Chemical Examination**|              |                                  |\n| Glucose                 | NEGATIVE     | NEGATIVE / POSITIVE              |\n| Bilirubin (Bile)        | NEGATIVE     | NEGATIVE / POSITIVE              |\n| Urobilinogen            | NEGATIVE     | NEGATIVE / POSITIVE              |\n| KetoneBodies            | NEGATIVE     | NEGATIVE / POSITIVE              |\n| Specific gravity        | 1.029        | 1.005 – 1.030                    |\n| Blood                   | NEGATIVE     | NEGATIVE / POSITIVE              |\n| Reaction (pH)           | 7.9          | 5.0 - 8.0                        |\n| Protein                 | NEGATIVE     | NEGATIVE / POSITIVE              |\n| Nitrates                | NEGATIVE     | NEGATIVE / POSITIVE              |\n| Leukocyte Esterase      | NEGATIVE     | NEGATIVE / POSITIVE              |\n| **MICROSCOPIC EXAMINATION** |          |                                  |\n| PUS (WBC) cells         | Plenty       | 0 – 5 /HPF                       |\n| Red blood Cells         | 02-04        | 0 – 2 /HPF                       |\n| U. Epithelial Cells     | 15-20        | 0 – 5 /HPF                       |\n\n---\n\n**Pathologist:** Dr. V. Vijaya Sree MD  \n**Registration No:** 43489\n\n**Contact Information:**  \n- **Phone:** 8106999108, 9652611108  \n- **Email:** srivenhospital79@gmail.com\n\n<watermark>Lab Inccharge</watermark>  \n<page_number>1</page_number>  \n<logo>24x7 Emergency</logo>",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1962,
+    "total_tokens": 2533,
+    "completion_tokens": 571,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

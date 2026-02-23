@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-ba55f5a96a1acc69",
+  "object": "chat.completion",
+  "created": 1769091104,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Lolita Deckow  \n97864 N Broadway Street  \nCollierville, Montana 64043-8959  \n\nPAY TO THE ORDER OF  \nRyan Group  \n\nTwo Thousand Seven Hundred Sixty Three and 23/100 DOLLARS  \n\nMEMO: contract payment  \n\n2025-02-03  \n$2,763.23  \n\n:766800721: 2564397564 :1869:",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 3503,
+    "total_tokens": 3619,
+    "completion_tokens": 116,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

@@ -1,0 +1,22 @@
+# Staff Shift Schedule
+
+Kellicburgh Medical Center -  
+Week of June 1, 2025
+
+| Employee                  | ID      | Department  | Sun 1         | Mon 2         | Tue 3         | Wed 4         | Thu 5         | Fri 6         | Sat 7         |
+|---------------------------|---------|-------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
+| Julie Miller              | HHPXAZ  | Emergency   | Night 23:00-07:00 |               |               | Leave Sick Leave |               | Afternoon 15:00-23:00 | Afternoon 15:00-23:00 |
+| Doreen Blanda             | TVDZ9A  | Radiology   | Leave Training | Morning 07:00-15:00 |               |               |               | Afternoon 15:00-23:00 | Morning 07:00-15:00 |
+| Erin Robel                | 70S1PH  | ICU         |               |               |               | Leave Vacation |               |               |               |
+| Mr. Marlon Crona          | PBB151  | Surgery     | Leave Personal |               | Morning 07:00-15:00 |               |               | Afternoon 15:00-23:00 | Morning 07:00-15:00 |
+| Inez Murazik              | 4YZ9XI  | Pediatrics  |               | Night 23:00-07:00 | Leave Training |               |               |               | Leave Personal |
+| Olga Glover               | IUPTZX  | Radiology   |               | Leave Training |               |               | Leave Vacation | Afternoon 15:00-23:00 |               |
+| Dr. Terence Kassulke      | 7Q71BQ  | Neurology   | Night 23:00-07:00 | Night 23:00-07:00 | Afternoon 15:00-23:00 | Leave Training |               |               | Morning 07:00-15:00 |
+| Mable Johnston            | CG6EC9  | General Ward| Night 23:00-07:00 | Morning 07:00-15:00 |               |               | Leave Vacation |               | Leave Vacation |
+| Cindy Wiza                | CN0ZHH  | Oncology    | Afternoon 15:00-23:00 |               |               | Morning 07:00-15:00 |               | Leave Personal | Night 23:00-07:00 |
+| Annie Cruickshank         | L6HWD2  | ICU         |               |               |               | Morning 07:00-15:00 | Afternoon 15:00-23:00 |               |               |
+| Josefina Parisian-Keebler | WMHTXI  | Radiology   | Afternoon 15:00-23:00 |               | Night 23:00-07:00 |               |               | Leave Sick Leave |               |
+| Laurence Funk I           | LPVEMY  | Surgery     | Leave Sick Leave |               |               |               | Night 23:00-07:00 | Leave Personal | Morning 07:00-15:00 |
+| Dr. Joshua Jakubowski     | A5VMR8  | Emergency   | Afternoon 15:00-23:00 |               | Morning 07:00-15:00 | Morning 07:00-15:00 | Night 23:00-07:00 |               | Leave Training |
+| Mr. Caleb Schulist        | UNWKMT  | General Ward| Morning 07:00-15:00 | Morning 07:00-15:00 | Morning 07:00-15:00 |               | Afternoon 15:00-23:00 | Leave Vacation | Afternoon 15:00-23:00 |
+| Kelly Raynor              | 9GRIX7  | ICU         |               |               | Afternoon 15:00-23:00 |               |               |              

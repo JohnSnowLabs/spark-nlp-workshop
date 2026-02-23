@@ -1,0 +1,71 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"title\": {\n      \"type\": \"string\"\n    },\n    \"total_males\": {\n      \"type\": \"number\"\n    },\n    \"total_females\": {\n      \"type\": \"number\"\n    },\n    \"physical_findings\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"category\": {\n            \"type\": \"string\"\n          },\n          \"findings\": {\n            \"type\": \"array\",\n            \"items\": {\n              \"type\": \"object\",\n              \"properties\": {\n                \"male_number\": {\n                  \"type\": \"number\"\n                },\n                \"finding_name\": {\n                  \"type\": \"string\"\n                },\n                \"male_percent\": {\n                  \"type\": \"number\"\n                },\n                \"female_number\": {\n                  \"type\": \"number\"\n                },\n                \"female_percent\": {\n                  \"type\": \"number\"\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "Number and Percent of Students with Positive Clinical Findings by Sex (1972)\n\nPhysical Examinations were given to a total of 105 males and 100 females\n\n<table>\n  <tr>\n    <th rowspan=\"2\">Physical Finding</th>\n    <th colspan=\"2\">Male</th>\n    <th colspan=\"2\">Female</th>\n  </tr>\n  <tr>\n    <th>Number</th>\n    <th>Percent</th>\n    <th>Number</th>\n    <th>Percent</th>\n  </tr>\n  <tr>\n    <td>LIPS<br>Pallor of mucosa</td>\n    <td>0</td>\n    <td>0</td>\n    <td>2</td>\n    <td>2.00</td>\n  </tr>\n  <tr>\n    <td>GUMS<br>Marginal redness or swelling</td>\n    <td>3</td>\n    <td>2.86</td>\n    <td>2</td>\n    <td>2.00</td>\n  </tr>\n  <tr>\n    <td>FACE AND NECK<br>Thyroid enlarged: GO</td>\n    <td>2</td>\n    <td>1.90</td>\n    <td>8</td>\n    <td>8.00</td>\n  </tr>\n  <tr>\n    <td>GI</td>\n    <td>7</td>\n    <td>6.67</td>\n    <td>7</td>\n    <td>7.00</td>\n  </tr>\n  <tr>\n    <td>GII</td>\n    <td>1</td>\n    <td>0.95</td>\n    <td>4</td>\n    <td>4.00</td>\n  </tr>\n  <tr>\n    <td>TONGUE<br>Filiform papillary atrophy</td>\n    <td>7</td>\n    <td>6.67</td>\n    <td>3</td>\n    <td>3.00</td>\n  </tr>\n  <tr>\n    <td>Fungiform papillary hypertrophy</td>\n    <td>1</td>\n    <td>0.95</td>\n    <td>0</td>\n    <td>0</td>\n  </tr>\n  <tr>\n    <td>Fissures</td>\n    <td>0</td>\n    <td>0</td>\n    <td>1</td>\n    <td>1.00</td>\n  </tr>\n  <tr>\n    <td>Geographic</td>\n    <td>1</td>\n    <td>0.95</td>\n    <td>0</td>\n    <td>0</td>\n  </tr>\n  <tr>\n    <td>TEETH<br>Cavities in four or more teeth</td>\n    <td>5</td>\n    <td>4.76</td>\n    <td>3</td>\n    <td>3.00</td>\n  </tr>\n  <tr>\n    <td>SKIN<br>Follicular hyperkeratosis</td>\n    <td>0</td>\n    <td>0</td>\n    <td>2</td>\n    <td>2.00</td>\n  </tr>\n</table>\n\nSource: https://www.industrydocuments.ucsf.edu/docs/ppjb0228"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "total_males": {
+            "type": "number"
+          },
+          "total_females": {
+            "type": "number"
+          },
+          "physical_findings": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "category": {
+                  "type": "string"
+                },
+                "findings": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "male_number": {
+                        "type": "number"
+                      },
+                      "finding_name": {
+                        "type": "string"
+                      },
+                      "male_percent": {
+                        "type": "number"
+                      },
+                      "female_number": {
+                        "type": "number"
+                      },
+                      "female_percent": {
+                        "type": "number"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

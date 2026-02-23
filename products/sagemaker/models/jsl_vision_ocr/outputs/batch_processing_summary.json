@@ -1,0 +1,50 @@
+[
+  {
+    "image": "./inputs/medocr_noisy_scan.png",
+    "base_name": "medocr_noisy_scan",
+    "duration_ms": 10396.624088287354,
+    "status": "success"
+  },
+  {
+    "image": "./inputs/medocr_urine_report.png",
+    "base_name": "medocr_urine_report",
+    "duration_ms": 6131.821870803833,
+    "status": "success"
+  },
+  {
+    "image": "./inputs/medocr_liver_report.png",
+    "base_name": "medocr_liver_report",
+    "duration_ms": 8797.166347503662,
+    "status": "success"
+  },
+  {
+    "image": "./inputs/omni_invoice.png",
+    "base_name": "omni_invoice",
+    "duration_ms": 6918.518304824829,
+    "status": "success"
+  },
+  {
+    "image": "./inputs/omni_receipt.png",
+    "base_name": "omni_receipt",
+    "duration_ms": 10209.254264831543,
+    "status": "success"
+  },
+  {
+    "image": "./inputs/omni_handwritten_table.png",
+    "base_name": "omni_handwritten_table",
+    "duration_ms": 6670.593023300171,
+    "status": "success"
+  },
+  {
+    "image": "./inputs/omni_driver_license.png",
+    "base_name": "omni_driver_license",
+    "duration_ms": 4713.095188140869,
+    "status": "success"
+  },
+  {
+    "image": "./inputs/omni_excel_screenshot.png",
+    "base_name": "omni_excel_screenshot",
+    "duration_ms": 21640.690326690674,
+    "status": "success"
+  }
+]

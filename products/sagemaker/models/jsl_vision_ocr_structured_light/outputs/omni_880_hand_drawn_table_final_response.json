@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-80740e61264408be",
+  "object": "chat.completion",
+  "created": 1769091408,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"title\": \"Number and Percent of Students with Positive Clinical Findings by Sex (1972)\",\n  \"total_males\": 105,\n  \"total_females\": 100,\n  \"physical_findings\": [\n    {\n      \"category\": \"LIPS\",\n      \"findings\": []\n    },\n    {\n      \"category\": \"Pallor of mucosa\",\n      \"findings\": [\n        {\n          \"male_number\": 0,\n          \"finding_name\": \"Pallor of mucosa\",\n          \"male_percent\": 0,\n          \"female_number\": 2,\n          \"female_percent\": 2.00\n        }\n      ]\n    },\n    {\n      \"category\": \"GUMS\",\n      \"findings\": [\n        {\n          \"male_number\": 3,\n          \"finding_name\": \"Marginal redness or swelling\",\n          \"male_percent\": 2.86,\n          \"female_number\": 2,\n          \"female_percent\": 2.00\n        }\n      ]\n    },\n    {\n      \"category\": \"FACE AND NECK\",\n      \"findings\": [\n        {\n          \"male_number\": 2,\n          \"finding_name\": \"Thyroid enlarged: GO\",\n          \"male_percent\": 1.90,\n          \"female_number\": 8,\n          \"female_percent\": 8.00\n        },\n        {\n          \"male_number\": 7,\n          \"finding_name\": \"Unknown\",\n          \"male_percent\": 6.67,\n          \"female_number\": 7,\n          \"female_percent\": 7.00\n        },\n        {\n          \"male_number\": 1,\n          \"finding_name\": \"Unknown\",\n          \"male_percent\": 0.95,\n          \"female_number\": 4,\n          \"female_percent\": 4.00\n        }\n      ]\n    },\n    {\n      \"category\": \"TONGUE\",\n      \"findings\": [\n        {\n          \"male_number\": 7,\n          \"finding_name\": \"Filiform papillary atrophy\",\n          \"male_percent\": 6.67,\n          \"female_number\": 3,\n          \"female_percent\": 3.00\n        },\n        {\n          \"male_number\": 1,\n          \"finding_name\": \"Fungiform papillary hyperdrophy\",\n          \"male_percent\": 0.95,\n          \"female_number\": 0,\n          \"female_percent\": 0\n        },\n        {\n          \"male_number\": 0,\n          \"finding_name\": \"Fissures\",\n          \"male_percent\": 0,\n          \"female_number\": 1,\n          \"female_percent\": 1.00\n        },\n        {\n          \"male_number\": 1,\n          \"finding_name\": \"Geographic\",\n          \"male_percent\": 0.95,\n          \"female_number\": 0,\n          \"female_percent\": 0\n        }\n      ]\n    },\n    {\n      \"category\": \"TEETH\",\n      \"findings\": [\n        {\n          \"male_number\": 5,\n          \"finding_name\": \"Cavities in four or more teeth\",\n          \"male_percent\": 4.76,\n          \"female_number\": 3,\n          \"female_percent\": 3.00\n        }\n      ]\n    },\n    {\n      \"category\": \"SKIN\",\n      \"findings\": [\n        {\n          \"male_number\": 0,\n          \"finding_name\": \"Follicular hyperkeratosis\",\n          \"male_percent\": 0,\n          \"female_number\": 2,\n          \"female_percent\": 2.00\n        }\n      ]\n    }\n  ]\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 711,
+    "total_tokens": 1493,
+    "completion_tokens": 782,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

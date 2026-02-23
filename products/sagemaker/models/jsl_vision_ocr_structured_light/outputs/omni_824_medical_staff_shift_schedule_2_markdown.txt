@@ -1,0 +1,17 @@
+Staff Shift Schedule
+
+Woodbury Medical Center - Week of July 11, 2025
+
+| Employee                      | ID     | Department  | Fri 11           | Sat 12           | Sun 13           | Mon 14           | Tue 15           | Wed 16           | Thu 17           |
+|-------------------------------|--------|-------------|------------------|------------------|------------------|------------------|------------------|------------------|------------------|
+| Ora Murphy                    | HJNOZ5 | Surgery     | Afternoon 15:00-23:00 |                  | Afternoon 15:00-23:00 |                  |                  | Leave Vacation   |                  |
+| Ms. Antoinette Armstrong-Schuppe | CCE0NJ | Cardiology  |                  |                  | Afternoon 15:00-23:00 | Morning 07:00-15:00 | Leave Training   |                  | Morning 07:00-15:00 |
+| Clinton Funk                  | YP49JZ | Pediatrics  |                  |                  | Afternoon 15:00-23:00 |                  |                  |                  | Leave Sick Leave |
+| Shawna Mayert                 | EZR13T | Oncology    |                  |                  |                  | Leave Vacation   |                  |                  | Afternoon 15:00-23:00 |
+| Keith Hudson DDS                | SCHADG | General Ward|                  |                  | Leave Sick Leave | Night 23:00-07:00 |                  |                  | Leave Personal   |
+| Mary Homenick Sr.             | RDDNOM | Cardiology  | Afternoon 15:00-23:00 | Morning 07:00-15:00 |                  |                  | Leave Training   | Afternoon 15:00-23:00 |                  |
+| James Koeppe                  | 59LN SK | Neurology   | Afternoon 15:00-23:00 | Afternoon 15:00-23:00 |                  |                  | Night 23:00-07:00 | Leave Personal   |                  |
+| Roger Hauck                   | SBE83Z | Emergency   |                  |                  |                  | Afternoon 15:00-23:00 |                  |                  | Afternoon 15:00-23:00 |
+| Dr. Daisy Zemlak              | 2XXEH1 | Oncology    | Morning 07:00-15:00 |                  |                  |                  | Afternoon 15:00-23:00 |                  | Morning 07:00-15:00 |
+| Rachel McGlynn                | VNTPVM | ICU         | Leave Training   |                  | Afternoon 15:00-23:00 |                  | Morning 07:00-15:00 | Leave Vacation   | Morning 07:00-15:00 |
+| Pam Streich                   | IJPWVA | Emergency   |                  | Leave Personal   |                  |                  | Leave Sick Leave |                  |                  |

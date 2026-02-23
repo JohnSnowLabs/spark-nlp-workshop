@@ -1,0 +1,95 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"required\": [\n    \"title\",\n    \"weekStartDate\",\n    \"facility\",\n    \"employees\"\n  ],\n  \"properties\": {\n    \"title\": {\n      \"type\": \"string\"\n    },\n    \"facility\": {\n      \"type\": \"string\"\n    },\n    \"employees\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"required\": [\n          \"employeeName\",\n          \"employeeId\",\n          \"department\",\n          \"shifts\"\n        ],\n        \"properties\": {\n          \"shifts\": {\n            \"type\": \"array\",\n            \"items\": {\n              \"type\": \"object\",\n              \"required\": [\n                \"type\"\n              ],\n              \"properties\": {\n                \"type\": {\n                  \"enum\": [\n                    \"Morning\",\n                    \"Afternoon\",\n                    \"Night\",\n                    \"Leave\",\n                    \"empty\"\n                  ],\n                  \"type\": \"string\"\n                },\n                \"hours\": {\n                  \"type\": \"string\",\n                  \"description\": \"Shift hours, ex. 07:00-15:00. Only required for Morning, Afternoon, and Night.\"\n                },\n                \"notes\": {\n                  \"type\": \"string\",\n                  \"description\": \"Notes for the shift. Only required for Leave.\"\n                }\n              }\n            }\n          },\n          \"department\": {\n            \"type\": \"string\"\n          },\n          \"employeeId\": {\n            \"type\": \"string\"\n          },\n          \"employeeName\": {\n            \"type\": \"string\"\n          }\n        }\n      }\n    },\n    \"weekStartDate\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "# Staff Shift Schedule\n\nWoodbury Medical Center -  \nWeek of July 11, 2025\n\n<table>\n  <tr>\n    <th>Employee</th>\n    <th>ID</th>\n    <th>Department</th>\n    <th>Fri 11</th>\n    <th>Sat 12</th>\n    <th>Sun 13</th>\n    <th>Mon 14</th>\n    <th>Tue 15</th>\n    <th>Wed 16</th>\n    <th>Thu 17</th>\n  </tr>\n  <tr>\n    <td>Ora Murphy</td>\n    <td>HJNOZ5</td>\n    <td>Surgery</td>\n    <td>Afternoon<br>15:00-23:00</td>\n    <td></td>\n    <td>Afternoon<br>15:00-23:00</td>\n    <td></td>\n    <td></td>\n    <td>Leave Vacation</td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Ms. Antoinette Armstrong-Schuppe</td>\n    <td>CCE0NJ</td>\n    <td>Cardiology</td>\n    <td></td>\n    <td></td>\n    <td>Afternoon<br>15:00-23:00</td>\n    <td>Morning<br>07:00-15:00</td>\n    <td>Leave Training</td>\n    <td></td>\n    <td>Morning<br>07:00-15:00</td>\n  </tr>\n  <tr>\n    <td>Clinton Funk</td>\n    <td>YP49JZ</td>\n    <td>Pediatrics</td>\n    <td></td>\n    <td></td>\n    <td>Afternoon<br>15:00-23:00</td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td>Leave Sick Leave</td>\n  </tr>\n  <tr>\n    <td>Shawna Mayert</td>\n    <td>EZR13T</td>\n    <td>Oncology</td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td>Leave Vacation</td>\n    <td></td>\n    <td></td>\n    <td>Afternoon<br>15:00-23:00</td>\n  </tr>\n  <tr>\n    <td>Keith Hudson DDS</td>\n    <td>SCHADG</td>\n    <td>General Ward</td>\n    <td></td>\n    <td></td>\n    <td>Leave Sick Leave</td>\n    <td>Night<br>23:00-07:00</td>\n    <td></td>\n    <td></td>\n    <td>Leave Personal</td>\n  </tr>\n  <tr>\n    <td>Mary Homenick Sr.</td>\n    <td>RDDNOM</td>\n    <td>Cardiology</td>\n    <td>Afternoon<br>15:00-23:00</td>\n    <td>Morning<br>07:00-15:00</td>\n    <td></td>\n    <td></td>\n    <td>Leave Training</td>\n    <td>Afternoon<br>15:00-23:00</td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>James Koepp</td>\n    <td>59LNSK</td>\n    <td>Neurology</td>\n    <td>Afternoon<br>15:00-23:00</td>\n    <td>Afternoon<br>15:00-23:00</td>\n    <td></td>\n    <td></td>\n    <td>Night<br>23:00-07:00</td>\n    <td>Leave Personal</td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>Roger Hauck</td>\n    <td>SBE83Z</td>\n    <td>Emergency</td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td>Afternoon<br>15:00-23:00</td>\n    <td></"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "required": [
+          "title",
+          "weekStartDate",
+          "facility",
+          "employees"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "facility": {
+            "type": "string"
+          },
+          "employees": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "employeeName",
+                "employeeId",
+                "department",
+                "shifts"
+              ],
+              "properties": {
+                "shifts": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "type"
+                    ],
+                    "properties": {
+                      "type": {
+                        "enum": [
+                          "Morning",
+                          "Afternoon",
+                          "Night",
+                          "Leave",
+                          "empty"
+                        ],
+                        "type": "string"
+                      },
+                      "hours": {
+                        "type": "string",
+                        "description": "Shift hours, ex. 07:00-15:00. Only required for Morning, Afternoon, and Night."
+                      },
+                      "notes": {
+                        "type": "string",
+                        "description": "Notes for the shift. Only required for Leave."
+                      }
+                    }
+                  }
+                },
+                "department": {
+                  "type": "string"
+                },
+                "employeeId": {
+                  "type": "string"
+                },
+                "employeeName": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "weekStartDate": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

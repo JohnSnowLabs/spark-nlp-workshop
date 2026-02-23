@@ -1,0 +1,58 @@
+# Employee Data
+
+## 2020 External Hire Rate by Age
+
+| Age Group | External Hire Rate | External Hires | Average Headcount |
+|-----------|--------------------|----------------|-------------------|
+| All Ages  | 19.80%             | 4,917          | 24,812            |
+| <20       | 147.4%             | 221            | 150               |
+| 20-29     | 52.7%              | 2,357          | 4,475             |
+| 30-39     | 18.0%              | 1,513          | 8,405             |
+| 40-49     | 10.2%              | 634            | 6,214             |
+| 50-59     | 4.2%               | 171            | 4,072             |
+| 60+       | 1.5%               | 20             | 1,300             |
+| Unallocated | 0.5%             | 1              | 197               |
+
+## 2020 External Hire Rate by Gender
+
+| Gender    | External Hire Rate | External Hires | Average Headcount |
+|-----------|--------------------|----------------|-------------------|
+| All Genders | 19.80%           | 4,917          | 24,812            |
+| Male      | 20.80%             | 3,960          | 19,030            |
+| Female    | 16.60%             | 957            | 5,782             |
+
+## 2020 External Hire Rate by Regions
+
+| Region        | External Hire Rate | External Hires | Average Headcount |
+|---------------|--------------------|----------------|-------------------|
+| All Regions   | 19.80%             | 4,917          | 24,812            |
+| Asia          | 11.9%              | 369            | 3,089             |
+| EMEA          | 9.4%               | 655            | 6,950             |
+| North America | 13.8%              | 678            | 4,896             |
+| South America | 32.5%              | 3,215          | 9,878             |
+
+## 2020 Termination Rate by Age
+
+| Age Group | Termination Rate | Terminations | Average Headcount |
+|-----------|------------------|--------------|-------------------|
+| All Ages  | 29.00%           | 7,196        | 24,812            |
+| <20       | 126.70%          | 190          | 150               |
+| 20-29     | 54.40%           | 2,434        | 4,475             |
+| 30-39     | 27.40%           | 2,299        | 8,405             |
+| 40-49     | 21.50%           | 1,337        | 6,214             |
+| 50-59     | 15.30%           | 623          | 4,072             |
+| 60+       | 22.80%           | 296          | 1,300             |
+| Miscellaneous | 8.70%          | 17           | 197               |
+
+## 2020 Termination Rate by Gender
+
+| Gender    | Termination Rate | Terminations | Average Headcount |
+|-----------|------------------|--------------|-------------------|
+| All Genders | 29.00%         | 7,196        | 24,812            |
+| Male      | 30.10%           | 5,729        | 19,030            |
+| Female    | 25.40%           | 1,467        | 5,782             |
+
+## 2020 Termination Rate by Region
+
+| Region        | Termination Rate | Terminations | Average Headcount |
+|---------------|------------------|--------------|-------------------

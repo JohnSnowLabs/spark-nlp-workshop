@@ -1,0 +1,29 @@
+# Quarterly Transaction Insights
+
+## Commercial Industrial
+- Avg: $22.5M
+- Median: $26.5M
+
+## Multifamily Housing
+- Avg: $16.8M
+- Median: $13.5M
+
+## Educational Buildings
+- Avg: $5.0M
+- Median: $5.0M
+
+## State & Federal Construction
+- Avg: $11.5M
+- Median: $11.5M
+
+| City         | Year | Transactions (Total) | Permits Filed | Commercial Industrial | Multifamily Housing | Educational Buildings | State & Federal Construction |
+|--------------|------|----------------------|---------------|-----------------------|---------------------|-----------------------|-----------------------------|
+| Chicago      | 2017 | $104M                | 136           | $40.5M                | $7.7M               | $9.9M                 | $46.0M                      |
+| San Francisco| 2017 | $250M                | 309           | $93.5M                | $80.6M              | $14.5M                | $61.3M                      |
+| Indianapolis | 2017 | $135M                | 128           | $18.3M                | $30.9M              | $50.2M                | $35.6M                      |
+| Austin       | 2017 | $184M                | 455           | $34.8M                | $44.7M              | $63.1M                | $41.4M                      |
+| Los Angeles  | 2017 | $196M                | 181           | $74.1M                | $39.8M              | $25.5M                | $56.6M                      |
+
+<logo>LoopNet</logo>
+Loopnet Investment Opportunities
+Page 27

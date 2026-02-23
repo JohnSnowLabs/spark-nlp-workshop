@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-a77040d5dee8c680",
+  "object": "chat.completion",
+  "created": 1769091190,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "<logo>Coca-Cola</logo>\n\n<watermark>OFFICIAL COPY</watermark>\n\n<page_number>14</page_number>\n\nRULES:\n  - You must include all information on the page. Do not exclude headers, footers, charts, infographics, or subtext.\n  - Return tables in an HTML format.\n  - Logos should be wrapped in brackets. Ex: <logo>Coca-Cola</logo>\n  - Watermarks should be wrapped in brackets. Ex: <watermark>OFFICIAL COPY</watermark>\n  - Page numbers should be wrapped in brackets. Ex: <page_number>14</page_number> or <page_number>9/22</page_number>\n  - Prefer using \u2610 and \u2611 for check boxes.\n\n|  | 2020 Acura NSX Coupe | 2021 Toyota GR Supra 3.0 Premium Auto (Nat'l) | 2020 Nissan 370Z Coupe Sport Touring Auto |\n|---|---|---|---|\n| **Pricing** | | | |\n| MSRP | $157500 | $54490 | $39490 |\n| Invoice | $146251 | $49586 | $37685 |\n| Destination | $1995 | $995 | $925 |\n| **Quick Facts** | | | |\n| Mileage | 21 MPG City / 22 MPG Highway | 22 MPG City / 30 MPG Highway | 19 MPG City / 26 MPG Highway |\n| Engine Type | Twin Turbo Gas/Electric V-6 | Intercooled Turbo Premium Unleaded I-6 | Premium Unleaded V-6 |\n| Horsepower @ RPM | 573 @ 6500 | 382 @ 5800 | 332 @ 7000 |\n| Transmission | Auto-Shift Manual w/OD | Automatic w/OD | Automatic w/OD |\n| Drivetrain | All Wheel | Rear Wheel Drive | Rear Wheel Drive |\n| Seating Capacity | 2 | 2 | 2 |\n| **Warranty** | | | |\n| Basic | 4 Years/50,000 Miles | 3 Years/36,000 Miles | 3 Years/36,000 Miles |\n| Drivetrain | 6 Years/70,000 Miles | 5 Years/60,000 Miles | 5 Years/60,000 Miles |\n| Roadside Assistance | 4 Years/50,000 Miles | 2 Years/Unlimited Miles | 3 Years/36,000 Miles |\n\n<page_number>9/22</page_number>",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 3503,
+    "total_tokens": 4113,
+    "completion_tokens": 610,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

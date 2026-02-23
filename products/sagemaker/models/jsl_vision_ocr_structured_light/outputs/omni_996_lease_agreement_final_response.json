@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-acfbc25c330b4e1c",
+  "object": "chat.completion",
+  "created": 1769091499,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"date\": \"2025-12-27\",\n  \"rent\": {\n    \"monthlyAmount\": 9313,\n    \"securityDeposit\": 9622\n  },\n  \"lease\": {\n    \"years\": 5,\n    \"months\": 8,\n    \"endDate\": \"2031-08-26\",\n    \"startDate\": \"2025-12-27\"\n  },\n  \"lessee\": {\n    \"name\": \"Weissnat - Herminston\",\n    \"state\": \"California\",\n    \"streetAddress\": \"399 Adiegen News\"\n  },\n  \"lessor\": {\n    \"name\": \"Eric Zemlak-Crist PhD\",\n    \"state\": \"California\",\n    \"streetAddress\": \"54372 St Mary's Road\"\n  },\n  \"premises\": {\n    \"spaceType\": \"Office Space\",\n    \"squareFeet\": \"9464\",\n    \"streetAddress\": \"49145 Pearline forest\"\n  }\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1102,
+    "total_tokens": 1335,
+    "completion_tokens": 233,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

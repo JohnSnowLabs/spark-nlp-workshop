@@ -1,0 +1,90 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"sex\": {\n      \"type\": \"string\"\n    },\n    \"class\": {\n      \"type\": \"string\"\n    },\n    \"height\": {\n      \"type\": \"string\"\n    },\n    \"weight\": {\n      \"type\": \"string\"\n    },\n    \"address\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"city\": {\n          \"type\": \"string\"\n        },\n        \"state\": {\n          \"type\": \"string\"\n        },\n        \"street\": {\n          \"type\": \"string\",\n          \"description\": \"\"\n        },\n        \"zip_code\": {\n          \"type\": \"string\"\n        }\n      },\n      \"description\": \"All letters uppercase\"\n    },\n    \"eye_color\": {\n      \"type\": \"string\",\n      \"description\": \"All letters uppercase\"\n    },\n    \"last_name\": {\n      \"type\": \"string\",\n      \"description\": \"All letters uppercase\"\n    },\n    \"first_name\": {\n      \"type\": \"string\",\n      \"description\": \"All letters uppercase\"\n    },\n    \"hair_color\": {\n      \"type\": \"string\",\n      \"description\": \"All letters uppercase\"\n    },\n    \"issue_date\": {\n      \"type\": \"string\",\n      \"description\": \"formatted as MM/DD/YYYY\"\n    },\n    \"date_of_birth\": {\n      \"type\": \"string\",\n      \"description\": \"formatted as MM/DD/YYYY\"\n    },\n    \"expiration_date\": {\n      \"type\": \"string\",\n      \"description\": \"formatted as MM/DD/YYYY\"\n    },\n    \"driver_license_number\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "# CALIFORNIA LICENSE\n\n**EXPIRES ON BIRTHDAY 1970**\n\n**DRIVER**  \n**W106438**  \n**David Franklin Thomas**  \n**5798 Olive St**  \n**Paradise, Calif 95969**\n\n| SEX | COLOR HAIR | COLOR EYES | HEIGHT | WEIGHT | MARRIED |\n| --- | ---------- | ---------- | ------ | ------ | ------- |\n| M   | Grey       | Blu        | 6-0    | 205    | Yes     |\n\n**DATE OF BIRTH**  \n**Aug 20, 1892**  \n**AGE**  \n**72**  \n**PREVIOUS LICENSE**  \n**Calif**\n\n**MUST WEAR CORRECTIVE LENSES** \u2611  \n**SEE OVER FOR ANY OTHER CONDITIONS.** \u2610\n\n**OTHER ADDRESS**  \n**D. T. Thomas**  \n**CLASS 3, MAY DRIVE 2 AXLE VEHICLE, EXCEPT BUS DE. SIGNED FOR MORE THAN 15 PASSENGERS, MAY TOW VEHICLE LESS THAN 6,000 LBS GROSS.**  \n**Office Paradise**  \n**Date. 8-4-65**\n\n**MUST BE CARRIED WHEN OPERATING A MOTOR VEHICLE AND WHEN APPLYING FOR RENEWAL**"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "sex": {
+            "type": "string"
+          },
+          "class": {
+            "type": "string"
+          },
+          "height": {
+            "type": "string"
+          },
+          "weight": {
+            "type": "string"
+          },
+          "address": {
+            "type": "object",
+            "properties": {
+              "city": {
+                "type": "string"
+              },
+              "state": {
+                "type": "string"
+              },
+              "street": {
+                "type": "string",
+                "description": ""
+              },
+              "zip_code": {
+                "type": "string"
+              }
+            },
+            "description": "All letters uppercase"
+          },
+          "eye_color": {
+            "type": "string",
+            "description": "All letters uppercase"
+          },
+          "last_name": {
+            "type": "string",
+            "description": "All letters uppercase"
+          },
+          "first_name": {
+            "type": "string",
+            "description": "All letters uppercase"
+          },
+          "hair_color": {
+            "type": "string",
+            "description": "All letters uppercase"
+          },
+          "issue_date": {
+            "type": "string",
+            "description": "formatted as MM/DD/YYYY"
+          },
+          "date_of_birth": {
+            "type": "string",
+            "description": "formatted as MM/DD/YYYY"
+          },
+          "expiration_date": {
+            "type": "string",
+            "description": "formatted as MM/DD/YYYY"
+          },
+          "driver_license_number": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

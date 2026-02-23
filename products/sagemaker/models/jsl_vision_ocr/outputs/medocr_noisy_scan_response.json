@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-874087a51f50632a",
+  "object": "chat.completion",
+  "created": 1769146303,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# DIAGNOSTIC REPORT\n\n<logo>Fortis<logo>\n\nPATIENT NAME : JAYALAKSHMI  \nCODE/NAME & ADDRESS : C00027845  \nFORTIS - NAGARBHAVI - IPD  \nFORTIS HOSPITAL - NAGARBHAVI 23, 80 FEET ROAD,  \nGURUKRUPA LAYOUT, BANGALORE - 560072  \n\nREF. DOCTOR : DR. DAYANANDA K  \nACCESSION NO : 0093YD004559  \nPATIENT ID : PH-13813531  \nCLIENT PATIENT ID : UID:13813531  \nADHA NO : REDACTED  \n\nCLINICAL INFORMATION :  \nUID:13813531 REQNO:21260478  \nTPD-LIVEL-1-FEMCENCY-WING-2  \nTPD-REDATA  \n\nTest Report Status Final  \nResults Bio logical Reference Interval Units  \n\n## HAEMATOLOGY\n\n| CBC PLATELETS & DIFF. BLOOD | Results | Biological Reference Interval | Units |\n|-----------------------------|---------|-------------------------------|-------|\n| WHITE BLOOD CELL (WBC) COUNT | 5.40    | 4.0 - 10.0                    | thou/\u00b5L |\n| RED BLOOD CELL (RBC) COUNT   | 4.21    | 3.8 - 4.8                     | mil/\u00b5L |\n| HEMOGLOBIN (HB)              | 11.7 Low| 12.0 - 15.0                   | g/dL  |\n| HEMATOCRIT (PCV)             | 36.4    | 36 - 46                       | %     |\n| MEAN CORPUSCULAR VOLUME (MCV)| 87.0    | 83 - 101                      | fL    |\n| MEAN CORPUSCULAR HEMOGLOBIN (MCH) | 27.9 | 27.0 - 32.0               | pg    |\n| CONCENTRATION(MCHC)          | 32.2    | 31.5 - 34.5                   | g/dL  |\n| MENTZER INDEX                | 20.7    |                               |       |\n| MEAN PLATELET VOLUME (MPV)   | 10.0    | 6.8 - 10.9                    | fL    |\n| RED CELL DISTRIBUTION WIDTH (RDW) | 15.3 High | 11.6 - 14.0               | %     |\n| NEUTROPHILS                  | 58      | 40 - 80                       | %     |\n| ABSOLUTE NEUTROPHIL COUNT    | 3.13    | 2.0 - 7.0                     | thou/\u00b5L |\n| LYMPHOCYTES                  | 29      | 20 - 40                       | %     |\n| ABSOLUTE LYMPHOCYTE COUNT    | 1.57    | 1.0 - 3.0                     | thou/\u00b5L |\n\nDr.Sarvjet Kaur  \nSr.Consultant  \n\nPERFORMED AT:  \nAgilus Diagnostics Ltd  \n23,80 Feet Road, Gurukrupa Layout, Opp. Mall,  \nBangalore, 560072  \nKarnataka, India  \nTel : +91-23014100, Fax : +91-23014100  \nCIN - U74899WB1995PLC045956  \n\n<page_number>Page 1 of 7</page_number>  \n\n<watermark>OFFICIAL COPY</watermark>  \nView Details View Report",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 3517,
+    "total_tokens": 4394,
+    "completion_tokens": 877,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

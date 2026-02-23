@@ -1,0 +1,86 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"title\": \"FY2019 Demographic Data\",\n  \"required\": [\n    \"worldwideAssociates\",\n    \"leadershipGenderBreakdown\"\n  ],\n  \"properties\": {\n    \"worldwideAssociates\": {\n      \"type\": \"object\",\n      \"required\": [\n        \"total\",\n        \"menPct\",\n        \"womenPct\",\n        \"notDisclosedPct\"\n      ],\n      \"properties\": {\n        \"total\": {\n          \"type\": \"number\",\n          \"description\": \"Total number of worldwide associates reported\"\n        },\n        \"menPct\": {\n          \"type\": \"number\",\n          \"description\": \"Decimal representation of the percentage of men\"\n        },\n        \"womenPct\": {\n          \"type\": \"number\",\n          \"description\": \"Decimal representation of the percentage of women\"\n        },\n        \"notDisclosedPct\": {\n          \"type\": \"number\",\n          \"description\": \"Decimal representation of the percentage of associates who did not disclose gender\"\n        }\n      }\n    },\n    \"leadershipGenderBreakdown\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"required\": [\n          \"group\",\n          \"men\",\n          \"women\"\n        ],\n        \"properties\": {\n          \"men\": {\n            \"type\": \"number\",\n            \"description\": \"Number of men in this leadership group\"\n          },\n          \"group\": {\n            \"type\": \"string\",\n            \"description\": \"Name of the leadership group (e.g., 'Board of Directors')\"\n          },\n          \"women\": {\n            \"type\": \"number\",\n            \"description\": \"Number of women in this leadership group\"\n          }\n        }\n      },\n      \"description\": \"Gender breakdown for board of directors and executive officers\"\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "<watermark>OFFICIAL COPY</watermark>\n\n# Leadership representation metrics\n\n<table>\n  <tr>\n    <th></th>\n    <th>End of FY 2016</th>\n    <th>End of FY 2017</th>\n    <th>End of FY 2018</th>\n    <th>End of FY 2019</th>\n  </tr>\n  <tr>\n    <td>Executive gender</td>\n    <td>22%</td>\n    <td>21%</td>\n    <td>23%</td>\n    <td>25%</td>\n  </tr>\n  <tr>\n    <td>Management gender</td>\n    <td>37%</td>\n    <td>38%</td>\n    <td>39%</td>\n    <td>39%</td>\n  </tr>\n  <tr>\n    <td>Executive ethnicity</td>\n    <td>14%</td>\n    <td>17%</td>\n    <td>17%</td>\n    <td>18%</td>\n  </tr>\n  <tr>\n    <td>Management ethnicity</td>\n    <td>26%</td>\n    <td>27%</td>\n    <td>27%</td>\n    <td>26%</td>\n  </tr>\n  <tr>\n    <td colspan=\"5\">FY 2019 data includes Bard associates.</td>\n  </tr>\n</table>\n\n## Demographic data\n\nIn this section of the report, the total number of associates being reported is 70,193, which includes Bard associates.\n\nAs part of the integration activities following the acquisition of Bard, BD worked to incorporate Bard associates into our single HR IT system. FY 2019 is the first reporting year to reflect this change in data; FY 2019 forward will include Bard associates. All reporting data for years previous to FY 2019 does not include Bard associates.\n\nIn the charts below, \u201cother\u201d is defined as people who do not identify as those ethnicities listed above, or who identify as more than one ethnicity, and \u201cnot disclosed\u201d indicates that the associate chose not to answer.\n\n### FY 2019 worldwide associates by gender\n\n<div style=\"text-align: center;\">\n  <img src=\"donut_chart.png\" alt=\"Donut chart showing 50% Men and 49% Women, with 70,193 total associates\" width=\"300\"/>\n  <p>In FY 2019, gender was not disclosed for 1% of the dataset.</p>\n</div>\n\n### Gender breakdown of the Board of Directors and executive officers\n\n<div style=\"display: flex; justify-content: space-between; align-items: center; margin: 20px 0;\">\n  <div style=\"text-align: center;\">\n    <h4>Women</h4>\n    <div style=\"display: flex; flex-direction: column; align-items: center;\">\n      <div style=\"font-size: 3em; color: #00AEEF;\">4</div>\n      <div style=\"display: flex; margin-top: 10px;\">\n        <img src=\"female_icon.png\" alt=\"Female icon\" width=\"30\" style=\"margin: 0 5px;\" />\n        <img src=\"female_icon.png\" alt=\"Female icon\" width=\"30\" style=\"margin: 0 5px;\" />\n        <img src=\"female_icon.png\" alt=\"Female icon\" width=\"30\" style=\"margin: 0 5px;\" />\n        <img src=\"female_icon.png\" alt=\"Female icon\" width=\"30\" style=\"margin: 0 5px;\" />\n      </div>\n      <div style=\"font-size: 1em; margin-top: 20px;\">Board of Directors</div>\n    </div>\n    <div style=\"display: flex; flex-direction: column; align-items: center; margin-top: 20px;\">\n      <div style=\"font-size: 3em; color: #00AEEF;\">2</div>\n      <div style=\"display: flex; margin-top: 10px;\">\n        <img src=\"female_icon.png\" alt=\"Female icon\" width=\"30\" style=\"margin: 0 5px;\" />\n        <img src=\"female_icon.png\" alt=\"Female icon\" width=\"30\" style=\"margin: 0 5px;\" />\n      </div>\n      <div style=\"font-size: 1em; margin-top: 20px;\">Executive officers</div>\n    </div>\n    <div style=\"display:"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "title": "FY2019 Demographic Data",
+        "required": [
+          "worldwideAssociates",
+          "leadershipGenderBreakdown"
+        ],
+        "properties": {
+          "worldwideAssociates": {
+            "type": "object",
+            "required": [
+              "total",
+              "menPct",
+              "womenPct",
+              "notDisclosedPct"
+            ],
+            "properties": {
+              "total": {
+                "type": "number",
+                "description": "Total number of worldwide associates reported"
+              },
+              "menPct": {
+                "type": "number",
+                "description": "Decimal representation of the percentage of men"
+              },
+              "womenPct": {
+                "type": "number",
+                "description": "Decimal representation of the percentage of women"
+              },
+              "notDisclosedPct": {
+                "type": "number",
+                "description": "Decimal representation of the percentage of associates who did not disclose gender"
+              }
+            }
+          },
+          "leadershipGenderBreakdown": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "group",
+                "men",
+                "women"
+              ],
+              "properties": {
+                "men": {
+                  "type": "number",
+                  "description": "Number of men in this leadership group"
+                },
+                "group": {
+                  "type": "string",
+                  "description": "Name of the leadership group (e.g., 'Board of Directors')"
+                },
+                "women": {
+                  "type": "number",
+                  "description": "Number of women in this leadership group"
+                }
+              }
+            },
+            "description": "Gender breakdown for board of directors and executive officers"
+          }
+        }
+      }
+    }
+  }
+}

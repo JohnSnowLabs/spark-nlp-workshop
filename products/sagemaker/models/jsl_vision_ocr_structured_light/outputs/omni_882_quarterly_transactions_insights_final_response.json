@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-96fccf76ea78ccb2",
+  "object": "chat.completion",
+  "created": 1769091421,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"transactions\": [\n    {\n      \"value\": 40.5,\n      \"period\": \"Q1-2017\",\n      \"category\": \"Commercial Industrial\"\n    },\n    {\n      \"value\": 7.7,\n      \"period\": \"Q1-2017\",\n      \"category\": \"Multifamily Housing\"\n    },\n    {\n      \"value\": 9.9,\n      \"period\": \"Q1-2017\",\n      \"category\": \"Educational Buildings\"\n    },\n    {\n      \"value\": 46.0,\n      \"period\": \"Q1-2017\",\n      \"category\": \"State & Federal Construction\"\n    },\n    {\n      \"value\": 93.5,\n      \"period\": \"Q1-2017\",\n      \"category\": \"Commercial Industrial\"\n    },\n    {\n      \"value\": 80.6,\n      \"period\": \"Q1-2017\",\n      \"category\": \"Multifamily Housing\"\n    },\n    {\n      \"value\": 14.5,\n      \"period\": \"Q1-2017\",\n      \"category\": \"Educational Buildings\"\n    },\n    {\n      \"value\": 61.3,\n      \"period\": \"Q1-2017\",\n      \"category\": \"State & Federal Construction\"\n    },\n    {\n      \"value\": 18.3,\n      \"period\": \"Q1-2017\",\n      \"category\": \"Commercial Industrial\"\n    },\n    {\n      \"value\": 30.9,\n      \"period\": \"Q1-2017\",\n      \"category\": \"Multifamily Housing\"\n    },\n    {\n      \"value\": 50.2,\n      \"period\": \"Q1-2017\",\n      \"category\": \"Educational Buildings\"\n    },\n    {\n      \"value\": 35.6,\n      \"period\": \"Q1-2017\",\n      \"category\": \"State & Federal Construction\"\n    },\n    {\n      \"value\": 34.8,\n      \"period\": \"Q1-2017\",\n      \"category\": \"Commercial Industrial\"\n    },\n    {\n      \"value\": 44.7,\n      \"period\": \"Q1-2017\",\n      \"category\": \"Multifamily Housing\"\n    },\n    {\n      \"value\": 63.1,\n      \"period\": \"Q1-2017\",\n      \"category\": \"Educational Buildings\"\n    },\n    {\n      \"value\": 41.4,\n      \"period\": \"Q1-2017\",\n      \"category\": \"State & Federal Construction\"\n    },\n    {\n      \"value\": 74.1,\n      \"period\": \"Q1-2017\",\n      \"category\": \"Commercial Industrial\"\n    },\n    {\n      \"value\": 39.8,\n      \"period\": \"Q1-2017\",\n      \"category\": \"Multifamily Housing\"\n    },\n    {\n      \"value\": 25.5,\n      \"period\": \"Q1-2017\",\n      \"category\": \"Educational Buildings\"\n    },\n    {\n      \"value\": 56.6,\n      \"period\": \"Q1-2017\",\n      \"category\": \"State & Federal Construction\"\n    }\n  ],\n  \"transactionsByCity\": [\n    {\n      \"city\": \"Chicago\",\n      \"year\": \"2017\",\n      \"value\": 104\n    },\n    {\n      \"city\": \"San Francisco\",\n      \"year\": \"2017\",\n      \"value\": 250\n    },\n    {\n      \"city\": \"Indianapolis\",\n      \"year\": \"2017\",\n      \"value\": 135\n    },\n    {\n      \"city\": \"Austin\",\n      \"year\": \"2017\",\n      \"value\": 184\n    },\n    {\n      \"city\": \"Los Angeles\",\n      \"year\": \"2017\",\n      \"value\": 196\n    }\n  ]\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 890,
+    "total_tokens": 1785,
+    "completion_tokens": 895,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-b6f21e8c6275a31c",
+  "object": "chat.completion",
+  "created": 1769091494,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# CALIFORNIA COMMERCIAL LEASE AGREEMENT\n\nThis Lease Agreement made the 2025-12-27, by and between Eric Zemlak-Crist PhD [name of lessor], of 54372 St Mary's Road [street address], State of California, hereinafter referred to as \"Lessor\", and Weissnat - Herminston [name of lessee], of 399 Adiegen News [street address], State of California, hereinafter referred to as \"Lessee\", collectively referred to herein as the \"Parties\", agree as follows:\n\n## 1. DESCRIPTION OF LEASED PREMISES:\n\nThe Lessor agrees to lease to the Lessee the following described 9464 square feet (SF) of Office Space located at 49145 Pearline forest [street address], State of California.\n\n## 2. TERM OF LEASE:\n\nThe term of this Lease shall be for a period of 5 year(s) 8 month(s) commencing on the 27 day of December 2025 day of December 2025, and expiring at Midnight on the 26 day of August 2031 day of August 2031. (\"Initial Term\")\n\n## 3. BASE RENT:\n\nThe net monthly payment shall be 9313 dollars ($9313) per month. A security deposit of 9622 dollars ($9622) is required. payable monthly with the first payment due upon the is required. payable monthly with the first payment due upon the commencement of the Lease and each monthly installment payable thereafter on the 1st day of each month\n\n## 4. Options to Renew (Check one):\n\n\u2610 Lessee may not renew the Lease.\n\n\u2611 The Lessee may have the right to renew the Lease with a total of renewal period(s) with each term being year(s) month(s) which may be exercised by giving written notice to Lessor no less than 60 days prior to the expiration of the Lease or renewal period.\n\nPrepared using zipForm\u00ae software\n\nPage 5 of 8",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 2735,
+    "total_tokens": 3192,
+    "completion_tokens": 457,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

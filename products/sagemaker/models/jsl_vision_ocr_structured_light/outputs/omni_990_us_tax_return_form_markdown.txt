@@ -1,0 +1,106 @@
+# U.S. Individual Income Tax Return
+## 2024
+### Form 1040
+#### Department of the Treasury—Internal Revenue Service
+#### OMB No. 1545-0074
+#### IRS Use Only—Do not write or staple in this space.
+##### 1/01, 2024, ending 12/31, 2024
+##### See separate instructions.
+
+**Your first name and middle initial**  
+Blaise R
+
+**Last name**  
+Schmitt
+
+**Your social security number**  
+871 85 0280
+
+**If joint return, spouse's first name and middle initial**  
+Last name
+
+**Spouse's social security number**  
+
+**Home address (number and street). If you have a P.O. box, see instructions.**  
+5565 Wilber Terrace
+
+**Apt. no.**  
+
+**City, town, or post office. If you have a foreign address, also complete spaces below.**  
+Shieldsstead
+
+**State**  
+HI
+
+**ZIP code**  
+96746
+
+**Foreign country name**  
+
+**Foreign province/state/county**  
+
+**Foreign postal code**  
+
+**Presidential Election Campaign**  
+Check here if you, or your spouse if filing jointly, want $3 to go to this fund. Checking a box below will not change your tax or refund.  
+☐ You  
+☐ Spouse
+
+**Filing Status**  
+☐ Single  
+☐ Married filing jointly (even if only one had income)  
+☐ Married filing separately (MFS)  
+☐ Head of household (HOH)  
+☐ Qualifying surviving spouse (QSS)  
+If you checked the MFS box, enter the name of your spouse. If you checked the HOH or QSS box, enter the child's name if the qualifying person is a child but not your dependent:  
+☐ If treating a nonresident alien or dual-status alien spouse as a U.S. resident for the entire tax year, check the box and enter their name (see instructions and attach statement if required):
+
+**Digital Assets**  
+At any time during 2024, did you: (a) receive (as a reward, award, or payment for property or services); or (b) sell, exchange, or otherwise dispose of a digital asset (or a financial interest in a digital asset)? (See instructions.)  
+☐ Yes ☑ No
+
+**Standard Deduction**  
+Someone can claim: ☐ You as a dependent ☐ Your spouse as a dependent  
+☐ Spouse itemizes on a separate return or you were a dual-status alien
+
+**Age/Blindness**  
+You: ☐ Were born before January 2, 1960 ☐ Are blind  
+Spouse: ☐ Was born before January 2, 1960 ☐ Is blind
+
+**Dependents** (see instructions):  
+If more than four dependents, see instructions and check here  
+(1) First name  
+Last name  
+(2) Social security number  
+(3) Relationship to you  
+(4) Check the box if qualifies for (see instructions):  
+Child tax credit ☐ Credit for other dependents ☐
+
+**Income**  
+Attach Form(s) W-2 here. Also attach Forms W-2G and 1099-R if tax was withheld.  
+If you did not get a Form W-2, see instructions.
+
+1a Total amount from Form(s) W-2, box 1 (see instructions)  
+1b Household employee wages not reported on Form(s) W-2  
+1c Tip income not reported on line 1a (see instructions)  
+1d Medicaid waiver payments not reported on Form(s) W-2 (see instructions)  
+1e Taxable dependent care benefits from Form 2441, line 26  
+1f Employer-provided adoption benefits from Form 8839, line 29  
+1g Wages from Form 8919, line 6  
+1h Other earned income (see instructions)  
+1i Nontaxable combat pay election (see instructions)  
+1z Add lines 1a through 1h  
+2a Tax-exempt interest  
+2b Taxable interest  
+3a Qualified dividends  
+3b Ordinary dividends  
+4a IRA distributions  
+4b Taxable amount  
+5a Pensions and annuities  
+5b Taxable amount  
+6a Social security benefits  
+6b Taxable amount  
+c If you elect to use the lump-sum election method, check here (see instructions)  
+7 Capital gain or (loss). Attach Schedule D if required. If not required, check here  
+8 Additional income from Schedule 1, line 10  
+9 Add lines 12, 2b, 3b, 4b,

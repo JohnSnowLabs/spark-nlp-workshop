@@ -1,0 +1,72 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"iron\": {\n      \"type\": \"number\",\n      \"description\": \"Iron (in percentage)\"\n    },\n    \"sodium\": {\n      \"type\": \"number\",\n      \"description\": \"In mg\"\n    },\n    \"calcium\": {\n      \"type\": \"number\",\n      \"description\": \"Calcium (in percentage)\"\n    },\n    \"protein\": {\n      \"type\": \"number\",\n      \"description\": \"In gram\"\n    },\n    \"calories\": {\n      \"type\": \"number\",\n      \"description\": \"\"\n    },\n    \"total_fat\": {\n      \"type\": \"number\",\n      \"description\": \"In gram\"\n    },\n    \"vitamin_a\": {\n      \"type\": \"number\",\n      \"description\": \"Vitamin A (in percentage)\"\n    },\n    \"vitamin_c\": {\n      \"type\": \"number\",\n      \"description\": \"Vitamin C (in percentage)\"\n    },\n    \"cholesterol\": {\n      \"type\": \"number\",\n      \"description\": \"In mg\"\n    },\n    \"total_carbonhydrate\": {\n      \"type\": \"number\",\n      \"description\": \"In gram\"\n    },\n    \"servings_per_container\": {\n      \"type\": \"number\",\n      \"description\": \"\"\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "<watermark>eatingwaw.com</watermark>\n\n<logo>Disney Princess</logo>\n\nNutrition Facts / Datos de Nutrici\u00f3n  \nServing Size/Tama\u00f1o por Raci\u00f3n: 1 Piece / Pieza (30g)  \nServings per Container/Raciones por Envase: 5  \n\nAmount per Serving/Cantidad por Raci\u00f3n  \nCalories/Calor\u00edas 180  Calories from Fat/Calor\u00edas de Grasa 36  \n% Daily Value*/*% Valor Diario*  \n\nTotal Fat/Grasa Total 3.5g 5%  \n\u2003\u2003Saturated Fat/Grasa Saturada 0g 0%  \n\u2003\u2003Trans Fat/Grasa Trans 0g  \nCholesterol/Colesterol 10mg 3%  \nSodium/Sodio 30mg 2%  \nTotal Carbohydrate/Carbohidrato Total 35g 12%  \n\u2003\u2003Dietary Fiber/Fibra Diet\u00e9tica less than 1g/menos de 1g 0%  \n\u2003\u2003Sugars/Az\u00facares 25g  \nProtein/Prote\u00ednas 4g  \n\nVitamin A/Vitamina A 0%  \u2022  Vitamin C/Vitamina C 10%  \nCalcium/Calcio 6%  \u2022  Iron/Hierro 2%  \n\n*Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs. Los porcentajes de Valores Diarios est\u00e1n basados en una dieta de 2,000 calor\u00edas. Sus valores diarios pueden ser mayores o menores dependiendo de sus necesidades cal\u00f3ricas.*\n\n| Nutrient/ Nutriente | Calories/Calor\u00edas | 2,000 | 2,500 |\n|---------------------|-------------------|-------|-------|\n| Total Fat/Grasa Total | 65g | 80g |\n| Saturated Fat/Grasa Saturada | 20g | 25g |\n| Cholesterol/Colesterol | 300mg | 300mg |\n| Sodium/Sodio | 2,400mg | 3,000mg |\n| Total Carbohydrate/Carbohidrato Total | 300g | 375g |\n| Dietary Fiber/Fibra Diet\u00e9tica | 25g | 30g |\n\nINGREDIENTS: GOAT\u2019S MILK CAKE (GOAT\u2019S MILK, SUGAR, CORN SYRUP AND SODIUM BICARBONATE), WAFERS (WHEAT FLOUR, WATER, CORN OIL, SALT AND SODIUM BICARBONATE [LEAVENING AGENT]), MAY CONTAIN TRACES OF TREE NUTS (PECANS)  \nINGREDIENTES: CAJETA DE LECHE DE CABRA (LECHE DE CABRA, AZ\u00daCAR, JARABE DE MA\u00cdZ Y BICARBONATO DE SODIO), OBLEAS (HARINA DE TRIGO, AGUA, ACEITE DE MA\u00cdZ, SAL Y BICARBONATO DE SODIO [AGENTE LEUDANTE]), PUEDE CONTENER TRAZAS DE NUECES DE \u00c1RBOL (NUECES).  \n\nPRODUCTOS MEDELL\u00cdN, S.A. DE C.V. CARR. CENTRAL KM 612, 78700, MATATELLO, S.L.P.  \nMADE IN MEXICO/HECHO EN M\u00c9XICO  \nVISIT OUR WEB PAGE/VISITE NUESTRA P\u00c1GINA WEB: www.lassevillanas.com.mx  \n\nCONSUMER ATTENTION/ATENCI\u00d3N AL CONSUMIDOR:  \n01-800-776-63-71  \nE-MAIL/CORREO ELECTR\u00d3NICO: comentarios@lassevillanas.com.mx  \n\n<page_number>1</page_number>  \n<barcode>4 002818 5028 6</barcode>  \n$6.95"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "iron": {
+            "type": "number",
+            "description": "Iron (in percentage)"
+          },
+          "sodium": {
+            "type": "number",
+            "description": "In mg"
+          },
+          "calcium": {
+            "type": "number",
+            "description": "Calcium (in percentage)"
+          },
+          "protein": {
+            "type": "number",
+            "description": "In gram"
+          },
+          "calories": {
+            "type": "number",
+            "description": ""
+          },
+          "total_fat": {
+            "type": "number",
+            "description": "In gram"
+          },
+          "vitamin_a": {
+            "type": "number",
+            "description": "Vitamin A (in percentage)"
+          },
+          "vitamin_c": {
+            "type": "number",
+            "description": "Vitamin C (in percentage)"
+          },
+          "cholesterol": {
+            "type": "number",
+            "description": "In mg"
+          },
+          "total_carbonhydrate": {
+            "type": "number",
+            "description": "In gram"
+          },
+          "servings_per_container": {
+            "type": "number",
+            "description": ""
+          }
+        }
+      }
+    }
+  }
+}

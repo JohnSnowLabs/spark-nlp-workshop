@@ -1,0 +1,33 @@
+<logo>Coca-Cola</logo>
+
+<watermark>OFFICIAL COPY</watermark>
+
+<page_number>14</page_number>
+
+RULES:
+  - You must include all information on the page. Do not exclude headers, footers, charts, infographics, or subtext.
+  - Return tables in an HTML format.
+  - Logos should be wrapped in brackets. Ex: <logo>Coca-Cola</logo>
+  - Watermarks should be wrapped in brackets. Ex: <watermark>OFFICIAL COPY</watermark>
+  - Page numbers should be wrapped in brackets. Ex: <page_number>14</page_number> or <page_number>9/22</page_number>
+  - Prefer using ☐ and ☑ for check boxes.
+
+|  | 2020 Acura NSX Coupe | 2021 Toyota GR Supra 3.0 Premium Auto (Nat'l) | 2020 Nissan 370Z Coupe Sport Touring Auto |
+|---|---|---|---|
+| **Pricing** | | | |
+| MSRP | $157500 | $54490 | $39490 |
+| Invoice | $146251 | $49586 | $37685 |
+| Destination | $1995 | $995 | $925 |
+| **Quick Facts** | | | |
+| Mileage | 21 MPG City / 22 MPG Highway | 22 MPG City / 30 MPG Highway | 19 MPG City / 26 MPG Highway |
+| Engine Type | Twin Turbo Gas/Electric V-6 | Intercooled Turbo Premium Unleaded I-6 | Premium Unleaded V-6 |
+| Horsepower @ RPM | 573 @ 6500 | 382 @ 5800 | 332 @ 7000 |
+| Transmission | Auto-Shift Manual w/OD | Automatic w/OD | Automatic w/OD |
+| Drivetrain | All Wheel | Rear Wheel Drive | Rear Wheel Drive |
+| Seating Capacity | 2 | 2 | 2 |
+| **Warranty** | | | |
+| Basic | 4 Years/50,000 Miles | 3 Years/36,000 Miles | 3 Years/36,000 Miles |
+| Drivetrain | 6 Years/70,000 Miles | 5 Years/60,000 Miles | 5 Years/60,000 Miles |
+| Roadside Assistance | 4 Years/50,000 Miles | 2 Years/Unlimited Miles | 3 Years/36,000 Miles |
+
+<page_number>9/22</page_number>

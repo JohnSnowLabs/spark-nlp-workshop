@@ -1,0 +1,119 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"vehicles\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"info\": {\n            \"type\": \"object\",\n            \"properties\": {\n              \"name\": {\n                \"type\": \"string\",\n                \"description\": \"vehicle name, without year\"\n              },\n              \"year\": {\n                \"type\": \"number\",\n                \"description\": \"\"\n              },\n              \"additional_details\": {\n                \"type\": \"string\",\n                \"description\": \"\"\n              }\n            }\n          },\n          \"facts\": {\n            \"type\": \"object\",\n            \"properties\": {\n              \"mileage\": {\n                \"type\": \"string\",\n                \"description\": \"\"\n              },\n              \"drivetrain\": {\n                \"type\": \"string\",\n                \"description\": \"\"\n              },\n              \"horsepower\": {\n                \"type\": \"string\",\n                \"description\": \"\"\n              },\n              \"engine_type\": {\n                \"type\": \"string\",\n                \"description\": \"\"\n              },\n              \"transmission\": {\n                \"type\": \"string\",\n                \"description\": \"\"\n              },\n              \"seating_capacity\": {\n                \"type\": \"number\",\n                \"description\": \"\"\n              }\n            },\n            \"description\": \"\"\n          },\n          \"pricing\": {\n            \"type\": \"object\",\n            \"properties\": {\n              \"MSRP\": {\n                \"type\": \"number\",\n                \"description\": \"\"\n              },\n              \"invoice\": {\n                \"type\": \"number\",\n                \"description\": \"\"\n              },\n              \"destination\": {\n                \"type\": \"number\",\n                \"description\": \"\"\n              }\n            },\n            \"description\": \"\"\n          },\n          \"warranty\": {\n            \"type\": \"object\",\n            \"properties\": {\n              \"basic\": {\n                \"type\": \"string\",\n                \"description\": \"\"\n              },\n              \"drivetrain\": {\n                \"type\": \"string\",\n                \"description\": \"\"\n              },\n              \"roadside_assistance\": {\n                \"type\": \"string\",\n                \"description\": \"\"\n              }\n            },\n            \"description\": \"\"\n          }\n        }\n      }\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "<logo>Acura</logo>  \n<logo>Toyota</logo>  \n<logo>Nissan</logo>  \n\n<watermark>OFFICIAL COMPARISON REPORT</watermark>  \n\n---\n\n### **2020 Acura NSX Coupe**  \n### **2021 Toyota GR Supra 3.0 Premium Auto (Nat'l)**  \n### **2020 Nissan 370Z Coupe Sport Touring Auto**  \n\n---\n\n## **Pricing**\n\n|                | 2020 Acura NSX Coupe       | 2021 Toyota GR Supra 3.0 Premium Auto (Nat'l) | 2020 Nissan 370Z Coupe Sport Touring Auto |\n|----------------|----------------------------|-----------------------------------------------|-------------------------------------------|\n| **MSRP**       | $157,500                   | $54,490                                       | $39,490                                   |\n| **Invoice**    | $146,251                   | $49,586                                       | $37,685                                   |\n| **Destination**| $1,995                     | $995                                          | $925                                      |\n\n---\n\n## **Quick Facts**\n\n|                | 2020 Acura NSX Coupe       | 2021 Toyota GR Supra 3.0 Premium Auto (Nat'l) | 2020 Nissan 370Z Coupe Sport Touring Auto |\n|----------------|----------------------------|-----------------------------------------------|-------------------------------------------|\n| **Mileage**    | 21 MPG City / 22 MPG Highway | 22 MPG City / 30 MPG Highway                 | 19 MPG City / 26 MPG Highway              |\n| **Engine Type**| Twin Turbo Gas/Electric V-6 | Intercooled Turbo Premium Unleaded I-6       | Premium Unleaded V-6                      |\n| **Horsepower @ RPM** | 573 @ 6500             | 382 @ 5800                                   | 332 @ 7000                                |\n| **Transmission**| Auto-Shift Manual w/OD   | Automatic w/OD                               | Automatic w/OD                            |\n| **Drivetrain** | All Wheel                  | Rear Wheel Drive                             | Rear Wheel Drive                          |\n| **Seating Capacity** | 2                     | 2                                            | 2                                         |\n\n---\n\n## **Warranty**\n\n|                | 2020 Acura NSX Coupe       | 2021 Toyota GR Supra 3.0 Premium Auto (Nat'l) | 2020 Nissan 370Z Coupe Sport Touring Auto |\n|----------------|----------------------------|-----------------------------------------------|-------------------------------------------|\n| **Basic**      | 4 Years/50,000 Miles       | 3 Years/36,000 Miles                          | 3 Years/36,000 Miles                      |\n| **Drivetrain** | 6 Years/70,000 Miles       | 5 Years/60,000 Miles                          | 5 Years/60,000 Miles                      |\n| **Roadside Assistance** | 4 Years/50,000 Miles | 2 Years/Unlimited Miles                       | 3 Years/36,000 Miles                      |\n\n---\n\n<page_number>1</page_number>"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "vehicles": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "info": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "description": "vehicle name, without year"
+                    },
+                    "year": {
+                      "type": "number",
+                      "description": ""
+                    },
+                    "additional_details": {
+                      "type": "string",
+                      "description": ""
+                    }
+                  }
+                },
+                "facts": {
+                  "type": "object",
+                  "properties": {
+                    "mileage": {
+                      "type": "string",
+                      "description": ""
+                    },
+                    "drivetrain": {
+                      "type": "string",
+                      "description": ""
+                    },
+                    "horsepower": {
+                      "type": "string",
+                      "description": ""
+                    },
+                    "engine_type": {
+                      "type": "string",
+                      "description": ""
+                    },
+                    "transmission": {
+                      "type": "string",
+                      "description": ""
+                    },
+                    "seating_capacity": {
+                      "type": "number",
+                      "description": ""
+                    }
+                  },
+                  "description": ""
+                },
+                "pricing": {
+                  "type": "object",
+                  "properties": {
+                    "MSRP": {
+                      "type": "number",
+                      "description": ""
+                    },
+                    "invoice": {
+                      "type": "number",
+                      "description": ""
+                    },
+                    "destination": {
+                      "type": "number",
+                      "description": ""
+                    }
+                  },
+                  "description": ""
+                },
+                "warranty": {
+                  "type": "object",
+                  "properties": {
+                    "basic": {
+                      "type": "string",
+                      "description": ""
+                    },
+                    "drivetrain": {
+                      "type": "string",
+                      "description": ""
+                    },
+                    "roadside_assistance": {
+                      "type": "string",
+                      "description": ""
+                    }
+                  },
+                  "description": ""
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

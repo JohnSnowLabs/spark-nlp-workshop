@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-9228ed7435a41927",
+  "object": "chat.completion",
+  "created": 1769091519,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# SEMBOYAN TEGAS SDN BHD\nNo. 5 & 7, Jalan TSJ 2, Taman Subang Jasa  \nKg. Baru Subang, 40150 Shah Alam  \nSelangor Darul Ehsan  \nTel 03-7846 1113 Fax 03-7832 1368  \nHp: 012-396 1688 012-353 7738  \nwww.semboyan.com  \nEmail: semboyantegas@gmail.com  \n(GST Reg No 001538965504)\n\n## Tax Invoice\n\nCheck #: 549146  \nPax(s): 5  \nDate: 06-03-2018 07:24:06  \nCashier: CASHIER 4\n\n| Description       | Qty | U. price | Total | TAX |\n|-------------------|-----|----------|-------|-----|\n| taucu kisar       | 2 x | 6.50     | 13.00 | SR  |\n| Teh wangi ros 180g| 2 x | 4.20     | 8.40  | ZR  |\n| ASAM JAWA 1KG     | 1 x | 4.80     | 4.80  | ZRL |\n\nTotal (Excluding GST) 26.20  \nGST Payable: 0.78  \nTotal (Inclusive of GST) 26.98  \nRounding Adj: 0.02  \n\n**TOTAL: 27 27.00 \u2611**\n\nClosed 06-03-2018 07:24:44\n\nCASH: 52.00  \nCHANGE: 25.00\n\n## GST Summary\n\n| SR (@ 6%) | Amount (RM) 13.00 | Tax (RM) 0.78 \u2611 |\n| ZR (@ %)  | Amount (RM) 8.40  | Tax (RM) 0.00   |\n| ZRL (@ 0%)| Amount (RM) 4.80  | Tax (RM) 0.00   |\n\n**** Thank You ****  \nPlease Come Again",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 3503,
+    "total_tokens": 4035,
+    "completion_tokens": 532,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

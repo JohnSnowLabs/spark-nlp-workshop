@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-a22d815acfa50324",
+  "object": "chat.completion",
+  "created": 1769091449,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# Medical Equipment Inspection Checklist\n\n**Equipment ID:** SD4MSZN6  \n**Model:** Lowe, Hyatt and Bruen SHOOp  \n**Department:** ICU  \n**Inspection Date:** 2025-02-12  \n**Inspector:** Joanna Daniel  \n\n## Physical Condition\n\n| Checkpoint                | Pass \u2611 | Fail \u2610 | N/A | Notes                                      |\n|---------------------------|--------|--------|-----|--------------------------------------------|\n| Equipment housing intact  | \u2611      |        |     | Control panel unresponsive. Reference ID: QXQRID |\n| Display screen clear      | \u2611      |        |     |                                            |\n| Control buttons functional|        |        | -   | Optional component not present             |\n| Power cord undamaged      | \u2611      |        |     |                                            |\n| Mounting brackets secure  | \u2611      |        |     |                                            |\n| Wheels/casters condition  |        |        | -   | Not applicable for this configuration      |\n| Labels and markings legible | \u2611    |        |     |                                            |\n| Accessories complete      | \u2611      |        |     |                                            |\n\n## Electrical Safety\n\n| Checkpoint            | Pass \u2611 | Fail \u2610 | N/A | Notes                                      |\n|-----------------------|--------|--------|-----|--------------------------------------------|\n| Ground connection     | \u2611      |        |     |                                            |\n| Insulation resistance | \u2611      |        |     |                                            |\n| Leakage current       | \u2611      |        |     |                                            |\n| Power supply stable   | \u2611      |        |     |                                            |\n| Battery backup functional | \u2610  | \u2611      |     | Multiple system failures detected. Last checked on 2/12/2025 |\n| Circuit breaker operation | \u2611  |        |     |                                            |\n| Surge protection      | \u2611      |        |     |                                            |\n| Cable connections secure | \u2611   |        |     |                                            |\n\n## Performance Tests\n\n| Checkpoint            | Pass \u2611 | Fail \u2610 | N/A | Notes |\n|-----------------------|--------|--------|-----|-------|\n| Self-test passed      | \u2611      |        |     |       |\n| Calibration check     | \u2611      |        |     |       |\n| Alarm systems         | \u2611      |        |     |       |\n| Backup systems        | \u2611      | \u2610      |     |       |\n| Output accuracy       | \u2611      |        |     |       |\n| Response time         | \u2611      |        |     |       |\n| Data storage/retrieval| \u2611      |        |     |       |\n| Network connectivity  | \u2611      |        |     |       |\n| Sensor accuracy       | \u2611      |        |     |       |\n\n## Overall Status\n\n**Inspection Result:** \u2611  \n**Next Inspection Due:** 2026-01-30",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 2479,
+    "total_tokens": 3100,
+    "completion_tokens": 621,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

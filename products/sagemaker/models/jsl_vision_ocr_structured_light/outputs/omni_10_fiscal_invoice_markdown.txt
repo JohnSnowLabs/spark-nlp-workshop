@@ -1,0 +1,19 @@
+In millions, except per share data | Years ended December 31 | | |
+|---|---|---|---|
+| | 2015 | 2014 | 2013 |
+| Net income (loss) attributable to Pentair plc | $ (76.4) | $ 214.9 | $ 536.8 |
+| Net income (loss) from continuing operations attributable to Pentair plc | $ (65.0) | $ 607.0 | $ 511.7 |
+| Weighted average ordinary shares outstanding | | | |
+| Basic | 180.3 | 190.6 | 201.1 |
+| Dilutive impact of stock options and restricted stock awards | 2.3 | 3.1 | 3.5 |
+| Diluted | 182.6 | 193.7 | 204.6 |
+| Earnings (loss) per ordinary share attributable to Pentair plc | | | |
+| Basic | | | |
+| Continuing operations | $ (0.36) | $ 3.19 | $ 2.54 |
+| Discontinued operations | (0.06) | (2.06) | 0.13 |
+| Basic earnings (loss) per ordinary share attributable to Pentair plc | $ (0.42) | $ 1.13 | $ 2.67 |
+| Diluted | | | |
+| Continuing operations | $ (0.36) | $ 3.14 | $ 2.50 |
+| Discontinued operations | (0.06) | (2.03) | 0.12 |
+| Diluted earnings (loss) per ordinary share attributable to Pentair plc | $ (0.42) | $ 1.11 | $ 2.62 |
+| Anti-dilutive stock options excluded from the calculation of diluted earnings per share | 1.3 | 0.5 | 0.2 |

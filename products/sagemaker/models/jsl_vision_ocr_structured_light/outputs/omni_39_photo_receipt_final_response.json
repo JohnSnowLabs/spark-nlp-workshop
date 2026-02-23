@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-96ccd4490ca02b1e",
+  "object": "chat.completion",
+  "created": 1769091145,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    {\n      \"quantity\": 1,\n      \"unit_price\": 14.99,\n      \"description\": \"CELEERY STICKS CUT 300G\",\n      \"total_price\": 14.99\n    },\n    {\n      \"quantity\": 1,\n      \"unit_price\": 46.99,\n      \"description\": \"COMESSA 1/1LLA WHT WRAPS 8S\",\n      \"total_price\": 46.99\n    },\n    {\n      \"quantity\": 1,\n      \"unit_price\": 1.50,\n      \"description\": \"F/L RECYCLED C/BAG 24L\",\n      \"total_price\": 1.50\n    },\n    {\n      \"quantity\": 1,\n      \"unit_price\": 14.99,\n      \"description\": \"LOAF BANANA\",\n      \"total_price\": 14.99\n    },\n    {\n      \"quantity\": 2,\n      \"unit_price\": 21.99,\n      \"description\": \"PINEAPPLE QUEEN\",\n      \"total_price\": 43.98\n    },\n    {\n      \"quantity\": 1,\n      \"unit_price\": 17.99,\n      \"description\": \"SUPER M FL/MILK C/SODA 300ML\",\n      \"total_price\": 17.99\n    },\n    {\n      \"quantity\": 1,\n      \"unit_price\": 15.99,\n      \"description\": \"SUPER M FL/MILK S/BERRY 300ML\",\n      \"total_price\": 15.99\n    },\n    {\n      \"quantity\": 1,\n      \"unit_price\": 59.99,\n      \"description\": \"TOMATOES LONG LIFE 2KG\",\n      \"total_price\": 59.99\n    }\n  ],\n  \"totals\": {\n    \"total\": 213.44\n  },\n  \"store_info\": {\n    \"name\": \"FOOD LOVER'S MARKET\"\n  },\n  \"cashier_info\": {\n    \"date\": \"3/04/2024\",\n    \"name\": \"Felicia\",\n    \"time\": \"11:51\",\n    \"slip_number\": \"5174\",\n    \"till_number\": \"C1011\",\n    \"cashier_number\": \"R008\"\n  },\n  \"customer_name\": \"Card\"\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 787,
+    "total_tokens": 1340,
+    "completion_tokens": 553,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

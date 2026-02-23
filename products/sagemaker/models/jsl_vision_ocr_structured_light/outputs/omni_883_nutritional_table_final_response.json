@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-ac0755bdc651eb68",
+  "object": "chat.completion",
+  "created": 1769091439,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"salads\": [\n    {\n      \"name\": \"Mustard Aioli\",\n      \"nutritionalFacts\": {\n        \"fiber\": 1.6,\n        \"sugar\": 10.5,\n        \"sodium\": 31,\n        \"protein\": 23.8,\n        \"transFat\": 0.6,\n        \"saturatedFat\": 7.8,\n        \"caloriesFromFat\": 181\n      }\n    },\n    {\n      \"name\": \"Sundried Tomato Dip\",\n      \"nutritionalFacts\": {\n        \"fiber\": 0.1,\n        \"sugar\": 25.2,\n        \"sodium\": 356,\n        \"protein\": 7.8,\n        \"transFat\": 1.9,\n        \"saturatedFat\": 1.6,\n        \"caloriesFromFat\": 96\n      }\n    },\n    {\n      \"name\": \"Baba Ghanoush\",\n      \"nutritionalFacts\": {\n        \"fiber\": 5,\n        \"sugar\": 5.5,\n        \"sodium\": 726,\n        \"protein\": 7.3,\n        \"transFat\": 0.9,\n        \"saturatedFat\": 0.7,\n        \"caloriesFromFat\": 51\n      }\n    },\n    {\n      \"name\": \"Guacamole\",\n      \"nutritionalFacts\": {\n        \"fiber\": 8,\n        \"sugar\": 5,\n        \"sodium\": 770,\n        \"protein\": 20.3,\n        \"transFat\": 0.3,\n        \"saturatedFat\": 1.8,\n        \"caloriesFromFat\": 5\n      }\n    },\n    {\n      \"name\": \"Lemon Herb Dip\",\n      \"nutritionalFacts\": {\n        \"fiber\": 6.2,\n        \"sugar\": 26.4,\n        \"sodium\": 338,\n        \"protein\": 28.4,\n        \"transFat\": 0,\n        \"saturatedFat\": 7.5,\n        \"caloriesFromFat\": 158\n      }\n    },\n    {\n      \"name\": \"Sweet & Sour Sauce\",\n      \"nutritionalFacts\": {\n        \"fiber\": 1.2,\n        \"sugar\": 5.1,\n        \"sodium\": 989,\n        \"protein\": 24.1,\n        \"transFat\": 1.8,\n        \"saturatedFat\": 8.7,\n        \"caloriesFromFat\": 165\n      }\n    },\n    {\n      \"name\": \"Whipped Feta\",\n      \"nutritionalFacts\": {\n        \"fiber\": 5.7,\n        \"sugar\": 18.1,\n        \"sodium\": 559,\n        \"protein\": 29.1,\n        \"transFat\": 1.9,\n        \"saturatedFat\": 9.2,\n        \"caloriesFromFat\": 126\n      }\n    },\n    {\n      \"name\": \"Spinach Artichoke Dip\",\n      \"nutritionalFacts\": {\n        \"fiber\": 1.8,\n        \"sugar\": 1.5,\n        \"sodium\": 149,\n        \"protein\": 18.2,\n        \"transFat\": 0.7,\n        \"saturatedFat\": 8.4,\n        \"caloriesFromFat\": 189\n      }\n    },\n    {\n      \"name\": \"Honey Mustard\",\n      \"nutritionalFacts\": {\n        \"fiber\": 9,\n        \"sugar\": 36.3,\n        \"sodium\": 12,\n        \"protein\": 16,\n        \"transFat\": 0,\n        \"saturatedFat\": 3.9,\n        \"caloriesFromFat\": 50\n      }\n    },\n    {\n      \"name\": \"Creamy Sriracha\",\n      \"nutritionalFacts\": {\n        \"fiber\": 9.8,\n        \"sugar\": 11.3,\n        \"sodium\": 446,\n        \"protein\": 9.2,\n        \"transFat\": 1.3,\n        \"saturatedFat\": 6.7,\n        \"caloriesFromFat\": 138\n      }\n    },\n    {\n      \"name\": \"Cilantro Lime Dip\",\n      \"nutritionalFacts\": {\n        \"fiber\": 8.8,\n        \"sugar\": 5.9,\n        \"sodium\": 903,\n        \"protein\": 23.4,\n        \"transFat\": 0.2,\n",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "length",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1411,
+    "total_tokens": 2435,
+    "completion_tokens": 1024,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

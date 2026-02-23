@@ -1,0 +1,130 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"date\": {\n      \"type\": \"string\"\n    },\n    \"wrapping\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"labels\": {\n          \"type\": \"string\"\n        },\n        \"cartons\": {\n          \"type\": \"string\"\n        },\n        \"closures\": {\n          \"type\": \"string\",\n          \"description\": \"\"\n        },\n        \"tear_tape\": {\n          \"type\": \"string\",\n          \"description\": \"\"\n        }\n      }\n    },\n    \"sample_no\": {\n      \"type\": \"string\"\n    },\n    \"batch_size\": {\n      \"type\": \"number\",\n      \"description\": \"Unit: lbs\"\n    },\n    \"cigarettes\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"maker\": {\n          \"type\": \"string\"\n        },\n        \"paper\": {\n          \"type\": \"string\"\n        },\n        \"length\": {\n          \"type\": \"number\",\n          \"description\": \"Unit: mm\"\n        },\n        \"weight\": {\n          \"type\": \"string\"\n        },\n        \"glue_roller\": {\n          \"type\": \"string\"\n        },\n        \"air_dilution\": {\n          \"type\": \"number\",\n          \"description\": \"In percentage\"\n        },\n        \"circumference\": {\n          \"type\": \"number\",\n          \"description\": \"Unit: mm\"\n        },\n        \"filter_length\": {\n          \"type\": \"number\",\n          \"description\": \"Unit: mm\"\n        },\n        \"tip_paper_por\": {\n          \"type\": \"number\"\n        }\n      }\n    },\n    \"cigarette_type\": {\n      \"type\": \"string\"\n    },\n    \"responsibility\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"tobacco_blend\": {\n          \"type\": \"string\"\n        },\n        \"making_packing\": {\n          \"type\": \"string\"\n        },\n        \"filter_production\": {\n          \"type\": \"string\"\n        },\n        \"sample_requisition\": {\n          \"type\": \"string\"\n        }\n      }\n    },\n    \"original_request\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"date\": {\n          \"type\": \"string\"\n        },\n        \"made_by\": {\n          \"type\": \"string\"\n        }\n      }\n    },\n    \"purpose_of_sample\": {\n      \"type\": \"string\"\n    },\n    \"laboratory_analysis\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "Sample No. 1194-90  \nDate: 3/14/90  \nType of Cigarette 100 mm Filter  \nBatch Size 47.5 lbs.  \n90-B-1  \n\nOriginal Request Made By J.H. Bell on 2/15/90  \nPurpose of Sample Cigarette Modification B-451  \nSample Specifications Written By C.W. Lassiter  \n\n| BLEND      | CASING | RECASING | FINAL FLAVOR | MENTHOL |\n|------------|--------|----------|--------------|---------|\n| Attached   | None   | Attached | None         | None    |\n\nCigarettes  \nMaker: MK 8  \nLength: 99.0 mm  \nFilter Length: 27 mm  \nCircumference: 24.8 mm  \nWeight: 78.0g/100  \nPaper: 81-01-07  \nTip. Paper: 25-04-07  \nTip. Paper Por.: 430  \nGlue Roller: G  \nAir Dilution: 13.0 %  \n\nFilters  \nKind: 3.3/35,000  \nOG Lt.:  \nRod Length: 108 mm  \nPressure Drop: 400 mm  \nCircumference: 24.45 mm  \nWeight: 75.3g/100  \nPlast.: 7% Kent  \nPlug Wrap: 84-52-28  \nPlug Wrap Por.: 655 c  \nComb. Wrap:  \nComb. Wrap Por.:  \n\nWrapping  \nLabels: White  \nClosures: Blue  \nTear Tape: White  \nCartons: White  \nMarkings: Sample No. on each Carton  \n\nResponsibility  \nTobacco Blend: Lassiter/Douglas  \nFilter Production: MFG.  \nMaking & Packing: James  \nShipping: James  \nSample Requisition (Form 02:20:06):  \n\nRequirements  \nLaboratory: 1 Tray  \nOther:  \n\nLaboratory Analysis: Mainstream Smoke Analysis  \n\nSpecial Requirements  \n\nDirector, Product Development"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string"
+          },
+          "wrapping": {
+            "type": "object",
+            "properties": {
+              "labels": {
+                "type": "string"
+              },
+              "cartons": {
+                "type": "string"
+              },
+              "closures": {
+                "type": "string",
+                "description": ""
+              },
+              "tear_tape": {
+                "type": "string",
+                "description": ""
+              }
+            }
+          },
+          "sample_no": {
+            "type": "string"
+          },
+          "batch_size": {
+            "type": "number",
+            "description": "Unit: lbs"
+          },
+          "cigarettes": {
+            "type": "object",
+            "properties": {
+              "maker": {
+                "type": "string"
+              },
+              "paper": {
+                "type": "string"
+              },
+              "length": {
+                "type": "number",
+                "description": "Unit: mm"
+              },
+              "weight": {
+                "type": "string"
+              },
+              "glue_roller": {
+                "type": "string"
+              },
+              "air_dilution": {
+                "type": "number",
+                "description": "In percentage"
+              },
+              "circumference": {
+                "type": "number",
+                "description": "Unit: mm"
+              },
+              "filter_length": {
+                "type": "number",
+                "description": "Unit: mm"
+              },
+              "tip_paper_por": {
+                "type": "number"
+              }
+            }
+          },
+          "cigarette_type": {
+            "type": "string"
+          },
+          "responsibility": {
+            "type": "object",
+            "properties": {
+              "tobacco_blend": {
+                "type": "string"
+              },
+              "making_packing": {
+                "type": "string"
+              },
+              "filter_production": {
+                "type": "string"
+              },
+              "sample_requisition": {
+                "type": "string"
+              }
+            }
+          },
+          "original_request": {
+            "type": "object",
+            "properties": {
+              "date": {
+                "type": "string"
+              },
+              "made_by": {
+                "type": "string"
+              }
+            }
+          },
+          "purpose_of_sample": {
+            "type": "string"
+          },
+          "laboratory_analysis": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

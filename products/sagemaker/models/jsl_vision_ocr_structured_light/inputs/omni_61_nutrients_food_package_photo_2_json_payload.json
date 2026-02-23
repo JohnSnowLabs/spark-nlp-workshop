@@ -1,0 +1,72 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"iron\": {\n      \"type\": \"number\",\n      \"description\": \"Iron (in percentage)\"\n    },\n    \"sodium\": {\n      \"type\": \"number\",\n      \"description\": \"In mg\"\n    },\n    \"calcium\": {\n      \"type\": \"number\",\n      \"description\": \"Calcium (in percentage)\"\n    },\n    \"protein\": {\n      \"type\": \"number\",\n      \"description\": \"In gram\"\n    },\n    \"calories\": {\n      \"type\": \"number\",\n      \"description\": \"\"\n    },\n    \"total_fat\": {\n      \"type\": \"number\",\n      \"description\": \"In gram\"\n    },\n    \"vitamin_a\": {\n      \"type\": \"number\",\n      \"description\": \"Vitamin A (in percentage)\"\n    },\n    \"vitamin_c\": {\n      \"type\": \"number\",\n      \"description\": \"Vitamin C (in percentage)\"\n    },\n    \"cholesterol\": {\n      \"type\": \"number\",\n      \"description\": \"In mg\"\n    },\n    \"total_carbonhydrate\": {\n      \"type\": \"number\",\n      \"description\": \"In gram\"\n    },\n    \"servings_per_container\": {\n      \"type\": \"number\",\n      \"description\": \"\"\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "HOW ABOUT SOME CRUSHED DATES, SWEET STUFF?\n\nNutrition Facts\nServing Size 2 tsp (6g)\nServings Per Container About 57\n\nAmount Per Serving\nCalories 20 Calories from Fat 0\n\nTotal Fat 0g\n  Saturated Fat 0g 0%\n  Trans Fat 0g\nCholesterol 0mg\nSodium 0mg\nTotal Carb. 5g\n  Dietary Fiber 0g\n  Sugars 5g\nProtein 0g\n\nVitamin A 0% \u2022 Vitamin C 0%\nCalcium 1% \u2022 Iron 0%\nPotassium 1% \u2022 Magnesium 1%\n\n*Percent Daily Values are based on a 2,000 calorie diet.\n\nINGREDIENTS: ORGANIC DRIED, GROUND DATES.\nDISTRIBUTED BY: DATE LADY, INC.\nSPRINGFIELD, MO 65803 USA\nProduct of Tunisia.\nCertified Organic by MOSA\n\n<logo> [logo image] </logo>\n\n<watermark> [watermark image] </watermark>\n\n<page_number>1</page_number>\n\nWHO'S THE DATE LADY?\nSHE'S THE DATE AFICIONADO, AND SHE KEEPS HER INGREDIENTS PURE AND SIMPLE. YOU CAN COUNT ON EVERY PRODUCT SHE BRINGS TO YOUR TABLE TO TASTE GREAT AND INCLUDE ONLY MINIMAL, HIGH-QUALITY INGREDIENTS.\n\nWHAT'CHA GONNA DO WITH DATE SUGAR?\nDITCH THE CANE SUGAR, AND PUT IT IN YOUR COOKIES. SCATTER YOUR SCONES WITH IT. SPRINKLE IT ON YOUR OATMEAL WITH TOASTED NUTS AND DRIED CRANBERRIES - GOOD MORNING! ENJOY THE NOVELTY OF IT. DRIED DATES, CRUSHED JUST FOR YOU.\n\n<watermark> DATE SUGAR METER: WHEN YOU CAN NO LONGER SEE DATE SUGAR, YOU'LL KNOW YOU'VE HAD ENOUGH. </watermark>\n\nDELICIOUS RECIPES AND FUN SERVING IDEAS\nILOVEDATELADY.COM\n\n<logo> [logo image] </logo>"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "iron": {
+            "type": "number",
+            "description": "Iron (in percentage)"
+          },
+          "sodium": {
+            "type": "number",
+            "description": "In mg"
+          },
+          "calcium": {
+            "type": "number",
+            "description": "Calcium (in percentage)"
+          },
+          "protein": {
+            "type": "number",
+            "description": "In gram"
+          },
+          "calories": {
+            "type": "number",
+            "description": ""
+          },
+          "total_fat": {
+            "type": "number",
+            "description": "In gram"
+          },
+          "vitamin_a": {
+            "type": "number",
+            "description": "Vitamin A (in percentage)"
+          },
+          "vitamin_c": {
+            "type": "number",
+            "description": "Vitamin C (in percentage)"
+          },
+          "cholesterol": {
+            "type": "number",
+            "description": "In mg"
+          },
+          "total_carbonhydrate": {
+            "type": "number",
+            "description": "In gram"
+          },
+          "servings_per_container": {
+            "type": "number",
+            "description": ""
+          }
+        }
+      }
+    }
+  }
+}

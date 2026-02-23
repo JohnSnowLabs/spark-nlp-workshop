@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-a52864fc8329a686",
+  "object": "chat.completion",
+  "created": 1769091110,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"totalLiquidityReserves\": [\n    {\n      \"period\": \"4Q19\",\n      \"liquidityReservesMillions\": 90557\n    },\n    {\n      \"period\": \"3Q23\",\n      \"liquidityReservesMillions\": 118352\n    },\n    {\n      \"period\": \"4Q23\",\n      \"liquidityReservesMillions\": 120652\n    },\n    {\n      \"period\": \"1Q24\",\n      \"liquidityReservesMillions\": 127481\n    },\n    {\n      \"period\": \"2Q24\",\n      \"liquidityReservesMillions\": 122914\n    },\n    {\n      \"period\": \"3Q24\",\n      \"liquidityReservesMillions\": 131622\n    }\n  ],\n  \"liquidityCoverageRatios\": [\n    {\n      \"period\": \"3Q23\",\n      \"lcrPercent\": 1.55\n    },\n    {\n      \"period\": \"4Q23\",\n      \"lcrPercent\": 1.67\n    },\n    {\n      \"period\": \"1Q24\",\n      \"lcrPercent\": 1.64\n    },\n    {\n      \"period\": \"2Q24\",\n      \"lcrPercent\": 1.55\n    },\n    {\n      \"period\": \"3Q24\",\n      \"lcrPercent\": 1.63\n    }\n  ]\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 741,
+    "total_tokens": 1083,
+    "completion_tokens": 342,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

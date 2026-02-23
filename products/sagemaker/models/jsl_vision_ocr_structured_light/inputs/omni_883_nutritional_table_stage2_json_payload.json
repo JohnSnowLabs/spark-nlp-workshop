@@ -1,0 +1,79 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"salads\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"required\": [\n          \"name\"\n        ],\n        \"properties\": {\n          \"name\": {\n            \"type\": \"string\",\n            \"description\": \"Name of the menu item\"\n          },\n          \"nutritionalFacts\": {\n            \"type\": \"object\",\n            \"properties\": {\n              \"fiber\": {\n                \"type\": \"number\",\n                \"description\": \"Fiber (g)\"\n              },\n              \"sugar\": {\n                \"type\": \"number\",\n                \"description\": \"Sugar (g)\"\n              },\n              \"sodium\": {\n                \"type\": \"number\",\n                \"description\": \"Sodium (mg)\"\n              },\n              \"protein\": {\n                \"type\": \"number\",\n                \"description\": \"Protein (g)\"\n              },\n              \"transFat\": {\n                \"type\": \"number\",\n                \"description\": \"Trans fat (g)\"\n              },\n              \"saturatedFat\": {\n                \"type\": \"number\",\n                \"description\": \"Saturated fat (g)\"\n              },\n              \"caloriesFromFat\": {\n                \"type\": \"number\",\n                \"description\": \"Calories from fat\"\n              }\n            },\n            \"description\": \"Nutrition facts for the menu item\"\n          }\n        },\n        \"description\": \"Information on menu item and its nutrition\"\n      },\n      \"description\": \"List of the menu items and nutrition facts in the Salads category\"\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "<watermark>BOJANGLES NUTRITIONAL INFORMATION</watermark>\n\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\" style=\"width:100%; border-collapse:collapse; font-family: Arial, sans-serif; font-size: 12px;\">\n  <thead>\n    <tr>\n      <th style=\"background-color:#959595; color:white; text-align:center; font-weight:bold;\">Recipe</th>\n      <th style=\"background-color:#959595; color:white; text-align:center; font-weight:bold;\">Calories</th>\n      <th style=\"background-color:#959595; color:white; text-align:center; font-weight:bold;\">Calories from Fat</th>\n      <th style=\"background-color:#959595; color:white; text-align:center; font-weight:bold;\">Total Fat (g)</th>\n      <th style=\"background-color:#959595; color:white; text-align:center; font-weight:bold;\">Saturated Fat (g)</th>\n      <th style=\"background-color:#959595; color:white; text-align:center; font-weight:bold;\">Trans Fat (g)</th>\n      <th style=\"background-color:#959595; color:white; text-align:center; font-weight:bold;\">Cholesterol (mg)</th>\n      <th style=\"background-color:#959595; color:white; text-align:center; font-weight:bold;\">Sodium (mg)</th>\n      <th style=\"background-color:#959595; color:white; text-align:center; font-weight:bold;\">Carbohydrates (g)</th>\n      <th style=\"background-color:#959595; color:white; text-align:center; font-weight:bold;\">Fiber (g)</th>\n      <th style=\"background-color:#959595; color:white; text-align:center; font-weight:bold;\">Sugar (g)</th>\n      <th style=\"background-color:#959595; color:white; text-align:center; font-weight:bold;\">Protein (g)</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td rowspan=\"10\" style=\"background-color:#1a1a1a; color:white; text-align:center; vertical-align:middle; font-weight:bold; width:10%;\">Dips + Spreads</td>\n      <td>Mustard Aioli</td>\n      <td>383</td>\n      <td>181</td>\n      <td>2.3</td>\n      <td>7.8</td>\n      <td>0.6</td>\n      <td>1</td>\n      <td>31</td>\n      <td>87</td>\n      <td>1.6</td>\n      <td>10.5</td>\n      <td>23.8</td>\n    </tr>\n    <tr>\n      <td>Sundried Tomato Dip</td>\n      <td>60</td>\n      <td>96</td>\n      <td>15.8</td>\n      <td>1.6</td>\n      <td>1.9</td>\n      <td>84</td>\n      <td>356</td>\n      <td>49</td>\n      <td>0.1</td>\n      <td>25.2</td>\n      <td>7.8</td>\n    </tr>\n    <tr>\n      <td>Baba Ghanoush</td>\n      <td>62</td>\n      <td>51</td>\n      <td>17.7</td>\n      <td>0.7</td>\n      <td>0.9</td>\n      <td>92</td>\n      <td>726</td>\n      <td>2</td>\n      <td>5</td>\n      <td>5.5</td>\n      <td>7.3</td>\n    </tr>\n    <tr>\n      <td>Guacamole</td>\n      <td>168</td>\n      <td>5</td>\n      <td>6.9</td>\n      <td>1.8</td>\n      <td>0.3</td>\n      <td>76</td>\n      <td>770</td>\n      <td>54</td>\n      <td>8</td>\n      <td>5</td>\n      <td>20.3</td>\n    </tr>\n    <tr>\n      <"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "salads": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "name"
+              ],
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "Name of the menu item"
+                },
+                "nutritionalFacts": {
+                  "type": "object",
+                  "properties": {
+                    "fiber": {
+                      "type": "number",
+                      "description": "Fiber (g)"
+                    },
+                    "sugar": {
+                      "type": "number",
+                      "description": "Sugar (g)"
+                    },
+                    "sodium": {
+                      "type": "number",
+                      "description": "Sodium (mg)"
+                    },
+                    "protein": {
+                      "type": "number",
+                      "description": "Protein (g)"
+                    },
+                    "transFat": {
+                      "type": "number",
+                      "description": "Trans fat (g)"
+                    },
+                    "saturatedFat": {
+                      "type": "number",
+                      "description": "Saturated fat (g)"
+                    },
+                    "caloriesFromFat": {
+                      "type": "number",
+                      "description": "Calories from fat"
+                    }
+                  },
+                  "description": "Nutrition facts for the menu item"
+                }
+              },
+              "description": "Information on menu item and its nutrition"
+            },
+            "description": "List of the menu items and nutrition facts in the Salads category"
+          }
+        }
+      }
+    }
+  }
+}

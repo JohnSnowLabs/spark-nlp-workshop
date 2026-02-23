@@ -1,0 +1,105 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"required\": [\n    \"accountNumber\",\n    \"period\",\n    \"transactions\",\n    \"totalWithdrawals\",\n    \"totalDeposits\",\n    \"total\"\n  ],\n  \"properties\": {\n    \"total\": {\n      \"type\": \"number\",\n      \"description\": \"Net total (deposits minus withdrawals) for the period\"\n    },\n    \"period\": {\n      \"type\": \"object\",\n      \"required\": [\n        \"start\",\n        \"end\"\n      ],\n      \"properties\": {\n        \"end\": {\n          \"type\": \"string\",\n          \"description\": \"End date of the statement period exactly as it appears\"\n        },\n        \"start\": {\n          \"type\": \"string\",\n          \"description\": \"Start date of the statement period exactly as it appears\"\n        }\n      },\n      \"description\": \"Date range for the account statement period\"\n    },\n    \"transactions\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"required\": [\n          \"date\",\n          \"description\",\n          \"deposit\",\n          \"withdrawal\",\n          \"total\"\n        ],\n        \"properties\": {\n          \"date\": {\n            \"type\": \"string\",\n            \"description\": \"Date of the transaction exactly as it appears\"\n          },\n          \"total\": {\n            \"type\": \"number\",\n            \"description\": \"Net balance after applying the deposit and withdrawal\"\n          },\n          \"deposit\": {\n            \"type\": \"number\",\n            \"description\": \"Amount deposited into the account\"\n          },\n          \"withdrawal\": {\n            \"type\": \"number\",\n            \"description\": \"Amount withdrawn from the account\"\n          },\n          \"description\": {\n            \"type\": \"string\",\n            \"description\": \"Description for the transaction\"\n          }\n        }\n      }\n    },\n    \"accountNumber\": {\n      \"type\": \"string\",\n      \"description\": \"Unique identifier for the account\"\n    },\n    \"totalDeposits\": {\n      \"type\": \"number\",\n      \"description\": \"Total amount of deposits during the period\"\n    },\n    \"totalWithdrawals\": {\n      \"type\": \"number\",\n      \"description\": \"Total amount of withdrawals during the period\"\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "# Transaction Report\n\n| DATE       | DESCRIPTION                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | DEPOSIT | WITHDRAWAL | TOTAL   |\n|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|------------|---------|\n| 01/14/2025 | Zelle Transfer To Pablo Fernandez Jr99m3H2A91                                                                                                                                                                                                                                                                                                                                                                                                                                                   |         | $ 247.00   | $ 247.00|\n| 01/14/2025 | Org CO Name: Universal Freight Services Org ID: 2389475612 CO Entry Descr: Invoice Payment Sec. CCD Trace: 01200003529347E4 Fed. Ind. ID: 5012312. T: 50123983478. FED. Invoice for Invoices                                                                                                                                                                                                                                                                                                                                                      |         | 281.00     | 281.00  |\n| 01/14/2025 | Bank Transfer - Emergency Fund Transfer to Savings Account TRANSFER_EFT-3592                                                                                                                                                                                                                                                                                                                                                                                                                     |         | 351.00     | -351.00 |\n| 01/14/2025 | Zelle Payment to Pedro Herrera 18973554682                                                                                                                                                                                                                                                                                                                                                                                                                                                       |         | 267.00     | -267.00 |\n| 01/15/2025 | Overdraft Fee - Bank of America Account OVERDRAFT_FEE-8472                                                                                                                                                                                                                                                                                                                                                                                                                                        |         | 233.00     | -233.00 |\n| 01/15/2025 | Org CO Name: Best Bay Logistics Inc Org ID: 1204895371 CO Entry Descr: Invoice Payment Sec. CCD Trace: 01200003529347E4 Fed. Ind. ID: 5012312. T: 50123983478. FED. Invoice for Invoice #515365 Tm: 522748213Tc                                                                                                                                                                                                                                                                                                                                                      |         | 601.00     | 601.00  |\n| 01/15/2025 | Org CO Name: Cargo Transport Services Org ID: 2389475612 CO Entry Descr: Invoice Payment Sec. CCD Trace: 01200003529347E4 Fed. Ind. ID: 5012312. T: 50123983478. FED. Invoice for Invoice #43871 Tm: 522748213Tc                                                                                                                                                                                                                                                                                                                                                      |         | 38.00      | 38.00   |\n| 01/16/2025 | Org CO Name: TriunpPay CR Org ID: 3851526928 CO Entry Descr: Invoice Payment Sec. CCD Trace: 01200003529347E4 Fed. Ind. ID: 5012312. T: 50123983478. FED. Invoice for Invoice #40567834567                                                                                                                                                                                                                                                                                                                                                      |         | 927.00     | 927.00  |\n| 01/16/2025 | Org CO Name: Velocity Freight LLC Org ID: 2839475612 CO Entry Descr: Invoice Payment Sec. CCD Trace: 01200003529347E4 Fed. Ind. ID: 5012312. T: 50123983478. FED. Invoice for Invoice #40567834567                                                                                                                                                                                                                                                                                                                                                      |         | 261.00     | 261.00  |\n| 01/16/2025 | Stripe #7743 Tm: 5178976341 Sales STRIPE-PAYMENTS-298                                                                                                                                                                                                                                                                                                                                                                                                                                            |         | 206.00     | -206.00 |\n| 01"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "required": [
+          "accountNumber",
+          "period",
+          "transactions",
+          "totalWithdrawals",
+          "totalDeposits",
+          "total"
+        ],
+        "properties": {
+          "total": {
+            "type": "number",
+            "description": "Net total (deposits minus withdrawals) for the period"
+          },
+          "period": {
+            "type": "object",
+            "required": [
+              "start",
+              "end"
+            ],
+            "properties": {
+              "end": {
+                "type": "string",
+                "description": "End date of the statement period exactly as it appears"
+              },
+              "start": {
+                "type": "string",
+                "description": "Start date of the statement period exactly as it appears"
+              }
+            },
+            "description": "Date range for the account statement period"
+          },
+          "transactions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "date",
+                "description",
+                "deposit",
+                "withdrawal",
+                "total"
+              ],
+              "properties": {
+                "date": {
+                  "type": "string",
+                  "description": "Date of the transaction exactly as it appears"
+                },
+                "total": {
+                  "type": "number",
+                  "description": "Net balance after applying the deposit and withdrawal"
+                },
+                "deposit": {
+                  "type": "number",
+                  "description": "Amount deposited into the account"
+                },
+                "withdrawal": {
+                  "type": "number",
+                  "description": "Amount withdrawn from the account"
+                },
+                "description": {
+                  "type": "string",
+                  "description": "Description for the transaction"
+                }
+              }
+            }
+          },
+          "accountNumber": {
+            "type": "string",
+            "description": "Unique identifier for the account"
+          },
+          "totalDeposits": {
+            "type": "number",
+            "description": "Total amount of deposits during the period"
+          },
+          "totalWithdrawals": {
+            "type": "number",
+            "description": "Total amount of withdrawals during the period"
+          }
+        }
+      }
+    }
+  }
+}

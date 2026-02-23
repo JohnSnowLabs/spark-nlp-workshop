@@ -1,0 +1,140 @@
+# U.S. Individual Income Tax Return
+## 2024
+
+### Form 1040
+Department of the Treasury—Internal Revenue Service  
+OMB No. 1545-0074
+
+For the year Jan. 1–Dec. 31, 2024, or other tax year beginning 1/1/2024, ending 12/31/2024
+
+Your first name and middle initial  
+Jaida D
+
+Last name  
+Dach-Grant
+
+If joint return, spouse's first name and middle initial  
+Last name
+
+Home address (number and street). If you have a P.O. box, see instructions.  
+2655 Graham Motorway
+
+Apt. no.  
+Suite 281
+
+City, town, or post office. If you have a foreign address, also complete spaces below.  
+Fort Karolannberg
+
+State  
+CO
+
+ZIP code  
+81390
+
+Foreign country name  
+Foreign province/state/county  
+Foreign postal code
+
+Your social security number  
+901-83-9103
+
+Spouse's social security number
+
+Presidential Election Campaign  
+Check here if you, or your spouse if filing jointly, want $3 to go to this fund. Checking a box below will not change your tax or refund.  
+☐ You  
+☐ Spouse
+
+### Filing Status
+Check only one box.  
+☐ Single  
+☐ Married filing jointly (even if only one had income)  
+☐ Married filing separately (MFS)  
+☐ Head of household (HOH)  
+☐ Qualifying surviving spouse (QSS)  
+If you checked the MFS box, enter the name of your spouse. If you checked the HOH or QSS box, enter the child's name if the qualifying person is a child but not your dependent:  
+☐ If treating a nonresident alien or dual-status alien spouse as a U.S. resident for the entire tax year, check the box and enter their name (see instructions and attach statement if required):
+
+### Digital Assets
+At any time during 2024, did you: (a) receive (as a reward, award, or payment for property or services); or (b) sell, exchange, or otherwise dispose of a digital asset (or a financial interest in a digital asset)? (See instructions.)  
+☐ Yes  
+☑ No
+
+### Standard Deduction
+Someone can claim:  
+☐ You as a dependent  
+☑ Your spouse as a dependent  
+☐ Spouse itemizes on a separate return or you were a dual-status alien
+
+### Age/Blindness
+You: ☑ Were born before January 2, 1960  
+☐ Are blind
+
+Spouse: ☐ Was born before January 2, 1960  
+☐ Is blind
+
+### Dependents
+If more than four dependents, see instructions and check here  
+(1) First name  
+Elise
+
+Last name  
+Dach-Grant
+
+(2) Social security number  
+403 19 2117
+
+(3) Relationship to you  
+children
+
+(4) Check the box if qualifies for (see instructions):  
+Child tax credit  
+Credit for other dependents
+
+### Income
+Attach Form(s) W-2 here. Also attach Forms W-2G and 1099-R if tax was withheld. If you did not get a Form W-2, see instructions.
+
+1a Total amount from Form(s) W-2, box 1 (see instructions)  
+$25,176.00
+
+1b Household employee wages not reported on Form(s) W-2  
+$0.00
+
+1c Tip income not reported on line 1a (see instructions)  
+$0.00
+
+1d Medicaid waiver payments not reported on Form(s) W-2 (see instructions)  
+$0.00
+
+1e Taxable dependent care benefits from Form 2441, line 26  
+$0.00
+
+1f Employer-provided adoption benefits from Form 8839, line 29  
+$0.00
+
+1g Wages from Form 8919, line 6  
+$0.00
+
+1h Other earned income (see instructions)  
+$9,289.00
+
+1i Nontaxable combat pay election (see instructions)  
+$7,725.00
+
+1z Add lines 1a through 1h  
+$42,190.00
+
+2a Tax-exempt interest  
+$0.00
+
+2b Taxable interest  
+$2,853.00
+
+3a Qualified dividends  
+$0.00
+
+3b Ordinary dividends  
+$0.00
+
+4a IRA distributions  
+$9,2

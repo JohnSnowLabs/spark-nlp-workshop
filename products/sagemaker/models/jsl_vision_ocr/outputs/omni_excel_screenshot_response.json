@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-907cadf5893039a1",
+  "object": "chat.completion",
+  "created": 1769146356,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "<table border=\"1\">\n  <tr>\n    <th>TEAM-NAME</th>\n    <th>CITY</th>\n    <th>PTS</th>\n    <th>PTS_QTR1</th>\n    <th>PTS_QTR2</th>\n    <th>PTS_QTR3</th>\n    <th>PTS_QTR4</th>\n    <th>AST</th>\n    <th>REB</th>\n    <th>TOV</th>\n    <th>FG_PCT</th>\n    <th>FT_PCT</th>\n    <th>FG3_PCT</th>\n    <th>wins</th>\n    <th>losses</th>\n  </tr>\n  <tr>\n    <td>Lakers</td>\n    <td>Los Angeles</td>\n    <td>84</td>\n    <td>22</td>\n    <td>22</td>\n    <td>13</td>\n    <td>27</td>\n    <td>17</td>\n    <td>40</td>\n    <td>15</td>\n    <td>42</td>\n    <td>52</td>\n    <td>30</td>\n    <td>5</td>\n    <td>25</td>\n  </tr>\n  <tr>\n    <td>Clippers</td>\n    <td>LA</td>\n    <td>94</td>\n    <td>32</td>\n    <td>28</td>\n    <td>25</td>\n    <td>9</td>\n    <td>22</td>\n    <td>45</td>\n    <td>16</td>\n    <td>45</td>\n    <td>73</td>\n    <td>39</td>\n    <td>17</td>\n    <td>13</td>\n  </tr>\n</table>\n\n<table border=\"1\">\n  <tr>\n    <th>PLAYER_NAME</th>\n    <th>MIN</th>\n    <th>PTS</th>\n    <th>REB</th>\n    <th>AST</th>\n    <th>FG</th>\n    <th>FG_PCT</th>\n    <th>FG3</th>\n    <th>FG3_PCT</th>\n    <th>FT</th>\n    <th>FT_PCT</th>\n    <th>STL</th>\n    <th>TO</th>\n    <th>BLK</th>\n    <th>OReb</th>\n    <th>DReb</th>\n    <th>PF</th>\n    <th>START_POSITION</th>\n    <th>TEAM_CITY</th>\n  </tr>\n  <tr>\n    <td>D'Angelo Russell</td>\n    <td>28</td>\n    <td>16</td>\n    <td>7</td>\n    <td>1</td>\n    <td>7-13</td>\n    <td>54%</td>\n    <td>2-5</td>\n    <td>40%</td>\n    <td>0-2</td>\n    <td>0%</td>\n    <td>2</td>\n    <td>4</td>\n    <td>1</td>\n    <td>2</td>\n    <td>5</td>\n    <td>2</td>\n    <td>N/A</td>\n    <td>Los Angeles</td>\n  </tr>\n  <tr>\n    <td>Kobe Bryant</td>\n    <td>26</td>\n    <td>12</td>\n    <td>3</td>\n    <td>3</td>\n    <td>4-10</td>\n    <td>40%</td>\n    <td>3-5</td>\n    <td>60%</td>\n    <td>1-4</td>\n    <td>25%</td>\n    <td>2</td>\n    <td>3</td>\n    <td>0</td>\n    <td>0</td>\n    <td>3</td>\n    <td>0</td>\n    <td>F</td>\n    <td>Los Angeles</td>\n  </tr>\n  <tr>\n    <td>Jordan Clarkson</td>\n    <td>31</td>\n    <td>11</td>\n    <td>3</td>\n    <td>3</td>\n    <td>4-9</td>\n    <td>44%</td>\n    <td>0-3</td>\n    <td>0%</td>\n    <td>3-4</td>\n    <td>75%</td>\n    <td>1</td>\n    <td>4</td>\n    <td>0</td>\n    <td>0</td>\n    <td>3</td>\n    <td>3</td>\n    <td>G</td>\n    <td>Los Angeles</td>\n  </tr>\n  <tr>\n    <td>Julius Randle</td>\n    <td>27</td>\n    <td>11</td>\n    <td>8</td>\n    <td>2</td>\n    <td>3-11</td>\n    <td>27%</td>\n    <td>1-3</td>\n    <td>33%</td>\n    <td>4-6</td>\n    <td>67%</td>\n    <td>3</td>\n    <td>3</td>\n    <td>0</td>\n    <td>2</td>\n    <td>6</td>\n    <td>2</td>\n    <td>N/A</td>\n    <td>Los Angeles</td>\n  </tr>\n  <tr>\n    <td>Roy Hibbert</td>\n    <td>27</td>\n    <td>8</td>\n    <td>3</td>\n    <td>1</td>\n    <td>4-10</td>\n    <td>40%</td>\n    <td>0-0</td>\n    <td>0%</td>\n    <td>0-0</td>\n    <td>0%</td>\n    <td>0</td>\n    <td>0</td>\n    <td>0</td>\n    <td>0</td>\n    <td>3</td>\n    <td>1</td>\n    <td>C</td>\n    <td>Los Angeles</td>\n  </tr>\n  <tr>\n    <td>Brandon Bass</td>\n    <td>21</td>\n    <td>7</td>\n    <td>3</td>\n    <td>1</td>\n    <td>3-5</td>\n    <td>60%</td>\n    <td>0-0</td>\n    <td>0%</td>\n    <td>1-2</td>\n    <td>50%</td>\n    <td>1</td>\n    <td>0</td>\n    <td>1</td>\n    <td>0</td>\n    <td>3</td>\n    <td>1</td>\n    <td>N/A</td>\n    <td>Los Angeles</td>\n  </tr>\n  <tr>\n    <td>Lou Williams</td>\n    <td>26</td>\n    <td>7</td>\n    <td>1</td>\n    <td>2</td>\n    <td>1-5</td>\n    <td>20%</td>\n    <td>1-3</td>\n    <td>33%</td>\n    <td>4-7</td>\n    <td>57%</td>\n    <td>0</td>\n    <td>0</td>\n    <td>0</td>\n    <td>0</td>\n    <td>1</td>\n    <td>1</td>\n    <td>G</td>\n    <td>Los Angeles</td>\n  </tr>\n  <tr>\n    <td>Marcelo Huertas</td>\n    <td>12</td>\n    <td>6</td>\n    <td>2</td>\n    <td>2</td>\n    <td>3-4</td>\n    <td>75%</td>\n    <td>0-0</td>\n    <td>0%</td>\n    <td>0-0</td>\n    <td>0%</td>\n    <td>1</td>\n    <td>0</td>\n    <td>0</td>\n    <td>0</td>\n    <td>2</td>\n    <td>2</td>\n    <td>N/A</td>\n    <td>Los Angeles</td>\n  </tr>\n  <tr>\n    <td>Larry Nance Jr.</td>\n    <td>21</td>\n    <td>6</td>\n    <td>5</td>\n    <td>",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "length",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 3517,
+    "total_tokens": 5565,
+    "completion_tokens": 2048,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

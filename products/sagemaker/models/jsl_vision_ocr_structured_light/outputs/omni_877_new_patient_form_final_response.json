@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-8e850e7551ac04d6",
+  "object": "chat.completion",
+  "created": 1769091378,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"dob\": \"04/27/1973\",\n  \"zip\": \"96795\",\n  \"phone\": \"(758) 473-1776\",\n  \"state\": \"HI\",\n  \"address\": \"2237A Dove Rd\",\n  \"lastName\": \"Doe\",\n  \"firstName\": \"Sophia\",\n  \"spouseName\": \"\",\n  \"isNewTherapy\": true,\n  \"maritalStatus\": \"Widowed\",\n  \"isHospitalized\": true,\n  \"reviewOfSymptoms\": {\n    \"fever\": true,\n    \"chills\": true,\n    \"coughing\": true,\n    \"seizures\": true,\n    \"allergies\": false,\n    \"chestPain\": true,\n    \"blurredVision\": true,\n    \"dentalProblems\": true,\n    \"enlargedGlands\": true,\n    \"excessiveStress\": false,\n    \"excessiveBruising\": false,\n    \"shortnessOfBreath\": true,\n    \"irregularHeartRate\": false,\n    \"tuberculosisExposure\": true,\n    \"stomachTroubleOrUlcers\": true\n  },\n  \"previousHealthHistory\": {\n    \"lastSeenDate\": \"December 5, 1992\",\n    \"prescriptionDrugs\": {\n      \"other\": [\"zolpidem\"],\n      \"dietPills\": true,\n      \"painPills\": false,\n      \"muscleRelaxers\": false,\n      \"antidepressants\": true,\n      \"birthControlPills\": true,\n      \"bloodSugarMedication\": false\n    },\n    \"accidentsOrInjuries\": [\"broken collarbone\"],\n    \"overTheCounterDrugs\": [\"afrin\", \"icy hot\"],\n    \"primaryCarePhysician\": \"Dr. Emily Miller\",\n    \"vitaminsOrSupplements\": [\"vitamin b5\"]\n  }\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 2158,
+    "total_tokens": 2576,
+    "completion_tokens": 418,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

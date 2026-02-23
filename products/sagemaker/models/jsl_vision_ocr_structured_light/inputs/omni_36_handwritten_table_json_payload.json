@@ -1,0 +1,91 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"electors\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"birth_date\": {\n            \"type\": \"string\"\n          },\n          \"printed_name\": {\n            \"type\": \"string\"\n          },\n          \"street_address\": {\n            \"type\": \"string\"\n          }\n        },\n        \"description\": \"If rows are empty, don't include them\"\n      }\n    },\n    \"filing_info\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"registrar_name\": {\n          \"type\": \"string\"\n        },\n        \"filing_deadline\": {\n          \"type\": \"string\"\n        },\n        \"registrar_address\": {\n          \"type\": \"string\"\n        }\n      }\n    },\n    \"candidate_info\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"name\": {\n          \"type\": \"string\"\n        },\n        \"term\": {\n          \"type\": \"string\"\n        },\n        \"address\": {\n          \"type\": \"string\"\n        },\n        \"office_sought\": {\n          \"type\": \"string\"\n        },\n        \"date_of_primary\": {\n          \"type\": \"string\"\n        }\n      }\n    },\n    \"registrar_info\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"city\": {\n          \"type\": \"string\"\n        },\n        \"party\": {\n          \"type\": \"string\"\n        }\n      }\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "# RULES:\n- You must include all information on the page. Do not exclude headers, footers, charts, infographics, or subtext.\n- Return tables in an HTML format.\n- Logos should be wrapped in brackets. Ex: <logo>Coca-Cola</logo>\n- Watermarks should be wrapped in brackets. Ex: <watermark>OFFICIAL COPY</watermark>\n- Page numbers should be wrapped in brackets. Ex: <page_number>14</page_number> or <page_number>9/22</page_number>\n- Prefer using \u2610 and \u2611 for check boxes.\n\n---\n\n**City**  \nTown of  \nBorough  \n(Name of Municipality)  \n**New Haven**  \n\n**Democratic**  \n(Party)  \n\n**September 12, 2023**  \n(Date of Primary)  \n\n**NAME(S) OF CANDIDATE(S)**  \n(Note: Provide sufficient space)  \n**Thomas A. Goldenberg**  \n**324 Nicoll Street**  \n\n**OFFICE(S) SOUGHT**  \n**Mayor**  \n\n**TERM**  \n**1/1/24-12/31/25**  \n\n---\n\n**THIS PETITION MUST BE FILED WITH**  \n**200 Orange Street #201, New Haven, 06510**  \n(Address of said Registrar)  \n**Shannel Evans**  \n(Name of Registrar of Voters)  \n**, not later than 4:00 p.m. on August 9, 2023.**  \n\n---\n\n**B.** We, the undersigned, being enrolled members of the above party in the above municipality, do hereby petition that there be printed on the voting machine ballot labels to be used in the primary of said party in said municipality to be held on the date above specified the names of the above individuals as candidates for nomination to the offices specified:  \n\n<table>\n  <tr>\n    <th>SIGNATURE OF ENROLLED ELECTOR</th>\n    <th>PRINTED NAME OF ELECTOR</th>\n    <th>BIRTH DATE</th>\n    <th>STREET ADDRESS</th>\n  </tr>\n  <tr>\n    <td>1</td>\n    <td>Richard A. Lee</td>\n    <td>2/24/1944</td>\n    <td>70 Lyon St</td>\n  </tr>\n  <tr>\n    <td>2</td>\n    <td>Rebecca Smith</td>\n    <td>6/13/20</td>\n    <td>78 Lyon St</td>\n  </tr>\n  <tr>\n    <td>3</td>\n    <td>John Stachniak</td>\n    <td>10/13/69</td>\n    <td>74 Stachnewicz</td>\n  </tr>\n  <tr>\n    <td>4</td>\n    <td>James Balor</td>\n    <td>07/09/88</td>\n    <td>49 Lyon</td>\n  </tr>\n  <tr>\n    <td>5</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>6</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>7</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>10</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>11</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>12</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>13</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>14</td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>15</td>\n    <"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "electors": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "birth_date": {
+                  "type": "string"
+                },
+                "printed_name": {
+                  "type": "string"
+                },
+                "street_address": {
+                  "type": "string"
+                }
+              },
+              "description": "If rows are empty, don't include them"
+            }
+          },
+          "filing_info": {
+            "type": "object",
+            "properties": {
+              "registrar_name": {
+                "type": "string"
+              },
+              "filing_deadline": {
+                "type": "string"
+              },
+              "registrar_address": {
+                "type": "string"
+              }
+            }
+          },
+          "candidate_info": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "term": {
+                "type": "string"
+              },
+              "address": {
+                "type": "string"
+              },
+              "office_sought": {
+                "type": "string"
+              },
+              "date_of_primary": {
+                "type": "string"
+              }
+            }
+          },
+          "registrar_info": {
+            "type": "object",
+            "properties": {
+              "city": {
+                "type": "string"
+              },
+              "party": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

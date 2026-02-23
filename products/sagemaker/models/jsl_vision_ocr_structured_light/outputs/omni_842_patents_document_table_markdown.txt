@@ -1,0 +1,49 @@
+# US 8,498,772 B2
+## Page 3
+
+### (61)
+- Int. C: 2017.01
+- G28T 15/04: 2017.01
+- G28T 7/18: 2017.01
+
+### (62)
+#### References Cited
+- 5,322,198 A: 10/1914: Crona
+- 5,328,818 A: 12/1914: Gutowski et al.
+- 5,476,421 A: 2/1915: Lubowitz
+- 5,512,111 A: 4/1915: Kunze-Hane et al.
+- 5,654,776 A: 4/1915: Gleichner
+- 5,691,411 A: 5/1915: Kohler
+- 5,708,719 A: 7/1915: Gibson et al.
+- 5,728,053 A: 8/1915: Niklaus-Jones et al.
+- 5,789,902 A: 8/1915: Zieman et al.
+- 5,915,031 A: 10/1915: Farrell
+- 6,032,421 A: 12/1915: Davis
+- 6,080,856 A: 1/1916: Johnston
+- 6,230,806 A: 1/1916: Rutherford et al.
+- 6,271,457 A: 1/1916: How et al.
+- 6,367,248 A: 2/1916: Lynch
+- 6,499,921 A: 2/1916: Willms et al.
+- 6,582,732 A: 4/1916: Klock et al.
+- 6,727,818 A: 5/1916: McCullough
+- 6,778,457 A: 5/1916: Effertz et al.
+- 6,888,874 A: 7/1916: Doyle et al.
+- 6,938,298 A: 8/1916: Turner
+- 7,043,378 A: 10/1916: Bogan
+
+### U.S. PATENT DOCUMENTS
+- 1,060,254 A: 1/1910: Nikolaus et al.
+- 1,106,064 A: 2/1910: Green
+- 1,138,704 A: 4/1910: Kassulke
+- 1,258,855 A: 4/1910: Sporer
+- 1,392,321 A: 5/1910: Morissette
+- 1,474,729 A: 7/1910: Crist
+- 1,550,280 A: 9/1910: Breidenberg et al.
+- 1,637,737 A: 10/1910: Goldner et al.
+- 1,705,578 A: 12/1910: Heathcote et al.
+- 1,818,981 A: 1/1911: Borer et al.
+- 1,847,329 A: 1/1911: Berge et al.
+- 1,860,225 A: 2/1911: Graham et al.
+- 2,007,333 A: 4/1911: Romaguera et al.
+- 2,092,728 A: 4/1911: Guskowski
+- 2,234,025 A: 

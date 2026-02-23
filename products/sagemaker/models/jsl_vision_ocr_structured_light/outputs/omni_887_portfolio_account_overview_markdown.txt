@@ -1,0 +1,52 @@
+# Medical Equipment Inspection Checklist
+
+**Equipment ID:** SD4MSZN6  
+**Model:** Lowe, Hyatt and Bruen SHOOp  
+**Department:** ICU  
+**Inspection Date:** 2025-02-12  
+**Inspector:** Joanna Daniel  
+
+## Physical Condition
+
+| Checkpoint                | Pass ☑ | Fail ☐ | N/A | Notes                                      |
+|---------------------------|--------|--------|-----|--------------------------------------------|
+| Equipment housing intact  | ☑      |        |     | Control panel unresponsive. Reference ID: QXQRID |
+| Display screen clear      | ☑      |        |     |                                            |
+| Control buttons functional|        |        | -   | Optional component not present             |
+| Power cord undamaged      | ☑      |        |     |                                            |
+| Mounting brackets secure  | ☑      |        |     |                                            |
+| Wheels/casters condition  |        |        | -   | Not applicable for this configuration      |
+| Labels and markings legible | ☑    |        |     |                                            |
+| Accessories complete      | ☑      |        |     |                                            |
+
+## Electrical Safety
+
+| Checkpoint            | Pass ☑ | Fail ☐ | N/A | Notes                                      |
+|-----------------------|--------|--------|-----|--------------------------------------------|
+| Ground connection     | ☑      |        |     |                                            |
+| Insulation resistance | ☑      |        |     |                                            |
+| Leakage current       | ☑      |        |     |                                            |
+| Power supply stable   | ☑      |        |     |                                            |
+| Battery backup functional | ☐  | ☑      |     | Multiple system failures detected. Last checked on 2/12/2025 |
+| Circuit breaker operation | ☑  |        |     |                                            |
+| Surge protection      | ☑      |        |     |                                            |
+| Cable connections secure | ☑   |        |     |                                            |
+
+## Performance Tests
+
+| Checkpoint            | Pass ☑ | Fail ☐ | N/A | Notes |
+|-----------------------|--------|--------|-----|-------|
+| Self-test passed      | ☑      |        |     |       |
+| Calibration check     | ☑      |        |     |       |
+| Alarm systems         | ☑      |        |     |       |
+| Backup systems        | ☑      | ☐      |     |       |
+| Output accuracy       | ☑      |        |     |       |
+| Response time         | ☑      |        |     |       |
+| Data storage/retrieval| ☑      |        |     |       |
+| Network connectivity  | ☑      |        |     |       |
+| Sensor accuracy       | ☑      |        |     |       |
+
+## Overall Status
+
+**Inspection Result:** ☑  
+**Next Inspection Due:** 2026-01-30

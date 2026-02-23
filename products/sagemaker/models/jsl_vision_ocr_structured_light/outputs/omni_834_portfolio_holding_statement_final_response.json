@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-ab65db475d51fc91",
+  "object": "chat.completion",
+  "created": 1769091319,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"tableData\": [\n    {\n      \"symbol\": \"VIG\",\n      \"etfName\": \"Vanguard Dividend Appreciation ETF\",\n      \"closingPrice\": 195,\n      \"oneDayChange\": 0.0,\n      \"ytdPriceChange\": 0.0\n    }\n  ],\n  \"clientServices\": {\n    \"address\": \"14121 State Avenue Champlinfurt Oregon, 45922-8619\",\n    \"consultantId\": \"7N1N1xQv\",\n    \"consultantName\": \"Julia Grimes\"\n  },\n  \"portfolioSummary\": {\n    \"changes\": [\n      {\n        \"yearToDate\": 83644.0,\n        \"description\": \"Additional Deposits\",\n        \"currentPeriod\": 59523.8\n      },\n      {\n        \"yearToDate\": 55930.15,\n        \"description\": \"Interest Earnings\",\n        \"currentPeriod\": 13473.1\n      },\n      {\n        \"yearToDate\": 71144.08,\n        \"description\": \"Portfolio Rebalancing\",\n        \"currentPeriod\": 0.0\n      },\n      {\n        \"yearToDate\": -49704.9,\n        \"description\": \"Management Fees\",\n        \"currentPeriod\": -39164.37\n      }\n    ],\n    \"ytdBeginningBalance\": 601717.0\n  }\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1568,
+    "total_tokens": 1900,
+    "completion_tokens": 332,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

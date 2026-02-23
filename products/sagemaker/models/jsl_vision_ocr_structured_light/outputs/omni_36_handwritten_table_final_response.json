@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-abcd9955a810de3b",
+  "object": "chat.completion",
+  "created": 1769091137,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"electors\": [\n    {\n      \"birth_date\": \"2/24/1944\",\n      \"printed_name\": \"Richard A. Lee\",\n      \"street_address\": \"70 Lyon St\"\n    },\n    {\n      \"birth_date\": \"6/13/20\",\n      \"printed_name\": \"Rebecca Smith\",\n      \"street_address\": \"78 Lyon St\"\n    },\n    {\n      \"birth_date\": \"10/13/69\",\n      \"printed_name\": \"John Stachniak\",\n      \"street_address\": \"74 Stachnewicz\"\n    },\n    {\n      \"birth_date\": \"07/09/88\",\n      \"printed_name\": \"James Balor\",\n      \"street_address\": \"49 Lyon\"\n    }\n  ],\n  \"filing_info\": {\n    \"registrar_name\": \"Shannel Evans\",\n    \"filing_deadline\": \"4:00 p.m. on August 9, 2023\",\n    \"registrar_address\": \"200 Orange Street #201, New Haven, 06510\"\n  },\n  \"candidate_info\": {\n    \"name\": \"Thomas A. Goldenberg\",\n    \"term\": \"1/1/24-12/31/25\",\n    \"address\": \"324 Nicoll Street\",\n    \"office_sought\": \"Mayor\",\n    \"date_of_primary\": \"September 12, 2023\"\n  },\n  \"registrar_info\": {\n    \"city\": \"New Haven\",\n    \"party\": \"Democratic\"\n  }\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1409,
+    "total_tokens": 1760,
+    "completion_tokens": 351,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

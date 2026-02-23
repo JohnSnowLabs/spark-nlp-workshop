@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-8e6ef8b147b53be7",
+  "object": "chat.completion",
+  "created": 1769091363,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"sex\": \"F\",\n  \"class\": \"C\",\n  \"height\": \"5'-05\\\"\",\n  \"weight\": \"125 lb\",\n  \"address\": {\n    \"city\": \"ANYTOWN\",\n    \"state\": \"CA\",\n    \"street\": \"2570 24TH STREET\",\n    \"zip_code\": \"95818\"\n  },\n  \"eye_color\": \"BRN\",\n  \"last_name\": \"CARDHOLDER\",\n  \"first_name\": \"IMA\",\n  \"hair_color\": \"BRN\",\n  \"issue_date\": \"08/31/2009\",\n  \"date_of_birth\": \"08/31/1977\",\n  \"expiration_date\": \"08/31/2014\",\n  \"driver_license_number\": \"11234568\"\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 625,
+    "total_tokens": 815,
+    "completion_tokens": 190,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

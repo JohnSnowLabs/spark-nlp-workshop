@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-9623e24a9d605665",
+  "object": "chat.completion",
+  "created": 1769091309,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# Allianz\n## Statement of Portfolio Holdings\n\n### Period Overview\n| Beginning of Period Value | Current Period | YTD Period |\n|---------------------------|----------------|------------|\n| $601,717.00               | $919,167.00    |\n| Additional Deposits       | $59,523.80     | $83,644.00 |\n| Interest Earnings         | $13,473.10     | $55,930.15 |\n| Portfolio Rebalancing     | $0.00          | $71,144.08 |\n| Management Fees           | -$39,164.37    | -$49,704.90 |\n| END OF PERIOD             | $635,549.53    | $1,080,180.33 |\n\n*Net Change in Portfolio is the difference between the ending account value and beginning account value after activity.*\n\n### Daily Balances\n| Date       | Amount       | Date       | Amount       |\n|------------|--------------|------------|--------------|\n| 2023-12-30 | $635,821.00  | 2023-12-15 | $634,016.00  |\n| 2023-12-29 | $632,971.00  | 2023-12-14 | $633,488.00  |\n| 2023-12-28 | $633,390.00  | 2023-12-13 | $633,522.00  |\n| 2023-12-27 | $633,695.00  | 2023-12-12 | $633,185.00  |\n| 2023-12-26 | $633,347.00  | 2023-12-09 | $633,613.00  |\n| 2023-12-23 | $633,640.00  | 2023-12-08 | $633,392.00  |\n| 2023-12-22 | $634,019.00  | 2023-12-07 | $632,250.00  |\n| 2023-12-21 | $633,989.00  | 2023-12-06 | $632,961.00  |\n| 2023-12-20 | $633,899.00  | 2023-12-05 | $628,398.00  |\n| 2023-12-19 | $634,107.00  | 2023-12-02 | $628,668.00  |\n| 2023-12-16 | $634,278.00  | 2023-12-01 | $628,241.00  |\n\n### Your Account Information\n#### BENEFICIARY DESIGNATIONS\nMain designated recipient of account proceeds:  \nBackup beneficiary if the primary is unavailable:  \n\u2610 Individual \u2611 Trust \u2610 Estate \u2610 Charity \u2610 None\n\n### Your Representative is Here to Help\nYour Financial Consultant: Julia Grimes  \nID: 7N1N1xQv  \n14121 State Avenue Champlinfurt Oregon, 45922-8619\n\nContact Information  \nBusiness: 397-753-7819\n\n### Account as of 04-01-2024 - 06-30-2024\n| E.T.F. | Security Identifier | EOD Price | One Day Change | Category | Price Change (YTD) | Avg. Daily Volume |\n|--------|---------------------|-----------|----------------|----------|--------------------|-------------------|\n| Vanguard Dividend Appreciation ETF | VIG | 195",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "length",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 3503,
+    "total_tokens": 4527,
+    "completion_tokens": 1024,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

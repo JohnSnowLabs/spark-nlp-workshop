@@ -1,0 +1,96 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"years_ended_december_31\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"year\": {\n            \"type\": \"number\"\n          },\n          \"net_income_loss_attributable_to_pentair_plc\": {\n            \"type\": \"number\"\n          },\n          \"weighted_average_ordinary_shares_outstanding\": {\n            \"type\": \"object\",\n            \"properties\": {\n              \"basic\": {\n                \"type\": \"number\"\n              },\n              \"diluted\": {\n                \"type\": \"number\"\n              },\n              \"dilutive_impact_of_stock_options_and_restricted_stock_awards\": {\n                \"type\": \"number\"\n              }\n            }\n          },\n          \"earnings_loss_per_ordinary_share_attributable_to_pentair_plc\": {\n            \"type\": \"object\",\n            \"properties\": {\n              \"basic\": {\n                \"type\": \"object\",\n                \"properties\": {\n                  \"continuing_operations\": {\n                    \"type\": \"number\"\n                  },\n                  \"discontinued_operations\": {\n                    \"type\": \"number\"\n                  },\n                  \"basic_earnings_loss_per_ordinary_share_attributable_to_pentair_plc\": {\n                    \"type\": \"number\"\n                  }\n                }\n              },\n              \"diluted\": {\n                \"type\": \"object\",\n                \"properties\": {\n                  \"continuing_operations\": {\n                    \"type\": \"number\"\n                  },\n                  \"discontinued_operations\": {\n                    \"type\": \"number\"\n                  },\n                  \"diluted_earnings_loss_per_ordinary_share_attributable_to_pentair_plc\": {\n                    \"type\": \"number\"\n                  }\n                }\n              }\n            }\n          },\n          \"net_income_loss_from_continuing_operations_attributable_to_pentair_plc\": {\n            \"type\": \"number\"\n          },\n          \"anti_dilutive_stock_options_excluded_from_calculation_of_diluted_earnings_per_share\": {\n            \"type\": \"number\"\n          }\n        }\n      }\n    }\n  },\n  \"description\": \"Schema for financial data\"\n}"
+    },
+    {
+      "role": "user",
+      "content": "In millions, except per share data\n\n| | Years ended December 31 | | |\n|---|---|---|---|\n| | 2015 | 2014 | 2013 |\n| Net income (loss) attributable to Pentair plc | $ (76.4) | $ 214.9 | $ 536.8 |\n| Net income (loss) from continuing operations attributable to Pentair plc | $ (65.0) | $ 607.0 | $ 511.7 |\n| Weighted average ordinary shares outstanding | | | |\n| Basic | 180.3 | 190.6 | 201.1 |\n| Dilutive impact of stock options and restricted stock awards | 2.3 | 3.1 | 3.5 |\n| | 182.6 | 193.7 | 204.6 |\n| Earnings (loss) per ordinary share attributable to Pentair plc | | | |\n| Basic | | | |\n| Continuing operations | $ (0.36) | $ 3.19 | $ 2.54 |\n| Discontinued operations | (0.06) | (2.06) | 0.13 |\n| Basic earnings (loss) per ordinary share attributable to Pentair plc | $ (0.42) | $ 1.13 | $ 2.67 |\n| Diluted | | | |\n| Continuing operations | $ (0.36) | $ 3.14 | $ 2.50 |\n| Discontinued operations | (0.06) | (2.03) | 0.12 |\n| Diluted earnings (loss) per ordinary share attributable to Pentair plc | $ (0.42) | $ 1.11 | $ 2.62 |\n| Anti-dilutive stock options excluded from the calculation of diluted earnings per share | 1.3 | 0.5 | 0.2 |"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "years_ended_december_31": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "year": {
+                  "type": "number"
+                },
+                "net_income_loss_attributable_to_pentair_plc": {
+                  "type": "number"
+                },
+                "weighted_average_ordinary_shares_outstanding": {
+                  "type": "object",
+                  "properties": {
+                    "basic": {
+                      "type": "number"
+                    },
+                    "diluted": {
+                      "type": "number"
+                    },
+                    "dilutive_impact_of_stock_options_and_restricted_stock_awards": {
+                      "type": "number"
+                    }
+                  }
+                },
+                "earnings_loss_per_ordinary_share_attributable_to_pentair_plc": {
+                  "type": "object",
+                  "properties": {
+                    "basic": {
+                      "type": "object",
+                      "properties": {
+                        "continuing_operations": {
+                          "type": "number"
+                        },
+                        "discontinued_operations": {
+                          "type": "number"
+                        },
+                        "basic_earnings_loss_per_ordinary_share_attributable_to_pentair_plc": {
+                          "type": "number"
+                        }
+                      }
+                    },
+                    "diluted": {
+                      "type": "object",
+                      "properties": {
+                        "continuing_operations": {
+                          "type": "number"
+                        },
+                        "discontinued_operations": {
+                          "type": "number"
+                        },
+                        "diluted_earnings_loss_per_ordinary_share_attributable_to_pentair_plc": {
+                          "type": "number"
+                        }
+                      }
+                    }
+                  }
+                },
+                "net_income_loss_from_continuing_operations_attributable_to_pentair_plc": {
+                  "type": "number"
+                },
+                "anti_dilutive_stock_options_excluded_from_calculation_of_diluted_earnings_per_share": {
+                  "type": "number"
+                }
+              }
+            }
+          }
+        },
+        "description": "Schema for financial data"
+      }
+    }
+  }
+}

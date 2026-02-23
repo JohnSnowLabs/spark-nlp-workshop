@@ -1,0 +1,150 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"teams\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"ast\": {\n            \"type\": \"number\"\n          },\n          \"pts\": {\n            \"type\": \"number\"\n          },\n          \"reb\": {\n            \"type\": \"number\"\n          },\n          \"tov\": {\n            \"type\": \"number\"\n          },\n          \"city\": {\n            \"type\": \"string\"\n          },\n          \"wins\": {\n            \"type\": \"number\"\n          },\n          \"fg_pct\": {\n            \"type\": \"number\"\n          },\n          \"ft_pct\": {\n            \"type\": \"number\"\n          },\n          \"losses\": {\n            \"type\": \"number\"\n          },\n          \"fg3_pct\": {\n            \"type\": \"number\"\n          },\n          \"pts_qtr1\": {\n            \"type\": \"number\"\n          },\n          \"pts_qtr2\": {\n            \"type\": \"number\"\n          },\n          \"pts_qtr3\": {\n            \"type\": \"number\"\n          },\n          \"pts_qtr4\": {\n            \"type\": \"number\"\n          },\n          \"team_name\": {\n            \"type\": \"string\"\n          }\n        },\n        \"description\": \"\"\n      }\n    },\n    \"players\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"fg\": {\n            \"type\": \"string\"\n          },\n          \"ft\": {\n            \"type\": \"string\"\n          },\n          \"pf\": {\n            \"type\": \"number\"\n          },\n          \"to\": {\n            \"type\": \"number\"\n          },\n          \"ast\": {\n            \"type\": \"number\"\n          },\n          \"blk\": {\n            \"type\": \"number\"\n          },\n          \"fg3\": {\n            \"type\": \"string\"\n          },\n          \"min\": {\n            \"type\": \"number\",\n            \"description\": \"\"\n          },\n          \"pts\": {\n            \"type\": \"number\"\n          },\n          \"reb\": {\n            \"type\": \"number\"\n          },\n          \"stl\": {\n            \"type\": \"number\"\n          },\n          \"dreb\": {\n            \"type\": \"number\"\n          },\n          \"oreb\": {\n            \"type\": \"number\"\n          },\n          \"fg_pct\": {\n            \"type\": \"string\"\n          },\n          \"ft_pct\": {\n            \"type\": \"number\",\n            \"description\": \"In percentage\"\n          },\n          \"fg3_pct\": {\n            \"type\": \"number\",\n            \"description\": \"In percentage\"\n          },\n          \"team_city\": {\n            \"type\": \"string\"\n          },\n          \"player_name\": {\n            \"type\": \"string\"\n          },\n          \"start_position\": {\n            \"type\": \"string\"\n          }\n        }\n      }\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "| TEAM-NAME | CITY | PTS | PTS_QTR1 | PTS_QTR2 | PTS_QTR3 | PTS_QTR4 | AST | REB | TOV | FG_PCT | FT_PCT | FG3_PCT | WINS | LOSSES |  |  |  |  |\n|-----------|------|-----|----------|----------|----------|----------|-----|-----|-----|--------|--------|---------|------|--------|----|----|----|----|\n| Lakers    | Los Angeles | 84  | 22       | 22       | 13       | 27       | 17  | 40  | 15  | 42     | 52     | 30      | 5    | 25     |  |  |  |  |\n| Clippers  | LA   | 94  | 32       | 28       | 25       | 9        | 22  | 45  | 16  | 45     | 73     | 39      | 17   | 13     |  |  |  |  |\n\n| PLAYER_NAME | MIN | PTS | REB | AST | FG | FG_PCT | FG3 | FG3_PCT | FT | FT_PCT | STL | TO | BLK | OREB | DREB | PF | START_POSITION | TEAM_CITY |\n|-------------|-----|-----|-----|-----|----|--------|-----|---------|----|--------|-----|----|-----|------|------|----|----------------|-----------|\n| Lakers      |     |     |     |     |    |        |     |         |    |        |     |    |     |      |      |    |                |           |\n| D'Angelo Russell | 28  | 16  | 7   | 1   | 7-13 | 54%    | 2-5 | 40%     | 0-2 | 0%     | 2   | 4  | 1   | 2    | 5    | 2  | N/A            | Los Angeles |\n| Kobe Bryant    | 26  | 12  | 3   | 3   | 4-10 | 40%    | 3-5 | 60%     | 1-4 | 25%    | 2   | 3  | 0   | 0    | 3    | 0  | F              | Los Angeles |\n| Jordan Clarkson | 31  | 11  | 3   | 3   | 4-9  | 44%    | 0-3 | 0%      | 3-4 | 75%    | 1   | 4  | 0   | 0    | 3    | 3  | G              | Los Angeles |\n| Julius Randle   | 27  | 11  | 8   | 2   | 3-11 | 27%    | 1-3 | 33%     | 4-6 | 67%    | 3   | 3  | 0   | 2    | 6    | 2  | N/A            | Los Angeles |\n| Roy Hibbert     | 27  | 8   | 3   | 1   | 4-10 | 40%    | 0-0 | 0%      | 0-0 | 0%     | 0   | 0  | 0   | 0    | 3    | 1  | C              | Los Angeles |\n| Brandon Bass    | 21  | 7   | 3   | 1   | 3-5  | 60%    | 0-0 | 0%      | 1-2 | 50%    | 1   | 0  | 1   | 0    | 3    | 1  | N/A            | Los Angeles |\n| Lou Williams    | 26  | 7   | 1   | 2   | 1-5  | 20%    | 1-3 | 33%     | 4-7 | 57%    | 0   | 0  | 0   | 0    | 1    | 1  | G              | Los Angeles |\n| Marcelo Huertas | 12  | 6   | 2   | 2"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "teams": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "ast": {
+                  "type": "number"
+                },
+                "pts": {
+                  "type": "number"
+                },
+                "reb": {
+                  "type": "number"
+                },
+                "tov": {
+                  "type": "number"
+                },
+                "city": {
+                  "type": "string"
+                },
+                "wins": {
+                  "type": "number"
+                },
+                "fg_pct": {
+                  "type": "number"
+                },
+                "ft_pct": {
+                  "type": "number"
+                },
+                "losses": {
+                  "type": "number"
+                },
+                "fg3_pct": {
+                  "type": "number"
+                },
+                "pts_qtr1": {
+                  "type": "number"
+                },
+                "pts_qtr2": {
+                  "type": "number"
+                },
+                "pts_qtr3": {
+                  "type": "number"
+                },
+                "pts_qtr4": {
+                  "type": "number"
+                },
+                "team_name": {
+                  "type": "string"
+                }
+              },
+              "description": ""
+            }
+          },
+          "players": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "fg": {
+                  "type": "string"
+                },
+                "ft": {
+                  "type": "string"
+                },
+                "pf": {
+                  "type": "number"
+                },
+                "to": {
+                  "type": "number"
+                },
+                "ast": {
+                  "type": "number"
+                },
+                "blk": {
+                  "type": "number"
+                },
+                "fg3": {
+                  "type": "string"
+                },
+                "min": {
+                  "type": "number",
+                  "description": ""
+                },
+                "pts": {
+                  "type": "number"
+                },
+                "reb": {
+                  "type": "number"
+                },
+                "stl": {
+                  "type": "number"
+                },
+                "dreb": {
+                  "type": "number"
+                },
+                "oreb": {
+                  "type": "number"
+                },
+                "fg_pct": {
+                  "type": "string"
+                },
+                "ft_pct": {
+                  "type": "number",
+                  "description": "In percentage"
+                },
+                "fg3_pct": {
+                  "type": "number",
+                  "description": "In percentage"
+                },
+                "team_city": {
+                  "type": "string"
+                },
+                "player_name": {
+                  "type": "string"
+                },
+                "start_position": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

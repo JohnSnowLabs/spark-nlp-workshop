@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-a4da59b6d261405f",
+  "object": "chat.completion",
+  "created": 1769091511,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"header\": {\n    \"state\": \"New York\",\n    \"title\": \"DEMOCRATIC DESIGNATING PETITION\",\n    \"county\": \"Northamptonshire\",\n    \"electionDate\": \"2025-10-01\"\n  },\n  \"witness\": {\n    \"date\": \"2025-02-18\",\n    \"name\": \"Krystal Savayn\",\n    \"residence\": \"50714 Blind Lane, 13430\"\n  },\n  \"candidate\": {\n    \"name\": \"Joy Witting\",\n    \"position\": \"New York State Senator - 6th District\",\n    \"residence\": \"728 Batz Trace, Nicolaland, NY 42667\"\n  },\n  \"signatures\": [\n    {\n      \"date\": \"2025-02-18\",\n      \"town\": \"Mesa\",\n      \"printName\": \"Lester Grant\",\n      \"residence\": \"186 Homenick Plaza\"\n    },\n    {\n      \"date\": \"2025-02-17\",\n      \"town\": \"South Stefanie\",\n      \"printName\": \"Gregg Aven Feeney\",\n      \"residence\": \"239 Wisoky Parkways\"\n    },\n    {\n      \"date\": \"2025-02-18\",\n      \"town\": \"Littelfurt\",\n      \"printName\": \"Fabiola Gerlich\",\n      \"residence\": \"74310 Talia Road\"\n    },\n    {\n      \"date\": \"2025-02-18\",\n      \"town\": \"White Plains\",\n      \"printName\": \"Kristopher Langworth\",\n      \"residence\": \"485 Lula Cove\"\n    },\n    {\n      \"date\": \"2025-02-18\",\n      \"town\": \"South Sokadbury\",\n      \"printName\": \"Rosario Stracke\",\n      \"residence\": \"3741 Meadow Way\"\n    },\n    {\n      \"date\": \"2025-02-18\",\n      \"town\": \"Lardiesled\",\n      \"printName\": \"George O'Hara\",\n      \"residence\": \"172 Klining Pass\"\n    },\n    {\n      \"date\": \"2025-02-17\",\n      \"town\": \"Port Ruth\",\n      \"printName\": \"Guy Quigley\",\n      \"residence\": \"589 O'Hara Brook\"\n    },\n    {\n      \"date\": \"2025-02-18\",\n      \"town\": \"Grand Rapids\",\n      \"printName\": \"Cody O'Connell\",\n      \"residence\": \"94852 Willow Drive\"\n    },\n    {\n      \"date\": \"2025-02-18\",\n      \"town\": \"Lake Rainaville\",\n      \"printName\": \"Reyna Kedling\",\n      \"residence\": \"310 N Walnut Street\"\n    },\n    {\n      \"date\": \"2025-02-18\",\n      \"town\": \"Lake Annabel\",\n      \"printName\": \"Virgil Linke\",\n      \"residence\": \"67893 Baidge Street\"\n    },\n    {\n      \"date\": \"2025-02-18\",\n      \"town\": \"Port Louveniastead\",\n      \"printName\": \"Kenny Schinner\",\n      \"residence\": \"7537 Kathleen Parks\"\n    },\n    {\n      \"date\": \"2025-02-18\",\n      \"town\": \"Raworth\",\n      \"printName\": \"Cora Cole\",\n      \"residence\": \"51977 Katherine Highway\"\n    },\n    {\n      \"date\": \"2025-02-18\",\n      \"town\": \"North Larnicford\",\n      \"printName\": \"Susanah Oszarski\",\n      \"residence\": \"69875 W 10th Street\"\n    },\n    {\n      \"date\": \"2025-02-18\",\n      \"town\": \"Lake Otlin\",\n      \"printName\": \"Ito Strich\",\n      \"residence\": \"3044 Dale Curve\"\n    }\n  ]\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1383,
+    "total_tokens": 2327,
+    "completion_tokens": 944,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

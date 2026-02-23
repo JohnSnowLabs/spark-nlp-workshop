@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-bab6ee38a8d1ca6e",
+  "object": "chat.completion",
+  "created": 1769146345,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "City Town of New Haven Borough (Name of Municipality)  \nDemocratic (Party) September 12, 2023 (Date of Primary)\n\nNAME(S) OF CANDIDATE(S)  \nThomas A. Goldenberg  \nADDRESS  \n324 Nicoll Street  \n\nOFFICE(S) SOUGHT  \nMayor  \n\nTERM  \n1/1/24-12/31/25  \n\nTHIS PETITION MUST BE FILED WITH  \n200 Orange Street #201, New Haven, 06510  \n(Address of said Registrar), not later than 4:00 p.m. on August 9, 2023.  \n\nB. We, the undersigned, being enrolled members of the above party in the above municipality, do hereby petition that there be printed on the voting machine ballot labels to be used in the primary of said party in said municipality to be held on the date above specified the names of the above individuals as candidates for nomination to the offices specified:\n\n<table border=\"1\">\n  <tr>\n    <th>SIGNATURE OF ENROLLED ELECTOR</th>\n    <th>PRINTED NAME OF ELECTOR</th>\n    <th>BIRTH DATE</th>\n    <th>STREET ADDRESS</th>\n  </tr>\n  <tr>\n    <td>REDACTED</td>\n    <td>Richard A. Lee</td>\n    <td>2/24/1947</td>\n    <td>70 Lyon St</td>\n  </tr>\n  <tr>\n    <td>REDACTED</td>\n    <td>John Stachniak</td>\n    <td>10/13/1987</td>\n    <td>74 Lyon</td>\n  </tr>\n  <tr>\n    <td>REDACTED</td>\n    <td>Jennifer Balor</td>\n    <td>07/01/1988</td>\n    <td>49 Lyon</td>\n  </tr>\n</table>\n\n<page_number>1<page_number>",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 3517,
+    "total_tokens": 3971,
+    "completion_tokens": 454,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

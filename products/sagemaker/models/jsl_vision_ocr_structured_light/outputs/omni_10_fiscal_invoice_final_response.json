@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-8be2503c2a8480e8",
+  "object": "chat.completion",
+  "created": 1769091093,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"years_ended_december_31\": [\n    {\n      \"year\": 2015,\n      \"net_income_loss_attributable_to_pentair_plc\": -76.4,\n      \"weighted_average_ordinary_shares_outstanding\": {\n        \"basic\": 180.3,\n        \"diluted\": 182.6,\n        \"dilutive_impact_of_stock_options_and_restricted_stock_awards\": 2.3\n      },\n      \"earnings_loss_per_ordinary_share_attributable_to_pentair_plc\": {\n        \"basic\": {\n          \"continuing_operations\": -0.36,\n          \"discontinued_operations\": -0.06,\n          \"basic_earnings_loss_per_ordinary_share_attributable_to_pentair_plc\": -0.42\n        },\n        \"diluted\": {\n          \"continuing_operations\": -0.36,\n          \"discontinued_operations\": -0.06,\n          \"diluted_earnings_loss_per_ordinary_share_attributable_to_pentair_plc\": -0.42\n        }\n      },\n      \"net_income_loss_from_continuing_operations_attributable_to_pentair_plc\": -65.0,\n      \"anti_dilutive_stock_options_excluded_from_calculation_of_diluted_earnings_per_share\": 1.3\n    },\n    {\n      \"year\": 2014,\n      \"net_income_loss_attributable_to_pentair_plc\": 214.9,\n      \"weighted_average_ordinary_shares_outstanding\": {\n        \"basic\": 190.6,\n        \"diluted\": 193.7,\n        \"dilutive_impact_of_stock_options_and_restricted_stock_awards\": 3.1\n      },\n      \"earnings_loss_per_ordinary_share_attributable_to_pentair_plc\": {\n        \"basic\": {\n          \"continuing_operations\": 3.19,\n          \"discontinued_operations\": -2.06,\n          \"basic_earnings_loss_per_ordinary_share_attributable_to_pentair_plc\": 1.13\n        },\n        \"diluted\": {\n          \"continuing_operations\": 3.14,\n          \"discontinued_operations\": -2.03,\n          \"diluted_earnings_loss_per_ordinary_share_attributable_to_pentair_plc\": 1.11\n        }\n      },\n      \"net_income_loss_from_continuing_operations_attributable_to_pentair_plc\": 607.0,\n      \"anti_dilutive_stock_options_excluded_from_calculation_of_diluted_earnings_per_share\": 0.5\n    },\n    {\n      \"year\": 2013,\n      \"net_income_loss_attributable_to_pentair_plc\": 536.8,\n      \"weighted_average_ordinary_shares_outstanding\": {\n        \"basic\": 201.1,\n        \"diluted\": 204.6,\n        \"dilutive_impact_of_stock_options_and_restricted_stock_awards\": 3.5\n      },\n      \"earnings_loss_per_ordinary_share_attributable_to_pentair_plc\": {\n        \"basic\": {\n          \"continuing_operations\": 2.54,\n          \"discontinued_operations\": 0.13,\n          \"basic_earnings_loss_per_ordinary_share_attributable_to_pentair_plc\": 2.67\n        },\n        \"diluted\": {\n          \"continuing_operations\": 2.50,\n          \"discontinued_operations\": 0.12,\n          \"diluted_earnings_loss_per_ordinary_share_attributable_to_pentair_plc\": 2.62\n        }\n      },\n      \"net_income_loss_from_continuing_operations_attributable_to_pentair_plc\": 511.7,\n      \"anti_dilutive_stock_options_excluded_from_calculation_of_diluted_earnings_per_share\": 0.2\n    }\n  ]\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 959,
+    "total_tokens": 1835,
+    "completion_tokens": 876,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

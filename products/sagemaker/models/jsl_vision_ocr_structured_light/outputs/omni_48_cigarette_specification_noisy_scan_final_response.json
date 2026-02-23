@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-b74bfcfd27d73b99",
+  "object": "chat.completion",
+  "created": 1769091187,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"date\": \"3/14/90\",\n  \"wrapping\": {\n    \"labels\": \"White\",\n    \"cartons\": \"White\",\n    \"closures\": \"Blue\",\n    \"tear_tape\": \"White\"\n  },\n  \"sample_no\": \"1194-90\",\n  \"batch_size\": 47.5,\n  \"cigarettes\": {\n    \"maker\": \"MK 8\",\n    \"paper\": \"81-01-07\",\n    \"length\": 99.0,\n    \"weight\": \"78.0g/100\",\n    \"glue_roller\": \"G\",\n    \"air_dilution\": 13.0,\n    \"circumference\": 24.8,\n    \"filter_length\": 27,\n    \"tip_paper_por\": 430\n  },\n  \"cigarette_type\": \"100 mm Filter\",\n  \"responsibility\": {\n    \"tobacco_blend\": \"Lassiter/Douglas\",\n    \"making_packing\": \"James\",\n    \"filter_production\": \"MFG.\",\n    \"sample_requisition\": \"\"\n  },\n  \"original_request\": {\n    \"date\": \"2/15/90\",\n    \"made_by\": \"J.H. Bell\"\n  },\n  \"purpose_of_sample\": \"Cigarette Modification B-451\",\n  \"laboratory_analysis\": \"Mainstream Smoke Analysis\"\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1059,
+    "total_tokens": 1377,
+    "completion_tokens": 318,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

@@ -1,0 +1,150 @@
+{
+  "model": "/opt/ml/model",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"teams\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"ast\": {\n            \"type\": \"number\"\n          },\n          \"pts\": {\n            \"type\": \"number\"\n          },\n          \"reb\": {\n            \"type\": \"number\"\n          },\n          \"tov\": {\n            \"type\": \"number\"\n          },\n          \"city\": {\n            \"type\": \"string\"\n          },\n          \"wins\": {\n            \"type\": \"number\"\n          },\n          \"fg_pct\": {\n            \"type\": \"number\"\n          },\n          \"ft_pct\": {\n            \"type\": \"number\"\n          },\n          \"losses\": {\n            \"type\": \"number\"\n          },\n          \"fg3_pct\": {\n            \"type\": \"number\"\n          },\n          \"pts_qtr1\": {\n            \"type\": \"number\"\n          },\n          \"pts_qtr2\": {\n            \"type\": \"number\"\n          },\n          \"pts_qtr3\": {\n            \"type\": \"number\"\n          },\n          \"pts_qtr4\": {\n            \"type\": \"number\"\n          },\n          \"team_name\": {\n            \"type\": \"string\"\n          }\n        },\n        \"description\": \"\"\n      }\n    },\n    \"players\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"fg\": {\n            \"type\": \"string\"\n          },\n          \"ft\": {\n            \"type\": \"string\"\n          },\n          \"pf\": {\n            \"type\": \"number\"\n          },\n          \"to\": {\n            \"type\": \"number\"\n          },\n          \"ast\": {\n            \"type\": \"number\"\n          },\n          \"blk\": {\n            \"type\": \"number\"\n          },\n          \"fg3\": {\n            \"type\": \"string\"\n          },\n          \"min\": {\n            \"type\": \"number\",\n            \"description\": \"\"\n          },\n          \"pts\": {\n            \"type\": \"number\"\n          },\n          \"reb\": {\n            \"type\": \"number\"\n          },\n          \"stl\": {\n            \"type\": \"number\"\n          },\n          \"dreb\": {\n            \"type\": \"number\"\n          },\n          \"oreb\": {\n            \"type\": \"number\"\n          },\n          \"fg_pct\": {\n            \"type\": \"string\"\n          },\n          \"ft_pct\": {\n            \"type\": \"number\",\n            \"description\": \"In percentage\"\n          },\n          \"fg3_pct\": {\n            \"type\": \"number\",\n            \"description\": \"In percentage\"\n          },\n          \"team_city\": {\n            \"type\": \"string\"\n          },\n          \"player_name\": {\n            \"type\": \"string\"\n          },\n          \"start_position\": {\n            \"type\": \"string\"\n          }\n        }\n      }\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\" style=\"width:100%; border-collapse:collapse; font-family:Arial, sans-serif; font-size:14px;\">\n  <tr>\n    <th>TEAM-NAME</th>\n    <th>CITY</th>\n    <th>PTS</th>\n    <th>PTS_QTR1</th>\n    <th>PTS_QTR2</th>\n    <th>PTS_QTR3</th>\n    <th>PTS_QTR4</th>\n    <th>AST</th>\n    <th>REB</th>\n    <th>TOV</th>\n    <th>FG_PCT</th>\n    <th>FT_PCT</th>\n    <th>FG3_PCT</th>\n    <th>WINS</th>\n    <th>LOSSES</th>\n  </tr>\n  <tr>\n    <td><b>Lakers</b></td>\n    <td>Los Angeles</td>\n    <td>84</td>\n    <td>22</td>\n    <td>22</td>\n    <td>13</td>\n    <td>27</td>\n    <td>17</td>\n    <td>40</td>\n    <td>15</td>\n    <td>42</td>\n    <td>52</td>\n    <td>30</td>\n    <td>5</td>\n    <td>25</td>\n  </tr>\n  <tr>\n    <td><b>Clippers</b></td>\n    <td>LA</td>\n    <td>94</td>\n    <td>32</td>\n    <td>28</td>\n    <td>25</td>\n    <td>9</td>\n    <td>22</td>\n    <td>45</td>\n    <td>16</td>\n    <td>45</td>\n    <td>73</td>\n    <td>39</td>\n    <td>17</td>\n    <td>13</td>\n  </tr>\n  <tr>\n    <th>PLAYER_NAME</th>\n    <th>MIN</th>\n    <th>PTS</th>\n    <th>REB</th>\n    <th>AST</th>\n    <th>FG</th>\n    <th>FG_PCT</th>\n    <th>FG3</th>\n    <th>FG3_PCT</th>\n    <th>FT</th>\n    <th>FT_PCT</th>\n    <th>STL</th>\n    <th>TO</th>\n    <th>BLK</th>\n    <th>OREB</th>\n    <th>DREB</th>\n    <th>PF</th>\n    <th>START_POSITION</th>\n    <th>TEAM_CITY</th>\n  </tr>\n  <tr>\n    <td><b>Lakers</b></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>D'Angelo Russell</td>\n    <td>28</td>\n    <td>16</td>\n    <td>7</td>\n    <td>1</td>\n    <td>7-13</td>\n    <td>54%</td>\n    <td>2-5</td>\n    <td>40%</td>\n    <td>0-2</td>\n    <td>0%</td>\n    <td>2</td>\n    <td>4</td>\n    <td>1</td>\n    <td>2</td>\n    <td>5</td>\n    <td>2</td>\n    <td>N/A</td>\n    <td>Los Angeles</td>\n  </tr>\n  <tr>\n    <td>Kobe Bryant</td>\n    <td>26</td>\n    <td>12</td>\n    <td>3</td>\n    <td>3</td>\n    <td>4-10</td>\n    <td"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "image_object_detection",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "teams": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "ast": {
+                  "type": "number"
+                },
+                "pts": {
+                  "type": "number"
+                },
+                "reb": {
+                  "type": "number"
+                },
+                "tov": {
+                  "type": "number"
+                },
+                "city": {
+                  "type": "string"
+                },
+                "wins": {
+                  "type": "number"
+                },
+                "fg_pct": {
+                  "type": "number"
+                },
+                "ft_pct": {
+                  "type": "number"
+                },
+                "losses": {
+                  "type": "number"
+                },
+                "fg3_pct": {
+                  "type": "number"
+                },
+                "pts_qtr1": {
+                  "type": "number"
+                },
+                "pts_qtr2": {
+                  "type": "number"
+                },
+                "pts_qtr3": {
+                  "type": "number"
+                },
+                "pts_qtr4": {
+                  "type": "number"
+                },
+                "team_name": {
+                  "type": "string"
+                }
+              },
+              "description": ""
+            }
+          },
+          "players": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "fg": {
+                  "type": "string"
+                },
+                "ft": {
+                  "type": "string"
+                },
+                "pf": {
+                  "type": "number"
+                },
+                "to": {
+                  "type": "number"
+                },
+                "ast": {
+                  "type": "number"
+                },
+                "blk": {
+                  "type": "number"
+                },
+                "fg3": {
+                  "type": "string"
+                },
+                "min": {
+                  "type": "number",
+                  "description": ""
+                },
+                "pts": {
+                  "type": "number"
+                },
+                "reb": {
+                  "type": "number"
+                },
+                "stl": {
+                  "type": "number"
+                },
+                "dreb": {
+                  "type": "number"
+                },
+                "oreb": {
+                  "type": "number"
+                },
+                "fg_pct": {
+                  "type": "string"
+                },
+                "ft_pct": {
+                  "type": "number",
+                  "description": "In percentage"
+                },
+                "fg3_pct": {
+                  "type": "number",
+                  "description": "In percentage"
+                },
+                "team_city": {
+                  "type": "string"
+                },
+                "player_name": {
+                  "type": "string"
+                },
+                "start_position": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-a65b408972fedbd4",
+  "object": "chat.completion",
+  "created": 1769091246,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# CALIFORNIA LICENSE\n\n**EXPIRES ON BIRTHDAY 1970**\n\n**DRIVER**  \n**W106438**  \n**David Franklin Thomas**  \n**5798 Olive St**  \n**Paradise, Calif 95969**\n\n| SEX | COLOR HAIR | COLOR EYES | HEIGHT | WEIGHT | MARRIED |\n| --- | ---------- | ---------- | ------ | ------ | ------- |\n| M   | Grey       | Blu        | 6-0    | 205    | Yes     |\n\n**DATE OF BIRTH**  \n**Aug 20, 1892**  \n**AGE**  \n**72**  \n**PREVIOUS LICENSE**  \n**Calif**\n\n**MUST WEAR CORRECTIVE LENSES** \u2611  \n**SEE OVER FOR ANY OTHER CONDITIONS.** \u2610\n\n**OTHER ADDRESS**  \n**D. T. Thomas**  \n**CLASS 3, MAY DRIVE 2 AXLE VEHICLE, EXCEPT BUS DE. SIGNED FOR MORE THAN 15 PASSENGERS, MAY TOW VEHICLE LESS THAN 6,000 LBS GROSS.**  \n**Office Paradise**  \n**Date. 8-4-65**\n\n**MUST BE CARRIED WHEN OPERATING A MOTOR VEHICLE AND WHEN APPLYING FOR RENEWAL**",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null,
+        "reasoning_content": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 2735,
+    "total_tokens": 3028,
+    "completion_tokens": 293,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}
