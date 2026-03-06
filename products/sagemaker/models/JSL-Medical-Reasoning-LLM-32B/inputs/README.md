@@ -16,7 +16,7 @@
 ```  
 
 For additional parameters:  
-- [ChatCompletionRequest](https://github.com/vllm-project/vllm/blob/v0.9.2/vllm/entrypoints/openai/protocol.py#L223)  
+- [ChatCompletionRequest](https://github.com/vllm-project/vllm/blob/v0.16.0/vllm/entrypoints/openai/chat_completion/protocol.py#L151)  
 - [OpenAI's Chat API](https://platform.openai.com/docs/api-reference/chat/create)  
 
 ---  
@@ -47,7 +47,7 @@ For additional parameters:
 ```  
 
 Reference:  
-- [CompletionRequest](https://github.com/vllm-project/vllm/blob/v0.9.2/vllm/entrypoints/openai/protocol.py#L741)  
+- [CompletionRequest](https://github.com/vllm-project/vllm/blob/v0.16.0/vllm/entrypoints/openai/completion/protocol.py#L43)  
 - [OpenAI's Completions API](https://platform.openai.com/docs/api-reference/completions/create)  
 
 ---  
