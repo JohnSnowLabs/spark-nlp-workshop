@@ -1,0 +1,30 @@
+services:
+  sparknlp:
+    image: jsl-sparknlp-hc:v3-gpu
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        JSL_SECRET: ${JSL_SECRET}
+    container_name: jsl-sparknlp-hc
+    ports:
+      - "9470:5000"
+    volumes:
+      - ./license.json:/opt/license.json:ro
+      - sparknlp_cache:/root/cache_pretrained
+      - ivy2_cache:/root/.ivy2
+    environment:
+      - SPARK_DRIVER_MEMORY=24g
+      - SPARK_EXECUTOR_MEMORY=12g
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: unless-stopped
+
+volumes:
+  sparknlp_cache:
+  ivy2_cache:

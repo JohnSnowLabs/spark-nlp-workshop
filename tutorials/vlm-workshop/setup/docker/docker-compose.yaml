@@ -1,0 +1,46 @@
+# JSL VLM Model Server — OpenAI-compatible API
+#
+# Serves a single VLM model via vLLM with /v1/chat/completions endpoint.
+#
+# Usage:
+#   cp .env.example .env   # fill in your JSL license credentials
+#   docker compose up -d
+#   curl http://localhost:9461/v1/models
+#
+# First startup downloads the model from JSL S3 (~1-10 min depending on model size).
+# Subsequent startups use the cached model in the `model_cache` volume.
+#
+# To deploy a different model, change MODEL_NAME:
+#   MODEL_NAME=jsl_meds_vl_8b PORT=9460 docker compose up -d
+
+services:
+  vlm:
+    image: 189352970232.dkr.ecr.us-east-1.amazonaws.com/jsl-marketplace/jsl-llm-lib:v1
+    container_name: jsl-vlm
+    env_file: .env
+    environment:
+      - _LAUNCHER_STARTED=1
+      - VLLM_WORKER_MULTIPROC_METHOD=fork
+      - MODEL_NAME=${MODEL_NAME:-jsl_vision_ocr_parsing_1_0}
+      - PORT=${PORT:-9461}
+      - GPU_MEMORY_UTILIZATION=${GPU_MEMORY_UTILIZATION:-0.85}
+      - MAX_MODEL_LEN=${MAX_MODEL_LEN:-8192}
+      - MAX_NUM_SEQS=${MAX_NUM_SEQS:-8}
+    ports:
+      - "${PORT:-9461}:${PORT:-9461}"
+    volumes:
+      - model_cache:/opt/.prop
+      - ./serve.py:/opt/serve.py:ro
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: unless-stopped
+    entrypoint: ["python3", "/opt/serve.py"]
+
+volumes:
+  model_cache:
+    name: jsl-model-cache
