@@ -1,0 +1,19 @@
+# Datasets (large, local only)
+cache/
+dataset/
+!dataset/photo_scan_matches.json
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

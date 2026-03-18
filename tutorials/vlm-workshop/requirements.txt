@@ -1,0 +1,16 @@
+pandas
+numpy
+tqdm
+pillow
+datasets
+matplotlib
+seaborn
+scikit-learn
+ipython
+jupyter
+nbconvert
+openai
+python-dotenv
+sentence-transformers
+faiss-cpu
+requests

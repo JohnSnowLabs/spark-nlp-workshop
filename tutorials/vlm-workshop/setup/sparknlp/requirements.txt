@@ -1,0 +1,5 @@
+fastapi>=0.70.1
+uvicorn==0.30.6
+pyspark==3.4.0
+spark-nlp==6.3.2
+pandas
