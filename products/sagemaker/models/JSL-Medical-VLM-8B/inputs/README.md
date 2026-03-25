@@ -11,12 +11,12 @@
         {"role": "user", "content": "What should I do if I have a fever and body aches?"}  
     ],  
     "max_tokens": 1024,  
-    "temperature": 0.6  
+    "temperature": 0.7  
 }  
 ```  
 
 For additional parameters:  
-- [ChatCompletionRequest](https://github.com/vllm-project/vllm/blob/v0.13.0/vllm/entrypoints/openai/protocol.py#L525)  
+- [ChatCompletionRequest](https://github.com/vllm-project/vllm/blob/v0.16.0/vllm/entrypoints/openai/chat_completion/protocol.py#L151)  
 - [OpenAI's Chat API](https://platform.openai.com/docs/api-reference/chat/create)  
 
 ---  
@@ -47,8 +47,8 @@ For additional parameters:
 ```  
 
 Reference:  
-- [CompletionRequest](https://github.com/vllm-project/vllm/blob/v0.13.0/vllm/entrypoints/openai/protocol.py#L1010)  
-- [OpenAI's Completions API](https://platform.openai.com/docs/api-reference/completions/create)   
+- [CompletionRequest](https://github.com/vllm-project/vllm/blob/v0.16.0/vllm/entrypoints/openai/completion/protocol.py#L43)  
+- [OpenAI's Completions API](https://platform.openai.com/docs/api-reference/completions/create)
 
 ---  
 

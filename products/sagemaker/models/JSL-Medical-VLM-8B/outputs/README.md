@@ -38,11 +38,11 @@ The chat completion response contains the model's reply to a series of input mes
     - **`audio`** (null or object): Audio content, `null` if not applicable.
     - **`function_call`** (null or object): Function call information, `null` if none.
     - **`tool_calls`** (array): A list of tool calls, empty if none are present.
-    - **`reasoning_content`** (string): The model's step-by-step reasoning process (only present for reasoning models).
+    - **`reasoning`** (string): The model's step-by-step reasoning process (only present for reasoning models on this endpoint).
   - **`logprobs`** (null or array): Log probabilities of the generated tokens, `null` unless requested.
   - **`finish_reason`** (string): Reason generation stopped, e.g., `"stop"` (natural end) or `"length"` (token limit reached).
   - **`stop_reason`** (string or null): The stop sequence matched, if any; otherwise, `null`.
-  - **`token_ids`** (null or array): Token IDs of the generated tokens, `null` unless requested.
+  - **`token_ids`** (array of integers or null): Token IDs for the generated completion tokens, `null` unless enabled.
 - **`service_tier`** (null or string):  
   Service tier information, set to `null` if not applicable.
 - **`system_fingerprint`** (null or string):  
@@ -55,8 +55,8 @@ The chat completion response contains the model's reply to a series of input mes
   - **`prompt_tokens_details`** (object or null): Detailed breakdown of prompt tokens, `null` if not provided.
 - **`prompt_logprobs`** (array or null):  
   Log probabilities for prompt tokens at the root level, set to `null` unless enabled.
-- **`prompt_token_ids`** (array or null):  
-  Token IDs for prompt tokens, set to `null` unless requested.
+ - **`prompt_token_ids`** (array of integers or null):  
+  Token IDs for prompt tokens at the root level, set to `null` unless enabled.
 - **`kv_transfer_params`** (object or null):  
   Key-value transfer parameters, set to `null` if not applicable.
 
@@ -64,22 +64,22 @@ The chat completion response contains the model's reply to a series of input mes
 
 ```json
 {
-  "id": "chatcmpl-1d202501a96e4580b6352ba7064e6bb8",
+  "id": "chatcmpl-30c3dbfa9f8b4208bff3f8db99e04a31",
   "object": "chat.completion",
-  "created": 1743488701,
+  "created": 1754927010,
   "model": "/opt/ml/model",
   "choices": [
     {
       "index": 0,
       "message": {
         "role": "assistant",
-        "content": "The patient presents with symptoms of a ...",
+        "content": "\n\n# Clinical Case: Treatment of Dysuria in a Pregnant Woman\n\n## Patient Presentation\nA 23-year-old woman at 22 weeks gestation presents with a 1-day history of worsening dysuria...",
         "refusal": null,
         "annotations": null,
         "audio": null,
         "function_call": null,
         "tool_calls": [],
-        "reasoning_content": null,
+        "reasoning": "\nOkay, let's try to figure out the best treatment for this pregnant woman with burning on urination..."
       },
       "logprobs": null,
       "finish_reason": "stop",
@@ -90,9 +90,9 @@ The chat completion response contains the model's reply to a series of input mes
   "service_tier": null,
   "system_fingerprint": null,
   "usage": {
-    "prompt_tokens": 206,
-    "completion_tokens": 356,
-    "total_tokens": 562,
+    "prompt_tokens": 234,
+    "completion_tokens": 1613,
+    "total_tokens": 1847,
     "prompt_tokens_details": null
   },
   "prompt_logprobs": null,
@@ -125,9 +125,9 @@ The text completion response contains the model's generated text based on a sing
   - **`logprobs`** (null or array): Log probabilities of the generated tokens, `null` unless requested.
   - **`finish_reason`** (string): Reason generation stopped, e.g., `"stop"` or `"length"`.
   - **`stop_reason`** (string or null): The stop sequence matched, if any; otherwise, `null`.
-  - **`token_ids`** (null or array): Token IDs of the generated tokens, `null` unless requested.
   - **`prompt_logprobs`** (null or array): Log probabilities for prompt tokens, set to `null` unless requested.
-  - **`prompt_token_ids`** (null or array): Token IDs for prompt tokens, set to `null` unless requested.
+  - **`token_ids`** (array of integers or null): Token IDs for the generated completion tokens, `null` unless enabled.
+  - **`prompt_token_ids`** (array of integers or null): Token IDs for the prompt tokens corresponding to this choice, `null` unless enabled.
 - **`service_tier`** (null or string):  
   Service tier information, set to `null` if not applicable.
 - **`system_fingerprint`** (null or string):  
@@ -145,9 +145,9 @@ The text completion response contains the model's generated text based on a sing
 
 ```json
 {
-  "id": "cmpl-a6d9952b95dc4c0dbea4cf9deeb46560",
+  "id": "cmpl-3096cd4c4cf84cff96f125742222e467",
   "object": "text_completion",
-  "created": 1743488720,
+  "created": 1754927062,
   "model": "/opt/ml/model",
   "choices": [
     {
@@ -156,17 +156,17 @@ The text completion response contains the model's generated text based on a sing
       "logprobs": null,
       "finish_reason": "stop",
       "stop_reason": null,
-      "token_ids": null,
       "prompt_logprobs": null,
+      "token_ids": null,
       "prompt_token_ids": null
     }
   ],
   "service_tier": null,
   "system_fingerprint": null,
   "usage": {
-    "prompt_tokens": 14,
-    "completion_tokens": 368,
-    "total_tokens": 382,
+    "prompt_tokens": 53,
+    "completion_tokens": 1230,
+    "total_tokens": 1283,
     "prompt_tokens_details": null
   },
   "kv_transfer_params": null
@@ -188,8 +188,8 @@ The text completion response contains the model's generated text based on a sing
       "logprobs": null,
       "finish_reason": "stop",
       "stop_reason": null,
-      "token_ids": null,
       "prompt_logprobs": null,
+      "token_ids": null,
       "prompt_token_ids": null
     },
     {
@@ -198,8 +198,8 @@ The text completion response contains the model's generated text based on a sing
       "logprobs": null,
       "finish_reason": "stop",
       "stop_reason": null,
-      "token_ids": null,
       "prompt_logprobs": null,
+      "token_ids": null,
       "prompt_token_ids": null
     }
   ],
@@ -224,7 +224,7 @@ In streaming mode (`"stream": true`), the API delivers the response as a series 
 #### 1. Chat Completion (Streaming)
 
 **Description:**  
-Each chunk contains a portion of the assistant’s message. The full response is reconstructed by concatenating the `content` fields from the `delta` objects in the order received.
+Each chunk contains a portion of the assistant's message. For reasoning models, the `reasoning` field is streamed first, followed by the `content`. The full response is reconstructed by concatenating the respective fields from the `delta` objects in the order received.
 
 **Fields (per chunk):**
 
@@ -239,28 +239,49 @@ Each chunk contains a portion of the assistant’s message. The full response is
 - **`choices`** (array):  
   A list of choices (typically one). Each choice includes:
   - **`index`** (integer): The index of the choice, typically 0.
-  - **`delta`** (object): The incremental update, containing:
-    - **`role`** (string): The role (e.g., `"assistant"`), included only in the first chunk.
-    - **`content`** (string): The text to append to the message (may be empty in the first or last chunk).
+  - **`delta`** (object): The incremental update. Fields include:
+    - **`role`** (string): The role (e.g., `"assistant"`). Present only in the first chunk.
+    - **`reasoning`** (string): The reasoning content to append. Present only for reasoning models and typically streamed before `content`.
+    - **`content`** (string): The text to append to the message. May be an empty string in early chunks.
+    - Note: Per chunk, either or both of `reasoning` and `content` may appear.
   - **`logprobs`** (null or array): Log probabilities of the generated tokens, `null` unless requested.
-  - **`finish_reason`** (string or null): Reason generation stopped (e.g., `"stop"` or `"length"`), `null` until the final chunk.
-  - **`stop_reason`** (string or null): The stop sequence matched, if any; otherwise, `null`.
-  - **`token_ids`** (null or array): Token IDs of the generated tokens, `null` unless requested.
-- **`prompt_token_ids`** (null or array):  
-  Token IDs for prompt tokens, included only in the first chunk, `null` otherwise.
+  - **`finish_reason`** (string or null): Present on each chunk; `null` until the final chunk, then set to values like `"stop"` or `"length"`.
+  - **`stop_reason`** (string or null, optional): May be omitted. If present, indicates the matched stop sequence; otherwise `null`.
+  - **`token_ids`** (array of integers or null): Token IDs for the generated tokens in this chunk, `null` unless enabled.
+  - Note: Streaming chunks do not include top-level fields like `service_tier`, `system_fingerprint`, or usage accounting.
 
 **Example:**
 
 ```plaintext
-data: {"id":"chatcmpl-5a398898be0b4014b7eb9fb15798a006","object":"chat.completion.chunk","created":1743433744,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"role":"assistant","content":""},"logprobs":null,"finish_reason":null,"stop_reason":null}],"prompt_token_ids":null}
-data: {"id":"chatcmpl-5a398898be0b4014b7eb9fb15798a006","object":"chat.completion.chunk","created":1743433744,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":"If"},"logprobs":null,"finish_reason":null,"stop_reason":null,"token_ids":null}]}
-data: {"id":"chatcmpl-5a398898be0b4014b7eb9fb15798a006","object":"chat.completion.chunk","created":1743433744,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":" you"},"logprobs":null,"finish_reason":null,"stop_reason":null,"token_ids":null}]}
-data: {"id":"chatcmpl-5a398898be0b4014b7eb9fb15798a006","object":"chat.completion.chunk","created":1743433744,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":" have"},"logprobs":null,"finish_reason":"length","stop_reason":null,"token_ids":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"role":"assistant","content":""},"logprobs":null,"finish_reason":null,"stop_reason":null,"token_ids":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning":"\n"},"logprobs":null,"finish_reason":null,"stop_reason":null,"token_ids":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning":"Okay"},"logprobs":null,"finish_reason":null,"stop_reason":null,"token_ids":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning":","},"logprobs":null,"finish_reason":null,"stop_reason":null,"token_ids":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning":" let"},"logprobs":null,"finish_reason":null,"stop_reason":null,"token_ids":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning":" me"},"logprobs":null,"finish_reason":null,"stop_reason":null,"token_ids":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning":" try"},"logprobs":null,"finish_reason":null,"stop_reason":null,"token_ids":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning":" to"},"logprobs":null,"finish_reason":null,"stop_reason":null,"token_ids":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning":" figure"},"logprobs":null,"finish_reason":null,"stop_reason":null,"token_ids":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning":" this"},"logprobs":null,"finish_reason":null,"stop_reason":null,"token_ids":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning":" out"},"logprobs":null,"finish_reason":null,"stop_reason":null,"token_ids":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning":"."},"logprobs":null,"finish_reason":null,"stop_reason":null,"token_ids":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"reasoning":".\n"},"logprobs":null,"finish_reason":null,"stop_reason":null,"token_ids":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":"\n\n"},"logprobs":null,"finish_reason":null,"stop_reason":null,"token_ids":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":"The"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":" best"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":" treatment"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":" for"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":" this"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":" pregnant"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":" woman"},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":"..."},"logprobs":null,"finish_reason":null,"stop_reason":null}]}
+data: {"id":"chatcmpl-2e46f7e56d474ad8874756df2b358a10","object":"chat.completion.chunk","created":1752128962,"model":"/opt/ml/model","choices":[{"index":0,"delta":{"content":""},"logprobs":null,"finish_reason":"stop","stop_reason":null}]}
 data: [DONE]
 ```
 
 **Reconstructed Message:**  
-"If you have"
+- **Reasoning Content:** "Okay, let me try to figure this out..."
+- **Content:** "The best treatment for this pregnant woman..."
 
 ---
 
@@ -282,19 +303,20 @@ Each chunk contains a portion of the generated text. The full response is recons
 - **`choices`** (array):  
   A list of choices (typically one). Each choice includes:
   - **`index`** (integer): The index of the choice, typically 0.
-  - **`text`** (string): The text to append to the completion.
+  - **`text`** (string): The text to append to the completion. Emitted incrementally across chunks.
   - **`logprobs`** (null or array): Log probabilities of the generated tokens, `null` unless requested.
-  - **`finish_reason`** (string or null): Reason generation stopped (e.g., `"stop"` or `"length"`), `null` until the final chunk.
-  - **`stop_reason`** (string or null): The stop sequence matched, if any; otherwise, `null`.
-  - **`prompt_token_ids`** (null or array): Token IDs for prompt tokens, included only in the first chunk, `null` otherwise.
-  - **`token_ids`** (null or array): Token IDs of the generated tokens, `null` unless requested.
+  - **`finish_reason`** (string or null): Present on each chunk; `null` until the final chunk, then set to values like `"stop"` or `"length"`.
+  - **`stop_reason`** (string or null, optional): May be omitted. If present, indicates the matched stop sequence; otherwise `null`.
+  - **`prompt_token_ids`** (array of integers or null): Token IDs for the prompt tokens corresponding to this chunk, `null` unless enabled.
+  - **`token_ids`** (array of integers or null): Token IDs for the generated tokens in this chunk, `null` unless enabled.
 - **`usage`** (object or null):  
-  Token usage statistics, typically `null` in streaming chunks.
+  Token usage statistics. In streaming chunks this is typically `null`.
+- Note: Streaming chunks do not include top-level fields like `service_tier` or `system_fingerprint`.
 
 **Example:**
 
 ```plaintext
-data: {"id":"cmpl-1318a788635e47a58bafeaf18a2816c2","object":"text_completion","created":1743433786,"model":"/opt/ml/model","choices":[{"index":0,"text":"If","logprobs":null,"finish_reason":null,"stop_reason":null,"prompt_token_ids":[4340,646,358,10306,1661,37942,2820,30],"token_ids":null}],"usage":null}
+data: {"id":"cmpl-1318a788635e47a58bafeaf18a2816c2","object":"text_completion","created":1743433786,"model":"/opt/ml/model","choices":[{"index":0,"text":"If","logprobs":null,"finish_reason":null,"stop_reason":null,"prompt_token_ids":null,"token_ids":null}],"usage":null}
 data: {"id":"cmpl-1318a788635e47a58bafeaf18a2816c2","object":"text_completion","created":1743433786,"model":"/opt/ml/model","choices":[{"index":0,"text":" you","logprobs":null,"finish_reason":null,"stop_reason":null,"prompt_token_ids":null,"token_ids":null}],"usage":null}
 data: {"id":"cmpl-1318a788635e47a58bafeaf18a2816c2","object":"text_completion","created":1743433786,"model":"/opt/ml/model","choices":[{"index":0,"text":" have","logprobs":null,"finish_reason":null,"stop_reason":null,"prompt_token_ids":null,"token_ids":null}],"usage":null}
 data: {"id":"cmpl-1318a788635e47a58bafeaf18a2816c2","object":"text_completion","created":1743433786,"model":"/opt/ml/model","choices":[{"index":0,"text":" a","logprobs":null,"finish_reason":"stop","stop_reason":null,"prompt_token_ids":null,"token_ids":null}],"usage":null}
