@@ -1,10 +1,10 @@
 {
     "model": "/opt/ml/model",
-    "prompt": "<|im_start|>system\nYou are an expert medical AI assistant.<|im_end|>\n<|im_start|>user\nWhat should I do if I have a fever and body aches?<|im_end|>\n<|im_start|>assistant\n",
-    "temperature": 0.6,
+    "prompt": "You are a helpful medical assistant. Provide accurate, evidence-based information in response to the following question. Organize the response with clear hierarchical headings and include a conclusion if necessary.\n\nUser: What should I do if I have a fever and body aches?\n\nAssistant:",
+    "max_tokens": 8192,
+    "temperature": 0.7,
     "top_p": 0.95,
-    "max_tokens": 4096,
-    "stop": [
-        "<|im_end|>"
-    ]
+    "top_k": 20,
+    "min_p": 0.0,
+    "presence_penalty": 0.0
 }
