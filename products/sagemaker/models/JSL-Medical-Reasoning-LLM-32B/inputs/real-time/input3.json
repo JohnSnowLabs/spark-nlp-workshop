@@ -1,0 +1,9 @@
+{
+    "model": "/opt/ml/model",
+    "prompt": "<|im_start|>system\nYou are an expert medical AI assistant.<|im_end|>\n<|im_start|>user\nA 23-year-old pregnant woman at 22 weeks gestation presents with burning upon urination. She states it started 1 day ago and has been worsening despite drinking more water and taking cranberry extract. She otherwise feels well and is followed by a doctor for her pregnancy. Her temperature is 97.7\u00b0F (36.5\u00b0C), blood pressure is 122/77 mmHg, pulse is 80/min, respirations are 19/min, and oxygen saturation is 98% on room air. Physical exam is notable for an absence of costovertebral angle tenderness and a gravid uterus.\n\nWhich of the following is the best treatment for this patient?\nA: Ampicillin\nB: Ceftriaxone\nC: Ciprofloxacin\nD: Doxycycline\nE: Nitrofurantoin\n<|im_end|>\n<|im_start|>assistant\n<think>\n",
+    "max_tokens": 8192,
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "presence_penalty": 1.5,
+    "top_k": 20
+}
