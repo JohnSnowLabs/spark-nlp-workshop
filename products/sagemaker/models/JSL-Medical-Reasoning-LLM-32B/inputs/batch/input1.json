@@ -1,13 +1,15 @@
 {
     "model": "/opt/ml/model",
     "prompt": [
-        "You are a helpful medical assistant. Provide accurate, evidence-based information in response to the following question. Organize the response with clear hierarchical headings and include a conclusion if necessary.\n\nUser: How can I maintain good kidney health?\n\nAssistant:",
-        "You are a helpful medical assistant. Provide accurate, evidence-based information in response to the following question. Organize the response with clear hierarchical headings and include a conclusion if necessary.\n\nUser: What are the symptoms of high blood pressure?\n\nAssistant:"
+        "<|im_start|>system\nYou are an expert medical AI assistant.<|im_end|>\n<|im_start|>user\nHow can I maintain good kidney health?<|im_end|>\n<|im_start|>assistant\n<think>\n",
+        "<|im_start|>system\nYou are an expert medical AI assistant.<|im_end|>\n<|im_start|>user\nWhat are the symptoms of high blood pressure?<|im_end|>\n<|im_start|>assistant\n<think>\n"
     ],
-    "max_tokens": 2048,
-    "temperature": 0.6,
+    "temperature": 1.0,
     "top_p": 0.95,
+    "max_tokens": 4096,
+    "presence_penalty": 1.5,
     "top_k": 20,
-    "min_p": 0.0,
-    "presence_penalty": 0.0
+    "stop": [
+        "<|im_end|>"
+    ]
 }

@@ -1,0 +1,29 @@
+{
+    "model": "/opt/ml/model",
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are an expert medical AI assistant."
+        },
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "What does panel d illustrate? A: The infarct core. B: The penumbra zone. C: The arterial spin labeling lesion. D: The ASL perfusion restriction."
+                },
+                {
+                    "type": "image_url",
+                    "image_url": {
+                        "url": "https://i.ibb.co/Hfvh12dH/SCR-20250416-muzq.png"
+                    }
+                }
+            ]
+        }
+    ],
+    "max_tokens": 8192,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "presence_penalty": 1.5,
+    "top_k": 20
+}
