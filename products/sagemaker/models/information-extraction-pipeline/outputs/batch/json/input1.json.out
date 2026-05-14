@@ -1,0 +1,18 @@
+{
+  "consumed_units": 1,
+  "predictions": {
+    "doc_0": {
+      "doc_id": "doc_0",
+      "note_text": "Patient is a 58-year-old male with stage III lung cancer. EGFR mutation positive. Started on erlotinib 150mg daily.",
+      "note_json": {
+        "tables": [],
+        "pictures": [],
+        "sections": {},
+        "extraction_info": {
+          "engine": "text",
+          "pages": 1
+        }
+      }
+    }
+  }
+}

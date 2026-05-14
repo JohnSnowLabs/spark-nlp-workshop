@@ -1,0 +1,31 @@
+{
+  "consumed_units": 2,
+  "predictions": {
+    "doc_0": {
+      "doc_id": "doc_0",
+      "note_text": "Patient is a 58-year-old male with stage III lung cancer. EGFR mutation positive. Started on erlotinib 150mg daily.",
+      "note_json": {
+        "tables": [],
+        "pictures": [],
+        "sections": {},
+        "extraction_info": {
+          "engine": "text",
+          "pages": 1
+        }
+      }
+    },
+    "doc_1": {
+      "doc_id": "doc_1",
+      "note_text": "62-year-old female with Type 2 diabetes mellitus, HbA1c 9.2%. Started metformin 500mg twice daily. Blood pressure 140/85 mmHg.",
+      "note_json": {
+        "tables": [],
+        "pictures": [],
+        "sections": {},
+        "extraction_info": {
+          "engine": "text",
+          "pages": 1
+        }
+      }
+    }
+  }
+}
