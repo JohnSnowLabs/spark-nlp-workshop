@@ -1,4 +1,4 @@
-# Running Spark NLP Healthcare/JSL Jobs on Amazon EMR Serverless
+# Running Spark NLP and Healthcare NLP Jobs on Amazon EMR Serverless
 
 ## Scope
 
@@ -6,19 +6,19 @@ This guide explains how to set up **Spark NLP Healthcare/JSL** on **Amazon EMR S
 
 EMR Serverless is different from a regular EMR cluster: it does **not** run bootstrap actions. For Spark NLP Healthcare/JSL jobs, the Spark job must load all required runtime assets from S3, including:
 
-- Spark NLP and Spark NLP Healthcare/JSL JAR files.
+- Spark NLP and Spark Healthcare NLP JAR files.
 - A packed Python environment containing compatible `spark-nlp` and `spark-nlp-jsl` wheels.
 - Healthcare model or pipeline artifacts.
 - Optional pretrained/cache artifacts.
 
 ## 1. Target Architecture
 
-A successful Spark NLP Healthcare/JSL EMR Serverless setup requires these components:
+A successful Spark NLP and Healthcare NLP EMR Serverless setup requires these components:
 
 1. An **EMR Serverless Spark application** using an EMR release compatible with the Spark NLP/JSL versions you plan to run.
 2. An **EMR Serverless job runtime role** with S3 permissions for scripts, JARs, Python environment archives, model artifacts, input data, output data, logs, and optional cache/checkpoint paths.
 3. **Network egress** from the EMR Serverless application for floating license validation.
-4. Compatible **Spark NLP assembly** and **Spark NLP Healthcare/JSL** JAR files uploaded to S3.
+4. Compatible **Spark NLP assembly** and **Healthcare NLP** JAR files uploaded to S3.
 5. A packed Python runtime archive containing compatible `spark-nlp` and `spark-nlp-jsl` Python packages.
 6. A floating license passed securely to the driver and executors.
 7. Correct S3A configuration for model loading and artifact access.
@@ -33,9 +33,9 @@ Keep these versions aligned before submitting a job:
 | EMR Serverless release | Must provide a Spark runtime compatible with your Spark NLP/JSL release. |
 | Apache Spark / Scala | JAR coordinates and assembly artifacts must match the Spark/Scala runtime. Spark NLP 3.x+ deployments commonly use Scala 2.12 on Spark 3.x. |
 | Spark NLP assembly JAR | Must match the `spark-nlp` Python package version. |
-| Spark NLP Healthcare/JSL JAR | Must match the `spark-nlp-jsl` Python package and licensed Healthcare model version. |
+| Healthcare NLP JAR | Must match the `spark-nlp-jsl` Python package and licensed Healthcare model version. |
 | Python version | Must match what you pack in the environment archive and what EMR Serverless can run. For EMR Serverless 7.x, Python 3.11 on Amazon Linux 2023 is a good baseline. |
-| Healthcare model/pipeline | Should be compatible with the Spark NLP Healthcare/JSL version. |
+| Healthcare model/pipeline | Should be compatible with the Healthcare NLP version. |
 
 For example, for an EMR Serverless 7.x proof of concept, a common baseline is:
 
@@ -43,11 +43,11 @@ For example, for an EMR Serverless 7.x proof of concept, a common baseline is:
 EMR Serverless release: emr-7.x
 Python: 3.11
 Spark NLP: <spark-nlp-version>
-Spark NLP Healthcare/JSL: <spark-nlp-jsl-version>
+Healthcare NLP: <spark-nlp-jsl-version>
 Scala: 2.12
 ```
 
-Do not mix arbitrary Spark NLP, Healthcare/JSL, and model versions. If a model fails to load or deserialize, first validate version compatibility.
+Do not mix arbitrary Spark NLP, Healthcare NLP, and model versions. If a model fails to load or deserialize, first validate version compatibility.
 
 ## 3. VPC and Outbound Connectivity
 
