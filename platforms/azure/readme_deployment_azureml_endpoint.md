@@ -1,7 +1,7 @@
-# 🚀 Deploying Spark NLP for Healthcare (JSL) Pipeline on Azure ML as a REST API
+# 🚀 Deploying Healthcare NLP Pipeline on Azure ML as a REST API
 
 ## 🧩 Overview
-This guide explains how to package, containerize, and deploy a **Spark NLP for Healthcare (JSL)** pretrained NER pipeline as a **Managed Online Endpoint** on **Azure Machine Learning (Azure ML)**.
+This guide explains how to package, containerize, and deploy a **Healthcare NLP** pretrained NER pipeline as a **Managed Online Endpoint** on **Azure Machine Learning (Azure ML)**.
 
 
 ## 📚 How this README and notebook work together
