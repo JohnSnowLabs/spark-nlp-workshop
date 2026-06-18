@@ -16,7 +16,7 @@
 ```  
 
 For additional parameters:  
-- [ChatCompletionRequest](https://github.com/vllm-project/vllm/blob/v0.9.2/vllm/entrypoints/openai/protocol.py#L223)  
+- [ChatCompletionRequest](https://github.com/vllm-project/vllm/blob/v0.19.0/vllm/entrypoints/openai/chat_completion/protocol.py#L150)  
 - [OpenAI's Chat API](https://platform.openai.com/docs/api-reference/chat/create)  
 
 ---  
@@ -47,8 +47,55 @@ For additional parameters:
 ```  
 
 Reference:  
-- [CompletionRequest](https://github.com/vllm-project/vllm/blob/v0.9.2/vllm/entrypoints/openai/protocol.py#L741)  
-- [OpenAI's Completions API](https://platform.openai.com/docs/api-reference/completions/create)  
+- [CompletionRequest](https://github.com/vllm-project/vllm/blob/v0.19.0/vllm/entrypoints/openai/completion/protocol.py#L42)  
+- [OpenAI's Completions API](https://platform.openai.com/docs/api-reference/completions/create)
+
+---  
+
+### 3. Image + Text Inference
+
+The model supports both online (direct URL) and offline (base64-encoded) image inputs.
+
+#### Online Image Example
+```json
+{
+    "model": "/opt/ml/model",
+    "messages": [
+        {"role": "system", "content": "You are a helpful medical assistant."},
+        {
+            "role": "user",
+            "content": [
+                {"type": "text", "text": "What does this medical image show?"},
+                {"type": "image_url", "image_url": {"url": "https://example.com/image.jpg"}}
+            ]
+        }
+    ],
+    "max_tokens": 2048,
+    "temperature": 0.1
+}
+```
+
+#### Offline Image Example (Base64)
+```json
+{
+    "model": "/opt/ml/model",
+    "messages": [
+        {"role": "system", "content": "You are a helpful medical assistant."},
+        {
+            "role": "user",
+            "content": [
+                {"type": "text", "text": "What does this medical image show?"},
+                {"type": "image_url", "image_url": {"url": "data:image/jpeg;base64,..."}}
+            ]
+        }
+    ],
+    "max_tokens": 2048,
+    "temperature": 0.1
+}
+```
+
+Reference:
+- [Multimodal Inputs](https://docs.vllm.ai/en/v0.10.1.1/features/multimodal_inputs.html)
 
 ---  
 

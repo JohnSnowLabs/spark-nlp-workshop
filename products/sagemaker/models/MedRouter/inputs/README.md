@@ -14,6 +14,7 @@
 |---|---|---|---|
 | `messages` | array | Yes | Conversation messages |
 | `stream` | boolean | No | `false` for batch transform. `true` for real-time streaming. |
+| `model` | string | No | Accepted but ignored. Inference parameters are fixed server-side. |
 
 The `system` message is optional. If omitted, a default medical system prompt is applied.
 
