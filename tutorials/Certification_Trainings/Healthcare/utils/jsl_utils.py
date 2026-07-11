@@ -109,7 +109,9 @@ def draw_outline(img_pil_deid, coord_df):
         point = row['coord']
         pred_label = iob_to_label(row['ner_label'].lower())
         draw.rectangle((row['coord'][:2], row['coord'][2:]), outline=label2color[pred_label], width=5)
-    # image_list.append(img_pil_deid) 
+    # image_list.append(img_pil_deid)
+    if img_pil_deid.mode == "RGBA":
+        img_pil_deid = img_pil_deid.convert("RGB")  # JPEG display can't handle alpha
     display(img_pil_deid)
 
 TINT_COLOR = (255, 255, 0)  # yellow
@@ -131,6 +133,6 @@ def highlight(img_pil_deid, coord_df):
 
     # Alpha composite these two images together to obtain the desired result.
     img = Image.alpha_composite(img_pil_deid, overlay)
-    img = img.convert("RGBA") # Remove alpha for saving in jpg format.
+    img = img.convert("RGB") # Remove alpha for saving in jpg format.
     # highlighted_image_list.append(img) 
     display(img)
