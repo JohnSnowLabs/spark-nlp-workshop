@@ -1,57 +1,21 @@
-## Input Format  
+# Medical LLM Medium — Input Format
 
-### 1. Chat Completion  
+```json
+{
+    "messages": [
+        {"role": "system", "content": "You are an expert medical AI assistant."},
+        {"role": "user",   "content": "<medical question>"}
+    ],
+    "stream": false
+}
+```
 
-#### Example Payload  
-```json  
-{  
-    "model": "/opt/ml/model",  
-    "messages": [  
-        {"role": "system", "content": "You are a helpful medical assistant."},  
-        {"role": "user", "content": "What should I do if I have a fever and body aches?"}  
-    ],  
-    "max_tokens": 1024,  
-    "temperature": 0.7  
-}  
-```  
+| Field | Type | Required | Description |
+|---|---|---|---|
+| `messages` | array | Yes | Conversation messages |
+| `stream` | boolean | No | `false` for batch transform. `true` for real-time streaming. |
+| `model` | string | No | Accepted but ignored. Inference parameters are fixed server-side. |
 
-For additional parameters:  
-- [ChatCompletionRequest](https://github.com/vllm-project/vllm/blob/v0.7.3/vllm/entrypoints/openai/protocol.py#L212)  
-- [OpenAI's Chat API](https://platform.openai.com/docs/api-reference/chat/create)  
+The `system` message is optional. If omitted, a default medical system prompt is applied.
 
----  
-
-### 2. Text Completion  
-
-#### Single Prompt Example  
-```json  
-{  
-    "model": "/opt/ml/model",  
-    "prompt": "How can I maintain good kidney health?",  
-    "max_tokens": 512,  
-    "temperature": 0.6  
-}  
-```  
-
-#### Multiple Prompts Example  
-```json  
-{  
-    "model": "/opt/ml/model",  
-    "prompt": [  
-        "How can I maintain good kidney health?",  
-        "What are the best practices for kidney care?"  
-    ],  
-    "max_tokens": 512,  
-    "temperature": 0.6  
-}  
-```  
-
-Reference:  
-- [CompletionRequest](https://github.com/vllm-project/vllm/blob/v0.7.3/vllm/entrypoints/openai/protocol.py#L642)  
-- [OpenAI's Completions API](https://platform.openai.com/docs/api-reference/completions/create)  
-
----  
-
-### Important Notes:
-- **Streaming Responses:** Add `"stream": true` to your request payload to enable streaming
-- **Model Path Requirement:** Always set `"model": "/opt/ml/model"` (SageMaker's fixed model location)
+Inference parameters (temperature, top_p, max_tokens, etc.) are fixed server-side and cannot be overridden per request.

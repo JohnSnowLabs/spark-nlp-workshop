@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-a705d96d63bb4eb4",
+  "object": "chat.completion",
+  "created": 1784289912,
+  "model": "Medical-LLM-Medium",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\n\nB. Ventricular fibrillation",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": "The patient presents with acute myocardial infarction (STEMI) involving anterior/lateral walls (ST elevation in I, aVL, V1-V6). He collapses and becomes unresponsive with no pulse. The most likely cause of sudden cardiac death in the setting of acute MI is ventricular fibrillation. Papillary muscle rupture, septal wall rupture typically occur days after MI (3-5 days). Pulmonary embolism doesn't fit the acute STEMI presentation with sudden cardiac arrest.\n\n"
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1140,
+    "total_tokens": 1251,
+    "completion_tokens": 111,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}
