@@ -5,7 +5,7 @@ pyspark==3.2.2
 setuptools
 numpy==1.23.5
 scipy==1.10.1
-scikit-learn==1.2.2
+scikit-learn==1.5.0
 pandas==1.5.3
 pillow==10.3.0
 python-dateutil==2.8.2
