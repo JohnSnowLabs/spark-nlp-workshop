@@ -1,0 +1,25 @@
+| Description       | Qty | U.price | Total | TAX |
+|-------------------|-----|---------|-------|-----|
+| taucu kisar       | 2 x | 6.50    | 13.00 | SA  |
+| Teh wangi ros 180g| 2 x | 4.20    | 8.40  | ZR  |
+| ASAM JAWA 1KG     | 1 x | 4.80    | 4.80  | ZAL |
+
+Total (Excluding GST) 26.20
+GST Payable 0.78
+Total (Inclusive of GST) 26.98
+Rounding Adj 0.02
+
+TOTAL: 27.00
+
+Closed 06-03-2018 07:24:44
+
+CASH 52.00
+CHANGE 25.00
+
+GST Summary
+SA (@ 6%) 13.00 0.78
+ZR (@ %) 8.40 0.00
+ZAL (@ 0%) 4.80 0.00
+
+Thank You
+Please Come Again

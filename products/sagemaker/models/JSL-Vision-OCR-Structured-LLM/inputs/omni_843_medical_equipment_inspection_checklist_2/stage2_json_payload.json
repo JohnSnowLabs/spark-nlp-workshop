@@ -1,0 +1,101 @@
+{
+  "model": "Vision-OCR-Structured-LLM",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"required\": [\n    \"equipmentInfo\",\n    \"checkpoints\",\n    \"overallStatus\"\n  ],\n  \"properties\": {\n    \"checkpoints\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"required\": [\n          \"category\",\n          \"items\"\n        ],\n        \"properties\": {\n          \"items\": {\n            \"type\": \"array\",\n            \"items\": {\n              \"type\": \"object\",\n              \"required\": [\n                \"checkpoint\",\n                \"status\"\n              ],\n              \"properties\": {\n                \"status\": {\n                  \"enum\": [\n                    \"functional\",\n                    \"needsService\",\n                    \"defective\",\n                    \"pass\",\n                    \"fail\",\n                    \"na\"\n                  ],\n                  \"type\": \"string\"\n                },\n                \"checkpoint\": {\n                  \"type\": \"string\"\n                }\n              }\n            }\n          },\n          \"category\": {\n            \"type\": \"string\"\n          }\n        }\n      }\n    },\n    \"equipmentInfo\": {\n      \"type\": \"object\",\n      \"required\": [\n        \"equipmentId\",\n        \"model\",\n        \"inspectionDate\"\n      ],\n      \"properties\": {\n        \"model\": {\n          \"type\": \"string\"\n        },\n        \"equipmentId\": {\n          \"type\": \"string\"\n        },\n        \"inspectionDate\": {\n          \"type\": \"string\"\n        }\n      }\n    },\n    \"overallStatus\": {\n      \"type\": \"object\",\n      \"required\": [\n        \"passedInspection\",\n        \"nextInspectionDue\"\n      ],\n      \"properties\": {\n        \"passedInspection\": {\n          \"type\": \"boolean\"\n        },\n        \"nextInspectionDue\": {\n          \"type\": \"string\"\n        }\n      }\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "| Checkpoint                  | Functional | Needs Service | Defective | Not Applicable |\n|----------------------------|------------|---------------|-----------|----------------|\n| Equipment housing intact   | \u2714          |               |           |                |\n| Display screen clear       |            | \u2714             |           |                |\n| Control buttons functional | \u2714          |               |           |                |\n| Power cord undamaged       |            |               |           |                |\n| Mounting brackets secure   |            | \u2714             |           |                |\n| Wheels/casters condition   | \u2714          |               |           |                |\n| Labels and markings legible| \u2714          |               |           |                |\n| Accessories complete       |            |               |           |                |\n\n| Checkpoint                  | Functional | Needs Service | Defective | Not Applicable |\n|----------------------------|------------|---------------|-----------|----------------|\n| Ground connection          | \u2714          |               |           |                |\n| Insulation resistance      |            |               |           |                |\n| Leakage current            | \u2714          |               |           |                |\n| Power supply stable        |            |               |           |                |\n| Battery backup functional  | \u2714          |               |           |                |\n| Circuit breaker operation  |            |               | \u2714         |                |\n| Surge protection           | \u2714          |               |           |                |\n| Cable connections secure   |            | \u2714             |           |                |\n\n| Checkpoint                  | Functional | Needs Service | Defective | Not Applicable |\n|----------------------------|------------|---------------|-----------|----------------|\n| Self-test passed           | \u2714          |               |           |                |\n| Calibration check          | \u2714          |               |           |                |\n| Alarm systems              | \u2714          |               |           |                |\n| Backup systems             | \u2714          |               |           |                |\n| Output accuracy            |            | \u2714             |           |                |\n| Response time              | \u2714          |               |           |                |\n| Data storage/retrieval     |            | \u2714             |           |                |\n| Network connectivity       | \u2714          |               |           |                |\n| Sensor accuracy            | \u2714          |               |           |                |\n\n**Overall Status**\n\nInspection Result: \u2714\nNext Inspection Due: 2025-05-26"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "guided_json": {
+    "type": "object",
+    "required": [
+      "equipmentInfo",
+      "checkpoints",
+      "overallStatus"
+    ],
+    "properties": {
+      "checkpoints": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "category",
+            "items"
+          ],
+          "properties": {
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "checkpoint",
+                  "status"
+                ],
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "functional",
+                      "needsService",
+                      "defective",
+                      "pass",
+                      "fail",
+                      "na"
+                    ],
+                    "type": "string"
+                  },
+                  "checkpoint": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "category": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "equipmentInfo": {
+        "type": "object",
+        "required": [
+          "equipmentId",
+          "model",
+          "inspectionDate"
+        ],
+        "properties": {
+          "model": {
+            "type": "string"
+          },
+          "equipmentId": {
+            "type": "string"
+          },
+          "inspectionDate": {
+            "type": "string"
+          }
+        }
+      },
+      "overallStatus": {
+        "type": "object",
+        "required": [
+          "passedInspection",
+          "nextInspectionDue"
+        ],
+        "properties": {
+          "passedInspection": {
+            "type": "boolean"
+          },
+          "nextInspectionDue": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

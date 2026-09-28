@@ -1,0 +1,38 @@
+| Checkpoint                  | Pass | Fail | N/A | Notes                                      |
+|----------------------------|------|------|-----|--------------------------------------------|
+| Equipment housing intact   |      | ☑    |     | Control panel unresponsive. Reference ID: QXQR1D |
+| Display screen clear       | ☑    |      |     |                                            |
+| Control buttons functional |      |      | -   | Optional component not present             |
+| Power cord undamaged       | ☑    |      |     |                                            |
+| Mounting brackets secure   | ☑    |      |     |                                            |
+| Wheels/casters condition   |      |      | -   | Not applicable for this configuration      |
+| Labels and markings legible| ☑    |      |     |                                            |
+| Accessories complete       | ☑    |      |     |                                            |
+
+| Checkpoint                  | Pass | Fail | N/A | Notes                                      |
+|----------------------------|------|------|-----|--------------------------------------------|
+| Ground connection          | ☑    |      |     |                                            |
+| Insulation resistance      | ☑    |      |     |                                            |
+| Leakage current            | ☑    |      |     |                                            |
+| Power supply stable        | ☑    |      |     |                                            |
+| Battery backup functional  |      | ☑    |     | Multiple system failures detected. Last checked on 2/12/2025 |
+| Circuit breaker operation  | ☑    |      |     |                                            |
+| Surge protection           | ☑    |      |     |                                            |
+| Cable connections secure   | ☑    |      |     |                                            |
+
+| Checkpoint                  | Pass | Fail | N/A | Notes |
+|----------------------------|------|------|-----|-------|
+| Self-test passed           | ☑    |      |     |       |
+| Calibration check          | ☑    |      |     |       |
+| Alarm systems              | ☑    |      |     |       |
+| Backup systems             |      | ☑    |     |       |
+| Output accuracy            | ☑    |      |     |       |
+| Response time              | ☑    |      |     |       |
+| Data storage/retrieval     | ☑    |      |     |       |
+| Network connectivity       | ☑    |      |     |       |
+| Sensor accuracy            | ☑    |      |     |       |
+
+**Overall Status**
+
+Inspection Result: ☑
+Next Inspection Due: 2026-01-30

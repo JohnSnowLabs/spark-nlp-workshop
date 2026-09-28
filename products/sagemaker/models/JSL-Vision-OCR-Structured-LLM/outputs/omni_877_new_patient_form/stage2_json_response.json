@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-bcacbe28e2f9f8f0",
+  "object": "chat.completion",
+  "created": 1789686943,
+  "model": "Vision-OCR-Structured-LLM",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"firstName\": \"Sophia\",\n  \"lastName\": \"Doe\",\n  \"address\": \"2237A Dove Rd\",\n  \"city\": \"Waimanalo\",\n  \"state\": \"HI\",\n  \"zip\": \"96795\",\n  \"phone\": \"(758) 473-1776\",\n  \"dob\": \"04/27/1973\",\n  \"spouseName\": \"\",\n  \"isNewTherapy\": false,\n  \"maritalStatus\": \"Single\",\n  \"isHospitalized\": true,\n  \"reviewOfSymptoms\": {\n    \"fever\": false,\n    \"chills\": false,\n    \"coughing\": false,\n    \"seizures\": false,\n    \"allergies\": true,\n    \"chestPain\": false,\n    \"blurredVision\": false,\n    \"dentalProblems\": true,\n    \"enlargedGlands\": false,\n    \"excessiveStress\": false,\n    \"excessiveBruising\": false,\n    \"shortnessOfBreath\": false,\n    \"irregularHeartRate\": false,\n    \"tuberculosisExposure\": false,\n    \"stomachTroubleOrUlcers\": false\n  },\n  \"previousHealthHistory\": {\n    \"primaryCarePhysician\": \"Dr. Emily Miller\",\n    \"lastSeenDate\": \"December 5, 1992\",\n    \"prescriptionDrugs\": {\n      \"other\": [\"zolpidem\"],\n      \"dietPills\": true,\n      \"painPills\": false,\n      \"muscleRelaxers\": false,\n      \"antidepressants\": true,\n      \"birthControlPills\": true,\n      \"bloodSugarMedication\": false,\n      \"insulin\": false,\n      \"sleepingPills\": false\n    },\n    \"accidentsOrInjuries\": [\"broken collarbone\"],\n    \"overTheCounterDrugs\": [\"afrin\", \"icy hot\"],\n    \"vitaminsOrSupplements\": [\"vitamin b5\"]\n  }\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 2205,
+    "total_tokens": 2647,
+    "completion_tokens": 442,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

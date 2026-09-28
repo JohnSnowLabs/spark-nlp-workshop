@@ -1,0 +1,84 @@
+{
+  "model": "Vision-OCR-Structured-LLM",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"required\": [\n    \"title\",\n    \"weekStartDate\",\n    \"facility\",\n    \"employees\"\n  ],\n  \"properties\": {\n    \"title\": {\n      \"type\": \"string\"\n    },\n    \"facility\": {\n      \"type\": \"string\"\n    },\n    \"employees\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"required\": [\n          \"employeeName\",\n          \"employeeId\",\n          \"department\",\n          \"shifts\"\n        ],\n        \"properties\": {\n          \"shifts\": {\n            \"type\": \"array\",\n            \"items\": {\n              \"type\": \"object\",\n              \"required\": [\n                \"type\"\n              ],\n              \"properties\": {\n                \"type\": {\n                  \"enum\": [\n                    \"Morning\",\n                    \"Afternoon\",\n                    \"Night\",\n                    \"Leave\",\n                    \"empty\"\n                  ],\n                  \"type\": \"string\"\n                },\n                \"notes\": {\n                  \"type\": \"string\",\n                  \"description\": \"Notes for the shift. Only required for Leave.\"\n                }\n              }\n            }\n          },\n          \"department\": {\n            \"type\": \"string\"\n          },\n          \"employeeId\": {\n            \"type\": \"string\"\n          },\n          \"employeeName\": {\n            \"type\": \"string\"\n          }\n        }\n      }\n    },\n    \"weekStartDate\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "| Employee                  | ID     | Department   | Wed 11       | Thu 12       | Fri 13       | Sat 14       | Sun 15       | Mon 16       | Tue 17       |\n|---------------------------|--------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|\n| Dr. Todd Frami            | RDTBMO | General Ward | Morning 07:00-15:00 | Morning 07:00-15:00 | Leave Training | Leave Training |              |              |              |\n| Mrs. Mindy Lebsack        | Q4FZ2T | Cardiology   |              |              | Leave Sick Leave | Morning 07:00-15:00 | Leave Vacation | Afternoon 15:00-23:00 |              |\n| Nathaniel Kessler         | R2VYRS | Pediatrics   | Leave Training | Morning 07:00-15:00 |              | Leave Personal |              |              | Night 23:00-07:00 |\n| Darlene Huel              | TII6VZ | ICU          | Leave Personal | Afternoon 15:00-23:00 |              | Morning 07:00-15:00 |              |              |              |\n| Rosie Sanford             | 889QT8 | Oncology     | Afternoon 15:00-23:00 | Morning 07:00-15:00 |              |              | Leave Personal | Morning 07:00-15:00 | Afternoon 15:00-23:00 |\n| Clifton Schuppe           | TWOCAW | Oncology     | Leave Personal |              | Leave Training |              |              |              |              |\n| Dr. Inez Heaney I         | 8Q0R6W | Radiology    |              |              |              |              | Leave Training |              | Leave Sick Leave |\n| Claude Cartwright         | GMYUYE | Radiology    |              |              |              |              |              |              |              |\n| Elvira Feil-Koss DVM      | OODH2T | Emergency    | Leave Vacation |              | Leave Sick Leave | Leave Vacation |              |              |              |\n| Myra Murray               | JSFR3B | Cardiology   |              |              |              |              |              |              |              |\n| Dana Williamson           | 32UJT9 | Neurology    | Afternoon 15:00-23:00 |              |              | Leave Personal |              |              |              |\n| Billie Wilkinson          | VROCDSD | Emergency  | Morning 07:00-15:00 |              | Leave Personal |              |              |              |              |\n| Bert Gusikowski III       | ILNYOO | Neurology    | Afternoon 15:00-23:00 | Morning 07:00-15:00 |              | Afternoon 15:00-23:00 |              |              |              |\n| Pamela West               | NMTFWF | Surgery      | Afternoon 15:00-23:00 | Morning 07:00-15:00 |              |              |              |              |              |\n| Hannah Auer V             | T0YJJ5 | Cardiology   |              |              |              |              |              |              |              |\n| Jennifer Rodriguez        | 3KQN0U | Radiology    | Night 23:00-07:00 |              | Night 23:00-07:00 |              |              |              |              |\n| Dr. Natasha Pouros        | ET0JVO | Oncology     | Morning 07:00-15:00 |              | Night 23:00-07:00 |              |              |              |              |\n| Miss Laurie Bosco         | 4GOPWJ | Oncology     | Afternoon 15:00-23:00 |              | Leave Vacation | Leave Vacation |              |              |              |\n| Brittany Glover           | KY7N8B | Neurology    |              |              |              |              |              |              |              |\n| Rene Dach                 | QN3BL1 | Cardiology   |              |              | Leave Training |              |              |              |              |\n| Donna Kutch               | AHO50D | Oncology     |              | Leave Sick"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "guided_json": {
+    "type": "object",
+    "required": [
+      "title",
+      "weekStartDate",
+      "facility",
+      "employees"
+    ],
+    "properties": {
+      "title": {
+        "type": "string"
+      },
+      "facility": {
+        "type": "string"
+      },
+      "employees": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "employeeName",
+            "employeeId",
+            "department",
+            "shifts"
+          ],
+          "properties": {
+            "shifts": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "type"
+                ],
+                "properties": {
+                  "type": {
+                    "enum": [
+                      "Morning",
+                      "Afternoon",
+                      "Night",
+                      "Leave",
+                      "empty"
+                    ],
+                    "type": "string"
+                  },
+                  "notes": {
+                    "type": "string",
+                    "description": "Notes for the shift. Only required for Leave."
+                  }
+                }
+              }
+            },
+            "department": {
+              "type": "string"
+            },
+            "employeeId": {
+              "type": "string"
+            },
+            "employeeName": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "weekStartDate": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+| Cigarettes | Filters |
+|------------|---------|
+| Maker      | MK 8    |
+| Length     | 99.0 mm |
+| Filter Length | 27 mm   |
+| Circumference | 24.8 mm |
+| Weight     | 78.0g/100 |
+| Paper      | 81-01-07 |
+| Tip. Paper | 25-04-07 |
+| Tip. Paper Por. | 67 mm White |
+| Glue Roller | G       |
+| Air Dilution | 13.0 % |
+
+| Wrapping | Responsibility |
+|----------|----------------|
+| Labels   | Tobacco Blend  |
+| Closures | Filter Production |
+| Tear Tape| Making & Packing |
+| Cartons  | Shipping       |
+| Markings | Sample Requisition (Form 02:20:06) |
+
+| Requirements | Laboratory Analysis: |
+|--------------|-----------------------|
+| Laboratory   | Mainstream Smoke Analysis |
+| Other        |                       |
+
+Special Requirements
+
+Director, Product Development

@@ -1,0 +1,38 @@
+{
+  "id": "chatcmpl-8525d15acb4b5757",
+  "object": "chat.completion",
+  "created": 1789497858,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "SEMBOYAN TEGAS SDN BHD\nNO.5 & 7 . JALAN TSJ 2.\nTAMAN SUBANG JASA\nKG. BARU SUBANG. 40150 SHAH ALAM\nSELANGOR DARUL EHSAN\nTEL 03-7846 1113 FAX 03-7832 1368\nHP: 012-396 1688 012-353 7738\nWWW.SEMBOYAN.COM\nEMAIL: SEMBOYANTEGAS@GMAIL COM\n(GST REG NO : 001538965504)\nTAX INVOICE\nCHECK # : 549146 PAX(S) : 5\nDATE : 06-03-2018 07:24:06\nCASHIER : CASHIER 4\nDESCRIPTION QTY U.PRICE TOTAL TAX\nTAUCU KISAR\n2 X 6.50 13.00 SR\nTEH WANGI ROS 180g\n2 X 4.20 8.40 ZR\nASAM JAWA 1 KG\n1 X 4.80 4.80 ZRL\nTOTAL (EXCLUDING GST) 26.20\nGST PAYABLE 0.78\nTOTAL (INCLUSIVE OF GST) 26.98\nROUNDING ADJ 0.02\nTOTAL : 27 : 27.00 X\nCLOSED 06-03-2018 07:24:44\nCASH 52.00\nCHANGE 25.00\nGST SUMMARY AMOUNT(RM) TAX(RM)\nSR (@ 6%) 13.00 0.78\nZR (@ %) 8.40 0.00\nZRL (@ 0%) 4.80 0.00",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.22.1-8df057ef",
+  "usage": {
+    "prompt_tokens": 1821,
+    "total_tokens": 2222,
+    "completion_tokens": 401,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

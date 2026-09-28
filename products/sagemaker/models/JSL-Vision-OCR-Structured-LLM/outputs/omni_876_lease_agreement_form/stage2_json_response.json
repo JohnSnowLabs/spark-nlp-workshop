@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-ae2f757b878ebe8f",
+  "object": "chat.completion",
+  "created": 1789686935,
+  "model": "Vision-OCR-Structured-LLM",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"date\": \"2025-03-22\",\n  \"lessor\": {\n    \"name\": \"Felipe Jones\",\n    \"streetAddress\": \"2782 Vicarage Close\",\n    \"state\": \"California\"\n  },\n  \"lessee\": {\n    \"name\": \"Kassulke - O'Connor\",\n    \"streetAddress\": \"47632 Cassin Expressway\",\n    \"state\": \"California\"\n  },\n  \"premises\": {\n    \"spaceType\": \"Warehouse\",\n    \"squareFeet\": \"4947\",\n    \"streetAddress\": \"99096 W 8th Street\"\n  },\n  \"lease\": {\n    \"years\": 4,\n    \"months\": 4,\n    \"startDate\": \"2025-03-22\",\n    \"endDate\": \"2029-07-22\"\n  },\n  \"rent\": {\n    \"monthlyAmount\": 3449,\n    \"securityDeposit\": 8475\n  }\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1097,
+    "total_tokens": 1327,
+    "completion_tokens": 230,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

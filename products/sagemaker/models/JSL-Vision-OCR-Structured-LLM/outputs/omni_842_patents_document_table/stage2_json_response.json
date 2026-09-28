@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-85a866b641954c13",
+  "object": "chat.completion",
+  "created": 1789686883,
+  "model": "Vision-OCR-Structured-LLM",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"latestPatent\": {\n    \"date\": \"1/1910\",\n    \"name\": \"Nikolaus et al.\"\n  },\n  \"patentNumber\": 1060254\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1217,
+    "total_tokens": 1268,
+    "completion_tokens": 51,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

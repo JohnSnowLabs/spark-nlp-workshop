@@ -1,0 +1,62 @@
+| Filing Status | Single | Married filing jointly (even if only one had income) | Married filing separately (MFS) | Qualifying surviving spouse (QSS) |
+|---------------|--------|---------------------------------------------------|---------------------------------|----------------------------------|
+|               |        |                                                   |                                 |                                  |
+
+Digital Assets
+
+At any time during 2024, did you: (a) receive (as a reward, award, or payment for property or services); or (b) sell, exchange, or otherwise dispose of a digital asset (or a financial interest in a digital asset)? (See instructions.)
+
+Standard Deduction
+
+Someone can claim:
+
+Spouse itemizes on a separate return or you were a dual-status alien
+
+Dependents
+
+(see instructions):
+
+| (1) First name | Last name | (2) Social security number | (3) Relationship to you | (4) Check the box if qualifies for (see instructions): |
+|----------------|-----------|----------------------------|-------------------------|------------------------------------------------------|
+|                |           |                            |                         | Child tax credit | Credit for other dependents |
+|                |           |                            |                         | ☐              | ☐                        |
+
+Income
+
+Attach Form(s) W-2 here. Also attach Forms W-2G and 1099-R if tax was withheld.
+
+If you did not get a Form W-2, see instructions.
+
+| 1a Total amount from Form(s) W-2, box 1 (see instructions) | 129791 |
+|------------------------------------------------------------|--------|
+| 1b Household employee wages not reported on Form(s) W-2    | 0      |
+| 1c Tip income not reported on line 1a (see instructions)  | 0      |
+| 1d Medicaid waiver payments not reported on Form(s) W-2   | 8913   |
+| 1e Taxable dependent care benefits from Form 2441, line 26 | 8126   |
+| 1f Employer-provided adoption benefits from Form 8839, line 29 | 3830   |
+| 1g Wages from Form 8919, line 6                             | 6636   |
+| 1h Other earned income (see instructions)                  | 8108   |
+| 1i Nontaxable combat pay election (see instructions)       | 4395   |
+| 1z Add lines 1a through 1h                                  | 169799 |
+| 2a Tax-exempt interest                                      | 0      |
+| 2b Taxable interest                                         | 0      |
+| 3a Qualified dividends                                      | 0      |
+| 3b Ordinary dividends                                       | 0      |
+| 4a IRA distributions                                        | 0      |
+| 4b Taxable amount                                           | 8523   |
+| 5a Pensions and annuities                                   | 0      |
+| 5b Taxable amount                                           | 0      |
+| 6a Social security benefits                                 | 8021   |
+| 6b Taxable amount                                           | 0      |
+| c If you elect to use the lump-sum election method, check here (see instructions) | ☐ |
+| 7 Capital gain or (loss). Attach Schedule D if required. If not required, check here | ☐ |
+| 8 Additional income from Schedule 1, line 10                | 0      |
+| 9 Add lines 1z, 2b, 3b, 4b, 5b, 6b, 7, and 8. This is your total income | 186377 |
+| 10 Adjustments to income from Schedule 1, line 26          | 0      |
+| 11 Subtract line 10 from line 9. This is your adjusted gross income | 186377 |
+| 12 Standard deduction or itemized deductions (from Schedule A) | 0      |
+| 13 Qualified business income deduction from Form 8995 or Form 8995-A | 0      |
+| 14 Add lines 12 and 13                                      | 0      |
+| 15 Subtract line 14 from line 11. If zero or less, enter -0-. This is your taxable income | 186377 |
+
+For Disclosure, Privacy Act, and Paperwork Reduction Act Notice, see separate instructions.

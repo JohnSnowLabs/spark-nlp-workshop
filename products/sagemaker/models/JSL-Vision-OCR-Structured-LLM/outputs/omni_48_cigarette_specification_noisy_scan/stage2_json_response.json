@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-9334a1084098fa2c",
+  "object": "chat.completion",
+  "created": 1789686685,
+  "model": "Vision-OCR-Structured-LLM",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"cigarettes\": {\n    \"maker\": \"MK 8\",\n    \"paper\": \"81-01-07\",\n    \"length\": 99,\n    \"weight\": \"78.0g/100\",\n    \"glue_roller\": \"G\",\n    \"air_dilution\": 13.0,\n    \"circumference\": 24.8,\n    \"filter_length\": 27,\n    \"tip_paper_por\": 67\n  },\n  \"cigarette_type\": \"\",\n  \"responsibility\": {\n    \"tobacco_blend\": \"Tobacco Blend\",\n    \"making_packing\": \"Making & Packing\",\n    \"filter_production\": \"Filter Production\",\n    \"sample_requisition\": \"Sample Requisition (Form 02:20:06)\"\n  },\n  \"original_request\": {\n    \"date\": \"\",\n    \"made_by\": \"\"\n  },\n  \"purpose_of_sample\": \"\",\n  \"laboratory_analysis\": \"Mainstream Smoke Analysis\",\n  \"sample_no\": \"\",\n  \"batch_size\": 0,\n  \"wrapping\": {\n    \"labels\": \"Labels\",\n    \"cartons\": \"Cartons\",\n    \"closures\": \"Closures\",\n    \"tear_tape\": \"Tear Tape\"\n  }\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 826,
+    "total_tokens": 1107,
+    "completion_tokens": 281,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

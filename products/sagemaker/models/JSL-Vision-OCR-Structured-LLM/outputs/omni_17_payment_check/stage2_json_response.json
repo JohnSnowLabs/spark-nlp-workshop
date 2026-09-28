@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-926d056b5b136236",
+  "object": "chat.completion",
+  "created": 1789686594,
+  "model": "Vision-OCR-Structured-LLM",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"checks\": [\n    {\n      \"bankInfo\": {\n        \"bank\": \"CHASE\"\n      },\n      \"checkInfo\": {\n        \"date\": \"2023-04-15\",\n        \"payee\": \"Ryan Group\",\n        \"amount\": 2763.23,\n        \"amountInWords\": \"TWO THOUSAND SEVEN HUNDRED SIXTY THREE AND 23/100\",\n        \"micr\": {\n          \"checkNumber\": 766800721,\n          \"accountNumber\": 2564397564,\n          \"routingNumber\": 1869\n        },\n        \"memo\": \"contract payment\"\n      },\n      \"personalInfo\": {\n        \"zip\": \"\",\n        \"city\": \"\",\n        \"state\": \"\",\n        \"address\": \"\",\n        \"lastName\": \"Group\",\n        \"firstName\": \"Ryan\"\n      }\n    }\n  ]\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 738,
+    "total_tokens": 944,
+    "completion_tokens": 206,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

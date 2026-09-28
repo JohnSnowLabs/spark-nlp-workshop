@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-841c8676b9cc8fc1",
+  "object": "chat.completion",
+  "created": 1789686631,
+  "model": "Vision-OCR-Structured-LLM",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"electors\": [\n    {\n      \"birth_date\": \"2/24/1947\",\n      \"printed_name\": \"Richard A. Lee\",\n      \"street_address\": \"70 Lyon ST\"\n    },\n    {\n      \"birth_date\": \"6/13/38\",\n      \"printed_name\": \"Peter Struch\",\n      \"street_address\": \"78 Lyon ST\"\n    },\n    {\n      \"birth_date\": \"10/3/65\",\n      \"printed_name\": \"John Stachniak\",\n      \"street_address\": \"71 Lyon\"\n    },\n    {\n      \"birth_date\": \"07/09/58\",\n      \"printed_name\": \"Marie Balor\",\n      \"street_address\": \"74 Lyon\"\n    }\n  ],\n  \"filing_info\": {\n    \"registrar_name\": \"\",\n    \"filing_deadline\": \"\",\n    \"registrar_address\": \"\"\n  },\n  \"candidate_info\": {\n    \"name\": \"\",\n    \"term\": \"\",\n    \"address\": \"\",\n    \"office_sought\": \"\",\n    \"date_of_primary\": \"\"\n  },\n  \"registrar_info\": {\n    \"city\": \"\",\n    \"party\": \"\"\n  }\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1409,
+    "total_tokens": 1668,
+    "completion_tokens": 259,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

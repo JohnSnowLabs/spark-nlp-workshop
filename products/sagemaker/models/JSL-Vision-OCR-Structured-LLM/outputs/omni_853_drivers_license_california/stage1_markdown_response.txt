@@ -1,0 +1,20 @@
+| FIELD          | INFORMATION                  |
+|----------------|------------------------------|
+| DL             | I1234568                     |
+| EXP            | 08/31/2014                   |
+| CLASS C        |                              |
+| END NONE       |                              |
+| LN CARDHOLDER  | Ima                          |
+| FN IMA         |                              |
+| ADDRESS        | 2570 24TH STREET             |
+|                | ANYTOWN, CA 95818            |
+| DOB            | 08/31/1977                   |
+| RSTR NONE      |                              |
+| VETERAN        |                              |
+| SEX F          |                              |
+| HAIR BRN       |                              |
+| EYES BRN       |                              |
+| HGT 5'-05"     |                              |
+| WGT 125 lb     |                              |
+| DD 00/00/0000NNNAN/ANFD/YY |                      |
+| ISS            | 08/31/2009                   |
