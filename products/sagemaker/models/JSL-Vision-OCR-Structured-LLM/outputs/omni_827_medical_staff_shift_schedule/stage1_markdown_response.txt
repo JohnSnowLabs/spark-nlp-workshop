@@ -1,0 +1,23 @@
+| Employee                  | ID     | Department   | Wed 11       | Thu 12       | Fri 13       | Sat 14       | Sun 15       | Mon 16       | Tue 17       |
+|---------------------------|--------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|
+| Dr. Todd Frami            | RDTBMO | General Ward | Morning 07:00-15:00 | Morning 07:00-15:00 | Leave Training | Leave Training |              |              |              |
+| Mrs. Mindy Lebsack        | Q4FZ2T | Cardiology   |              |              | Leave Sick Leave | Morning 07:00-15:00 | Leave Vacation | Afternoon 15:00-23:00 |              |
+| Nathaniel Kessler         | R2VYRS | Pediatrics   | Leave Training | Morning 07:00-15:00 |              | Leave Personal |              |              | Night 23:00-07:00 |
+| Darlene Huel              | TII6VZ | ICU          | Leave Personal | Afternoon 15:00-23:00 |              | Morning 07:00-15:00 |              |              |              |
+| Rosie Sanford             | 889QT8 | Oncology     | Afternoon 15:00-23:00 | Morning 07:00-15:00 |              |              | Leave Personal | Morning 07:00-15:00 | Afternoon 15:00-23:00 |
+| Clifton Schuppe           | TWOCAW | Oncology     | Leave Personal |              | Leave Training |              |              |              |              |
+| Dr. Inez Heaney I         | 8Q0R6W | Radiology    |              |              |              |              | Leave Training |              | Leave Sick Leave |
+| Claude Cartwright         | GMYUYE | Radiology    |              |              |              |              |              |              |              |
+| Elvira Feil-Koss DVM      | OODH2T | Emergency    | Leave Vacation |              | Leave Sick Leave | Leave Vacation |              |              |              |
+| Myra Murray               | JSFR3B | Cardiology   |              |              |              |              |              |              |              |
+| Dana Williamson           | 32UJT9 | Neurology    | Afternoon 15:00-23:00 |              |              | Leave Personal |              |              |              |
+| Billie Wilkinson          | VROCDSD | Emergency  | Morning 07:00-15:00 |              | Leave Personal |              |              |              |              |
+| Bert Gusikowski III       | ILNYOO | Neurology    | Afternoon 15:00-23:00 | Morning 07:00-15:00 |              | Afternoon 15:00-23:00 |              |              |              |
+| Pamela West               | NMTFWF | Surgery      | Afternoon 15:00-23:00 | Morning 07:00-15:00 |              |              |              |              |              |
+| Hannah Auer V             | T0YJJ5 | Cardiology   |              |              |              |              |              |              |              |
+| Jennifer Rodriguez        | 3KQN0U | Radiology    | Night 23:00-07:00 |              | Night 23:00-07:00 |              |              |              |              |
+| Dr. Natasha Pouros        | ET0JVO | Oncology     | Morning 07:00-15:00 |              | Night 23:00-07:00 |              |              |              |              |
+| Miss Laurie Bosco         | 4GOPWJ | Oncology     | Afternoon 15:00-23:00 |              | Leave Vacation | Leave Vacation |              |              |              |
+| Brittany Glover           | KY7N8B | Neurology    |              |              |              |              |              |              |              |
+| Rene Dach                 | QN3BL1 | Cardiology   |              |              | Leave Training |              |              |              |              |
+| Donna Kutch               | AHO50D | Oncology     |              | Leave Sick

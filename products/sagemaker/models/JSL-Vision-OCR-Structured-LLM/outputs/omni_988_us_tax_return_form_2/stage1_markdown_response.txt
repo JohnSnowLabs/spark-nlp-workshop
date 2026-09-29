@@ -1,0 +1,101 @@
+| Filing Status | ☐ Single | ☐ Head of household (HOH) |
+|---------------|----------|---------------------------|
+|               | ☐ Married filing jointly (even if only one had income) |
+|               | ☐ Married filing separately (MFS) |
+|               | ☑ Qualifying surviving spouse (QSS) |
+
+If you checked the MFS box, enter the name of your spouse. If you checked the HOH or QSS box, enter the child’s name if the qualifying person is a child but not your dependent:
+
+☐ If treating a nonresident alien or dual-status alien spouse as a U.S. resident for the entire tax year, check the box and enter their name (see instructions and attach statement if required):
+
+Digital Assets
+
+At any time during 2024, did you: (a) receive (as a reward, award, or payment for property or services); or (b) sell, exchange, or otherwise dispose of a digital asset (or a financial interest in a digital asset)? (See instructions.)
+
+☐ Yes ☑ No
+
+Standard Deduction
+
+Someone can claim:
+
+☐ You as a dependent
+
+☑ Your spouse as a dependent
+
+☐ Spouse itemizes on a separate return or you were a dual-status alien
+
+Age/Blindness
+
+You: ☑ Were born before January 2, 1960
+
+☐ Are blind
+
+Spouse: ☐ Was born before January 2, 1960
+
+☐ Is blind
+
+Dependents
+
+(see instructions):
+
+| (1) First name | Last name | (2) Social security number | (3) Relationship to you | (4) Check the box if qualifies for (see instructions): |
+|----------------|-----------|----------------------------|-------------------------|-----------------------------------------------------|
+| Elise          | Dach-Grant| 403 19 2117                | children                |                                                     |
+
+Income
+
+Attach Form(s) W-2 here. Also attach Forms W-2G and 1099-R if tax was withheld.
+
+If you did not get a Form W-2, see instructions.
+
+1a Total amount from Form(s) W-2, box 1 (see instructions)
+
+1b Household employee wages not reported on Form(s) W-2
+
+1c Tip income not reported on line 1a (see instructions)
+
+1d Medicaid waiver payments not reported on Form(s) W-2 (see instructions)
+
+1e Taxable dependent care benefits from Form 2441, line 26
+
+1f Employer-provided adoption benefits from Form 8839, line 29
+
+1g Wages from Form 8919, line 6
+
+1h Other earned income (see instructions)
+
+1i Nontaxable combat pay election (see instructions)
+
+1z Add lines 1a through 1h
+
+2a Tax-exempt interest
+
+3a Qualified dividends
+
+4a IRA distributions
+
+5a Pensions and annuities
+
+6a Social security benefits
+
+c If you elect to use the lump-sum election method, check here (see instructions)
+
+7 Capital gain or (loss). Attach Schedule D if required. If not required, check here
+
+8 Additional income from Schedule 1, line 10
+
+9 Add lines 1z, 2b, 3b, 4b, 5b, 6b, 7, and 8. This is your total income
+
+10 Adjustments to income from Schedule 1, line 26
+
+11 Subtract line 10 from line 9. This is your adjusted gross income
+
+12 Standard deduction or itemized deductions (from Schedule A)
+
+13 Qualified business income deduction from Form 8995 or Form 8995-A
+
+14 Add lines 12 and 13
+
+15 Subtract line 14 from line 11. If zero or less, enter -0-. This is your taxable income
+
+For Disclosure, Privacy Act, and Paperwork Reduction Act Notice, see separate instructions.

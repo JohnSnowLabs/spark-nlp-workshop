@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-87a16a352ec3df8f",
+  "object": "chat.completion",
+  "created": 1789686775,
+  "model": "Vision-OCR-Structured-LLM",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"title\": \"Weekly Employee Schedule\",\n  \"weekStartDate\": \"2023-04-01\",\n  \"facility\": \"General Hospital\",\n  \"employees\": [\n    {\n      \"employeeName\": \"Ora Murphy\",\n      \"employeeId\": \"HJNOZ5\",\n      \"department\": \"Surgery\",\n      \"shifts\": [\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Vacation\"\n        }\n      ]\n    },\n    {\n      \"employeeName\": \"Ms. Antoinette Armstrong-Schuppe\",\n      \"employeeId\": \"CCE0NJ\",\n      \"department\": \"Cardiology\",\n      \"shifts\": [\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"hours\": \"07:00-15:00\",\n          \"notes\": \"Training\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Sick Leave\"\n        }\n      ]\n    },\n    {\n      \"employeeName\": \"Clinton Funk\",\n      \"employeeId\": \"YP49JZ\",\n      \"department\": \"Pediatrics\",\n      \"shifts\": [\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Sick Leave\"\n        }\n      ]\n    },\n    {\n      \"employeeName\": \"Shawna Mayert\",\n      \"employeeId\": \"EZR13T\",\n      \"department\": \"Oncology\",\n      \"shifts\": [\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\",\n          \"notes\": \"\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"notes\": \"Vacation\"\n        }\n      ]\n    },\n    {\n      \"employeeName\": \"Keith Hudson DDS\",\n      \"employeeId\": \"SCHADG\",\n      \"department\": \"General Ward\",\n      \"shifts\": [\n        {\n          \"type\": \"Night\",\n          \"hours\": \"23:00-07:00\",\n          \"notes\": \"Personal\"\n        }\n      ]\n    },\n    {\n      \"employeeName\": \"Mary Homenick Sr.\",\n      \"employeeId\": \"RDDNOM\",\n      \"department\": \"Cardiology\",\n      \"shifts\": [\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\",\n          \"notes\": \"Training\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\",\n          \"notes\": \"Personal\"\n        }\n      ]\n    },\n    {\n      \"employeeName\": \"James Koepp\",\n      \"employeeId\": \"59LNSK\",\n      \"department\": \"Neurology\",\n      \"shifts\": [\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\",\n          \"notes\": \"Personal\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\",\n          \"notes\": \"Personal\"\n        }\n      ]\n    },\n    {\n      \"employeeName\": \"Roger Hauck\",\n      \"employeeId\": \"SBE83Z\",\n      \"department\": \"Emergency\",\n      \"shifts\": [\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\",\n          \"notes\": \"Personal\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\",\n          \"notes\": \"Personal\"\n        }\n      ]\n    },\n    {\n      \"employeeName\": \"Dr. Daisy Zemlak\",\n      \"employeeId\": \"2XXEH1\",\n      \"department\": \"Oncology\",\n      \"shift",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "length",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1112,
+    "total_tokens": 2136,
+    "completion_tokens": 1024,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

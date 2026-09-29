@@ -1,0 +1,38 @@
+{
+  "id": "chatcmpl-a82444a6dc701fa4",
+  "object": "chat.completion",
+  "created": 1789497843,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# Diagnostic Report\n\n## Patient Information\n- **Name**: JAYALAKSHMI\n- **Address**: 23, 80 FEET ROAD, GURUKRUPA LAYOUT, BANCALOR 560072\n- **Accession Number**: 0093YD004559\n- **Patient ID**: FH13813531\n- **Date of Birth**: 27/04/2025\n- **Age**: 10:06:00\n- **Gender**: M\n- **Ethnicity**: Indian\n- **Nationality**: Indian\n- **Race**: Indian\n- **Religion**: Hindu\n- **Occupation**: Not specified\n- **Education**: Not specified\n- **Highest School**: Not specified\n- **Highest University**: Not specified\n- **Major**: Not specified\n- **Specialization**: Not specified\n- **Profession**: Not specified\n- **Work Experience**: Not specified\n- **Years of Service**: 1-2 years\n- **Years of Work**: 4-6 years\n- **Years of Service**: 7-8 years\n- **Years of Service**: 9-12 years\n- **Years of Service**: 13-15 years\n- **Years of Service**: 16-18 years\n- **Years of Service**: 19-20 years\n- **Years of Service**: 21-24 years\n- **Years of Service**: 25-26 years\n- **Years of Service**: 27-28 years\n- **Years of Service**: 29-30 years\n- **Years of Service**: 31-32 years\n- **Years of Service**: 33-34 years\n- **Years of Service**: 35-36 years\n- **Years of Service**: 37-38 years\n- **Years of Service**: 39-40 years\n- **Years of Service**: 41-42 years\n- **Years of Service**: 43-44 years\n- **Years of Service**: 45-46 years\n- **Years of Service**: 47-48 years\n- **Years of Service**: 49-50 years\n- **Years of Service**: 51-52 years\n- **Years of Service**: 53-54 years\n- **Years of Service**: 55-56 years\n- **Years of Service**: 57-58 years\n- **Years of Service**: 59-60 years\n- **Years of Service**: 61-62 years\n- **Years of Service**: 63-64 years\n- **Years of Service**: 65-66 years\n- **Years of Service**: 67-68 years\n- **Years of Service**: 69-70 years\n- **Years of Service**: 71-72 years\n- **Years of Service**: 73-74 years\n- **Years of Service**: 75-76 years\n- **Years of Service**: 77-78 years\n- **Years of Service**: 79-80 years\n- **Years of Service**: 81-82 years\n- **Years of Service**: 83-84 years\n- **Years of Service**: 85-86 years\n- **Years of Service**: 87-88 years\n- **Years of Service**: 89-90 years\n- **Years of Service**: 91-92 years\n- **Years of Service**: 93-94 years\n- **Years of Service**: 95-96 years\n- **Years of Service**: 97-98 years\n- **Years of Service**: 99-100 years\n- **Years of Service**: 101-102 years\n- **Years of Service**: 103-104 years\n- **Years of Service**: 105-106 years\n- **Years of Service**: 107-108 years\n- **Years of Service**: 109-110 years\n- **Years of Service**: 111-112 years\n- **Years of Service**: 113-114 years\n- **Years of Service**: 115-116 years\n- **Years of Service**: 117-118 years\n- **Years of Service**: 119-120 years\n- **Years of Service**: 121-122 years\n- **Years of Service**: 123-124 years\n- **Years of Service**: 125-126 years\n- **Years of Service**: 127-128 years\n- **Years of Service**: 129-130 years\n- **Years of Service**: 131-132 years\n- **Years of Service**: 133-134 years\n- **Years of Service**: 135-136 years\n- **Years of Service**: 137-138 years\n- **Years of Service**: 139-140 years\n- **Years of Service**: 141-142 years\n- **Years of Service**: 143-144 years\n- **Years of Service**: 145-146 years\n- **Years of Service**: 147-148 years\n- **Years of Service**: 149-150 years\n- **Years of Service**: 151-152 years\n- **Years of Service**: 153-154 years\n- **Years of Service**: 155-156 years\n- **Years of Service**: 157-158 years\n- **Years of Service**: 159-160 years\n- **Years of Service**: 161-162 years\n- **Years of Service**: 163-164 years\n- **Years of Service**: 165-166 years\n- **Years of Service**: 167-168 years\n- **Years of Service**: 169-170 years\n- **Years of Service**: 171-172 years\n- **Years of Service**: 173-174 years\n- **Years of Service**: 175-176 years\n- **Years of Service**: 177-178 years\n- **Years of Service**: 179-180 years\n- **Years of Service**: 181-182 years\n- **Years of Service**: 183-184 years\n- **Years of Service**: 185-186 years\n- **Years of Service**: 187-188 years\n- **Years of Service**: 189-190 years\n- **Years of Service**: 191-192 years\n- **Years of Service**: 193-194 years\n- **Years of Service**: 195-196 years\n- **Years of Service**: 197-198 years\n- **Years of Service**: 199-200 years\n- **Years of Service**: 201-202 years\n- **Years of Service**: 203-204 years\n- **Years of Service**: 205-206 years\n- **Years of Service**: 207-208 years\n- **Years of Service**: 209-210 years\n- **Years of Service**: 211-212 years\n- **Years of Service**: 213-214 years\n- **Years of Service**: 215-216 years\n- **Years of Service**: 217-218 years\n- **Years of Service**: 219-220 years\n- **Years of Service**: 221-222 years\n- **Years of Service**: 223-224 years\n- **Years of Service**: 225-226 years\n- **Years of Service**: 227-228 years\n- **Years of Service**: 229-230 years\n- **Years of Service**: 231-232 years\n- **Years of Service**: 233-234 years\n- **Years of Service**: 235-236 years\n- **Years of Service**: 237-238 years\n- **Years of Service**: 239-240 years\n- **Years of Service**: 241-242 years\n- **Years of Service**: 243-244 years\n- **Years of Service**: 245-246 years\n- **Years of Service**: 247-248 years\n- **Years of Service**: 249-250 years\n- **Years of Service**: 251-252 years\n- **Years of Service**: 253-254 years\n- **Years of Service**: 255-256 years\n- **Years of Service**: 257-258 years\n- **Years of Service**: 259-260 years\n- **Years of Service**: 261-262 years\n- **Years of Service**: 263-264 years\n- **Years of Service**: 265-266 years\n- **Years of Service**: 267-268 years\n- **Years of Service**: 269-270 years\n- **Years of Service**: 271-272 years\n- **Years of Service**: 273-274 years\n- **Years of Service**: 275-276 years\n- **Years of Service**: 277-278 years\n- **Years of Service**: 279-280 years\n- **Years of Service**: 281-282 years\n- **Years of Service**: 283-284 years\n- **Years of Service**: 285-286 years\n- **Years of Service**: 287-288 years\n- **Years of Service**: 289-290 years\n- **Years of Service**: 291-292 years\n- **Years of Service**: 293-294 years\n- **Years of Service**: 295-296 years\n- **Years of Service**: 297-298 years\n- **Years of Service**: 299-300 years\n- **Years of Service**: 301-302 years\n- **Years of Service**: 303-304 years\n- **Years of Service**: 305-306 years\n- **Years of Service**: 307-308 years\n- **Years of Service**: 309-310 years\n- **Years of Service**: 311-312 years\n- **Years of Service**: 313-314 years\n- **Years of Service**: 315-316 years\n- **Years of Service",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "length",
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.22.1-8df057ef",
+  "usage": {
+    "prompt_tokens": 3915,
+    "total_tokens": 5963,
+    "completion_tokens": 2048,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

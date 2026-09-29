@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-a6a6ea2c8106524d",
+  "object": "chat.completion",
+  "created": 1789686639,
+  "model": "Vision-OCR-Structured-LLM",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    {\n      \"quantity\": 1,\n      \"unit_price\": 114.98,\n      \"description\": \"*Non Vat\",\n      \"total_price\": 114.98\n    },\n    {\n      \"quantity\": 1,\n      \"unit_price\": 85.60,\n      \"description\": \"VAT\",\n      \"total_price\": 85.60\n    }\n  ],\n  \"totals\": {\n    \"total\": 213.44\n  },\n  \"store_info\": {\n    \"name\": \"VAT NO. 4110287044\"\n  },\n  \"cashier_info\": {\n    \"date\": \"3/04/2024\",\n    \"name\": \"Felicia\",\n    \"time\": \"11:51\",\n    \"slip_number\": \"#5174\",\n    \"till_number\": \"C1011\",\n    \"cashier_number\": \"R008\"\n  },\n  \"customer_name\": \"care@fnv.co.za\"\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 570,
+    "total_tokens": 810,
+    "completion_tokens": 240,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

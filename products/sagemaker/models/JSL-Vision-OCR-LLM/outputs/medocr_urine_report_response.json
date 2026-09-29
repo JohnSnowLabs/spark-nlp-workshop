@@ -1,0 +1,38 @@
+{
+  "id": "chatcmpl-9f8601404cb4e697",
+  "object": "chat.completion",
+  "created": 1789497854,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# SRIVEN HOSPITAL MULTI SPECIALITY\n\nAPSEB Colony, Nagarjuna Sagar Road, Hashinapuram, Hyderabad - 500 079\n\nPatient Name : MR. K.SURESH\n\nDate of sample collection\n\nID : 201022\n\n## COMPLETE URINE EXAMINATION REPORT\n\n| DESCRIPTION | RESULT | REFERENCE INTERVAL |\n|-----------------|------------|---------------------|\n| Colour | Dark Yellow | Straw Colour / Pale Yellow/Dark Yellow |\n| Appearance | Turbid | Clear/Slightly Hazy/Hazy/Turbid |\n| Chemical Examination | | |\n| Glucose | NEGATIVE | NEGATIVE / POSITIVE |\n| Bilirubin (Bile) | NEGATIVE | NEGATIVE / POSITIVE |\n| Urobilinogen | NEGATIVE | NEGATIVE / POSITIVE |\n| Ketone Bodies | NEGATIVE | NEGATIVE / POSITIVE |\n| Specific gravity | 1.029 | 1.005 \u2013 1.030 |\n| Blood | NEGATIVE | NEGATIVE / POSITIVE |\n| Reaction (pH) | 7.9 | 5.0 \u2013 8.0 |\n| Protein | NEGATIVE | NEGATIVE / POSITIVE |\n| Nitrites | NEGATIVE | NEGATIVE / POSITIVE |\n| Leukocyte Esterase | NEGATIVE | NEGATIVE / POSITIVE |\n| MICROSCOPIC EXAMINATION | | |\n| PUS (WBC) cells | Plenty | 0 \u2013 5 / HPF |\n| Red blood Cells | 02-04 | 0 \u2013 2 / HPF |\n| U. Epithelial Cells | 15-20 | 0 \u2013 5 / HPF |\n\nDr. V. VIJAYA SREE MD  \nPathologist Reg No. 43489\n\nLaboratory Incharge:  \nHR & Dr. V. VIJAYA SREE MD\n\nPH : 8106999108, 9652611108, Email : srivenhospital79@gmail.com",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.22.1-8df057ef",
+  "usage": {
+    "prompt_tokens": 4058,
+    "total_tokens": 4498,
+    "completion_tokens": 440,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

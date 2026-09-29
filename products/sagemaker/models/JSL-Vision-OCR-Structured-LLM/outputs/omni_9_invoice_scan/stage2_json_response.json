@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-b56ed80fd45aa1fc",
+  "object": "chat.completion",
+  "created": 1789687122,
+  "model": "Vision-OCR-Structured-LLM",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    {\n      \"quantity\": 2,\n      \"unit_price\": 6.5,\n      \"description\": \"taucu kisar\",\n      \"total_price\": 13\n    },\n    {\n      \"quantity\": 2,\n      \"unit_price\": 4.2,\n      \"description\": \"Teh wangi ros 180g\",\n      \"total_price\": 8.4\n    },\n    {\n      \"quantity\": 1,\n      \"unit_price\": 4.8,\n      \"description\": \"ASAM JAWA 1KG\",\n      \"total_price\": 4.8\n    }\n  ],\n  \"totals\": {\n    \"total\": 26.98,\n    \"total_items\": 4\n  },\n  \"store_info\": {\n    \"tel\": \"\",\n    \"name\": \"\"\n  },\n  \"cashier_info\": {\n    \"date\": \"06-03-2018\",\n    \"name\": \"\",\n    \"time\": \"07:24:44\"\n  },\n  \"customer_name\": \"\"\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 636,
+    "total_tokens": 874,
+    "completion_tokens": 238,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

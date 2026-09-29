@@ -1,0 +1,28 @@
+| Item Description                        | Quantity | Unit Price | Total Price |
+|----------------------------------------|----------|------------|-------------|
+| TENDERLION                             | 1        | 43.37      | 43.37       |
+| TENDERLOIN                             | 1        | 49.42      | 49.42       |
+| TENDERLOIN                             | 1        | 43.90      | 43.90       |
+| TENDERLOIN                             | 1        | 49.66      | 49.66       |
+| AYAMAS CHICKEN FRANKFURTER 340G        | 8        | 4.30       | 34.40       |
+| BUTTERCUP LUXURY SPREAD 500G           | 1        | 9.90       | 9.90        |
+| BUTTERCUP LUXURY SPREAD 500G           | 1        | 9.90       | 9.90        |
+| CINCAU 2KG                             | 1        | 3.90       | 3.90        |
+| CRAB NUGGET 500G MUSHROOM              | 20       | 8.20       | 164.00      |
+
+**QUANTITY**: 35 Units
+
+**Total Sales (Incl. GST @6%)**: RM408.45
+**Rounding Adjustment**: RM0.00
+**Net Total**: RM408.45
+**Payment Method**: MASTER CARD
+
+| GST Summary | Sales Amt (RM) | Tax Amt (RM) |
+|-------------|----------------|--------------|
+| ZR (0%)     | 186.35         | 0.00         |
+| SR (6%)     | 209.53         | 12.57        |
+
+PLEASE VERIFY YOUR RECEIPT BEFORE LEAVING THE COUNTER.
+GOODS SOLD ARE NOT RETURNABLE.
+
+THANK YOU

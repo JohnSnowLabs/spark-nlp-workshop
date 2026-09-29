@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-a77bed2c2efd0928",
+  "object": "chat.completion",
+  "created": 1789686958,
+  "model": "Vision-OCR-Structured-LLM",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"title\": \"Weekly Shift Schedule\",\n  \"weekStartDate\": \"2023-04-01\",\n  \"facility\": \"General Hospital\",\n  \"employees\": [\n    {\n      \"employeeName\": \"Julie Miller\",\n      \"employeeId\": \"HHPXAZ\",\n      \"department\": \"Emergency\",\n      \"shifts\": [\n        {\n          \"type\": \"Night\",\n          \"hours\": \"23:00-07:00\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"hours\": \"Sick Leave\"\n        }\n      ]\n    },\n    {\n      \"employeeName\": \"Doreen Blanda\",\n      \"employeeId\": \"TVDZ9A\",\n      \"department\": \"Radiology\",\n      \"shifts\": [\n        {\n          \"type\": \"Leave\",\n          \"hours\": \"Training\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"hours\": \"07:00-15:00\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"hours\": \"07:00-15:00\"\n        }\n      ]\n    },\n    {\n      \"employeeName\": \"Erin Robel\",\n      \"employeeId\": \"70S1PH\",\n      \"department\": \"ICU\",\n      \"shifts\": [\n        {\n          \"type\": \"Leave\",\n          \"hours\": \"Vacation\"\n        }\n      ]\n    },\n    {\n      \"employeeName\": \"Mr. Marlon Crona\",\n      \"employeeId\": \"PBB151\",\n      \"department\": \"Surgery\",\n      \"shifts\": [\n        {\n          \"type\": \"Leave\",\n          \"hours\": \"Personal\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"hours\": \"07:00-15:00\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"hours\": \"07:00-15:00\"\n        }\n      ]\n    },\n    {\n      \"employeeName\": \"Inez Murazik\",\n      \"employeeId\": \"4YZ9XI\",\n      \"department\": \"Pediatrics\",\n      \"shifts\": [\n        {\n          \"type\": \"Leave\",\n          \"hours\": \"Training\"\n        },\n        {\n          \"type\": \"Night\",\n          \"hours\": \"23:00-07:00\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"hours\": \"Personal\"\n        }\n      ]\n    },\n    {\n      \"employeeName\": \"Olga Glover\",\n      \"employeeId\": \"IUPTZX\",\n      \"department\": \"Radiology\",\n      \"shifts\": [\n        {\n          \"type\": \"Leave\",\n          \"hours\": \"Vacation\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        }\n      ]\n    },\n    {\n      \"employeeName\": \"Dr. Terence Kassulke\",\n      \"employeeId\": \"7Q71BQ\",\n      \"department\": \"Neurology\",\n      \"shifts\": [\n        {\n          \"type\": \"Night\",\n          \"hours\": \"23:00-07:00\"\n        },\n        {\n          \"type\": \"Night\",\n          \"hours\": \"23:00-07:00\"\n        },\n        {\n          \"type\": \"Afternoon\",\n          \"hours\": \"15:00-23:00\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"hours\": \"Training\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"hours\": \"07:00-15:00\"\n        }\n      ]\n    },\n    {\n      \"employeeName\": \"Mable Johnston\",\n      \"employeeId\": \"CG6EC9\",\n      \"department\": \"General Ward\",\n      \"shifts\": [\n        {\n          \"type\": \"Night\",\n          \"hours\": \"23:00-07:00\"\n        },\n        {\n          \"type\": \"Morning\",\n          \"hours\": \"07:00-15:00\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"hours\": \"Vacation\"\n        },\n        {\n          \"type\": \"Leave\",\n          \"hours\": \"Personal\"\n        }\n      ]\n    },\n",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "length",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1403,
+    "total_tokens": 2427,
+    "completion_tokens": 1024,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

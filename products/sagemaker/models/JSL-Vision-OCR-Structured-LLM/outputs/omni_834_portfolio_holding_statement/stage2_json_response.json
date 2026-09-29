@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-9f3742cb063c7ffe",
+  "object": "chat.completion",
+  "created": 1789686878,
+  "model": "Vision-OCR-Structured-LLM",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"tableData\": [\n    {\n      \"symbol\": \"VIG\",\n      \"etfName\": \"Vanguard Dividend Appreciation ETF\",\n      \"closingPrice\": 195.8,\n      \"oneDayChange\": -0.0125,\n      \"ytdPriceChange\": 0.1697\n    },\n    {\n      \"symbol\": \"IEMG\",\n      \"etfName\": \"iShares Core MSCI Emerging Markets ETF\",\n      \"closingPrice\": 52.31,\n      \"oneDayChange\": -0.0082,\n      \"ytdPriceChange\": 0.0667\n    }\n  ]\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 698,
+    "total_tokens": 847,
+    "completion_tokens": 149,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

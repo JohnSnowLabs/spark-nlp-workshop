@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-9529666a02afe4ea",
+  "object": "chat.completion",
+  "created": 1789687069,
+  "model": "Vision-OCR-Structured-LLM",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"income\": {\n    \"line1\": {\n      \"b\": 0,\n      \"c\": 0,\n      \"d\": 8913,\n      \"e\": 8126,\n      \"h\": 8108\n    },\n    \"line3\": {\n      \"a\": 0\n    },\n    \"line4\": {\n      \"a\": 0\n    },\n    \"line5\": {\n      \"b\": 0\n    },\n    \"line6\": {\n      \"a\": 8021,\n      \"b\": 0,\n      \"c\": false\n    },\n    \"line10\": 0,\n    \"line11\": 186377,\n    \"line12\": 0,\n    \"line13\": 0,\n    \"line14\": 0\n  },\n  \"spouse\": {\n    \"spouseSsn\": \"\",\n    \"spouseLastName\": \"\",\n    \"spouseMiddleInitial\": \"\"\n  },\n  \"address\": {\n    \"address1\": \"\",\n    \"address2\": \"\",\n    \"city\": \"\",\n    \"state\": \"\",\n    \"zipCode\": \"\"\n  },\n  \"dependents\": null,\n  \"ageBlindness\": {\n    \"blind\": false,\n    \"spouseBlind\": false,\n    \"bornBeforeJanuary\": false,\n    \"spouseBornBeforeJanuary\": false\n  },\n  \"filingStatus\": {\n    \"HOH\": false,\n    \"MFJ\": false,\n    \"MFS\": false,\n    \"QSS\": false,\n    \"single\": true,\n    \"nonResident\": false\n  },\n  \"personalInfo\": {\n    \"lastName\": \"\",\n    \"firstName\": \"\"\n  },\n  \"digitalAssets\": false,\n  \"standardDeductions\": {\n    \"spouseItemizes\": false,\n    \"youAreDependent\": false,\n    \"spouseIsDependent\": false\n  }\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 3105,
+    "total_tokens": 3523,
+    "completion_tokens": 418,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

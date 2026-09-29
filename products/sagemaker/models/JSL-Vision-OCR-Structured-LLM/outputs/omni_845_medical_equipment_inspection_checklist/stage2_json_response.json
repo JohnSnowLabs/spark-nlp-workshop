@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-af97acf4d9969842",
+  "object": "chat.completion",
+  "created": 1789686907,
+  "model": "Vision-OCR-Structured-LLM",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"equipmentInfo\": {\n    \"model\": \"Model X\",\n    \"inspector\": \"John Doe\",\n    \"equipmentId\": \"EQUIP-12345\",\n    \"inspectionDate\": \"2023-05-10\"\n  },\n  \"checkpoints\": [\n    {\n      \"category\": \"Equipment Housing\",\n      \"items\": [\n        {\n          \"checkpoint\": \"Equipment housing intact\",\n          \"status\": \"pass\"\n        },\n        {\n          \"checkpoint\": \"Display screen clear\",\n          \"status\": \"fail\"\n        },\n        {\n          \"checkpoint\": \"Control buttons functional\",\n          \"status\": \"pass\"\n        },\n        {\n          \"checkpoint\": \"Power cord undamaged\",\n          \"status\": \"pass\"\n        },\n        {\n          \"checkpoint\": \"Mounting brackets secure\",\n          \"status\": \"pass\"\n        },\n        {\n          \"checkpoint\": \"Wheels/casters condition\",\n          \"status\": \"pass\"\n        },\n        {\n          \"checkpoint\": \"Labels and markings legible\",\n          \"status\": \"pass\"\n        },\n        {\n          \"checkpoint\": \"Accessories complete\",\n          \"status\": \"pass\"\n        }\n      ]\n    },\n    {\n      \"category\": \"Electrical Safety\",\n      \"items\": [\n        {\n          \"checkpoint\": \"Ground connection\",\n          \"status\": \"fail\"\n        },\n        {\n          \"checkpoint\": \"Insulation resistance\",\n          \"status\": \"pass\"\n        },\n        {\n          \"checkpoint\": \"Leakage current\",\n          \"status\": \"pass\"\n        },\n        {\n          \"checkpoint\": \"Power supply stable\",\n          \"status\": \"pass\"\n        },\n        {\n          \"checkpoint\": \"Battery backup functional\",\n          \"status\": \"pass\"\n        },\n        {\n          \"checkpoint\": \"Circuit breaker operation\",\n          \"status\": \"pass\"\n        },\n        {\n          \"checkpoint\": \"Surge protection\",\n          \"status\": \"na\"\n        },\n        {\n          \"checkpoint\": \"Cable connections secure\",\n          \"status\": \"pass\"\n        }\n      ]\n    },\n    {\n      \"category\": \"Performance\",\n      \"items\": [\n        {\n          \"checkpoint\": \"Self-test passed\",\n          \"status\": \"na\"\n        },\n        {\n          \"checkpoint\": \"Calibration check\",\n          \"status\": \"pass\"\n        },\n        {\n          \"checkpoint\": \"Alarm systems\",\n          \"status\": \"pass\"\n        },\n        {\n          \"checkpoint\": \"Backup systems\",\n          \"status\": \"pass\"\n        },\n        {\n          \"checkpoint\": \"Output accuracy\",\n          \"status\": \"fail\"\n        },\n        {\n          \"checkpoint\": \"Response time\",\n          \"status\": \"pass\"\n        },\n        {\n          \"checkpoint\": \"Data storage/retrieval\",\n          \"status\": \"pass\"\n        },\n        {\n          \"checkpoint\": \"Network connectivity\",\n          \"status\": \"na\"\n        },\n        {\n          \"checkpoint\": \"Sensor accuracy\",\n          \"status\": \"pass\"\n        }\n      ]\n    }\n  ],\n  \"overallStatus\": {\n    \"passedInspection\": false,\n    \"nextInspectionDue\": \"2025-05-10\"\n  }\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 945,
+    "total_tokens": 1610,
+    "completion_tokens": 665,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

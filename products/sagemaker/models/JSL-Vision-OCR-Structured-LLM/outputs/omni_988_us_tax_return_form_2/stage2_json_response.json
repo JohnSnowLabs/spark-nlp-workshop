@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-9f3105cefffbb951",
+  "object": "chat.completion",
+  "created": 1789687051,
+  "model": "Vision-OCR-Structured-LLM",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"filingStatus\": {\n    \"single\": true,\n    \"HOH\": false,\n    \"MFJ\": false,\n    \"MFS\": false,\n    \"QSS\": true,\n    \"nonResident\": false\n  },\n  \"dependents\": [\n    {\n      \"ssn\": \"403-19-2117\",\n      \"lastName\": \"Dach-Grant\",\n      \"firstName\": \"Elise\",\n      \"otherCredit\": false,\n      \"childTaxCredit\": true,\n      \"relationship\": \"children\"\n    }\n  ],\n  \"ageBlindness\": {\n    \"blind\": false,\n    \"spouseBlind\": false,\n    \"bornBeforeJanuary\": true,\n    \"spouseBornBeforeJanuary\": false\n  },\n  \"income\": {\n    \"line1\": {\n      \"a\": 0,\n      \"b\": 0,\n      \"h\": 0,\n      \"z\": 0\n    },\n    \"line3\": {\n      \"a\": 0,\n      \"b\": 0\n    },\n    \"line4\": {\n      \"a\": 0\n    },\n    \"line5\": {\n      \"a\": 0\n    },\n    \"line6\": {\n      \"a\": 0,\n      \"b\": 0,\n      \"c\": false\n    },\n    \"line7\": 0,\n    \"line8\": 0,\n    \"line9\": 0,\n    \"line10\": 0,\n    \"line11\": 0,\n    \"line12\": 0,\n    \"line13\": 0,\n    \"line14\": 0,\n    \"line15\": 0\n  },\n  \"address\": {\n    \"address1\": \"\",\n    \"address2\": \"\",\n    \"city\": \"\",\n    \"state\": \"\",\n    \"zipCode\": \"\"\n  },\n  \"taxPeriod\": {\n    \"taxDateStart\": \"1/01\"\n  },\n  \"personalInfo\": {\n    \"ssn\": \"123-45-6789\",\n    \"firstName\": \"Elise\"\n  },\n  \"digitalAssets\": false,\n  \"standardDeductions\": {\n    \"spouseItemizes\": false,\n    \"youAreDependent\": true,\n    \"spouseIsDependent\": true\n  }\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 3065,
+    "total_tokens": 3567,
+    "completion_tokens": 502,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

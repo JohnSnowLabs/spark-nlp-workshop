@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-8143436188657283",
+  "object": "chat.completion",
+  "created": 1789687084,
+  "model": "Vision-OCR-Structured-LLM",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"date\": \"2025-12-27\",\n  \"lessor\": {\n    \"name\": \"Eric Zemlak-Crist PhD\",\n    \"streetAddress\": \"54372 St Mary's Road\",\n    \"state\": \"California\"\n  },\n  \"lessee\": {\n    \"name\": \"Weissnat - Hermiston\",\n    \"streetAddress\": \"399 Adrien Mews\",\n    \"state\": \"California\"\n  },\n  \"premises\": {\n    \"spaceType\": \"Office Space\",\n    \"squareFeet\": \"9464\",\n    \"streetAddress\": \"49145 Pearline Forest\"\n  },\n  \"lease\": {\n    \"years\": 5,\n    \"months\": 8,\n    \"startDate\": \"2025-12-27\",\n    \"endDate\": \"2031-08-26\"\n  },\n  \"rent\": {\n    \"monthlyAmount\": 9313,\n    \"securityDeposit\": 9622\n  }\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1087,
+    "total_tokens": 1319,
+    "completion_tokens": 232,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

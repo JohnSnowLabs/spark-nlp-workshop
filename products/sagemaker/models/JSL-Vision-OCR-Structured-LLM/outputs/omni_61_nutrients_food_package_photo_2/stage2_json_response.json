@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-bc3b31432affc65e",
+  "object": "chat.completion",
+  "created": 1789686744,
+  "model": "Vision-OCR-Structured-LLM",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"iron\": 1,\n  \"sodium\": 0,\n  \"calcium\": 1,\n  \"protein\": 0,\n  \"calories\": 20,\n  \"total_fat\": 0,\n  \"vitamin_a\": 0,\n  \"vitamin_c\": 2,\n  \"cholesterol\": 0,\n  \"total_carbonhydrate\": 5,\n  \"servings_per_container\": 1\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 762,
+    "total_tokens": 860,
+    "completion_tokens": 98,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

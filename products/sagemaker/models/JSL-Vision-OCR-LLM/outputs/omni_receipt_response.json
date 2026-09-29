@@ -1,0 +1,38 @@
+{
+  "id": "chatcmpl-bc31a5152d31abc8",
+  "object": "chat.completion",
+  "created": 1789497860,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "SUPER SEVEN CASH & CARRY SDN BHD\n(590150-A)\nPASARAYA BORONG SUPER SEVEN\nNO. 1 JALAN EURO 1\nOFF JALAN BATU TIGA\nSUNGAI BULOH SEKSYEN U3 SHAH ALAM,40150\nhttp://www.super7.com.my\nTEL : 03-78590861\nFAX : 03-78590864\nGST ID : 000639090688\nTAX INVOICE\nCUSTOMER : [77853745]\nMRS. ONG GUAT CHYE\nTAX INVOICE NO : 179509\nCOUNTER :004\nOPERATOR :[NUR ATIQAH BINTI MUH-CASHIER]\n01-03-2018\n09:23:06 AM\n(RM)\nTENDERLION @43.37\n4C212 *1\nD31 TENDERLOIN @49.42\n4C240 *1\nD31 TENDERLOIN @43.90\n4C240 *1\nD31 TENDERLOIN @49.66\n4C240 *1\nAYAMAS CHICKEN FRANKFURTER 340G @4.30\n9556276020392 *8\n34.40 SR\nBUTTERCUP LUXURY SPREAD 500G @9.90\n6888010995552 *1\n9.90 SR\nBUTTERCUP LUXURY SPREAD 500G @9.90\n6888010995552 *1\n9.90 SR\nQY CINCAU 2KG @3.90\n9554100149455 *1\n3.90 SR\nCRAB NUGGET 500G MUSHROOM @8.20\n9557240160502 *20\n164.00 SR\nQUANTITY : 35 UNITS\nTOTAL SALES (INCL. GST @6%)\nRM408.45\nROUNDING ADJUSTMENT\nRM0.00\nNET TOTAL\nRM408.45\nPAYMENT METHOD\nMASTER CARD\nGST SUMMARY\nSALES AMT\nTAX AMT\n(RM)\nZR (0%)\n186.35\n0.00\nSR (6%)\n209.53\n12.57\nPLEASE VERIFY YOUR RECEIPT\nBEFORE LEAVING THE COUNTER.\nGOODS SOLD ARE NOT RETURNABLE.\nTHANK YOU",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.22.1-8df057ef",
+  "usage": {
+    "prompt_tokens": 1821,
+    "total_tokens": 2371,
+    "completion_tokens": 550,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

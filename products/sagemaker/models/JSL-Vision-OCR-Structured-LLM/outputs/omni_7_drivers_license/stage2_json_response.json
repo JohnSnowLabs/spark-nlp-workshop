@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-8e01cb30cd109099",
+  "object": "chat.completion",
+  "created": 1789686770,
+  "model": "Vision-OCR-Structured-LLM",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"sex\": \"M\",\n  \"hair_color\": \"Gry\",\n  \"eye_color\": \"Blu\",\n  \"height\": \"6-0\",\n  \"weight\": \"205\",\n  \"address\": {\n    \"city\": \"PARADISE\",\n    \"state\": \"CA\",\n    \"street\": \"\",\n    \"zip_code\": \"\"\n  },\n  \"last_name\": \"THOMAS\",\n  \"first_name\": \"D.F.\",\n  \"date_of_birth\": \"08/20/1892\",\n  \"expiration_date\": \"\",\n  \"driver_license_number\": \"\",\n  \"issue_date\": \"08/04/1965\"\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 611,
+    "total_tokens": 758,
+    "completion_tokens": 147,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

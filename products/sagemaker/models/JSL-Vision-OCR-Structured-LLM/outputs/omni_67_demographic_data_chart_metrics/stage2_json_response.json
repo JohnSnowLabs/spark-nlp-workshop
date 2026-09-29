@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-ae1e4c0cbe55407e",
+  "object": "chat.completion",
+  "created": 1789686747,
+  "model": "Vision-OCR-Structured-LLM",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"worldwideAssociates\": {\n    \"total\": 70193,\n    \"menPct\": 0.5,\n    \"womenPct\": 0.49,\n    \"notDisclosedPct\": 0.01\n  },\n  \"leadershipGenderBreakdown\": [\n    {\n      \"group\": \"Board of Directors\",\n      \"men\": 8,\n      \"women\": 4\n    },\n    {\n      \"group\": \"Executive officers\",\n      \"men\": 10,\n      \"women\": 2\n    },\n    {\n      \"group\": \"Officers\",\n      \"men\": 11,\n      \"women\": 4\n    }\n  ]\n}",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 994,
+    "total_tokens": 1146,
+    "completion_tokens": 152,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

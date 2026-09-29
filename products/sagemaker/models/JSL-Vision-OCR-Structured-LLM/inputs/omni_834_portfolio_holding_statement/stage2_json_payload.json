@@ -1,0 +1,103 @@
+{
+  "model": "Vision-OCR-Structured-LLM",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Extract data from the following document based on the JSON schema.\nReturn null if the document does not contain information relevant to schema.\nReturn only the JSON with no explanation text.\nThe JSON schema is as follows:\n{\n  \"type\": \"object\",\n  \"properties\": {\n    \"tableData\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"symbol\": {\n            \"type\": \"string\",\n            \"description\": \"\"\n          },\n          \"etfName\": {\n            \"type\": \"string\",\n            \"description\": \"\"\n          },\n          \"closingPrice\": {\n            \"type\": \"number\",\n            \"description\": \"\"\n          },\n          \"oneDayChange\": {\n            \"type\": \"number\",\n            \"description\": \"\"\n          },\n          \"ytdPriceChange\": {\n            \"type\": \"number\",\n            \"description\": \"\"\n          }\n        }\n      }\n    },\n    \"clientServices\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"address\": {\n          \"type\": \"string\",\n          \"description\": \"Full address of the client representative\"\n        },\n        \"consultantId\": {\n          \"type\": \"string\",\n          \"description\": \"Client representative id\"\n        },\n        \"consultantName\": {\n          \"type\": \"string\",\n          \"description\": \"Full name of the client representative\"\n        }\n      },\n      \"description\": \"Client representative\"\n    },\n    \"portfolioSummary\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"changes\": {\n          \"type\": \"array\",\n          \"items\": {\n            \"type\": \"object\",\n            \"required\": [\n              \"description\",\n              \"currentPeriod\",\n              \"yearToDate\"\n            ],\n            \"properties\": {\n              \"yearToDate\": {\n                \"type\": \"number\",\n                \"description\": \"Amount recorded year to date\"\n              },\n              \"description\": {\n                \"type\": \"string\",\n                \"description\": \"Description of the change\"\n              },\n              \"currentPeriod\": {\n                \"type\": \"number\",\n                \"description\": \"Amount recorded during the current period\"\n              }\n            }\n          },\n          \"description\": \"Summary of portfolio changes. Include only changes. Do not include starting and ending balance in this list.\"\n        },\n        \"ytdBeginningBalance\": {\n          \"type\": \"number\",\n          \"description\": \"The year to date starting balance of the portfolio\"\n        }\n      },\n      \"description\": \"Overview of the portfolio with balances and changes\"\n    }\n  }\n}"
+    },
+    {
+      "role": "user",
+      "content": "| E.T.F.                        | Security Identifier | EOD Price | One Day Change | Category | Price Change (YTD) | Avg. Daily Volume |\n|-------------------------------|---------------------|-----------|----------------|----------|--------------------|------------------|\n| Vanguard Dividend Appreciation ETF | VIG                 | 195.8     | -0.0125        | Equity   | 0.1697             | 965248           |\n| iShares Core MSCI Emerging Markets ETF | IEMG                | 52.31     | -0.0082        | Equity   | 0.0667             | 9449047          |"
+    }
+  ],
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1024,
+  "guided_json": {
+    "type": "object",
+    "properties": {
+      "tableData": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": ""
+            },
+            "etfName": {
+              "type": "string",
+              "description": ""
+            },
+            "closingPrice": {
+              "type": "number",
+              "description": ""
+            },
+            "oneDayChange": {
+              "type": "number",
+              "description": ""
+            },
+            "ytdPriceChange": {
+              "type": "number",
+              "description": ""
+            }
+          }
+        }
+      },
+      "clientServices": {
+        "type": "object",
+        "properties": {
+          "address": {
+            "type": "string",
+            "description": "Full address of the client representative"
+          },
+          "consultantId": {
+            "type": "string",
+            "description": "Client representative id"
+          },
+          "consultantName": {
+            "type": "string",
+            "description": "Full name of the client representative"
+          }
+        },
+        "description": "Client representative"
+      },
+      "portfolioSummary": {
+        "type": "object",
+        "properties": {
+          "changes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "description",
+                "currentPeriod",
+                "yearToDate"
+              ],
+              "properties": {
+                "yearToDate": {
+                  "type": "number",
+                  "description": "Amount recorded year to date"
+                },
+                "description": {
+                  "type": "string",
+                  "description": "Description of the change"
+                },
+                "currentPeriod": {
+                  "type": "number",
+                  "description": "Amount recorded during the current period"
+                }
+              }
+            },
+            "description": "Summary of portfolio changes. Include only changes. Do not include starting and ending balance in this list."
+          },
+          "ytdBeginningBalance": {
+            "type": "number",
+            "description": "The year to date starting balance of the portfolio"
+          }
+        },
+        "description": "Overview of the portfolio with balances and changes"
+      }
+    }
+  }
+}

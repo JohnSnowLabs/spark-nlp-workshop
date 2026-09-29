@@ -1,0 +1,38 @@
+| Checkpoint                  | Functional | Needs Service | Defective | Not Applicable |
+|----------------------------|------------|---------------|-----------|----------------|
+| Equipment housing intact   | ✔          |               |           |                |
+| Display screen clear       |            | ✔             |           |                |
+| Control buttons functional | ✔          |               |           |                |
+| Power cord undamaged       |            |               |           |                |
+| Mounting brackets secure   |            | ✔             |           |                |
+| Wheels/casters condition   | ✔          |               |           |                |
+| Labels and markings legible| ✔          |               |           |                |
+| Accessories complete       |            |               |           |                |
+
+| Checkpoint                  | Functional | Needs Service | Defective | Not Applicable |
+|----------------------------|------------|---------------|-----------|----------------|
+| Ground connection          | ✔          |               |           |                |
+| Insulation resistance      |            |               |           |                |
+| Leakage current            | ✔          |               |           |                |
+| Power supply stable        |            |               |           |                |
+| Battery backup functional  | ✔          |               |           |                |
+| Circuit breaker operation  |            |               | ✔         |                |
+| Surge protection           | ✔          |               |           |                |
+| Cable connections secure   |            | ✔             |           |                |
+
+| Checkpoint                  | Functional | Needs Service | Defective | Not Applicable |
+|----------------------------|------------|---------------|-----------|----------------|
+| Self-test passed           | ✔          |               |           |                |
+| Calibration check          | ✔          |               |           |                |
+| Alarm systems              | ✔          |               |           |                |
+| Backup systems             | ✔          |               |           |                |
+| Output accuracy            |            | ✔             |           |                |
+| Response time              | ✔          |               |           |                |
+| Data storage/retrieval     |            | ✔             |           |                |
+| Network connectivity       | ✔          |               |           |                |
+| Sensor accuracy            | ✔          |               |           |                |
+
+**Overall Status**
+
+Inspection Result: ✔
+Next Inspection Due: 2025-05-26

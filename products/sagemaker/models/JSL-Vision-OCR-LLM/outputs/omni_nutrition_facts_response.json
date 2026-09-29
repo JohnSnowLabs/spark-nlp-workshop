@@ -1,0 +1,38 @@
+{
+  "id": "chatcmpl-86ba0858d8850bce",
+  "object": "chat.completion",
+  "created": 1789497060,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Nutrition Facts\n\nServing Size 1/2 package (1oz / 28g) Servings Per Container 2\n\nAmount Per Serving\n\nCalories 150 Calories from Fat 90 % Daily Value* \n\nTotal Fat 10g 15% \nSaturated Fat 1.5g 8%\nTrans Fat 0g\n\nCholesterol 0mg 0%\n\nSodium 180mg 8%\n\nTotal Carbohydrate 9g 3%\n\nDietary Fiber 3g 12%\n\nSugars 3g\n\nProtein 6g\n\nVitamin A 70% Vitamin C 0%\n\nCalcium 15% Iron 6%\n\nPercent Daily Values are based on a 2,000 calorie diet. Your Daily Values may be higher or lower depending on your caloric needs:\n\nCalories: 2,000 2,500\n\nTotal Fat Saturated Fat Cholesterol Sodium Total Carbohydrate Dietary Fiber\n\nLess than 65g Less than 20g Less than 300mg Less than 2,400mg 300g 25g 2,400mg 375g 30g\n\nFat g Carbohydrate 4 Protein 4",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.22.1-8df057ef",
+  "usage": {
+    "prompt_tokens": 797,
+    "total_tokens": 1035,
+    "completion_tokens": 238,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

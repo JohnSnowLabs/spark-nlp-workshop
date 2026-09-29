@@ -1,0 +1,4 @@
+| E.T.F.                        | Security Identifier | EOD Price | One Day Change | Category | Price Change (YTD) | Avg. Daily Volume |
+|-------------------------------|---------------------|-----------|----------------|----------|--------------------|------------------|
+| Vanguard Dividend Appreciation ETF | VIG                 | 195.8     | -0.0125        | Equity   | 0.1697             | 965248           |
+| iShares Core MSCI Emerging Markets ETF | IEMG                | 52.31     | -0.0082        | Equity   | 0.0667             | 9449047          |

@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-8ab82a522f984c87",
+  "object": "chat.completion",
+  "created": 1789686647,
+  "model": "Vision-OCR-Structured-LLM",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"teams\": [\n    {\n      \"ast\": 17,\n      \"pts\": 84,\n      \"reb\": 40,\n      \"tov\": 15,\n      \"city\": \"Los Angeles\",\n      \"wins\": 5,\n      \"fg_pct\": 42,\n      \"ft_pct\": 52,\n      \"losses\": 25,\n      \"fg3_pct\": 30,\n      \"pts_qtr1\": 22,\n      \"pts_qtr2\": 22,\n      \"pts_qtr3\": 13,\n      \"pts_qtr4\": 27,\n      \"team_name\": \"Lakers\"\n    },\n    {\n      \"ast\": 22,\n      \"pts\": 94,\n      \"reb\": 45,\n      \"tov\": 16,\n      \"city\": \"LA\",\n      \"wins\": 17,\n      \"fg_pct\": 45,\n      \"ft_pct\": 73,\n      \"losses\": 13,\n      \"fg3_pct\": 39,\n      \"pts_qtr1\": 32,\n      \"pts_qtr2\": 28,\n      \"pts_qtr3\": 25,\n      \"pts_qtr4\": 9,\n      \"team_name\": \"Clippers\"\n    }\n  ],\n  \"players\": [\n    {\n      \"fg\": \"7\u201313\",\n      \"ft\": \"0\u20132\",\n      \"pf\": 2,\n      \"to\": 4,\n      \"ast\": 1,\n      \"blk\": 1,\n      \"fg3\": \"2\u20135\",\n      \"min\": 28,\n      \"pts\": 16,\n      \"reb\": 7,\n      \"stl\": 2,\n      \"dreb\": 5,\n      \"oreb\": 2,\n      \"fg_pct\": \"54%\",\n      \"ft_pct\": 0,\n      \"fg3_pct\": 40,\n      \"team_city\": \"Los Angeles\",\n      \"player_name\": \"D'Angelo Russell\",\n      \"start_position\": \"N/A\"\n    },\n    {\n      \"fg\": \"4\u201310\",\n      \"ft\": \"1\u20134\",\n      \"pf\": 3,\n      \"to\": 3,\n      \"ast\": 3,\n      \"blk\": 0,\n      \"fg3\": \"3\u20135\",\n      \"min\": 26,\n      \"pts\": 12,\n      \"reb\": 3,\n      \"stl\": 2,\n      \"dreb\": 3,\n      \"oreb\": 0,\n      \"fg_pct\": \"40%\",\n      \"ft_pct\": 25,\n      \"fg3_pct\": 60,\n      \"team_city\": \"Los Angeles\",\n      \"player_name\": \"Kobe Bryant\",\n      \"start_position\": \"F\"\n    },\n    {\n      \"fg\": \"4\u20139\",\n      \"ft\": \"0\u20130\",\n      \"pf\": 0,\n      \"to\": 4,\n      \"ast\": 3,\n      \"blk\": 0,\n      \"fg3\": \"0\u20133\",\n      \"min\": 31,\n      \"pts\": 11,\n      \"reb\": 8,\n      \"stl\": 0,\n      \"dreb\": 6,\n      \"oreb\": 2,\n      \"fg_pct\": \"44%\",\n      \"ft_pct\": 0,\n      \"fg3_pct\": 0,\n      \"team_city\": \"Los Angeles\",\n      \"player_name\": \"Jordan Clarkson\",\n      \"start_position\": \"G\"\n    },\n    {\n      \"fg\": \"3\u201311\",\n      \"ft\": \"4\u20136\",\n      \"pf\": 3,\n      \"to\": 3,\n      \"ast\": 2,\n      \"blk\": 0,\n      \"fg3\": \"1\u20133\",\n      \"min\": 27,\n      \"pts\": 11,\n      \"reb\": 8,\n      \"stl\": 0,\n      \"dreb\": 3,\n      \"oreb\": 5,\n      \"fg_pct\": \"27%\",\n      \"ft_pct\": 67,\n      \"fg3_pct\": 33,\n      \"team_city\": \"Los Angeles\",\n      \"player_name\": \"Julius Randle\",\n      \"start_position\": \"N/A\"\n    },\n    {\n      \"fg\": \"4\u201310\",\n      \"ft\": \"0\u20130\",\n      \"pf\": 0,\n      \"to\": 0,\n      \"ast\": 1,\n      \"blk\": 0,\n      \"fg3\": \"0\u20130\",\n      \"min\": 27,\n      \"pts\": 8,\n      \"",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "length",
+      "stop_reason": null,
+      "token_ids": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": null,
+  "usage": {
+    "prompt_tokens": 1696,
+    "total_tokens": 2720,
+    "completion_tokens": 1024,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "kv_transfer_params": null
+}

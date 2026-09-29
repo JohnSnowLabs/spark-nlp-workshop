@@ -1,0 +1,38 @@
+{
+  "id": "chatcmpl-bf39729e97e1e9b5",
+  "object": "chat.completion",
+  "created": 1789497863,
+  "model": "/opt/ml/model",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "City Town of Borough New Haven (Name of Municipality) Democrat September 12, 2023 (Party) Date of Primary (Office(S)) SOUGHT TERM\nThomas A. Goldenberg 324 Nicoll Street Mayor 1/1/24-12/31/25\nTHIS PETITION MUST BE FILED WITH Shannel Evans ,(Name of Registrar of Voters)\n200 Orange Street #201, New Haven, 06510 ,not later than 4:00 p.m. on August 9, 2023 .(Address of said Registrar)\n\nB. We, the undersigned, being enrolled members of the above party in the above municipality, do hereby petition that there be printed on the voting machine ballot labels to be used in the primary of said party in said municipality to be held on the date above specified the names of the above individuals as candidates for nomination to the offices specified:\n\n| SIGNATURE OF ENROLLED ELECTOR | PRINTED NAME OF ELECTOR | BIRTH DATE | STREET ADDRESS |\n|------------------------------|-------------------------|------------|------------------|\n| Richard A. Lee 2/24/1945 70 LyON ST | Peter Strauch 6/13/36 78 LyON ST |  |  |\n| John Stachnac 11/3/65 74 LyON ST |  |  |  |\n| 7a Loyn 07/09/58 74 LyON ST |  |  |  |\n| 8 |  |  |  |\n| 9 |  |  |  |\n| 10 |  |  |  |\n| 11 |  |  |  |\n| 12 |  |  |  |\n| 13 |  |  |  |\n| 14 |  |  |  |\n| 15 |  |  |  |\n| 16 |  |  |  |\n| 17 |  |  |  |\n| 18 |  |  |  |\n| 19 |  |  |  |\n| 20 |  |  |  |\n\n",
+        "refusal": null,
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": [],
+        "reasoning": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop",
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.22.1-8df057ef",
+  "usage": {
+    "prompt_tokens": 4277,
+    "total_tokens": 4723,
+    "completion_tokens": 446,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}
