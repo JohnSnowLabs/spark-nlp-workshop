@@ -41,9 +41,9 @@
                 "all_score": [
                     0.8763471841812134,
                     0.86885005235672,
-                    0.8286551237106323,
-                    0.8278406858444214,
-                    0.8240739107131958
+                    0.8286550045013428,
+                    0.8278403878211975,
+                    0.8240736722946167
                 ]
             },
             {
@@ -54,12 +54,12 @@
                 "ner_confidence": "0.9983",
                 "concept_code": "R11.0",
                 "resolution": "nausea",
-                "score": 1.000000238418579,
+                "score": 1.0000004768371582,
                 "billable_hcc": [
-                    "1||0||0",
+                    "",
                     "1||0||0",
                     "0||0||0",
-                    "0||0||0",
+                    "",
                     "0||0||0"
                 ],
                 "all_codes": [
@@ -70,10 +70,10 @@
                     "R11"
                 ],
                 "concept_name_detailed": [
-                    "nausea [nausea]",
+                    "",
                     "nausea (finding) [nausea]",
                     "nausea present [nausea and vomiting]",
-                    "nausea and vomiting [nausea and vomiting]",
+                    "",
                     "nausea present (finding) [nausea and vomiting]"
                 ],
                 "all_resolutions": [
@@ -84,10 +84,10 @@
                     "nausea present (finding)"
                 ],
                 "all_score": [
-                    1.000000238418579,
-                    0.9062079787254333,
+                    1.0000004768371582,
+                    0.9062077403068542,
                     0.8711103200912476,
-                    0.8635473847389221,
+                    0.8635475635528564,
                     0.8409349918365479
                 ]
             },
@@ -99,11 +99,11 @@
                 "ner_confidence": "0.99434996",
                 "concept_code": "R11.12",
                 "resolution": "projectile vomiting",
-                "score": 0.9999996423721313,
+                "score": 0.9999998211860657,
                 "billable_hcc": [
-                    "1||0||0",
+                    "",
                     "0||0||0",
-                    "0||0||0",
+                    "",
                     "0||0||0",
                     "1||0||0"
                 ],
@@ -115,9 +115,9 @@
                     "A08.39"
                 ],
                 "concept_name_detailed": [
-                    "projectile vomiting [projectile vomiting]",
+                    "",
                     "projectile vomiting (disorder) [nausea and vomiting]",
-                    "vomiting [vomiting]",
+                    "",
                     "vomiting food [nausea and vomiting]",
                     "viral vomiting [other viral enteritis]"
                 ],
@@ -129,11 +129,11 @@
                     "viral vomiting"
                 ],
                 "all_score": [
-                    0.9999996423721313,
-                    0.9205434322357178,
-                    0.8523432612419128,
-                    0.8416711091995239,
-                    0.8325560688972473
+                    0.9999998211860657,
+                    0.9205434918403625,
+                    0.8523431420326233,
+                    0.8416712284088135,
+                    0.8325560092926025
                 ]
             },
             {
@@ -144,7 +144,7 @@
                 "ner_confidence": "0.90860003",
                 "concept_code": "R74.8",
                 "resolution": "serum amylase raised (finding)",
-                "score": 0.79623943567276,
+                "score": 0.7962393164634705,
                 "billable_hcc": [
                     "1||0||0",
                     "1||0||0",
@@ -174,11 +174,11 @@
                     "increased pancreatic lipase (finding)"
                 ],
                 "all_score": [
-                    0.79623943567276,
-                    0.7914051413536072,
-                    0.7497529983520508,
-                    0.7493454217910767,
-                    0.7489347457885742
+                    0.7962393164634705,
+                    0.7914050817489624,
+                    0.749752938747406,
+                    0.7493453621864319,
+                    0.748934805393219
                 ]
             },
             {
@@ -189,13 +189,13 @@
                 "ner_confidence": "0.89243335",
                 "concept_code": "K92.2",
                 "resolution": "gastrointestinal hemorrhage, unspecified",
-                "score": 0.9738170504570007,
+                "score": 0.9738168120384216,
                 "billable_hcc": [
+                    "",
                     "1||0||0",
                     "1||0||0",
-                    "1||0||0",
-                    "1||1||48",
-                    "1||0||0"
+                    "",
+                    ""
                 ],
                 "all_codes": [
                     "K92.2",
@@ -205,11 +205,11 @@
                     "K25.4"
                 ],
                 "concept_name_detailed": [
-                    "gastrointestinal hemorrhage, unspecified [gastrointestinal hemorrhage, unspecified]",
+                    "",
                     "obscure gastrointestinal hemorrhage [gastrointestinal hemorrhage, unspecified]",
                     "obscure gastrointestinal haemorrhage [gastrointestinal hemorrhage, unspecified]",
-                    "hemorrhagic condition, unspecified [hemorrhagic condition, unspecified]",
-                    "chronic or unspecified gastric ulcer with hemorrhage [chronic or unspecified gastric ulcer with hemorrhage]"
+                    "",
+                    ""
                 ],
                 "all_resolutions": [
                     "gastrointestinal hemorrhage, unspecified",
@@ -219,11 +219,11 @@
                     "chronic or unspecified gastric ulcer with hemorrhage"
                 ],
                 "all_score": [
-                    0.9738170504570007,
-                    0.8924537897109985,
-                    0.8827970027923584,
-                    0.8715918064117432,
-                    0.8579167127609253
+                    0.9738168120384216,
+                    0.8924540281295776,
+                    0.8827969431877136,
+                    0.8715919256210327,
+                    0.8579168319702148
                 ]
             }
         ],
@@ -236,13 +236,13 @@
                 "ner_confidence": "0.805175",
                 "concept_code": "R10.10",
                 "resolution": "upper abdominal pain, unspecified",
-                "score": 0.979938268661499,
+                "score": 0.9799383282661438,
                 "billable_hcc": [
-                    "1||0||0",
-                    "1||0||0",
+                    "",
+                    "",
                     "0||0||0",
                     "0||0||0",
-                    "0||0||0"
+                    ""
                 ],
                 "all_codes": [
                     "R10.10",
@@ -252,11 +252,11 @@
                     "R10.1"
                 ],
                 "concept_name_detailed": [
-                    "upper abdominal pain, unspecified [upper abdominal pain, unspecified]",
-                    "unspecified abdominal pain [unspecified abdominal pain]",
+                    "",
+                    "",
                     "upper abdominal pain [pain localized to upper abdomen]",
                     "upper abdominal pain (finding) [pain localized to upper abdomen]",
-                    "pain localized to upper abdomen [pain localized to upper abdomen]"
+                    ""
                 ],
                 "all_resolutions": [
                     "upper abdominal pain, unspecified",
@@ -266,11 +266,11 @@
                     "pain localized to upper abdomen"
                 ],
                 "all_score": [
-                    0.979938268661499,
-                    0.9405500292778015,
-                    0.8914374709129333,
-                    0.8855582475662231,
-                    0.8779515027999878
+                    0.9799383282661438,
+                    0.9405496716499329,
+                    0.891437292098999,
+                    0.885558009147644,
+                    0.8779510855674744
                 ]
             },
             {
@@ -281,7 +281,7 @@
                 "ner_confidence": "0.9757",
                 "concept_code": "R60.9",
                 "resolution": "swelling",
-                "score": 1.0000011920928955,
+                "score": 1.000001311302185,
                 "billable_hcc": [
                     "1||0||0",
                     "1||0||0",
@@ -311,11 +311,11 @@
                     "complaining of a swelling"
                 ],
                 "all_score": [
-                    1.0000011920928955,
-                    0.9340642094612122,
+                    1.000001311302185,
+                    0.9340639114379883,
                     0.9129384756088257,
-                    0.8990463614463806,
-                    0.8975821137428284
+                    0.8990461230278015,
+                    0.897581934928894
                 ]
             },
             {
@@ -326,7 +326,7 @@
                 "ner_confidence": "0.3015",
                 "concept_code": "K63.9",
                 "resolution": "disease of intestine",
-                "score": 1.0000001192092896,
+                "score": 0.9999996423721313,
                 "billable_hcc": [
                     "1||0||0",
                     "1||0||0",
@@ -356,11 +356,11 @@
                     "disease of small intestine"
                 ],
                 "all_score": [
-                    1.0000001192092896,
+                    0.9999996423721313,
                     0.9722301363945007,
                     0.9192954301834106,
-                    0.9125630259513855,
-                    0.9073302149772644
+                    0.9125627279281616,
+                    0.9073300361633301
                 ]
             },
             {
@@ -371,13 +371,13 @@
                 "ner_confidence": "0.68315005",
                 "concept_code": "K58.2",
                 "resolution": "mixed irritable bowel syndrome",
-                "score": 0.9999999403953552,
+                "score": 1.0,
                 "billable_hcc": [
+                    "",
+                    "",
                     "1||0||0",
-                    "0||0||0",
                     "1||0||0",
-                    "1||0||0",
-                    "1||0||0"
+                    ""
                 ],
                 "all_codes": [
                     "K58.2",
@@ -387,11 +387,11 @@
                     "K58.0"
                 ],
                 "concept_name_detailed": [
-                    "mixed irritable bowel syndrome [mixed irritable bowel syndrome]",
-                    "irritable bowel syndrome [irritable bowel syndrome]",
+                    "",
+                    "",
                     "irritable bowel syndrome (disorder) [irritable bowel syndrome without diarrhea]",
                     "irritable colon syndrome [irritable bowel syndrome without diarrhea]",
-                    "irritable bowel syndrome with diarrhea [irritable bowel syndrome with diarrhea]"
+                    ""
                 ],
                 "all_resolutions": [
                     "mixed irritable bowel syndrome",
@@ -401,11 +401,11 @@
                     "irritable bowel syndrome with diarrhea"
                 ],
                 "all_score": [
-                    0.9999999403953552,
-                    0.8407941460609436,
+                    1.0,
+                    0.8407942056655884,
                     0.8157996535301208,
-                    0.8116376399993896,
-                    0.8114128112792969
+                    0.811637818813324,
+                    0.8114126920700073
                 ]
             },
             {
@@ -416,9 +416,9 @@
                 "ner_confidence": "0.5294333",
                 "concept_code": "E73.0",
                 "resolution": "congenital lactase deficiency",
-                "score": 1.000000238418579,
+                "score": 1.0000001192092896,
                 "billable_hcc": [
-                    "1||0||0",
+                    "",
                     "1||0||0",
                     "1||0||0",
                     "1||0||0",
@@ -432,7 +432,7 @@
                     "E73.1"
                 ],
                 "concept_name_detailed": [
-                    "congenital lactase deficiency [congenital lactase deficiency]",
+                    "",
                     "congenital lactase deficiency (disorder) [congenital lactase deficiency]",
                     "lactase deficiency [other lactose intolerance]",
                     "cld - congenital lactase deficiency [congenital lactase deficiency]",
@@ -446,11 +446,11 @@
                     "lactase deficiency (disorder)"
                 ],
                 "all_score": [
-                    1.000000238418579,
-                    0.9800158739089966,
-                    0.9227888584136963,
-                    0.9052652716636658,
-                    0.8908753395080566
+                    1.0000001192092896,
+                    0.9800159931182861,
+                    0.9227890968322754,
+                    0.9052656888961792,
+                    0.8908754587173462
                 ]
             },
             {
@@ -465,37 +465,37 @@
                 "billable_hcc": [
                     "1||0||0",
                     "1||0||0",
-                    "0||0||0",
-                    "1||0||0",
-                    "1||0||0"
+                    "",
+                    "",
+                    ""
                 ],
                 "all_codes": [
                     "R79.9",
                     "R79.9",
                     "R79",
-                    "R79.89",
-                    "R79.9"
+                    "R79.8",
+                    "R79.89"
                 ],
                 "concept_name_detailed": [
                     "blood chemistry abnormal [abnormal finding of blood chemistry, unspecified]",
                     "blood chemistry abnormal (finding) [abnormal finding of blood chemistry, unspecified]",
-                    "other abnormal findings of blood chemistry [other abnormal findings of blood chemistry]",
-                    "other specified abnormal findings of blood chemistry [other specified abnormal findings of blood chemistry]",
-                    "abnormal finding of blood chemistry, unspecified [abnormal finding of blood chemistry, unspecified]"
+                    "",
+                    "",
+                    ""
                 ],
                 "all_resolutions": [
                     "blood chemistry abnormal",
                     "blood chemistry abnormal (finding)",
                     "other abnormal findings of blood chemistry",
                     "other specified abnormal findings of blood chemistry",
-                    "abnormal finding of blood chemistry, unspecified"
+                    "other specified abnormal findings of blood chemistry"
                 ],
                 "all_score": [
                     0.9307544231414795,
-                    0.9073789715766907,
-                    0.8975028991699219,
-                    0.8874545693397522,
-                    0.8739074468612671
+                    0.9073790311813354,
+                    0.8975028395652771,
+                    0.8874543309211731,
+                    0.8874543309211731
                 ]
             }
         ]
