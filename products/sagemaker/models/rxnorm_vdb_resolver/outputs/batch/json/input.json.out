@@ -25,11 +25,11 @@
                     "336541"
                 ],
                 "concept_name_detailed": [
-                    "folic acid 1 MG[folic acid 1 MG]",
-                    "folic acid 1.1 MG[folic acid 1.1 MG]",
-                    "folic acid 0.1 MG[folic acid 0.1 MG]",
-                    "folic acid 1 MG [Folicet][folic acid 1 MG [Folicet]]",
-                    "folic acid 1 MG/ML[folic acid 1 MG/ML]"
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
                 ],
                 "all_resolutions": [
                     "folic acid 1 mg",
@@ -40,8 +40,8 @@
                 ],
                 "all_score": [
                     1.0000001192092896,
-                    0.9873265027999878,
-                    0.9669881463050842,
+                    0.9873263835906982,
+                    0.9669879674911499,
                     0.964435875415802,
                     0.9637104272842407
                 ]
@@ -52,43 +52,43 @@
                 "ner_chunk": "levothyroxine 0.1 mg",
                 "ner_label": "DRUG",
                 "ner_confidence": "0.8457667",
-                "concept_code": "966402",
-                "resolution": "levothyroid 0.1 mg",
-                "score": 0.974063515663147,
+                "concept_code": "892245",
+                "resolution": "levothyroxine sodium 0.1 mg",
+                "score": 0.9439408779144287,
                 "concept_class_id": [
-                    "Branded Drug Comp",
                     "Clinical Drug Comp",
+                    "Branded Drug Comp",
                     "Branded Drug Comp",
                     "Branded Drug Comp",
                     "Branded Drug Comp"
                 ],
                 "all_codes": [
-                    "966402",
                     "892245",
                     "1605176",
+                    "631566",
                     "966329",
                     "966402"
                 ],
                 "concept_name_detailed": [
-                    "levothyroxine sodium 0.1 MG [Levothyroid]",
-                    "levothyroxine sodium 0.1 MG[levothyroxine sodium 0.1 MG]",
-                    "levothyroxine sodium 0.1 MG [Levocrine][levothyroxine sodium 0.1 MG [Levocrine]]",
-                    "levothyroxine sodium 0.1 MG [Levothroid][levothyroxine sodium 0.1 MG [Levothroid]]",
-                    "levothyroxine sodium 0.1 MG [Levothyroid][levothyroxine sodium 0.1 MG [Levothyroid]]"
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
                 ],
                 "all_resolutions": [
-                    "levothyroid 0.1 mg",
                     "levothyroxine sodium 0.1 mg",
                     "levothyroxine sodium 0.1 mg [levocrine]",
+                    "thyroxine 0.1 mg [levothyroid]",
                     "levothyroxine sodium 0.1 mg [levothroid]",
                     "levothyroxine sodium 0.1 mg [levothyroid]"
                 ],
                 "all_score": [
-                    0.974063515663147,
-                    0.9439407587051392,
-                    0.9438753724098206,
-                    0.9403986930847168,
-                    0.940274178981781
+                    0.9439408779144287,
+                    0.9438750147819519,
+                    0.9421623349189758,
+                    0.9403989315032959,
+                    0.9402743577957153
                 ]
             },
             {
@@ -102,38 +102,38 @@
                 "score": 1.000000238418579,
                 "concept_class_id": [
                     "Clinical Drug Comp",
-                    "Clinical Drug",
-                    "Clinical Drug",
                     "Branded Drug Comp",
-                    "Branded Drug"
+                    "Branded Drug Comp",
+                    "Branded Drug Comp",
+                    "Branded Drug Comp"
                 ],
                 "all_codes": [
                     "315431",
-                    "1535484",
-                    "1535484",
                     "572161",
-                    "211830"
+                    "1600987",
+                    "794228",
+                    "572223"
                 ],
                 "concept_name_detailed": [
-                    "aspirin 81 MG[aspirin 81 MG]",
-                    "aspirin 81 MG Oral Film",
-                    "aspirin 81 MG Oral Film",
-                    "aspirin 81 MG [Med Aspirin][aspirin 81 MG [Med Aspirin]]",
-                    "aspirin 81 MG Chewable Tablet [Med Aspirin]"
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
                 ],
                 "all_resolutions": [
                     "aspirin 81 mg",
-                    "aspirin 81 mg 81 mg",
-                    "aspirin 81mg 81 mg",
                     "aspirin 81 mg [med aspirin]",
-                    "med aspirin 81 mg"
+                    "aspirin 81 mg [aspi-cor]",
+                    "aspirin 81 mg [bayer aspirin]",
+                    "aspirin 81 mg [aspir-low]"
                 ],
                 "all_score": [
                     1.000000238418579,
-                    0.9834105968475342,
-                    0.9758754968643188,
-                    0.9686964750289917,
-                    0.9676640629768372
+                    0.968696653842926,
+                    0.956550121307373,
+                    0.9444694519042969,
+                    0.9407134652137756
                 ]
             }
         ],
@@ -146,41 +146,41 @@
                 "ner_confidence": "0.69296664",
                 "concept_code": "316408",
                 "resolution": "omeprazole 20 mg",
-                "score": 0.9999993443489075,
+                "score": 0.9999995231628418,
                 "concept_class_id": [
                     "Clinical Drug Comp",
                     "Branded Drug Comp",
-                    "Clinical Drug",
+                    "Branded Drug Comp",
                     "Branded Drug Comp",
                     "Clinical Drug"
                 ],
                 "all_codes": [
                     "316408",
                     "967523",
-                    "389172",
                     "541245",
+                    "576544",
                     "389172"
                 ],
                 "concept_name_detailed": [
-                    "omeprazole 20 MG[omeprazole 20 MG]",
-                    "omeprazole 20 MG [Omesec][omeprazole 20 MG [Omesec]]",
-                    "omeprazole 20 MG Oral Tablet",
-                    "omeprazole 20 MG [Prilosec][omeprazole 20 MG [Prilosec]]",
-                    "omeprazole 20 MG Oral Tablet"
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
                 ],
                 "all_resolutions": [
                     "omeprazole 20 mg",
                     "omeprazole 20 mg [omesec]",
-                    "omeprazole dr 20 mg",
                     "omeprazole 20 mg [prilosec]",
-                    "dg health omeprazole 20 mg"
+                    "omeprazole 20 mg [prilosec otc]",
+                    "omeprazole 20 mg oral tablet"
                 ],
                 "all_score": [
-                    0.9999993443489075,
-                    0.9661179780960083,
-                    0.9660958051681519,
-                    0.9609531164169312,
-                    0.9482972025871277
+                    0.9999995231628418,
+                    0.9661182165145874,
+                    0.9609535336494446,
+                    0.9534670114517212,
+                    0.9381892681121826
                 ]
             }
         ]
