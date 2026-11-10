@@ -222,7 +222,7 @@ Response (illustrative values):
 
 `Medical-DM-Small` is a purpose-built classifier. It scores all the options of a question together in one pass, and the questions of a request are scored in parallel, so a short note takes about 0.1 seconds on an NVIDIA A10G. Every question is answered on its own: questions about the same record do not influence each other.
 
-## 🛡️ Guard Models
+## 🛡️ Guard Models (experimental)
 
 Guard models check text for protected health information (PHI). They read whole documents and return scores. They do not write or change text. Use them to find PHI that a de-identification step missed, to measure how much PHI a note shows, and to find raw notes that hold PHI.
 
@@ -242,6 +242,8 @@ docker run -d \
 
 `--guards` takes `all`, or guard ids separated by commas, for example `--guards phi-guard-v7-fast`. Without the flag the guard endpoints are not active.
 
+These are PHI guards v0.7 (experimental, still under test):
+
 | Guard id | Use it for |
 |----------|------------|
 | `phi-guard-v7-final` | Best accuracy. |
@@ -259,6 +261,8 @@ Every document gets these outputs. Cut-off for every label is 0.5.
 | Raw note | `raw_score`, `raw_logit`, `raw_label` | Probability that a raw note, before de-identification, holds PHI at all. |
 
 Use leak and harmful leak on de-identified text, raw note on raw text, and exposure level on either. Very confident scores all round to 1.0: rank documents with the `logit` fields.
+
+Send masked or raw documents. Do not send an obfuscated copy (real PHI replaced by realistic fake names, dates and numbers): it looks like real PHI to the guard and raises false flags.
 
 ### List the guards
 
@@ -313,7 +317,7 @@ Response (the second result is shown in full):
 }
 ```
 
-- Send up to 16,384 documents and 50 MB per request. Every document needs a unique `id` and a string `text`. Results come back in the order you sent them.
+- Send up to 16,384 documents and 50 MiB per request. Every document needs a unique `id` and a string `text`. Results come back in the order you sent them.
 - Long documents are read in 1,024-byte windows. An empty `text` scores 0.
 - Errors: `400` invalid body, empty list, missing `text` or duplicate ids, `404` unknown guard, `413` too many documents or too large.
 
