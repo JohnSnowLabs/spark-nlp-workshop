@@ -214,9 +214,9 @@ Response (illustrative values):
 
 ### Model
 
-| Model id | Built on | Input | Use it for |
-|----------|----------|-------|------------|
-| `Medical-DM-Small` | Kev 4B fine-tuned for PHI leak detection (Qwen3.5-4B-Base) | Text, 16,384 tokens | Deciding whether text still contains PHI. |
+| Model id | Input | Use it for |
+|----------|-------|------------|
+| `Medical-DM-Small` | Text, 16,384 tokens | Deciding whether text still contains PHI. |
 
 ### How it works
 
