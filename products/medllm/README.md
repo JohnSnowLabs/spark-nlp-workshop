@@ -212,21 +212,11 @@ Response (illustrative values):
 - The record, one question and its options must fit in 16,384 tokens. Longer input returns `422` instead of being cut short.
 - Errors: `400` unknown model, `422` invalid request, `502` and `503` model unavailable, `504` timeout after 60 seconds.
 
-### Model
-
-| Model id | Input | Use it for |
-|----------|-------|------------|
-| `Medical-DM-Small` | Text, 16,384 tokens | Deciding whether text still contains PHI. |
-
-### How it works
-
-`Medical-DM-Small` is a purpose-built classifier. It scores all the options of a question together in one pass, and the questions of a request are scored in parallel, so a short note takes about 0.1 seconds on an NVIDIA A10G. Every question is answered on its own: questions about the same record do not influence each other.
-
 ## 🛡️ Guard Models (experimental)
 
 Guard models check text for protected health information (PHI). They read whole documents and return scores. They do not write or change text. Use them to find PHI that a de-identification step missed, to measure how much PHI a note shows, and to find raw notes that hold PHI.
 
-Guards are small models that run on the CPU, next to the decision model `Medical-DM-Small`. The image turns off the built-in telemetry of onnxruntime, the library that runs them. They are not chat models and do not appear in `GET /v1/models`. Start `Medical-DM-Small` with `--guards`:
+Guards are small models that run on the CPU, next to the decision model `Medical-DM-Small`. They are not chat models and do not appear in `GET /v1/models`. Start `Medical-DM-Small` with `--guards`:
 
 ```bash
 docker run -d \
