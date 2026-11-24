@@ -1,0 +1,13 @@
+{
+    "model": "phi-guard-v0.7",
+    "docs": [
+        {
+            "id": "note-001",
+            "text": "Pt [NAME] seen on [DATE] for chest pain. Troponin negative x2, ECG normal sinus rhythm. Discharged home on aspirin 81 mg daily."
+        },
+        {
+            "id": "note-002",
+            "text": "DISCHARGE SUMMARY\nPatient Maria Gonzalez, a [AGE]-year-old [GENDER], was admitted to [HOSPITAL] on [DATE] with chest pain and shortness of breath. Troponin was negative twice. Started on Lipitor 40 mg daily and aspirin 81 mg daily. Echocardiogram showed an ejection fraction of 55 percent. Follow up with cardiology in two weeks. Contact [PHONE] with any questions."
+        }
+    ]
+}
