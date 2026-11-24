@@ -1,0 +1,35 @@
+{
+    "model": "Medical-DM-Small",
+    "answers": {
+        "severity": {
+            "type": "score",
+            "score": 2.9974,
+            "probabilities": {
+                "0": 0.0,
+                "1": 0.0,
+                "2": 0.0026,
+                "3": 0.9974
+            }
+        },
+        "organ": {
+            "type": "choice",
+            "choice": "infection",
+            "confidence": 0.9957,
+            "probabilities": {
+                "respiratory": 0.001,
+                "circulation": 0.0023,
+                "kidney": 0.0002,
+                "infection": 0.9965,
+                "none": 0.0
+            }
+        },
+        "anticoagulated": {
+            "type": "noul",
+            "noul": 0.9986
+        }
+    },
+    "usage": {
+        "input_tokens": 557,
+        "output_tokens": 3
+    }
+}

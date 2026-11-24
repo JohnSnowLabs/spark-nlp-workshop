@@ -1,0 +1,77 @@
+{
+    "model": "phi-guard-v0.7",
+    "default_cutoff": 0.5,
+    "results": [
+        {
+            "id": "note-001",
+            "score": 0.0101,
+            "logit": -4.5816,
+            "label": false,
+            "cutoffs": {
+                "0.5": false
+            },
+            "harmful_score": 0.0028,
+            "harmful_logit": -5.8852,
+            "harmful_label": false,
+            "level": 0,
+            "expected_level": 0.0002,
+            "level_scores": [
+                0.0001,
+                0.0001,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "level_logits": [
+                -9.3833,
+                -9.3833,
+                -13.0165,
+                -16.7451,
+                -17.2214,
+                -17.2214
+            ],
+            "raw_score": 0.0,
+            "raw_logit": -17.2178,
+            "raw_label": false
+        },
+        {
+            "id": "note-002",
+            "score": 1.0,
+            "logit": 13.5693,
+            "label": true,
+            "cutoffs": {
+                "0.5": true
+            },
+            "harmful_score": 0.9995,
+            "harmful_logit": 7.5929,
+            "harmful_label": true,
+            "level": 2,
+            "expected_level": 1.7611,
+            "level_scores": [
+                1.0,
+                0.7593,
+                0.0018,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "level_logits": [
+                15.171,
+                1.1487,
+                -6.2951,
+                -13.5947,
+                -14.1753,
+                -18.2097
+            ],
+            "raw_score": 1.0,
+            "raw_logit": 19.0585,
+            "raw_label": true
+        }
+    ],
+    "usage": {
+        "docs": 2,
+        "windows": 2,
+        "ms": 76
+    }
+}

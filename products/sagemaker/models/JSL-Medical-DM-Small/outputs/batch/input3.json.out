@@ -1,0 +1,65 @@
+{
+    "model": "phi-guard-ensemble",
+    "guard": "phi-guard-v0.7",
+    "aggregation": "mean_logit",
+    "results": [
+        {
+            "id": "note-001",
+            "score": 0.001,
+            "logit": -6.8959,
+            "label": false,
+            "harmful_score": 0.0005,
+            "harmful_logit": -7.5477,
+            "harmful_label": false,
+            "decision": "clean",
+            "agreement": true,
+            "members": {
+                "guard_score": 0.0101,
+                "guard_harmful_score": 0.0028,
+                "decision_score": 0.0
+            },
+            "level": 0,
+            "level_scores": [
+                0.0001,
+                0.0001,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "raw_score": 0.0
+        },
+        {
+            "id": "note-002",
+            "score": 1.0,
+            "logit": 10.8404,
+            "label": true,
+            "harmful_score": 0.9996,
+            "harmful_logit": 7.8522,
+            "harmful_label": true,
+            "decision": "leak",
+            "agreement": true,
+            "members": {
+                "guard_score": 1.0,
+                "guard_harmful_score": 0.9995,
+                "decision_score": 0.9997
+            },
+            "level": 2,
+            "level_scores": [
+                1.0,
+                0.7593,
+                0.0018,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "raw_score": 1.0
+        }
+    ],
+    "usage": {
+        "docs": 2,
+        "windows": 2,
+        "decision_calls": 2,
+        "ms": 105
+    }
+}

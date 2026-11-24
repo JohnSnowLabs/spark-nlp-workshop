@@ -1,0 +1,51 @@
+{
+    "model": "Medical-DM-Small",
+    "state": {
+        "age": 71,
+        "sex": "female",
+        "vitals": {
+            "blood_pressure": "92/58",
+            "heart_rate": 118,
+            "temperature_c": 38.9,
+            "oxygen_saturation": "91% on room air"
+        },
+        "labs": {
+            "white_cell_count": "19.2 x10^9/L",
+            "lactate": "4.1 mmol/L",
+            "creatinine": "2.3 mg/dL (baseline 0.9)"
+        },
+        "medications": [
+            "apixaban",
+            "metformin",
+            "lisinopril"
+        ],
+        "complaint": "Two days of cough and fever, now confused."
+    },
+    "questions": {
+        "severity": {
+            "type": "score",
+            "instructions": "How worried should the care team be about this patient right now?",
+            "criteria": [
+                "Stable: no concern",
+                "Mild concern: watch and repeat measurements",
+                "Moderate concern: needs treatment on the ward",
+                "Critical: needs intensive care assessment now"
+            ]
+        },
+        "organ": {
+            "type": "choice",
+            "instructions": "Which problem is the most urgent?",
+            "criteria": {
+                "respiratory": "Lungs and breathing",
+                "circulation": "Blood pressure and perfusion",
+                "kidney": "Kidney function",
+                "infection": "Infection and sepsis",
+                "none": "Nothing urgent"
+            }
+        },
+        "anticoagulated": {
+            "type": "noul",
+            "instructions": "Is the patient taking a blood thinner?"
+        }
+    }
+}
